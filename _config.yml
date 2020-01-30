@@ -1,0 +1,11 @@
+# SITE CONFIGURATION
+baseurl: "/kanji"
+url: "https://sylhare.github.io/"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "*.gemspec", "*.gem", ".idea", "resources", "LICENSE", "README.md"]
