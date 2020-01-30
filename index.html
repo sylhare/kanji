@@ -1,4 +1,10 @@
 ---
 ---
 
-Hello Jekyll
+Kanji radicals
+
+{% for item in  site.data.radicals %}
+<li>
+    {{ item.Radical }} - {{ item.Meaning }}
+</li>
+{% endfor %}
