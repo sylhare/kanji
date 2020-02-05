@@ -1,3 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.top-left {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+}
+
+.number {
+  color: white;
+  background-color: lightgray;
+  border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+  opacity: 0.5;
+}
+
 .japanese {
-  font-family: $font-family-japan
+  font-family: $font-family-japan;
+  padding-bottom: 10px;
+  transform: translate(-50%, -50%);
 }
