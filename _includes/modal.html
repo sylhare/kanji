@@ -4,12 +4,21 @@
     <div class="modal-content">
         <div class="contact-form">
             <a class="close">&times;</a>
-            <h1 class="japanese">Radical: {{ kanji.Radical }}</h1>
+            <div>
+                <h2 class="inline">Radical:</h2>
+                <h1 class="inline japanese">{{ kanji.Radical }}</h1>
+            </div>
             <br>
             <br>
-            <p>Japanese Reading: {{ kanji.Reading-J | default: 'n / a' }}</p>
-            <p>Romaji Reading: {{ kanji.Reading-R | default: 'n / a' }}</p>
-            <p>Meaning: {{ kanji.Meaning | default: 'n / a' }}</p>
+            <div>
+                <p class="modal-meaning">Japanese Reading:</p>
+                <h4 class="modal-meaning">{{ kanji.Reading-J | default: 'n / a' }}</h4></div>
+            <div>
+                <p class="modal-meaning">Romaji Reading:</p>
+                <h4 class="modal-meaning">{{ kanji.Reading-R | default: 'n / a' }}</h4></div>
+            <div>
+                <p class="modal-meaning">Meaning:</p>
+                <h4 class="modal-meaning">{{ kanji.Meaning | default: 'n / a' }}</h4></div>
         </div>
     </div>
 </div>

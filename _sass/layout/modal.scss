@@ -53,3 +53,8 @@
   }
 }
 
+.modal-meaning {
+  @extend .meaning;
+  display: inline-block;
+}
+

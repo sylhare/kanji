@@ -20,5 +20,13 @@
 
 .japanese {
   font-family: $font-family-japan;
-  padding-bottom: 10px;
+}
+
+.inline {
+  display: inline;
+  padding-right: 1vw;
+}
+
+.meaning {
+  padding-top: 10px
 }
