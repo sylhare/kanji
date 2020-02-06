@@ -1,0 +1,15 @@
+{% assign kanji = include.kanji %}
+
+<div id="{{ kanji.Reading-R }}" class="modal">
+    <div class="modal-content">
+        <div class="contact-form">
+            <a class="close">&times;</a>
+            <h1 class="japanese">Radical: {{ kanji.Radical }}</h1>
+            <br>
+            <br>
+            <p>Japanese Reading: {{ kanji.Reading-J | default: 'n / a' }}</p>
+            <p>Romaji Reading: {{ kanji.Reading-R | default: 'n / a' }}</p>
+            <p>Meaning: {{ kanji.Meaning | default: 'n / a' }}</p>
+        </div>
+    </div>
+</div>
