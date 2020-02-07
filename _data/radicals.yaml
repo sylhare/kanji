@@ -1,44 +1,44 @@
-- Kanji: 
+- Number: '1'
   Strokes: '1'
   Radical: ⼀
   Meaning: 'one, horizontal stroke'
   Reading-J: いち
   Reading-R: ichi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '2'
   Strokes: '1'
   Radical: ⼁
   Meaning: vertical stroke
   Reading-J: たてぼう
   Reading-R: tatebou
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '3'
   Strokes: '1'
   Radical: ⼂
   Meaning: dot
   Reading-J: てん
   Reading-R: ten
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '4'
   Strokes: '1'
   Radical: ⼃
   Meaning: diagonal sweeping stroke
   Reading-J: の
   Reading-R: 'no'
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '5'
   Strokes: '1'
   Radical: 
   Meaning: diagonal sweeping stroke
@@ -46,49 +46,49 @@
   Reading-R: nokanmuri
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '6'
   Strokes: '1'
   Radical: ⼄
   Meaning: the second
-  Reading-J: 
+  Reading-J: ''
   Reading-R: otsu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '7'
   Strokes: '1'
   Radical: ⺃
   Meaning: the second
   Reading-J: おつ
   Reading-R: otsu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '8'
   Strokes: '1'
   Radical: ⼅
   Meaning: vertical stroke with a hook
   Reading-J: はねぼう
   Reading-R: hanebou
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '9'
   Strokes: '2'
   Radical: ⼆
   Meaning: two
   Reading-J: に
   Reading-R: ni
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '10'
   Strokes: '2'
   Radical: ⼇
   Meaning: 'lid, top'
@@ -97,18 +97,18 @@
   Position-J: かんむり
   Position-R: kanmuri
   Importance: Important
-
-- Kanji: 
+  
+- Number: '11'
   Strokes: '2'
   Radical: ⼈
   Meaning: person
   Reading-J: ひと
   Reading-R: hito
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '12'
   Strokes: '2'
   Radical: ⺅
   Meaning: person
@@ -117,18 +117,18 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '13'
   Strokes: '2'
-  Radical: "\U000201A2"
+  Radical: "ð\_\x86¢"
   Meaning: person
   Reading-J: ひとやね
   Reading-R: hitoyane
   Position-J: かんむり
   Position-R: kanmuri
   Importance: Important
-
-- Kanji: 
+  
+- Number: '14'
   Strokes: '2'
   Radical: ⼉
   Meaning: human legs
@@ -137,38 +137,38 @@
   Position-J: あし
   Position-R: ashi
   Importance: Important
-
-- Kanji: 
+  
+- Number: '15'
   Strokes: '2'
   Radical: ⼊
   Meaning: to enter
   Reading-J: いる
   Reading-R: iru
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '16'
   Strokes: '2'
   Radical: ⼋
   Meaning: eight
   Reading-J: はち
   Reading-R: hachi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '17'
   Strokes: '2'
   Radical: 
   Meaning: eight
   Reading-J: はちがしら
   Reading-R: hachigashira
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '18'
   Strokes: '2'
   Radical: '⼌ '
   Meaning: to enclose
@@ -176,9 +176,9 @@
   Reading-R: keigamae
   Position-J: 'かまえ, けいがまえ'
   Position-R: 'kamae, keigamae'
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '19'
   Strokes: '2'
   Radical: ⼍
   Meaning: 'cover, crown'
@@ -187,8 +187,8 @@
   Position-J: かんむり
   Position-R: kanmuri
   Importance: Important
-
-- Kanji: 
+  
+- Number: '20'
   Strokes: '2'
   Radical: ⼎
   Meaning: ice
@@ -196,9 +196,9 @@
   Reading-R: nisui
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '21'
   Strokes: '2'
   Radical: ⼏
   Meaning: table
@@ -206,9 +206,9 @@
   Reading-R: kinyou
   Position-J: つくり
   Position-R: tsukuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '22'
   Strokes: '2'
   Radical: ⺇
   Meaning: wind
@@ -216,9 +216,9 @@
   Reading-R: kazekanmuri
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '23'
   Strokes: '2'
   Radical: ⼐
   Meaning: 'container, open box'
@@ -226,19 +226,19 @@
   Reading-R: kannyou
   Position-J: にょう
   Position-R: nyou
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '24'
   Strokes: '2'
   Radical: ⼑
   Meaning: 'knife, sword'
   Reading-J: かたな
   Reading-R: katana
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '25'
   Strokes: '2'
   Radical: ⺉
   Meaning: 'knife, sword'
@@ -247,18 +247,18 @@
   Position-J: つくり
   Position-R: tsukuri
   Importance: Important
-
-- Kanji: 
+  
+- Number: '26'
   Strokes: '2'
   Radical: ⼒
   Meaning: power
   Reading-J: ちから
   Reading-R: chikara
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '27'
   Strokes: '2'
   Radical: ⼓
   Meaning: to wrap
@@ -266,9 +266,9 @@
   Reading-R: tsutsumigamae
   Position-J: 'かまえ, つつみがまえ'
   Position-R: 'kamae, tsutsumigamae'
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '28'
   Strokes: '2'
   Radical: ⼔
   Meaning: spoon
@@ -276,9 +276,9 @@
   Reading-R: saji
   Position-J: つくり
   Position-R: tsukuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '29'
   Strokes: '2'
   Radical: ⼕
   Meaning: box
@@ -286,9 +286,9 @@
   Reading-R: hakogamae
   Position-J: 'かまえ, はこがまえ'
   Position-R: 'kamae, hakogamae'
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '30'
   Strokes: '2'
   Radical: ⼖
   Meaning: 'to conceal, hide'
@@ -296,29 +296,29 @@
   Reading-R: kakushigamae
   Position-J: 'かまえ, はこがまえ'
   Position-R: 'kamae, hakogamae'
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '31'
   Strokes: '2'
   Radical: ⼗
   Meaning: ten
   Reading-J: じゅう
   Reading-R: juu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '32'
   Strokes: '2'
   Radical: ⼘
   Meaning: oracle
   Reading-J: ぼく
   Reading-R: boku
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '33'
   Strokes: '2'
   Radical: ⼙
   Meaning: 'stamp, seal'
@@ -326,9 +326,9 @@
   Reading-R: fushizukuri
   Position-J: つくり
   Position-R: tsukuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '34'
   Strokes: '2'
   Radical: ⼚
   Meaning: cliff
@@ -337,38 +337,38 @@
   Position-J: たれ
   Position-R: tare
   Importance: Important
-
-- Kanji: 
+  
+- Number: '35'
   Strokes: '2'
   Radical: ⼛
   Meaning: 'private, Katakana Mu'
   Reading-J: む
   Reading-R: mu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '36'
   Strokes: '2'
   Radical: ⼜
   Meaning: 'again, right hand'
   Reading-J: また
   Reading-R: mata
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '37'
   Strokes: '3'
   Radical: ⼝
   Meaning: mouth
   Reading-J: くち
   Reading-R: kuchi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '38'
   Strokes: '3'
   Radical: 
   Meaning: mouth
@@ -377,8 +377,8 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '39'
   Strokes: '3'
   Radical: ⼞
   Meaning: 'border, territorial boundaries'
@@ -387,18 +387,18 @@
   Position-J: 'かまえ, くにがまえ'
   Position-R: 'kamae, kunigamae'
   Importance: Important
-
-- Kanji: 
+  
+- Number: '40'
   Strokes: '3'
   Radical: ⼟
   Meaning: earth
   Reading-J: つち
   Reading-R: tsuchi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '41'
   Strokes: '3'
   Radical: 
   Meaning: earth
@@ -407,18 +407,18 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '42'
   Strokes: '3'
   Radical: ⼠
   Meaning: 'man, scholar, samurai'
   Reading-J: さむらい
   Reading-R: samurai
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '43'
   Strokes: '3'
   Radical: 
   Meaning: 'man, scholar, samurai'
@@ -426,19 +426,19 @@
   Reading-R: samuraikanmuri
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '44'
   Strokes: '3'
   Radical: ⼡
   Meaning: to follow
   Reading-J: のまた
   Reading-R: nomata
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '45'
   Strokes: '3'
   Radical: ⼢
   Meaning: to go slowly
@@ -446,39 +446,39 @@
   Reading-R: natsuashi
   Position-J: あし
   Position-R: ashi
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '46'
   Strokes: '3'
   Radical: ⼣
   Meaning: evening
   Reading-J: ゆうべ
   Reading-R: yuube
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '47'
   Strokes: '3'
   Radical: ⼤
   Meaning: 'large, big'
   Reading-J: だい
   Reading-R: dai
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '48'
   Strokes: '3'
   Radical: ⼥
   Meaning: woman
   Reading-J: おんな
   Reading-R: onna
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '49'
   Strokes: '3'
   Radical: 
   Meaning: woman
@@ -487,18 +487,18 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '50'
   Strokes: '3'
   Radical: ⼦
   Meaning: 'child, son'
   Reading-J: こ
   Reading-R: ko
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '51'
   Strokes: '3'
   Radical: 
   Meaning: 'child, son'
@@ -507,8 +507,8 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '52'
   Strokes: '3'
   Radical: ⼧
   Meaning: 'roof, house'
@@ -517,18 +517,18 @@
   Position-J: かんむり
   Position-R: kanmuri
   Importance: Important
-
-- Kanji: 
+  
+- Number: '53'
   Strokes: '3'
   Radical: ⼨
   Meaning: 'inch, (2.25 cm)'
   Reading-J: すん
   Reading-R: sun
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '54'
   Strokes: '3'
   Radical: 
   Meaning: 'inch, (2.25 cm)'
@@ -536,19 +536,19 @@
   Reading-R: sunzukuri
   Position-J: つくり
   Position-R: tsukuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '55'
   Strokes: '3'
   Radical: ⼩
   Meaning: small
   Reading-J: しょう
   Reading-R: shou
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '56'
   Strokes: '3'
   Radical: ⺌
   Meaning: small
@@ -556,9 +556,9 @@
   Reading-R: shoukanmuri
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '57'
   Strokes: '3'
   Radical: ⺐
   Meaning: lame leg
@@ -566,9 +566,9 @@
   Reading-R: dainomageashi
   Position-J: つくり
   Position-R: tsukuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '58'
   Strokes: '3'
   Radical: ⼫
   Meaning: 'corpse, awning'
@@ -576,29 +576,29 @@
   Reading-R: shikabane
   Position-J: たれ
   Position-R: tare
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '59'
   Strokes: '3'
   Radical: ⼬
   Meaning: sprout
   Reading-J: くさのめ
   Reading-R: kusanome
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '60'
   Strokes: '3'
   Radical: ⼭
   Meaning: mountain
   Reading-J: やま
   Reading-R: yama
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '61'
   Strokes: '3'
   Radical: 
   Meaning: mountain
@@ -606,9 +606,9 @@
   Reading-R: yamahen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '62'
   Strokes: '3'
   Radical: 
   Meaning: mountain
@@ -616,39 +616,39 @@
   Reading-R: yamakanmuri
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '63'
   Strokes: '3'
   Radical: ⼮
   Meaning: winding river
   Reading-J: まがりがわ
   Reading-R: magarigawa
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '64'
   Strokes: '3'
   Radical: 川
   Meaning: river
   Reading-J: さんぼんがわ
   Reading-R: sanbongawa
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '65'
   Strokes: '3'
   Radical: ⼯
   Meaning: 'work, carpenter, skill'
   Reading-J: たくみ
   Reading-R: takumi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '66'
   Strokes: '3'
   Radical: 
   Meaning: 'work, carpenter, skill'
@@ -656,29 +656,29 @@
   Reading-R: takumihen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '67'
   Strokes: '3'
   Radical: ⼰
   Meaning: self
   Reading-J: おのれ
   Reading-R: onore
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '68'
   Strokes: '3'
   Radical: ⼱
   Meaning: cloth
   Reading-J: はば
   Reading-R: haba
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '69'
   Strokes: '3'
   Radical: 
   Meaning: cloth
@@ -686,29 +686,29 @@
   Reading-R: habahen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '70'
   Strokes: '3'
   Radical: ⼲
   Meaning: 'to dry, shield'
   Reading-J: かん
   Reading-R: kan
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '71'
   Strokes: '3'
   Radical: ⺓
   Meaning: 'young, slight'
   Reading-J: いとがしら
   Reading-R: itogashira
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '72'
   Strokes: '3'
   Radical: ⼴
   Meaning: slanting roof
@@ -717,8 +717,8 @@
   Position-J: たれ
   Position-R: tare
   Importance: Important
-
-- Kanji: 
+  
+- Number: '73'
   Strokes: '3'
   Radical: ⼵
   Meaning: 'to move, stretch'
@@ -726,9 +726,9 @@
   Reading-R: rennyou
   Position-J: にょう
   Position-R: nyou
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '74'
   Strokes: '3'
   Radical: ⼶
   Meaning: folded hands
@@ -736,29 +736,29 @@
   Reading-R: nijuuashi
   Position-J: あし
   Position-R: ashi
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '75'
   Strokes: '3'
   Radical: ⼷
   Meaning: javelin
   Reading-J: いぐるみ
   Reading-R: igurumi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '76'
   Strokes: '3'
   Radical: ⼸
   Meaning: bow （in archery）
   Reading-J: ゆみ
   Reading-R: yumi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '77'
   Strokes: '3'
   Radical: 
   Meaning: bow （in archery）
@@ -766,39 +766,39 @@
   Reading-R: yumihen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '78'
   Strokes: '3'
   Radical: ⼹
   Meaning: pig’s head
   Reading-J: けいがしら
   Reading-R: keigashira
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '79'
   Strokes: '3'
   Radical: ⺕
   Meaning: pig’s head
   Reading-J: けいがしら
   Reading-R: keigashira
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '80'
   Strokes: '3'
   Radical: ⺔
   Meaning: pig’s head
   Reading-J: けいがしら
   Reading-R: keigashira
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '81'
   Strokes: '3'
   Radical: ⼺
   Meaning: 'hair-style, light rays'
@@ -806,9 +806,9 @@
   Reading-R: sanzukuri
   Position-J: つくり
   Position-R: tsukuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '82'
   Strokes: '3'
   Radical: ⼻
   Meaning: 'step, stride, street, to go'
@@ -817,8 +817,8 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '83'
   Strokes: '3'
   Radical: ⺾
   Meaning: grass
@@ -827,8 +827,8 @@
   Position-J: かんむり
   Position-R: kanmuri
   Importance: Important
-
-- Kanji: 
+  
+- Number: '84'
   Strokes: '3'
   Radical: ⻌
   Meaning: 'road, walk, to advance'
@@ -837,8 +837,8 @@
   Position-J: にょう
   Position-R: nyou
   Importance: Important
-
-- Kanji: 
+  
+- Number: '85'
   Strokes: '3'
   Radical: ⻏
   Meaning: 'village, country, city'
@@ -847,8 +847,8 @@
   Position-J: つくり
   Position-R: tsukuri
   Importance: Important
-
-- Kanji: 
+  
+- Number: '86'
   Strokes: '3'
   Radical: ⻖
   Meaning: 'hill, mound'
@@ -857,8 +857,8 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '87'
   Strokes: '3'
   Radical: ⺍
   Meaning: Katakana Tsu
@@ -866,9 +866,9 @@
   Reading-R: tsu
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '88'
   Strokes: '3'
   Radical: ⺖
   Meaning: 'heart, mind, spirit'
@@ -877,8 +877,8 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '89'
   Strokes: '3'
   Radical: ⺘
   Meaning: hand
@@ -887,8 +887,8 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '90'
   Strokes: '3'
   Radical: ⺡
   Meaning: water
@@ -897,8 +897,8 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '91'
   Strokes: '3'
   Radical: ⺨
   Meaning: beast
@@ -907,18 +907,18 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '92'
   Strokes: '4'
   Radical: ⼼
   Meaning: 'heart, mind, spirit'
   Reading-J: こころ
   Reading-R: kokoro
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '93'
   Strokes: '4'
   Radical: ⺗
   Meaning: 'heart, mind, spirit'
@@ -926,29 +926,29 @@
   Reading-R: shitagokoro
   Position-J: あし
   Position-R: ashi
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '94'
   Strokes: '4'
   Radical: ⼽
   Meaning: 'spear, weapon'
   Reading-J: ほこ
   Reading-R: hoko
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '95'
   Strokes: '4'
   Radical: ⼾
   Meaning: door
   Reading-J: と
   Reading-R: to
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '96'
   Strokes: '4'
   Radical: 
   Meaning: door
@@ -956,29 +956,29 @@
   Reading-R: todare
   Position-J: たれ
   Position-R: tare
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '97'
   Strokes: '4'
   Radical: ⼿
   Meaning: hand
   Reading-J: て
   Reading-R: te
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '98'
   Strokes: '4'
   Radical: ⽀
   Meaning: branch
   Reading-J: しにょう
   Reading-R: shinyou
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '99'
   Strokes: '4'
   Radical: ⽁
   Meaning: 'activity, to strike, hit'
@@ -986,9 +986,9 @@
   Reading-R: bokuzukuri
   Position-J: つくり
   Position-R: tsukuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '100'
   Strokes: '4'
   Radical: ⺙
   Meaning: 'activity, to strike, hit'
@@ -997,18 +997,18 @@
   Position-J: つくり
   Position-R: tsukuri
   Importance: Important
-
-- Kanji: 
+  
+- Number: '101'
   Strokes: '4'
   Radical: ⽂
   Meaning: 'literature, letters'
   Reading-J: ぶん
   Reading-R: bun
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '102'
   Strokes: '4'
   Radical: ⽃
   Meaning: 'big dipper, ladle, 18 liters'
@@ -1016,9 +1016,9 @@
   Reading-R: masuzukuri
   Position-J: つくり
   Position-R: tsukuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '103'
   Strokes: '4'
   Radical: ⽄
   Meaning: axe
@@ -1026,19 +1026,19 @@
   Reading-R: onozukuri
   Position-J: つくり
   Position-R: tsukuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '104'
   Strokes: '4'
   Radical: ⽅
   Meaning: 'direction, flag'
   Reading-J: ほう
   Reading-R: hou
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '105'
   Strokes: '4'
   Radical: 
   Meaning: 'direction, flag'
@@ -1046,29 +1046,29 @@
   Reading-R: houhen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '106'
   Strokes: '4'
   Radical: ⽆
   Meaning: not
   Reading-J: むにょう
   Reading-R: munyou
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '107'
   Strokes: '4'
   Radical: ⽇
   Meaning: 'sun, day, time'
   Reading-J: ひ
   Reading-R: hi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '108'
   Strokes: '4'
   Radical: 
   Meaning: 'sun, day, time'
@@ -1077,28 +1077,28 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '109'
   Strokes: '4'
   Radical: ⽈
   Meaning: to say
   Reading-J: ひらび
   Reading-R: hirabi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '110'
   Strokes: '4'
   Radical: ⽉
   Meaning: 'moon, month, period'
   Reading-J: つき
   Reading-R: tsuki
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '111'
   Strokes: '4'
   Radical: ⺝
   Meaning: 'moon, month, period'
@@ -1106,29 +1106,29 @@
   Reading-R: tsukihen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '112'
   Strokes: '4'
   Radical: 
   Meaning: 'meat, flesh'
   Reading-J: にくづき
   Reading-R: nikuzuki
-  Position-J: 
-  Position-R: 
+  Position-J: ''
+  Position-R: ''
   Importance: Important
-
-- Kanji: 
+  
+- Number: '113'
   Strokes: '4'
   Radical: ⽊
   Meaning: 'tree, wood'
   Reading-J: き
   Reading-R: ki
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '114'
   Strokes: '4'
   Radical: 
   Meaning: 'tree, wood'
@@ -1137,38 +1137,38 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '115'
   Strokes: '4'
   Radical: ⽋
   Meaning: 'to lack, yawn'
   Reading-J: あくび
   Reading-R: akubi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '116'
   Strokes: '4'
   Radical: ⽌
   Meaning: to stop
   Reading-J: とめる
   Reading-R: tomeru
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '117'
   Strokes: '4'
   Radical: ⽍
   Meaning: 'death & dying, to decompose'
   Reading-J: がつ
   Reading-R: gatsu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '118'
   Strokes: '4'
   Radical: 
   Meaning: 'death & dying, to decompose'
@@ -1176,9 +1176,9 @@
   Reading-R: gatsuhen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '119'
   Strokes: '4'
   Radical: ⽎
   Meaning: 'lance shaft, action'
@@ -1186,49 +1186,49 @@
   Reading-R: rumata
   Position-J: つくり
   Position-R: tsukuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '120'
   Strokes: '4'
   Radical: ⽏
   Meaning: 'not, mother'
   Reading-J: なかれ
   Reading-R: nakare
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '121'
   Strokes: '4'
   Radical: ⽐
   Meaning: to compare
   Reading-J: くらべる
   Reading-R: kuraberu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '122'
   Strokes: '4'
   Radical: ⽑
   Meaning: hair
   Reading-J: け
   Reading-R: ke
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '123'
   Strokes: '4'
   Radical: ⽒
   Meaning: 'family, clan'
   Reading-J: うじ
   Reading-R: uji
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '124'
   Strokes: '4'
   Radical: ⽓
   Meaning: 'steam, air'
@@ -1236,29 +1236,29 @@
   Reading-R: kigamae
   Position-J: 'かまえ, きがまえ'
   Position-R: 'kamae, kigamae'
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '125'
   Strokes: '4'
   Radical: ⽔
   Meaning: water
   Reading-J: みず
   Reading-R: mizu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '126'
   Strokes: '4'
   Radical: ⽕
   Meaning: fire
   Reading-J: ひ
   Reading-R: hi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '127'
   Strokes: '4'
   Radical: 
   Meaning: fire
@@ -1267,8 +1267,8 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '128'
   Strokes: '4'
   Radical: ⺣
   Meaning: fire
@@ -1277,18 +1277,18 @@
   Position-J: あし
   Position-R: ashi
   Importance: Important
-
-- Kanji: 
+  
+- Number: '129'
   Strokes: '4'
   Radical: ⽖
   Meaning: 'claw, nail'
   Reading-J: つめ
   Reading-R: tsume
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '130'
   Strokes: '4'
   Radical: ⺤
   Meaning: 'claw, nail'
@@ -1296,9 +1296,9 @@
   Reading-R: tsumekanmuri
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '131'
   Strokes: '4'
   Radical: 爫
   Meaning: 'claw, nail'
@@ -1306,29 +1306,29 @@
   Reading-R: tsumekanmuri
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '132'
   Strokes: '4'
   Radical: ⽗
   Meaning: father
   Reading-J: ちち
   Reading-R: chichi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '133'
   Strokes: '4'
   Radical: ⽘
   Meaning: to mix
   Reading-J: こう
   Reading-R: kou
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '134'
   Strokes: '4'
   Radical: ⽙
   Meaning: split wood
@@ -1336,19 +1336,19 @@
   Reading-R: shouhen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '135'
   Strokes: '4'
   Radical: ⽚
   Meaning: split wood
   Reading-J: かた
   Reading-R: kata
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '136'
   Strokes: '4'
   Radical: 
   Meaning: split wood
@@ -1356,29 +1356,29 @@
   Reading-R: katahen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '137'
   Strokes: '4'
   Radical: 
   Meaning: 'fang, canine tooth'
   Reading-J: きば
   Reading-R: kiba
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '138'
   Strokes: '4'
   Radical: ⽜
   Meaning: cow
   Reading-J: うし
   Reading-R: ushi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '139'
   Strokes: '4'
   Radical: 
   Meaning: cow
@@ -1386,19 +1386,19 @@
   Reading-R: ushihen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '140'
   Strokes: '4'
   Radical: ⽝
   Meaning: dog
   Reading-J: いぬ
   Reading-R: inu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '141'
   Strokes: '4'
   Radical: 
   Meaning: 'jewelry, jeweled king'
@@ -1407,8 +1407,8 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '142'
   Strokes: '4'
   Radical: ⺭
   Meaning: 'altar, festival, religious service'
@@ -1417,18 +1417,18 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '143'
   Strokes: '4'
   Radical: 㓁
   Meaning: net
   Reading-J: あみがしら
   Reading-R: amigashira
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '144'
   Strokes: '4'
   Radical: ⺹
   Meaning: 'old, old-age'
@@ -1436,89 +1436,89 @@
   Reading-R: oikanmuri
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '145'
   Strokes: '5'
   Radical: ⽞
   Meaning: darkness
   Reading-J: げん
   Reading-R: gen
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '146'
   Strokes: '5'
   Radical: ⽟
   Meaning: jewelry
   Reading-J: たま
   Reading-R: tama
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '147'
   Strokes: '5'
   Radical: 
   Meaning: melon
   Reading-J: うり
   Reading-R: uri
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '148'
   Strokes: '5'
   Radical: ⽡
   Meaning: tile
   Reading-J: かわら
   Reading-R: kawara
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '149'
   Strokes: '5'
   Radical: ⽢
   Meaning: sweet
   Reading-J: あまい
   Reading-R: amai
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '150'
   Strokes: '5'
   Radical: ⽣
   Meaning: 'birth, to be born, live'
   Reading-J: うまれる
   Reading-R: umareru
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '151'
   Strokes: '5'
   Radical: ⽤
   Meaning: to use
   Reading-J: もちいる
   Reading-R: mochiiru
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '152'
   Strokes: '5'
   Radical: ⽥
   Meaning: rice paddy
   Reading-J: た
   Reading-R: ta
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '153'
   Strokes: '5'
   Radical: 
   Meaning: rice paddy
@@ -1526,19 +1526,19 @@
   Reading-R: tahen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '154'
   Strokes: '5'
   Radical: ⽦
   Meaning: bolt of cloth
   Reading-J: ひき
   Reading-R: hiki
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '155'
   Strokes: '5'
   Radical: ⺪
   Meaning: bolt of cloth
@@ -1546,9 +1546,9 @@
   Reading-R: hikihen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '156'
   Strokes: '5'
   Radical: ⽧
   Meaning: sickness
@@ -1557,8 +1557,8 @@
   Position-J: たれ
   Position-R: tare
   Importance: Important
-
-- Kanji: 
+  
+- Number: '157'
   Strokes: '5'
   Radical: ⽨
   Meaning: 'outspread legs, departure'
@@ -1566,19 +1566,19 @@
   Reading-R: hatsugashira
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '158'
   Strokes: '5'
   Radical: ⽩
   Meaning: white
   Reading-J: しろ
   Reading-R: shiro
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '159'
   Strokes: '5'
   Radical: 
   Meaning: white
@@ -1586,39 +1586,39 @@
   Reading-R: hakuhen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '160'
   Strokes: '5'
   Radical: ⽪
   Meaning: 'skin, hide'
   Reading-J: けがわ
   Reading-R: kegawa
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '161'
   Strokes: '5'
   Radical: ⽫
   Meaning: 'plate, bowl'
   Reading-J: さら
   Reading-R: sara
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '162'
   Strokes: '5'
   Radical: ⽬
   Meaning: eye
   Reading-J: め
   Reading-R: me
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '163'
   Strokes: '5'
   Radical: 
   Meaning: eye
@@ -1627,8 +1627,8 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '164'
   Strokes: '5'
   Radical: 
   Meaning: eye
@@ -1636,19 +1636,19 @@
   Reading-R: yokome
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '165'
   Strokes: '5'
   Radical: ⽭
   Meaning: halberd
   Reading-J: ほこ
   Reading-R: hoko
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '166'
   Strokes: '5'
   Radical: 
   Meaning: halberd
@@ -1656,19 +1656,19 @@
   Reading-R: hokohen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '167'
   Strokes: '5'
   Radical: ⽮
   Meaning: arrow
   Reading-J: や
   Reading-R: ya
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '168'
   Strokes: '5'
   Radical: 
   Meaning: arrow
@@ -1676,19 +1676,19 @@
   Reading-R: yahen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '169'
   Strokes: '5'
   Radical: ⽯
   Meaning: stone
   Reading-J: いし
   Reading-R: ishi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '170'
   Strokes: '5'
   Radical: 
   Meaning: stone
@@ -1696,29 +1696,29 @@
   Reading-R: ishihen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '171'
   Strokes: '5'
   Radical: ⽰
   Meaning: 'altar, festival, religious service'
   Reading-J: しめす
   Reading-R: shimesu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '172'
   Strokes: '5'
   Radical: ⽱
   Meaning: footprint
   Reading-J: じゅうのあし
   Reading-R: juunoashi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '173'
   Strokes: '5'
   Radical: ⽲
   Meaning: grain
@@ -1727,18 +1727,18 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '174'
   Strokes: '5'
   Radical: ⽳
   Meaning: 'hole, cave'
   Reading-J: あな
   Reading-R: ana
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '175'
   Strokes: '5'
   Radical: 
   Meaning: 'hole, cave'
@@ -1747,18 +1747,18 @@
   Position-J: かんむり
   Position-R: kanmuri
   Importance: Important
-
-- Kanji: 
+  
+- Number: '176'
   Strokes: '5'
   Radical: ⽴
   Meaning: to stand
   Reading-J: たつ
   Reading-R: tatsu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '177'
   Strokes: '5'
   Radical: 
   Meaning: to stand
@@ -1766,19 +1766,19 @@
   Reading-R: tatsuhen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '178'
   Strokes: '5'
   Radical: 
   Meaning: 'fang, canine tooth'
   Reading-J: きば
   Reading-R: kiba
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '179'
   Strokes: '5'
   Radical: 
   Meaning: 'fang, canine tooth'
@@ -1786,19 +1786,19 @@
   Reading-R: kibahen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '180'
   Strokes: '5'
   Radical: 氺
   Meaning: water
   Reading-J: したみず
   Reading-R: shitamizu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '181'
   Strokes: '5'
   Radical: ⺫
   Meaning: net
@@ -1806,19 +1806,19 @@
   Reading-R: amigashira
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '182'
   Strokes: '5'
-  Radical: "\U00026270 "
+  Radical: "ð¦\x89° "
   Meaning: net
   Reading-J: あみがしら
   Reading-R: amigashira
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '183'
   Strokes: '5'
   Radical: ⻂
   Meaning: clothing
@@ -1827,28 +1827,28 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '184'
   Strokes: '5'
   Radical: ⺛
   Meaning: not
   Reading-J: むにょう
   Reading-R: munyou
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '185'
   Strokes: '6'
   Radical: ⽵
   Meaning: bamboo
   Reading-J: たけ
   Reading-R: take
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '186'
   Strokes: '6'
   Radical: ⺮
   Meaning: bamboo
@@ -1857,18 +1857,18 @@
   Position-J: かんむり
   Position-R: kanmuri
   Importance: Important
-
-- Kanji: 
+  
+- Number: '187'
   Strokes: '6'
   Radical: ⽶
   Meaning: rice
   Reading-J: こめ
   Reading-R: kome
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '188'
   Strokes: '6'
   Radical: 
   Meaning: rice
@@ -1877,18 +1877,18 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '189'
   Strokes: '6'
   Radical: ⽷
   Meaning: thread
   Reading-J: いと
   Reading-R: ito
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '190'
   Strokes: '6'
   Radical: 
   Meaning: thread
@@ -1897,88 +1897,88 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '191'
   Strokes: '6'
   Radical: ⽸
   Meaning: earthen jar
   Reading-J: みずがめ
   Reading-R: mizugame
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '192'
   Strokes: '6'
   Radical: ⽹
   Meaning: net
   Reading-J: あみめ
   Reading-R: amime
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '193'
   Strokes: '6'
   Radical: ⽺
   Meaning: sheep
   Reading-J: ひつじ
   Reading-R: hitsuji
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '194'
   Strokes: '6'
   Radical: ⺷
   Meaning: sheep
   Reading-J: ひつじ
   Reading-R: hitsuji
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '195'
   Strokes: '6'
   Radical: 羽
   Meaning: 'feather, wing'
   Reading-J: はね
   Reading-R: hane
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '196'
   Strokes: '6'
   Radical: ⽻
   Meaning: 'feather, wing'
   Reading-J: はね
   Reading-R: hane
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '197'
   Strokes: '6'
   Radical: ⽼
   Meaning: 'old, old-age'
   Reading-J: おいかんむり
   Reading-R: oikanmuri
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '198'
   Strokes: '6'
   Radical: ⽽
   Meaning: and also
   Reading-J: しこうして
   Reading-R: shikoushite
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '199'
   Strokes: '6'
   Radical: ⽾
   Meaning: plow
@@ -1986,19 +1986,19 @@
   Reading-R: raisuki
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '200'
   Strokes: '6'
   Radical: ⽿
   Meaning: ear
   Reading-J: みみ
   Reading-R: mimi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '201'
   Strokes: '6'
   Radical: 
   Meaning: ear
@@ -2006,109 +2006,109 @@
   Reading-R: mimihen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '202'
   Strokes: '6'
   Radical: ⾀
   Meaning: writing brush
   Reading-J: ふでづくり
   Reading-R: fudezukuri
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '203'
   Strokes: '6'
   Radical: ⾁
   Meaning: 'flesh, meat'
   Reading-J: にく
   Reading-R: niku
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '204'
   Strokes: '6'
   Radical: ⾂
   Meaning: 'retainer, minister'
   Reading-J: しん
   Reading-R: shin
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '205'
   Strokes: '6'
   Radical: ⾃
   Meaning: self
   Reading-J: みずから
   Reading-R: mizukara
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '206'
   Strokes: '6'
   Radical: ⾄
   Meaning: 'to arrive, reach'
   Reading-J: いたる
   Reading-R: itaru
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '207'
   Strokes: '6'
   Radical: 
   Meaning: 'to arrive, reach'
   Reading-J: いたるへん
-  Reading-R: 
+  Reading-R: ''
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '208'
   Strokes: '6'
   Radical: ⾅
   Meaning: 'mortar, quern'
   Reading-J: うす
   Reading-R: usu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '209'
   Strokes: '6'
   Radical: ⾆
   Meaning: tongue
   Reading-J: した
   Reading-R: shita
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '210'
   Strokes: '6'
   Radical: ⾇
   Meaning: 'contrary, to err'
   Reading-J: まいあし
   Reading-R: maiashi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '211'
   Strokes: '6'
   Radical: ⾈
   Meaning: 'ship, boat'
   Reading-J: ふね
   Reading-R: fune
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '212'
   Strokes: '6'
   Radical: 
   Meaning: 'ship, boat'
@@ -2116,39 +2116,39 @@
   Reading-R: funehen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '213'
   Strokes: '6'
   Radical: ⾉
   Meaning: boundary
   Reading-J: こん
   Reading-R: kon
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '214'
   Strokes: '6'
   Radical: ⾊
   Meaning: color
   Reading-J: いろ
   Reading-R: iro
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '215'
   Strokes: '6'
   Radical: ⾋
   Meaning: 'grass, plant'
   Reading-J: くさ
   Reading-R: kusa
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '216'
   Strokes: '6'
   Radical: ⾌
   Meaning: tiger
@@ -2156,19 +2156,19 @@
   Reading-R: toragashira
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '217'
   Strokes: '6'
   Radical: ⾍
   Meaning: 'worm, insect, bug'
   Reading-J: むし
   Reading-R: mushi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '218'
   Strokes: '6'
   Radical: 
   Meaning: 'worm, insect, bug'
@@ -2177,18 +2177,18 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '219'
   Strokes: '6'
   Radical: ⾎
   Meaning: blood
   Reading-J: ち
   Reading-R: chi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '220'
   Strokes: '6'
   Radical: ⾏
   Meaning: to go
@@ -2197,68 +2197,68 @@
   Position-J: 'かまえ, ぎょうがまえ'
   Position-R: 'kamae, gyougamae'
   Importance: Important
-
-- Kanji: 
+  
+- Number: '221'
   Strokes: '6'
   Radical: ⾐
   Meaning: clothing
   Reading-J: ころも
   Reading-R: koromo
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '222'
   Strokes: '6'
   Radical: ⾑
   Meaning: 'cover, west'
   Reading-J: にし
   Reading-R: nishi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '223'
   Strokes: '6'
   Radical: ⻃
   Meaning: 'cover, west'
   Reading-J: にし
   Reading-R: nishi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '224'
   Strokes: '6'
   Radical: ⽠
   Meaning: melon
   Reading-J: うり
   Reading-R: uri
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '225'
   Strokes: '7'
   Radical: ⾒
   Meaning: to see
   Reading-J: みる
   Reading-R: miru
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '226'
   Strokes: '7'
   Radical: ⾓
   Meaning: 'horn, corner'
   Reading-J: つの
   Reading-R: tsuno
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '227'
   Strokes: '7'
   Radical: 
   Meaning: 'horn, corner'
@@ -2266,19 +2266,19 @@
   Reading-R: tsunohen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '228'
   Strokes: '7'
   Radical: ⾔
   Meaning: 'words, to speak, say'
   Reading-J: げん
   Reading-R: gen
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '229'
   Strokes: '7'
   Radical: 
   Meaning: 'words, to speak, say'
@@ -2287,18 +2287,18 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '230'
   Strokes: '7'
   Radical: ⾕
   Meaning: valley
   Reading-J: たに
   Reading-R: tani
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '231'
   Strokes: '7'
   Radical: 
   Meaning: valley
@@ -2306,19 +2306,19 @@
   Reading-R: tanihen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '232'
   Strokes: '7'
   Radical: ⾖
   Meaning: bean
   Reading-J: まめ
   Reading-R: mame
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '233'
   Strokes: '7'
   Radical: 
   Meaning: bean
@@ -2326,19 +2326,19 @@
   Reading-R: mamehen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '234'
   Strokes: '7'
   Radical: ⾗
   Meaning: pig
   Reading-J: いのこ
   Reading-R: inoko
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '235'
   Strokes: '7'
   Radical: ⾘
   Meaning: badger
@@ -2346,19 +2346,19 @@
   Reading-R: mujinahen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '236'
   Strokes: '7'
   Radical: ⾙
   Meaning: 'shell, property, wealth'
   Reading-J: かい
   Reading-R: kai
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '237'
   Strokes: '7'
   Radical: 
   Meaning: 'shell, property, wealth'
@@ -2367,28 +2367,28 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '238'
   Strokes: '7'
   Radical: ⾚
   Meaning: red
   Reading-J: あか
   Reading-R: aka
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '239'
   Strokes: '7'
   Radical: ⾛
   Meaning: to run
   Reading-J: はしる
   Reading-R: hashiru
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '240'
   Strokes: '7'
   Radical: 
   Meaning: to run
@@ -2397,18 +2397,18 @@
   Position-J: にょう
   Position-R: nyou
   Importance: Important
-
-- Kanji: 
+  
+- Number: '241'
   Strokes: '7'
   Radical: ⾜
   Meaning: 'foot, leg'
   Reading-J: あし
   Reading-R: ashi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '242'
   Strokes: '7'
   Radical: ⻊
   Meaning: 'foot, leg'
@@ -2417,18 +2417,18 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '243'
   Strokes: '7'
   Radical: ⾝
   Meaning: body
   Reading-J: み
   Reading-R: mi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '244'
   Strokes: '7'
   Radical: 
   Meaning: body
@@ -2436,19 +2436,19 @@
   Reading-R: mihen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '245'
   Strokes: '7'
   Radical: ⾞
   Meaning: 'vehicle, wheel, car'
   Reading-J: くるま
   Reading-R: kuruma
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '246'
   Strokes: '7'
   Radical: 
   Meaning: 'vehicle, wheel, car'
@@ -2457,58 +2457,58 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '247'
   Strokes: '7'
   Radical: ⾟
   Meaning: bitter
   Reading-J: からい
   Reading-R: karai
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '248'
   Strokes: '7'
   Radical: ⾠
   Meaning: 'Fifth zodiac sign, 7–9 A.M.'
   Reading-J: しんのたつ
   Reading-R: shinnotatsu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '249'
   Strokes: '7'
   Radical: ⾡
   Meaning: 'to advance, move ahead'
   Reading-J: しんにょう
   Reading-R: shinnyou
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '250'
   Strokes: '7'
   Radical: ⾢
   Meaning: community
   Reading-J: むら
   Reading-R: mura
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '251'
   Strokes: '7'
   Radical: ⾣
   Meaning: 'sake jar, bird'
   Reading-J: ひよみのとり
   Reading-R: hiyominotori
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '252'
   Strokes: '7'
   Radical: 
   Meaning: 'sake jar, bird'
@@ -2516,19 +2516,19 @@
   Reading-R: torihen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '253'
   Strokes: '7'
   Radical: ⾤
   Meaning: to separate
   Reading-J: のごめ
   Reading-R: nogom
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '254'
   Strokes: '7'
   Radical: 
   Meaning: to separate
@@ -2536,19 +2536,19 @@
   Reading-R: nogomehen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '255'
   Strokes: '7'
   Radical: ⾥
   Meaning: 'village, (3.93 km)'
   Reading-J: さと
   Reading-R: sato
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '256'
   Strokes: '7'
   Radical: 
   Meaning: 'village, (3.93 km)'
@@ -2556,49 +2556,49 @@
   Reading-R: satohen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '257'
   Strokes: '7'
   Radical: ⾂
   Meaning: 'retainer, minister'
   Reading-J: しん
   Reading-R: shin
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '258'
   Strokes: '7'
   Radical: 
   Meaning: 'contrary, to err'
   Reading-J: まいあし
   Reading-R: maiashi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '259'
   Strokes: '7'
   Radical: ⻨
   Meaning: wheat
   Reading-J: むぎ
   Reading-R: mugi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '260'
   Strokes: '8'
   Radical: ⾦
   Meaning: 'metal, gold, mineral'
   Reading-J: かね
   Reading-R: kane
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '261'
   Strokes: '8'
   Radical: 
   Meaning: 'metal, gold, mineral'
@@ -2607,18 +2607,18 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '262'
   Strokes: '8'
   Radical: ⻑
   Meaning: long
   Reading-J: ながい
   Reading-R: nagai
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '263'
   Strokes: '8'
   Radical: ⾨
   Meaning: 'gate, door'
@@ -2627,18 +2627,18 @@
   Position-J: 'かまえ, もんがまえ'
   Position-R: 'kamae, mongamae'
   Importance: Important
-
-- Kanji: 
+  
+- Number: '264'
   Strokes: '8'
   Radical: ⾩
   Meaning: hill
   Reading-J: こざと
   Reading-R: kozato
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '265'
   Strokes: '8'
   Radical: ⾪
   Meaning: to capture
@@ -2646,29 +2646,29 @@
   Reading-R: reizukuri
   Position-J: つくり
   Position-R: tsukuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '266'
   Strokes: '8'
   Radical: ⾫
   Meaning: small bird
   Reading-J: ふるとり
   Reading-R: furutori
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '267'
   Strokes: '8'
   Radical: ⾬
   Meaning: rain
   Reading-J: あめ
   Reading-R: ame
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '268'
   Strokes: '8'
   Radical: ⻗
   Meaning: rain
@@ -2677,38 +2677,38 @@
   Position-J: かんむり
   Position-R: kanmuri
   Importance: Important
-
-- Kanji: 
+  
+- Number: '269'
   Strokes: '8'
   Radical: ⾭
   Meaning: 'blue, green'
   Reading-J: あお
   Reading-R: ao
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '270'
   Strokes: '8'
   Radical: ⻘
   Meaning: 'blue, green'
   Reading-J: あお
   Reading-R: ao
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '271'
   Strokes: '8'
   Radical: ⾮
   Meaning: 'wrong, non-'
   Reading-J: あらず
   Reading-R: arazu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '272'
   Strokes: '8'
   Radical: ⻟
   Meaning: 'food, to eat'
@@ -2716,69 +2716,69 @@
   Reading-R: shokuhen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '273'
   Strokes: '8'
   Radical: ⻫
   Meaning: alike
   Reading-J: せい
   Reading-R: sei
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '274'
   Strokes: '9'
   Radical: ⾯
   Meaning: 'face, surface'
   Reading-J: めん
   Reading-R: men
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '275'
   Strokes: '9'
   Radical: ⾰
   Meaning: leather
   Reading-J: つくりがわ
   Reading-R: tsukurigawa
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '276'
   Strokes: '9'
   Radical: 
   Meaning: leather
   Reading-J: なめしがわ
   Reading-R: nameshigawa
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '277'
   Strokes: '9'
   Radical: ⾲
   Meaning: leek
   Reading-J: にら
   Reading-R: nira
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '278'
   Strokes: '9'
   Radical: ⾳
   Meaning: 'sound, noise'
   Reading-J: おと
   Reading-R: oto
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '279'
   Strokes: '9'
   Radical: ⾴
   Meaning: 'head, page'
@@ -2787,68 +2787,68 @@
   Position-J: つくり
   Position-R: tsukuri
   Importance: Important
-
-- Kanji: 
+  
+- Number: '280'
   Strokes: '9'
   Radical: ⾵
   Meaning: wind
   Reading-J: かぜ
   Reading-R: kaze
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '281'
   Strokes: '9'
   Radical: ⾶
   Meaning: to fly
   Reading-J: とぶ
   Reading-R: tobu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '282'
   Strokes: '9'
   Radical: ⾷
   Meaning: 'food, to eat'
   Reading-J: しょく
   Reading-R: shoku
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '283'
   Strokes: '9'
   Radical: ⾸
   Meaning: head
   Reading-J: くび
   Reading-R: kubi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '284'
   Strokes: '9'
   Radical: ⾹
   Meaning: scent
   Reading-J: かおり
   Reading-R: kaori
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '285'
   Strokes: '10'
   Radical: ⾺
   Meaning: horse
   Reading-J: うま
   Reading-R: uma
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '286'
   Strokes: '10'
   Radical: 
   Meaning: horse
@@ -2856,19 +2856,19 @@
   Reading-R: umahen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '287'
   Strokes: '10'
   Radical: ⾻
   Meaning: bone
   Reading-J: ほね
   Reading-R: hone
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '288'
   Strokes: '10'
   Radical: 
   Meaning: bone
@@ -2876,19 +2876,19 @@
   Reading-R: honehen
   Position-J: へん
   Position-R: hen
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '289'
   Strokes: '10'
   Radical: ⾼
   Meaning: high
   Reading-J: たかい
   Reading-R: takai
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '290'
   Strokes: '10'
   Radical: ⾽
   Meaning: long hair
@@ -2896,9 +2896,9 @@
   Reading-R: kamikanmuri
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '291'
   Strokes: '10'
   Radical: ⾾
   Meaning: fighting
@@ -2906,59 +2906,59 @@
   Reading-R: tatakaigamae
   Position-J: かまえ
   Position-R: 'kamae, mongamae'
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '292'
   Strokes: '10'
   Radical: ⾿
   Meaning: herbs
   Reading-J: においざけ
   Reading-R: nioizake
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '293'
   Strokes: '10'
   Radical: ⿀
   Meaning: tripod
   Reading-J: れき
   Reading-R: reki
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '294'
   Strokes: '10'
   Radical: ⿁
   Meaning: demon
   Reading-J: おに
   Reading-R: oni
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '295'
   Strokes: '10'
   Radical: ⾱
   Meaning: leather
   Reading-J: なめしがわ
   Reading-R: nameshigawa
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '296'
   Strokes: '11'
   Radical: ⿂
   Meaning: fish
   Reading-J: うお
   Reading-R: uo
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '297'
   Strokes: '11'
   Radical: 
   Meaning: fish
@@ -2967,58 +2967,58 @@
   Position-J: へん
   Position-R: hen
   Importance: Important
-
-- Kanji: 
+  
+- Number: '298'
   Strokes: '11'
   Radical: ⿃
   Meaning: bird
   Reading-J: とり
   Reading-R: tori
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '299'
   Strokes: '11'
   Radical: ⿄
   Meaning: salt
   Reading-J: しお
   Reading-R: shio
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '300'
   Strokes: '11'
   Radical: ⿅
   Meaning: deer
   Reading-J: しか
   Reading-R: shika
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '301'
   Strokes: '11'
   Radical: ⿆
   Meaning: wheat
   Reading-J: むぎ
   Reading-R: mugi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '302'
   Strokes: '11'
   Radical: ⿇
   Meaning: hemp
   Reading-J: あさ
   Reading-R: asa
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '303'
   Strokes: '11'
   Radical: 
   Meaning: hemp
@@ -3026,195 +3026,195 @@
   Reading-R: asakanmuri
   Position-J: かんむり
   Position-R: kanmuri
-  Importance: 
-
-- Kanji: 
+  Importance: ''
+  
+- Number: '304'
   Strokes: '11'
   Radical: ⻩
   Meaning: yellow
   Reading-J: き
   Reading-R: ki
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '305'
   Strokes: '11'
   Radical: 黒
   Meaning: black
   Reading-J: くろ
   Reading-R: kuro
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '306'
   Strokes: '11'
   Radical: ⻲
   Meaning: turtle
   Reading-J: かめ
   Reading-R: kame
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '307'
   Strokes: '12'
   Radical: ⿈
   Meaning: yellow
   Reading-J: き
   Reading-R: ki
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '308'
   Strokes: '12'
   Radical: ⿉
   Meaning: millet
   Reading-J: きび
   Reading-R: kibi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '309'
   Strokes: '12'
   Radical: ⿊
   Meaning: black
   Reading-J: くろ
   Reading-R: kuro
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '310'
   Strokes: '12'
   Radical: ⿋
   Meaning: embroider
   Reading-J: ぬいとり
   Reading-R: nuitori
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '311'
   Strokes: '12'
   Radical: ⻭
   Meaning: tooth
   Reading-J: は
   Reading-R: ha
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '312'
   Strokes: '13'
   Radical: ⿌
   Meaning: frog
   Reading-J: かえる
   Reading-R: kaeru
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '313'
   Strokes: '13'
   Radical: ⿍
   Meaning: tripod
   Reading-J: かなえ
   Reading-R: kanae
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '314'
   Strokes: '13'
   Radical: ⿎
   Meaning: drum
   Reading-J: つづみ
   Reading-R: tuzumi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '315'
   Strokes: '13'
   Radical: ⿏
   Meaning: 'rat, mouse'
   Reading-J: ねずみ
   Reading-R: nezumi
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '316'
   Strokes: '14'
   Radical: ⿐
   Meaning: nose
   Reading-J: はな
   Reading-R: hana
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '317'
   Strokes: '14'
   Radical: ⿑
   Meaning: alike
   Reading-J: せい
   Reading-R: sei
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '318'
   Strokes: '15'
   Radical: ⿒
   Meaning: tooth
   Reading-J: は
   Reading-R: ha
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '319'
   Strokes: '16'
   Radical: ⿓
   Meaning: dragon
   Reading-J: りゅう
   Reading-R: ryuu
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '320'
   Strokes: '16'
   Radical: ⿔
   Meaning: turtle
   Reading-J: かめ
   Reading-R: kame
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '321'
   Strokes: '17'
   Radical: ⿕
   Meaning: flute
   Reading-J: やく
   Reading-R: yaku
-  Position-J: 
-  Position-R: 
-  Importance: 
-
-- Kanji: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  
+- Number: '322'
   Strokes: n/a
   Radical: 々
   Meaning: to repeat previous kanji
   Reading-J: n/a
   Reading-R: n/a
-  Position-J: 
-  Position-R: 
-  Importance: 
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
 
