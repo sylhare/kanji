@@ -13,7 +13,7 @@ layout: default
         </div>
         <div class="text">
             {% for kanji in item.items %}
-            <h3 class="modal-button inline japanese" data-modal="{{ kanji.Reading-R }}">{{ kanji.Radical }}</h3>
+            <h3 class="modal-button inline japanese" data-modal="{{ kanji.Number }}">{{ kanji.Radical }}</h3>
             {% include modal.html kanji=kanji %}
             {% endfor %}
             <p class="meaning">{{ item.name }}</p>

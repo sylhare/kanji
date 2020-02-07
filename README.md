@@ -1,6 +1,6 @@
 # Kanji
 
-Japanese radicals presented as learning cards.
+Japanese radicals presented as learning cards. ð
 
 ## Licences
 
