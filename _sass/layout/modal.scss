@@ -56,5 +56,13 @@
 .modal-meaning {
   @extend .meaning;
   display: inline-block;
+  padding-right: 2px;
+}
+
+.modal-japanese {
+  @extend .japanese;
+  @extend .inline;
+  padding-right: 2px;
+  font-size: 2em;
 }
 

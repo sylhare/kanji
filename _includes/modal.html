@@ -5,19 +5,17 @@
         <div class="contact-form">
             <a class="close">&times;</a>
             <div>
-                <h2 class="inline">Radical:</h2>
-                <h1 class="inline japanese">{{ kanji.Radical }}</h1>
+                <h1 class="modal-japanese">{{ kanji.Radical }}</h1>
             </div>
             <br>
-            <br>
             <div>
-                <p class="modal-meaning">Japanese Reading:</p>
+                <p class="modal-meaning">🇯🇵  </p>
                 <h4 class="modal-meaning">{{ kanji.Reading-J | default: 'n / a' }}</h4></div>
             <div>
-                <p class="modal-meaning">Romaji Reading:</p>
+                <p class="modal-meaning">🔤  </p>
                 <h4 class="modal-meaning">{{ kanji.Reading-R | default: 'n / a' }}</h4></div>
             <div>
-                <p class="modal-meaning">Meaning:</p>
+                <p class="modal-meaning">📖  </p>
                 <h4 class="modal-meaning">{{ kanji.Meaning | default: 'n / a' }}</h4></div>
         </div>
     </div>

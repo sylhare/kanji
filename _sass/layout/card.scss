@@ -5,13 +5,14 @@
 }
 
 .card {
-  flex: 0 0 200px;
+  flex: auto;
   margin: 10px;
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
 
   img {
-    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 
   .text {
