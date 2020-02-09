@@ -17,7 +17,8 @@ Also Japanese kanjis have both a chinese and japanese pronunciation.
 First radical kanji list comes from [kanjialive](http://kanjialive.com), however radicals were all written in utf-8 chinese instead of japanese, 
 so I combined it with [wikipedia kanji list](https://en.wikipedia.org/wiki/List_of_kanji_radicals_by_stroke_count) which for some had different meanings.
  
-So I cross checked with [jitenon](https://jitenon.com/cat/radical_top.php) an online japanese dictionary.
+So I cross checked with [jitenon](https://jitenon.com/cat/radical_top.php) an online japanese dictionary and [jlearn](https://jlearn.net/Kanji/SearchByRadical)
+for learning japanese and radicals.
 
 And other website I came into while looking into this subject:
 - [tofugu](https://www.tofugu.com/japanese/kanji-radicals-mnemonic-method/)
