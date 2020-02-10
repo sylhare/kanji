@@ -3,17 +3,26 @@
 <main class="cards">
     {% for item in grouped_items %}
     <article class="card">
-        <div>
-            <!-- To print number in image <div class="number top-left">  </div> -->
-            <img src="{{ '/assets/img/placeholder.svg' | relative_url }}" alt="kanji">
-        </div>
-        <div class="text">
-            {% for kanji in item.items %}
-            <h3 class="modal-button inline japanese" data-modal="{{ kanji.Number }}">{{ kanji.Radical }}</h3>
-            {% include modal.html kanji=kanji %}
-            {% endfor %}
-            <p class="meaning">{{ item.name }}</p>
+        <div class="inner">
+
+            <div class="front">
+                <!-- To print number in image <div class="number top-left">  </div> -->
+                <img src="{{ '/assets/img/placeholder.svg' | relative_url }}" alt="kanji">
+                <div class="card-text">
+                    {% for kanji in item.items %}
+                    <h3 class="modal-button inline japanese" data-modal="{{ kanji.Number }}">{{ kanji.Radical }}</h3>
+<!--                    {% include modal.html kanji=kanji %} -->
+                    {% endfor %}
+                    <p class="meaning">{{ item.name }}</p>
+                </div>
+            </div>
+
+            <div class="back">
+                <div class="card-text"> back of the card </div>
+            </div>
+
         </div>
     </article>
+
     {% endfor %}
 </main>
