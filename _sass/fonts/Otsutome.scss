@@ -1,0 +1,7 @@
+/*! Otsutome - SIL Open Font License, Version 1.1. */
+$otsutome-font-path: "../../assets/fonts/Otsutome" !default;
+
+@font-face {
+  font-family: 'Otsutome';
+  src: url('#{$otsutome-font-path}/Otsutome.ttf') format('truetype');
+}
