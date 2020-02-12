@@ -10,7 +10,7 @@
                 <img src="{{ '/assets/img/placeholder.svg' | relative_url }}" alt="kanji">
                 <div class="card-text">
                     {% for kanji in item.items %}
-                    <h3 class="modal-button inline japanese" data-modal="{{ kanji.Number }}">{{ kanji.Radical }}</h3>
+                    <h3 class="inline japanese" data-modal="{{ kanji.Number }}">{{ kanji.Radical }}</h3>
 <!--                    {% include modal.html kanji=kanji %} -->
                     {% endfor %}
                     <p class="meaning">{{ item.name }}</p>
@@ -25,7 +25,7 @@
                     <br>
                     <div>
                         <p class="modal-meaning ">🇯🇵  </p>
-                        <h4 class="modal-meaning kana">{{ kanji.Reading-J | default: 'n / a' }}</h4></div>
+                        <h4 class="modal-meaning japanese">{{ kanji.Reading-J | default: 'n / a' }}</h4></div>
                     <div>
                         <p class="modal-meaning">🔤  </p>
                         <h4 class="modal-meaning">{{ kanji.Reading-R | default: 'n / a' }}</h4></div>

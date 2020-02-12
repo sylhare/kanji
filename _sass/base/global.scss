@@ -19,7 +19,11 @@
 }
 
 .japanese {
-  font-family: $font-family-japan;
+  font-family: $font-japan;
+}
+
+.japanese-calligraphy {
+  font-family: $font-japan-calligraphy;
 }
 
 .inline {
@@ -32,6 +36,34 @@
   font-family: 'Arial', sans-serif;
 }
 
-.kana {
+
+
+.kosugi {
   font-family: 'Kosugi Maru', sans-serif;
+  padding: 5px;
 }
+.otsutome {
+  font-family: 'Otsutome',  sans-serif;
+  padding: 5px;
+}
+.kai {
+  font-family: 'kai', sans-serif;
+  padding: 5px;
+}
+.goku {
+  font-family: 'goku', sans-serif;
+  padding: 5px;
+}
+.riit {
+  font-family: 'riit', sans-serif;
+  padding: 5px;
+}
+.aihara {
+  font-family: 'aihara', sans-serif;
+  padding: 5px;
+}
+.noto {
+  font-family: 'Noto Serif JP', sans-serif;
+  padding: 5px;
+}
+
