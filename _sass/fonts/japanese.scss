@@ -7,27 +7,3 @@ $font-path: "../../assets/fonts/japanese" !default;
   font-weight: normal;
   font-style: normal;
 }
-
-/*! hkgokukaikk - SIL Open Font License, Version 1.1. */
-@font-face {
-  font-family: 'goku';
-  src: url('#{$font-path}/hkgokukaikk.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/*! RiiT_F - SIL Open Font License, Version 1.1. */
-@font-face {
-  font-family: 'riit';
-  src: url('#{$font-path}/RiiT_F.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/*! AiharaHude - SIL Open Font License, Version 1.1. */
-@font-face {
-  font-family: 'aihara';
-  src: url('#{$font-path}/AiharaHude.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
