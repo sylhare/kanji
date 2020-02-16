@@ -22,6 +22,7 @@
     transform: rotateY(180deg);
   }
 
+
   img {
     width: 100%;
     -moz-border-radius-topleft: $card-radius;
@@ -31,6 +32,10 @@
     max-height: 250px;
     object-fit: cover;
     @extend .hide-back;
+
+    .lazy{
+      padding: 100%;
+    }
   }
 
   .card-text {
