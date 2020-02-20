@@ -2,19 +2,21 @@
 {% assign kanji = include.item.items[0] %}
 
 
-<div class="contact-form">
-    <div>
-        <h1 class="modal-japanese">{{ kanji.Radical }}</h1>
-    </div>
-    <br>
+<div class="up">
+    <h1 class="modal-japanese">{{ kanji.Radical }}</h1>
+</div>
+<div class="down">
     <div>
         <p class="modal-meaning ">🇯🇵 </p>
-        <h4 class="modal-meaning japanese">{{ kanji.Reading-J | default: 'n / a' }}</h4></div>
+        <h4 class="modal-meaning japanese">{{ kanji.Reading-J | default: 'n / a' }}</h4>
+    </div>
     <div>
         <p class="modal-meaning">🔤 </p>
-        <h4 class="modal-meaning">{{ kanji.Reading-R | default: 'n / a' }}</h4></div>
+        <h4 class="modal-meaning">{{ kanji.Reading-R | default: 'n / a' }}</h4>
+    </div>
     <div>
         <p class="modal-meaning">📖 </p>
-        <h4 class="modal-meaning">{{ item.name | default: 'n / a' }}</h4></div>
+        <h4 class="modal-meaning">{{ item.name | default: 'n / a' }}</h4>
+    </div>
 </div>
 

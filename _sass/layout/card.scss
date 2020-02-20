@@ -15,7 +15,7 @@
   -webkit-perspective: 800px;
   -moz-perspective: 800px;
   perspective: 800px;
-  display:inline;
+  display: inline;
 
   &:hover .inner,
   &:active .inner {
@@ -33,7 +33,7 @@
     object-fit: cover;
     @extend .hide-back;
 
-    .lazy{
+    .lazy {
       padding: 100%;
     }
   }
@@ -70,10 +70,13 @@
 .back {
   @extend .hide-back;
   position: absolute;
-  top:10px;
-  width: 90%;
-  height: 90%;
+  right: 10%;
   transform: rotateY(180deg);
+  top: 10%;
+
+  .up {
+    padding-bottom: 10%;
+  }
 }
 
 .hide-back {
