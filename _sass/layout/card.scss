@@ -75,6 +75,15 @@
   transform: rotateY(180deg);
   top: 10%;
 
+  .back-img {
+    margin-left: 100px;
+    @media only screen and (max-width: 380px)  {
+      margin-left: 90px;
+    }
+    width: 100px;
+
+  }
+
   .up {
     padding-bottom: 10%;
   }
