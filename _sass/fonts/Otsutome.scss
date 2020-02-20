@@ -3,5 +3,8 @@ $otsutome-font-path: "../../assets/fonts/Otsutome" !default;
 
 @font-face {
   font-family: 'Otsutome';
-  src: url('#{$otsutome-font-path}/Otsutome.ttf') format('truetype');
+  src: url('#{$otsutome-font-path}/Otsutome.woff2') format('woff2'), url('#{$otsutome-font-path}/Otsutome.ttf') format('truetype'), url('#{$otsutome-font-path}/Otsutome.otf') format('otf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
 }
