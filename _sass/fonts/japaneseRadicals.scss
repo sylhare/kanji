@@ -6,4 +6,5 @@ $japanese-font-path: "../../assets/fonts/japaneseRadicals" !default;
   src: url('#{$japanese-font-path}/JapaneseRadicals-Regular.eot') format('eot'), url('#{$japanese-font-path}/JapaneseRadicals-Regular.otf') format('otf'), url('#{$japanese-font-path}/JapaneseRadicals-Regular.woff2') format('woff2'), url('#{$japanese-font-path}/JapaneseRadicals-Regular.woff') format('woff'), url('#{$japanese-font-path}/JapaneseRadicals-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }

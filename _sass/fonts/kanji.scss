@@ -6,6 +6,7 @@ $font-path: "../../assets/fonts/kanji" !default;
   src: url('#{$font-path}/nagayama_kai.otf') format('otf');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 /*! Kosugi Maru - Apache License Version 2.0 */
@@ -13,8 +14,8 @@ $font-path: "../../assets/fonts/kanji" !default;
   font-family: 'Kosugi Maru';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
-  src: url('#{font-path}/KosugiMaru-Regular.woff2') format('woff2'), url('#{$font-path}/KosugiMaru-Regular.ttf') format('truetype');
+  font-display: auto;
+  src: url('#{$font-path}/KosugiMaru-Regular.woff2') format('woff2'), url('#{$font-path}/KosugiMaru-Regular.ttf') format('truetype');
   unicode-range: U+ffb6-ffbe, U+ffc2-ffc7, U+ffca-ffcf, U+ffd2-ffd7, U+ffda-ffdc, U+ffe0-ffe2, U+ffe4, U+ffe6, U+ffe8-ffee, U+1f100-1f10a, U+1f110-1f12e, U+1f130-1f16b, U+1f170-1f19a, U+1f200-1f202, U+1f210-1f22f;
 }
 
