@@ -2,7 +2,8 @@
 
 
 <!-- To print number in image <div class="number top-left">  </div> -->
-<img class="lazy" src="{{ '/assets/img/placeholder-thumbnail.svg' | relative_url }}" data-srcset="{{ '/assets/img/placeholder.svg' | relative_url }}" alt="kanji">
+<img class="lazy" src="{{ '/assets/img/placeholder-thumbnail.svg' | relative_url }}"
+     data-srcset="{{ '/assets/img/placeholder.svg' | relative_url }}" alt="kanji">
 <div class="card-text">
     {% for kanji in item.items %}
     <h3 class="inline japanese" data-modal="{{ kanji.Number }}">{{ kanji.Radical }}</h3>
