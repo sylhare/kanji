@@ -1,0 +1,14 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: docker://sylhare/jekyll:v6
+    - name: Build jekyll website
+      run: bundle exec jekyll build --strict_front_matter
