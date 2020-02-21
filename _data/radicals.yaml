@@ -1,7 +1,8 @@
 - Number: '1'
   Strokes: '1'
   Radical: 一
-  Original: 'y'
+  Alternate: ''
+  Category: Number
   Meaning: 'one, horizontal stroke'
   Reading-J: いち
   Reading-R: ichi
@@ -14,7 +15,8 @@
 - Number: '2'
   Strokes: '1'
   Radical: 丨
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'line, stick'
   Reading-J: たてぼう
   Reading-R: tatebou
@@ -27,7 +29,8 @@
 - Number: '3'
   Strokes: '1'
   Radical: 丶
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: dot
   Reading-J: てん
   Reading-R: ten
@@ -40,7 +43,8 @@
 - Number: '4'
   Strokes: '1'
   Radical: 丿
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'bend, stroke'
   Reading-J: の
   Reading-R: 'no'
@@ -53,7 +57,8 @@
 - Number: '5'
   Strokes: '1'
   Radical: 乙
-  Original: 'y'
+  Alternate: ⺃
+  Category: 'y'
   Meaning: the second
   Reading-J: おつ
   Reading-R: otsu
@@ -66,7 +71,8 @@
 - Number: '6'
   Strokes: '1'
   Radical: 亅
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'hook, hook stick'
   Reading-J: はねぼう
   Reading-R: hanebou
@@ -76,36 +82,11 @@
   Frequency: '19'
   Examples: 了事
 
-- Number: '215'
-  Strokes: '1'
-  Radical: 
-  Original: ''
-  Meaning: 'bend, stroke'
-  Reading-J: のかんむり
-  Reading-R: nokanmuri
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '216'
-  Strokes: '1'
-  Radical: ⺃
-  Original: ''
-  Meaning: the second
-  Reading-J: おつ
-  Reading-R: otsu
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
 - Number: '7'
   Strokes: '2'
   Radical: 二
-  Original: 'y'
+  Alternate: ''
+  Category: Number
   Meaning: two
   Reading-J: に
   Reading-R: ni
@@ -118,7 +99,8 @@
 - Number: '8'
   Strokes: '2'
   Radical: 亠
-  Original: 'y'
+  Alternate: ''
+  Category: House
   Meaning: 'lid, top'
   Reading-J: なべぶた
   Reading-R: nabebuta
@@ -131,7 +113,8 @@
 - Number: '9'
   Strokes: '2'
   Radical: 人
-  Original: 'y'
+  Alternate: "⺅\U000201A2"
+  Category: 'y'
   Meaning: person
   Reading-J: ひと
   Reading-R: hito
@@ -144,7 +127,8 @@
 - Number: '10'
   Strokes: '2'
   Radical: 儿
-  Original: 'y'
+  Alternate: ''
+  Category: Body
   Meaning: human legs
   Reading-J: ひとあし
   Reading-R: hitoashi
@@ -156,8 +140,9 @@
 
 - Number: '11'
   Strokes: '2'
-  Radical: ⼊
-  Original: 'y'
+  Radical: 入
+  Alternate: ''
+  Category: 'y'
   Meaning: to enter
   Reading-J: いる
   Reading-R: iru
@@ -170,7 +155,8 @@
 - Number: '12'
   Strokes: '2'
   Radical: 八
-  Original: 'y'
+  Alternate: 
+  Category: Number
   Meaning: eight
   Reading-J: はち
   Reading-R: hachi
@@ -183,7 +169,8 @@
 - Number: '13'
   Strokes: '2'
   Radical: 冂
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: to enclose
   Reading-J: けいがまえ
   Reading-R: keigamae
@@ -196,7 +183,8 @@
 - Number: '14'
   Strokes: '2'
   Radical: 冖
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'cover, crown'
   Reading-J: わかんむり
   Reading-R: wakanmuri
@@ -209,7 +197,8 @@
 - Number: '15'
   Strokes: '2'
   Radical: 冫
-  Original: 'y'
+  Alternate: ''
+  Category: Nature
   Meaning: ice
   Reading-J: にすい
   Reading-R: nisui
@@ -222,7 +211,8 @@
 - Number: '16'
   Strokes: '2'
   Radical: 几
-  Original: 'y'
+  Alternate: ''
+  Category: Home
   Meaning: table
   Reading-J: きにょう
   Reading-R: kinyou
@@ -235,7 +225,8 @@
 - Number: '17'
   Strokes: '2'
   Radical: 凵
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'container, open box'
   Reading-J: かんにょう
   Reading-R: kannyou
@@ -248,7 +239,8 @@
 - Number: '18'
   Strokes: '2'
   Radical: 刀
-  Original: 'y'
+  Alternate: ⺍
+  Category: Weapon
   Meaning: 'knife, sword'
   Reading-J: かたな
   Reading-R: katana
@@ -261,7 +253,8 @@
 - Number: '19'
   Strokes: '2'
   Radical: 力
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: power
   Reading-J: ちから
   Reading-R: chikara
@@ -274,7 +267,8 @@
 - Number: '20'
   Strokes: '2'
   Radical: 勹
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: to wrap
   Reading-J: つつみがまえ
   Reading-R: tsutsumigamae
@@ -287,7 +281,8 @@
 - Number: '21'
   Strokes: '2'
   Radical: 匕
-  Original: 'y'
+  Alternate: ''
+  Category: Home
   Meaning: spoon
   Reading-J: さじ
   Reading-R: saji
@@ -300,7 +295,8 @@
 - Number: '22'
   Strokes: '2'
   Radical: 匚
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: box
   Reading-J: はこがまえ
   Reading-R: hakogamae
@@ -310,10 +306,25 @@
   Frequency: '64'
   Examples: 匣
 
+- Number: '23'
+  Strokes: '2'
+  Radical: 匸
+  Alternate: ''
+  Category: 'y'
+  Meaning: 'to conceal, hide'
+  Reading-J: かくしがまえ
+  Reading-R: kakushigamae
+  Position-J: 'かまえ, はこがまえ'
+  Position-R: 'kamae, hakogamae'
+  Importance: ''
+  Frequency: '17'
+  Examples: 亡 妄 忙 忘 盲 荒 望 慌 網
+
 - Number: '24'
   Strokes: '2'
   Radical: 十
-  Original: 'y'
+  Alternate: ''
+  Category: Number
   Meaning: ten
   Reading-J: じゅう
   Reading-R: juu
@@ -326,7 +337,8 @@
 - Number: '25'
   Strokes: '2'
   Radical: 卜
-  Original: 'y'
+  Alternate: ''
+  Category: Ceremony
   Meaning: 'oracle, divination'
   Reading-J: ぼく
   Reading-R: boku
@@ -339,7 +351,8 @@
 - Number: '26'
   Strokes: '2'
   Radical: 卩
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'stamp, seal'
   Reading-J: ふしづくり
   Reading-R: fushizukuri
@@ -352,7 +365,8 @@
 - Number: '27'
   Strokes: '2'
   Radical: 厂
-  Original: 'y'
+  Alternate: ''
+  Category: Nature
   Meaning: cliff
   Reading-J: がんだれ
   Reading-R: gandare
@@ -365,7 +379,8 @@
 - Number: '28'
   Strokes: '2'
   Radical: 厶
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'private, Katakana Mu'
   Reading-J: む
   Reading-R: mu
@@ -378,7 +393,8 @@
 - Number: '29'
   Strokes: '2'
   Radical: 又
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'again, right hand'
   Reading-J: また
   Reading-R: mata
@@ -388,88 +404,11 @@
   Frequency: '91'
   Examples: 友反取受
 
-- Number: '217'
-  Strokes: '2'
-  Radical: ⺅
-  Original: ''
-  Meaning: person
-  Reading-J: にんべん
-  Reading-R: ninben
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '218'
-  Strokes: '2'
-  Radical: "\U000201A2"
-  Original: ''
-  Meaning: person
-  Reading-J: ひとやね
-  Reading-R: hitoyane
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '219'
-  Strokes: '2'
-  Radical: 
-  Original: ''
-  Meaning: eight
-  Reading-J: はちがしら
-  Reading-R: hachigashira
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '220'
-  Strokes: '2'
-  Radical: ⺇
-  Original: ''
-  Meaning: wind
-  Reading-J: かぜかんむり
-  Reading-R: kazekanmuri
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '221'
-  Strokes: '2'
-  Radical: ⺉
-  Original: ''
-  Meaning: 'knife, sword'
-  Reading-J: りっとう
-  Reading-R: rittou
-  Position-J: つくり
-  Position-R: tsukuri
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '23'
-  Strokes: '2'
-  Radical: 匸
-  Original: 'y'
-  Meaning: 'to conceal, hide'
-  Reading-J: かくしがまえ
-  Reading-R: kakushigamae
-  Position-J: 'かまえ, はこがまえ'
-  Position-R: 'kamae, hakogamae'
-  Importance: ''
-  Frequency: '17'
-  Examples: 亡 妄 忙 忘 盲 荒 望 慌 網
-
 - Number: '30'
   Strokes: '3'
   Radical: 口
-  Original: 'y'
+  Alternate: 
+  Category: Body
   Meaning: mouth
   Reading-J: くち
   Reading-R: kuchi
@@ -482,7 +421,8 @@
 - Number: '31'
   Strokes: '3'
   Radical: 囗
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'border, territorial boundaries'
   Reading-J: くにがまえ
   Reading-R: kunigamae
@@ -495,7 +435,8 @@
 - Number: '32'
   Strokes: '3'
   Radical: 土
-  Original: 'y'
+  Alternate: 
+  Category: Nature
   Meaning: earth
   Reading-J: つち
   Reading-R: tsuchi
@@ -508,7 +449,8 @@
 - Number: '33'
   Strokes: '3'
   Radical: 士
-  Original: 'y'
+  Alternate: 
+  Category: Society
   Meaning: 'man, scholar, samurai'
   Reading-J: さむらい
   Reading-R: samurai
@@ -521,7 +463,8 @@
 - Number: '34'
   Strokes: '3'
   Radical: 夂
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: to follow
   Reading-J: のまた
   Reading-R: nomata
@@ -534,7 +477,8 @@
 - Number: '35'
   Strokes: '3'
   Radical: 夊
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: to go slowly
   Reading-J: なつあし
   Reading-R: natsuashi
@@ -547,7 +491,8 @@
 - Number: '36'
   Strokes: '3'
   Radical: 夕
-  Original: 'y'
+  Alternate: ''
+  Category: Nature
   Meaning: evening
   Reading-J: ゆうべ
   Reading-R: yuube
@@ -560,7 +505,8 @@
 - Number: '37'
   Strokes: '3'
   Radical: 大
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'large, big'
   Reading-J: だい
   Reading-R: dai
@@ -573,7 +519,8 @@
 - Number: '38'
   Strokes: '3'
   Radical: 女
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: woman
   Reading-J: おんな
   Reading-R: onna
@@ -586,7 +533,8 @@
 - Number: '39'
   Strokes: '3'
   Radical: 子
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'child, son'
   Reading-J: こ
   Reading-R: ko
@@ -599,7 +547,8 @@
 - Number: '40'
   Strokes: '3'
   Radical: 宀
-  Original: 'y'
+  Alternate: ''
+  Category: Home
   Meaning: 'roof, house'
   Reading-J: うかんむり
   Reading-R: ukanmuri
@@ -612,7 +561,8 @@
 - Number: '41'
   Strokes: '3'
   Radical: 寸
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'inch, (2.25 cm)'
   Reading-J: すん
   Reading-R: sun
@@ -625,7 +575,8 @@
 - Number: '42'
   Strokes: '3'
   Radical: 小
-  Original: 'y'
+  Alternate: ⺌
+  Category: 'y'
   Meaning: small
   Reading-J: しょう
   Reading-R: shou
@@ -638,7 +589,8 @@
 - Number: '43'
   Strokes: '3'
   Radical: 尢
-  Original: 'y'
+  Alternate: ''
+  Category: Body
   Meaning: 'disabled, lame leg'
   Reading-J: だいのまげあし
   Reading-R: dainomageashi
@@ -651,7 +603,8 @@
 - Number: '44'
   Strokes: '3'
   Radical: 尸
-  Original: 'y'
+  Alternate: ''
+  Category: Ceremony
   Meaning: corpse
   Reading-J: しかばね
   Reading-R: shikabane
@@ -664,7 +617,8 @@
 - Number: '45'
   Strokes: '3'
   Radical: 屮
-  Original: 'y'
+  Alternate: ''
+  Category: Agriculture
   Meaning: sprout
   Reading-J: くさのめ
   Reading-R: kusanome
@@ -677,7 +631,8 @@
 - Number: '46'
   Strokes: '3'
   Radical: 山
-  Original: 'y'
+  Alternate: 
+  Category: Nature
   Meaning: mountain
   Reading-J: やま
   Reading-R: yama
@@ -690,7 +645,8 @@
 - Number: '47'
   Strokes: '3'
   Radical: 巛
-  Original: 'y'
+  Alternate: 川
+  Category: Nature
   Meaning: river
   Reading-J: まがりがわ
   Reading-R: magarigawa
@@ -703,7 +659,8 @@
 - Number: '48'
   Strokes: '3'
   Radical: 工
-  Original: 'y'
+  Alternate: 
+  Category: Society
   Meaning: 'work, carpenter, skill'
   Reading-J: たくみ
   Reading-R: takumi
@@ -716,7 +673,8 @@
 - Number: '49'
   Strokes: '3'
   Radical: 已
-  Original: 'y'
+  Alternate: 巳己
+  Category: 'y'
   Meaning: oneself
   Reading-J: おのれ
   Reading-R: onore
@@ -729,7 +687,8 @@
 - Number: '50'
   Strokes: '3'
   Radical: 巾
-  Original: 'y'
+  Alternate: 
+  Category: Clothing
   Meaning: cloth
   Reading-J: はば
   Reading-R: haba
@@ -742,7 +701,8 @@
 - Number: '51'
   Strokes: '3'
   Radical: 干
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'to dry, shield'
   Reading-J: かん
   Reading-R: kan
@@ -755,7 +715,8 @@
 - Number: '52'
   Strokes: '3'
   Radical: 幺
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'young, slight'
   Reading-J: いとがしら
   Reading-R: itogashira
@@ -768,7 +729,8 @@
 - Number: '53'
   Strokes: '3'
   Radical: 广
-  Original: 'y'
+  Alternate: ''
+  Category: Home
   Meaning: slanting roof
   Reading-J: まだれ
   Reading-R: madare
@@ -781,7 +743,8 @@
 - Number: '54'
   Strokes: '3'
   Radical: 廴
-  Original: 'y'
+  Alternate: ''
+  Category: Body
   Meaning: 'to move, stretch'
   Reading-J: えんにょう
   Reading-R: rennyou
@@ -794,7 +757,8 @@
 - Number: '55'
   Strokes: '3'
   Radical: 廾
-  Original: 'y'
+  Alternate: ''
+  Category: Body
   Meaning: folded hands
   Reading-J: にじゅうあし
   Reading-R: nijuuashi
@@ -807,7 +771,8 @@
 - Number: '56'
   Strokes: '3'
   Radical: 弋
-  Original: 'y'
+  Alternate: ''
+  Category: Weapons
   Meaning: javelin
   Reading-J: いぐるみ
   Reading-R: igurumi
@@ -820,7 +785,8 @@
 - Number: '57'
   Strokes: '3'
   Radical: 弓
-  Original: 'y'
+  Alternate: 
+  Category: Weapons
   Meaning: bow （in archery）
   Reading-J: ゆみ
   Reading-R: yumi
@@ -833,7 +799,8 @@
 - Number: '58'
   Strokes: '3'
   Radical: 彐
-  Original: 'y'
+  Alternate: ⺕⺔
+  Category: Animal
   Meaning: pig’s head
   Reading-J: けいがしら
   Reading-R: keigashira
@@ -846,7 +813,8 @@
 - Number: '59'
   Strokes: '3'
   Radical: 彡
-  Original: 'y'
+  Alternate: ''
+  Category: Body
   Meaning: 'hair-style, light rays'
   Reading-J: さんづくり
   Reading-R: sanzukuri
@@ -859,7 +827,8 @@
 - Number: '60'
   Strokes: '3'
   Radical: 彳
-  Original: 'y'
+  Alternate: ''
+  Category: Body
   Meaning: 'step, stride, street, to go'
   Reading-J: ぎょうにんべん
   Reading-R: gyouninben
@@ -869,348 +838,11 @@
   Frequency: '215'
   Examples: 役彼後得徳徼
 
-- Number: '140'
-  Strokes: '3'
-  Radical: 艹
-  Original: 'y'
-  Meaning: grass
-  Reading-J: くさかんむり
-  Reading-R: kusakanmuri
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: Important
-  Frequency: '1,902'
-  Examples: 共 花(37) 英 苦 草 茶 落 幕 靴 鞄 薬
-
-- Number: '162'
-  Strokes: '3'
-  Radical: ⻌
-  Original: 'y'
-  Meaning: 'road, walk, to advance'
-  Reading-J: しんにょう
-  Reading-R: shinnyou
-  Position-J: にょう
-  Position-R: nyou
-  Importance: Important
-  Frequency: '381'
-  Examples: 巡 迎 通 追 逃 迎 進
-
-- Number: '223'
-  Strokes: '3'
-  Radical: 
-  Original: ''
-  Meaning: mouth
-  Reading-J: くちへん
-  Reading-R: kuchihen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '224'
-  Strokes: '3'
-  Radical: 
-  Original: ''
-  Meaning: earth
-  Reading-J: つちへん
-  Reading-R: tsuchihen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '225'
-  Strokes: '3'
-  Radical: 
-  Original: ''
-  Meaning: 'man, scholar, samurai'
-  Reading-J: さむらいかんむり
-  Reading-R: samuraikanmuri
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '226'
-  Strokes: '3'
-  Radical: 
-  Original: ''
-  Meaning: woman
-  Reading-J: おんなへん
-  Reading-R: onnahen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '227'
-  Strokes: '3'
-  Radical: 
-  Original: ''
-  Meaning: 'child, son'
-  Reading-J: こへん
-  Reading-R: kohen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '228'
-  Strokes: '3'
-  Radical: 
-  Original: ''
-  Meaning: 'inch, (2.25 cm)'
-  Reading-J: すんづくり
-  Reading-R: sunzukuri
-  Position-J: つくり
-  Position-R: tsukuri
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '229'
-  Strokes: '3'
-  Radical: ⺌
-  Original: ''
-  Meaning: small
-  Reading-J: しょうかんむり
-  Reading-R: shoukanmuri
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '230'
-  Strokes: '3'
-  Radical: 
-  Original: ''
-  Meaning: mountain
-  Reading-J: やまへん
-  Reading-R: yamahen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '231'
-  Strokes: '3'
-  Radical: 
-  Original: ''
-  Meaning: mountain
-  Reading-J: やまかんむり
-  Reading-R: yamakanmuri
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '232'
-  Strokes: '3'
-  Radical: 川
-  Original: ''
-  Meaning: river
-  Reading-J: さんぼんがわ
-  Reading-R: sanbongawa
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '233'
-  Strokes: '3'
-  Radical: 
-  Original: ''
-  Meaning: 'work, carpenter, skill'
-  Reading-J: たくみへん
-  Reading-R: takumihen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '234'
-  Strokes: '3'
-  Radical: 巳
-  Original: ''
-  Meaning: oneself
-  Reading-J: おのれ
-  Reading-R: onore
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '235'
-  Strokes: '3'
-  Radical: 己
-  Original: ''
-  Meaning: oneself
-  Reading-J: おのれ
-  Reading-R: onore
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '236'
-  Strokes: '3'
-  Radical: 
-  Original: ''
-  Meaning: cloth
-  Reading-J: はばへん
-  Reading-R: habahen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '237'
-  Strokes: '3'
-  Radical: 
-  Original: ''
-  Meaning: bow （in archery）
-  Reading-J: ゆみへん
-  Reading-R: yumihen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '238'
-  Strokes: '3'
-  Radical: ⺕
-  Original: ''
-  Meaning: pig’s head
-  Reading-J: けいがしら
-  Reading-R: keigashira
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '239'
-  Strokes: '3'
-  Radical: ⺔
-  Original: ''
-  Meaning: pig’s head
-  Reading-J: けいがしら
-  Reading-R: keigashira
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '240'
-  Strokes: '3'
-  Radical: ⻏
-  Original: ''
-  Meaning: 'town, community'
-  Reading-J: おおざと
-  Reading-R: oozato
-  Position-J: つくり
-  Position-R: tsukuri
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '241'
-  Strokes: '3'
-  Radical: ⻖
-  Original: ''
-  Meaning: 'hill, mound, dam'
-  Reading-J: こざとへん
-  Reading-R: kozatohen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '242'
-  Strokes: '3'
-  Radical: ⺍
-  Original: ''
-  Meaning: Katakana Tsu
-  Reading-J: つ
-  Reading-R: tsu
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '243'
-  Strokes: '3'
-  Radical: ⺖
-  Original: ''
-  Meaning: 'heart, mind, spirit'
-  Reading-J: りっしんべん
-  Reading-R: risshinben
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: high
-  Examples: ''
-
-- Number: '244'
-  Strokes: '3'
-  Radical: ⺘
-  Original: ''
-  Meaning: hand
-  Reading-J: てへん
-  Reading-R: tehen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '245'
-  Strokes: '3'
-  Radical: ⺡
-  Original: ''
-  Meaning: water
-  Reading-J: さんずい
-  Reading-R: sanzui
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: high
-  Examples: ''
-
-- Number: '246'
-  Strokes: '3'
-  Radical: ⺨
-  Original: ''
-  Meaning: beast
-  Reading-J: けものへん
-  Reading-R: kemonohen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
 - Number: '61'
   Strokes: '4'
   Radical: 心
-  Original: 'y'
+  Alternate: ⺖⺗
+  Category: Body
   Meaning: 'heart, mind, spirit'
   Reading-J: こころ
   Reading-R: kokoro
@@ -1223,7 +855,8 @@
 - Number: '62'
   Strokes: '4'
   Radical: 戈
-  Original: 'y'
+  Alternate: ''
+  Category: Weapon
   Meaning: 'spear, weapon'
   Reading-J: ほこ
   Reading-R: hoko
@@ -1236,7 +869,8 @@
 - Number: '63'
   Strokes: '4'
   Radical: 戸
-  Original: 'y'
+  Alternate: 
+  Category: Home
   Meaning: door
   Reading-J: と
   Reading-R: to
@@ -1249,7 +883,8 @@
 - Number: '64'
   Strokes: '4'
   Radical: 手
-  Original: 'y'
+  Alternate: ⺘
+  Category: Body
   Meaning: hand
   Reading-J: て
   Reading-R: te
@@ -1262,7 +897,8 @@
 - Number: '65'
   Strokes: '4'
   Radical: 支
-  Original: 'y'
+  Alternate: ''
+  Category: Nature
   Meaning: branch
   Reading-J: しにょう
   Reading-R: shinyou
@@ -1275,7 +911,8 @@
 - Number: '66'
   Strokes: '4'
   Radical: 攵
-  Original: 'y'
+  Alternate: ⽁
+  Category: 'y'
   Meaning: 'activity, to strike, hit'
   Reading-J: ぼくづくり
   Reading-R: bokuzukuri
@@ -1288,7 +925,8 @@
 - Number: '67'
   Strokes: '4'
   Radical: 文
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'literature, letters'
   Reading-J: ぶん
   Reading-R: bun
@@ -1301,7 +939,8 @@
 - Number: '68'
   Strokes: '4'
   Radical: 斗
-  Original: 'y'
+  Alternate: ''
+  Category: Home
   Meaning: 'big dipper, ladle, 18 liters'
   Reading-J: ますづくり
   Reading-R: masuzukuri
@@ -1314,7 +953,8 @@
 - Number: '69'
   Strokes: '4'
   Radical: 斤
-  Original: 'y'
+  Alternate: ''
+  Category: Weapon
   Meaning: axe
   Reading-J: おのづくり
   Reading-R: onozukuri
@@ -1327,7 +967,8 @@
 - Number: '70'
   Strokes: '4'
   Radical: 方
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'direction, flag'
   Reading-J: ほう
   Reading-R: hou
@@ -1340,7 +981,8 @@
 - Number: '71'
   Strokes: '4'
   Radical: 无
-  Original: 'y'
+  Alternate: ⺛
+  Category: 'y'
   Meaning: not
   Reading-J: むにょう
   Reading-R: munyou
@@ -1353,7 +995,8 @@
 - Number: '72'
   Strokes: '4'
   Radical: 日
-  Original: 'y'
+  Alternate: 
+  Category: Nature
   Meaning: 'sun, day, time'
   Reading-J: ひ
   Reading-R: hi
@@ -1366,7 +1009,8 @@
 - Number: '73'
   Strokes: '4'
   Radical: 曰
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: to say
   Reading-J: ひらび
   Reading-R: hirabi
@@ -1379,7 +1023,8 @@
 - Number: '74'
   Strokes: '4'
   Radical: 月
-  Original: 'y'
+  Alternate: ⺝
+  Category: Nature
   Meaning: 'moon, month, period'
   Reading-J: つき
   Reading-R: tsuki
@@ -1392,7 +1037,8 @@
 - Number: '75'
   Strokes: '4'
   Radical: 木
-  Original: 'y'
+  Alternate: 
+  Category: Nature
   Meaning: 'tree, wood'
   Reading-J: き
   Reading-R: ki
@@ -1405,7 +1051,8 @@
 - Number: '76'
   Strokes: '4'
   Radical: 欠
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'to lack, yawn'
   Reading-J: あくび
   Reading-R: akubi
@@ -1418,7 +1065,8 @@
 - Number: '77'
   Strokes: '4'
   Radical: 止
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: to stop
   Reading-J: とめる
   Reading-R: tomeru
@@ -1431,7 +1079,8 @@
 - Number: '78'
   Strokes: '4'
   Radical: 歹
-  Original: 'y'
+  Alternate: 
+  Category: Ceremony
   Meaning: 'death & dying, to decompose'
   Reading-J: がつ
   Reading-R: gatsu
@@ -1444,7 +1093,8 @@
 - Number: '79'
   Strokes: '4'
   Radical: 殳
-  Original: 'y'
+  Alternate: ''
+  Category: Weapon
   Meaning: 'lance shaft, action'
   Reading-J: るまた
   Reading-R: rumata
@@ -1457,7 +1107,8 @@
 - Number: '80'
   Strokes: '4'
   Radical: 毋
-  Original: 'y'
+  Alternate: ''
+  Category: Society
   Meaning: 'not, mother'
   Reading-J: なかれ
   Reading-R: nakare
@@ -1470,7 +1121,8 @@
 - Number: '81'
   Strokes: '4'
   Radical: 比
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: to compare
   Reading-J: くらべる
   Reading-R: kuraberu
@@ -1483,7 +1135,8 @@
 - Number: '82'
   Strokes: '4'
   Radical: 毛
-  Original: 'y'
+  Alternate: ''
+  Category: Body
   Meaning: hair
   Reading-J: け
   Reading-R: ke
@@ -1496,7 +1149,8 @@
 - Number: '83'
   Strokes: '4'
   Radical: 氏
-  Original: 'y'
+  Alternate: ''
+  Category: Society
   Meaning: 'family, clan'
   Reading-J: うじ
   Reading-R: uji
@@ -1509,7 +1163,8 @@
 - Number: '84'
   Strokes: '4'
   Radical: 气
-  Original: 'y'
+  Alternate: ''
+  Category: Nature
   Meaning: 'steam, air'
   Reading-J: きがまえ
   Reading-R: kigamae
@@ -1522,7 +1177,8 @@
 - Number: '85'
   Strokes: '4'
   Radical: 水
-  Original: 'y'
+  Alternate: ⺡氺
+  Category: Nature
   Meaning: water
   Reading-J: みず
   Reading-R: mizu
@@ -1535,7 +1191,8 @@
 - Number: '86'
   Strokes: '4'
   Radical: 火
-  Original: 'y'
+  Alternate: ⺣
+  Category: Nature
   Meaning: fire
   Reading-J: ひ
   Reading-R: hi
@@ -1548,7 +1205,8 @@
 - Number: '87'
   Strokes: '4'
   Radical: 爪
-  Original: 'y'
+  Alternate: ⺤ 爫
+  Category: Animal
   Meaning: 'claw, nail'
   Reading-J: つめ
   Reading-R: tsume
@@ -1561,7 +1219,8 @@
 - Number: '88'
   Strokes: '4'
   Radical: 父
-  Original: 'y'
+  Alternate: ''
+  Category: Society
   Meaning: father
   Reading-J: ちち
   Reading-R: chichi
@@ -1574,7 +1233,8 @@
 - Number: '89'
   Strokes: '4'
   Radical: 爻
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: to mix
   Reading-J: こう
   Reading-R: kou
@@ -1587,7 +1247,8 @@
 - Number: '90'
   Strokes: '4'
   Radical: 爿
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: split wood
   Reading-J: しょうへん
   Reading-R: shouhen
@@ -1600,7 +1261,8 @@
 - Number: '91'
   Strokes: '4'
   Radical: 片
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: slice
   Reading-J: かた
   Reading-R: kata
@@ -1610,10 +1272,25 @@
   Frequency: '77'
   Examples: 版 牌 牒
 
+- Number: '92'
+  Strokes: '5'
+  Radical: 牙
+  Alternate: 
+  Category: Animal
+  Meaning: 'fang, canine tooth'
+  Reading-J: きば
+  Reading-R: kiba
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: '9'
+  Examples: 芽 呀 牚
+
 - Number: '93'
   Strokes: '4'
   Radical: 牛
-  Original: 'y'
+  Alternate: 
+  Category: Animal
   Meaning: cow
   Reading-J: うし
   Reading-R: ushi
@@ -1626,7 +1303,8 @@
 - Number: '94'
   Strokes: '4'
   Radical: 犬
-  Original: 'y'
+  Alternate: ''
+  Category: Animal
   Meaning: dog
   Reading-J: いぬ
   Reading-R: inu
@@ -1636,283 +1314,11 @@
   Frequency: '444'
   Examples: 犬 犯 狂 狙 狗 献 獣
 
-- Number: '125'
-  Strokes: '4'
-  Radical: 耂
-  Original: 'y'
-  Meaning: 'old, old-age'
-  Reading-J: おいかんむり
-  Reading-R: oikanmuri
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: ''
-  Frequency: '22'
-  Examples: 耆孝耋
-
-- Number: '247'
-  Strokes: '4'
-  Radical: ⺗
-  Original: ''
-  Meaning: 'heart, mind, spirit'
-  Reading-J: したごころ
-  Reading-R: shitagokoro
-  Position-J: あし
-  Position-R: ashi
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '248'
-  Strokes: '4'
-  Radical: 
-  Original: ''
-  Meaning: door
-  Reading-J: とだれ
-  Reading-R: todare
-  Position-J: たれ
-  Position-R: tare
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '249'
-  Strokes: '4'
-  Radical: ⽁
-  Original: ''
-  Meaning: 'activity, to strike, hit'
-  Reading-J: ぼくづくり
-  Reading-R: bokuzukuri
-  Position-J: つくり
-  Position-R: tsukuri
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '250'
-  Strokes: '4'
-  Radical: 
-  Original: ''
-  Meaning: 'direction, flag'
-  Reading-J: ほうへん
-  Reading-R: houhen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '251'
-  Strokes: '4'
-  Radical: 
-  Original: ''
-  Meaning: 'sun, day, time'
-  Reading-J: ひへん
-  Reading-R: hihen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '252'
-  Strokes: '4'
-  Radical: ⺝
-  Original: ''
-  Meaning: 'moon, month, period'
-  Reading-J: つきへん
-  Reading-R: tsukihen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '253'
-  Strokes: '4'
-  Radical: 
-  Original: ''
-  Meaning: 'meat, flesh'
-  Reading-J: にくづき
-  Reading-R: nikuzuki
-  Position-J: ''
-  Position-R: ''
-  Importance: Important
-  Frequency: high
-  Examples: ''
-
-- Number: '254'
-  Strokes: '4'
-  Radical: 
-  Original: ''
-  Meaning: 'tree, wood'
-  Reading-J: きへん
-  Reading-R: kihen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '255'
-  Strokes: '4'
-  Radical: 
-  Original: ''
-  Meaning: 'death & dying, to decompose'
-  Reading-J: がつへん
-  Reading-R: gatsuhen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '256'
-  Strokes: '4'
-  Radical: 
-  Original: ''
-  Meaning: fire
-  Reading-J: ひへん
-  Reading-R: hihen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '257'
-  Strokes: '4'
-  Radical: ⺣
-  Original: ''
-  Meaning: fire
-  Reading-J: れっか
-  Reading-R: rekka
-  Position-J: あし
-  Position-R: ashi
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '258'
-  Strokes: '4'
-  Radical: ⺤
-  Original: ''
-  Meaning: 'claw, nail'
-  Reading-J: つめかんむり
-  Reading-R: tsumekanmuri
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '259'
-  Strokes: '4'
-  Radical: 爫
-  Original: ''
-  Meaning: 'claw, nail'
-  Reading-J: つめかんむり
-  Reading-R: tsumekanmuri
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '260'
-  Strokes: '4'
-  Radical: 
-  Original: ''
-  Meaning: slice
-  Reading-J: かたへん
-  Reading-R: katahen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '261'
-  Strokes: '4'
-  Radical: 
-  Original: ''
-  Meaning: 'fang, canine tooth'
-  Reading-J: きば
-  Reading-R: kiba
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '262'
-  Strokes: '4'
-  Radical: 
-  Original: ''
-  Meaning: cow
-  Reading-J: うしへん
-  Reading-R: ushihen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '263'
-  Strokes: '4'
-  Radical: 
-  Original: ''
-  Meaning: 'jewelry, jeweled king'
-  Reading-J: おうへん
-  Reading-R: ouhen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '264'
-  Strokes: '4'
-  Radical: ⺭
-  Original: ''
-  Meaning: 'altar, festival, religious service'
-  Reading-J: しめすへん
-  Reading-R: shimesuhen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '265'
-  Strokes: '4'
-  Radical: 㓁
-  Original: ''
-  Meaning: net
-  Reading-J: あみがしら
-  Reading-R: amigashira
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '92'
-  Strokes: '5'
-  Radical: 牙
-  Original: 'y'
-  Meaning: 'fang, canine tooth'
-  Reading-J: きば
-  Reading-R: kiba
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: '9'
-  Examples: 芽 呀 牚
-
 - Number: '95'
   Strokes: '5'
   Radical: 玄
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: darkness
   Reading-J: げん
   Reading-R: gen
@@ -1925,7 +1331,8 @@
 - Number: '96'
   Strokes: '5'
   Radical: 王
-  Original: 'y'
+  Alternate: 玊玉
+  Category: Society
   Meaning: 'jewelry, king'
   Reading-J: たま
   Reading-R: tama
@@ -1935,10 +1342,25 @@
   Frequency: '473'
   Examples: 王 玉 主 弄 皇 理 差 聖
 
+- Number: '97'
+  Strokes: '6'
+  Radical: 瓜
+  Alternate: 
+  Category: Agriculture
+  Meaning: melon
+  Reading-J: うり
+  Reading-R: uri
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: '55'
+  Examples: 呱 瓞
+
 - Number: '98'
   Strokes: '5'
   Radical: 瓦
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: tile
   Reading-J: かわら
   Reading-R: kawara
@@ -1951,7 +1373,8 @@
 - Number: '99'
   Strokes: '5'
   Radical: 甘
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: sweet
   Reading-J: あまい
   Reading-R: amai
@@ -1964,7 +1387,8 @@
 - Number: '100'
   Strokes: '5'
   Radical: 生
-  Original: 'y'
+  Alternate: ''
+  Category: Ceremony
   Meaning: 'birth, life'
   Reading-J: うまれる
   Reading-R: umareru
@@ -1977,7 +1401,8 @@
 - Number: '101'
   Strokes: '5'
   Radical: 用
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: to use
   Reading-J: もちいる
   Reading-R: mochiiru
@@ -1990,7 +1415,8 @@
 - Number: '102'
   Strokes: '5'
   Radical: 田
-  Original: 'y'
+  Alternate: 
+  Category: Agriculture
   Meaning: 'rice paddy, field'
   Reading-J: た
   Reading-R: ta
@@ -2003,7 +1429,8 @@
 - Number: '103'
   Strokes: '5'
   Radical: 疋
-  Original: 'y'
+  Alternate: ⺪
+  Category: Clothing
   Meaning: bolt of cloth
   Reading-J: ひき
   Reading-R: hiki
@@ -2016,7 +1443,8 @@
 - Number: '104'
   Strokes: '5'
   Radical: 疒
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: sickness
   Reading-J: やまいだれ
   Reading-R: yamaidare
@@ -2029,7 +1457,8 @@
 - Number: '105'
   Strokes: '5'
   Radical: 癶
-  Original: 'y'
+  Alternate: ''
+  Category: Body
   Meaning: 'outspread legs, departure'
   Reading-J: はつがしら
   Reading-R: hatsugashira
@@ -2042,7 +1471,8 @@
 - Number: '106'
   Strokes: '5'
   Radical: 白
-  Original: 'y'
+  Alternate: 
+  Category: Color
   Meaning: white
   Reading-J: しろ
   Reading-R: shiro
@@ -2055,7 +1485,8 @@
 - Number: '107'
   Strokes: '5'
   Radical: 皮
-  Original: 'y'
+  Alternate: ''
+  Category: Body
   Meaning: 'skin, hide'
   Reading-J: けがわ
   Reading-R: kegawa
@@ -2068,7 +1499,8 @@
 - Number: '108'
   Strokes: '5'
   Radical: 皿
-  Original: 'y'
+  Alternate: ''
+  Category: Home
   Meaning: 'plate, bowl'
   Reading-J: さら
   Reading-R: sara
@@ -2081,7 +1513,8 @@
 - Number: '109'
   Strokes: '5'
   Radical: 目
-  Original: 'y'
+  Alternate: 
+  Category: Body
   Meaning: eye
   Reading-J: め
   Reading-R: me
@@ -2094,7 +1527,8 @@
 - Number: '110'
   Strokes: '5'
   Radical: 矛
-  Original: 'y'
+  Alternate: 
+  Category: Weapon
   Meaning: halberd
   Reading-J: ほこ
   Reading-R: hoko
@@ -2107,7 +1541,8 @@
 - Number: '111'
   Strokes: '5'
   Radical: 矢
-  Original: 'y'
+  Alternate: 
+  Category: Weapon
   Meaning: arrow
   Reading-J: や
   Reading-R: ya
@@ -2120,7 +1555,8 @@
 - Number: '112'
   Strokes: '5'
   Radical: 石
-  Original: 'y'
+  Alternate: ''
+  Category: Nature
   Meaning: stone
   Reading-J: いし
   Reading-R: ishi
@@ -2133,7 +1569,8 @@
 - Number: '113'
   Strokes: '5'
   Radical: 示
-  Original: 'y'
+  Alternate: ⺭
+  Category: Ceremony
   Meaning: 'altar, festival, religious service'
   Reading-J: しめす
   Reading-R: shimesu
@@ -2146,7 +1583,8 @@
 - Number: '114'
   Strokes: '5'
   Radical: 禸
-  Original: 'y'
+  Alternate: ''
+  Category: Body
   Meaning: footprint
   Reading-J: じゅうのあし
   Reading-R: juunoashi
@@ -2159,7 +1597,8 @@
 - Number: '115'
   Strokes: '5'
   Radical: 禾
-  Original: 'y'
+  Alternate: ''
+  Category: Agriculture
   Meaning: grain
   Reading-J: のぎへん
   Reading-R: nogihen
@@ -2172,7 +1611,8 @@
 - Number: '116'
   Strokes: '5'
   Radical: 穴
-  Original: 'y'
+  Alternate: 
+  Category: Nature
   Meaning: 'hole, cave'
   Reading-J: あな
   Reading-R: ana
@@ -2185,7 +1625,8 @@
 - Number: '117'
   Strokes: '5'
   Radical: 立
-  Original: 'y'
+  Alternate: 
+  Category: Body
   Meaning: to stand
   Reading-J: たつ
   Reading-R: tatsu
@@ -2195,270 +1636,11 @@
   Frequency: '101'
   Examples: 立 音 産 翌 意 新 端 親 競
 
-- Number: '266'
-  Strokes: '5'
-  Radical: 玊
-  Original: ''
-  Meaning: 'jewelry, king'
-  Reading-J: たま
-  Reading-R: tama
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '267'
-  Strokes: '5'
-  Radical: 玉
-  Original: ''
-  Meaning: 'jewelry, king'
-  Reading-J: たま
-  Reading-R: tama
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '268'
-  Strokes: '5'
-  Radical: 
-  Original: ''
-  Meaning: melon
-  Reading-J: うり
-  Reading-R: uri
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '269'
-  Strokes: '5'
-  Radical: 
-  Original: ''
-  Meaning: rice paddy
-  Reading-J: たへん
-  Reading-R: tahen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '270'
-  Strokes: '5'
-  Radical: ⺪
-  Original: ''
-  Meaning: bolt of cloth
-  Reading-J: ひきへん
-  Reading-R: hikihen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '271'
-  Strokes: '5'
-  Radical: 
-  Original: ''
-  Meaning: white
-  Reading-J: はくへん
-  Reading-R: hakuhen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '272'
-  Strokes: '5'
-  Radical: 
-  Original: ''
-  Meaning: eye
-  Reading-J: めへん
-  Reading-R: mehen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '273'
-  Strokes: '5'
-  Radical: 
-  Original: ''
-  Meaning: eye
-  Reading-J: よこめ
-  Reading-R: yokome
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '274'
-  Strokes: '5'
-  Radical: 
-  Original: ''
-  Meaning: halberd
-  Reading-J: ほこへん
-  Reading-R: hokohen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '275'
-  Strokes: '5'
-  Radical: 
-  Original: ''
-  Meaning: arrow
-  Reading-J: やへん
-  Reading-R: yahen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '276'
-  Strokes: '5'
-  Radical: 
-  Original: ''
-  Meaning: stone
-  Reading-J: いしへん
-  Reading-R: ishihen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '277'
-  Strokes: '5'
-  Radical: 
-  Original: ''
-  Meaning: 'hole, cave'
-  Reading-J: あなかんむり
-  Reading-R: anakanmuri
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '278'
-  Strokes: '5'
-  Radical: 
-  Original: ''
-  Meaning: to stand
-  Reading-J: たつへん
-  Reading-R: tatsuhen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '279'
-  Strokes: '5'
-  Radical: 
-  Original: ''
-  Meaning: 'fang, canine tooth'
-  Reading-J: きばへん
-  Reading-R: kibahen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '280'
-  Strokes: '5'
-  Radical: 氺
-  Original: ''
-  Meaning: water
-  Reading-J: したみず
-  Reading-R: shitamizu
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '281'
-  Strokes: '5'
-  Radical: ⺫
-  Original: ''
-  Meaning: net
-  Reading-J: あみがしら
-  Reading-R: amigashira
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '282'
-  Strokes: '5'
-  Radical: ⻂
-  Original: ''
-  Meaning: clothing
-  Reading-J: ころもへん
-  Reading-R: koromohen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '283'
-  Strokes: '5'
-  Radical: ⺛
-  Original: ''
-  Meaning: not
-  Reading-J: むにょう
-  Reading-R: munyou
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '285'
-  Strokes: '5'
-  Radical: "\U00026270"
-  Original: ''
-  Meaning: net
-  Reading-J: あみがしら
-  Reading-R: amigashira
-  Position-J: 罒
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '97'
-  Strokes: '6'
-  Radical: 瓜
-  Original: 'y'
-  Meaning: melon
-  Reading-J: うり
-  Reading-R: uri
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: '55'
-  Examples: 呱 瓞
-
 - Number: '118'
   Strokes: '6'
   Radical: 竹
-  Original: 'y'
+  Alternate: ⺮
+  Category: Nature
   Meaning: bamboo
   Reading-J: たけ
   Reading-R: take
@@ -2471,7 +1653,8 @@
 - Number: '119'
   Strokes: '6'
   Radical: 米
-  Original: 'y'
+  Alternate: 
+  Category: Agriculture
   Meaning: rice
   Reading-J: こめ
   Reading-R: kome
@@ -2484,7 +1667,8 @@
 - Number: '120'
   Strokes: '6'
   Radical: 糸
-  Original: 'y'
+  Alternate: 
+  Category: Clothing
   Meaning: thread
   Reading-J: いと
   Reading-R: ito
@@ -2497,7 +1681,8 @@
 - Number: '121'
   Strokes: '6'
   Radical: 缶
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: earthen jar
   Reading-J: みずがめ
   Reading-R: mizugame
@@ -2510,7 +1695,8 @@
 - Number: '122'
   Strokes: '6'
   Radical: 罒
-  Original: 'y'
+  Alternate: "㓁⽹\U00026270"
+  Category: Fishing
   Meaning: net
   Reading-J: あみがしら
   Reading-R: amigashira
@@ -2523,7 +1709,8 @@
 - Number: '123'
   Strokes: '6'
   Radical: 羊
-  Original: 'y'
+  Alternate: ⺷
+  Category: Animal
   Meaning: sheep
   Reading-J: ひつじ
   Reading-R: hitsuji
@@ -2536,7 +1723,8 @@
 - Number: '124'
   Strokes: '6'
   Radical: 羽
-  Original: 'y'
+  Alternate: ⽻
+  Category: 'y'
   Meaning: 'feather, wing'
   Reading-J: はね
   Reading-R: hane
@@ -2546,10 +1734,25 @@
   Frequency: '220'
   Examples: 習 翀 翁 翔
 
+- Number: '125'
+  Strokes: '4'
+  Radical: 耂
+  Alternate: ⽼
+  Category: 'y'
+  Meaning: 'old, old-age'
+  Reading-J: おいかんむり
+  Reading-R: oikanmuri
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: ''
+  Frequency: '22'
+  Examples: 耆孝耋
+
 - Number: '126'
   Strokes: '6'
   Radical: 而
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: and also
   Reading-J: しこうして
   Reading-R: shikoushite
@@ -2562,7 +1765,8 @@
 - Number: '127'
   Strokes: '6'
   Radical: 耒
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: plow
   Reading-J: らいすき
   Reading-R: raisuki
@@ -2575,7 +1779,8 @@
 - Number: '128'
   Strokes: '6'
   Radical: 耳
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: ear
   Reading-J: みみ
   Reading-R: mimi
@@ -2588,7 +1793,8 @@
 - Number: '129'
   Strokes: '6'
   Radical: 聿
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: writing brush
   Reading-J: ふでづくり
   Reading-R: fudezukuri
@@ -2601,7 +1807,8 @@
 - Number: '130'
   Strokes: '6'
   Radical: 肉
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'flesh, meat'
   Reading-J: にく
   Reading-R: niku
@@ -2611,10 +1818,25 @@
   Frequency: '674'
   Examples: 肉 肖 股 胃 腅 脤
 
+- Number: '131'
+  Strokes: '7'
+  Radical: 臣
+  Alternate: ⾂
+  Category: 'y'
+  Meaning: 'retainer, minister'
+  Reading-J: しん
+  Reading-R: shin
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: '16'
+  Examples: 臥 宦 蔵
+
 - Number: '132'
   Strokes: '6'
   Radical: 自
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: self
   Reading-J: みずから
   Reading-R: mizukara
@@ -2627,7 +1849,8 @@
 - Number: '133'
   Strokes: '6'
   Radical: 至
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'to arrive, reach'
   Reading-J: いたる
   Reading-R: itaru
@@ -2640,7 +1863,8 @@
 - Number: '134'
   Strokes: '6'
   Radical: 臼
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'mortar, quern'
   Reading-J: うす
   Reading-R: usu
@@ -2653,7 +1877,8 @@
 - Number: '135'
   Strokes: '6'
   Radical: 舌
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: tongue
   Reading-J: した
   Reading-R: shita
@@ -2663,10 +1888,25 @@
   Frequency: '31'
   Examples: 乱 适 話 舍
 
+- Number: '136'
+  Strokes: '7'
+  Radical: 舛
+  Alternate: 
+  Category: 'y'
+  Meaning: 'contrary, to err'
+  Reading-J: まいあし
+  Reading-R: maiashi
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: '10'
+  Examples: 舛 舜 舞
+
 - Number: '137'
   Strokes: '6'
   Radical: 舟
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'ship, boat'
   Reading-J: ふね
   Reading-R: fune
@@ -2679,7 +1919,8 @@
 - Number: '138'
   Strokes: '6'
   Radical: 艮
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: boundary
   Reading-J: こん
   Reading-R: kon
@@ -2692,7 +1933,8 @@
 - Number: '139'
   Strokes: '6'
   Radical: 色
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: color
   Reading-J: いろ
   Reading-R: iro
@@ -2702,10 +1944,25 @@
   Frequency: '21'
   Examples: 色 艴 艷
 
+- Number: '140'
+  Strokes: '3'
+  Radical: 艹
+  Alternate: ⾋
+  Category: 'y'
+  Meaning: grass
+  Reading-J: くさかんむり
+  Reading-R: kusakanmuri
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: Important
+  Frequency: '1,902'
+  Examples: 共 花(37) 英 苦 草 茶 落 幕 靴 鞄 薬
+
 - Number: '141'
   Strokes: '6'
   Radical: 虍
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: tiger
   Reading-J: とらがしら
   Reading-R: toragashira
@@ -2718,7 +1975,8 @@
 - Number: '142'
   Strokes: '6'
   Radical: 虫
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'worm, insect, bug'
   Reading-J: むし
   Reading-R: mushi
@@ -2731,7 +1989,8 @@
 - Number: '143'
   Strokes: '6'
   Radical: 血
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: blood
   Reading-J: ち
   Reading-R: chi
@@ -2744,7 +2003,8 @@
 - Number: '144'
   Strokes: '6'
   Radical: 行
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: to go
   Reading-J: ぎょうがまえ
   Reading-R: gyougamae
@@ -2757,7 +2017,8 @@
 - Number: '145'
   Strokes: '6'
   Radical: 衣
-  Original: 'y'
+  Alternate: ⻂
+  Category: 'y'
   Meaning: clothing
   Reading-J: ころも
   Reading-R: koromo
@@ -2770,7 +2031,8 @@
 - Number: '146'
   Strokes: '6'
   Radical: 西
-  Original: 'y'
+  Alternate: ⾑ ⻃
+  Category: 'y'
   Meaning: 'cover, west'
   Reading-J: にし
   Reading-R: nishi
@@ -2780,231 +2042,11 @@
   Frequency: '29'
   Examples: 西 要 覊
 
-- Number: '284'
-  Strokes: '6'
-  Radical: ⺮
-  Original: ''
-  Meaning: bamboo
-  Reading-J: たけかんむり
-  Reading-R: takekanmuri
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '286'
-  Strokes: '6'
-  Radical: 
-  Original: ''
-  Meaning: rice
-  Reading-J: こめへん
-  Reading-R: komehen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '287'
-  Strokes: '6'
-  Radical: 
-  Original: ''
-  Meaning: thread
-  Reading-J: いとへん
-  Reading-R: itohen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '288'
-  Strokes: '6'
-  Radical: ⽹
-  Original: ''
-  Meaning: net
-  Reading-J: あみめ
-  Reading-R: amime
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '289'
-  Strokes: '6'
-  Radical: ⺷
-  Original: ''
-  Meaning: sheep
-  Reading-J: ひつじ
-  Reading-R: hitsuji
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '290'
-  Strokes: '6'
-  Radical: ⽻
-  Original: ''
-  Meaning: 'feather, wing'
-  Reading-J: はね
-  Reading-R: hane
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '291'
-  Strokes: '6'
-  Radical: ⽼
-  Original: ''
-  Meaning: 'old, old-age'
-  Reading-J: おいかんむり
-  Reading-R: oikanmuri
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '292'
-  Strokes: '6'
-  Radical: 
-  Original: ''
-  Meaning: ear
-  Reading-J: みみへん
-  Reading-R: mimihen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '293'
-  Strokes: '6'
-  Radical: ⾂
-  Original: ''
-  Meaning: 'retainer, minister'
-  Reading-J: しん
-  Reading-R: shin
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '294'
-  Strokes: '6'
-  Radical: 
-  Original: ''
-  Meaning: 'to arrive, reach'
-  Reading-J: いたるへん
-  Reading-R: ''
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '295'
-  Strokes: '6'
-  Radical: 
-  Original: ''
-  Meaning: 'ship, boat'
-  Reading-J: ふねへん
-  Reading-R: funehen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '296'
-  Strokes: '6'
-  Radical: ⾋
-  Original: ''
-  Meaning: 'grass, plant'
-  Reading-J: くさ
-  Reading-R: kusa
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '297'
-  Strokes: '6'
-  Radical: 
-  Original: ''
-  Meaning: 'worm, insect, bug'
-  Reading-J: むしへん
-  Reading-R: mushihen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '298'
-  Strokes: '6'
-  Radical: ⾑
-  Original: ''
-  Meaning: 'cover, west'
-  Reading-J: にし
-  Reading-R: nishi
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '299'
-  Strokes: '6'
-  Radical: ⻃
-  Original: ''
-  Meaning: 'cover, west'
-  Reading-J: にし
-  Reading-R: nishi
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '131'
-  Strokes: '7'
-  Radical: 臣
-  Original: 'y'
-  Meaning: 'retainer, minister'
-  Reading-J: しん
-  Reading-R: shin
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: '16'
-  Examples: 臥 宦 蔵
-
-- Number: '136'
-  Strokes: '7'
-  Radical: 舛
-  Original: 'y'
-  Meaning: 'contrary, to err'
-  Reading-J: まいあし
-  Reading-R: maiashi
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: '10'
-  Examples: 舛 舜 舞
-
 - Number: '147'
   Strokes: '7'
   Radical: 見
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: to see
   Reading-J: みる
   Reading-R: miru
@@ -3017,7 +2059,8 @@
 - Number: '148'
   Strokes: '7'
   Radical: 角
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'horn, corner'
   Reading-J: つの
   Reading-R: tsuno
@@ -3030,7 +2073,8 @@
 - Number: '149'
   Strokes: '7'
   Radical: 言
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'words, to speak, say'
   Reading-J: げん
   Reading-R: gen
@@ -3043,7 +2087,8 @@
 - Number: '150'
   Strokes: '7'
   Radical: 谷
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: valley
   Reading-J: たに
   Reading-R: tani
@@ -3056,7 +2101,8 @@
 - Number: '151'
   Strokes: '7'
   Radical: 豆
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: bean
   Reading-J: まめ
   Reading-R: mame
@@ -3069,7 +2115,8 @@
 - Number: '152'
   Strokes: '7'
   Radical: 豕
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: pig
   Reading-J: いのこ
   Reading-R: inoko
@@ -3082,7 +2129,8 @@
 - Number: '153'
   Strokes: '7'
   Radical: 豸
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'badger, beast'
   Reading-J: むじなへん
   Reading-R: mujinahen
@@ -3095,7 +2143,8 @@
 - Number: '154'
   Strokes: '7'
   Radical: 貝
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'shell, property, wealth'
   Reading-J: かい
   Reading-R: kai
@@ -3108,7 +2157,8 @@
 - Number: '155'
   Strokes: '7'
   Radical: 赤
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: red
   Reading-J: あか
   Reading-R: aka
@@ -3121,7 +2171,8 @@
 - Number: '156'
   Strokes: '7'
   Radical: 走
-  Original: 'y'
+  Alternate: ⾡
+  Category: 'y'
   Meaning: to run
   Reading-J: はしる
   Reading-R: hashiru
@@ -3134,7 +2185,8 @@
 - Number: '157'
   Strokes: '7'
   Radical: 足
-  Original: 'y'
+  Alternate: ⻊
+  Category: 'y'
   Meaning: 'foot, leg'
   Reading-J: あし
   Reading-R: ashi
@@ -3147,7 +2199,8 @@
 - Number: '158'
   Strokes: '7'
   Radical: 身
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: body
   Reading-J: み
   Reading-R: mi
@@ -3160,7 +2213,8 @@
 - Number: '159'
   Strokes: '7'
   Radical: 車
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'vehicle, wheel, car'
   Reading-J: くるま
   Reading-R: kuruma
@@ -3173,7 +2227,8 @@
 - Number: '160'
   Strokes: '7'
   Radical: 辛
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: bitter
   Reading-J: からい
   Reading-R: karai
@@ -3186,7 +2241,8 @@
 - Number: '161'
   Strokes: '7'
   Radical: 辰
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'morning, 7–9 A.M.'
   Reading-J: しんのたつ
   Reading-R: shinnotatsu
@@ -3196,10 +2252,25 @@
   Frequency: '15'
   Examples: 辱 農
 
+- Number: '162'
+  Strokes: '3'
+  Radical: ⻌
+  Alternate: ''
+  Category: 'y'
+  Meaning: 'road, walk, to advance'
+  Reading-J: しんにょう
+  Reading-R: shinnyou
+  Position-J: にょう
+  Position-R: nyou
+  Importance: Important
+  Frequency: '381'
+  Examples: 巡 迎 通 追 逃 迎 進
+
 - Number: '163'
   Strokes: '7'
   Radical: 邑
-  Original: 'y'
+  Alternate: ⻏
+  Category: 'y'
   Meaning: 'town, community'
   Reading-J: むら
   Reading-R: mura
@@ -3212,7 +2283,8 @@
 - Number: '164'
   Strokes: '7'
   Radical: 酉
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'sake jar, bird'
   Reading-J: ひよみのとり
   Reading-R: hiyominotori
@@ -3225,7 +2297,8 @@
 - Number: '165'
   Strokes: '7'
   Radical: 釆
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'divide, to separate'
   Reading-J: のごめ
   Reading-R: nogom
@@ -3238,7 +2311,8 @@
 - Number: '166'
   Strokes: '7'
   Radical: 里
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'village, (3.93 km)'
   Reading-J: さと
   Reading-R: sato
@@ -3248,205 +2322,11 @@
   Frequency: '14'
   Examples: 野 野
 
-- Number: '199'
-  Strokes: '7'
-  Radical: 麦
-  Original: 'y'
-  Meaning: wheat
-  Reading-J: むぎ
-  Reading-R: mugi
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: '131'
-  Examples: 麴 麵 麱 麨 麺
-
-- Number: '300'
-  Strokes: '7'
-  Radical: 
-  Original: ''
-  Meaning: 'horn, corner'
-  Reading-J: つのへん
-  Reading-R: tsunohen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '301'
-  Strokes: '7'
-  Radical: 
-  Original: ''
-  Meaning: 'words, to speak, say'
-  Reading-J: ごんべん
-  Reading-R: gonben
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '302'
-  Strokes: '7'
-  Radical: 
-  Original: ''
-  Meaning: valley
-  Reading-J: たにへん
-  Reading-R: tanihen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '303'
-  Strokes: '7'
-  Radical: 
-  Original: ''
-  Meaning: bean
-  Reading-J: まめへん
-  Reading-R: mamehen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '304'
-  Strokes: '7'
-  Radical: 
-  Original: ''
-  Meaning: 'shell, property, wealth'
-  Reading-J: かいへん
-  Reading-R: kaihen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '305'
-  Strokes: '7'
-  Radical: 
-  Original: ''
-  Meaning: to run
-  Reading-J: そうにょう
-  Reading-R: sounyou
-  Position-J: にょう
-  Position-R: nyou
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '306'
-  Strokes: '7'
-  Radical: ⻊
-  Original: ''
-  Meaning: 'foot, leg'
-  Reading-J: あしへん
-  Reading-R: ashihen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '307'
-  Strokes: '7'
-  Radical: 
-  Original: ''
-  Meaning: body
-  Reading-J: みへん
-  Reading-R: mihen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '308'
-  Strokes: '7'
-  Radical: 
-  Original: ''
-  Meaning: 'vehicle, wheel, car'
-  Reading-J: くるまへん
-  Reading-R: kurumahen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '309'
-  Strokes: '7'
-  Radical: ⾡
-  Original: ''
-  Meaning: to run
-  Reading-J: しんにょう
-  Reading-R: shinnyou
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '310'
-  Strokes: '7'
-  Radical: 
-  Original: ''
-  Meaning: 'sake jar, bird'
-  Reading-J: とりへん
-  Reading-R: torihen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '311'
-  Strokes: '7'
-  Radical: 
-  Original: ''
-  Meaning: 'divide, to separate'
-  Reading-J: のごめへん
-  Reading-R: nogomehen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '312'
-  Strokes: '7'
-  Radical: 
-  Original: ''
-  Meaning: 'village, (3.93 km)'
-  Reading-J: さとへん
-  Reading-R: satohen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '313'
-  Strokes: '7'
-  Radical: 
-  Original: ''
-  Meaning: 'contrary, to err'
-  Reading-J: まいあし
-  Reading-R: maiashi
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
 - Number: '167'
   Strokes: '8'
   Radical: 金
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: 'metal, gold, mineral'
   Reading-J: かね
   Reading-R: kane
@@ -3459,7 +2339,8 @@
 - Number: '168'
   Strokes: '8'
   Radical: 長
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: long
   Reading-J: ながい
   Reading-R: nagai
@@ -3472,7 +2353,8 @@
 - Number: '169'
   Strokes: '8'
   Radical: 門
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'gate, door'
   Reading-J: もんがまえ
   Reading-R: mongamae
@@ -3485,7 +2367,8 @@
 - Number: '170'
   Strokes: '8'
   Radical: ⾩
-  Original: 'y'
+  Alternate: ⻖
+  Category: 'y'
   Meaning: 'hill, mound, dam'
   Reading-J: こざと
   Reading-R: kozato
@@ -3498,7 +2381,8 @@
 - Number: '171'
   Strokes: '8'
   Radical: 隶
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: to capture
   Reading-J: れいづくり
   Reading-R: reizukuri
@@ -3511,7 +2395,8 @@
 - Number: '172'
   Strokes: '8'
   Radical: 隹
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: small bird
   Reading-J: ふるとり
   Reading-R: furutori
@@ -3524,7 +2409,8 @@
 - Number: '173'
   Strokes: '8'
   Radical: 雨
-  Original: 'y'
+  Alternate: ⻗
+  Category: 'y'
   Meaning: rain
   Reading-J: あめ
   Reading-R: ame
@@ -3537,7 +2423,8 @@
 - Number: '174'
   Strokes: '8'
   Radical: 青
-  Original: 'y'
+  Alternate: ⾭
+  Category: 'y'
   Meaning: 'blue, green'
   Reading-J: あお
   Reading-R: ao
@@ -3550,7 +2437,8 @@
 - Number: '175'
   Strokes: '8'
   Radical: 非
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'wrong, non-'
   Reading-J: あらず
   Reading-R: arazu
@@ -3560,75 +2448,11 @@
   Frequency: '25'
   Examples: 靠 靠 靟
 
-- Number: '314'
-  Strokes: '8'
-  Radical: 
-  Original: ''
-  Meaning: 'metal, gold, mineral'
-  Reading-J: かねへん
-  Reading-R: kanehen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '315'
-  Strokes: '8'
-  Radical: ⻗
-  Original: ''
-  Meaning: rain
-  Reading-J: あめかんむり
-  Reading-R: amekanmuri
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '316'
-  Strokes: '8'
-  Radical: ⾭
-  Original: ''
-  Meaning: 'blue, green'
-  Reading-J: あお
-  Reading-R: ao
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '317'
-  Strokes: '8'
-  Radical: ⻟
-  Original: ''
-  Meaning: 'food, to eat'
-  Reading-J: しょくへん
-  Reading-R: shokuhen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '318'
-  Strokes: '8'
-  Radical: ⻫
-  Original: ''
-  Meaning: alike
-  Reading-J: せい
-  Reading-R: sei
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
 - Number: '176'
   Strokes: '9'
   Radical: 面
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'face, surface'
   Reading-J: めん
   Reading-R: men
@@ -3641,7 +2465,8 @@
 - Number: '177'
   Strokes: '9'
   Radical: 革
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: leather
   Reading-J: つくりがわ
   Reading-R: tsukurigawa
@@ -3651,10 +2476,25 @@
   Frequency: '305'
   Examples: 靴 鞍 鞅 鞍 鞭
 
+- Number: '178'
+  Strokes: '10'
+  Radical: 韋
+  Alternate: ''
+  Category: 'y'
+  Meaning: tanned leather
+  Reading-J: なめしがわ
+  Reading-R: nameshigawa
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: '100'
+  Examples: 韋 韓 韜
+
 - Number: '179'
   Strokes: '9'
   Radical: 韭
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: leek
   Reading-J: にら
   Reading-R: nira
@@ -3667,7 +2507,8 @@
 - Number: '180'
   Strokes: '9'
   Radical: 音
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'sound, noise'
   Reading-J: おと
   Reading-R: oto
@@ -3680,7 +2521,8 @@
 - Number: '181'
   Strokes: '9'
   Radical: 頁
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'head, page'
   Reading-J: おおがい
   Reading-R: oogai
@@ -3693,7 +2535,8 @@
 - Number: '182'
   Strokes: '9'
   Radical: 風
-  Original: 'y'
+  Alternate: ⺇
+  Category: 'y'
   Meaning: wind
   Reading-J: かぜ
   Reading-R: kaze
@@ -3706,7 +2549,8 @@
 - Number: '183'
   Strokes: '9'
   Radical: 飛
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: to fly
   Reading-J: とぶ
   Reading-R: tobu
@@ -3719,7 +2563,8 @@
 - Number: '184'
   Strokes: '9'
   Radical: 食
-  Original: 'y'
+  Alternate: ⻟
+  Category: 'y'
   Meaning: 'food, to eat'
   Reading-J: しょく
   Reading-R: shoku
@@ -3732,7 +2577,8 @@
 - Number: '185'
   Strokes: '9'
   Radical: 首
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: head
   Reading-J: くび
   Reading-R: kubi
@@ -3745,7 +2591,8 @@
 - Number: '186'
   Strokes: '9'
   Radical: 香
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: scent
   Reading-J: かおり
   Reading-R: kaori
@@ -3755,36 +2602,11 @@
   Frequency: '37'
   Examples: 馨
 
-- Number: '319'
-  Strokes: '9'
-  Radical: 
-  Original: ''
-  Meaning: leather
-  Reading-J: なめしがわ
-  Reading-R: nameshigawa
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '178'
-  Strokes: '10'
-  Radical: 韋
-  Original: 'y'
-  Meaning: tanned leather
-  Reading-J: なめしがわ
-  Reading-R: nameshigawa
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: '100'
-  Examples: 韋 韓 韜
-
 - Number: '187'
   Strokes: '10'
   Radical: 馬
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: horse
   Reading-J: うま
   Reading-R: uma
@@ -3797,7 +2619,8 @@
 - Number: '188'
   Strokes: '10'
   Radical: 骨
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: bone
   Reading-J: ほね
   Reading-R: hone
@@ -3810,7 +2633,8 @@
 - Number: '189'
   Strokes: '10'
   Radical: 高
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: high
   Reading-J: たかい
   Reading-R: takai
@@ -3823,7 +2647,8 @@
 - Number: '190'
   Strokes: '10'
   Radical: 髟
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: long hair
   Reading-J: かみかんむり
   Reading-R: kamikanmuri
@@ -3836,7 +2661,8 @@
 - Number: '191'
   Strokes: '10'
   Radical: 鬥
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: fighting
   Reading-J: たたかいがまえ
   Reading-R: tatakaigamae
@@ -3849,7 +2675,8 @@
 - Number: '192'
   Strokes: '10'
   Radical: 鬯
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: herbs
   Reading-J: においざけ
   Reading-R: nioizake
@@ -3862,7 +2689,8 @@
 - Number: '193'
   Strokes: '10'
   Radical: 鬲
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: tripod
   Reading-J: れき
   Reading-R: reki
@@ -3875,7 +2703,8 @@
 - Number: '194'
   Strokes: '10'
   Radical: 鬼
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: demon
   Reading-J: おに
   Reading-R: oni
@@ -3885,36 +2714,11 @@
   Frequency: '141'
   Examples: 魂 魁 鬽 魄
 
-- Number: '320'
-  Strokes: '10'
-  Radical: 
-  Original: ''
-  Meaning: horse
-  Reading-J: うまへん
-  Reading-R: umahen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '321'
-  Strokes: '10'
-  Radical: 
-  Original: ''
-  Meaning: bone
-  Reading-J: ほねへん
-  Reading-R: honehen
-  Position-J: へん
-  Position-R: hen
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
 - Number: '195'
   Strokes: '11'
   Radical: 魚
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: fish
   Reading-J: うお
   Reading-R: uo
@@ -3927,7 +2731,8 @@
 - Number: '196'
   Strokes: '11'
   Radical: 鳥
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: bird
   Reading-J: とり
   Reading-R: tori
@@ -3940,7 +2745,8 @@
 - Number: '197'
   Strokes: '11'
   Radical: 鹵
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: salt
   Reading-J: しお
   Reading-R: shio
@@ -3953,7 +2759,8 @@
 - Number: '198'
   Strokes: '11'
   Radical: 鹿
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: deer
   Reading-J: しか
   Reading-R: shika
@@ -3963,10 +2770,25 @@
   Frequency: '104'
   Examples: 塵 麃 麋 麉 麟
 
+- Number: '199'
+  Strokes: '7'
+  Radical: 麦
+  Alternate: ⿆
+  Category: 'y'
+  Meaning: wheat
+  Reading-J: むぎ
+  Reading-R: mugi
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: '131'
+  Examples: 麴 麵 麱 麨 麺
+
 - Number: '200'
   Strokes: '11'
   Radical: 麻
-  Original: 'y'
+  Alternate: 
+  Category: 'y'
   Meaning: hemp
   Reading-J: あさ
   Reading-R: asa
@@ -3979,7 +2801,8 @@
 - Number: '201'
   Strokes: '11'
   Radical: 黄
-  Original: 'y'
+  Alternate: ⿈
+  Category: 'y'
   Meaning: yellow
   Reading-J: き
   Reading-R: ki
@@ -3989,88 +2812,11 @@
   Frequency: '42'
   Examples: 黊 黌
 
-- Number: '203'
-  Strokes: '11'
-  Radical: 黒
-  Original: 'y'
-  Meaning: black
-  Reading-J: くろ
-  Reading-R: kuro
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: '172'
-  Examples: 點 黛 黱 黨
-
-- Number: '212'
-  Strokes: '11'
-  Radical: 竜
-  Original: 'y'
-  Meaning: dragon
-  Reading-J: りゅう
-  Reading-R: ryuu
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: '14'
-  Examples: 龖 龘
-
-- Number: '213'
-  Strokes: '11'
-  Radical: 亀
-  Original: 'y'
-  Meaning: turtle
-  Reading-J: かめ
-  Reading-R: kame
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: '24'
-  Examples: 龝
-
-- Number: '322'
-  Strokes: '11'
-  Radical: 
-  Original: ''
-  Meaning: fish
-  Reading-J: うおへん
-  Reading-R: uohen
-  Position-J: へん
-  Position-R: hen
-  Importance: Important
-  Frequency: ''
-  Examples: ''
-
-- Number: '323'
-  Strokes: '11'
-  Radical: ⿆
-  Original: ''
-  Meaning: wheat
-  Reading-J: むぎ
-  Reading-R: mugi
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '324'
-  Strokes: '11'
-  Radical: 
-  Original: ''
-  Meaning: hemp
-  Reading-J: あさかんむり
-  Reading-R: asakanmuri
-  Position-J: かんむり
-  Position-R: kanmuri
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
 - Number: '202'
   Strokes: '12'
   Radical: 黍
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: millet
   Reading-J: きび
   Reading-R: kibi
@@ -4080,10 +2826,25 @@
   Frequency: '46'
   Examples: 黏 黎
 
+- Number: '203'
+  Strokes: '11'
+  Radical: 黒
+  Alternate: ⿊
+  Category: 'y'
+  Meaning: black
+  Reading-J: くろ
+  Reading-R: kuro
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: '172'
+  Examples: 點 黛 黱 黨
+
 - Number: '204'
   Strokes: '12'
   Radical: 黹
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: embroider
   Reading-J: ぬいとり
   Reading-R: nuitori
@@ -4093,49 +2854,11 @@
   Frequency: '8'
   Examples: 黼 黻
 
-- Number: '211'
-  Strokes: '12'
-  Radical: 歯
-  Original: 'y'
-  Meaning: tooth
-  Reading-J: は
-  Reading-R: ha
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: '162'
-  Examples: 齡 齠 齗
-
-- Number: '325'
-  Strokes: '12'
-  Radical: ⿈
-  Original: ''
-  Meaning: yellow
-  Reading-J: き
-  Reading-R: ki
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
-- Number: '326'
-  Strokes: '12'
-  Radical: ⿊
-  Original: ''
-  Meaning: black
-  Reading-J: くろ
-  Reading-R: kuro
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: ''
-  Examples: ''
-
 - Number: '205'
   Strokes: '13'
   Radical: 黽
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: frog
   Reading-J: かえる
   Reading-R: kaeru
@@ -4148,7 +2871,8 @@
 - Number: '206'
   Strokes: '13'
   Radical: 鼎
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: tripod (sacrificial)
   Reading-J: かなえ
   Reading-R: kanae
@@ -4161,7 +2885,8 @@
 - Number: '207'
   Strokes: '13'
   Radical: 鼓
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: drum
   Reading-J: つづみ
   Reading-R: tuzumi
@@ -4174,7 +2899,8 @@
 - Number: '208'
   Strokes: '13'
   Radical: 鼠
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: 'rat, mouse'
   Reading-J: ねずみ
   Reading-R: nezumi
@@ -4187,7 +2913,8 @@
 - Number: '209'
   Strokes: '14'
   Radical: 鼻
-  Original: 'y'
+  Alternate: ''
+  Category: 'y'
   Meaning: nose
   Reading-J: はな
   Reading-R: hana
@@ -4200,7 +2927,8 @@
 - Number: '210'
   Strokes: '14'
   Radical: 齊
-  Original: 'y'
+  Alternate: ⻫
+  Category: 'y'
   Meaning: alike
   Reading-J: せい
   Reading-R: sei
@@ -4210,10 +2938,1621 @@
   Frequency: '18'
   Examples: 齋 齏 齏
 
+- Number: '211'
+  Strokes: '12'
+  Radical: 歯
+  Alternate: ⿒
+  Category: 'y'
+  Meaning: tooth
+  Reading-J: は
+  Reading-R: ha
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: '162'
+  Examples: 齡 齠 齗
+
+- Number: '212'
+  Strokes: '11'
+  Radical: 竜
+  Alternate: 龍
+  Category: 'y'
+  Meaning: dragon
+  Reading-J: りゅう
+  Reading-R: ryuu
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: '14'
+  Examples: 龖 龘
+
+- Number: '213'
+  Strokes: '11'
+  Radical: 亀
+  Alternate: ⿔
+  Category: 'y'
+  Meaning: turtle
+  Reading-J: かめ
+  Reading-R: kame
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: '24'
+  Examples: 龝
+
+- Number: '214'
+  Strokes: '17'
+  Radical: 龠
+  Alternate: ''
+  Category: 'y'
+  Meaning: flute
+  Reading-J: やく
+  Reading-R: yaku
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: '19'
+  Examples: 龣
+
+- Number: '215'
+  Strokes: '1'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'bend, stroke'
+  Reading-J: のかんむり
+  Reading-R: nokanmuri
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '216'
+  Strokes: '1'
+  Radical: ⺃
+  Alternate: ''
+  Category: ''
+  Meaning: the second
+  Reading-J: おつ
+  Reading-R: otsu
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '217'
+  Strokes: '2'
+  Radical: ⺅
+  Alternate: ''
+  Category: ''
+  Meaning: person
+  Reading-J: にんべん
+  Reading-R: ninben
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '218'
+  Strokes: '2'
+  Radical: "\U000201A2"
+  Alternate: ''
+  Category: ''
+  Meaning: person
+  Reading-J: ひとやね
+  Reading-R: hitoyane
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '219'
+  Strokes: '2'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: eight
+  Reading-J: はちがしら
+  Reading-R: hachigashira
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '220'
+  Strokes: '2'
+  Radical: ⺇
+  Alternate: ''
+  Category: ''
+  Meaning: wind
+  Reading-J: かぜかんむり
+  Reading-R: kazekanmuri
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '221'
+  Strokes: '2'
+  Radical: ⺉
+  Alternate: ''
+  Category: ''
+  Meaning: 'knife, sword'
+  Reading-J: りっとう
+  Reading-R: rittou
+  Position-J: つくり
+  Position-R: tsukuri
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '223'
+  Strokes: '3'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: mouth
+  Reading-J: くちへん
+  Reading-R: kuchihen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '224'
+  Strokes: '3'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: earth
+  Reading-J: つちへん
+  Reading-R: tsuchihen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '225'
+  Strokes: '3'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'man, scholar, samurai'
+  Reading-J: さむらいかんむり
+  Reading-R: samuraikanmuri
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '226'
+  Strokes: '3'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: woman
+  Reading-J: おんなへん
+  Reading-R: onnahen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '227'
+  Strokes: '3'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'child, son'
+  Reading-J: こへん
+  Reading-R: kohen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '228'
+  Strokes: '3'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'inch, (2.25 cm)'
+  Reading-J: すんづくり
+  Reading-R: sunzukuri
+  Position-J: つくり
+  Position-R: tsukuri
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '229'
+  Strokes: '3'
+  Radical: ⺌
+  Alternate: ''
+  Category: ''
+  Meaning: small
+  Reading-J: しょうかんむり
+  Reading-R: shoukanmuri
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '230'
+  Strokes: '3'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: mountain
+  Reading-J: やまへん
+  Reading-R: yamahen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '231'
+  Strokes: '3'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: mountain
+  Reading-J: やまかんむり
+  Reading-R: yamakanmuri
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '232'
+  Strokes: '3'
+  Radical: 川
+  Alternate: ''
+  Category: ''
+  Meaning: river
+  Reading-J: さんぼんがわ
+  Reading-R: sanbongawa
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '233'
+  Strokes: '3'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'work, carpenter, skill'
+  Reading-J: たくみへん
+  Reading-R: takumihen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '234'
+  Strokes: '3'
+  Radical: 巳
+  Alternate: ''
+  Category: ''
+  Meaning: oneself
+  Reading-J: おのれ
+  Reading-R: onore
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '235'
+  Strokes: '3'
+  Radical: 己
+  Alternate: ''
+  Category: ''
+  Meaning: oneself
+  Reading-J: おのれ
+  Reading-R: onore
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '236'
+  Strokes: '3'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: cloth
+  Reading-J: はばへん
+  Reading-R: habahen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '237'
+  Strokes: '3'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: bow （in archery）
+  Reading-J: ゆみへん
+  Reading-R: yumihen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '238'
+  Strokes: '3'
+  Radical: ⺕
+  Alternate: ''
+  Category: ''
+  Meaning: pig’s head
+  Reading-J: けいがしら
+  Reading-R: keigashira
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '239'
+  Strokes: '3'
+  Radical: ⺔
+  Alternate: ''
+  Category: ''
+  Meaning: pig’s head
+  Reading-J: けいがしら
+  Reading-R: keigashira
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '240'
+  Strokes: '3'
+  Radical: ⻏
+  Alternate: ''
+  Category: ''
+  Meaning: 'town, community'
+  Reading-J: おおざと
+  Reading-R: oozato
+  Position-J: つくり
+  Position-R: tsukuri
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '241'
+  Strokes: '3'
+  Radical: ⻖
+  Alternate: ''
+  Category: ''
+  Meaning: 'hill, mound, dam'
+  Reading-J: こざとへん
+  Reading-R: kozatohen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '242'
+  Strokes: '3'
+  Radical: ⺍
+  Alternate: ''
+  Category: ''
+  Meaning: Katakana Tsu
+  Reading-J: つ
+  Reading-R: tsu
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '243'
+  Strokes: '3'
+  Radical: ⺖
+  Alternate: ''
+  Category: ''
+  Meaning: 'heart, mind, spirit'
+  Reading-J: りっしんべん
+  Reading-R: risshinben
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: high
+  Examples: ''
+
+- Number: '244'
+  Strokes: '3'
+  Radical: ⺘
+  Alternate: ''
+  Category: ''
+  Meaning: hand
+  Reading-J: てへん
+  Reading-R: tehen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '245'
+  Strokes: '3'
+  Radical: ⺡
+  Alternate: ''
+  Category: ''
+  Meaning: water
+  Reading-J: さんずい
+  Reading-R: sanzui
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: high
+  Examples: ''
+
+- Number: '246'
+  Strokes: '3'
+  Radical: ⺨
+  Alternate: ''
+  Category: ''
+  Meaning: beast
+  Reading-J: けものへん
+  Reading-R: kemonohen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '247'
+  Strokes: '4'
+  Radical: ⺗
+  Alternate: ''
+  Category: ''
+  Meaning: 'heart, mind, spirit'
+  Reading-J: したごころ
+  Reading-R: shitagokoro
+  Position-J: あし
+  Position-R: ashi
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '248'
+  Strokes: '4'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: door
+  Reading-J: とだれ
+  Reading-R: todare
+  Position-J: たれ
+  Position-R: tare
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '249'
+  Strokes: '4'
+  Radical: ⽁
+  Alternate: ''
+  Category: ''
+  Meaning: 'activity, to strike, hit'
+  Reading-J: ぼくづくり
+  Reading-R: bokuzukuri
+  Position-J: つくり
+  Position-R: tsukuri
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '250'
+  Strokes: '4'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'direction, flag'
+  Reading-J: ほうへん
+  Reading-R: houhen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '251'
+  Strokes: '4'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'sun, day, time'
+  Reading-J: ひへん
+  Reading-R: hihen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '252'
+  Strokes: '4'
+  Radical: ⺝
+  Alternate: ''
+  Category: ''
+  Meaning: 'moon, month, period'
+  Reading-J: つきへん
+  Reading-R: tsukihen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '253'
+  Strokes: '4'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'meat, flesh'
+  Reading-J: にくづき
+  Reading-R: nikuzuki
+  Position-J: ''
+  Position-R: ''
+  Importance: Important
+  Frequency: high
+  Examples: ''
+
+- Number: '254'
+  Strokes: '4'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'tree, wood'
+  Reading-J: きへん
+  Reading-R: kihen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '255'
+  Strokes: '4'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'death & dying, to decompose'
+  Reading-J: がつへん
+  Reading-R: gatsuhen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '256'
+  Strokes: '4'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: fire
+  Reading-J: ひへん
+  Reading-R: hihen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '257'
+  Strokes: '4'
+  Radical: ⺣
+  Alternate: ''
+  Category: ''
+  Meaning: fire
+  Reading-J: れっか
+  Reading-R: rekka
+  Position-J: あし
+  Position-R: ashi
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '258'
+  Strokes: '4'
+  Radical: ⺤
+  Alternate: ''
+  Category: ''
+  Meaning: 'claw, nail'
+  Reading-J: つめかんむり
+  Reading-R: tsumekanmuri
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '259'
+  Strokes: '4'
+  Radical: 爫
+  Alternate: ''
+  Category: ''
+  Meaning: 'claw, nail'
+  Reading-J: つめかんむり
+  Reading-R: tsumekanmuri
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '260'
+  Strokes: '4'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: slice
+  Reading-J: かたへん
+  Reading-R: katahen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '261'
+  Strokes: '4'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'fang, canine tooth'
+  Reading-J: きば
+  Reading-R: kiba
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '262'
+  Strokes: '4'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: cow
+  Reading-J: うしへん
+  Reading-R: ushihen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '263'
+  Strokes: '4'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'jewelry, jeweled king'
+  Reading-J: おうへん
+  Reading-R: ouhen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '264'
+  Strokes: '4'
+  Radical: ⺭
+  Alternate: ''
+  Category: ''
+  Meaning: 'altar, festival, religious service'
+  Reading-J: しめすへん
+  Reading-R: shimesuhen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '265'
+  Strokes: '4'
+  Radical: 㓁
+  Alternate: ''
+  Category: ''
+  Meaning: net
+  Reading-J: あみがしら
+  Reading-R: amigashira
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '266'
+  Strokes: '5'
+  Radical: 玊
+  Alternate: ''
+  Category: ''
+  Meaning: 'jewelry, king'
+  Reading-J: たま
+  Reading-R: tama
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '267'
+  Strokes: '5'
+  Radical: 玉
+  Alternate: ''
+  Category: ''
+  Meaning: 'jewelry, king'
+  Reading-J: たま
+  Reading-R: tama
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '268'
+  Strokes: '5'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: melon
+  Reading-J: うり
+  Reading-R: uri
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '269'
+  Strokes: '5'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: rice paddy
+  Reading-J: たへん
+  Reading-R: tahen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '270'
+  Strokes: '5'
+  Radical: ⺪
+  Alternate: ''
+  Category: ''
+  Meaning: bolt of cloth
+  Reading-J: ひきへん
+  Reading-R: hikihen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '271'
+  Strokes: '5'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: white
+  Reading-J: はくへん
+  Reading-R: hakuhen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '272'
+  Strokes: '5'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: eye
+  Reading-J: めへん
+  Reading-R: mehen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '273'
+  Strokes: '5'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: eye
+  Reading-J: よこめ
+  Reading-R: yokome
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '274'
+  Strokes: '5'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: halberd
+  Reading-J: ほこへん
+  Reading-R: hokohen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '275'
+  Strokes: '5'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: arrow
+  Reading-J: やへん
+  Reading-R: yahen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '276'
+  Strokes: '5'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: stone
+  Reading-J: いしへん
+  Reading-R: ishihen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '277'
+  Strokes: '5'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'hole, cave'
+  Reading-J: あなかんむり
+  Reading-R: anakanmuri
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '278'
+  Strokes: '5'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: to stand
+  Reading-J: たつへん
+  Reading-R: tatsuhen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '279'
+  Strokes: '5'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'fang, canine tooth'
+  Reading-J: きばへん
+  Reading-R: kibahen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '280'
+  Strokes: '5'
+  Radical: 氺
+  Alternate: ''
+  Category: ''
+  Meaning: water
+  Reading-J: したみず
+  Reading-R: shitamizu
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '281'
+  Strokes: '5'
+  Radical: ⺫
+  Alternate: ''
+  Category: ''
+  Meaning: net
+  Reading-J: あみがしら
+  Reading-R: amigashira
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '282'
+  Strokes: '5'
+  Radical: ⻂
+  Alternate: ''
+  Category: ''
+  Meaning: clothing
+  Reading-J: ころもへん
+  Reading-R: koromohen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '283'
+  Strokes: '5'
+  Radical: ⺛
+  Alternate: ''
+  Category: ''
+  Meaning: not
+  Reading-J: むにょう
+  Reading-R: munyou
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '284'
+  Strokes: '6'
+  Radical: ⺮
+  Alternate: ''
+  Category: ''
+  Meaning: bamboo
+  Reading-J: たけかんむり
+  Reading-R: takekanmuri
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '285'
+  Strokes: '5'
+  Radical: "\U00026270"
+  Alternate: ''
+  Category: ''
+  Meaning: net
+  Reading-J: あみがしら
+  Reading-R: amigashira
+  Position-J: 罒
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '286'
+  Strokes: '6'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: rice
+  Reading-J: こめへん
+  Reading-R: komehen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '287'
+  Strokes: '6'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: thread
+  Reading-J: いとへん
+  Reading-R: itohen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '288'
+  Strokes: '6'
+  Radical: ⽹
+  Alternate: ''
+  Category: ''
+  Meaning: net
+  Reading-J: あみめ
+  Reading-R: amime
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '289'
+  Strokes: '6'
+  Radical: ⺷
+  Alternate: ''
+  Category: ''
+  Meaning: sheep
+  Reading-J: ひつじ
+  Reading-R: hitsuji
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '290'
+  Strokes: '6'
+  Radical: ⽻
+  Alternate: ''
+  Category: ''
+  Meaning: 'feather, wing'
+  Reading-J: はね
+  Reading-R: hane
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '291'
+  Strokes: '6'
+  Radical: ⽼
+  Alternate: ''
+  Category: ''
+  Meaning: 'old, old-age'
+  Reading-J: おいかんむり
+  Reading-R: oikanmuri
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '292'
+  Strokes: '6'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: ear
+  Reading-J: みみへん
+  Reading-R: mimihen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '293'
+  Strokes: '6'
+  Radical: ⾂
+  Alternate: ''
+  Category: ''
+  Meaning: 'retainer, minister'
+  Reading-J: しん
+  Reading-R: shin
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '294'
+  Strokes: '6'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'to arrive, reach'
+  Reading-J: いたるへん
+  Reading-R: ''
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '295'
+  Strokes: '6'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'ship, boat'
+  Reading-J: ふねへん
+  Reading-R: funehen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '296'
+  Strokes: '6'
+  Radical: ⾋
+  Alternate: ''
+  Category: ''
+  Meaning: 'grass, plant'
+  Reading-J: くさ
+  Reading-R: kusa
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '297'
+  Strokes: '6'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'worm, insect, bug'
+  Reading-J: むしへん
+  Reading-R: mushihen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '298'
+  Strokes: '6'
+  Radical: ⾑
+  Alternate: ''
+  Category: ''
+  Meaning: 'cover, west'
+  Reading-J: にし
+  Reading-R: nishi
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '299'
+  Strokes: '6'
+  Radical: ⻃
+  Alternate: ''
+  Category: ''
+  Meaning: 'cover, west'
+  Reading-J: にし
+  Reading-R: nishi
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '300'
+  Strokes: '7'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'horn, corner'
+  Reading-J: つのへん
+  Reading-R: tsunohen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '301'
+  Strokes: '7'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'words, to speak, say'
+  Reading-J: ごんべん
+  Reading-R: gonben
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '302'
+  Strokes: '7'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: valley
+  Reading-J: たにへん
+  Reading-R: tanihen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '303'
+  Strokes: '7'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: bean
+  Reading-J: まめへん
+  Reading-R: mamehen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '304'
+  Strokes: '7'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'shell, property, wealth'
+  Reading-J: かいへん
+  Reading-R: kaihen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '305'
+  Strokes: '7'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: to run
+  Reading-J: そうにょう
+  Reading-R: sounyou
+  Position-J: にょう
+  Position-R: nyou
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '306'
+  Strokes: '7'
+  Radical: ⻊
+  Alternate: ''
+  Category: ''
+  Meaning: 'foot, leg'
+  Reading-J: あしへん
+  Reading-R: ashihen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '307'
+  Strokes: '7'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: body
+  Reading-J: みへん
+  Reading-R: mihen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '308'
+  Strokes: '7'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'vehicle, wheel, car'
+  Reading-J: くるまへん
+  Reading-R: kurumahen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '309'
+  Strokes: '7'
+  Radical: ⾡
+  Alternate: ''
+  Category: ''
+  Meaning: to run
+  Reading-J: しんにょう
+  Reading-R: shinnyou
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '310'
+  Strokes: '7'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'sake jar, bird'
+  Reading-J: とりへん
+  Reading-R: torihen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '311'
+  Strokes: '7'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'divide, to separate'
+  Reading-J: のごめへん
+  Reading-R: nogomehen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '312'
+  Strokes: '7'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'village, (3.93 km)'
+  Reading-J: さとへん
+  Reading-R: satohen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '313'
+  Strokes: '7'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'contrary, to err'
+  Reading-J: まいあし
+  Reading-R: maiashi
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '314'
+  Strokes: '8'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: 'metal, gold, mineral'
+  Reading-J: かねへん
+  Reading-R: kanehen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '315'
+  Strokes: '8'
+  Radical: ⻗
+  Alternate: ''
+  Category: ''
+  Meaning: rain
+  Reading-J: あめかんむり
+  Reading-R: amekanmuri
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '316'
+  Strokes: '8'
+  Radical: ⾭
+  Alternate: ''
+  Category: ''
+  Meaning: 'blue, green'
+  Reading-J: あお
+  Reading-R: ao
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '317'
+  Strokes: '8'
+  Radical: ⻟
+  Alternate: ''
+  Category: ''
+  Meaning: 'food, to eat'
+  Reading-J: しょくへん
+  Reading-R: shokuhen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '318'
+  Strokes: '8'
+  Radical: ⻫
+  Alternate: ''
+  Category: ''
+  Meaning: alike
+  Reading-J: せい
+  Reading-R: sei
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '319'
+  Strokes: '9'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: leather
+  Reading-J: なめしがわ
+  Reading-R: nameshigawa
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '320'
+  Strokes: '10'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: horse
+  Reading-J: うまへん
+  Reading-R: umahen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '321'
+  Strokes: '10'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: bone
+  Reading-J: ほねへん
+  Reading-R: honehen
+  Position-J: へん
+  Position-R: hen
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '322'
+  Strokes: '11'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: fish
+  Reading-J: うおへん
+  Reading-R: uohen
+  Position-J: へん
+  Position-R: hen
+  Importance: Important
+  Frequency: ''
+  Examples: ''
+
+- Number: '323'
+  Strokes: '11'
+  Radical: ⿆
+  Alternate: ''
+  Category: ''
+  Meaning: wheat
+  Reading-J: むぎ
+  Reading-R: mugi
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '324'
+  Strokes: '11'
+  Radical: 
+  Alternate: ''
+  Category: ''
+  Meaning: hemp
+  Reading-J: あさかんむり
+  Reading-R: asakanmuri
+  Position-J: かんむり
+  Position-R: kanmuri
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '325'
+  Strokes: '12'
+  Radical: ⿈
+  Alternate: ''
+  Category: ''
+  Meaning: yellow
+  Reading-J: き
+  Reading-R: ki
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
+- Number: '326'
+  Strokes: '12'
+  Radical: ⿊
+  Alternate: ''
+  Category: ''
+  Meaning: black
+  Reading-J: くろ
+  Reading-R: kuro
+  Position-J: ''
+  Position-R: ''
+  Importance: ''
+  Frequency: ''
+  Examples: ''
+
 - Number: '327'
   Strokes: '15'
   Radical: ⿒
-  Original: ''
+  Alternate: ''
+  Category: ''
   Meaning: tooth
   Reading-J: は
   Reading-R: ha
@@ -4226,7 +4565,8 @@
 - Number: '328'
   Strokes: '16'
   Radical: 龍
-  Original: ''
+  Alternate: ''
+  Category: ''
   Meaning: dragon
   Reading-J: りゅう
   Reading-R: ryuu
@@ -4239,7 +4579,8 @@
 - Number: '329'
   Strokes: '16'
   Radical: ⿔
-  Original: ''
+  Alternate: ''
+  Category: ''
   Meaning: turtle
   Reading-J: かめ
   Reading-R: kame
@@ -4249,23 +4590,11 @@
   Frequency: ''
   Examples: ''
 
-- Number: '214'
-  Strokes: '17'
-  Radical: 龠
-  Original: 'y'
-  Meaning: flute
-  Reading-J: やく
-  Reading-R: yaku
-  Position-J: ''
-  Position-R: ''
-  Importance: ''
-  Frequency: '19'
-  Examples: 龣
-
 - Number: '330'
   Strokes: n/a
   Radical: 々
-  Original: ''
+  Alternate: ''
+  Category: ''
   Meaning: symbol of repetition
   Reading-J: n/a
   Reading-R: n/a
