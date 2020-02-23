@@ -3,13 +3,14 @@ name: CI
 on: [push]
 
 jobs:
-  build:
 
+  build:
     runs-on: ubuntu-latest
+    container:
+      image: sylhare/jekyll:ubuntu
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Use sylhare/jekyll:ubuntu docker image
-      uses: docker://sylhare/jekyll:ubuntu
-    - name: Build project  
+    - name: Checkout code 
+      uses: actions/checkout@v2
+    - name: Build project 
       run: jekyll build --strict_front_matter
