@@ -13,6 +13,6 @@ jobs:
     - name: Checkout code 
       uses: actions/checkout@v2
     - name: Install dependencies
-      run: Bundle install 
+      run: bundle install 
     - name: Build project 
       run: bundle exec jekyll build --strict_front_matter
