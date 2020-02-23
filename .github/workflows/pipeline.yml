@@ -12,5 +12,7 @@ jobs:
     steps:
     - name: Checkout code 
       uses: actions/checkout@v2
+    - name: Install dependencies
+      run: Bundle install 
     - name: Build project 
-      run: jekyll build --strict_front_matter
+      run: bundle exec jekyll build --strict_front_matter
