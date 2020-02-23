@@ -9,8 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: docker://sylhare/jekyll:ubuntu
-    - name: Build jekyll website
-      run: |
-        bundle install
-        bundle exec jekyll build --strict_front_matter
+    - name: Use sylhare/jekyll:ubuntu docker image
+      uses: docker://sylhare/jekyll:ubuntu
+    - name: Build project  
+      run: jekyll build --strict_front_matter
