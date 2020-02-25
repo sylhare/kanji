@@ -5,7 +5,7 @@ Start learning [here](https://sylhare.github.io/kanji/)!
 
 ## Introduction
 
-Japanese written system comes from the chinese one. So the japanese radical comes from the chinese Kangxi radical.
+Japanese written system comes from the chinese one. So the japanese radicals or _bushu_ comes from the chinese Kangxi radical.
 With the years it has evolve a bit differently but they remain very similar.
 
 It gets a bit complicated because not all radicals are recognized by the ministry of education in japan.
@@ -31,5 +31,6 @@ And other website I came into while looking into this subject:
 - Everything from wikipedia is under the [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0).
 - Some of the radicals data is from <a xmlns:cc="http://creativecommons.org/ns#" href="http://kanjialive.com" property="cc:attributionName" rel="cc:attributionURL">Kanji alive</a> which is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 - The font _Japanese Radicals_ is under an [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) license granted by Adobe Systems Inc.
+- Other fonts have their licences included under [OFL-1.1](https://opensource.org/licenses/OFL-1.1) or [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 - Jekyll which is used to build the website is under [MIT License](https://github.com/jekyll/jekyll/blob/master/LICENSE)
 
