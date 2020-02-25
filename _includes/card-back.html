@@ -1,6 +1,4 @@
-{% assign item = include.item %}
-{% assign kanji = include.item.items[0] %}
-
+{% assign kanji = include.item %}
 
 <div class="up">
     <img class="lazy back-img" src="{{ '/assets/img/placeholder-thumbnail.svg' | relative_url }}"
@@ -17,7 +15,7 @@
     </div>
     <div>
         <p class="modal-meaning">📖 </p>
-        <h4 class="modal-meaning">{{ item.name | default: 'n / a' }}</h4>
+        <h4 class="modal-meaning">{{ kanji.Meaning | default: 'n / a' }}</h4>
     </div>
 </div>
 
