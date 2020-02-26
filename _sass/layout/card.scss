@@ -1,7 +1,6 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  flex-flow: row wrap;
   align-items: flex-start;
 }
 
@@ -71,21 +70,29 @@
 .back {
   @extend .hide-back;
   position: absolute;
-  right: 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   transform: rotateY(180deg);
   top: 10%;
-
-  .back-img {
-    margin-left: 100px;
-    @media only screen and (max-width: 380px) {
-      margin-left: 90px;
-    }
-    width: 100px;
-
-  }
+  height: 100%;
+  width: 100%;
 
   .up {
-    padding-bottom: 10%;
+    align-items: center;
+    flex: auto;
+
+    .back-img {
+      width: 100px;
+
+    }
+  }
+
+  .down {
+    flex: auto;
+    align-self: baseline;
+    margin: 0 10%;
   }
 }
 
