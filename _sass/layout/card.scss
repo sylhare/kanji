@@ -1,14 +1,14 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: flex-start;
 }
 
 .card {
-  flex: auto;
+  flex: 1 1 auto;
   position: relative;
   margin: 10px;
-  max-width: 400px;
   height: 100%;
 
   background-color: transparent;
