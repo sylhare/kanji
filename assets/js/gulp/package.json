@@ -1,0 +1,29 @@
+{
+  "name": "kanji-gulp",
+  "version": "1.0.0",
+  "description": "Gulp file for kanji",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylhare/kanji.git"
+  },
+  "keywords": [
+    "jekyll"
+  ],
+  "author": "sylhare",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sylhare/kanji/issues"
+  },
+  "homepage": "https://github.com/sylhare/kanji#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-uglify-es": "^2.0.0"
+  },
+  "dependencies": {}
+}
