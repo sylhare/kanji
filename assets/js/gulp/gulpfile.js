@@ -8,7 +8,7 @@ const imagemin = require('gulp-imagemin');
 
 
 gulp.task('js', function minijs() {
-  return gulp.src(['../main.js'])
+  return gulp.src(['../modules/lazyload.js'])
     .pipe(concat('main.min.js'))
     .pipe(uglify())
     .on('error', (err) => {

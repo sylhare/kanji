@@ -4,7 +4,7 @@
   "description": "Gulp file for kanji",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,8 @@
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
-    "gulp-uglify-es": "^2.0.0"
+    "gulp-uglify-es": "^2.0.0",
+    "jest": "^25.1.0"
   },
   "dependencies": {}
 }

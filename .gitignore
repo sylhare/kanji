@@ -5,3 +5,5 @@ _site/
 .DS_Store
 .idea/*
 **/node_modules/**
+assets/js/gulp/coverage/*
+resources/kanji-data-media-master/radical-animations/*
