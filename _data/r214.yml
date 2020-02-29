@@ -100,7 +100,7 @@
   Strokes: '2'
   Radical: 亠
   Alternate: ''
-  Category: House
+  Category: Home
   Meaning: 'lid, top'
   Reading-J: なべぶた
   Reading-R: nabebuta
@@ -113,7 +113,7 @@
 - Number: '9'
   Strokes: '2'
   Radical: 人
-  Alternate: "⺅\U000201A2"
+  Alternate: "⺅𠆢"
   Category: Body
   Meaning: person
   Reading-J: ひと
@@ -141,7 +141,7 @@
 - Number: '11'
   Strokes: '2'
   Radical: ⼊
-  Alternate: "\U000201A2"
+  Alternate: "𠆢"
   Category: Capability
   Meaning: to enter
   Reading-J: いる
@@ -772,7 +772,7 @@
   Strokes: '3'
   Radical: 弋
   Alternate: ''
-  Category: Weapons
+  Category: Weapon
   Meaning: javelin
   Reading-J: いぐるみ
   Reading-R: igurumi
@@ -786,7 +786,7 @@
   Strokes: '3'
   Radical: 弓
   Alternate: 
-  Category: Weapons
+  Category: Weapon
   Meaning: bow （in archery）
   Reading-J: ゆみ
   Reading-R: yumi
@@ -1374,7 +1374,7 @@
   Strokes: '5'
   Radical: 甘
   Alternate: ''
-  Category: Capability
+  Category: Food
   Meaning: sweet
   Reading-J: あまい
   Reading-R: amai
@@ -1695,7 +1695,7 @@
 - Number: '122'
   Strokes: '6'
   Radical: 罒
-  Alternate: "网⽹⺳㓁罓⺲\U00026270"
+  Alternate: "网⺳罓⺲"
   Category: Fishing
   Meaning: net
   Reading-J: あみがしら
@@ -2228,7 +2228,7 @@
   Strokes: '7'
   Radical: 辛
   Alternate: ''
-  Category: Body
+  Category: Food
   Meaning: bitter
   Reading-J: からい
   Reading-R: karai
@@ -2535,7 +2535,7 @@
 - Number: '182'
   Strokes: '9'
   Radical: 風
-  Alternate: "⺇\U00020628"
+  Alternate: "⺇"
   Category: Nature
   Meaning: wind
   Reading-J: かぜ
@@ -2563,7 +2563,7 @@
 - Number: '184'
   Strokes: '9'
   Radical: 食
-  Alternate: "\U0002967F飠 "
+  Alternate: "𩙿飠 "
   Category: Food
   Meaning: 'food, to eat'
   Reading-J: しょく
@@ -2746,7 +2746,7 @@
   Strokes: '11'
   Radical: 鹵
   Alternate: ''
-  Category: Capability
+  Category: Food
   Meaning: salt
   Reading-J: しお
   Reading-R: shio

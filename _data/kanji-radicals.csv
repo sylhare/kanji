@@ -6,7 +6,7 @@
 5,1,乙,⺃,Other,the second,おつ,otsu,,,,42,九也
 6,1,亅,,Fishing,"hook, hook stick",はねぼう,hanebou,,,,19,了事
 7,2,二,,Number,two,に,ni,,,,29,五井些亞
-8,2,亠,,House,"lid, top",なべぶた,nabebuta,かんむり,kanmuri,Important,38,亡交京
+8,2,亠,,Home,"lid, top",なべぶた,nabebuta,かんむり,kanmuri,Important,38,亡交京
 9,2,人,⺅𠆢,Body,person,ひと,hito,,,,794,仁休位今
 10,2,儿,,Body,human legs,ひとあし,hitoashi,あし,ashi,Important,52,兄元
 11,2,⼊,𠆢,Capability,to enter,いる,iru,,,,28,入全兩
@@ -54,8 +54,8 @@
 53,3,广,,Home,slanting roof,まだれ,madare,たれ,tare,Important,15,序店府度座庭廣廳
 54,3,廴,,Body,"to move, stretch",えんにょう,rennyou,にょう,nyou,,9,延
 55,3,廾,,Body,folded hands,にじゅうあし,nijuuashi,あし,ashi,,50,弁
-56,3,弋,,Weapons,javelin,いぐるみ,igurumi,,,,15,式弑
-57,3,弓,,Weapons,bow （in archery）,ゆみ,yumi,,,,165,弓引弟弱彌
+56,3,弋,,Weapon,javelin,いぐるみ,igurumi,,,,15,式弑
+57,3,弓,,Weapon,bow （in archery）,ゆみ,yumi,,,,165,弓引弟弱彌
 58,3,彐,⺕⺔彑,Animal,pig’s head,けいがしら,keigashira,,,,25,彖
 59,3,彡,,Body,"hair-style, light rays",さんづくり,sanzukuri,つくり,tsukuri,,62,形彦
 60,3,彳,,Body,"step, stride, street, to go",ぎょうにんべん,gyouninben,へん,hen,Important,215,役彼後得徳徼
@@ -97,7 +97,7 @@
 96,5,王,玊玉⺩,Society,"jewelry, king",たま,tama,,,,473,王 玉 主 弄 皇 理 差 聖
 97,6,瓜,,Agriculture,melon,うり,uri,,,,55,呱 瓞
 98,5,瓦,,Home,tile,かわら,kawara,,,,174,瓧 瓮 甄
-99,5,甘,,Capability,sweet,あまい,amai,,,,22,柑 甜 酣
+99,5,甘,,Food,sweet,あまい,amai,,,,22,柑 甜 酣
 100,5,生,,Ceremony,"birth, life",うまれる,umareru,,,,22,牲 笙 甥
 101,5,用,甩,Capability,to use,もちいる,mochiiru,,,,10,佣 甬 甯
 102,5,田,,Agriculture,"rice paddy, field",た,ta,,,,192,田 町 思 留 略 番
@@ -158,7 +158,7 @@
 157,7,足,⻊,Body,"foot, leg",あし,ashi,,,,580,跑 跨 跟 跪 路
 158,7,身,,Body,body,み,mi,,,,97,躬 躲 軀
 159,7,車,,Weapon,"vehicle, wheel, car",くるま,kuruma,,,,361,軌 軟 較 軍 載
-160,7,辛,,Body,bitter,からい,karai,,,,36,辜 辟 辣 辦 辨
+160,7,辛,,Food,bitter,からい,karai,,,,36,辜 辟 辣 辦 辨
 161,7,辰,,Nature,"morning, 7–9 A.M.",しんのたつ,shinnotatsu,,,,15,辱 農
 162,3,⻌,辶,Capability,"road, walk, to advance",しんにょう,shinnyou,にょう,nyou,Important,381,巡 迎 通 追 逃 迎 進
 163,7,邑,阝⻏,Society,"town, community",むら,mura,,,,350,那 邦 郎 部 郭 都 鄉
@@ -195,7 +195,7 @@
 194,10,鬼,,Ceremony,demon,おに,oni,,,,141,魂 魁 鬽 魄
 195,11,魚,,Fishing,fish,うお,uo,,,,571,鯉 鮑 魛 魜 魝 魞 魟 魠
 196,11,鳥,,Animal,bird,とり,tori,,,,750,鳫 鳮 鳱 鳳 鳴 鳿 雞 鳴 鴻 鴛
-197,11,鹵,,Capability,salt,しお,shio,,,,44,鹹 鹼 鹽
+197,11,鹵,,Food,salt,しお,shio,,,,44,鹹 鹼 鹽
 198,11,鹿,,Animal,deer,しか,shika,,,,104,塵 麃 麋 麉 麟
 199,7,麦,⿆,Food,wheat,むぎ,mugi,,,,131,麴 麵 麱 麨 麺
 200,11,麻,,Agriculture,hemp,あさ,asa,,,,34,麼 魔
