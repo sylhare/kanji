@@ -4,7 +4,8 @@
   "description": "Gulp file for kanji",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "cypress run",
+    "cypress": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -20,11 +21,11 @@
   },
   "homepage": "https://github.com/sylhare/kanji#readme",
   "devDependencies": {
+    "cypress": "^4.0.2",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
-    "gulp-uglify-es": "^2.0.0",
-    "jest": "^25.1.0"
+    "gulp-uglify-es": "^2.0.0"
   },
   "dependencies": {}
 }

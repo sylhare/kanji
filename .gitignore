@@ -7,3 +7,4 @@ _site/
 **/node_modules/**
 assets/js/gulp/coverage/*
 resources/kanji-data-media-master/radical-animations/*
+assets/js/gulp/cypress/videos/*

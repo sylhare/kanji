@@ -10,7 +10,7 @@ const imagemin = require('gulp-imagemin');
 gulp.task('js', function minijs() {
   return gulp.src(['../modules/lazyload.js'])
     .pipe(concat('main.min.js'))
-    .pipe(uglify())
+    .then(uglify())
     .on('error', (err) => {
       console.log(err.toString());
     })
@@ -23,7 +23,7 @@ gulp.task("img", function imging() {
     .on('error', (err) => {
       console.log(err.toString());
     })
-    .pipe(gulp.dest('../../img/'))
+    .then(gulp.dest('../../img/'))
 });
 
 
