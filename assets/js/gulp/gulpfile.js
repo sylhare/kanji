@@ -23,7 +23,7 @@ gulp.task("img", function imging() {
     .on('error', (err) => {
       console.log(err.toString());
     })
-    .then(gulp.dest('../../img/'))
+    .pipe(gulp.dest('../../img/'))
 });
 
 
