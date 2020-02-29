@@ -1,0 +1,144 @@
+$number: #FE840E;
+$weapon: #DD4132;
+$other: #DFCFBE;
+$fishing: #F6D155;
+$home: #6B5B95;
+$body: #B565A7; //#D65076
+$capability: #616247;
+$nature: #A9754F;
+$ceremony: #2A293E;
+$society: #3F69AA;
+$agriculture: #264E36;
+$clothing: #343148;
+$animal: #5A3E36;
+$food: #EFC050;
+$color: #2E4A62;
+
+@mixin background($color) {
+  background-color: $color
+}
+
+@mixin border-color($color) {
+  border-color: $color;
+  box-shadow: 2px 2px 6px 0 rgba($color, .3);
+}
+
+.Number-border {
+  @include border-color($number);
+}
+
+.Number {
+  @include background($number);
+}
+
+.Weapon-border {
+  @include border-color($weapon);
+}
+
+.Weapon {
+  @include background($weapon);
+}
+
+.Other-border {
+  @include border-color($other);
+}
+
+.Other {
+  @include background($other);
+}
+
+.Fishing-border {
+  @include border-color($fishing);
+}
+
+.Fishing {
+  @include background($fishing);
+}
+
+.Home-border {
+  @include border-color($home);
+}
+
+.Home {
+  @include background($home);
+}
+
+.Body-border {
+  @include border-color($body);
+}
+
+.Body {
+  @include background($body);
+}
+
+.Capability-border {
+  @include border-color($capability);
+}
+
+.Capability {
+  @include background($capability);
+}
+
+.Nature-border {
+  @include border-color($nature);
+}
+
+.Nature {
+  @include background($nature);
+}
+
+.Ceremony-border {
+  @include border-color($ceremony);
+}
+
+.Ceremony {
+  @include background($ceremony);
+}
+
+.Society-border {
+  @include border-color($society);
+}
+
+.Society {
+  @include background($society);
+}
+
+.Agriculture-border {
+  @include border-color($agriculture);
+}
+
+.Agriculture {
+  @include background($agriculture);
+}
+
+.Clothing-border {
+  @include border-color($clothing);
+}
+
+.Clothing {
+  @include background($clothing);
+}
+
+.Animal-border {
+  @include border-color($animal);
+}
+
+.Animal {
+  @include background($animal);
+}
+
+.Food-border {
+  @include border-color($food);
+}
+
+.Food {
+  @include background($food);
+}
+
+.Color-border {
+  @include border-color($color);
+}
+
+.Color {
+  @include background($color);
+}

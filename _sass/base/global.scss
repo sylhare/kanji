@@ -8,16 +8,18 @@
 
 .top-left {
   position: absolute;
-  top: 16px;
-  left: 20px;
+
 }
 
 .number {
+  position: absolute;
+  bottom: 16px;
+  right: 20px;
   color: white;
-  background-color: lightgray;
+  //background-color: lightgray;
   border-radius: 20px;
   padding: 5px 15px 5px 15px;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .japanese {
