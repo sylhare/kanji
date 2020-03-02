@@ -15,4 +15,4 @@ jobs:
     - name: Install dependencies
       run: bundle install 
     - name: Build project 
-      run: bundle exec jekyll build --strict_front_matter
+      run: bundle exec jekyll build --strict_front_matter -d _site/kanji
