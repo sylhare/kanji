@@ -1,19 +1,3 @@
-$number: #FE840E;
-$weapon: #DD4132;
-$other: #DFCFBE;
-$fishing: #F6D155;
-$home: #6B5B95;
-$body: #B565A7; //#D65076
-$capability: #616247;
-$nature: #A9754F;
-$ceremony: #2A293E;
-$society: #3F69AA;
-$agriculture: #264E36;
-$clothing: #343148;
-$animal: #5A3E36;
-$food: #EFC050;
-$color: #2E4A62;
-
 @mixin background($color) {
   background-color: $color
 }

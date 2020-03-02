@@ -4,10 +4,7 @@
     <title>Kanji radicals</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/fonts.css' | relative_url }}" media="none"
-          onload="if(media!='all')media='all'">
+
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/favicon/apple-touch-icon.png' | relative_url }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon/favicon-32x32.png' | relative_url }}">
@@ -19,13 +16,18 @@
     <meta name="msapplication-config" content="{{ '/assets/img/favicon/browserconfig.xml' | relative_url }}">
     <meta name="theme-color" content="#ffffff">
 
-
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/fonts.css' | relative_url }}" media="none"
+          onload="if(media!='all')media='all'">
 </header>
 <body>
+{% include navbar.html %}
+
 {{ content }}
+
+<script defer src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 </body>
 <footer>
-    <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 </footer>
-
 </html>
