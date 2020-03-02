@@ -12,6 +12,7 @@
   height: 100%;
   max-width: 400px;
   min-width: 250px;
+  box-sizing: border-box;
 
   background-color: transparent;
   -webkit-perspective: 800px;
@@ -23,37 +24,33 @@
   &:active .inner {
     transform: rotateY(180deg);
   }
+}
 
+img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  background-color: #F8F8F8;
+  @extend .hide-back;
 
-  img {
-    width: 100%;
-    -moz-border-radius-topleft: $card-radius;
-    -moz-border-radius-topright: $card-radius;
-    -webkit-border-top-left-radius: $card-radius;
-    -webkit-border-top-right-radius: $card-radius;
-    max-height: 250px;
-    object-fit: cover;
-    background-color: #F8F8F8;
-    @extend .hide-back;
-
-    .lazy {
-      padding: 100%;
-    }
-  }
-
-  .card-text {
-    padding: 0 20px 20px;
-    @extend .hide-back;
-
-    > button {
-      background: gray;
-      border: 0;
-      color: white;
-      padding: 10px;
-      width: 100%;
-    }
+  .lazy {
+    padding: 100%;
   }
 }
+
+.card-text {
+  padding: 0 20px 20px;
+  @extend .hide-back;
+
+  > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+  }
+}
+
 
 .inner {
   border-width: 1px;
@@ -61,6 +58,7 @@
   border-color: #ccc;
   box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
   border-radius: $card-radius;
+  overflow: hidden;
   width: 100%;
   height: 100%;
   transition: transform 0.2s;
@@ -90,7 +88,6 @@
 
     .back-img {
       width: 100px;
-      border-radius: $card-radius;
     }
   }
 
@@ -105,4 +102,14 @@
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
+}
+
+.number {
+  position: absolute;
+  bottom: 16px;
+  right: 20px;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+  opacity: 0.8;
 }

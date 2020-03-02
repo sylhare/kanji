@@ -1,10 +1,10 @@
-nav.menu {
+.menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   padding: 12px 0 10px 0;
-  background-image: linear-gradient(#f8f8f8, #fff);
+  //background-image: linear-gradient(#f8f8f8, #fff);
 
   & ul {
     margin: 0;
@@ -18,28 +18,28 @@ nav.menu {
     &.menu-right {
       margin-right: 20px
     }
+  }
 
-    img {
-      height: 50px;
-      background-color: $kanji-color;
-      border-radius: 25px;
-    }
+  a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
 
-    li {
-      display: inline-block;
-
-      a {
-        padding: 10px;
-        text-decoration: none;
-        color: black;
-
-        &:hover {
-          background-color: white;
-          border-radius: 4px;
-          color: $kanji-color;
-          box-shadow: 2px 2px 3px 0 rgba(#7f7f7f, .3);
-        }
-      }
+    &:hover {
+      background-color: white;
+      border-radius: 4px;
+      color: $kanji-color;
+      box-shadow: 2px 2px 3px 0 rgba(#7f7f7f, .3);
     }
   }
+
+  li {
+    display: inline-block;
+  }
+
 }
+
+.logo {
+  height: 50px;
+}
+
