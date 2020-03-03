@@ -1,3 +1,4 @@
+const filterMenu = document.getElementById("filter-menu");
 const number = document.getElementById('number');
 
 const ascendingByValue = (a, b) => a.dataset.value - b.dataset.value;
@@ -12,16 +13,19 @@ number.addEventListener('click', () => {
   order()
 });
 
-const setOrder = function(order, asc, dec) {
+const setOrder = function (order, asc, dec) {
   return order === dec ? asc : dec;
 };
 
-const order = function() {
+const order = function () {
   const ordered = [...document.getElementsByClassName('card')].sort(currentOrder);
   ordered.forEach((elem, index) => {
     elem.style.order = index
   })
 };
 
+function showFilters() {
+  filterMenu.style.display = filterMenu.style.display === "flex" ? "none" : "flex";
+}
 
 

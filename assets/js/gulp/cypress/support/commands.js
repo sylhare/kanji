@@ -23,3 +23,18 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('kanjiLog', (arg1) => {
+  Cypress.log({
+    consoleProps: () => { return arg1 }
+  })
+});
+
+Cypress.Commands.add('clickOnFilter', (label) => {
+  cy.get('#filter').click();
+  cy.get('.menu').contains(label).should('be.visible');
+  cy.get('#filter').click();
+  cy.get('.menu').contains(label).should('be.hidden');
+  cy.get('#filter').click();
+  cy.get('.menu').contains(label).should('be.visible');
+});
