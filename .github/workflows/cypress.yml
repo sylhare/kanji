@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Cypress
 
 on: [push]
 
@@ -17,9 +17,3 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-        
-    - name: Preview
-      working-directory: ./assets/js/gulp  
-    - run: npm install  
-      env:
-        CI: true
