@@ -11,6 +11,19 @@
   @include border-color($number);
 }
 
+#number {
+  background-color: $number;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 2px 2px 3px 0 rgba(#7f7f7f, .3);
+
+  &:hover {
+    background-color: white;
+    color: $number;
+  }
+}
+
+
 .Number {
   @include background($number);
 }

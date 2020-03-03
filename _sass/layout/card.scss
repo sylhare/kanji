@@ -62,7 +62,7 @@ img {
   transition: transform 0.2s;
   transform-style: preserve-3d;
 
-  &:hover {
+  &:hover, &:active {
     overflow: visible;
   }
 }

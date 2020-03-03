@@ -1,10 +1,11 @@
 .menu {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 
   padding: 12px 0 10px 0;
-  //background-image: linear-gradient(#f8f8f8, #fff);
+  background-image: linear-gradient(#f8f8f8, #fff);
 
   & ul {
     margin: 0;
@@ -24,7 +25,7 @@
     border: none;
   }
 
-  a, button {
+  a {
     padding: 10px;
     text-decoration: none;
     color: black;
@@ -45,5 +46,16 @@
 
 .logo {
   height: 50px;
+}
+
+.submenu {
+  display: none;
+  justify-content: flex-end;
+  flex-basis: 100%;
+
+  & li {
+    margin-top: 7px;
+    margin-right: 20px;
+  }
 }
 
