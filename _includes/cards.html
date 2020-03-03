@@ -2,7 +2,9 @@
 
 <main class="cards">
     {% for item in items %}
-    <article class="card">
+    <article class="card" data-value="{{ item.Number }}" data-stroke="{{ item.Strokes }}"
+             data-frequency="{{ item.Frequency }}" data-reading="{{ item.Reading-R }}"
+             data-category="{{ item.Category }}">
         <div class="inner">
 
             <div class="front">

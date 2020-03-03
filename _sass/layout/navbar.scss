@@ -20,7 +20,11 @@
     }
   }
 
-  a {
+  button {
+    border: none;
+  }
+
+  a, button {
     padding: 10px;
     text-decoration: none;
     color: black;
