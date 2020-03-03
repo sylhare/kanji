@@ -28,6 +28,12 @@ context(' ---------------- Tiles tests ---------------- ', () => {
         .should('have.length', 214)
     });
 
+    // hover though css can't be tested with Cypress :(
+    // it('Images are visible on hover', () => {
+    //   cy.get('#card-1').invoke('hover');
+    //   cy.get('img.back-img').should('be.visible')
+    // });
+
   });
 
 });

@@ -18,15 +18,21 @@ context(' ---------------- Navigation tests ---------------- ', () => {
   describe('MAIN menu', function () {
 
     it('Contains HOME in navigation', () => {
-      cy.get('.menu').contains("HOME").should('be.visible')
+      cy.get('.menu').contains("HOME")
+        .should('be.visible')
+        .should('have.attr', 'href', '/kanji/')
     });
 
     it('Contains ABOUT in navigation', () => {
-      cy.get('.menu').contains("ABOUT").should('be.visible')
+      cy.get('.menu').contains("ABOUT")
+        .should('be.visible')
+        .should('have.attr', 'href', '/kanji/about')
     });
 
     it('Contains FILTER in navigation', () => {
-      cy.get('.menu').contains("FILTER").should('be.visible')
+      cy.get('.menu').contains("FILTER")
+        .should('be.visible')
+        .should('have.attr', 'href', '#')
     });
 
   });
