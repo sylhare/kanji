@@ -9,13 +9,27 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [8.x, 10.x, 12.x]
+        node-version: [ 10.x ]
+        ruby: [ '2.6' ]
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2 
+      
+    - name: Use Ruby ${{ matrix.ruby }}
+      uses: actions/setup-ruby@v1
+      with: 
+        ruby-version: ${{ matrix.ruby }}
+    - run: |
+        sudo apt-get -yqq install libpq-dev
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+        bundle exec jekyll serve &
+      
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}    
-    - run: cd ./assets/js/gulp/ && npm install
-    - run: npm test
+    - run: |
+       cd ./assets/js/gulp/
+       npm install
+       npm run test
