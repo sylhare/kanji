@@ -1,5 +1,5 @@
 const filterMenu = document.getElementById("filter-menu");
-const number = document.getElementById('number');
+const number = document.getElementById('Number-filter');
 
 const ascendingByValue = (a, b) => a.dataset.value - b.dataset.value;
 const descendingByValue = (a, b) => b.dataset.value - a.dataset.value;

@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 12px 0 10px 0;
+  padding: 12px 0 5px 0;
   background-image: linear-gradient(#f8f8f8, #fff);
 
   & ul {
@@ -26,13 +26,11 @@
   }
 
   a {
-    padding: 10px;
     text-decoration: none;
     color: black;
 
     &:hover {
       background-color: white;
-      border-radius: 4px;
       color: $kanji-color;
       box-shadow: 2px 2px 3px 0 rgba(#7f7f7f, .3);
     }
@@ -54,8 +52,18 @@
   flex-basis: 100%;
 
   & li {
-    margin-top: 7px;
+    margin-top: 2px;
     margin-right: 20px;
   }
 }
 
+.main-menu a {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.sub-button {
+  padding: 6px;
+  border-radius: 10px;
+  font-size: 0.7em;
+}

@@ -7,20 +7,23 @@
   box-shadow: 2px 2px 6px 0 rgba($color, .3);
 }
 
-.Number-border {
-  @include border-color($number);
-}
-
-#number {
-  background-color: $number;
-  border-radius: 4px;
+@mixin button-color($color) {
+  background-color: $color;
   color: white;
   box-shadow: 2px 2px 3px 0 rgba(#7f7f7f, .3);
 
   &:hover {
     background-color: white;
-    color: $number;
+    color: $color;
   }
+}
+
+.Number-border {
+  @include border-color($number);
+}
+
+#Number-filter {
+  @include button-color($number)
 }
 
 
