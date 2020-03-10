@@ -20,7 +20,7 @@ const setOrder = function (order, asc, dec) {
 const order = function () {
   const ordered = [...document.getElementsByClassName('card')].sort(currentOrder);
   ordered.forEach((elem, index) => {
-    elem.style.order = index
+    elem.style.order = index.toString()
   })
 };
 
