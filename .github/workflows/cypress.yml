@@ -1,4 +1,4 @@
-name: Cypress
+name: Cypress Tests
 
 on: [push]
 
@@ -13,23 +13,28 @@ jobs:
         ruby: [ '2.6' ]
 
     steps:
-    - uses: actions/checkout@v2 
-      
-    - name: Use Ruby ${{ matrix.ruby }}
-      uses: actions/setup-ruby@v1
-      with: 
-        ruby-version: ${{ matrix.ruby }}
-    - run: |
-        sudo apt-get -yqq install libpq-dev
-        gem install bundler
-        bundle install --jobs 4 --retry 3
-        bundle exec jekyll serve &
-      
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}    
-    - run: |
-       cd ./assets/js/gulp/
-       npm install
-       npm run test
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use Ruby ${{ matrix.ruby }}
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+
+      - name: Run Kanji blog
+        run: |
+          sudo apt-get -yqq install libpq-dev
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+          bundle exec jekyll serve &
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Run Cypress tests
+        run: |
+          cd ./assets/js/gulp/
+          npm install
+          npm run test

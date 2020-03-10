@@ -1,4 +1,4 @@
-name: CI
+name: HTML Proofer
 
 on: [push]
 
@@ -12,7 +12,15 @@ jobs:
     steps:
     - name: Checkout code 
       uses: actions/checkout@v2
+
     - name: Install dependencies
-      run: bundle install 
+      run: bundle install
+
     - name: Build project 
       run: bundle exec jekyll build --strict_front_matter -d _site/kanji
+
+    - name: html check
+      run: |
+      gem install html-proofer
+      htmlproofer --assume-extension ./_site --allow-hash-href --check-favicon --check-html --check-opengraph
+
