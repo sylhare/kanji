@@ -31,10 +31,20 @@ Cypress.Commands.add('kanjiLog', (arg1) => {
 });
 
 Cypress.Commands.add('clickOnFilter', (label) => {
-  cy.get('#filter').click();
+  cy.get('#filter').click({ force: true });
   cy.get('.menu').contains(label).should('be.visible');
-  cy.get('#filter').click();
+  cy.get('#filter').click({ force: true });
   cy.get('.menu').contains(label).should('be.hidden');
-  cy.get('#filter').click();
+  cy.get('#filter').click({ force: true });
   cy.get('.menu').contains(label).should('be.visible');
 });
+
+Cypress.Commands.add('checkOrder', (first, last) => {
+  cy.get('#card-'.concat(first)).should(($el) => {
+    expect($el).to.have.css('order', '0')
+  });
+  cy.get('#card-'.concat(last)).should(($el) => {
+    expect($el).to.have.css('order', '213')
+  })
+});
+

@@ -9,6 +9,26 @@ context(' ---------------- Filter test ---------------- ', () => {
       cy.clickOnFilter("NUMBER")
     });
 
+    it('click on NUMBER change order', () => {
+      cy.clickOnFilter("NUMBER");
+      cy.get('#Number-filter').click({ force: true });
+      cy.checkOrder(214, 1);
+      cy.get('#Number-filter').click({ force: true });
+      cy.checkOrder(1, 214);
+    });
+
+    it('FREQUENCY submenu appears on click', () => {
+      cy.clickOnFilter("FREQUENCY")
+    });
+
+    it('click on NUMBER change order', () => {
+      cy.clickOnFilter("FREQUENCY");
+      cy.get('#Frequency-filter').click({ force: true });
+      cy.checkOrder(140, 35);
+      cy.get('#Frequency-filter').click({ force: true });
+      cy.checkOrder(35, 140);
+    });
+
   });
 
 });

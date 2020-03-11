@@ -1,15 +1,24 @@
 const filterMenu = document.getElementById("filter-menu");
 const number = document.getElementById('Number-filter');
+const frequency = document.getElementById('Frequency-filter');
 
-const ascendingByValue = (a, b) => a.dataset.value - b.dataset.value;
-const descendingByValue = (a, b) => b.dataset.value - a.dataset.value;
+const frequencyAsc = (a, b) => a.dataset.frequency - b.dataset.frequency;
+const frequencyDsc = (a, b) => b.dataset.frequency - a.dataset.frequency;
+const numberAsc = (a, b) => a.dataset.value - b.dataset.value;
+const numberDsc = (a, b) => b.dataset.value - a.dataset.value;
 
 let currentOrder;
-let numberOrder = ascendingByValue;
+let filterOrder = numberAsc;
 
 number.addEventListener('click', () => {
-  currentOrder = setOrder(numberOrder, ascendingByValue, descendingByValue);
-  numberOrder = currentOrder;
+  currentOrder = setOrder(filterOrder, numberAsc, numberDsc);
+  filterOrder = currentOrder;
+  order()
+});
+
+frequency.addEventListener('click', () => {
+  currentOrder = setOrder(filterOrder, frequencyAsc, frequencyDsc);
+  filterOrder = currentOrder;
   order()
 });
 

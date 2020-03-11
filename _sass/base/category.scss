@@ -18,6 +18,10 @@
   }
 }
 
+#Frequency-filter {
+  @include button-color($capability)
+}
+
 .Number-border {
   @include border-color($number);
 }
@@ -25,7 +29,6 @@
 #Number-filter {
   @include button-color($number)
 }
-
 
 .Number {
   @include background($number);
