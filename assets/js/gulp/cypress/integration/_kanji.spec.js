@@ -43,18 +43,6 @@ context(' ---------------- Navigation tests ---------------- ', () => {
 
   });
 
-  describe('FILTER submenu', function () {
-
-    it('Contains NUMBER submenu hidden in navigation', () => {
-      cy.get('.menu').contains("NUMBER").should('be.hidden');
-      cy.get('#filter').click();
-      cy.get('.menu').contains("NUMBER").should('be.visible');
-      cy.get('#filter').click();
-      cy.get('.menu').contains("NUMBER").should('be.hidden');
-    });
-
-  });
-
 });
 
 

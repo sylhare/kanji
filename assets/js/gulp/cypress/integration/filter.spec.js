@@ -29,6 +29,18 @@ context(' ---------------- Filter test ---------------- ', () => {
       cy.checkOrder(35, 140);
     });
 
+    it('CATEGORY submenu appears on click', () => {
+      cy.clickOnFilter("CATEGORY")
+    });
+
+    it('click on CATEGORY change order', () => {
+      cy.clickOnFilter("CATEGORY");
+      cy.get('#Category-filter').click({ force: true });
+      cy.checkOrder(2, 202);
+      cy.get('#Category-filter').click({ force: true });
+      cy.checkOrder(45, 191);
+    });
+
   });
 
 });

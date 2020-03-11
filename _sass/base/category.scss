@@ -22,6 +22,10 @@
   @include button-color($capability)
 }
 
+#Category-filter {
+  @include button-color($society)
+}
+
 .Number-border {
   @include border-color($number);
 }
