@@ -2,6 +2,7 @@ const filterMenu = document.getElementById("filter-menu");
 const number = document.getElementById('Number-filter');
 const frequency = document.getElementById('Frequency-filter');
 const category = document.getElementById('Category-filter');
+const reading = document.getElementById('Reading-filter');
 
 const frequencyAsc = (a, b) => a.dataset.frequency - b.dataset.frequency;
 const frequencyDsc = (a, b) => b.dataset.frequency - a.dataset.frequency;
@@ -9,6 +10,8 @@ const numberAsc = (a, b) => a.dataset.value - b.dataset.value;
 const numberDsc = (a, b) => b.dataset.value - a.dataset.value;
 const categoryAsc = (a, b) => a.dataset.category.localeCompare(b.dataset.category);
 const categoryDsc = (a, b) => b.dataset.category.localeCompare(a.dataset.category);
+const readingAsc = (a, b) => a.dataset.reading.localeCompare(b.dataset.reading);
+const readingDsc = (a, b) => b.dataset.reading.localeCompare(a.dataset.reading);
 
 let currentOrder;
 let filterOrder = numberAsc;
@@ -25,6 +28,11 @@ frequency.addEventListener('click', () => {
 
 category.addEventListener('click', () => {
   currentOrder = setOrder(filterOrder, categoryAsc, categoryDsc);
+  order()
+});
+
+reading.addEventListener('click', () => {
+  currentOrder = setOrder(filterOrder, readingAsc, readingDsc);
   order()
 });
 

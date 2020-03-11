@@ -21,7 +21,7 @@ context(' ---------------- Filter test ---------------- ', () => {
       cy.clickOnFilter("FREQUENCY")
     });
 
-    it('click on NUMBER change order', () => {
+    it('click on FREQUENCY change order', () => {
       cy.clickOnFilter("FREQUENCY");
       cy.get('#Frequency-filter').click({ force: true });
       cy.checkOrder(140, 35);
@@ -40,6 +40,19 @@ context(' ---------------- Filter test ---------------- ', () => {
       cy.get('#Category-filter').click({ force: true });
       cy.checkOrder(45, 191);
     });
+
+    it('READING submenu appears on click', () => {
+      cy.clickOnFilter("CATEGORY")
+    });
+
+    it('click on READING change order', () => {
+      cy.clickOnFilter("READING");
+      cy.get('#Reading-filter').click({ force: true });
+      cy.checkOrder(36, 155);
+      cy.get('#Reading-filter').click({ force: true });
+      cy.checkOrder(155, 36);
+    });
+
 
   });
 

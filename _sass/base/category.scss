@@ -26,6 +26,10 @@
   @include button-color($society)
 }
 
+#Reading-filter {
+  @include button-color($agriculture)
+}
+
 .Number-border {
   @include border-color($number);
 }
