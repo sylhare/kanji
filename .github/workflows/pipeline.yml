@@ -13,6 +13,12 @@ jobs:
     - name: Checkout code 
       uses: actions/checkout@v2
 
+    - name: Use US Language
+      run : |
+        locale -a
+        export LC_ALL=en_US.UTF-8
+        export LANG=en_US.UTF-8
+
     - name: Install dependencies
       run: bundle install
 
