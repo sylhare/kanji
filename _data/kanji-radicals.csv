@@ -11,24 +11,24 @@
 10,2,儿,,Body,human legs,ひとあし,hitoashi,あし,ashi,Important,52,兄元
 11,2,⼊,𠆢,Capability,to enter,いる,iru,,,,28,入全兩
 12,2,八,ハ,Number,eight,はち,hachi,,,,44,公六共兵
-13,2,冂,,Capability,to enclose,けいがまえ,keigamae,"かまえ, けいがまえ","kamae, keigamae",50,内再,
+13,2,冂,,Capability,to enclose,けいがまえ,keigamae,"かまえ, けいがまえ","kamae, keigamae",,50,内再
 14,2,冖,,Home,"cover, crown",わかんむり,wakanmuri,かんむり,kanmuri,Important,30,冗冠
 15,2,冫,,Nature,ice,にすい,nisui,へん,hen,,115,冬冶冷凍
 16,2,几,,Home,table,きにょう,kinyou,つくり,tsukuri,,38,凡
 17,2,凵,,Home,"container, open box",かんにょう,kannyou,にょう,nyou,,23,凶出函
 18,2,刀,⺍刂⺈,Weapon,"knife, sword",かたな,katana,,,,377,刀分切初利刻則前
 19,2,力,,Weapon,power,ちから,chikara,,,,163,力加助勉
-20,2,勹,,Capability,to wrap,つつみがまえ,tsutsumigamae,"かまえ, つつみがまえ","kamae, tsutsumigamae",64,勾包,
+20,2,勹,,Capability,to wrap,つつみがまえ,tsutsumigamae,"かまえ, つつみがまえ","kamae, tsutsumigamae",,64,勾包
 21,2,匕,,Home,spoon,さじ,saji,つくり,tsukuri,,19,化北
-22,2,匚,,Home,box,はこがまえ,hakogamae,"かまえ, はこがまえ","kamae, hakogamae",64,匣,
-23,2,匸,匸,Capability,"to conceal, hide",かくしがまえ,kakushigamae,"かまえ, はこがまえ","kamae, hakogamae",17,亡 妄 忙 忘 盲 荒 望 慌 網,
+22,2,匚,,Home,box,はこがまえ,hakogamae,"かまえ, はこがまえ","kamae, hakogamae",,64,匣
+23,2,匸,匸,Capability,"to conceal, hide",かくしがまえ,kakushigamae,"かまえ, はこがまえ","kamae, hakogamae",,17,亡 妄 忙 忘 盲 荒 望 慌 網
 24,2,十,,Number,ten,じゅう,juu,,,,55,十千午半博
 25,2,卜,⼘⺊,Ceremony,"oracle, divination",ぼく,boku,,,,45,占卦
 26,2,卩,㔾,Society,"stamp, seal",ふしづくり,fushizukuri,つくり,tsukuri,,40,印危卵
 27,2,厂,,Nature,cliff,がんだれ,gandare,たれ,tare,Important,129,厚原
 28,2,厶,,Society,"private, Katakana Mu",む,mu,,,,40,去參
 29,2,又,,Body,"again, right hand",また,mata,,,,91,友反取受
-30,3,口,,Body,mouth,くち,kuchi,,,,"1,146",口古可名君否呉告周味命和哲唐善器
+30,3,口,,Body,mouth,くち,kuchi,,,,"1146",口古可名君否呉告周味命和哲唐善器
 31,3,囗,,Society,"border, territorial boundaries",くにがまえ,kunigamae,"かまえ, くにがまえ","kamae, kunigamae",Important,118,四回図国
 32,3,土,,Nature,earth,つち,tsuchi,,,,580,土在地型城場壁壓
 33,3,士,,Society,"man, scholar, samurai",さむらい,samurai,,,,24,士壹
@@ -45,7 +45,7 @@
 44,3,尸,,Ceremony,corpse,しかばね,shikabane,たれ,tare,,148,尺局
 45,3,屮,,Agriculture,sprout,くさのめ,kusanome,,,,38,屯
 46,3,山,,Nature,mountain,やま,yama,,,,636,山岡岩島
-47,3,巛,川巜,Nature,river,まがりがわ,magarigawa,,,26,川州巡,
+47,3,巛,川巜,Nature,river,まがりがわ,magarigawa,,,,26,川州巡
 48,3,工,,Society,"work, carpenter, skill",たくみ,takumi,,,,17,工左巫差
 49,3,已,己巳,Capability,oneself,おのれ,onore,,,,20,己巳
 50,3,巾,,Clothing,cloth,はば,haba,,,,295,市布帝常
@@ -82,7 +82,7 @@
 81,4,比,,Capability,to compare,くらべる,kuraberu,,,,21,皆 批 毕 毖 毘 毚
 82,4,毛,,Body,hair,け,ke,,,,211,毟 毡 毦 毫 毳 耗
 83,4,氏,,Society,"family, clan",うじ,uji,,,,10,氏 民 紙 婚 氓
-84,4,气,,Nature,"steam, air",きがまえ,kigamae,"かまえ, きがまえ","kamae, kigamae",17,気 汽 氧,
+84,4,气,,Nature,"steam, air",きがまえ,kigamae,"かまえ, きがまえ","kamae, kigamae",,17,気 汽 氧
 85,4,水,⺡氵氺,Nature,water,みず,mizu,,,,"1,595",水 永 泳 決 治 海 演 漢 瀬
 86,4,火,灬,Nature,fire,ひ,hi,,,,639,火 灯 毯 爆 (烈 烹 焦 然 煮)
 87,4,爪,爫⺥⺤ ⺤,Animal,"claw, nail",つめ,tsume,,,,36,爬 爯 爭 爰 爲
@@ -162,7 +162,7 @@
 161,7,辰,,Nature,"morning, 7–9 A.M.",しんのたつ,shinnotatsu,,,,15,辱 農
 162,3,⻌,辶,Capability,"road, walk, to advance",しんにょう,shinnyou,にょう,nyou,Important,381,巡 迎 通 追 逃 迎 進
 163,7,邑,阝⻏,Society,"town, community",むら,mura,,,,350,那 邦 郎 部 郭 都 鄉
-164,7,酉,,Food,"sake jar, bird",ひよみのとり,hiyominotori,,,290,酒 醉 油 醒 酸,
+164,7,酉,,Food,"sake jar, bird",ひよみのとり,hiyominotori,,,,290,酒 醉 油 醒 酸
 165,7,釆,,Capability,"divide, to separate",のごめ,nogom,,,,14,釉 釋
 166,7,里,,Society,"village, (3.93 km)",さと,sato,,,,14,野 野
 167,8,金,釒,Nature,"metal, gold, mineral",かね,kane,,,,806,銀 銅 釘 銳 鋞 鋙 鉒 鉍 鉗 鈡 鈠
@@ -176,7 +176,7 @@
 175,8,非,,Other,"wrong, non-",あらず,arazu,,,,25,靠 靠 靟
 176,9,面,靣,Body,"face, surface",めん,men,,,,66,靦 靨
 177,9,革,,Animal,leather,つくりがわ,tsukurigawa,,,,305,靴 鞍 鞅 鞍 鞭
-178,10,韋,,Clothing,tanned leather,なめしがわ,nameshigawa,,,100,韋 韓 韜,
+178,10,韋,,Clothing,tanned leather,なめしがわ,nameshigawa,,,,100,韋 韓 韜
 179,9,韭,,Agriculture,leek,にら,nira,,,,20,韱 韲
 180,9,音,,Capability,"sound, noise",おと,oto,,,,43,韶 韻 韾
 181,9,頁,,Body,"head, page",おおがい,oogai,つくり,tsukuri,Important,372,頃 項 順 須 領 頭 頩 頂
@@ -189,7 +189,7 @@
 188,10,骨,,Body,bone,ほね,hone,,,,185,骼 髒 髀 骿 骾
 189,10,高,髙,Home,high,たかい,takai,,,,34,髚 髛
 190,10,髟,,Body,long hair,かみかんむり,kamikanmuri,かんむり,kanmuri,,243,髮 鬚 鬆 鬍 髦
-191,10,鬥,,Weapon,fighting,たたかいがまえ,tatakaigamae,かまえ,"kamae, mongamae",23,鬧 鬪,
+191,10,鬥,,Weapon,fighting,たたかいがまえ,tatakaigamae,かまえ,"kamae, mongamae",,23,鬧 鬪
 192,10,鬯,,Nature,herbs,においざけ,nioizake,,,,8,鬰 鬱
 193,10,鬲,,Home,"tripod, cauldron",れき,reki,,,,73,鬶 鬷 鬸
 194,10,鬼,,Ceremony,demon,おに,oni,,,,141,魂 魁 鬽 魄
@@ -240,9 +240,9 @@
 240,3,⻏,,,"town, community",おおざと,oozato,つくり,tsukuri,Important,,
 241,3,⻖,,,"hill, mound, dam",こざとへん,kozatohen,へん,hen,Important,,
 242,3,⺍,,,Katakana Tsu,つ,tsu,かんむり,kanmuri,,,
-243,3,⺖,,,"heart, mind, spirit",りっしんべん,risshinben,へん,hen,Important,high,
+243,3,⺖,,,"heart, mind, spirit",りっしんべん,risshinben,へん,hen,Important,,
 244,3,⺘,,,hand,てへん,tehen,へん,hen,Important,,
-245,3,⺡,,,water,さんずい,sanzui,へん,hen,Important,high,
+245,3,⺡,,,water,さんずい,sanzui,へん,hen,Important,,
 246,3,⺨,,,beast,けものへん,kemonohen,へん,hen,Important,,
 247,4,⺗,,,"heart, mind, spirit",したごころ,shitagokoro,あし,ashi,,,
 248,4,,,,door,とだれ,todare,たれ,tare,,,
@@ -250,7 +250,7 @@
 250,4,,,,"direction, flag",ほうへん,houhen,へん,hen,,,
 251,4,,,,"sun, day, time",ひへん,hihen,へん,hen,Important,,
 252,4,⺝,,,"moon, month, period",つきへん,tsukihen,へん,hen,,,
-253,4,,,,"meat, flesh",にくづき,nikuzuki,,,Important,high,
+253,4,,,,"meat, flesh",にくづき,nikuzuki,,,Important,,
 254,4,,,,"tree, wood",きへん,kihen,へん,hen,Important,,
 255,4,,,,"death & dying, to decompose",がつへん,gatsuhen,へん,hen,,,
 256,4,,,,fire,ひへん,hihen,へん,hen,Important,,

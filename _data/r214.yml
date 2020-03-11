@@ -11,7 +11,7 @@
   Importance: ''
   Frequency: '42'
   Examples: 七三丈不丘世
-
+  
 - Number: '2'
   Strokes: '1'
   Radical: 丨
@@ -25,7 +25,7 @@
   Importance: ''
   Frequency: '21'
   Examples: 中
-
+  
 - Number: '3'
   Strokes: '1'
   Radical: 丶
@@ -39,7 +39,7 @@
   Importance: ''
   Frequency: '10'
   Examples: 丸主
-
+  
 - Number: '4'
   Strokes: '1'
   Radical: 丿
@@ -53,7 +53,7 @@
   Importance: ''
   Frequency: '33'
   Examples: 久之乎
-
+  
 - Number: '5'
   Strokes: '1'
   Radical: 乙
@@ -67,7 +67,7 @@
   Importance: ''
   Frequency: '42'
   Examples: 九也
-
+  
 - Number: '6'
   Strokes: '1'
   Radical: 亅
@@ -81,7 +81,7 @@
   Importance: ''
   Frequency: '19'
   Examples: 了事
-
+  
 - Number: '7'
   Strokes: '2'
   Radical: 二
@@ -95,7 +95,7 @@
   Importance: ''
   Frequency: '29'
   Examples: 五井些亞
-
+  
 - Number: '8'
   Strokes: '2'
   Radical: 亠
@@ -109,7 +109,7 @@
   Importance: Important
   Frequency: '38'
   Examples: 亡交京
-
+  
 - Number: '9'
   Strokes: '2'
   Radical: 人
@@ -123,7 +123,7 @@
   Importance: ''
   Frequency: '794'
   Examples: 仁休位今
-
+  
 - Number: '10'
   Strokes: '2'
   Radical: 儿
@@ -137,7 +137,7 @@
   Importance: Important
   Frequency: '52'
   Examples: 兄元
-
+  
 - Number: '11'
   Strokes: '2'
   Radical: ⼊
@@ -151,7 +151,7 @@
   Importance: ''
   Frequency: '28'
   Examples: 入全兩
-
+  
 - Number: '12'
   Strokes: '2'
   Radical: 八
@@ -165,7 +165,7 @@
   Importance: ''
   Frequency: '44'
   Examples: 公六共兵
-
+  
 - Number: '13'
   Strokes: '2'
   Radical: 冂
@@ -176,10 +176,10 @@
   Reading-R: keigamae
   Position-J: 'かまえ, けいがまえ'
   Position-R: 'kamae, keigamae'
-  Importance: '50'
-  Frequency: 内再
-  Examples: ''
-
+  Importance: ''
+  Frequency: '50'
+  Examples: 内再
+  
 - Number: '14'
   Strokes: '2'
   Radical: 冖
@@ -193,7 +193,7 @@
   Importance: Important
   Frequency: '30'
   Examples: 冗冠
-
+  
 - Number: '15'
   Strokes: '2'
   Radical: 冫
@@ -207,7 +207,7 @@
   Importance: ''
   Frequency: '115'
   Examples: 冬冶冷凍
-
+  
 - Number: '16'
   Strokes: '2'
   Radical: 几
@@ -221,7 +221,7 @@
   Importance: ''
   Frequency: '38'
   Examples: 凡
-
+  
 - Number: '17'
   Strokes: '2'
   Radical: 凵
@@ -235,7 +235,7 @@
   Importance: ''
   Frequency: '23'
   Examples: 凶出函
-
+  
 - Number: '18'
   Strokes: '2'
   Radical: 刀
@@ -249,7 +249,7 @@
   Importance: ''
   Frequency: '377'
   Examples: 刀分切初利刻則前
-
+  
 - Number: '19'
   Strokes: '2'
   Radical: 力
@@ -263,7 +263,7 @@
   Importance: ''
   Frequency: '163'
   Examples: 力加助勉
-
+  
 - Number: '20'
   Strokes: '2'
   Radical: 勹
@@ -274,10 +274,10 @@
   Reading-R: tsutsumigamae
   Position-J: 'かまえ, つつみがまえ'
   Position-R: 'kamae, tsutsumigamae'
-  Importance: '64'
-  Frequency: 勾包
-  Examples: ''
-
+  Importance: ''
+  Frequency: '64'
+  Examples: 勾包
+  
 - Number: '21'
   Strokes: '2'
   Radical: 匕
@@ -291,7 +291,7 @@
   Importance: ''
   Frequency: '19'
   Examples: 化北
-
+  
 - Number: '22'
   Strokes: '2'
   Radical: 匚
@@ -302,10 +302,10 @@
   Reading-R: hakogamae
   Position-J: 'かまえ, はこがまえ'
   Position-R: 'kamae, hakogamae'
-  Importance: '64'
-  Frequency: 匣
-  Examples: ''
-
+  Importance: ''
+  Frequency: '64'
+  Examples: 匣
+  
 - Number: '23'
   Strokes: '2'
   Radical: 匸
@@ -316,10 +316,10 @@
   Reading-R: kakushigamae
   Position-J: 'かまえ, はこがまえ'
   Position-R: 'kamae, hakogamae'
-  Importance: '17'
-  Frequency: 亡 妄 忙 忘 盲 荒 望 慌 網
-  Examples: ''
-
+  Importance: ''
+  Frequency: '17'
+  Examples: 亡 妄 忙 忘 盲 荒 望 慌 網
+  
 - Number: '24'
   Strokes: '2'
   Radical: 十
@@ -333,7 +333,7 @@
   Importance: ''
   Frequency: '55'
   Examples: 十千午半博
-
+  
 - Number: '25'
   Strokes: '2'
   Radical: 卜
@@ -347,7 +347,7 @@
   Importance: ''
   Frequency: '45'
   Examples: 占卦
-
+  
 - Number: '26'
   Strokes: '2'
   Radical: 卩
@@ -361,7 +361,7 @@
   Importance: ''
   Frequency: '40'
   Examples: 印危卵
-
+  
 - Number: '27'
   Strokes: '2'
   Radical: 厂
@@ -375,7 +375,7 @@
   Importance: Important
   Frequency: '129'
   Examples: 厚原
-
+  
 - Number: '28'
   Strokes: '2'
   Radical: 厶
@@ -389,7 +389,7 @@
   Importance: ''
   Frequency: '40'
   Examples: 去參
-
+  
 - Number: '29'
   Strokes: '2'
   Radical: 又
@@ -403,7 +403,7 @@
   Importance: ''
   Frequency: '91'
   Examples: 友反取受
-
+  
 - Number: '30'
   Strokes: '3'
   Radical: 口
@@ -415,9 +415,9 @@
   Position-J: ''
   Position-R: ''
   Importance: ''
-  Frequency: '1,146'
+  Frequency: '1146'
   Examples: 口古可名君否呉告周味命和哲唐善器
-
+  
 - Number: '31'
   Strokes: '3'
   Radical: 囗
@@ -431,7 +431,7 @@
   Importance: Important
   Frequency: '118'
   Examples: 四回図国
-
+  
 - Number: '32'
   Strokes: '3'
   Radical: 土
@@ -445,7 +445,7 @@
   Importance: ''
   Frequency: '580'
   Examples: 土在地型城場壁壓
-
+  
 - Number: '33'
   Strokes: '3'
   Radical: 士
@@ -459,7 +459,7 @@
   Importance: ''
   Frequency: '24'
   Examples: 士壹
-
+  
 - Number: '34'
   Strokes: '3'
   Radical: 夂
@@ -473,7 +473,7 @@
   Importance: ''
   Frequency: '34'
   Examples: 夏 夆
-
+  
 - Number: '35'
   Strokes: '3'
   Radical: 夊
@@ -485,9 +485,9 @@
   Position-J: あし
   Position-R: ashi
   Importance: ''
-  Frequency: ''
+  Frequency: '0'
   Examples: ''
-
+  
 - Number: '36'
   Strokes: '3'
   Radical: 夕
@@ -501,7 +501,7 @@
   Importance: ''
   Frequency: '34'
   Examples: 夕外多夜
-
+  
 - Number: '37'
   Strokes: '3'
   Radical: 大
@@ -515,7 +515,7 @@
   Importance: ''
   Frequency: '132'
   Examples: 大天奈奧
-
+  
 - Number: '38'
   Strokes: '3'
   Radical: 女
@@ -529,7 +529,7 @@
   Importance: ''
   Frequency: '681'
   Examples: 女好妄妻姉始姓姫
-
+  
 - Number: '39'
   Strokes: '3'
   Radical: 子
@@ -543,7 +543,7 @@
   Importance: ''
   Frequency: '83'
   Examples: 子孔字學
-
+  
 - Number: '40'
   Strokes: '3'
   Radical: 宀
@@ -556,8 +556,8 @@
   Position-R: kanmuri
   Importance: Important
   Frequency: '246'
-  Examples: 守 家 寒 實
-
+  Examples: 守家寒實
+  
 - Number: '41'
   Strokes: '3'
   Radical: 寸
@@ -570,8 +570,8 @@
   Position-R: ''
   Importance: ''
   Frequency: '40'
-  Examples: 寸 寺 尊 將
-
+  Examples: 寸寺尊將
+  
 - Number: '42'
   Strokes: '3'
   Radical: 小
@@ -584,8 +584,8 @@
   Position-R: ''
   Importance: ''
   Frequency: '41'
-  Examples: 小 少
-
+  Examples: 小少
+  
 - Number: '43'
   Strokes: '3'
   Radical: 尢
@@ -599,7 +599,7 @@
   Importance: ''
   Frequency: '66'
   Examples: 就
-
+  
 - Number: '44'
   Strokes: '3'
   Radical: 尸
@@ -612,8 +612,8 @@
   Position-R: tare
   Importance: ''
   Frequency: '148'
-  Examples: 尺 局
-
+  Examples: 尺局
+  
 - Number: '45'
   Strokes: '3'
   Radical: 屮
@@ -627,7 +627,7 @@
   Importance: ''
   Frequency: '38'
   Examples: 屯
-
+  
 - Number: '46'
   Strokes: '3'
   Radical: 山
@@ -640,8 +640,8 @@
   Position-R: ''
   Importance: ''
   Frequency: '636'
-  Examples: 山 岡 岩 島
-
+  Examples: 山岡岩島
+  
 - Number: '47'
   Strokes: '3'
   Radical: 巛
@@ -652,10 +652,10 @@
   Reading-R: magarigawa
   Position-J: ''
   Position-R: ''
-  Importance: '26'
-  Frequency: 川州巡
-  Examples: ''
-
+  Importance: ''
+  Frequency: '26'
+  Examples: 川州巡
+  
 - Number: '48'
   Strokes: '3'
   Radical: 工
@@ -668,8 +668,8 @@
   Position-R: ''
   Importance: ''
   Frequency: '17'
-  Examples: 工 左 巫 差
-
+  Examples: 工左巫差
+  
 - Number: '49'
   Strokes: '3'
   Radical: 已
@@ -682,8 +682,8 @@
   Position-R: ''
   Importance: ''
   Frequency: '20'
-  Examples: 己 巳
-
+  Examples: 己巳
+  
 - Number: '50'
   Strokes: '3'
   Radical: 巾
@@ -697,7 +697,7 @@
   Importance: ''
   Frequency: '295'
   Examples: 市布帝常
-
+  
 - Number: '51'
   Strokes: '3'
   Radical: 干
@@ -711,7 +711,7 @@
   Importance: ''
   Frequency: '9'
   Examples: 平年
-
+  
 - Number: '52'
   Strokes: '3'
   Radical: 幺
@@ -725,7 +725,7 @@
   Importance: ''
   Frequency: '50'
   Examples: 幻幼
-
+  
 - Number: '53'
   Strokes: '3'
   Radical: 广
@@ -739,7 +739,7 @@
   Importance: Important
   Frequency: '15'
   Examples: 序店府度座庭廣廳
-
+  
 - Number: '54'
   Strokes: '3'
   Radical: 廴
@@ -753,7 +753,7 @@
   Importance: ''
   Frequency: '9'
   Examples: 延
-
+  
 - Number: '55'
   Strokes: '3'
   Radical: 廾
@@ -767,7 +767,7 @@
   Importance: ''
   Frequency: '50'
   Examples: 弁
-
+  
 - Number: '56'
   Strokes: '3'
   Radical: 弋
@@ -781,7 +781,7 @@
   Importance: ''
   Frequency: '15'
   Examples: 式弑
-
+  
 - Number: '57'
   Strokes: '3'
   Radical: 弓
@@ -795,7 +795,7 @@
   Importance: ''
   Frequency: '165'
   Examples: 弓引弟弱彌
-
+  
 - Number: '58'
   Strokes: '3'
   Radical: 彐
@@ -809,7 +809,7 @@
   Importance: ''
   Frequency: '25'
   Examples: 彖
-
+  
 - Number: '59'
   Strokes: '3'
   Radical: 彡
@@ -823,7 +823,7 @@
   Importance: ''
   Frequency: '62'
   Examples: 形彦
-
+  
 - Number: '60'
   Strokes: '3'
   Radical: 彳
@@ -837,7 +837,7 @@
   Importance: Important
   Frequency: '215'
   Examples: 役彼後得徳徼
-
+  
 - Number: '61'
   Strokes: '4'
   Radical: 心
@@ -849,9 +849,9 @@
   Position-J: ''
   Position-R: ''
   Importance: ''
-  Frequency: '1,115'
+  Frequency: '1115'
   Examples: 必忙忌性悪情想
-
+  
 - Number: '62'
   Strokes: '4'
   Radical: 戈
@@ -865,7 +865,7 @@
   Importance: ''
   Frequency: '116'
   Examples: 成式弐戦
-
+  
 - Number: '63'
   Strokes: '4'
   Radical: 戸
@@ -879,7 +879,7 @@
   Importance: ''
   Frequency: '44'
   Examples: 戸戻所
-
+  
 - Number: '64'
   Strokes: '4'
   Radical: 手
@@ -891,9 +891,9 @@
   Position-J: ''
   Position-R: ''
   Importance: ''
-  Frequency: '1,203'
+  Frequency: '1203'
   Examples: 手 才 挙 拜 拳 掌 掣 擧 (持 掛 打 批 技 抱 押)
-
+  
 - Number: '65'
   Strokes: '4'
   Radical: 支
@@ -907,7 +907,7 @@
   Importance: ''
   Frequency: '26'
   Examples: 攱攲
-
+  
 - Number: '66'
   Strokes: '4'
   Radical: 攵
@@ -921,7 +921,7 @@
   Importance: Important
   Frequency: '296'
   Examples: 收敍數斅
-
+  
 - Number: '67'
   Strokes: '4'
   Radical: 文
@@ -935,7 +935,7 @@
   Importance: ''
   Frequency: '26'
   Examples: 文 斊 斈 斌 斐 斑 斕
-
+  
 - Number: '68'
   Strokes: '4'
   Radical: 斗
@@ -949,7 +949,7 @@
   Importance: ''
   Frequency: '32'
   Examples: 料 斡
-
+  
 - Number: '69'
   Strokes: '4'
   Radical: 斤
@@ -963,7 +963,7 @@
   Importance: ''
   Frequency: '55'
   Examples: 斦 斧 新 斥 斬 斷
-
+  
 - Number: '70'
   Strokes: '4'
   Radical: 方
@@ -977,7 +977,7 @@
   Importance: ''
   Frequency: '92'
   Examples: 方 放 旅 族
-
+  
 - Number: '71'
   Strokes: '4'
   Radical: 无
@@ -991,7 +991,7 @@
   Importance: ''
   Frequency: '12'
   Examples: 无 旡 既 旣
-
+  
 - Number: '72'
   Strokes: '4'
   Radical: 日
@@ -1019,7 +1019,7 @@
   Importance: ''
   Frequency: '37'
   Examples: 書 最 晉 曷 曹 曾
-
+  
 - Number: '74'
   Strokes: '4'
   Radical: 月
@@ -1033,7 +1033,7 @@
   Importance: ''
   Frequency: '69'
   Examples: 有 服 青 朝
-
+  
 - Number: '75'
   Strokes: '4'
   Radical: 木
@@ -1045,9 +1045,9 @@
   Position-J: ''
   Position-R: ''
   Importance: ''
-  Frequency: '1,369'
+  Frequency: '1369'
   Examples: 木 杢 板 相 根 森 楽 機 末 本 杉 林
-
+  
 - Number: '76'
   Strokes: '4'
   Radical: 欠
@@ -1061,7 +1061,7 @@
   Importance: ''
   Frequency: '235'
   Examples: 欣 欽 欧 欲 歌
-
+  
 - Number: '77'
   Strokes: '4'
   Radical: 止
@@ -1075,7 +1075,7 @@
   Importance: ''
   Frequency: '99'
   Examples: 正 歩 此 步 武 歪 歲
-
+  
 - Number: '78'
   Strokes: '4'
   Radical: 歹
@@ -1089,7 +1089,7 @@
   Importance: ''
   Frequency: '231'
   Examples: 死 列 殕
-
+  
 - Number: '79'
   Strokes: '4'
   Radical: 殳
@@ -1103,7 +1103,7 @@
   Importance: ''
   Frequency: '93'
   Examples: 役 投 殴 殷
-
+  
 - Number: '80'
   Strokes: '4'
   Radical: 毋
@@ -1117,7 +1117,7 @@
   Importance: ''
   Frequency: '16'
   Examples: 毋 母 毎 姆 梅
-
+  
 - Number: '81'
   Strokes: '4'
   Radical: 比
@@ -1131,7 +1131,7 @@
   Importance: ''
   Frequency: '21'
   Examples: 皆 批 毕 毖 毘 毚
-
+  
 - Number: '82'
   Strokes: '4'
   Radical: 毛
@@ -1145,7 +1145,7 @@
   Importance: ''
   Frequency: '211'
   Examples: 毟 毡 毦 毫 毳 耗
-
+  
 - Number: '83'
   Strokes: '4'
   Radical: 氏
@@ -1159,7 +1159,7 @@
   Importance: ''
   Frequency: '10'
   Examples: 氏 民 紙 婚 氓
-
+  
 - Number: '84'
   Strokes: '4'
   Radical: 气
@@ -1170,10 +1170,10 @@
   Reading-R: kigamae
   Position-J: 'かまえ, きがまえ'
   Position-R: 'kamae, kigamae'
-  Importance: '17'
-  Frequency: 気 汽 氧
-  Examples: ''
-
+  Importance: ''
+  Frequency: '17'
+  Examples: 気 汽 氧
+  
 - Number: '85'
   Strokes: '4'
   Radical: 水
@@ -1185,9 +1185,9 @@
   Position-J: ''
   Position-R: ''
   Importance: ''
-  Frequency: '1,595'
+  Frequency: '1595'
   Examples: 水 永 泳 決 治 海 演 漢 瀬
-
+  
 - Number: '86'
   Strokes: '4'
   Radical: 火
@@ -1201,7 +1201,7 @@
   Importance: ''
   Frequency: '639'
   Examples: 火 灯 毯 爆 (烈 烹 焦 然 煮)
-
+  
 - Number: '87'
   Strokes: '4'
   Radical: 爪
@@ -1215,7 +1215,7 @@
   Importance: ''
   Frequency: '36'
   Examples: 爬 爯 爭 爰 爲
-
+  
 - Number: '88'
   Strokes: '4'
   Radical: 父
@@ -1229,7 +1229,7 @@
   Importance: ''
   Frequency: '10'
   Examples: 斧 釜
-
+  
 - Number: '89'
   Strokes: '4'
   Radical: 爻
@@ -1243,7 +1243,7 @@
   Importance: ''
   Frequency: '16'
   Examples: 爼 爽 爾
-
+  
 - Number: '90'
   Strokes: '4'
   Radical: 爿
@@ -1257,7 +1257,7 @@
   Importance: ''
   Frequency: '48'
   Examples: 牀 奘 牃
-
+  
 - Number: '91'
   Strokes: '4'
   Radical: 片
@@ -1271,7 +1271,7 @@
   Importance: ''
   Frequency: '77'
   Examples: 版 牌 牒
-
+  
 - Number: '92'
   Strokes: '5'
   Radical: 牙
@@ -1285,7 +1285,7 @@
   Importance: ''
   Frequency: '9'
   Examples: 芽 呀 牚
-
+  
 - Number: '93'
   Strokes: '4'
   Radical: 牛
@@ -1299,7 +1299,7 @@
   Importance: ''
   Frequency: '233'
   Examples: 告 牟 牧 物 特 解
-
+  
 - Number: '94'
   Strokes: '4'
   Radical: 犬
@@ -1313,7 +1313,7 @@
   Importance: ''
   Frequency: '444'
   Examples: 犬 犯 狂 狙 狗 献 獣
-
+  
 - Number: '95'
   Strokes: '5'
   Radical: 玄
@@ -1327,7 +1327,7 @@
   Importance: ''
   Frequency: '6'
   Examples: 弦玆
-
+  
 - Number: '96'
   Strokes: '5'
   Radical: 王
@@ -1341,7 +1341,7 @@
   Importance: ''
   Frequency: '473'
   Examples: 王 玉 主 弄 皇 理 差 聖
-
+  
 - Number: '97'
   Strokes: '6'
   Radical: 瓜
@@ -1355,7 +1355,7 @@
   Importance: ''
   Frequency: '55'
   Examples: 呱 瓞
-
+  
 - Number: '98'
   Strokes: '5'
   Radical: 瓦
@@ -1369,7 +1369,7 @@
   Importance: ''
   Frequency: '174'
   Examples: 瓧 瓮 甄
-
+  
 - Number: '99'
   Strokes: '5'
   Radical: 甘
@@ -1383,7 +1383,7 @@
   Importance: ''
   Frequency: '22'
   Examples: 柑 甜 酣
-
+  
 - Number: '100'
   Strokes: '5'
   Radical: 生
@@ -1397,7 +1397,7 @@
   Importance: ''
   Frequency: '22'
   Examples: 牲 笙 甥
-
+  
 - Number: '101'
   Strokes: '5'
   Radical: 用
@@ -1411,7 +1411,7 @@
   Importance: ''
   Frequency: '10'
   Examples: 佣 甬 甯
-
+  
 - Number: '102'
   Strokes: '5'
   Radical: 田
@@ -1425,7 +1425,7 @@
   Importance: ''
   Frequency: '192'
   Examples: 田 町 思 留 略 番
-
+  
 - Number: '103'
   Strokes: '5'
   Radical: 疋
@@ -1439,7 +1439,7 @@
   Importance: ''
   Frequency: '15'
   Examples: 疏 楚 胥 延
-
+  
 - Number: '104'
   Strokes: '5'
   Radical: 疒
@@ -1453,7 +1453,7 @@
   Importance: Important
   Frequency: '526'
   Examples: 病 症 痛 癌 癖
-
+  
 - Number: '105'
   Strokes: '5'
   Radical: 癶
@@ -1467,7 +1467,7 @@
   Importance: ''
   Frequency: '15'
   Examples: 発 登
-
+  
 - Number: '106'
   Strokes: '5'
   Radical: 白
@@ -1481,7 +1481,7 @@
   Importance: ''
   Frequency: '109'
   Examples: 皃 的 皆 皇
-
+  
 - Number: '107'
   Strokes: '5'
   Radical: 皮
@@ -1495,7 +1495,7 @@
   Importance: ''
   Frequency: '94'
   Examples: 披 彼 波
-
+  
 - Number: '108'
   Strokes: '5'
   Radical: 皿
@@ -1509,7 +1509,7 @@
   Importance: ''
   Frequency: '129'
   Examples: 盂 盉 盍 監 蘯
-
+  
 - Number: '109'
   Strokes: '5'
   Radical: 目
@@ -1523,7 +1523,7 @@
   Importance: ''
   Frequency: '647'
   Examples: 目 見 具 省 眠 眼 観 覧
-
+  
 - Number: '110'
   Strokes: '5'
   Radical: 矛
@@ -1537,7 +1537,7 @@
   Importance: ''
   Frequency: '65'
   Examples: 茅 矜
-
+  
 - Number: '111'
   Strokes: '5'
   Radical: 矢
@@ -1551,7 +1551,7 @@
   Importance: ''
   Frequency: '64'
   Examples: 医 族 矩
-
+  
 - Number: '112'
   Strokes: '5'
   Radical: 石
@@ -1565,7 +1565,7 @@
   Importance: ''
   Frequency: '499'
   Examples: 石 岩 砂 破 碑 碧
-
+  
 - Number: '113'
   Strokes: '5'
   Radical: 示
@@ -1579,7 +1579,7 @@
   Importance: ''
   Frequency: '213'
   Examples: 示 奈 祭 禁 礼 社 神 視 福
-
+  
 - Number: '114'
   Strokes: '5'
   Radical: 禸
@@ -1593,7 +1593,7 @@
   Importance: ''
   Frequency: '12'
   Examples: 禹 禺 禽
-
+  
 - Number: '115'
   Strokes: '5'
   Radical: 禾
@@ -1607,7 +1607,7 @@
   Importance: Important
   Frequency: '431'
   Examples: 利 私 季 和 科 香 秦 穀
-
+  
 - Number: '116'
   Strokes: '5'
   Radical: 穴
@@ -1621,7 +1621,7 @@
   Importance: ''
   Frequency: '298'
   Examples: 空 突 窅 窘 窩 窶 竇
-
+  
 - Number: '117'
   Strokes: '5'
   Radical: 立
@@ -1635,7 +1635,7 @@
   Importance: ''
   Frequency: '101'
   Examples: 立 音 産 翌 意 新 端 親 競
-
+  
 - Number: '118'
   Strokes: '6'
   Radical: 竹
@@ -1649,7 +1649,7 @@
   Importance: ''
   Frequency: '953'
   Examples: 竺 笑 第 等 簡
-
+  
 - Number: '119'
   Strokes: '6'
   Radical: 米
@@ -1663,7 +1663,7 @@
   Importance: ''
   Frequency: '318'
   Examples: 料 断 奥 糊 麟
-
+  
 - Number: '120'
   Strokes: '6'
   Radical: 糸
@@ -1677,7 +1677,7 @@
   Importance: ''
   Frequency: '823'
   Examples: 系 級 紙 素 細 組 終 絵 紫
-
+  
 - Number: '121'
   Strokes: '6'
   Radical: 缶
@@ -1705,7 +1705,7 @@
   Importance: ''
   Frequency: '163'
   Examples: 買 置 羅
-
+  
 - Number: '123'
   Strokes: '6'
   Radical: 羊
@@ -1719,7 +1719,7 @@
   Importance: ''
   Frequency: '156'
   Examples: 着 羚 翔 着
-
+  
 - Number: '124'
   Strokes: '6'
   Radical: 羽
@@ -1733,7 +1733,7 @@
   Importance: ''
   Frequency: '220'
   Examples: 習 翀 翁 翔
-
+  
 - Number: '125'
   Strokes: '4'
   Radical: 耂
@@ -1747,7 +1747,7 @@
   Importance: ''
   Frequency: '22'
   Examples: 耆孝耋
-
+  
 - Number: '126'
   Strokes: '6'
   Radical: 而
@@ -1761,7 +1761,7 @@
   Importance: ''
   Frequency: '22'
   Examples: 耎耐耑
-
+  
 - Number: '127'
   Strokes: '6'
   Radical: 耒
@@ -1775,7 +1775,7 @@
   Importance: ''
   Frequency: '84'
   Examples: 耔 耝 耨 耰
-
+  
 - Number: '128'
   Strokes: '6'
   Radical: 耳
@@ -1789,7 +1789,7 @@
   Importance: ''
   Frequency: '172'
   Examples: 取 聞 職 叢
-
+  
 - Number: '129'
   Strokes: '6'
   Radical: 聿
@@ -1803,7 +1803,7 @@
   Importance: ''
   Frequency: '19'
   Examples: 律 書 建
-
+  
 - Number: '130'
   Strokes: '6'
   Radical: 肉
@@ -1817,7 +1817,7 @@
   Importance: ''
   Frequency: '674'
   Examples: 肉 肖 股 胃 腅 脤
-
+  
 - Number: '131'
   Strokes: '7'
   Radical: 臣
@@ -1831,7 +1831,7 @@
   Importance: ''
   Frequency: '16'
   Examples: 臥 宦 蔵
-
+  
 - Number: '132'
   Strokes: '6'
   Radical: 自
@@ -1845,7 +1845,7 @@
   Importance: ''
   Frequency: '34'
   Examples: 自 臫 臬 臲
-
+  
 - Number: '133'
   Strokes: '6'
   Radical: 至
@@ -1859,7 +1859,7 @@
   Importance: ''
   Frequency: '24'
   Examples: 致 臸 臺
-
+  
 - Number: '134'
   Strokes: '6'
   Radical: 臼
@@ -1873,7 +1873,7 @@
   Importance: ''
   Frequency: '71'
   Examples: 桕 舅 舂 鼠 插
-
+  
 - Number: '135'
   Strokes: '6'
   Radical: 舌
@@ -1887,7 +1887,7 @@
   Importance: ''
   Frequency: '31'
   Examples: 乱 适 話 舍
-
+  
 - Number: '136'
   Strokes: '7'
   Radical: 舛
@@ -1901,7 +1901,7 @@
   Importance: ''
   Frequency: '10'
   Examples: 舛 舜 舞
-
+  
 - Number: '137'
   Strokes: '6'
   Radical: 舟
@@ -1915,7 +1915,7 @@
   Importance: ''
   Frequency: '197'
   Examples: 航 船 艦
-
+  
 - Number: '138'
   Strokes: '6'
   Radical: 艮
@@ -1929,7 +1929,7 @@
   Importance: ''
   Frequency: '5'
   Examples: 良 飲 很
-
+  
 - Number: '139'
   Strokes: '6'
   Radical: 色
@@ -1943,7 +1943,7 @@
   Importance: ''
   Frequency: '21'
   Examples: 色 艴 艷
-
+  
 - Number: '140'
   Strokes: '3'
   Radical: 艹
@@ -1955,9 +1955,9 @@
   Position-J: かんむり
   Position-R: kanmuri
   Importance: Important
-  Frequency: '1,902'
+  Frequency: '1902'
   Examples: 共 花(37) 英 苦 草 茶 落 幕 靴 鞄 薬
-
+  
 - Number: '141'
   Strokes: '6'
   Radical: 虍
@@ -1971,7 +1971,7 @@
   Importance: ''
   Frequency: '114'
   Examples: 虎 虐 彪 虒
-
+  
 - Number: '142'
   Strokes: '6'
   Radical: 虫
@@ -1983,9 +1983,9 @@
   Position-J: ''
   Position-R: ''
   Importance: ''
-  Frequency: '1,067'
+  Frequency: '1067'
   Examples: 蚯 蚓 強 触 蟻 蟹
-
+  
 - Number: '143'
   Strokes: '6'
   Radical: 血
@@ -1999,7 +1999,7 @@
   Importance: ''
   Frequency: '60'
   Examples: 洫 衁 衅 衆
-
+  
 - Number: '144'
   Strokes: '6'
   Radical: 行
@@ -2013,7 +2013,7 @@
   Importance: Important
   Frequency: '53'
   Examples: 行 衍 術 衝
-
+  
 - Number: '145'
   Strokes: '6'
   Radical: 衣
@@ -2027,7 +2027,7 @@
   Importance: ''
   Frequency: '607'
   Examples: 衣 装 裁 (初 被 複)
-
+  
 - Number: '146'
   Strokes: '6'
   Radical: 西
@@ -2041,7 +2041,7 @@
   Importance: ''
   Frequency: '29'
   Examples: 西 要 覊
-
+  
 - Number: '147'
   Strokes: '7'
   Radical: 見
@@ -2055,7 +2055,7 @@
   Importance: ''
   Frequency: '161'
   Examples: 規 親 覺 觀
-
+  
 - Number: '148'
   Strokes: '7'
   Radical: 角
@@ -2069,7 +2069,7 @@
   Importance: ''
   Frequency: '158'
   Examples: 觚 解 觕 觥 觸
-
+  
 - Number: '149'
   Strokes: '7'
   Radical: 言
@@ -2083,7 +2083,7 @@
   Importance: ''
   Frequency: '861'
   Examples: 誁 詋 詔 評 詗 詥 試 詧
-
+  
 - Number: '150'
   Strokes: '7'
   Radical: 谷
@@ -2097,7 +2097,7 @@
   Importance: ''
   Frequency: '54'
   Examples: 谿 豀 谸
-
+  
 - Number: '151'
   Strokes: '7'
   Radical: 豆
@@ -2111,7 +2111,7 @@
   Importance: ''
   Frequency: '68'
   Examples: 豈 豐 豎
-
+  
 - Number: '152'
   Strokes: '7'
   Radical: 豕
@@ -2125,7 +2125,7 @@
   Importance: ''
   Frequency: '148'
   Examples: 豕 豚 象
-
+  
 - Number: '153'
   Strokes: '7'
   Radical: 豸
@@ -2139,7 +2139,7 @@
   Importance: ''
   Frequency: '140'
   Examples: 豹 貌 貓 貉
-
+  
 - Number: '154'
   Strokes: '7'
   Radical: 貝
@@ -2153,7 +2153,7 @@
   Importance: ''
   Frequency: '277'
   Examples: 財 賊 賜 贛 貧 貨 貫 貿
-
+  
 - Number: '155'
   Strokes: '7'
   Radical: 赤
@@ -2167,7 +2167,7 @@
   Importance: ''
   Frequency: '31'
   Examples: 赫 赭
-
+  
 - Number: '156'
   Strokes: '7'
   Radical: 走
@@ -2181,7 +2181,7 @@
   Importance: ''
   Frequency: '285'
   Examples: 赴 起 超
-
+  
 - Number: '157'
   Strokes: '7'
   Radical: 足
@@ -2195,7 +2195,7 @@
   Importance: ''
   Frequency: '580'
   Examples: 跑 跨 跟 跪 路
-
+  
 - Number: '158'
   Strokes: '7'
   Radical: 身
@@ -2209,7 +2209,7 @@
   Importance: ''
   Frequency: '97'
   Examples: 躬 躲 軀
-
+  
 - Number: '159'
   Strokes: '7'
   Radical: 車
@@ -2223,7 +2223,7 @@
   Importance: ''
   Frequency: '361'
   Examples: 軌 軟 較 軍 載
-
+  
 - Number: '160'
   Strokes: '7'
   Radical: 辛
@@ -2237,7 +2237,7 @@
   Importance: ''
   Frequency: '36'
   Examples: 辜 辟 辣 辦 辨
-
+  
 - Number: '161'
   Strokes: '7'
   Radical: 辰
@@ -2251,7 +2251,7 @@
   Importance: ''
   Frequency: '15'
   Examples: 辱 農
-
+  
 - Number: '162'
   Strokes: '3'
   Radical: ⻌
@@ -2265,7 +2265,7 @@
   Importance: Important
   Frequency: '381'
   Examples: 巡 迎 通 追 逃 迎 進
-
+  
 - Number: '163'
   Strokes: '7'
   Radical: 邑
@@ -2279,7 +2279,7 @@
   Importance: ''
   Frequency: '350'
   Examples: 那 邦 郎 部 郭 都 鄉
-
+  
 - Number: '164'
   Strokes: '7'
   Radical: 酉
@@ -2290,10 +2290,10 @@
   Reading-R: hiyominotori
   Position-J: ''
   Position-R: ''
-  Importance: '290'
-  Frequency: 酒 醉 油 醒 酸
-  Examples: ''
-
+  Importance: ''
+  Frequency: '290'
+  Examples: 酒 醉 油 醒 酸
+  
 - Number: '165'
   Strokes: '7'
   Radical: 釆
@@ -2307,7 +2307,7 @@
   Importance: ''
   Frequency: '14'
   Examples: 釉 釋
-
+  
 - Number: '166'
   Strokes: '7'
   Radical: 里
@@ -2321,7 +2321,7 @@
   Importance: ''
   Frequency: '14'
   Examples: 野 野
-
+  
 - Number: '167'
   Strokes: '8'
   Radical: 金
@@ -2335,7 +2335,7 @@
   Importance: ''
   Frequency: '806'
   Examples: 銀 銅 釘 銳 鋞 鋙 鉒 鉍 鉗 鈡 鈠
-
+  
 - Number: '168'
   Strokes: '8'
   Radical: 長
@@ -2349,7 +2349,7 @@
   Importance: ''
   Frequency: '55'
   Examples: 長
-
+  
 - Number: '169'
   Strokes: '8'
   Radical: 門
@@ -2363,7 +2363,7 @@
   Importance: Important
   Frequency: '246'
   Examples: 間 閑 関 闘 閉 開 閏 間
-
+  
 - Number: '170'
   Strokes: '8'
   Radical: ⾩
@@ -2377,7 +2377,7 @@
   Importance: ''
   Frequency: '348'
   Examples: 阪 防 阻 陆 陘 院 险 陳
-
+  
 - Number: '171'
   Strokes: '8'
   Radical: 隶
@@ -2391,7 +2391,7 @@
   Importance: ''
   Frequency: '12'
   Examples: 隸 隺
-
+  
 - Number: '172'
   Strokes: '8'
   Radical: 隹
@@ -2405,7 +2405,7 @@
   Importance: ''
   Frequency: '233'
   Examples: 雀 集 雁 难 雀 雅
-
+  
 - Number: '173'
   Strokes: '8'
   Radical: 雨
@@ -2419,7 +2419,7 @@
   Importance: ''
   Frequency: '298'
   Examples: 雾 霜 雪 霸 雲 霧
-
+  
 - Number: '174'
   Strokes: '8'
   Radical: 青
@@ -2433,7 +2433,7 @@
   Importance: ''
   Frequency: '17'
   Examples: 靕 靖 靜
-
+  
 - Number: '175'
   Strokes: '8'
   Radical: 非
@@ -2447,7 +2447,7 @@
   Importance: ''
   Frequency: '25'
   Examples: 靠 靠 靟
-
+  
 - Number: '176'
   Strokes: '9'
   Radical: 面
@@ -2461,7 +2461,7 @@
   Importance: ''
   Frequency: '66'
   Examples: 靦 靨
-
+  
 - Number: '177'
   Strokes: '9'
   Radical: 革
@@ -2475,7 +2475,7 @@
   Importance: ''
   Frequency: '305'
   Examples: 靴 鞍 鞅 鞍 鞭
-
+  
 - Number: '178'
   Strokes: '10'
   Radical: 韋
@@ -2486,10 +2486,10 @@
   Reading-R: nameshigawa
   Position-J: ''
   Position-R: ''
-  Importance: '100'
-  Frequency: 韋 韓 韜
-  Examples: ''
-
+  Importance: ''
+  Frequency: '100'
+  Examples: 韋 韓 韜
+  
 - Number: '179'
   Strokes: '9'
   Radical: 韭
@@ -2503,7 +2503,7 @@
   Importance: ''
   Frequency: '20'
   Examples: 韱 韲
-
+  
 - Number: '180'
   Strokes: '9'
   Radical: 音
@@ -2517,7 +2517,7 @@
   Importance: ''
   Frequency: '43'
   Examples: 韶 韻 韾
-
+  
 - Number: '181'
   Strokes: '9'
   Radical: 頁
@@ -2545,7 +2545,7 @@
   Importance: ''
   Frequency: '182'
   Examples: 風 颱 飄 颿 颪
-
+  
 - Number: '183'
   Strokes: '9'
   Radical: 飛
@@ -2573,7 +2573,7 @@
   Importance: ''
   Frequency: '403'
   Examples: 飯 飲 餓 餘 餐 養
-
+  
 - Number: '185'
   Strokes: '9'
   Radical: 首
@@ -2587,7 +2587,7 @@
   Importance: ''
   Frequency: '20'
   Examples: 馗 馘
-
+  
 - Number: '186'
   Strokes: '9'
   Radical: 香
@@ -2601,7 +2601,7 @@
   Importance: ''
   Frequency: '37'
   Examples: 馨
-
+  
 - Number: '187'
   Strokes: '10'
   Radical: 馬
@@ -2615,7 +2615,7 @@
   Importance: ''
   Frequency: '472'
   Examples: 馮 馴 馳 駐 驚
-
+  
 - Number: '188'
   Strokes: '10'
   Radical: 骨
@@ -2629,7 +2629,7 @@
   Importance: ''
   Frequency: '185'
   Examples: 骼 髒 髀 骿 骾
-
+  
 - Number: '189'
   Strokes: '10'
   Radical: 高
@@ -2643,7 +2643,7 @@
   Importance: ''
   Frequency: '34'
   Examples: 髚 髛
-
+  
 - Number: '190'
   Strokes: '10'
   Radical: 髟
@@ -2657,7 +2657,7 @@
   Importance: ''
   Frequency: '243'
   Examples: 髮 鬚 鬆 鬍 髦
-
+  
 - Number: '191'
   Strokes: '10'
   Radical: 鬥
@@ -2668,10 +2668,10 @@
   Reading-R: tatakaigamae
   Position-J: かまえ
   Position-R: 'kamae, mongamae'
-  Importance: '23'
-  Frequency: 鬧 鬪
-  Examples: ''
-
+  Importance: ''
+  Frequency: '23'
+  Examples: 鬧 鬪
+  
 - Number: '192'
   Strokes: '10'
   Radical: 鬯
@@ -2685,7 +2685,7 @@
   Importance: ''
   Frequency: '8'
   Examples: 鬰 鬱
-
+  
 - Number: '193'
   Strokes: '10'
   Radical: 鬲
@@ -2699,7 +2699,7 @@
   Importance: ''
   Frequency: '73'
   Examples: 鬶 鬷 鬸
-
+  
 - Number: '194'
   Strokes: '10'
   Radical: 鬼
@@ -2713,7 +2713,7 @@
   Importance: ''
   Frequency: '141'
   Examples: 魂 魁 鬽 魄
-
+  
 - Number: '195'
   Strokes: '11'
   Radical: 魚
@@ -2727,7 +2727,7 @@
   Importance: ''
   Frequency: '571'
   Examples: 鯉 鮑 魛 魜 魝 魞 魟 魠
-
+  
 - Number: '196'
   Strokes: '11'
   Radical: 鳥
@@ -2741,7 +2741,7 @@
   Importance: ''
   Frequency: '750'
   Examples: 鳫 鳮 鳱 鳳 鳴 鳿 雞 鳴 鴻 鴛
-
+  
 - Number: '197'
   Strokes: '11'
   Radical: 鹵
@@ -2755,7 +2755,7 @@
   Importance: ''
   Frequency: '44'
   Examples: 鹹 鹼 鹽
-
+  
 - Number: '198'
   Strokes: '11'
   Radical: 鹿
@@ -2769,7 +2769,7 @@
   Importance: ''
   Frequency: '104'
   Examples: 塵 麃 麋 麉 麟
-
+  
 - Number: '199'
   Strokes: '7'
   Radical: 麦
@@ -2783,7 +2783,7 @@
   Importance: ''
   Frequency: '131'
   Examples: 麴 麵 麱 麨 麺
-
+  
 - Number: '200'
   Strokes: '11'
   Radical: 麻
@@ -2797,7 +2797,7 @@
   Importance: ''
   Frequency: '34'
   Examples: 麼 魔
-
+  
 - Number: '201'
   Strokes: '11'
   Radical: 黄
@@ -2811,7 +2811,7 @@
   Importance: ''
   Frequency: '42'
   Examples: 黊 黌
-
+  
 - Number: '202'
   Strokes: '12'
   Radical: 黍
@@ -2825,7 +2825,7 @@
   Importance: ''
   Frequency: '46'
   Examples: 黏 黎
-
+  
 - Number: '203'
   Strokes: '11'
   Radical: 黒
@@ -2839,7 +2839,7 @@
   Importance: ''
   Frequency: '172'
   Examples: 點 黛 黱 黨
-
+  
 - Number: '204'
   Strokes: '12'
   Radical: 黹
@@ -2853,7 +2853,7 @@
   Importance: ''
   Frequency: '8'
   Examples: 黼 黻
-
+  
 - Number: '205'
   Strokes: '13'
   Radical: 黽
@@ -2867,7 +2867,7 @@
   Importance: ''
   Frequency: '40'
   Examples: 黿 鼈
-
+  
 - Number: '206'
   Strokes: '13'
   Radical: 鼎
@@ -2881,7 +2881,7 @@
   Importance: ''
   Frequency: '14'
   Examples: 鼏 鼒
-
+  
 - Number: '207'
   Strokes: '13'
   Radical: 鼓
@@ -2895,7 +2895,7 @@
   Importance: ''
   Frequency: '46'
   Examples: 鼗 鼘
-
+  
 - Number: '208'
   Strokes: '13'
   Radical: 鼠
@@ -2909,7 +2909,7 @@
   Importance: ''
   Frequency: '92'
   Examples: 鼢 鼣 鼤
-
+  
 - Number: '209'
   Strokes: '14'
   Radical: 鼻
@@ -2923,7 +2923,7 @@
   Importance: ''
   Frequency: '49'
   Examples: 鼼 鼽 鼿
-
+  
 - Number: '210'
   Strokes: '14'
   Radical: 齊
@@ -2937,7 +2937,7 @@
   Importance: ''
   Frequency: '18'
   Examples: 齋 齏 齏
-
+  
 - Number: '211'
   Strokes: '12'
   Radical: 歯
@@ -2951,7 +2951,7 @@
   Importance: ''
   Frequency: '162'
   Examples: 齡 齠 齗
-
+  
 - Number: '212'
   Strokes: '11'
   Radical: 竜
@@ -2965,7 +2965,7 @@
   Importance: ''
   Frequency: '14'
   Examples: 龖 龘
-
+  
 - Number: '213'
   Strokes: '11'
   Radical: 亀
@@ -2979,7 +2979,7 @@
   Importance: ''
   Frequency: '24'
   Examples: 龝
-
+  
 - Number: '214'
   Strokes: '17'
   Radical: 龠
