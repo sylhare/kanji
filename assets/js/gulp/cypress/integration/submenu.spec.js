@@ -3,7 +3,7 @@ context(' ---------------- Sort test ---------------- ', () => {
     cy.visit('http://127.0.0.1:4000/kanji/');
   });
 
-  describe('FILTER submenu actions', function () {
+  describe('SORT submenu actions', function () {
 
     it('NUMBER submenu appears on click', () => {
       cy.clickOnSort("NUMBER")
@@ -55,7 +55,8 @@ context(' ---------------- Sort test ---------------- ', () => {
 
   });
 
-  describe('FILTER order always ASC first', function () {
+  describe('SORT order always ASC first', function () {
+
     it('click on NUMBER then READING then NUMBER', () => {
       cy.get('#sort').click({force: true});
       cy.get('#Number-sort').click({force: true});
@@ -74,6 +75,20 @@ context(' ---------------- Sort test ---------------- ', () => {
       cy.checkOrder(1, 214);
       cy.get('#Category-sort').click({force: true});
       cy.checkOrder(45, 191);
+    });
+  });
+
+  describe('FILTER submenu actions ', function () {
+
+    it('FILTER submenu buttons are visible but not SORT ones', () => {
+      cy.get('#filter').click({force: true});
+      cy.get('#Number-filter').contains("NUMBER").should('be.visible');
+      cy.get('#Number-sort').contains("NUMBER").should('be.hidden');
+    });
+
+    it('OTHER submenu appears on click', () => {
+      cy.get('#filter').click({force: true});
+      cy.get('.menu').contains("OTHER").should('be.visible');
     });
 
   });

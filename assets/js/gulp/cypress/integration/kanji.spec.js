@@ -41,6 +41,12 @@ context(' ---------------- Navigation tests ---------------- ', () => {
         .should('have.attr', 'href', '#')
     });
 
+    it('Contains FILTER in navigation', () => {
+      cy.get('.menu').contains("FILTER")
+        .should('be.visible')
+        .should('have.attr', 'href', '#')
+    });
+
   });
 
 });

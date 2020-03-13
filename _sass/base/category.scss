@@ -30,130 +30,66 @@
   @include button-color($reading-sort)
 }
 
-.Agriculture-filter {
-  @include button-color($agriculture)
+#Number-sort {
+  @include button-color($number-sort)
 }
 
-.Number-border {
-  @include border-color($number);
-}
+#Number-filter { @include button-color($number) }
+.Number { @include background($number); }
+.Number-border { @include border-color($number); }
 
-.Number-filter {
-  @include button-color($number)
-}
+#Weapon-filter { @include button-color($weapon) }
+.Weapon { @include background($weapon); }
+.Weapon-border { @include border-color($weapon); }
 
-.Number {
-  @include background($number);
-}
+#Other-filter { @include button-color($other) }
+.Other { @include background($other); }
+.Other-border { @include border-color($other); }
 
-.Weapon-border {
-  @include border-color($weapon);
-}
+#Fishing-filter { @include button-color($fishing) }
+.Fishing { @include background($fishing); }
+.Fishing-border { @include border-color($fishing); }
 
-.Weapon {
-  @include background($weapon);
-}
+#Home-filter { @include button-color($home) }
+.Home { @include background($home); }
+.Home-border { @include border-color($home); }
 
-.Other-border {
-  @include border-color($other);
-}
+#Body-filter { @include button-color($body) }
+.Body { @include background($body); }
+.Body-border { @include border-color($body); }
 
-.Other {
-  @include background($other);
-}
+#Capability-filter { @include button-color($capability) }
+.Capability { @include background($capability); }
+.Capability-border { @include border-color($capability); }
 
-.Fishing-border {
-  @include border-color($fishing);
-}
+#Nature-filter { @include button-color($nature) }
+.Nature { @include background($nature); }
+.Nature-border { @include border-color($nature); }
 
-.Fishing {
-  @include background($fishing);
-}
+#Ceremony-filter { @include button-color($ceremony) }
+.Ceremony { @include background($ceremony); }
+.Ceremony-border { @include border-color($ceremony); }
 
-.Home-border {
-  @include border-color($home);
-}
+#Society-filter { @include button-color($society) }
+.Society { @include background($society); }
+.Society-border { @include border-color($society); }
 
-.Home {
-  @include background($home);
-}
+#Agriculture-filter { @include button-color($agriculture) }
+.Agriculture { @include background($agriculture); }
+.Agriculture-border { @include border-color($agriculture); }
 
-.Body-border {
-  @include border-color($body);
-}
+#Clothing-filter { @include button-color($clothing) }
+.Clothing { @include background($clothing); }
+.Clothing-border { @include border-color($clothing); }
 
-.Body {
-  @include background($body);
-}
+#Animal-filter { @include button-color($animal) }
+.Animal { @include background($animal); }
+.Animal-border { @include border-color($animal); }
 
-.Capability-border {
-  @include border-color($capability);
-}
+#Food-filter { @include button-color($food) }
+.Food { @include background($food); }
+.Food-border { @include border-color($food); }
 
-.Capability {
-  @include background($capability);
-}
-
-.Nature-border {
-  @include border-color($nature);
-}
-
-.Nature {
-  @include background($nature);
-}
-
-.Ceremony-border {
-  @include border-color($ceremony);
-}
-
-.Ceremony {
-  @include background($ceremony);
-}
-
-.Society-border {
-  @include border-color($society);
-}
-
-.Society {
-  @include background($society);
-}
-
-.Agriculture-border {
-  @include border-color($agriculture);
-}
-
-.Agriculture {
-  @include background($agriculture);
-}
-
-.Clothing-border {
-  @include border-color($clothing);
-}
-
-.Clothing {
-  @include background($clothing);
-}
-
-.Animal-border {
-  @include border-color($animal);
-}
-
-.Animal {
-  @include background($animal);
-}
-
-.Food-border {
-  @include border-color($food);
-}
-
-.Food {
-  @include background($food);
-}
-
-.Color-border {
-  @include border-color($color);
-}
-
-.Color {
-  @include background($color);
-}
+#Color-filter { @include button-color($color) }
+.Color { @include background($color); }
+.Color-border { @include border-color($color); }
