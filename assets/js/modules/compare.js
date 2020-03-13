@@ -18,7 +18,7 @@ let currentOrder;
 let sortOrder = numberAsc;
 
 number.addEventListener('click', () => {
-  currentOrder = sortOrder === setOrder(sortOrder, numberAsc, numberDsc);
+  currentOrder = setOrder(sortOrder, numberDsc, numberAsc);
   order()
 });
 
@@ -50,10 +50,12 @@ const order = function () {
 };
 
 function showSorts() {
+  categoryMenu.style.display = "none";
   sortMenu.style.display = sortMenu.style.display === "flex" ? "none" : "flex";
 }
 
 function showCategories() {
+  sortMenu.style.display = "none";
   categoryMenu.style.display = categoryMenu.style.display === "flex" ? "none" : "flex";
 }
 
