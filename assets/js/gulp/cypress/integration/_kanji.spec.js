@@ -35,8 +35,8 @@ context(' ---------------- Navigation tests ---------------- ', () => {
         .should('have.attr', 'href', '/kanji/about')
     });
 
-    it('Contains FILTER in navigation', () => {
-      cy.get('.menu').contains("FILTER")
+    it('Contains SORT in navigation', () => {
+      cy.get('.menu').contains("SORT")
         .should('be.visible')
         .should('have.attr', 'href', '#')
     });

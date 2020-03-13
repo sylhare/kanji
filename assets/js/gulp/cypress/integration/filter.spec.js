@@ -1,4 +1,4 @@
-context(' ---------------- Filter test ---------------- ', () => {
+context(' ---------------- Sort test ---------------- ', () => {
   beforeEach(() => {
     cy.visit('http://127.0.0.1:4000/kanji/');
   });
@@ -6,51 +6,51 @@ context(' ---------------- Filter test ---------------- ', () => {
   describe('FILTER submenu actions', function () {
 
     it('NUMBER submenu appears on click', () => {
-      cy.clickOnFilter("NUMBER")
+      cy.clickOnSort("NUMBER")
     });
 
     it('click on NUMBER change order', () => {
-      cy.clickOnFilter("NUMBER");
-      cy.get('#Number-filter').click({ force: true });
+      cy.clickOnSort("NUMBER");
+      cy.get('#Number-sort').click({ force: true });
       cy.checkOrder(214, 1);
-      cy.get('#Number-filter').click({ force: true });
+      cy.get('#Number-sort').click({ force: true });
       cy.checkOrder(1, 214);
     });
 
     it('FREQUENCY submenu appears on click', () => {
-      cy.clickOnFilter("FREQUENCY")
+      cy.clickOnSort("FREQUENCY")
     });
 
     it('click on FREQUENCY change order', () => {
-      cy.clickOnFilter("FREQUENCY");
-      cy.get('#Frequency-filter').click({ force: true });
+      cy.clickOnSort("FREQUENCY");
+      cy.get('#Frequency-sort').click({ force: true });
       cy.checkOrder(140, 35);
-      cy.get('#Frequency-filter').click({ force: true });
+      cy.get('#Frequency-sort').click({ force: true });
       cy.checkOrder(35, 140);
     });
 
     it('CATEGORY submenu appears on click', () => {
-      cy.clickOnFilter("CATEGORY")
+      cy.clickOnSort("CATEGORY")
     });
 
     it('click on CATEGORY change order', () => {
-      cy.clickOnFilter("CATEGORY");
-      cy.get('#Category-filter').click({ force: true });
-      cy.checkOrder(2, 202);
-      cy.get('#Category-filter').click({ force: true });
+      cy.clickOnSort("CATEGORY");
+      cy.get('#Category-sort').click({ force: true });
       cy.checkOrder(45, 191);
+      cy.get('#Category-sort').click({ force: true });
+      cy.checkOrder(2, 202);
     });
 
     it('READING submenu appears on click', () => {
-      cy.clickOnFilter("CATEGORY")
+      cy.clickOnSort("CATEGORY")
     });
 
     it('click on READING change order', () => {
-      cy.clickOnFilter("READING");
-      cy.get('#Reading-filter').click({ force: true });
-      cy.checkOrder(36, 155);
-      cy.get('#Reading-filter').click({ force: true });
+      cy.clickOnSort("READING");
+      cy.get('#Reading-sort').click({ force: true });
       cy.checkOrder(155, 36);
+      cy.get('#Reading-sort').click({ force: true });
+      cy.checkOrder(36, 155);
     });
 
 

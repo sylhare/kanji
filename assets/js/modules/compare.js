@@ -1,8 +1,9 @@
-const filterMenu = document.getElementById("filter-menu");
-const number = document.getElementById('Number-filter');
-const frequency = document.getElementById('Frequency-filter');
-const category = document.getElementById('Category-filter');
-const reading = document.getElementById('Reading-filter');
+const sortMenu = document.getElementById("sort-menu");
+const categoryMenu = document.getElementById("category-menu");
+const number = document.getElementById('Number-sort');
+const frequency = document.getElementById('Frequency-sort');
+const category = document.getElementById('Category-sort');
+const reading = document.getElementById('Reading-sort');
 
 const frequencyAsc = (a, b) => a.dataset.frequency - b.dataset.frequency;
 const frequencyDsc = (a, b) => b.dataset.frequency - a.dataset.frequency;
@@ -14,25 +15,25 @@ const readingAsc = (a, b) => a.dataset.reading.localeCompare(b.dataset.reading);
 const readingDsc = (a, b) => b.dataset.reading.localeCompare(a.dataset.reading);
 
 let currentOrder;
-let filterOrder = numberAsc;
+let sortOrder = numberAsc;
 
 number.addEventListener('click', () => {
-  currentOrder = setOrder(filterOrder, numberAsc, numberDsc);
+  currentOrder = sortOrder === setOrder(sortOrder, numberAsc, numberDsc);
   order()
 });
 
 frequency.addEventListener('click', () => {
-  currentOrder = setOrder(filterOrder, frequencyAsc, frequencyDsc);
+  currentOrder = setOrder(sortOrder, frequencyAsc, frequencyDsc);
   order()
 });
 
 category.addEventListener('click', () => {
-  currentOrder = setOrder(filterOrder, categoryAsc, categoryDsc);
+  currentOrder = setOrder(sortOrder, categoryDsc, categoryAsc);
   order()
 });
 
 reading.addEventListener('click', () => {
-  currentOrder = setOrder(filterOrder, readingAsc, readingDsc);
+  currentOrder = setOrder(sortOrder, readingDsc, readingAsc);
   order()
 });
 
@@ -41,15 +42,19 @@ const setOrder = function (order, asc, dec) {
 };
 
 const order = function () {
-  filterOrder = currentOrder;
+  sortOrder = currentOrder;
   const ordered = [...document.getElementsByClassName('card')].sort(currentOrder);
   ordered.forEach((elem, index) => {
     elem.style.order = index.toString()
   })
 };
 
-function showFilters() {
-  filterMenu.style.display = filterMenu.style.display === "flex" ? "none" : "flex";
+function showSorts() {
+  sortMenu.style.display = sortMenu.style.display === "flex" ? "none" : "flex";
+}
+
+function showCategories() {
+  categoryMenu.style.display = categoryMenu.style.display === "flex" ? "none" : "flex";
 }
 
 

@@ -18,15 +18,19 @@
   }
 }
 
-#Frequency-filter {
-  @include button-color($capability)
+#Frequency-sort {
+  @include button-color($frequency-sort)
 }
 
-#Category-filter {
-  @include button-color($society)
+#Category-sort {
+  @include button-color($category-sort)
 }
 
-#Reading-filter {
+#Reading-sort {
+  @include button-color($reading-sort)
+}
+
+.Agriculture-filter {
   @include button-color($agriculture)
 }
 
@@ -34,7 +38,7 @@
   @include border-color($number);
 }
 
-#Number-filter {
+.Number-filter {
   @include button-color($number)
 }
 

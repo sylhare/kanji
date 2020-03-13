@@ -30,12 +30,12 @@ Cypress.Commands.add('kanjiLog', (arg1) => {
   })
 });
 
-Cypress.Commands.add('clickOnFilter', (label) => {
-  cy.get('#filter').click({ force: true });
+Cypress.Commands.add('clickOnSort', (label) => {
+  cy.get('#sort').click({ force: true });
   cy.get('.menu').contains(label).should('be.visible');
-  cy.get('#filter').click({ force: true });
+  cy.get('#sort').click({ force: true });
   cy.get('.menu').contains(label).should('be.hidden');
-  cy.get('#filter').click({ force: true });
+  cy.get('#sort').click({ force: true });
   cy.get('.menu').contains(label).should('be.visible');
 });
 

@@ -21,25 +21,28 @@
     }
   }
 
-  button {
-    border: none;
+  a{
+    text-decoration: none;
   }
 
-  a {
-    text-decoration: none;
-    color: black;
-
-    &:hover {
-      background-color: white;
-      color: $kanji-color;
-      box-shadow: 2px 2px 3px 0 rgba(#7f7f7f, .3);
-    }
+  button {
+    border: none;
   }
 
   li {
     display: inline-block;
   }
 
+}
+
+a.menu-button  {
+  color: black;
+
+  &:hover {
+    background-color: white;
+    color: $kanji-color;
+    box-shadow: 2px 2px 3px 0 rgba(#7f7f7f, .3);
+  }
 }
 
 .logo {

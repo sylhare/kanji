@@ -7,14 +7,18 @@
         </svg>
     </ul>
     <ul class="menu-right main-menu">
-        <li><a href="{{ '/' | relative_url }}">HOME</a></li>
-        <li><a href="{{ '/about' | relative_url }}">ABOUT</a></li>
-        <li><a href="#" id="filter" onclick="showFilters()">FILTER</a></li>
+        <li><a href="{{ '/' | relative_url }}" class="menu-button">HOME</a></li>
+        <li><a href="{{ '/about' | relative_url }}" class="menu-button">ABOUT</a></li>
+        <li><a href="#" id="sort" onclick="showSorts()" class="menu-button">SORT</a></li>
     </ul>
-    <ul id="filter-menu" class="submenu">
-        <li><a href="#" id="Number-filter" class="sub-button">NUMBER</a></li>
-        <li><a href="#" id="Frequency-filter" class="sub-button">FREQUENCY</a></li>
-        <li><a href="#" id="Category-filter" class="sub-button">CATEGORY</a></li>
-        <li><a href="#" id="Reading-filter" class="sub-button">READING</a></li>
+    <ul id="sort-menu" class="submenu">
+        <li><a href="#" id="Number-sort" class="Number-filter sub-button">NUMBER</a></li>
+        <li><a href="#" id="Frequency-sort" class="sub-button">FREQUENCY</a></li>
+        <li><a href="#" id="Category-sort" class="sub-button">CATEGORY</a></li>
+        <li><a href="#" id="Reading-sort" class="sub-button">READING</a></li>
+    </ul>
+
+    <ul id="category-menu" class="submenu">
+        <li><a href="#" id="Agriculture-filter" class="Agriculture-filter sub-button">AGRICULTURE</a></li>
     </ul>
 </nav>
