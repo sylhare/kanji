@@ -13,11 +13,11 @@
     list-style: none;
 
     &.menu-left {
-      margin-left: 20px
+      margin-left: 20px;
     }
 
     &.menu-right {
-      margin-right: 20px
+      margin-right: 20px;
     }
   }
 
@@ -55,9 +55,10 @@ a.menu-button  {
   flex-shrink: 1;
   justify-content: flex-end;
   flex-basis: 100%;
+  margin-top: -8px;
 
   & li {
-    margin-top: 2px;
+    margin-top: 10px;
     margin-right: 5px;
 
     &:last-child {
