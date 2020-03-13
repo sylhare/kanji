@@ -48,3 +48,11 @@ Cypress.Commands.add('checkOrder', (first, last) => {
   })
 });
 
+Cypress.Commands.add('checkFilter', (category, elem) => {
+  cy.get('#menu-category').contains(category.toUpperCase()).should('be.visible');
+  cy.get('#'.concat(category, '-filter')).click({force: true});
+  cy.get('#card-'.concat(elem)).should('be.visible');
+  cy.get('#'.concat(category, '-filter')).click({force: true});
+  cy.get('#card-'.concat(elem)).should('be.hidden');
+});
+

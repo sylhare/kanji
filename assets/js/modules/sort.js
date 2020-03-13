@@ -1,5 +1,5 @@
-const sortMenu = document.getElementById("sort-menu");
-const categoryMenu = document.getElementById("category-menu");
+const cards = [...document.getElementsByClassName('card')];
+const sortMenu = document.getElementById("menu-sort");
 const number = document.getElementById('Number-sort');
 const frequency = document.getElementById('Frequency-sort');
 const category = document.getElementById('Category-sort');
@@ -43,8 +43,7 @@ const setOrder = function (order, asc, dec) {
 
 const order = function () {
   sortOrder = currentOrder;
-  const ordered = [...document.getElementsByClassName('card')].sort(currentOrder);
-  ordered.forEach((elem, index) => {
+  cards.sort(currentOrder).forEach((elem, index) => {
     elem.style.order = index.toString()
   })
 };
@@ -53,10 +52,4 @@ function showSorts() {
   categoryMenu.style.display = "none";
   sortMenu.style.display = sortMenu.style.display === "flex" ? "none" : "flex";
 }
-
-function showCategories() {
-  sortMenu.style.display = "none";
-  categoryMenu.style.display = categoryMenu.style.display === "flex" ? "none" : "flex";
-}
-
 
