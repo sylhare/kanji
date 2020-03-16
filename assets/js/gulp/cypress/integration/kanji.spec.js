@@ -14,8 +14,8 @@ context(' ---------------- Navigation tests ---------------- ', () => {
       cy.title().should('include', 'Kanji')
     });
 
-    it('Goes to ABOUT page', () => {
-      cy.visit('http://127.0.0.1:4000/kanji/about');
+    it('Has a FOOTER', () => {
+      cy.get("footer").contains("Sylhare")
     });
   });
 

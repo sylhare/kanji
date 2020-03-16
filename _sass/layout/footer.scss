@@ -1,0 +1,28 @@
+.footer {
+  padding: 0.9375rem 1.875rem;
+  background-color: #f8f8f8;
+}
+
+.footer-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  & li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+
+    &:nth-last-child(2) {
+      flex: 1;
+    }
+
+    a {
+      color: black;
+
+      &:hover {
+        color: $kanji-color;
+      }
+    }
+
+  }
+}

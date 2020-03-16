@@ -1,6 +1,8 @@
 const categoryMenu = document.getElementById("menu-category");
+const footer = document.getElementsByClassName("footer");
 
 const hideCards = function () {
+  footer[0].style.marginTop = "100%";
   cards.forEach((elem) => {
     elem.style.display = "none"
   })
@@ -21,6 +23,7 @@ const show = function (category) {
 };
 
 function showAll() {
+  footer[0].style.marginTop = "";
   categoryMenu.style.display = "none";
   [...document.getElementsByClassName('card')].forEach((elem) => {
     currentOrder = numberAsc;

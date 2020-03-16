@@ -7,10 +7,6 @@
   padding: 12px 0 5px 0;
   background-image: linear-gradient(#f8f8f8, #fff);
 
-  a {
-    text-decoration: none;
-  }
-
   button {
     border: none;
   }
@@ -110,7 +106,7 @@ input {
   }
 }
 
-@media screen and (max-width: 306px) {
+@media screen and (max-width: 249px) {
 
   .main-menu a {
     padding: 2px;
