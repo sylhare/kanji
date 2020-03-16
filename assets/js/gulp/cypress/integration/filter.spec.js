@@ -7,7 +7,7 @@ context(' ---------------- Filter test ---------------- ', () => {
 
     it('FILTER submenu buttons are visible but not SORT ones', () => {
       cy.get('#filter').click({force: true});
-      cy.get('#Number-filter').contains("NUMBER").should('be.visible');
+      cy.get('#Number-label').contains("NUMBER").should('be.visible');
       cy.get('#Number-sort').contains("NUMBER").should('be.hidden');
     });
 

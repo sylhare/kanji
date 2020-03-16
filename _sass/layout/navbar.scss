@@ -21,6 +21,20 @@
 
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &.menu-left {
+    margin-left: 20px;
+  }
+
+  &.menu-right {
+    margin-right: 20px;
+  }
+}
+
 a.menu-button {
   color: black;
 
@@ -29,6 +43,11 @@ a.menu-button {
     color: $kanji-color;
     box-shadow: 2px 2px 3px 0 rgba(#7f7f7f, .3);
   }
+}
+
+.main-menu a {
+  padding: 10px;
+  border-radius: 4px;
 }
 
 .submenu {
@@ -49,29 +68,14 @@ a.menu-button {
   }
 }
 
-.main-menu a {
-  padding: 10px;
-  border-radius: 4px;
+input {
+  display: none;
 }
 
 .sub-button {
   padding: 6px;
   border-radius: 10px;
   font-size: 0.7em;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-  &.menu-left {
-    margin-left: 20px;
-  }
-
-  &.menu-right {
-    margin-right: 20px;
-  }
 }
 
 @media screen and (max-width: 400px) {

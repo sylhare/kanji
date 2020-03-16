@@ -18,6 +18,19 @@
   }
 }
 
+@mixin checkbox-label($color) {
+  span {
+    background-color: $color;
+    color: white;
+    box-shadow: 2px 2px 3px 0 grey;
+  }
+
+  input:checked + span {
+    background-color: white;
+    color: $color;
+  }
+}
+
 #Frequency-sort {
   @include button-color($frequency-sort)
 }
@@ -34,62 +47,62 @@
   @include button-color($number-sort)
 }
 
-#Number-filter { @include button-color($number) }
 .Number { @include background($number); }
 .Number-border { @include border-color($number); }
+#Number-label { @include checkbox-label($number); }
 
-#Weapon-filter { @include button-color($weapon) }
 .Weapon { @include background($weapon); }
 .Weapon-border { @include border-color($weapon); }
+#Weapon-label { @include checkbox-label($weapon); }
 
-#Other-filter { @include button-color($other) }
 .Other { @include background($other); }
 .Other-border { @include border-color($other); }
+#Other-label { @include checkbox-label($other); }
 
-#Fishing-filter { @include button-color($fishing) }
 .Fishing { @include background($fishing); }
 .Fishing-border { @include border-color($fishing); }
+#Fishing-label { @include checkbox-label($fishing); }
 
-#Home-filter { @include button-color($home) }
 .Home { @include background($home); }
 .Home-border { @include border-color($home); }
+#Home-label { @include checkbox-label($home); }
 
-#Body-filter { @include button-color($body) }
 .Body { @include background($body); }
 .Body-border { @include border-color($body); }
+#Body-label { @include checkbox-label($body); }
 
-#Capability-filter { @include button-color($capability) }
 .Capability { @include background($capability); }
 .Capability-border { @include border-color($capability); }
+#Capability-label { @include checkbox-label($capability); }
 
-#Nature-filter { @include button-color($nature) }
 .Nature { @include background($nature); }
 .Nature-border { @include border-color($nature); }
+#Nature-label { @include checkbox-label($nature); }
 
-#Ceremony-filter { @include button-color($ceremony) }
 .Ceremony { @include background($ceremony); }
 .Ceremony-border { @include border-color($ceremony); }
+#Ceremony-label { @include checkbox-label($ceremony); }
 
-#Society-filter { @include button-color($society) }
 .Society { @include background($society); }
 .Society-border { @include border-color($society); }
+#Society-label { @include checkbox-label($society); }
 
-#Agriculture-filter { @include button-color($agriculture) }
 .Agriculture { @include background($agriculture); }
 .Agriculture-border { @include border-color($agriculture); }
+#Agriculture-label { @include checkbox-label($agriculture); }
 
-#Clothing-filter { @include button-color($clothing) }
 .Clothing { @include background($clothing); }
 .Clothing-border { @include border-color($clothing); }
+#Clothing-label { @include checkbox-label($clothing); }
 
-#Animal-filter { @include button-color($animal) }
 .Animal { @include background($animal); }
 .Animal-border { @include border-color($animal); }
+#Animal-label { @include checkbox-label($animal); }
 
-#Food-filter { @include button-color($food) }
 .Food { @include background($food); }
 .Food-border { @include border-color($food); }
+#Food-label { @include checkbox-label($food); }
 
-#Color-filter { @include button-color($color) }
 .Color { @include background($color); }
 .Color-border { @include border-color($color); }
+#Color-label { @include checkbox-label($color); }
