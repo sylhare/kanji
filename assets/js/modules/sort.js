@@ -14,26 +14,25 @@ const categoryDsc = (a, b) => b.dataset.category.localeCompare(a.dataset.categor
 const readingAsc = (a, b) => a.dataset.reading.localeCompare(b.dataset.reading);
 const readingDsc = (a, b) => b.dataset.reading.localeCompare(a.dataset.reading);
 
-let currentOrder;
-let sortOrder = numberAsc;
+let currentOrder = numberAsc;
 
 number.addEventListener('click', () => {
-  currentOrder = setOrder(sortOrder, numberDsc, numberAsc);
+  currentOrder = setOrder(currentOrder, numberDsc, numberAsc);
   order()
 });
 
 frequency.addEventListener('click', () => {
-  currentOrder = setOrder(sortOrder, frequencyAsc, frequencyDsc);
+  currentOrder = setOrder(currentOrder, frequencyAsc, frequencyDsc);
   order()
 });
 
 category.addEventListener('click', () => {
-  currentOrder = setOrder(sortOrder, categoryDsc, categoryAsc);
+  currentOrder = setOrder(currentOrder, categoryDsc, categoryAsc);
   order()
 });
 
 reading.addEventListener('click', () => {
-  currentOrder = setOrder(sortOrder, readingDsc, readingAsc);
+  currentOrder = setOrder(currentOrder, readingDsc, readingAsc);
   order()
 });
 
@@ -42,7 +41,6 @@ const setOrder = function (order, asc, dec) {
 };
 
 const order = function () {
-  sortOrder = currentOrder;
   cards.sort(currentOrder).forEach((elem, index) => {
     elem.style.order = index.toString()
   })
