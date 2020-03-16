@@ -7,21 +7,7 @@
   padding: 12px 0 5px 0;
   background-image: linear-gradient(#f8f8f8, #fff);
 
-  & ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-    &.menu-left {
-      margin-left: 20px;
-    }
-
-    &.menu-right {
-      margin-right: 20px;
-    }
-  }
-
-  a{
+  a {
     text-decoration: none;
   }
 
@@ -35,7 +21,7 @@
 
 }
 
-a.menu-button  {
+a.menu-button {
   color: black;
 
   &:hover {
@@ -43,10 +29,6 @@ a.menu-button  {
     color: $kanji-color;
     box-shadow: 2px 2px 3px 0 rgba(#7f7f7f, .3);
   }
-}
-
-.logo {
-  height: 50px;
 }
 
 .submenu {
@@ -76,4 +58,73 @@ a.menu-button  {
   padding: 6px;
   border-radius: 10px;
   font-size: 0.7em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &.menu-left {
+    margin-left: 20px;
+  }
+
+  &.menu-right {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .main-menu a {
+    padding: 5px;
+    font-size: 0.9em;
+  }
+
+  ul {
+    &.menu-left {
+      margin-left: 10px;
+    }
+
+    &.menu-right {
+      margin-right: 10px;
+    }
+  }
+
+  .logo {
+    width: 90%;
+  }
+
+  .submenu {
+    & li {
+      margin-right: 5px;
+
+      &:last-child {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 306px) {
+
+  .main-menu a {
+    padding: 2px;
+    font-size: 0.78em;
+  }
+
+  ul {
+    &.menu-left {
+      margin-left: 5px;
+    }
+
+    &.menu-right {
+      margin-right: 5px;
+    }
+  }
+
+  .logo {
+    width: 75%;
+  }
+
 }
