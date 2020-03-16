@@ -5,7 +5,7 @@ Start learning [here](https://sylhare.github.io/kanji/)!
 
 ## Introduction
 
-Japanese written system comes from the chinese one. So the japanese radicals or _"bushu"_ comes from the chinese Kangxi radical.
+The Japanese written system comes from the chinese one. So the japanese radicals or _"bushu"_ comes from the chinese Kangxi radical.
 With the years it has evolve a bit differently but they remain very similar.
 
 It gets a bit complicated because not all radicals are recognized by the ministry of education in japan (Or at least I have seen multiple interpretations, and extended radicals).

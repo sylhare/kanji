@@ -14,10 +14,8 @@ context(' ---------------- Navigation tests ---------------- ', () => {
       cy.title().should('include', 'Kanji')
     });
 
-    it('Page ABOUT renders text', () => {
+    it('Goes to ABOUT page', () => {
       cy.visit('http://127.0.0.1:4000/kanji/about');
-      cy.get(".post-content").contains("Kanji Radicals")
-        .should('be.visible')
     });
   });
 
@@ -26,13 +24,15 @@ context(' ---------------- Navigation tests ---------------- ', () => {
     it('Contains HOME in navigation', () => {
       cy.get('.menu').contains("HOME")
         .should('be.visible')
-        .should('have.attr', 'href', '/kanji/')
+        .should('have.attr', 'href', '#');
+      cy.get('#card-1').should('be.visible');
+      cy.get('#card-214').should('be.visible');
     });
 
     it('Contains ABOUT in navigation', () => {
       cy.get('.menu').contains('ABOUT')
         .should('be.visible')
-        .should('have.attr', 'href', '/kanji/about')
+        .should('have.attr', 'href', 'https://github.com/sylhare/kanji')
     });
 
     it('Contains SORT in navigation', () => {

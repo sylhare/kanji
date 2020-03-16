@@ -20,3 +20,12 @@ const show = function (category) {
   });
 };
 
+function showAll() {
+  categoryMenu.style.display = "none";
+  [...document.getElementsByClassName('card')].forEach((elem) => {
+    currentOrder = numberAsc;
+    order();
+    elem.style.display = "flex";
+  });
+}
+
