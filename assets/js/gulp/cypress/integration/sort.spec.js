@@ -13,7 +13,6 @@ context(' ---------------- Sort test ---------------- ', () => {
       cy.checkOrder(1, 214);
     });
 
-
     it('click on FREQUENCY change order', () => {
       cy.clickOnSort("FREQUENCY");
       cy.get('#Frequency-sort').click({force: true});
