@@ -1,6 +1,7 @@
 // The parenthesis means it's an IIFE which will be executed right away
 ;(function modal() {
   "use strict";
+
   function closestEl(el, selector) {
     var doc = el.document || el.ownerDocument;
     var matches = doc.querySelectorAll(selector);

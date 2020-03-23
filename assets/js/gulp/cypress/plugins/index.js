@@ -20,7 +20,7 @@ module.exports = (on, config) => {
   // `config` is the resolved Cypress config
 
   on('task', {
-    log (message) {
+    log(message) {
       console.log(message);
       return null
     }

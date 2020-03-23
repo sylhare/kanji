@@ -27,18 +27,21 @@
 import chaiColors from 'chai-colors'
 
 chai.use(chaiColors);
+
 Cypress.Commands.add('kanjiLog', (arg1) => {
   Cypress.log({
-    consoleProps: () => { return arg1 }
+    consoleProps: () => {
+      return arg1
+    }
   })
 });
 
 Cypress.Commands.add('clickOnSort', (label) => {
-  cy.get('#sort').click({ force: true });
+  cy.get('#sort').click({force: true});
   cy.get('.menu').contains(label).should('be.visible');
-  cy.get('#sort').click({ force: true });
+  cy.get('#sort').click({force: true});
   cy.get('.menu').contains(label).should('be.hidden');
-  cy.get('#sort').click({ force: true });
+  cy.get('#sort').click({force: true});
   cy.get('.menu').contains(label).should('be.visible');
 });
 

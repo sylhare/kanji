@@ -50,4 +50,3 @@ function showSorts() {
   categoryMenu.style.display = "none";
   sortMenu.style.display = sortMenu.style.display === "flex" ? "none" : "flex";
 }
-
