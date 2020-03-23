@@ -24,6 +24,9 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
+import chaiColors from 'chai-colors'
+
+chai.use(chaiColors);
 Cypress.Commands.add('kanjiLog', (arg1) => {
   Cypress.log({
     consoleProps: () => { return arg1 }
@@ -56,3 +59,9 @@ Cypress.Commands.add('checkFilter', (category, elem) => {
   cy.get('#card-'.concat(elem)).should('be.hidden');
 });
 
+Cypress.Commands.add('bodyFilterIsUnchecked', () => {
+  cy.get('#Body-label span')
+    .should('have.css', 'background-color')
+    .and('be.colored', '#d79b7d')
+
+});

@@ -1,5 +1,6 @@
 const categoryMenu = document.getElementById("menu-category");
 const footer = document.getElementsByClassName("footer");
+const categories = document.querySelectorAll('.category-filter');
 
 const hideCards = function () {
   footer[0].style.marginTop = "100%";
@@ -32,3 +33,8 @@ function showAll() {
   });
 }
 
+const uncheckAll = function () {
+  categories.forEach(function (item) {
+    item.checked = false
+  })
+};

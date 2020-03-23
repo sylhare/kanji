@@ -57,6 +57,16 @@ context(' ---------------- Filter test ---------------- ', () => {
       cy.get('#card-157').should('be.visible');
     });
 
+    it('FILTER, else FILTER should have all categories unchecked', () => {
+      cy.get('#filter').click({force: true});
+      cy.get('#Body-filter').click({force: true});
+      cy.get('#card-29').should('be.visible');
+      cy.get('#sort').click({force: true});
+      cy.get('#filter').click({force: true});
+      cy.get('#card-29').should('be.hidden');
+      cy.bodyFilterIsUnchecked();
+    });
+
   });
 
 });

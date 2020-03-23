@@ -25,7 +25,7 @@
         {% for item in categories %}
 
         <li><label id="{{ item }}-label" for="{{ item }}-filter">
-            <input id="{{ item }}-filter" type="checkbox" onclick="show('{{ item }}')"/>
+            <input id="{{ item }}-filter" class="category-filter" type="checkbox" onclick="show('{{ item }}')"/>
             <span class="sub-button">{{ item | upcase }}</span>
         </label></li>
 
