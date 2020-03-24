@@ -37,7 +37,11 @@ img {
   }
 }
 
-.card-text {
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
   padding: 0 20px 20px;
   @extend .hide-back;
 
@@ -48,6 +52,25 @@ img {
     padding: 10px;
     width: 100%;
   }
+}
+
+.radical {
+  flex: 1 1 100%;
+  font-size: xx-large;
+}
+
+.meaning {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.number-vignette {
+  flex-shrink: 1;
+  flex-grow: 0;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+  opacity: 0.8;
 }
 
 .inner {
@@ -105,14 +128,4 @@ img {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
-}
-
-.number {
-  position: absolute;
-  bottom: 16px;
-  right: 20px;
-  color: white;
-  border-radius: 20px;
-  padding: 5px 15px 5px 15px;
-  opacity: 0.8;
 }

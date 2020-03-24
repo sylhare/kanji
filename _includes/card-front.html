@@ -2,11 +2,11 @@
 
 
 <!-- To print number in image <div class="number top-left">  </div> -->
-<div class="number {{ kanji.Category }}"> {{ kanji.Number }} </div>
 <img class="lazy" src="{{ '/assets/img/placeholder-thumbnail.svg' | relative_url }}"
      data-srcset="{{ '/assets/img/placeholder.svg' | relative_url }}" alt="kanji">
-<div class="card-text">
-    <h3 class="inline japanese" data-modal="{{ kanji.Number }}">{{ kanji.Radical }}</h3>
-    <p class="meaning">{{ kanji.Meaning }}</p>
+<div class="description">
+    <h3 class="radical japanese" data-modal="{{ kanji.Number }}">{{ kanji.Radical }}</h3>
+    <p class="meaning english">{{ kanji.Meaning }}</p>
+    <div class="number-vignette {{ kanji.Category }}"> {{ kanji.Number }} </div>
 </div>
 
