@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/sylhare/kanji#readme",
   "devDependencies": {
+    "chai-colors": "^1.0.1",
     "cypress": "^4.0.2",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
-    "gulp-uglify-es": "^2.0.0",
-    "chai-colors": "^1.0.1"
+    "gulp-uglify-es": "^2.0.0"
   }
 }

@@ -13,7 +13,8 @@
     white-space: nowrap;
 
     &:nth-last-child(2) {
-      flex: 1;
+      flex: 1 1 30%;
+      align-self: flex-end;
     }
 
     a {
@@ -24,5 +25,11 @@
       }
     }
 
+  }
+}
+
+@media screen and (max-width: 249px) {
+  .footer-list a {
+    font-size: 0.78em;
   }
 }
