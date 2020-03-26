@@ -2,7 +2,11 @@
 baseurl: "/kanji"
 url: "https://sylhare.github.io/"
 
+title: Kanji radicals
+description: Japanese radicals presented as learning cards.
+
 google_analytics: "UA-142123817-1"
+
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
