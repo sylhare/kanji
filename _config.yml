@@ -2,6 +2,7 @@
 baseurl: "/kanji"
 url: "https://sylhare.github.io/"
 
+google_analytics: "UA-142123817-1"
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
