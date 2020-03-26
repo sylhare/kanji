@@ -13,5 +13,6 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
+plugins: [jekyll-seo-tag]
 exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "*.gemspec", "*.gem", ".idea",
           "resources", "LICENSE", "README.md", "assets/js/gulp"]
