@@ -20,5 +20,5 @@ jobs:
       run: bundle exec jekyll build --strict_front_matter -d _site/kanji
 
     - name: html check
-      run: htmlproofer --assume-extension ./_site --allow-hash-href --check-favicon --check-html #--check-opengraph
+      run: htmlproofer --assume-extension ./_site --allow-hash-href --check-favicon --check-html --check-opengraph
 
