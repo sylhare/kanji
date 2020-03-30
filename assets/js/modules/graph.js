@@ -36,14 +36,12 @@ d3.json(jsonUrl, function(error, graph) {
       .on("end", dragended));
 
   var lables = node.append("text")
-    .text(function(d) {
-      return d.id;
-    })
+    .text(function(d) {return d.name;})
     .attr('x', 6)
     .attr('y', 3);
 
   node.append("title")
-    .text(function(d) { return d.id; });
+    .text(function(d) { return d.name; });
 
   simulation
     .nodes(graph.nodes)
