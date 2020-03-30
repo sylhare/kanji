@@ -5,7 +5,7 @@ var svg = d3.select("#graph-kanji"),
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
 var simulation = d3.forceSimulation()
-  .force("link", d3.forceLink().id(function(d) { return d.id; }))
+  .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(40))
   .force("charge", d3.forceManyBody())
   .force("center", d3.forceCenter(width / 2, height / 2))
   .force("x", d3.forceX())
@@ -25,20 +25,21 @@ d3.json(jsonUrl, function(error, graph) {
     .attr("class", "nodes")
     .selectAll("g")
     .data(graph.nodes)
-    .enter().append("g")
+    .enter().append("g");
 
   var circles = node.append("circle")
-    .attr("r", 5)
+    //.attr("class", function(d) { return d.group.includes("kanji") ? "" : d.group } )
     .attr("fill", function(d) { return color(d.group); })
+    .attr("r", 5)
     .call(d3.drag()
       .on("start", dragstarted)
       .on("drag", dragged)
       .on("end", dragended));
 
-  var lables = node.append("text")
-    .text(function(d) {return d.name;})
-    .attr('x', 6)
-    .attr('y', 3);
+  var labels = node.append("text")
+    .attr('x', 3)
+    .attr('y', 6)
+    .text(function(d) {return d.name;});
 
   node.append("title")
     .text(function(d) { return d.name; });
