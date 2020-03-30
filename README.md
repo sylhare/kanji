@@ -37,3 +37,4 @@ And other website I came into while looking into this subject:
 - Other fonts have their licences included under [OFL-1.1](https://opensource.org/licenses/OFL-1.1) or [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 - Jekyll which is used to build the website is under [MIT License](https://github.com/jekyll/jekyll/blob/master/LICENSE)
 - Color Palette NA16 by [Nauris](https://lospec.com/palette-list/na16)
+- D3 is under [BSD License v3](https://opensource.org/licenses/BSD-3-Clause)
