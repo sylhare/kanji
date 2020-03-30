@@ -4,6 +4,9 @@
     <img class="lazy back-img" src="{{ '/assets/img/placeholder-thumbnail.svg' | relative_url }}"
          data-srcset="{{ '/assets/img/gif/' | relative_url }}{{ kanji.Number }}.gif"
          alt="kanji stroke">
+
+    <h1 class="center japanese">[ {{ kanji.Radical }} {{ kanji.Alternate }} ]</h1>
+
 </div>
 <div class="down">
     <div>
@@ -12,11 +15,15 @@
     </div>
     <div>
         <p class="modal-meaning">🔤 </p>
-        <h4 class="modal-meaning">{{ kanji.Reading-R | default: 'n / a' }}</h4>
+        <h4 class="modal-meaning english-back">{{ kanji.Reading-R | default: 'n / a' }}</h4>
     </div>
     <div>
         <p class="modal-meaning">📖 </p>
-        <h4 class="modal-meaning">{{ kanji.Meaning | default: 'n / a' }}</h4>
+        <h4 class="modal-meaning english-back">{{ kanji.Meaning | default: 'n / a' }}</h4>
+    </div>
+    <div>
+        <p class="modal-meaning">💬 </p>
+        <h4 class="modal-meaning japanese">{{ kanji.Examples | default: 'n / a' }}</h4>
     </div>
 </div>
 

@@ -239,7 +239,7 @@
 - Number: '18'
   Strokes: '2'
   Radical: 刀
-  Alternate: ⺍刂⺈
+  Alternate: 刂⺈
   Category: Weapon
   Meaning: 'knife, sword'
   Reading-J: かたな
@@ -799,7 +799,7 @@
 - Number: '58'
   Strokes: '3'
   Radical: 彐
-  Alternate: ⺕⺔彑
+  Alternate: 彑
   Category: Animal
   Meaning: pig’s head
   Reading-J: けいがしら
@@ -883,7 +883,7 @@
 - Number: '64'
   Strokes: '4'
   Radical: 手
-  Alternate: ⺘扌龵
+  Alternate: 扌龵
   Category: Body
   Meaning: hand
   Reading-J: て
@@ -892,7 +892,7 @@
   Position-R: ''
   Importance: ''
   Frequency: '1203'
-  Examples: 手 才 挙 拜 拳 掌 掣 擧 (持 掛 打 批 技 抱 押)
+  Examples: 手 挙 拜 持 掛 打 批 技 抱 押
   
 - Number: '65'
   Strokes: '4'
@@ -1947,7 +1947,7 @@
 - Number: '140'
   Strokes: '3'
   Radical: 艹
-  Alternate: 艸䒑
+  Alternate: 䒑艸
   Category: Nature
   Meaning: grass
   Reading-J: くさかんむり
@@ -1956,7 +1956,7 @@
   Position-R: kanmuri
   Importance: Important
   Frequency: '1902'
-  Examples: 共 花(37) 英 苦 草 茶 落 幕 靴 鞄 薬
+  Examples: 共 花zzz 英 苦 草 茶 落 幕 靴 鞄 薬
   
 - Number: '141'
   Strokes: '6'
@@ -2366,7 +2366,7 @@
   
 - Number: '170'
   Strokes: '8'
-  Radical: ⾩
+  Radical: 阜
   Alternate: ⻖阝
   Category: Nature
   Meaning: 'hill, mound, dam'
@@ -2535,7 +2535,7 @@
 - Number: '182'
   Strokes: '9'
   Radical: 風
-  Alternate: "⺇"
+  Alternate: ⺇
   Category: Nature
   Meaning: wind
   Reading-J: かぜ
@@ -2563,7 +2563,7 @@
 - Number: '184'
   Strokes: '9'
   Radical: 食
-  Alternate: "𩙿飠 "
+  Alternate: "𩙿 飠"
   Category: Food
   Meaning: 'food, to eat'
   Reading-J: しょく

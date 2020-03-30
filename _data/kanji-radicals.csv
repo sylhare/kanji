@@ -16,7 +16,7 @@
 15,2,冫,,Nature,ice,にすい,nisui,へん,hen,,115,冬冶冷凍
 16,2,几,,Home,table,きにょう,kinyou,つくり,tsukuri,,38,凡
 17,2,凵,,Home,"container, open box",かんにょう,kannyou,にょう,nyou,,23,凶出函
-18,2,刀,⺍刂⺈,Weapon,"knife, sword",かたな,katana,,,,377,刀分切初利刻則前
+18,2,刀,刂⺈,Weapon,"knife, sword",かたな,katana,,,,377,刀分切初利刻則前
 19,2,力,,Weapon,power,ちから,chikara,,,,163,力加助勉
 20,2,勹,,Capability,to wrap,つつみがまえ,tsutsumigamae,"かまえ, つつみがまえ","kamae, tsutsumigamae",,64,勾包
 21,2,匕,,Home,spoon,さじ,saji,つくり,tsukuri,,19,化北
@@ -168,7 +168,7 @@
 167,8,金,釒,Nature,"metal, gold, mineral",かね,kane,,,,806,銀 銅 釘 銳 鋞 鋙 鉒 鉍 鉗 鈡 鈠
 168,8,長,镸,Home,long,ながい,nagai,,,,55,長
 169,8,門,,Home,"gate, door",もんがまえ,mongamae,"かまえ, もんがまえ","kamae, mongamae",Important,246,間 閑 関 闘 閉 開 閏 間
-170,8,⾩,⻖阝,Nature,"hill, mound, dam",こざと,kozato,,,,348,阪 防 阻 陆 陘 院 险 陳
+170,8,阜,⻖阝,Nature,"hill, mound, dam",こざと,kozato,,,,348,阪 防 阻 陆 陘 院 险 陳
 171,8,隶,,Society,"to capture, servant",れいづくり,reizukuri,つくり,tsukuri,,12,隸 隺
 172,8,隹,,Animal,small bird,ふるとり,furutori,,,,233,雀 集 雁 难 雀 雅
 173,8,雨,⻗,Nature,rain,あめ,ame,,,,298,雾 霜 雪 霸 雲 霧
@@ -239,7 +239,7 @@
 239,3,⺔,,,pig’s head,けいがしら,keigashira,,,,,
 240,3,⻏,,,"town, community",おおざと,oozato,つくり,tsukuri,Important,,
 241,3,⻖,,,"hill, mound, dam",こざとへん,kozatohen,へん,hen,Important,,
-242,3,⺍,,,Katakana Tsu,つ,tsu,かんむり,kanmuri,,,
+242,3,,,,Katakana Tsu,つ,tsu,かんむり,kanmuri,,,
 243,3,⺖,,,"heart, mind, spirit",りっしんべん,risshinben,へん,hen,Important,,
 244,3,⺘,,,hand,てへん,tehen,へん,hen,Important,,
 245,3,⺡,,,water,さんずい,sanzui,へん,hen,Important,,
