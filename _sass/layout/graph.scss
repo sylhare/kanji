@@ -8,7 +8,12 @@
   stroke-width: 1.5px;
 }
 
+#graph-kanji {
+  padding: 20px;
+}
+
 text {
   font-family: sans-serif;
   font-size: 10px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }

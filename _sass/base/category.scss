@@ -1,5 +1,6 @@
 @mixin background($color) {
-  background-color: $color
+  background-color: $color;
+  fill: lighten( $color, 20% ) !important;
 }
 
 @mixin border-color($color) {

@@ -1,15 +1,33 @@
-var svg = d3.select("#graph-kanji"),
-  width = +svg.attr("width"),
-  height = +svg.attr("height");
+var width = 900, height = 600;
+
+var svg = d3.select("#graph-kanji")
+  .attr("width", width)
+  .attr("height", height);
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
+
+// https://github.com/d3/d3-force
 var simulation = d3.forceSimulation()
-  .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(40))
-  .force("charge", d3.forceManyBody())
+  .force("link", d3
+    .forceLink()
+    .id(function(d) { return d.id; })
+    .distance(function(d) { return 14 + d.frequency / 80;  }))
+  .force("charge", d3
+    .forceManyBody()
+    .strength(10)
+    .distanceMin(60)
+    .distanceMax(600)
+  )
+  .force("collide",d3.forceCollide()
+    .radius(function(d) { return 14 + d.frequency / 80;  })
+    .iterations(16)
+  )
   .force("center", d3.forceCenter(width / 2, height / 2))
   .force("x", d3.forceX())
   .force("y", d3.forceY());
+  // .velocityDecay(0.4)
+  //.alphaTarget(0.1);
 
 d3.json(jsonUrl, function(error, graph) {
   if (error) throw error;
@@ -19,7 +37,7 @@ d3.json(jsonUrl, function(error, graph) {
     .selectAll("line")
     .data(graph.links)
     .enter().append("line")
-    .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+    .attr("stroke-width", function(d) { return 1; });
 
   var node = svg.append("g")
     .attr("class", "nodes")
@@ -27,18 +45,24 @@ d3.json(jsonUrl, function(error, graph) {
     .data(graph.nodes)
     .enter().append("g");
 
-  var circles = node.append("circle")
-    //.attr("class", function(d) { return d.group.includes("kanji") ? "" : d.group } )
-    .attr("fill", function(d) { return color(d.group); })
-    .attr("r", 5)
+  // Circles
+  node.append("circle")
+    .attr("class", function(d) { return d.group } )
+    //.attr("fill", function(d) { return color(d.group); })
+    //.attr("r", 5)
+    .attr("r", function(d){
+      return (d.frequency / 80) + 10;
+    })
     .call(d3.drag()
       .on("start", dragstarted)
       .on("drag", dragged)
       .on("end", dragended));
 
-  var labels = node.append("text")
-    .attr('x', 3)
-    .attr('y', 6)
+  // Labels
+  node.append("text")
+//    .filter(function(d) {return d.frequency > 100 || d.connections;})
+    .attr('x', -5)
+    .attr('y', 3)
     .text(function(d) {return d.name;});
 
   node.append("title")

@@ -7,18 +7,13 @@ permalink: /graph.json
 
 {
   "nodes":[
-  {% for category in categories %}
-    {"id":"{{ category.name }}", "name":"{{ category.name }}","group":"category"},
-  {% endfor %}
+
   {% for kanji in radicals %}
-    {"id":"{{ kanji.Number }}", "name":"{{ kanji.Radical}}","group":"{{ kanji.Category }}"}{% unless kanji == radicals.last %},{% endunless %}
+    {"id":"{{ kanji.Number }}", "name":"{{ kanji.Radical}}","group":"{{ kanji.Category }}", "frequency": "{{ kanji.Frequency }}"}{% unless kanji == radicals.last %},{% endunless %}
   {% endfor %}
   ],
   "links":[
-  {% for category in categories %}
-    {% for kanji in category.items %}
-    {"source":"{{ category.name }}", "target":"{{ kanji.Number }}","value":1}{% unless kanji == categories.last.items.last %},{% endunless %}
-    {% endfor %}
-  {% endfor %}
+
+
   ]
 }

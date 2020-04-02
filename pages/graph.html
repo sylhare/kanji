@@ -3,7 +3,16 @@ layout: default
 permalink: /graph/
 ---
 
-<svg id="graph-kanji" width="960" height="600"></svg>
+<svg id="graph-kanji"></svg>
 <script src="{{ '/assets/js/graph/vendor/d3.v4.min.js' | relative_url }}"></script>
 <script> jsonUrl = "{{ 'graph.json' | relative_url }}"</script>
 <script src="{{ '/assets/js/graph/graph.js' | relative_url }}"></script>
+
+{% for category in categories %}
+{% for kanji in category.items %}
+{"source":"{{ category.name }}", "target":"{{ kanji.Number }}", "value":"{{ kanji.Frequency | default: '0' }}"},
+{% endfor %}
+{% endfor %}
+{% for category in categories %}
+{"id":"{{ category.name }}", "name":"{{ category.name }}","group":"category", "frequency":"{{ category.items.size | times: 80 }}", "connections": "{{ category.items | size }}"},
+{% endfor %}
