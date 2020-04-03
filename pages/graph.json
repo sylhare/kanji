@@ -9,7 +9,7 @@ permalink: /graph.json
   "nodes":[
 
   {% for kanji in radicals %}
-    {"id":"{{ kanji.Number }}", "name":"{{ kanji.Radical}}","group":"{{ kanji.Category }}", "frequency": "{{ kanji.Frequency }}"}{% unless kanji == radicals.last %},{% endunless %}
+    {"id":"{{ kanji.Number }}", "name":"{{ kanji.Radical}}", "meaning": "{{ kanji.Meaning }}", "reading": "{{ kanji.Reading-R }}", "group":"{{ kanji.Category }}", "frequency": "{{ kanji.Frequency }}"}{% unless kanji == radicals.last %},{% endunless %}
   {% endfor %}
   ],
   "links":[

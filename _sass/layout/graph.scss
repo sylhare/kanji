@@ -8,12 +8,31 @@
   stroke-width: 1.5px;
 }
 
+.node text.label {
+  display: none;
+  font: 20px sans-serif;
+}
+
+.node rect.label {
+  display: none;
+}
+
+.node:hover text.label {
+  display: inline;
+}
+
+.node:hover rect.label {
+  display: inline;
+}
+
 #graph-kanji {
   padding: 20px;
 }
 
-text {
+text.kanji {
   font-family: sans-serif;
   font-size: 15px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+
+
