@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /test
 ---
 
@@ -14,108 +14,98 @@ permalink: /test
 
 </style>
 <div>
-
-<!--    {% assign radicals = site.data.r214 %}-->
-<!--    {% assign categories = site.data.r214 | group_by: 'Category' %}-->
-
-<!--    {-->
-<!--    "nodes":[-->
-
-<!--    {% for kanji in radicals %}-->
-<!--    {"id":"{{ kanji.Number }}", "name":"{{ kanji.Radical}}","group":"{{ kanji.Category }}", "frequency": "{{ kanji.Frequency }}"}{% unless kanji == radicals.last %},{% endunless %}-->
-<!--    {% endfor %}-->
-<!--    ],-->
-<!--    "links":[-->
-
-
-<!--    ]-->
-<!--    }-->
-
-<!--    {% assign radicals = site.data.r214 %}-->
-<!--    {% assign categories = site.data.r214 | group_by: 'Category' %}-->
-
-<!--    {-->
-<!--    "nodes":[-->
-<!--    {% for category in categories %}-->
-<!--    {"id":"{{ category.name }}", "name":"{{ category.name }}","group":"category", "frequency":"{{ category.items.size | times: 80 }}", "connections": "{{ category.items | size }}"},-->
-<!--    {% endfor %}-->
-<!--    {% for kanji in radicals %}-->
-<!--    {"id":"{{ kanji.Number }}", "name":"{{ kanji.Radical}}","group":"{{ kanji.Category }}", "frequency": "{{ kanji.Frequency }}"}{% unless kanji == radicals.last %},{% endunless %}-->
-<!--    {% endfor %}-->
-<!--    ],-->
-<!--    "links":[-->
-<!--    {% for category in categories %}-->
-<!--    {% for kanji in category.items %}-->
-<!--    {"source":"{{ category.name }}", "target":"{{ kanji.Number }}", "value":"{{ kanji.Frequency | default: '0' }}"},-->
-<!--    {% endfor %}-->
-<!--    {% endfor %}-->
-<!--    {% for kanji in radicals %}-->
-<!--    {"source":"{{ kanji.Number }}", "target":"{{ kanji.Category }}", "value": "{{ kanji.Frequency }}"}{% unless kanji == radicals.last %},{% endunless %}-->
-<!--    {% endfor %}-->
-<!--    ]-->
-<!--    }-->
-
-
-
-<!--    <li><a href="#" id="Other-filter" class="sub-button" onclick="show('Other')">OTHER</a></li>-->
-<!--    <li><a href="#" id="Home-filter" class="sub-button" onclick="show('Home')">HOME</a></li>-->
-<!--    <li><a href="#" id="Animal-filter" class="sub-button" onclick="show('Animal')">ANIMAL</a></li>-->
-<!--    <li><a href="#" id="Nature-filter" class="sub-button" onclick="show('Nature')">NATURE</a></li>-->
-<!--    <li><a href="#" id="Body-filter" class="sub-button" onclick="show('Body')">BODY</a></li>-->
-<!--    <li><a href="#" id="Capability-filter" class="sub-button" onclick="show('Capability')">CAPABILITY</a></li>-->
-<!--    <li><a href="#" id="Agriculture-filter" class="sub-button" onclick="show('Agriculture')">AGRICULTURE</a></li>-->
-<!--    <li><a href="#" id="Number-filter" class="sub-button" onclick="show('Number')">NUMBER</a></li>-->
-<!--    <li><a href="#" id="Weapon-filter" class="sub-button" onclick="show('Weapon')">WEAPON</a></li>-->
-<!--    <li><a href="#" id="Fishing-filter" class="sub-button" onclick="show('Fishing')">FISHING</a></li>-->
-<!--    <li><a href="#" id="Clothing-filter" class="sub-button" onclick="show('Clothing')">CLOTHING</a></li>-->
-<!--    <li><a href="#" id="Food-filter" class="sub-button" onclick="show('Food')">FOOD</a></li>-->
-<!--    <li><a href="#" id="Society-filter" class="sub-button" onclick="show('Society')">SOCIETY</a></li>-->
-<!--    <li><a href="#" id="Color-filter" class="sub-button" onclick="show('Color')">COLOR</a></li>-->
-<!--    <li><a href="#" id="Ceremony-filter" class="sub-button" onclick="show('Ceremony')">CEREMONY</a></li>-->
-
     {% assign category = site.data.r214 | group_by: 'Category' %}
-<!--    {% assign categories = "Other, Home, Animal, Nature, Body, Capability, Agriculture, Number, Weapon, Fishing-->
-<!--    Clothing, Food, Society, Color, Ceremony" | split: ','%}-->
 
-<!--    {% for item in categories %}-->
+    <h2> Test page for Kanji </h2>
+    <p> Looking at the magic ✨</p>
+    <br>
+    <br>
+    <h3>Full graph.json with category</h3> <p>...</p>
+    <!--    {% assign radicals = site.data.r214 %}-->
+    <!--    {% assign categories = site.data.r214 | group_by: 'Category' %}-->
 
-<!--    <li><label id="{{ item }}-label" for="{{ item }}-filter">-->
-<!--        <input id="{{ item }}-filter" type="checkbox" onclick="show('{{ item }}')"/>-->
-<!--        <span class="sub-button">{{ item | upcase }}</span>-->
-<!--    </label></li>-->
+    <!--    {-->
+    <!--    "nodes":[-->
+    <!--    {% for category in categories %}-->
+    <!--    {"id":"{{ category.name }}", "name":"{{ category.name }}","group":"category", "frequency":"{{ category.items.size | times: 80 }}", "connections": "{{ category.items | size }}"},-->
+    <!--    {% endfor %}-->
+    <!--    {% for kanji in radicals %}-->
+    <!--    {"id":"{{ kanji.Number }}", "name":"{{ kanji.Radical}}","group":"{{ kanji.Category }}", "frequency": "{{ kanji.Frequency }}"}{% unless kanji == radicals.last %},{% endunless %}-->
+    <!--    {% endfor %}-->
+    <!--    ],-->
+    <!--    "links":[-->
+    <!--    {% for category in categories %}-->
+    <!--    {% for kanji in category.items %}-->
+    <!--    {"source":"{{ category.name }}", "target":"{{ kanji.Number }}", "value":"{{ kanji.Frequency | default: '0' }}"},-->
+    <!--    {% endfor %}-->
+    <!--    {% endfor %}-->
+    <!--    {% for kanji in radicals %}-->
+    <!--    {"source":"{{ kanji.Number }}", "target":"{{ kanji.Category }}", "value": "{{ kanji.Frequency }}"}{% unless kanji == radicals.last %},{% endunless %}-->
+    <!--    {% endfor %}-->
+    <!--    ]-->
+    <!--    }-->
 
-<!--    {% endfor %}-->
+    <br>
+    <h3>Filters navigation</h3> <p>...</p>
 
+    <!--    <li><a href="#" id="Other-filter" class="sub-button" onclick="show('Other')">OTHER</a></li>-->
+    <!--    <li><a href="#" id="Home-filter" class="sub-button" onclick="show('Home')">HOME</a></li>-->
+    <!--    <li><a href="#" id="Animal-filter" class="sub-button" onclick="show('Animal')">ANIMAL</a></li>-->
+    <!--    <li><a href="#" id="Nature-filter" class="sub-button" onclick="show('Nature')">NATURE</a></li>-->
+    <!--    <li><a href="#" id="Body-filter" class="sub-button" onclick="show('Body')">BODY</a></li>-->
+    <!--    <li><a href="#" id="Capability-filter" class="sub-button" onclick="show('Capability')">CAPABILITY</a></li>-->
+    <!--    <li><a href="#" id="Agriculture-filter" class="sub-button" onclick="show('Agriculture')">AGRICULTURE</a></li>-->
+    <!--    <li><a href="#" id="Number-filter" class="sub-button" onclick="show('Number')">NUMBER</a></li>-->
+    <!--    <li><a href="#" id="Weapon-filter" class="sub-button" onclick="show('Weapon')">WEAPON</a></li>-->
+    <!--    <li><a href="#" id="Fishing-filter" class="sub-button" onclick="show('Fishing')">FISHING</a></li>-->
+    <!--    <li><a href="#" id="Clothing-filter" class="sub-button" onclick="show('Clothing')">CLOTHING</a></li>-->
+    <!--    <li><a href="#" id="Food-filter" class="sub-button" onclick="show('Food')">FOOD</a></li>-->
+    <!--    <li><a href="#" id="Society-filter" class="sub-button" onclick="show('Society')">SOCIETY</a></li>-->
+    <!--    <li><a href="#" id="Color-filter" class="sub-button" onclick="show('Color')">COLOR</a></li>-->
+    <!--    <li><a href="#" id="Ceremony-filter" class="sub-button" onclick="show('Ceremony')">CEREMONY</a></li>-->
 
-    {% for item in category %}
-    <p>
-        #{{ item.name }}-filter {
-          @include button-color(${{ item.name | downcase }})
-        }</p>
-    <p>
-        .{{ item.name }} {
-          @include background(${{ item.name | downcase }});
-        }</p>
-    <p>
+    <br>
+    <h3>Filter navigation autogenerated</h3> <p>...</p>
 
-        .{{ item.name }}-border {
-          @include border-color(${{ item.name | downcase }});
-        }
-    </p>
-    <p>
-        #{{ item.name }}-label {
-          @include checkbox-label(${{ item.name | downcase }});
-        }
-    </p>
+    <!--    {% assign categories = "Other, Home, Animal, Nature, Body, Capability, Agriculture, Number, Weapon, Fishing-->
+    <!--    Clothing, Food, Society, Color, Ceremony" | split: ','%}-->
 
-    {% endfor %}
+    <!--    {% for item in categories %}-->
 
+    <!--    <li><label id="{{ item }}-label" for="{{ item }}-filter">-->
+    <!--        <input id="{{ item }}-filter" type="checkbox" onclick="show('{{ item }}')"/>-->
+    <!--        <span class="sub-button">{{ item | upcase }}</span>-->
+    <!--    </label></li>-->
+
+    <!--    {% endfor %}-->
+
+    <br>
+    <h3>SCSS for categories</h3> <p>...</p>
+
+    <!--    {% for item in category %}-->
+    <!--    <p>-->
+    <!--        #{{ item.name }}-filter {-->
+    <!--          @include button-color(${{ item.name | downcase }})-->
+    <!--        }</p>-->
+    <!--    <p>-->
+    <!--        .{{ item.name }} {-->
+    <!--          @include background(${{ item.name | downcase }});-->
+    <!--        }</p>-->
+    <!--    <p>-->
+
+    <!--        .{{ item.name }}-border {-->
+    <!--          @include border-color(${{ item.name | downcase }});-->
+    <!--        }-->
+    <!--    </p>-->
+    <!--    <p>-->
+    <!--        #{{ item.name }}-label {-->
+    <!--          @include checkbox-label(${{ item.name | downcase }});-->
+    <!--        }-->
+    <!--    </p>-->
+
+    <!--    {% endfor %}-->
+
+    <br>
+    <p></p>
 </div>
-<p>____</p>
-<!--{% for item in site.data.r214 %}-->
-
-<!--<div style='display:flex; width: 100%'>-->
-<!--    <p class="otsutome"> {{ item.Radical }} <p>-->
-<!--</div>-->
-<!--{% endfor %}-->
 
