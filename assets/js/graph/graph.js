@@ -5,6 +5,7 @@ let startTime = Date.now();
 let endTime = startTime + simulationDurationInMs;
 
 var svg = d3.select("#graph-kanji")
+  .append("svg")
   .attr("width", width)
   .attr("height", height);
 
@@ -43,7 +44,11 @@ d3.json(jsonUrl, function(error, graph) {
     .selectAll("g")
     .data(graph.nodes)
     .enter().append("g")
-    .attr("class", "node");
+    .attr("class", "node")
+    .on("mouseover", function(d) {return tooltip.style("visibility", "visible").text(kanjiLabel(d))})
+    .on("mousemove", function(){return tooltip.style("top",
+      (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
+    .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
 
   var circles = node.append("circle")
     .attr("class", function(d) { return d.group } )
@@ -53,22 +58,36 @@ d3.json(jsonUrl, function(error, graph) {
       .on("drag", dragged)
       .on("end", dragended));
 
+  var tooltip = d3.select("#graph-kanji")
+    .append("div")
+    .style("background-color", "white")
+    .style("padding", "5px")
+    .style("border-radius", "5px")
+    .style("position", "absolute")
+    .style("visibility", "hidden")
+    .text("tooltip");
+    //.text(function(d) { return d.reading.concat(" - ", d.meaning);});
+
   var texts = node.append("text")
     .attr("class", "kanji")
-//    .filter(function(d) {return d.frequency > 100 || d.connections;})
     .attr('x', -8)
     .attr('y', 6)
     .text(function(d) {return d.name;});
 
-  var title = node.append("title")
-    .text(function(d) { return d.name.concat(" - ", d.reading, " - ", d.meaning); });
+  function kanjiLabel(d) {
+      return d.name.concat(" - ", d.reading, " - ", d.meaning);
+  }
 
-  var labels = node.append("text")
-    .attr("class", "label")
-    .attr('x', -8)
-    .attr('y', 6)
-    .attr("dy", ".35em")
-    .text(function(d) { return d.reading.concat(" - ", d.meaning);});
+  var title = node.append("title")
+    .text(function (d) { return d.name });
+
+  // svg label gets hidden under the other nodes
+  // var labels = node.append("text")
+  //   .attr("class", "label")
+  //   .attr('x', -8)
+  //   .attr('y', 6)
+  //   .attr("dy", ".35em")
+  //   .text(function(d) { return d.reading.concat(" - ", d.meaning);});
 
   simulation
     .nodes(graph.nodes)
@@ -91,7 +110,6 @@ d3.json(jsonUrl, function(error, graph) {
         return "translate(" + d.x + "," + d.y + ")";
       });
 
-    labels;
     circles;
     texts;
     title;
