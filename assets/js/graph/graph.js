@@ -1,4 +1,4 @@
-var width = 900, height = 680;
+var width = window.screen.width || 900, height = 700;
 const simulationDurationInMs = 20000; // 20 seconds
 
 let startTime = Date.now();
@@ -46,8 +46,7 @@ d3.json(jsonUrl, function(error, graph) {
     .enter().append("g")
     .attr("class", "node")
     .on("mouseover", function(d) {return tooltip.style("visibility", "visible").text(kanjiLabel(d))})
-    .on("mousemove", function(){return tooltip.style("top",
-      (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
+    .on("mousemove", function(){return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
     .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
 
   var circles = node.append("circle")
@@ -60,34 +59,17 @@ d3.json(jsonUrl, function(error, graph) {
 
   var tooltip = d3.select("#graph-kanji")
     .append("div")
-    .style("background-color", "white")
-    .style("padding", "5px")
-    .style("border-radius", "5px")
-    .style("position", "absolute")
-    .style("visibility", "hidden")
-    .text("tooltip");
-    //.text(function(d) { return d.reading.concat(" - ", d.meaning);});
+    .attr("class", "tooltip")
+    .text("default text to be overridden");
 
-  var texts = node.append("text")
+  var nodeName = node.append("text")
     .attr("class", "kanji")
     .attr('x', -8)
     .attr('y', 6)
     .text(function(d) {return d.name;});
 
-  function kanjiLabel(d) {
-      return d.name.concat(" - ", d.reading, " - ", d.meaning);
-  }
-
-  var title = node.append("title")
+  var titles = node.append("title")
     .text(function (d) { return d.name });
-
-  // svg label gets hidden under the other nodes
-  // var labels = node.append("text")
-  //   .attr("class", "label")
-  //   .attr('x', -8)
-  //   .attr('y', 6)
-  //   .attr("dy", ".35em")
-  //   .text(function(d) { return d.reading.concat(" - ", d.meaning);});
 
   simulation
     .nodes(graph.nodes)
@@ -98,7 +80,6 @@ d3.json(jsonUrl, function(error, graph) {
 
   function ticked() {
     if (Date.now() < endTime) {
-      /*update the simulation*/
     link
       .attr("x1", function(d) { return d.source.x; })
       .attr("y1", function(d) { return d.source.y; })
@@ -109,10 +90,9 @@ d3.json(jsonUrl, function(error, graph) {
       .attr("transform", function(d) {
         return "translate(" + d.x + "," + d.y + ")";
       });
-
+    nodeName;
     circles;
-    texts;
-    title;
+    titles;
     } else {
       simulation.stop();
     }
@@ -123,6 +103,10 @@ function frequencySize(size) {
   return function (d) {
     return size + d.frequency / 60;
   };
+}
+
+function kanjiLabel(d) {
+  return d.name.concat(" - ", d.reading, " - ", d.meaning);
 }
 
 function dragstarted(d) {
@@ -141,6 +125,3 @@ function dragended(d) {
   d.fx = null;
   d.fy = null;
 }
-
-// https://bl.ocks.org/mbostock/3231298
-// https://github.com/d3/d3-force
