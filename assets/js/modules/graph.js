@@ -127,21 +127,16 @@ function filterGraph(category) {
   updateSimulation();
 }
 
-//	filter function
 function filterSimulation() {
-
-  //	add and remove nodes from data based on type filters
   store.nodes.forEach(function(n) {
-
     // Add back filtered items to the graph
-    if (!graphFilterList.includes(n.group) && n.filtered) {
-      n.filtered = false;
+    if (n.isFilteredOut && !graphFilterList.includes(n.group)) {
+      n.isFilteredOut = false;
       graph.nodes.push(Object.assign({}, {}, n));
     }
-
     // mark filtered items
-    n.filtered = graphFilterList.includes(n.group);
+    n.isFilteredOut = graphFilterList.includes(n.group);
   });
 
-  graph.nodes = graph.nodes.filter(function(n) { return !n.filtered});
+  graph.nodes = store.nodes.filter(function(n) { return !n.isFilteredOut});
 }
