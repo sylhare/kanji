@@ -18,29 +18,29 @@ let currentOrder = numberAsc;
 
 number.addEventListener('click', () => {
   currentOrder = setOrder(currentOrder, numberDsc, numberAsc);
-  order()
+  sort()
 });
 
 frequency.addEventListener('click', () => {
   currentOrder = setOrder(currentOrder, frequencyAsc, frequencyDsc);
-  order()
+  sort()
 });
 
 category.addEventListener('click', () => {
   currentOrder = setOrder(currentOrder, categoryDsc, categoryAsc);
-  order()
+  sort()
 });
 
 reading.addEventListener('click', () => {
   currentOrder = setOrder(currentOrder, readingDsc, readingAsc);
-  order()
+  sort()
 });
 
 const setOrder = function (order, asc, dec) {
   return order === dec ? asc : dec;
 };
 
-const order = function () {
+const sort = function () {
   cards.sort(currentOrder).forEach((elem, index) => {
     elem.style.order = index.toString()
   })

@@ -15,7 +15,7 @@ function showCategories() {
   categoryMenu.style.display = categoryMenu.style.display === "flex" ? "none" : "flex";
   hideCards();
   currentOrder = numberAsc;
-  order();
+  sort();
 }
 
 const show = function (category) {
@@ -29,7 +29,7 @@ function showAll() {
   categoryMenu.style.display = "none";
   cards.forEach((elem) => {
     currentOrder = numberAsc;
-    order();
+    sort();
     elem.style.display = "flex";
   });
 }
@@ -37,5 +37,5 @@ function showAll() {
 const uncheckAll = function () {
   categories.forEach(function (item) {
     item.checked = false
-  })
+  });
 };
