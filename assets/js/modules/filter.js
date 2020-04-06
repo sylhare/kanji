@@ -19,6 +19,7 @@ function showCategories() {
 }
 
 const show = function (category) {
+  filterGraph(category);
   cards.filter(card => card.dataset.category === category).forEach((elem) => {
     elem.style.display = elem.style.display === "none" ? "inline" : "none";
   });
@@ -38,4 +39,5 @@ const uncheckAll = function () {
   categories.forEach(function (item) {
     item.checked = false
   });
+  graphFilterList = []
 };

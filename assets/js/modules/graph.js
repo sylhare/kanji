@@ -1,8 +1,6 @@
 var width = window.innerWidth|| 900, height = 700;
-const simulationDurationInMs = 20000; // 20 seconds
-
-let startTime = Date.now();
-let endTime = startTime + simulationDurationInMs;
+var graph, store;
+var graphFilterList = [];
 
 var svg = d3.select("#graph-kanji")
   .append("svg")
@@ -21,16 +19,63 @@ var simulation = d3.forceSimulation()
     .distanceMin(60)
     .distanceMax(600))
   .force("collide",d3.forceCollide() // Acts on the node of the graph
-    .radius(frequencySize(14))
+    .radius(frequencySize(13))
     .iterations(32))
   .force("center", d3.forceCenter(width / 2, height / 2))
   .force("x", d3.forceX())
-  .force("y", d3.forceY())
-  //.velocityDecay(0.4)
-  .alphaTarget(0.1);
+  .force("y", d3.forceY());
 
-d3.json(jsonUrl, function(error, graph) {
+d3.json(jsonUrl, function(error, g) {
   if (error) throw error;
+
+  graph = g;
+  store = Object.assign({}, {}, g);
+  updateSimulation();
+
+});
+
+function frequencySize(size) {
+  return function (d) {
+    return size + d.frequency / 60;
+  };
+}
+
+function kanjiLabel(d) {
+  return d.name.concat(" - ", d.reading, " - ", d.meaning);
+}
+
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
+
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
+
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}
+
+function ticked(link, node) {
+    link
+      .attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; });
+
+    node
+      .attr("transform", function(d) {
+        return "translate(" + d.x + "," + d.y + ")";
+      });
+}
+
+
+function updateSimulation() {
 
   var link = svg.append("g")
     .attr("class", "links")
@@ -73,55 +118,39 @@ d3.json(jsonUrl, function(error, graph) {
 
   simulation
     .nodes(graph.nodes)
-    .on("tick", ticked);
+    .on("tick", function() {return ticked(link, node);});
 
   simulation.force("link")
     .links(graph.links);
 
-  function ticked() {
-    if (Date.now() < endTime) {
-    link
-      .attr("x1", function(d) { return d.source.x; })
-      .attr("y1", function(d) { return d.source.y; })
-      .attr("x2", function(d) { return d.target.x; })
-      .attr("y2", function(d) { return d.target.y; });
+  simulation.alpha(0.3).alphaTarget(0).restart();
+}
 
-    node
-      .attr("transform", function(d) {
-        return "translate(" + d.x + "," + d.y + ")";
-      });
-    nodeName;
-    circles;
-    titles;
-    } else {
-      simulation.stop();
-    }
+function filterGraph(category) {
+  if (graphFilterList.includes(category)) {
+    graphFilterList.splice(graphFilterList.indexOf(category), 1)
+  } else {
+    graphFilterList.push(category)
   }
-});
-
-function frequencySize(size) {
-  return function (d) {
-    return size + d.frequency / 60;
-  };
+  filterSimulation();
+  updateSimulation();
 }
 
-function kanjiLabel(d) {
-  return d.name.concat(" - ", d.reading, " - ", d.meaning);
-}
-
-function dragstarted(d) {
-  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-  d.fx = d.x;
-  d.fy = d.y;
-}
-
-function dragged(d) {
-  d.fx = d3.event.x;
-  d.fy = d3.event.y;
-}
-
-function dragended(d) {
-  if (!d3.event.active) simulation.alphaTarget(0);
-  d.fx = null;
-  d.fy = null;
+//	filter function
+function filterSimulation() {
+  //	add and remove nodes from data based on type filters
+  store.nodes.forEach(function(n) {
+    if (!graphFilterList.includes(n.group) && n.filtered) {
+      n.filtered = false;
+      graph.nodes.push(Object.assign({}, {}, n));
+    } else if (graphFilterList.includes(n.group) && !n.filtered) {
+      n.filtered = true;
+      graph.nodes.forEach(function(d, i) {
+        if (n.id === d.id) {
+          console.log("id: ".concat(i, "--", n.id, "-", n.name, " ", d.id, "-", d.name));
+          graph.nodes.splice(i + 1, 1);
+        }
+      });
+    }
+  });
 }

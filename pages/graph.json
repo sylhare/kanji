@@ -2,6 +2,7 @@
 permalink: /graph.json
 ---
 
+{% assign id = 0 %}
 {% assign radicals = site.data.r214 %}
 {% assign categories = site.data.r214 | group_by: 'Category' %}
 
@@ -9,7 +10,7 @@ permalink: /graph.json
   "nodes":[
 
   {% for kanji in radicals %}
-    {"id":"{{ kanji.Number }}", "name":"{{ kanji.Radical}}", "meaning": "{{ kanji.Meaning }}", "reading": "{{ kanji.Reading-R }}", "group":"{{ kanji.Category }}", "frequency": "{{ kanji.Frequency }}"}{% unless kanji == radicals.last %},{% endunless %}
+    {"id": {% increment id %}, "number": "{{ kanji.Number }}", "name":"{{ kanji.Radical}}", "meaning": "{{ kanji.Meaning }}", "reading": "{{ kanji.Reading-R }}", "group":"{{ kanji.Category }}", "frequency": "{{ kanji.Frequency }}"}{% unless kanji == radicals.last %},{% endunless %}
   {% endfor %}
   ],
   "links":[
