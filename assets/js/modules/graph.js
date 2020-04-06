@@ -7,8 +7,16 @@ var svg = d3.select("#graph-kanji")
   .attr("width", width)
   .attr("height", height);
 
+var tooltip = d3.select("#graph-kanji")
+  .append("div")
+  .attr("class", "tooltip")
+  .text("default text to be overridden");
+
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
+var node = svg.append("g")
+  .attr("class", "nodes")
+  .selectAll("g");
 
 var simulation = d3.forceSimulation()
   .force("link", d3.forceLink() // Acts on the link of the graph
@@ -61,13 +69,7 @@ function dragended(d) {
   d.fy = null;
 }
 
-function ticked(link, node) {
-    link
-      .attr("x1", function(d) { return d.source.x; })
-      .attr("y1", function(d) { return d.source.y; })
-      .attr("x2", function(d) { return d.target.x; })
-      .attr("y2", function(d) { return d.target.y; });
-
+function ticked(node) {
     node
       .attr("transform", function(d) {
         return "translate(" + d.x + "," + d.y + ")";
@@ -77,24 +79,16 @@ function ticked(link, node) {
 
 function updateSimulation() {
 
-  var link = svg.append("g")
-    .attr("class", "links")
-    .selectAll("line")
-    .data(graph.links)
-    .enter().append("line")
-    .attr("stroke-width", function(d) { return 1; });
+  node = node.data(graph.nodes, function(d) { return d.id;});
+  node.exit().remove();
 
-  var node = svg.append("g")
-    .attr("class", "nodes")
-    .selectAll("g")
-    .data(graph.nodes)
-    .enter().append("g")
+  var newNode = node.enter().append("g")
     .attr("class", "node")
     .on("mouseover", function(d) {return tooltip.style("visibility", "visible").text(kanjiLabel(d))})
     .on("mousemove", function(){return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
     .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
 
-  var circles = node.append("circle")
+  var circles = newNode.append("circle")
     .attr("class", function(d) { return d.group } )
     .attr("r", frequencySize(12))
     .call(d3.drag()
@@ -102,23 +96,20 @@ function updateSimulation() {
       .on("drag", dragged)
       .on("end", dragended));
 
-  var tooltip = d3.select("#graph-kanji")
-    .append("div")
-    .attr("class", "tooltip")
-    .text("default text to be overridden");
-
-  var nodeName = node.append("text")
+  var nodeName = newNode.append("text")
     .attr("class", "kanji")
     .attr('x', -8)
     .attr('y', 6)
     .text(function(d) {return d.name;});
 
-  var titles = node.append("title")
+  var titles = newNode.append("title")
     .text(function (d) { return d.name });
+
+  node = node.merge(newNode);
 
   simulation
     .nodes(graph.nodes)
-    .on("tick", function() {return ticked(link, node);});
+    .on("tick", function() {return ticked(node);});
 
   simulation.force("link")
     .links(graph.links);
