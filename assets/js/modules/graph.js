@@ -129,19 +129,19 @@ function filterGraph(category) {
 
 //	filter function
 function filterSimulation() {
+
   //	add and remove nodes from data based on type filters
   store.nodes.forEach(function(n) {
+
+    // Add back filtered items to the graph
     if (!graphFilterList.includes(n.group) && n.filtered) {
       n.filtered = false;
       graph.nodes.push(Object.assign({}, {}, n));
-    } else if (graphFilterList.includes(n.group) && !n.filtered) {
-      n.filtered = true;
-      graph.nodes.forEach(function(d, i) {
-        if (n.id === d.id) {
-          console.log("id: ".concat(i, "--", n.id, "-", n.name, " ", d.id, "-", d.name));
-          graph.nodes.splice(i + 1, 1);
-        }
-      });
     }
+
+    // mark filtered items
+    n.filtered = graphFilterList.includes(n.group);
   });
+
+  graph.nodes = graph.nodes.filter(function(n) { return !n.filtered});
 }
