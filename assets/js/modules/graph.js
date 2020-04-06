@@ -1,4 +1,4 @@
-var width = window.screen.width || 900, height = 700;
+var width = window.innerWidth|| 900, height = 700;
 const simulationDurationInMs = 20000; // 20 seconds
 
 let startTime = Date.now();
