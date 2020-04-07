@@ -74,6 +74,11 @@ input {
   font-size: 0.7em;
 }
 
+.logo {
+  padding: 0;
+  max-width: 50px;
+}
+
 @media screen and (max-width: 400px) {
 
   .main-menu a {
@@ -93,6 +98,7 @@ input {
 
   .logo {
     width: 90%;
+    max-width: 45px;
   }
 
   .submenu {
@@ -125,6 +131,7 @@ input {
 
   .logo {
     width: 75%;
+    max-width: 37.5px;
   }
 
 }

@@ -21,7 +21,7 @@ context(' ---------------- Navigation tests ---------------- ', () => {
     it('Contains HOME in navigation', () => {
       cy.get('.menu').contains("HOME")
         .should('be.visible')
-        .should('have.attr', 'href', '#');
+        .should('have.attr', 'href', 'http://127.0.0.1:4000/kanji/');
       cy.get('#card-1').should('be.visible');
       cy.get('#card-214').should('be.visible');
     });
