@@ -1,4 +1,4 @@
-var width = window.innerWidth|| 900, height = 700;
+var width = window.innerWidth || 900, height = 700;
 var graph, store;
 var graphFilterList = [];
 
@@ -19,19 +19,16 @@ var node = svg.append("g")
   .selectAll("g");
 
 var simulation = d3.forceSimulation()
-  .force("link", d3.forceLink() // Acts on the link of the graph
-    .id(function(d) { return d.id; })
-    .distance(14))
-  .force("charge", d3.forceManyBody()
-    .strength(10)
-    .distanceMin(60)
-    .distanceMax(600))
-  .force("collide",d3.forceCollide() // Acts on the node of the graph
+  .force("center", d3.forceCenter().x(width / 2).y(height / 2))
+  .force("link", d3.forceLink()) // Acts on the link of the graph
+  .force("charge", d3.forceManyBody() // Acts on the node of the graph (attraction of nodes)
+    .strength(0.001))
+  .force("collide",d3.forceCollide()// Acts on the node of the graph (avoid collapsing)
+    .strength(1)
     .radius(frequencySize(13))
-    .iterations(32))
-  .force("center", d3.forceCenter(width / 2, height / 2))
-  .force("x", d3.forceX())
-  .force("y", d3.forceY());
+    .iterations(8))
+  .force("x", d3.forceX().strength(width < 700 ? .2 * height/width : 0.05)) // Acts as gravity on nodes (display in canvas)
+  .force("y", d3.forceY().strength(width < 700 ? .16 * width/height : 0.05));
 
 d3.json(jsonUrl, function(error, g) {
   if (error) throw error;
@@ -71,9 +68,9 @@ function dragended(d) {
 
 function ticked(node) {
     node
-      .attr("transform", function(d) {
-        return "translate(" + d.x + "," + d.y + ")";
-      });
+      .attr("transform", function(d) {return "translate(" +
+        Math.max(13, Math.min(width - 26, d.x)) + "," +
+        Math.max(13, Math.min(height - 26, d.y)) + ")";});
 }
 
 
