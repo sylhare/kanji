@@ -38,3 +38,4 @@ And other website I came into while looking into this subject:
 - Jekyll which is used to build the website is under [MIT License](https://github.com/jekyll/jekyll/blob/master/LICENSE)
 - Color Palette NA16 by [Nauris](https://lospec.com/palette-list/na16)
 - D3 is under [BSD License v3](https://opensource.org/licenses/BSD-3-Clause)
+- D3 force-reuse plugins [Copyright 2018](https://github.com/twosixlabs/d3-force-reuse/blob/master/LICENSE) Two Six Labs, LLC. v1.0.0

@@ -21,7 +21,7 @@ var node = svg.append("g")
 var simulation = d3.forceSimulation()
   .force("center", d3.forceCenter().x(width / 2).y(height / 2))
   .force("link", d3.forceLink()) // Acts on the link of the graph
-  .force("charge", d3.forceManyBody() // Acts on the node of the graph (attraction of nodes)
+  .force("charge", d3.forceManyBodyReuse() // Acts on the node of the graph (attraction of nodes)
     .strength(0.001))
   .force("collide",d3.forceCollide()// Acts on the node of the graph (avoid collapsing)
     .strength(1)
