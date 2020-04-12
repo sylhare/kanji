@@ -1,4 +1,4 @@
-var width = window.innerWidth || 900, height = 700;
+var width = window.innerWidth || 900, height = 900;
 var graph, store;
 var graphFilterList = [];
 
@@ -67,10 +67,15 @@ function dragended(d) {
 }
 
 function ticked(node) {
-    node
-      .attr("transform", function(d) {return "translate(" +
-        Math.max(13, Math.min(width - 26, d.x)) + "," +
-        Math.max(13, Math.min(height - 26, d.y)) + ")";});
+  node
+    .attr("transform", function(d) {
+      return "translate(" + d.x + "," + d.y + ")";
+    });
+
+  // node  // To avoid nodes going out of canvas
+  //   .attr("transform", function(d) {return "translate(" +
+  //     Math.max(13, Math.min(width - 26, d.x)) + "," +
+  //     Math.max(13, Math.min(height - 26, d.y)) + ")";});
 }
 
 

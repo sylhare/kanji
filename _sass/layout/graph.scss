@@ -27,6 +27,10 @@
 
 #graph-kanji {
   max-width: 100%;
+
+  @media screen and (max-width: 700px) {
+    padding: 20px 0 20px 0;
+  }
 }
 
 .tooltip {
