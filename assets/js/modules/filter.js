@@ -1,15 +1,19 @@
 const categoryMenu = document.getElementById("menu-category");
-const categories = document.querySelectorAll('.category-filter');
+const categories = document.querySelectorAll(".category-filter");
 const footer = document.getElementsByClassName("footer")[0];
 
+function toggleFooter() {
+  footer.style.display = footer.style.display !== "none" ? "none" : "block";
+}
+
 const hideCards = function () {
-  footer.style.marginTop = "100%";
   cards.forEach((elem) => {
     elem.style.display = "none"
   })
 };
 
 function showCategories() {
+  toggleFooter();
   uncheckAll();
   sortMenu.style.display = "none";
   categoryMenu.style.display = categoryMenu.style.display === "flex" ? "none" : "flex";
@@ -26,7 +30,7 @@ const show = function (category) {
 };
 
 function showAll() {
-  footer.style.marginTop = "";
+  footer.style.display ="block";
   categoryMenu.style.display = "none";
   cards.forEach((elem) => {
     currentOrder = numberAsc;

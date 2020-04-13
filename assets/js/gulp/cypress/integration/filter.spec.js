@@ -64,4 +64,27 @@ context(' ---------------- Filter test ---------------- ', () => {
 
   });
 
+  describe('Footer visibility on FILTER actions', function () {
+
+    it('Footer disappear on when FILTER is ON', () => {
+      cy.visit('http://127.0.0.1:4000/kanji/');
+      cy.get(".footer").should('be.visible');
+      cy.get('#filter').click({force: true});
+      cy.get(".footer").should('be.hidden');
+    });
+
+    it('Footer reappear when FILTTER is OFF', () => {
+      cy.get(".footer").should('be.hidden');
+      cy.get('#filter').click({force: true});
+      cy.get(".footer").should('be.visible');
+    });
+
+    it('Footer is always present at HOME after FILTER', () => {
+      cy.get(".footer").should('be.hidden');
+      cy.get('#home').click({force: true});
+      cy.get(".footer").should('be.visible');
+    });
+
+  });
+
 });
