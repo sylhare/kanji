@@ -30,7 +30,7 @@ const show = function (category) {
 };
 
 function showAll() {
-  footer.style.display ="block";
+  footer.style.display = "block";
   categoryMenu.style.display = "none";
   cards.forEach((elem) => {
     currentOrder = numberAsc;
