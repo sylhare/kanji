@@ -3,16 +3,17 @@
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-quadtree')) :
     typeof define === 'function' && define.amd ? define(['exports', 'd3-quadtree'], factory) :
-      (factory((global.d3 = global.d3 || {}),global.d3));
-}(this, (function (exports,d3Quadtree) { 'use strict';
+      (factory((global.d3 = global.d3 || {}), global.d3));
+}(this, (function (exports, d3Quadtree) {
+  'use strict';
 
-  var constant = function(x) {
-    return function() {
+  var constant = function (x) {
+    return function () {
       return x;
     };
   };
 
-  var manyBodyReuse = function() {
+  var manyBodyReuse = function () {
     var nodes,
       node,
       alpha,
@@ -139,28 +140,28 @@
       } while (quad = quad.next);
     }
 
-    force.initialize = function(_) {
+    force.initialize = function (_) {
       nodes = _;
       initialize();
     };
 
-    force.strength = function(_) {
+    force.strength = function (_) {
       return arguments.length ? (strength = typeof _ === "function" ? _ : constant(+_), initialize(), force) : strength;
     };
 
-    force.distanceMin = function(_) {
+    force.distanceMin = function (_) {
       return arguments.length ? (distanceMin2 = _ * _, force) : Math.sqrt(distanceMin2);
     };
 
-    force.distanceMax = function(_) {
+    force.distanceMax = function (_) {
       return arguments.length ? (distanceMax2 = _ * _, force) : Math.sqrt(distanceMax2);
     };
 
-    force.theta = function(_) {
+    force.theta = function (_) {
       return arguments.length ? (theta2 = _ * _, force) : Math.sqrt(theta2);
     };
 
-    force.update = function(_) {
+    force.update = function (_) {
       return arguments.length ? (updateClosure = _, updateBH = updateClosure(), force) : updateClosure;
     };
 
@@ -169,6 +170,6 @@
 
   exports.forceManyBodyReuse = manyBodyReuse;
 
-  Object.defineProperty(exports, '__esModule', { value: true });
+  Object.defineProperty(exports, '__esModule', {value: true});
 
 })));
