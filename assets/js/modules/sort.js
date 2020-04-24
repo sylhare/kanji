@@ -18,12 +18,12 @@ let currentOrder = numberAsc;
 
 number.addEventListener('click', () => {
   currentOrder = setOrder(currentOrder, numberDsc, numberAsc);
-  sort()
+  sort();
 });
 
 frequency.addEventListener('click', () => {
   currentOrder = setOrder(currentOrder, frequencyAsc, frequencyDsc);
-  sort()
+  sort();
 });
 
 category.addEventListener('click', () => {

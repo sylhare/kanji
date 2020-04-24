@@ -36,13 +36,12 @@ d3.json(jsonUrl, function(error, g) {
   graph = g;
   store = Object.assign({}, {}, g);
   updateSimulation();
-
 });
 
 
 function updateSimulation() {
 
-  node = node.data(graph.nodes, function(d) { return d.id;});
+  node = node.data(graph.nodes, (d) => (d.id));
   node.exit().remove();
 
   let newNode = node.enter().append("g")
@@ -72,6 +71,10 @@ function updateSimulation() {
 
   simulation
     .nodes(graph.nodes)
+    .force("collide", d3.forceCollide()
+      .strength(1)
+      .radius(size(13))
+      .iterations(8))
     .on("tick", () => ticked(node));
 
   simulation.force("link")
@@ -104,14 +107,9 @@ function filterSimulation() {
   graph.nodes = store.nodes.filter((n) => !n.isFilteredOut);
 }
 
-
-let frequencySize = (d) => d.frequency / 60;
-let numberSize = (d) => d.number;
-let sizeFunction = frequencySize;
-
 function size(defaultSize) {
   return function (d) {
-    return defaultSize + sizeFunction(d);
+    return defaultSize + currentSizeOrder(d);
   };
 }
 
