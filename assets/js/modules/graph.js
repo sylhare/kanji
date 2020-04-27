@@ -1,5 +1,6 @@
 const width = window.innerWidth || 900, height = 900;
 let graph, store;
+let defaultSize = 12;
 let graphFilterList = [];
 
 let svg = d3.select("#graph-kanji")
@@ -18,17 +19,7 @@ let node = svg.append("g")
   .attr("class", "nodes")
   .selectAll("g");
 
-let simulation = d3.forceSimulation()
-  .force("center", d3.forceCenter().x(width / 2).y(height / 2))
-  .force("link", d3.forceLink()) // Acts on the link of the graph
-  .force("charge", d3.forceManyBodyReuse() // Acts on the node of the graph (attraction of nodes)
-    .strength(0.001))
-  .force("collide", d3.forceCollide()// Acts on the node of the graph (avoid collapsing)
-    .strength(1)
-    .radius(size(13))
-    .iterations(8))
-  .force("x", d3.forceX().strength(width < 700 ? .2 * height / width : 0.05)) // Acts as gravity on nodes (display in canvas)
-  .force("y", d3.forceY().strength(width < 700 ? .16 * width / height : 0.05));
+let simulation = d3.forceSimulation();
 
 d3.json(jsonUrl, function(error, g) {
   if (error) throw error;
@@ -37,7 +28,6 @@ d3.json(jsonUrl, function(error, g) {
   store = Object.assign({}, {}, g);
   updateSimulation();
 });
-
 
 function updateSimulation() {
 
@@ -52,7 +42,7 @@ function updateSimulation() {
 
   let circles = newNode.append("circle")
     .attr("class", function(d) { return d.group } )
-    .attr("r", size(12))
+    .attr("r", size(defaultSize))
     .call(d3.drag()
       .on("start", dragstarted)
       .on("drag", dragged)
@@ -69,17 +59,7 @@ function updateSimulation() {
 
   node = node.merge(newNode);
 
-  simulation
-    .nodes(graph.nodes)
-    .force("collide", d3.forceCollide()
-      .strength(1)
-      .radius(size(13))
-      .iterations(8))
-    .on("tick", () => ticked(node));
-
-  simulation.force("link")
-    .links(graph.links);
-
+  setupSimulation();
   simulation.alpha(0.3).alphaTarget(0).restart();
 }
 
@@ -132,6 +112,22 @@ function dragended(d) {
   if (!d3.event.active) simulation.alphaTarget(0);
   d.fx = null;
   d.fy = null;
+}
+
+function setupSimulation() {
+  simulation
+    .nodes(graph.nodes)
+    .force("center", d3.forceCenter().x(width / 2).y(height / 2))
+    .force("link", d3.forceLink()) // Acts on the link of the graph
+    .force("charge", d3.forceManyBodyReuse() // Acts on the node of the graph (attraction of nodes)
+      .strength(0.001))
+    .force("collide", d3.forceCollide()
+      .strength(1)
+      .radius(size(defaultSize + 1)) // Acts on the node of the graph (avoid collapsing)
+      .iterations(8))
+    .force("x", d3.forceX().strength(width < 700 ? .2 * height / width : 0.05)) // Acts as gravity on nodes (display in canvas)
+    .force("y", d3.forceY().strength(width < 700 ? .16 * width / height : 0.05))
+    .on("tick", () => ticked(node));
 }
 
 function ticked(node) {
