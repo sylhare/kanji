@@ -1,6 +1,5 @@
 const width = window.innerWidth || 900, height = 900;
 let graph, store;
-let defaultSize = 12;
 let graphFilterList = [];
 
 let svg = d3.select("#graph-kanji")
@@ -85,12 +84,6 @@ function filterSimulation() {
   });
 
   graph.nodes = store.nodes.filter((n) => !n.isFilteredOut);
-}
-
-function size(defaultSize) {
-  return function (d) {
-    return defaultSize + currentSizeOrder(d);
-  };
 }
 
 function kanjiLabel(d) {
