@@ -18,7 +18,7 @@ gulp.task('custom', function minijs() {
 });
 
 gulp.task('plugins', function miniVendorjs() {
-  return gulp.src(['../plugins/*'])
+  return gulp.src(['../plugins/^((?!min).)*$'])
     .pipe(concat('plugins.min.js'))
     .pipe(uglify())
     .on('error', (err) => {
