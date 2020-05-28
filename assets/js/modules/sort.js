@@ -17,23 +17,19 @@ const readingDsc = (a, b) => b.dataset.reading.localeCompare(a.dataset.reading);
 let currentOrder = numberAsc;
 
 number.addEventListener('click', () => {
-  currentOrder = setOrder(currentOrder, numberDsc, numberAsc);
-  sort();
+  sortHandler(numberDsc, numberAsc);
 });
 
 frequency.addEventListener('click', () => {
-  currentOrder = setOrder(currentOrder, frequencyAsc, frequencyDsc);
-  sort();
+  sortHandler(frequencyAsc, frequencyDsc);
 });
 
 category.addEventListener('click', () => {
-  currentOrder = setOrder(currentOrder, categoryDsc, categoryAsc);
-  sort()
+  sortHandler(categoryDsc, categoryAsc);
 });
 
 reading.addEventListener('click', () => {
-  currentOrder = setOrder(currentOrder, readingDsc, readingAsc);
-  sort()
+  sortHandler(readingDsc, readingAsc);
 });
 
 const setOrder = function (order, asc, dec) {
@@ -45,6 +41,11 @@ const sort = function () {
     elem.style.order = index.toString()
   })
 };
+
+function sortHandler(sortDsc, sortAsc) {
+  currentOrder = setOrder(currentOrder, sortDsc, sortAsc);
+  sort()
+}
 
 function showSorts() {
   categoryMenu.style.display = "none";

@@ -1,8 +1,12 @@
 const defaultSize = 12;
 let frequencySizeAsc = (d) => d.frequency / 60;
-let frequencySizeDsc = (d) => 5;
-let numberSizeAsc = (d) => d.number;
-let numberSizeDsc = (d) => 1 / d.number;
+let frequencySizeDsc = (d) => 130 / d.frequency > 50 ? 50 : 130 / d.frequency;
+let numberSizeAsc = (d) => d.number / 10;
+let numberSizeDsc = (d) => (215 - d.number) / 10;
+let readingAsc = (d) => d.reading ;
+let readingDsc = (d) => d.reading ;
+let readingAsc = (d) => d.group ;
+let readingDsc = (d) => d.group ;
 
 
 function size(defaultSize) {
@@ -15,11 +19,27 @@ function updateNodeSize() {
   d3.selectAll("g").select("circle").attr("r", size(defaultSize));
 }
 
-let currentSizeOrder = frequencySizeAsc;
-
-
-frequency.addEventListener('click', () => {
-  currentSizeOrder = setOrder(currentSizeOrder, frequencySizeDsc, frequencySizeAsc);
+function graphSortHandler(sortDsc, sortAsc) {
+  currentSizeOrder = setOrder(currentSizeOrder, sortDsc, sortAsc);
   updateSimulation();
   updateNodeSize();
+}
+
+let currentSizeOrder = frequencySizeAsc;
+
+frequency.addEventListener('click', () => {
+  graphSortHandler(frequencySizeDsc, frequencySizeAsc)
+});
+
+
+number.addEventListener('click', () => {
+  graphSortHandler(numberSizeDsc, numberSizeAsc)
+});
+
+category.addEventListener('click', () => {
+  graphSortHandler(numberSizeDsc, numberSizeAsc)
+});
+
+reading.addEventListener('click', () => {
+  graphSortHandler(numberSizeDsc, numberSizeAsc)
 });
