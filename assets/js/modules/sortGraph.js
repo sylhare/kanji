@@ -3,10 +3,10 @@ let frequencySizeAsc = (d) => d.frequency / 60;
 let frequencySizeDsc = (d) => 130 / d.frequency > 50 ? 50 : 130 / d.frequency;
 let numberSizeAsc = (d) => d.number / 10;
 let numberSizeDsc = (d) => (215 - d.number) / 10;
-let readingAsc = (d) => d.reading ;
-let readingDsc = (d) => d.reading ;
-let readingAsc = (d) => d.group ;
-let readingDsc = (d) => d.group ;
+let readingSizeAsc = (d) => 10 ;
+let readingSizeDsc = (d) => 10 ;
+let categorySizeAsc = (d) => 10;
+let categorySizeDsc = (d) => 10 ;
 
 
 function size(defaultSize) {
@@ -37,9 +37,9 @@ number.addEventListener('click', () => {
 });
 
 category.addEventListener('click', () => {
-  graphSortHandler(numberSizeDsc, numberSizeAsc)
+  graphSortHandler(categorySizeAsc, categorySizeDsc)
 });
 
 reading.addEventListener('click', () => {
-  graphSortHandler(numberSizeDsc, numberSizeAsc)
+  graphSortHandler(readingSizeAsc, readingSizeDsc)
 });
