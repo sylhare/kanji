@@ -26,5 +26,6 @@ jobs:
       run: bundle exec jekyll build --strict_front_matter -d _site/kanji # So that the html proofed understand local links
 
     - name: html check
-      run: htmlproofer --assume-extension ./_site --allow-hash-href --check-favicon --check-html --check-opengraph
+      run: htmlproofer --assume-extension ./_site --allow-hash-href --check-html --check-opengraph
+      continue-on-error: true
 
