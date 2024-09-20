@@ -5,14 +5,14 @@ url: "https://sylhare.github.io/"
 title: Kanji radicals
 description: Japanese radicals presented as learning cards.
 
-google_analytics: "UA-142123817-1"
+google_analytics: "G-YPX3TXS4S4"
 
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
 sass:
   sass_dir: _sass
-  style: :compressed
+  style: compressed
 plugins: [jekyll-seo-tag]
 exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "*.gemspec", "*.gem", ".idea",
-          "resources", "LICENSE", "README.md", "assets/js/gulp"]
+          "resources", "LICENSE", "README.md", "node_modules/**", "assets/js/gulp"]
