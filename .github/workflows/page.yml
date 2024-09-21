@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby: [ '2.7.4', '3.3' ]
+        ruby: [ '3.3' ]
 
     steps:
       - uses: actions/checkout@v4
@@ -15,6 +15,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
+          bundler-cache: true
       - name: Install github-pages gem
         run: |
           gem install github-pages

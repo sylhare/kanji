@@ -8,8 +8,6 @@ description: Japanese radicals presented as learning cards.
 google_analytics: "G-YPX3TXS4S4"
 
 # BUILD SETTINGS
-markdown: kramdown
-highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
