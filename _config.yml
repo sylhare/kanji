@@ -8,11 +8,9 @@ description: Japanese radicals presented as learning cards.
 google_analytics: "G-YPX3TXS4S4"
 
 # BUILD SETTINGS
-markdown: kramdown
-highlighter: rouge
 sass:
-  sass_dir: _sass
   style: compressed
-plugins: [jekyll-seo-tag]
-exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "*.gemspec", "*.gem", ".idea",
-          "resources", "LICENSE", "README.md", "node_modules/**", "assets/js/gulp"]
+plugins: [ jekyll-seo-tag ]
+exclude: [ ".jekyll-cache", "Gemfile", "Gemfile.lock", "*.gemspec", "*.gem", ".idea",
+           "resources", "LICENSE", "README.md", "node_modules/**", "assets/js/gulp",
+           ".sass-cache/", "vendor/*" ]
