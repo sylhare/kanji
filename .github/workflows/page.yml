@@ -16,9 +16,6 @@ jobs:
         with:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
-      - name: Install github-pages gem
-        run: |
-          gem install github-pages
       - name: Install
         run: bundle install
       - name: Build jekyll site

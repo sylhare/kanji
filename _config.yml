@@ -13,4 +13,4 @@ sass:
 plugins: [ jekyll-seo-tag ]
 exclude: [ ".jekyll-cache", "Gemfile", "Gemfile.lock", "*.gemspec", "*.gem", ".idea",
            "resources", "LICENSE", "README.md", "node_modules/**", "assets/js/gulp",
-           ".sass-cache/" ]
+           ".sass-cache/", "vendor/*" ]
