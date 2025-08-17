@@ -65,11 +65,9 @@
     <g transform="translate(120,200)" opacity="0.8">
     <!-- North pole -->
     <rect x="0" y="0" width="30" height="15" fill="#d32f2f"/>
-    <text x="15" y="10" font-family="Arial" font-size="8" text-anchor="middle" fill="#fff">N</text>
     
     <!-- South pole -->
     <rect x="40" y="0" width="30" height="15" fill="#1976d2"/>
-    <text x="55" y="10" font-family="Arial" font-size="8" text-anchor="middle" fill="#fff">S</text>
     
     <!-- Repelling lines -->
     <g stroke="#ff5722" stroke-width="2" opacity="0.5">
@@ -164,7 +162,7 @@
     </g>
   
     <!-- Kanji character 舛 -->
-    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#d32f2f" opacity="0.8">舛</text>
+    
     </g>
   </g>
 </svg> 

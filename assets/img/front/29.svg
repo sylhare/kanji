@@ -198,9 +198,7 @@
     
     <!-- Repeated characters being written -->
     <g fill="#ad1457" opacity="0.8">
-      <text x="15" y="30" font-family="serif" font-size="16">又</text>
-      <text x="35" y="30" font-family="serif" font-size="16" opacity="0.7">又</text>
-      <text x="55" y="30" font-family="serif" font-size="16" opacity="0.5">又</text>
+      
     </g>
     </g>
   
@@ -297,10 +295,9 @@
     </g>
   
     <!-- Number indicator -->
-    <text x="450" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#ad1457" opacity="0.4">29</text>
-  
+    
     <!-- Kanji character 又 -->
-    <text x="80" y="450" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#ad1457" opacity="0.8">又</text>
+    
     </g>
   </g>
 </svg> 

@@ -49,9 +49,6 @@
   <rect x="60" y="210" width="60" height="20" rx="3" fill="url(#silverGradient)" stroke="#A9A9A9" stroke-width="2"/>
   
   <!-- Silver bar markings -->
-  <text x="80" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#696969">Ag</text>
-  <text x="85" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#696969">999</text>
-  <text x="90" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#696969">FINE</text>
   
   <!-- Copper ingots -->
   <rect x="320" y="160" width="50" height="15" rx="2" fill="url(#copperGradient)" stroke="#A0522D" stroke-width="2"/>
@@ -127,7 +124,6 @@
   <ellipse cx="370" cy="180" rx="4" ry="8" fill="none" stroke="url(#silverGradient)" stroke-width="3"/>
   
   <!-- Golden Chinese character -->
-  <text x="200" y="380" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#FFD700">金</text>
   
   <!-- Sparkles around precious items -->
   <path d="M120 100 L125 90 L130 100 L125 110 Z" fill="#FFD700" opacity="0.8"/>

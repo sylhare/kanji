@@ -318,10 +318,9 @@
     </g>
   
     <!-- Number indicator -->
-    <text x="50" y="450" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#283593" opacity="0.4">31</text>
-  
+    
     <!-- Kanji character 囗 -->
-    <text x="450" y="100" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1a237e" opacity="0.8">囗</text>
+    
     </g>
   </g>
 </svg> 

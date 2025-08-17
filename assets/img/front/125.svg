@@ -109,7 +109,7 @@
     <rect x="3" y="3" width="20" height="25" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1"/>
     <rect x="6" y="6" width="20" height="25" fill="#eeeeee" stroke="#bdbdbd" stroke-width="1"/>
     <!-- Numbers -->
-    <text x="16" y="18" font-family="Arial" font-size="8" text-anchor="middle" fill="#424242">2024</text>
+    
     </g>
   
     <!-- Gray/white hair strands -->
@@ -140,7 +140,7 @@
     </g>
   
     <!-- Kanji character 耂 -->
-    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#5d4037" opacity="0.8">耂</text>
+    
     </g>
   </g>
 </svg> 

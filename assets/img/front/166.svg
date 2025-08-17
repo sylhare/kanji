@@ -136,5 +136,5 @@
   
   <!-- Village sign -->
   <rect x="5" y="300" width="30" height="20" fill="#F5DEB3" stroke="#8B4513" stroke-width="2"/>
-  <text x="20" y="315" text-anchor="middle" font-family="serif" font-size="8" fill="#8B0000">里</text>
+  
 </svg> 

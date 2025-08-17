@@ -105,8 +105,6 @@
   <path d="M205 352 L253 352" stroke="#FF0000" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
   
   <!-- Text indicating separation -->
-  <text x="200" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#4B0082">DIVIDE</text>
-  <text x="200" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#696969">SEPARATE</text>
   
   <!-- Border effects -->
   <rect x="5" y="5" width="390" height="390" fill="none" stroke="#D3D3D3" stroke-width="2" stroke-dasharray="10,5"/>

@@ -127,11 +127,8 @@
       stroke="#F8F8FF" stroke-width="2" fill="none"/>
   
   <!-- Chemical formula -->
-  <text x="50" y="40" font-family="Arial, sans-serif" font-size="16" fill="#2F2F2F">NaCl</text>
-  <text x="50" y="55" font-family="Arial, sans-serif" font-size="10" fill="#696969">Sodium Chloride</text>
   
   <!-- Chinese character for salt -->
-  <text x="200" y="35" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#4682B4">鹵</text>
   
   <!-- Waves in salt water -->
   <path d="M0 220 Q50 210 100 220 Q150 230 200 220 Q250 210 300 220 Q350 230 400 220" 

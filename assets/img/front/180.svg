@@ -177,10 +177,9 @@
     </g>
   
     <!-- Chinese character -->
-    <text x="200" y="20" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#4B0082">音</text>
-  
+    
     <!-- Title -->
-    <text x="200" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2F4F4F">SOUND &amp; MUSIC</text>
+    
     </g>
   </g>
 </svg> 

@@ -110,7 +110,7 @@
       <line x1="60" y1="10" x2="60" y2="50"/>
       <rect x="25" y="20" width="30" height="20"/>
     </g>
-    <text x="40" y="8" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#1976d2">BLUEPRINT</text>
+    
     </g>
   
     <!-- Welding sparks -->
@@ -192,7 +192,7 @@
     <!-- Safety signs -->
     <g transform="translate(450,200)" opacity="0.6">
     <polygon points="0,-10 8.7,-5 8.7,5 0,10 -8.7,5 -8.7,-5" fill="#f44336"/>
-    <text x="0" y="2" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#fff">!</text>
+    
     </g>
   
     <!-- Quality control -->
@@ -202,7 +202,7 @@
     </g>
   
     <!-- Kanji character 工 -->
-    <text x="50" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#37474f" opacity="0.8">工</text>
+    
     </g>
   </g>
 </svg> 

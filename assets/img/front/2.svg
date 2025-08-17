@@ -49,6 +49,6 @@
   <rect x="238" y="60" width="4" height="380" rx="2" fill="#bcaaa4" opacity="0.6"/>
   
   <!-- Kanji character 丨 -->
-  <text x="150" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#4e342e" opacity="0.8">丨</text>
+  
   </g>
 </svg> 

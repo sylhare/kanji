@@ -83,10 +83,9 @@
     </g>
   
     <!-- Number "43" integrated -->
-    <text x="50" y="450" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#0d47a1" opacity="0.5">43</text>
-  
+    
     <!-- Kanji character 四十三 -->
-    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#0d47a1" opacity="0.9">四十三</text>
+    
     </g>
   </g>
 </svg> 

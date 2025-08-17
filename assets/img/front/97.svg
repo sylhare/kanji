@@ -211,10 +211,9 @@
     </g>
   
     <!-- Number "97" integrated -->
-    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#e65100" opacity="0.5">97</text>
-  
+    
     <!-- Kanji character 九十七 -->
-    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#e65100" opacity="0.9">九十七</text>
+    
     </g>
   </g>
 </svg> 

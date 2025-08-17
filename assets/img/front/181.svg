@@ -95,8 +95,7 @@
   
     <!-- Illuminated letter -->
     <rect x="310" y="210" width="15" height="20" fill="#DC143C"/>
-    <text x="317.5" y="225" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#FFD700">A</text>
-  
+    
     <!-- Decorative border -->
     <rect x="305" y="205" width="70" height="90" fill="none" stroke="#DAA520" stroke-width="2"/>
     <circle cx="315" cy="215" r="2" fill="#4169E1"/>
@@ -123,11 +122,7 @@
     <rect x="250" y="356" width="60" height="12" fill="#8B4513" stroke="#654321" stroke-width="1"/>
   
     <!-- Book spines with titles -->
-    <text x="280" y="328" text-anchor="middle" font-family="serif" font-size="6" fill="#FFF">POETRY</text>
-    <text x="280" y="340" text-anchor="middle" font-family="serif" font-size="6" fill="#FFF">HISTORY</text>
-    <text x="280" y="352" text-anchor="middle" font-family="serif" font-size="6" fill="#FFF">SCIENCE</text>
-    <text x="280" y="364" text-anchor="middle" font-family="serif" font-size="6" fill="#FFF">PHILOSOPHY</text>
-  
+    
     <!-- Quill pen -->
     <rect x="160" y="320" width="2" height="50" fill="#8B4513"/>
     <path d="M162 320 Q170 315 175 320 Q170 325 162 330" fill="#FFF" stroke="#D3D3D3" stroke-width="1"/>
@@ -190,10 +185,9 @@
     <path d="M280 160 L280 175 L295 160 Z" fill="#D3D3D3" stroke="#A9A9A9" stroke-width="1"/>
   
     <!-- Chinese character -->
-    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#4B0082">頁</text>
-  
+    
     <!-- Title -->
-    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2F4F4F">PAGES &amp; BOOKS</text>
+    
     </g>
   </g>
 </svg> 

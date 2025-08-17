@@ -155,11 +155,8 @@
   <rect x="10" y="100" width="15" height="20" fill="#32CD32"/>
   
   <!-- Chinese character for blue/green -->
-  <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#191970">青</text>
   
   <!-- Labels -->
-  <text x="50" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#191970">BLUE</text>
-  <text x="350" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#228B22">GREEN</text>
   
   <!-- Blue fish in water -->
   <ellipse cx="90" cy="250" rx="8" ry="5" fill="#4169E1" stroke="#191970" stroke-width="1"/>

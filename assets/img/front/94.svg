@@ -131,7 +131,7 @@
     <g transform="translate(150,420)" opacity="0.7">
     <ellipse cx="0" cy="0" rx="25" ry="15" fill="#2196f3"/>
     <ellipse cx="0" cy="-5" rx="20" ry="10" fill="#1976d2"/>
-    <text x="0" y="3" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#fff">DOG</text>
+    
     </g>
   
     <!-- Heart symbols showing love -->
@@ -171,7 +171,7 @@
     </g>
   
     <!-- Kanji character 犬 -->
-    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#5d4037" opacity="0.8">犬</text>
+    
     </g>
   </g>
 </svg> 

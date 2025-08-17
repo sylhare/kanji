@@ -66,7 +66,7 @@
           stroke="url(#dataGradient)" stroke-width="2" fill="none"/>
     <circle cx="-8" cy="-3" r="2" fill="#00FF00"/>
     <circle cx="6" cy="8" r="1.5" fill="#00FFFF"/>
-    <text x="0" y="12" text-anchor="middle" fill="#00FF00" font-size="6">DATA</text>
+    
     </g>
   
     <g transform="translate(300, 120)">
@@ -76,7 +76,7 @@
       <polygon points="0,-15 -10,0 0,15 10,0" fill="none" stroke="url(#hologramGradient)" stroke-width="1.5"/>
       <polygon points="0,-10 -6,0 0,10 6,0" fill="url(#hologramGradient)" opacity="0.5"/>
       <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
-      <text x="0" y="18" text-anchor="middle" fill="#00FFFF" font-size="5">3D MODEL</text>
+      
     </g>
     </g>
   
@@ -172,8 +172,7 @@
     <circle cx="0" cy="12" r="2" fill="#404040"/>
     <!-- Screen content -->
     <g fill="#00FF00" font-size="2">
-      <text x="0" y="-8" text-anchor="middle">APP</text>
-      <text x="0" y="-4" text-anchor="middle">ICONS</text>
+      
     </g>
     <g fill="#FFFFFF">
       <rect x="-4" y="-2" width="2" height="2"/>
@@ -193,7 +192,7 @@
     <rect x="-12" y="-2" width="6" height="4" rx="2" fill="#000"/>
     <rect x="6" y="-2" width="6" height="4" rx="2" fill="#000"/>
     <!-- Screen display -->
-    <text x="0" y="-1" text-anchor="middle" fill="#00FFFF" font-size="3">12:30</text>
+    
     <circle cx="0" cy="2" r="1" fill="#00FF00"/>
     </g>
   
@@ -212,11 +211,7 @@
   
     <!-- Floating binary code -->
     <g fill="#00FFFF" opacity="0.7" font-size="8" font-family="monospace">
-    <text x="50" y="150">101010</text>
-    <text x="300" y="200">110011</text>
-    <text x="150" y="320">001101</text>
-    <text x="350" y="250">111000</text>
-    <text x="100" y="220">010101</text>
+    
     </g>
   
     <!-- WiFi signals -->
@@ -271,7 +266,7 @@
       <path d="M3 0 L17 5"/>
       <path d="M3 15 L17 5"/>
     </g>
-    <text x="0" y="25" text-anchor="middle" fill="#00FFFF" font-size="6">AI NETWORK</text>
+    
     </g>
   
     <!-- Quantum particles -->

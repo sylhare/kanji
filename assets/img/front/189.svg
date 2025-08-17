@@ -207,12 +207,7 @@
   
     <!-- Elevation numbers -->
     <g fill="#FF0000" font-family="Arial, sans-serif" font-size="10">
-    <text x="15" y="105">300m</text>
-    <text x="15" y="155">250m</text>
-    <text x="15" y="205">200m</text>
-    <text x="15" y="255">150m</text>
-    <text x="15" y="305">100m</text>
-    <text x="15" y="355">50m</text>
+    
     </g>
   
     <!-- Sun at high altitude -->
@@ -244,10 +239,9 @@
     </g>
   
     <!-- Chinese character -->
-    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#4B0082">高</text>
-  
+    
     <!-- Title -->
-    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2F4F4F">HIGH &amp; TALL</text>
+    
     </g>
   </g>
 </svg> 

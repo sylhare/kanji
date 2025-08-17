@@ -266,7 +266,7 @@
     <g transform="translate(50,100)">
       <circle cx="0" cy="0" r="12" fill="none" stroke="#3f51b5" stroke-width="2"/>
       <path d="M0,-8 L3,0 L0,8 L-3,0 Z" fill="#f44336"/>  <!-- North -->
-      <text x="0" y="-15" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#3f51b5">N</text>
+      
     </g>
     </g>
   
@@ -277,10 +277,9 @@
     </g>
   
     <!-- Number indicator -->
-    <text x="450" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#283593" opacity="0.4">34</text>
-  
+    
     <!-- Kanji character 夂 -->
-    <text x="450" y="450" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1a237e" opacity="0.8">夂</text>
+    
     </g>
   </g>
 </svg> 

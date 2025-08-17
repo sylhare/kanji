@@ -135,7 +135,7 @@
   
     <!-- Craftsmanship marks -->
     <g fill="#6d4c41" opacity="0.3">
-    <text x="380" y="240" font-family="Arial, sans-serif" font-size="8" text-anchor="middle">Made with Care</text>
+    
     </g>
   
     <!-- Quality indicators -->
@@ -152,7 +152,7 @@
     </g>
   
     <!-- Kanji character 几 -->
-    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#4e342e" opacity="0.8">几</text>
+    
     </g>
   </g>
 </svg> 

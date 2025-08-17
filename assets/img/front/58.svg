@@ -127,10 +127,9 @@
     </g>
   
     <!-- Number "58" integrated -->
-    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#f57c00" opacity="0.5">58</text>
-  
+    
     <!-- Kanji character 五十八 -->
-    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#f57c00" opacity="0.9">五十八</text>
+    
     </g>
   </g>
 </svg> 

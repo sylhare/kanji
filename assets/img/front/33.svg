@@ -69,7 +69,7 @@
     <g transform="translate(0,-10)" fill="#80cbc4" opacity="0.9">
       <circle cx="0" cy="0" r="8"/>
       <circle cx="0" cy="0" r="5" fill="#4db6ac"/>
-      <text x="0" y="3" font-family="serif" font-size="8" text-anchor="middle" fill="#004d40">士</text>
+      
     </g>
     
     <!-- Scholar's sleeves -->
@@ -109,10 +109,7 @@
     
     <!-- Text on scroll -->
     <g fill="#00695c" opacity="0.8" font-family="serif" font-size="8">
-      <text x="28" y="15">學</text>
-      <text x="28" y="25">問</text>
-      <text x="28" y="35">之</text>
-      <text x="28" y="45">道</text>
+      
     </g>
     
     <!-- Scroll ties -->
@@ -234,10 +231,9 @@
     </g>
   
     <!-- Number indicator -->
-    <text x="450" y="450" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#004d40" opacity="0.4">33</text>
-  
+    
     <!-- Kanji character 士 -->
-    <text x="80" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#004d40" opacity="0.8">士</text>
+    
     </g>
   </g>
 </svg> 

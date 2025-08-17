@@ -55,10 +55,9 @@
     </g>
   
     <!-- Number "2" subtly integrated -->
-    <text x="250" y="400" font-family="Arial, sans-serif" font-size="42" font-weight="300" text-anchor="middle" fill="#e65100" opacity="0.4">2</text>
-  
+    
     <!-- Kanji character 二 -->
-    <text x="250" y="110" font-family="serif" font-size="64" font-weight="bold" text-anchor="middle" fill="#bf360c" opacity="0.8">二</text>
+    
     </g>
   </g>
 </svg> 

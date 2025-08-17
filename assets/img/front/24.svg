@@ -64,10 +64,9 @@
     </g>
   
     <!-- Number "10" subtly integrated -->
-    <text x="450" y="80" font-family="Arial, sans-serif" font-size="32" font-weight="300" text-anchor="middle" fill="#e65100" opacity="0.4">10</text>
-  
+    
     <!-- Kanji character 十 -->
-    <text x="80" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#e65100" opacity="0.8">十</text>
+    
     </g>
   </g>
 </svg> 

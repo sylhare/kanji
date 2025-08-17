@@ -139,7 +139,6 @@
     stroke="#8B4513" stroke-width="3" fill="none"/>
   
   <!-- Chinese character for capture/servant -->
-  <text x="200" y="50" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#8B0000" opacity="0.7">隶</text>
   
   <!-- Sad expressions/tears -->
   <ellipse cx="140" cy="125" rx="1" ry="4" fill="#87CEEB"/>

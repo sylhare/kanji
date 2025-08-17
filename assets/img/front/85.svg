@@ -1,63 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
-  <!-- Background gradient -->
   <defs>
     <linearGradient id="waterBg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#e1f5fe;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#b3e5fc;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#29b6f6;stop-opacity:0.8" />
-      <stop offset="100%" style="stop-color:#0277bd;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#4fc3f7;stop-opacity:0.7" />
-      <stop offset="100%" style="stop-color:#0288d1;stop-opacity:0.9" />
-    </linearGradient>
-    <radialGradient id="dropGrad" cx="50%" cy="30%" r="60%">
-      <stop offset="0%" style="stop-color:#81d4fa;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0277bd;stop-opacity:1" />
-    </radialGradient>
   </defs>
   
   <!-- Background -->
   <rect width="500" height="500" fill="url(#waterBg)"/>
   
-  <!-- Central water stream (vertical stroke of 水) -->
-  <path d="M250 80 Q230 150 250 220 Q270 290 250 360 Q240 400 250 440" 
-    stroke="url(#waveGrad1)" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <!-- Main strokes of 水 (water) -->
+  <!-- Central vertical stroke -->
+  <rect x="243" y="120" width="14" height="260" rx="7" fill="#0277bd"/>
   
-  <!-- Side water streams (side strokes of 水) -->
-  <path d="M180 150 Q190 200 200 250 Q210 300 220 350" 
-    stroke="url(#waveGrad1)" stroke-width="12" fill="none" stroke-linecap="round"/>
-  <path d="M320 150 Q310 200 300 250 Q290 300 280 350" 
-    stroke="url(#waveGrad1)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Left diagonal stroke -->
+  <rect x="180" y="180" width="14" height="140" rx="7" fill="#0277bd" transform="rotate(-15 187 250)"/>
   
-  <!-- Water waves -->
-  <path d="M50 300 Q100 280 150 300 T250 300 T350 300 T450 300" 
-    stroke="url(#waveGrad2)" stroke-width="8" fill="none"/>
-  <path d="M30 350 Q80 330 130 350 T230 350 T330 350 T430 350" 
-    stroke="url(#waveGrad2)" stroke-width="8" fill="none"/>
-  <path d="M70 400 Q120 380 170 400 T270 400 T370 400 T470 400" 
-    stroke="url(#waveGrad2)" stroke-width="8" fill="none"/>
+  <!-- Right diagonal stroke -->
+  <rect x="306" y="180" width="14" height="140" rx="7" fill="#0277bd" transform="rotate(15 313 250)"/>
   
-  <!-- Water droplets -->
-  <g fill="url(#dropGrad)">
-  <path d="M120 180 Q110 160 120 140 Q130 160 120 180"/>
-  <path d="M380 200 Q370 180 380 160 Q390 180 380 200"/>
-  <path d="M150 100 Q140 80 150 60 Q160 80 150 100"/>
-  <path d="M350 120 Q340 100 350 80 Q360 100 350 120"/>
-  <path d="M100 280 Q90 260 100 240 Q110 260 100 280"/>
-  <path d="M400 320 Q390 300 400 280 Q410 300 400 320"/>
-  
-  <!-- Ripples -->
-  <g stroke="#29b6f6" stroke-width="2" fill="none" opacity="0.4">
-  <circle cx="200" cy="380" r="20"/>
-  <circle cx="200" cy="380" r="30"/>
-  <circle cx="300" cy="400" r="15"/>
-  <circle cx="300" cy="400" r="25"/>
-  
-    <!-- Kanji character 水 -->
-    <text x="100" y="80" font-family="serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#0277bd" opacity="0.7">水</text>
-    </g>
-  </g>
+  <!-- Bottom dot -->
+  <circle cx="250" cy="350" r="8" fill="#0277bd"/>
 </svg> 

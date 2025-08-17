@@ -76,7 +76,6 @@
     
     <!-- Document header -->
     <rect x="5" y="5" width="110" height="15" rx="2" fill="#e0f2f1" stroke="#26a69a" stroke-width="1"/>
-    <text x="60" y="15" font-family="serif" font-size="8" text-anchor="middle" fill="#00695c" font-weight="bold">OFFICIAL DOCUMENT</text>
     
     <!-- Document lines -->
     <g stroke="#bdbdbd" stroke-width="1" opacity="0.7">
@@ -94,8 +93,7 @@
       
       <!-- Seal impression -->
       <g fill="#ffffff" opacity="0.7" font-family="serif" font-size="6">
-        <text x="0" y="-2" text-anchor="middle">SEAL</text>
-        <text x="0" y="4" text-anchor="middle">官</text>
+        
       </g>
     </g>
     
@@ -235,10 +233,7 @@
     
     <!-- Labels on drawers -->
     <g fill="#ffffff" font-family="Arial, sans-serif" font-size="6" opacity="0.8">
-      <text x="10" y="12">OFFICIAL</text>
-      <text x="10" y="32">RECORDS</text>
-      <text x="10" y="52">STAMPS</text>
-      <text x="10" y="72">SEALS</text>
+      
     </g>
     </g>
   
@@ -261,7 +256,7 @@
     
     <!-- Approved stamp -->
     <rect x="25" y="-5" width="30" height="15" rx="3" fill="none" stroke="#26a69a" stroke-width="2"/>
-    <text x="40" y="5" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#26a69a">APPROVED</text>
+    
     </g>
   
     <!-- Formal borders -->
@@ -271,10 +266,9 @@
     </g>
   
     <!-- Number indicator -->
-    <text x="450" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#00695c" opacity="0.4">26</text>
-  
+    
     <!-- Kanji character 卩 -->
-    <text x="80" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#004d40" opacity="0.8">卩</text>
+    
     </g>
   </g>
 </svg> 

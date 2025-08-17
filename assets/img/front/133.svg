@@ -76,7 +76,7 @@
     <!-- Flag -->
     <rect x="0" y="0" width="3" height="40" fill="#8d6e63"/>
     <rect x="3" y="5" width="20" height="12" fill="#4caf50"/>
-    <text x="13" y="13" font-family="Arial" font-size="8" text-anchor="middle" fill="#fff">START</text>
+    
     </g>
   
     <!-- Finish line -->
@@ -107,9 +107,7 @@
     <circle cx="250" cy="380" r="4"/>
     <circle cx="350" cy="410" r="4"/>
     <!-- Mile markers -->
-    <text x="150" y="340" font-family="Arial" font-size="8" text-anchor="middle" fill="#2e7d32">1km</text>
-    <text x="250" y="370" font-family="Arial" font-size="8" text-anchor="middle" fill="#2e7d32">2km</text>
-    <text x="350" y="400" font-family="Arial" font-size="8" text-anchor="middle" fill="#2e7d32">3km</text>
+    
     </g>
   
     <!-- Footprints on path -->
@@ -144,7 +142,7 @@
     <!-- Distance indicator -->
     <g transform="translate(200,100)" opacity="0.5">
     <rect x="0" y="0" width="60" height="20" rx="5" fill="#ffffff" stroke="#2e7d32" stroke-width="1"/>
-    <text x="30" y="13" font-family="Arial" font-size="10" text-anchor="middle" fill="#2e7d32">5.2km</text>
+    
     </g>
   
     <!-- GPS/navigation icon -->
@@ -160,11 +158,11 @@
     <g transform="translate(380,120)" opacity="0.7">
     <circle cx="0" cy="0" r="15" fill="#ff9800"/>
     <path d="M0 -10 L3 -3 L10 -3 L5 2 L7 9 L0 5 L-7 9 L-5 2 L-10 -3 L-3 -3 Z" fill="#ffeb3b"/>
-    <text x="0" y="3" font-family="Arial" font-size="6" text-anchor="middle" fill="#ff9800">到着</text>
+    
     </g>
   
     <!-- Kanji character 至 -->
-    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#2e7d32" opacity="0.8">至</text>
+    
     </g>
   </g>
 </svg> 

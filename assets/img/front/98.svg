@@ -206,7 +206,7 @@
     <ellipse cx="250" cy="420" rx="100" ry="20" fill="#388e3c" opacity="0.3"/>
   
     <!-- Kanji character 牛 -->
-    <text x="450" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#2e7d32" opacity="0.8">牛</text>
+    
     </g>
   </g>
 </svg> 

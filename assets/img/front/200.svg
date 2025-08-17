@@ -264,8 +264,7 @@
   </g>
   
   <!-- Chinese character -->
-  <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#B8860B">麥</text>
   
   <!-- Title -->
-  <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8B4513">WHEAT HARVEST</text>
+  
 </svg> 

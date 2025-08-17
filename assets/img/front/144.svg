@@ -230,7 +230,7 @@
     <rect x="2" y="2" width="50" height="8" rx="4" fill="url(#pathGrad144)"/>
     
     <!-- Progress text -->
-    <text x="40" y="25" font-family="Arial" font-size="8" text-anchor="middle" fill="#1976d2">65%</text>
+    
     </g>
   
     <!-- Destination sign -->
@@ -242,7 +242,6 @@
     <rect x="0" y="0" width="35" height="20" rx="2" fill="#4caf50"/>
     
     <!-- Sign text -->
-    <text x="17.5" y="12" font-family="Arial" font-size="6" text-anchor="middle" fill="#ffffff">GOAL</text>
     
     <!-- Arrow -->
     <path d="M35 10 L45 10" stroke="#4caf50" stroke-width="3" fill="none"/>
@@ -257,8 +256,7 @@
     <path d="M0 -10 L2 0 L0 10 L-2 0 Z" fill="#f44336"/>
     
     <!-- Cardinal directions -->
-    <text x="0" y="-20" font-family="Arial" font-size="6" text-anchor="middle" fill="#424242">N</text>
-    <text x="20" y="3" font-family="Arial" font-size="6" text-anchor="middle" fill="#424242">E</text>
+    
     </g>
   
     <!-- Journey map -->
@@ -271,15 +269,14 @@
     
     <!-- Start point -->
     <circle cx="10" cy="30" r="3" fill="#4caf50"/>
-    <text x="10" y="45" font-family="Arial" font-size="4" text-anchor="middle" fill="#4caf50">START</text>
     
     <!-- End point -->
     <circle cx="50" cy="30" r="3" fill="#f44336"/>
-    <text x="50" y="45" font-family="Arial" font-size="4" text-anchor="middle" fill="#f44336">END</text>
+    
     </g>
   
     <!-- Kanji character 行 -->
-    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1976d2" opacity="0.8">行</text>
+    
     </g>
   </g>
 </svg> 

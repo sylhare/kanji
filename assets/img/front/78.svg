@@ -117,7 +117,7 @@
     <rect x="0" y="0" width="200" height="20" rx="10" fill="#ffeb3b" stroke="#f57c00" stroke-width="2"/>
     <circle cx="100" cy="10" r="6" fill="#4caf50"/>
     <circle cx="100" cy="10" r="3" fill="#fff"/>
-    <text x="100" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2e7d32">LEVEL</text>
+    
     </g>
   
     <!-- Right angles -->
@@ -166,19 +166,19 @@
     <g transform="translate(50,100)" opacity="0.6">
     <rect x="0" y="0" width="3" height="30" fill="url(#correctGrad78)"/>
     <ellipse cx="1.5" cy="35" rx="8" ry="5" fill="url(#correctGrad78)"/>
-    <text x="1.5" y="50" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2e7d32">⚖</text>
+    
     </g>
   
     <!-- Approval stamps -->
     <g fill="url(#correctGrad78)" opacity="0.7">
     <g transform="translate(400,200)">
       <circle cx="0" cy="0" r="15"/>
-      <text x="0" y="3" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">✓</text>
+      
     </g>
     
     <g transform="translate(100,300)">
       <circle cx="0" cy="0" r="12"/>
-      <text x="0" y="3" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#fff">OK</text>
+      
     </g>
     </g>
   
@@ -191,7 +191,7 @@
     </g>
   
     <!-- Kanji character 正 -->
-    <text x="100" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1b5e20" opacity="0.8">正</text>
+    
     </g>
   </g>
 </svg> 

@@ -142,7 +142,7 @@
   
     <!-- Altitude indicators -->
     <g fill="#1976d2" opacity="0.5">
-    <text x="450" y="150" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">500m</text>
+    
     <line x1="440" y1="145" x2="460" y2="145" stroke="#1976d2" stroke-width="1"/>
     </g>
   
@@ -169,7 +169,7 @@
     </g>
   
     <!-- Kanji character 鳥 -->
-    <text x="100" y="100" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#37474f" opacity="0.8">鳥</text>
+    
     </g>
   </g>
 </svg> 

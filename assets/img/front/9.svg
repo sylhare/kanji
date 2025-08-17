@@ -70,7 +70,7 @@
         fill="#e91e63" opacity="0.7"/>
   
     <!-- Kanji character 人 -->
-    <text x="380" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#bf360c" opacity="0.8">人</text>
+    
     </g>
   </g>
 </svg> 

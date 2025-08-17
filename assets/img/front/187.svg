@@ -215,10 +215,9 @@
     <circle cx="50" cy="50" r="20" fill="#FFD700" opacity="0.8"/>
   
     <!-- Chinese character -->
-    <text x="200" y="35" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#8B4513">馬</text>
-  
+    
     <!-- Title -->
-    <text x="200" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#654321">HORSES</text>
+    
     </g>
   </g>
 </svg> 

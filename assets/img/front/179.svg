@@ -148,14 +148,11 @@
   
     <!-- Plant markers -->
     <rect x="75" y="275" width="10" height="15" fill="#F5DEB3" stroke="#8B4513" stroke-width="1"/>
-    <text x="80" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#8B4513">LEEK</text>
-  
+    
     <rect x="300" y="275" width="15" height="15" fill="#F5DEB3" stroke="#8B4513" stroke-width="1"/>
-    <text x="307" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#8B4513">CHIVE</text>
-  
+    
     <!-- Chinese character -->
-    <text x="200" y="30" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#6B8E23">韭</text>
-  
+    
     <!-- Garden fence -->
     <g stroke="#8B4513" stroke-width="2">
     <path d="M0 190 L400 190"/>
@@ -169,7 +166,7 @@
     </g>
   
     <!-- Title -->
-    <text x="200" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#556B2F">LEEKS &amp; CHIVES GARDEN</text>
+    
     </g>
   </g>
 </svg> 

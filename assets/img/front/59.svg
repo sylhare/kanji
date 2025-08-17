@@ -177,10 +177,9 @@
     </g>
   
     <!-- Number "59" integrated -->
-    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#c2185b" opacity="0.5">59</text>
-  
+    
     <!-- Kanji character 五十九 -->
-    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#c2185b" opacity="0.9">五十九</text>
+    
     </g>
   </g>
 </svg> 

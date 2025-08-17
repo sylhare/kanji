@@ -236,10 +236,9 @@
     <ellipse cx="162.5" cy="100" rx="3" ry="8" fill="#87CEEB" opacity="0.7"/>
   
     <!-- Chinese character -->
-    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#F5F5DC">骨</text>
-  
+    
     <!-- Title -->
-    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#D3D3D3">BONES &amp; SKELETON</text>
+    
     </g>
   </g>
 </svg> 

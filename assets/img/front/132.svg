@@ -76,7 +76,7 @@
     <circle cx="-15" cy="25" r="8" fill="#ffffff" stroke="#e1bee7" stroke-width="1"/>
     <circle cx="-8" cy="35" r="4" fill="#ffffff" stroke="#e1bee7" stroke-width="1"/>
     <!-- Thought content -->
-    <text x="0" y="5" font-family="serif" font-size="12" text-anchor="middle" fill="#7b1fa2">自分</text>
+    
     </g>
   
     <!-- Meditation pose -->
@@ -159,7 +159,7 @@
     </g>
   
     <!-- Kanji character 自 -->
-    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#7b1fa2" opacity="0.8">自</text>
+    
     </g>
   </g>
 </svg> 

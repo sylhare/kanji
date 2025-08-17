@@ -107,10 +107,9 @@
     </g>
   
     <!-- Number "48" integrated -->
-    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#1b5e20" opacity="0.5">48</text>
-  
+    
     <!-- Kanji character 四十八 -->
-    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#1b5e20" opacity="0.9">四十八</text>
+    
     </g>
   </g>
 </svg> 

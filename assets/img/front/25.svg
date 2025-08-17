@@ -258,10 +258,9 @@
     </g>
   
     <!-- Number indicator -->
-    <text x="50" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#f57c00" opacity="0.4">25</text>
-  
+    
     <!-- Kanji character 卜 -->
-    <text x="450" y="450" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#f9a825" opacity="0.8">卜</text>
+    
     </g>
   </g>
 </svg> 

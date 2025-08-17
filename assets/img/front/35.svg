@@ -296,10 +296,9 @@
     </g>
   
     <!-- Number indicator -->
-    <text x="50" y="450" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#283593" opacity="0.4">35</text>
-  
+    
     <!-- Kanji character 夊 -->
-    <text x="420" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1a237e" opacity="0.8">夊</text>
+    
     </g>
   </g>
 </svg> 

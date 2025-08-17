@@ -1,74 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
-  <!-- Background gradient -->
   <defs>
     <radialGradient id="fireBg" cx="50%" cy="80%" r="60%">
       <stop offset="0%" style="stop-color:#ffecb3;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#ffe082;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#ff8a65;stop-opacity:1" />
-    </radialGradient>
-    <linearGradient id="flame1" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" style="stop-color:#ff5722;stop-opacity:1" />
-      <stop offset="30%" style="stop-color:#ff9800;stop-opacity:1" />
-      <stop offset="70%" style="stop-color:#ffc107;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#fff9c4;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="flame2" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" style="stop-color:#d84315;stop-opacity:1" />
-      <stop offset="40%" style="stop-color:#ff6f00;stop-opacity:1" />
-      <stop offset="80%" style="stop-color:#ffab00;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#ffeb3b;stop-opacity:1" />
-    </linearGradient>
-    <radialGradient id="sparkGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#ffff8d;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#ff6f00;stop-opacity:0.5" />
     </radialGradient>
   </defs>
   
   <!-- Background -->
   <rect width="500" height="500" fill="url(#fireBg)"/>
   
-  <!-- Main flame (incorporating 火 shape) -->
-  <!-- Central flame -->
-  <path d="M250 400 Q220 350 240 300 Q260 250 250 200 Q240 150 250 100 Q260 120 270 150 Q280 200 270 250 Q260 300 280 350 Q270 380 250 400" 
-    fill="url(#flame1)" stroke="#d84315" stroke-width="2"/>
+  <!-- Main strokes of 火 (fire) -->
+  <!-- Central vertical stroke -->
+  <rect x="243" y="120" width="14" height="200" rx="7" fill="#d84315"/>
   
-  <!-- Left flame -->
-  <path d="M180 400 Q160 360 170 320 Q180 280 170 240 Q160 200 170 160 Q180 180 190 210 Q200 250 190 290 Q180 330 200 370 Q190 390 180 400" 
-    fill="url(#flame2)" stroke="#bf360c" stroke-width="2"/>
+  <!-- Left diagonal stroke -->
+  <rect x="190" y="180" width="14" height="120" rx="7" fill="#d84315" transform="rotate(-25 197 240)"/>
   
-  <!-- Right flame -->
-  <path d="M320 400 Q340 360 330 320 Q320 280 330 240 Q340 200 330 160 Q320 180 310 210 Q300 250 310 290 Q320 330 300 370 Q310 390 320 400" 
-    fill="url(#flame2)" stroke="#bf360c" stroke-width="2"/>
+  <!-- Right diagonal stroke -->
+  <rect x="296" y="180" width="14" height="120" rx="7" fill="#d84315" transform="rotate(25 303 240)"/>
   
-  <!-- Additional smaller flames -->
-  <path d="M200 380 Q190 340 200 300 Q210 260 200 220 Q220 240 210 280 Q200 320 210 360 Q205 375 200 380" 
-    fill="url(#flame1)" opacity="0.8"/>
-  <path d="M300 380 Q310 340 300 300 Q290 260 300 220 Q280 240 290 280 Q300 320 290 360 Q295 375 300 380" 
-    fill="url(#flame1)" opacity="0.8"/>
-  
-  <!-- Sparks and embers -->
-  <g fill="url(#sparkGrad)">
-  <circle cx="150" cy="200" r="4"/>
-  <circle cx="350" cy="180" r="3"/>
-  <circle cx="120" cy="250" r="2"/>
-  <circle cx="380" cy="230" r="3"/>
-  <circle cx="100" cy="300" r="2"/>
-  <circle cx="400" cy="280" r="4"/>
-  <circle cx="180" cy="120" r="3"/>
-  <circle cx="320" cy="100" r="2"/>
-  
-  <!-- Heat waves -->
-  <g stroke="#ffab00" stroke-width="2" fill="none" opacity="0.3">
-  <path d="M50 450 Q100 440 150 450 T250 450 T350 450 T450 450"/>
-  <path d="M30 470 Q80 460 130 470 T230 470 T330 470 T430 470"/>
-  
-    <!-- Base/logs -->
-    <ellipse cx="250" cy="420" rx="80" ry="15" fill="#5d4037"/>
-    <rect x="200" y="410" width="100" height="8" rx="4" fill="#6d4c41"/>
-    <rect x="220" y="415" width="60" height="6" rx="3" fill="#8d6e63"/>
-  
-    <!-- Kanji character 火 -->
-    <text x="100" y="100" font-family="serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#d84315" opacity="0.7">火</text>
-    </g>
-  </g>
+  <!-- Bottom dot -->
+  <circle cx="250" cy="340" r="8" fill="#d84315"/>
 </svg> 

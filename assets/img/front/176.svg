@@ -144,17 +144,13 @@
   <circle cx="280" cy="350" r="30" fill="#FFF" stroke="#000" stroke-width="3"/>
   <circle cx="280" cy="350" r="2" fill="#000"/>
   <!-- Clock numbers -->
-  <text x="280" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#000">12</text>
-  <text x="295" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#000">3</text>
-  <text x="280" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#000">6</text>
-  <text x="265" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#000">9</text>
+  
   <!-- Clock hands -->
   <path d="M280 350 L280 340" stroke="#000" stroke-width="3"/>
   <path d="M280 350 L290 350" stroke="#000" stroke-width="2"/>
   
   <!-- Chinese character -->
-  <text x="200" y="30" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#4B0082">面</text>
   
   <!-- Title -->
-  <text x="200" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2F4F4F">FACES &amp; SURFACES</text>
+  
 </svg> 

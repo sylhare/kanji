@@ -52,10 +52,9 @@
   <path d="M100 120 Q90 130 80 140"/>
   
     <!-- Number "2" subtly integrated -->
-    <text x="420" y="450" font-family="Arial, sans-serif" font-size="32" font-weight="300" text-anchor="middle" fill="#2e7d32" opacity="0.4">2</text>
-  
+    
     <!-- Kanji character 乙 -->
-    <text x="80" y="100" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1b5e20" opacity="0.8">乙</text>
+    
     </g>
   </g>
 </svg> 

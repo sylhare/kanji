@@ -77,9 +77,6 @@
   <path d="M60 50 L60 70 M80 50 L80 65 M100 50 L100 70 M120 50 L120 65 M140 50 L140 70 M160 50 L160 65 M180 50 L180 70 M200 50 L200 65 M220 50 L220 70 M240 50 L240 65 M260 50 L260 70 M280 50 L280 65 M300 50 L300 70 M320 50 L320 65 M340 50 L340 70" 
     stroke="#8B4513" stroke-width="1"/>
   <!-- Numbers on ruler -->
-  <text x="100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">10</text>
-  <text x="200" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">20</text>
-  <text x="300" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">30</text>
   
   <!-- Long rope -->
   <path d="M50 320 Q100 310 150 320 Q200 330 250 320 Q300 310 350 320" 
@@ -100,7 +97,6 @@
   <rect x="100" y="80" width="20" height="8" fill="#CD853F"/>
   <path d="M95 84 L100 80 L100 88 Z" fill="#8B4513"/>
   <rect x="300" y="82" width="15" height="4" fill="#FF69B4"/>
-  <text x="200" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">#2 PENCIL</text>
   
   <!-- Long ladder -->
   <rect x="20" y="80" width="8" height="120" fill="#8B4513"/>
@@ -133,12 +129,11 @@
   </marker>
   </defs>
   <path d="M50 380 L350 380" stroke="#FF0000" stroke-width="3" marker-start="url(#arrowhead)" marker-end="url(#arrowhead)"/>
-  <text x="200" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF0000">LONG / 長</text>
   
   <!-- Extension lines -->
   <path d="M50 370 L50 385" stroke="#FF0000" stroke-width="2"/>
   <path d="M350 370 L350 385" stroke="#FF0000" stroke-width="2"/>
   
   <!-- Length measurements -->
-  <text x="200" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4B0082">LENGTH EXAMPLES</text>
+  
 </svg> 

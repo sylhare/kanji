@@ -102,10 +102,7 @@
   <ellipse cx="230" cy="125" rx="3" ry="8" fill="#87CEEB" opacity="0.7"/>
   
   <!-- Bitter reaction symbols -->
-  <text x="250" y="100" font-family="Arial, sans-serif" font-size="20" fill="#8B0000" opacity="0.8">!</text>
-  <text x="260" y="85" font-family="Arial, sans-serif" font-size="16" fill="#DC143C" opacity="0.7">?</text>
-  <text x="270" y="110" font-family="Arial, sans-serif" font-size="18" fill="#FF0000" opacity="0.6">*</text>
   
   <!-- Chinese character for bitter -->
-  <text x="200" y="50" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#8B4513" opacity="0.6">苦</text>
+  
 </svg> 

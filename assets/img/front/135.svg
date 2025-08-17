@@ -79,8 +79,7 @@
     <ellipse cx="0" cy="0" rx="30" ry="20" fill="#ffffff" stroke="#e1bee7" stroke-width="2"/>
     <path d="M-15 15 L-10 25 L-5 15" fill="#ffffff" stroke="#e1bee7" stroke-width="2"/>
     <!-- Speech text -->
-    <text x="0" y="-5" font-family="serif" font-size="10" text-anchor="middle" fill="#d32f2f">美味</text>
-    <text x="0" y="8" font-family="serif" font-size="10" text-anchor="middle" fill="#d32f2f">しい</text>
+    
     </g>
   
     <!-- Ice cream cone -->
@@ -118,10 +117,7 @@
     <circle cx="0" cy="8" r="3" fill="#f44336" opacity="0.6"/>
     <circle cx="0" cy="-8" r="3" fill="#2196f3" opacity="0.6"/>
     <!-- Labels -->
-    <text x="-15" y="-12" font-family="Arial" font-size="6" text-anchor="middle" fill="#424242">酸</text>
-    <text x="15" y="-12" font-family="Arial" font-size="6" text-anchor="middle" fill="#424242">塩</text>
-    <text x="0" y="18" font-family="Arial" font-size="6" text-anchor="middle" fill="#424242">甘</text>
-    <text x="0" y="-18" font-family="Arial" font-size="6" text-anchor="middle" fill="#424242">苦</text>
+    
     </g>
   
     <!-- Doctor examining tongue -->
@@ -159,7 +155,7 @@
     </g>
   
     <!-- Kanji character 舌 -->
-    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#d32f2f" opacity="0.8">舌</text>
+    
     </g>
   </g>
 </svg> 

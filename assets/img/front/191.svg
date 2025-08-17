@@ -169,9 +169,7 @@
   
     <!-- Fighting sound effects -->
     <g fill="#FFD700" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
-    <text x="250" y="120" opacity="0.8">POW!</text>
-    <text x="120" y="320" opacity="0.8">BAM!</text>
-    <text x="320" y="280" opacity="0.8">HIT!</text>
+    
     </g>
   
     <!-- Dust clouds from fighting -->
@@ -209,10 +207,9 @@
     <ellipse cx="365" cy="275" rx="12" ry="5" fill="#FFDAB9" stroke="#DEB887" stroke-width="1" transform="rotate(45 365 275)"/>
   
     <!-- Chinese character -->
-    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#FF4500">鬥</text>
-  
+    
     <!-- Title -->
-    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFD700">FIGHT &amp; STRUGGLE</text>
+    
     </g>
   </g>
 </svg> 

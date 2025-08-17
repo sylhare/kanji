@@ -131,20 +131,16 @@
   
   <!-- Before/after transformation -->
   <circle cx="180" cy="50" r="15" fill="#8B4513" stroke="#654321" stroke-width="2"/>
-  <text x="180" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFF">RAW</text>
   
   <rect x="260" y="35" width="30" height="30" rx="5" fill="url(#leatherGradient)" stroke="#654321" stroke-width="2"/>
-  <text x="275" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#FFF">CRAFT</text>
   
   <!-- Stitching pattern demonstration -->
   <path d="M350 300 L350 280 L370 280 L370 300 L350 300" stroke="#654321" stroke-width="2" fill="none"/>
   <path d="M355 285 L365 285 M355 290 L365 290 M355 295 L365 295" stroke="url(#stitchGradient)" stroke-width="1" stroke-dasharray="2,1"/>
   
   <!-- Chinese character -->
-  <text x="200" y="30" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#8B4513">革</text>
   
   <!-- Workshop sign -->
   <rect x="300" y="120" width="80" height="25" fill="#F5DEB3" stroke="#8B4513" stroke-width="2"/>
-  <text x="340" y="137" text-anchor="middle" font-family="serif" font-size="12" fill="#8B4513">LEATHER</text>
-  <text x="340" y="152" text-anchor="middle" font-family="serif" font-size="12" fill="#8B4513">CRAFT</text>
+  
 </svg> 

@@ -127,7 +127,6 @@
     
     <!-- Label -->
     <rect x="-2" y="10" width="12" height="8" fill="#ffffff"/>
-    <text x="4" y="16" font-family="Arial" font-size="4" text-anchor="middle" fill="#424242">B+</text>
     
     <!-- Cap -->
     <rect x="-1" y="-3" width="10" height="6" rx="2" fill="#424242"/>
@@ -140,7 +139,6 @@
     <rect x="2" y="2" width="36" height="21" rx="2" fill="#000000"/>
     
     <!-- Blood pressure reading -->
-    <text x="20" y="15" font-family="Arial" font-size="8" text-anchor="middle" fill="#00ff00">120/80</text>
     
     <!-- Cuff -->
     <rect x="45" y="8" width="20" height="8" rx="4" fill="#757575"/>
@@ -163,7 +161,7 @@
     
     <!-- Label -->
     <rect x="-8" y="10" width="16" height="8" fill="#ffffff"/>
-    <text x="0" y="16" font-family="Arial" font-size="4" text-anchor="middle" fill="#d32f2f">O-</text>
+    
     </g>
   
     <!-- Microscope view of blood cells -->
@@ -257,7 +255,7 @@
     </g>
   
     <!-- Kanji character 血 -->
-    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#d32f2f" opacity="0.8">血</text>
+    
     </g>
   </g>
 </svg> 

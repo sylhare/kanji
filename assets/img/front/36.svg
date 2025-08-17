@@ -250,15 +250,13 @@
     <g transform="translate(50,80)" opacity="0.6">
     <!-- Evening time -->
     <rect x="0" y="0" width="30" height="20" rx="5" fill="#bf360c" stroke="#8d4037" stroke-width="1"/>
-    <text x="15" y="8" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#fff8e1">18:30</text>
-    <text x="15" y="16" font-family="Arial, sans-serif" font-size="4" text-anchor="middle" fill="#ffab91">EVENING</text>
+    
     </g>
   
     <!-- Number indicator -->
-    <text x="450" y="450" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#d84315" opacity="0.4">36</text>
-  
+    
     <!-- Kanji character 夕 -->
-    <text x="50" y="450" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#bf360c" opacity="0.8">夕</text>
+    
     </g>
   </g>
 </svg> 

@@ -31,19 +31,15 @@
   <!-- Compass rose -->
   <!-- North -->
   <path d="M250 170 L240 200 L250 190 L260 200 Z" fill="#f44336"/>
-  <text x="250" y="160" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#f44336">N</text>
   
   <!-- East -->
   <path d="M330 250 L300 240 L310 250 L300 260 Z" fill="url(#squareGrad70)"/>
-  <text x="340" y="255" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="url(#squareGrad70)">E</text>
   
   <!-- South -->
   <path d="M250 330 L240 300 L250 310 L260 300 Z" fill="url(#squareGrad70)"/>
-  <text x="250" y="350" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="url(#squareGrad70)">S</text>
   
   <!-- West -->
   <path d="M170 250 L200 240 L190 250 L200 260 Z" fill="url(#squareGrad70)"/>
-  <text x="160" y="255" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="url(#squareGrad70)">W</text>
   
   <!-- Center pivot -->
   <circle cx="250" cy="250" r="8" fill="url(#compassGrad70)"/>
@@ -81,7 +77,7 @@
     <!-- Mountain -->
     <path d="M0 30 L15 0 L30 30 Z" fill="#795548"/>
     <path d="M10 15 L15 5 L20 15" fill="#fff"/>
-    <text x="15" y="45" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2e7d32">Mt. Fuji</text>
+    
     </g>
   
     <g transform="translate(420,100)" opacity="0.7">
@@ -89,7 +85,7 @@
     <rect x="0" y="20" width="8" height="15" fill="#607d8b"/>
     <rect x="10" y="15" width="8" height="20" fill="#607d8b"/>
     <rect x="20" y="18" width="8" height="17" fill="#607d8b"/>
-    <text x="14" y="45" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2e7d32">Tokyo</text>
+    
     </g>
   
     <!-- Coordinate system -->
@@ -98,15 +94,13 @@
     <line x1="50" y1="400" x2="50" y2="100"/>
     
     <!-- Axis labels -->
-    <text x="40" y="250" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2e7d32" transform="rotate(-90 40 250)">Y</text>
-    <text x="250" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2e7d32">X</text>
+    
     </g>
   
     <!-- GPS coordinates -->
     <g transform="translate(420,400)" opacity="0.8">
     <rect x="-40" y="-25" width="80" height="35" rx="5" fill="url(#squareGrad70)"/>
-    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#fff">35.6762°N</text>
-    <text x="0" y="0" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#fff">139.6503°E</text>
+    
     </g>
   
     <!-- Wind rose -->
@@ -161,7 +155,7 @@
     <g transform="translate(400,200)" opacity="0.6">
     <circle cx="0" cy="0" r="20" fill="none" stroke="#ff5722" stroke-width="2"/>
     <path d="M0,-15 L5,-5 L0,-10 L-5,-5 Z" fill="#ff5722"/>
-    <text x="0" y="35" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#ff5722">Mag N</text>
+    
     </g>
   
     <!-- Scale -->
@@ -169,11 +163,11 @@
     <line x1="0" y1="0" x2="50" y2="0" stroke="#2e7d32" stroke-width="3"/>
     <line x1="0" y1="-3" x2="0" y2="3" stroke="#2e7d32" stroke-width="2"/>
     <line x1="50" y1="-3" x2="50" y2="3" stroke="#2e7d32" stroke-width="2"/>
-    <text x="25" y="15" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2e7d32">1 km</text>
+    
     </g>
   
     <!-- Kanji character 方 -->
-    <text x="450" y="50" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1b5e20" opacity="0.8">方</text>
+    
     </g>
   </g>
 </svg> 

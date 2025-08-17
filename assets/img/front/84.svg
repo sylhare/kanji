@@ -89,25 +89,25 @@
     <!-- North marker -->
     <g transform="translate(250,100)">
     <rect x="-8" y="-10" width="16" height="20" rx="4" fill="url(#compassGrad84)" opacity="0.8"/>
-    <text x="0" y="5" font-family="serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">N</text>
+    
     </g>
   
     <!-- East marker -->
     <g transform="translate(400,250)">
     <rect x="-8" y="-10" width="16" height="20" rx="4" fill="url(#compassGrad84)" opacity="0.8"/>
-    <text x="0" y="5" font-family="serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">E</text>
+    
     </g>
   
     <!-- South marker -->
     <g transform="translate(250,400)">
     <rect x="-8" y="-10" width="16" height="20" rx="4" fill="url(#compassGrad84)" opacity="0.8"/>
-    <text x="0" y="5" font-family="serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">S</text>
+    
     </g>
   
     <!-- West marker -->
     <g transform="translate(100,250)">
     <rect x="-8" y="-10" width="16" height="20" rx="4" fill="url(#compassGrad84)" opacity="0.8"/>
-    <text x="0" y="5" font-family="serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">W</text>
+    
     </g>
   
     <!-- Compass degrees markings -->
@@ -170,10 +170,9 @@
     </g>
   
     <!-- Number "84" integrated -->
-    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#6a1b9a" opacity="0.5">84</text>
-  
+    
     <!-- Kanji character 八十四 -->
-    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#6a1b9a" opacity="0.9">八十四</text>
+    
     </g>
   </g>
 </svg> 

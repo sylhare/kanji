@@ -53,7 +53,7 @@
     <!-- STOP sign -->
     <g transform="translate(380,150)">
     <polygon points="0,-30 21,-21 21,21 0,30 -21,21 -21,-21" fill="#d32f2f" stroke="#b71c1c" stroke-width="3"/>
-    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">STOP</text>
+    
     </g>
   
     <!-- Brake marks on ground -->
@@ -103,12 +103,12 @@
     <g fill="#ff9800" opacity="0.7">
     <g transform="translate(100,120)">
       <path d="M0,-15 L13,10 L-13,10 Z"/>
-      <text x="0" y="2" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#000">!</text>
+      
     </g>
     
     <g transform="translate(400,120)">
       <path d="M0,-15 L13,10 L-13,10 Z"/>
-      <text x="0" y="2" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#000">!</text>
+      
     </g>
     </g>
   
@@ -145,11 +145,11 @@
     <rect x="100" y="440" width="5" height="15"/>
     <rect x="170" y="440" width="5" height="15"/>
     <rect x="240" y="440" width="5" height="15"/>
-    <text x="135" y="470" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#616161">Stopping Distance</text>
+    
     </g>
   
     <!-- Kanji character 止 -->
-    <text x="100" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#b71c1c" opacity="0.8">止</text>
+    
     </g>
   </g>
 </svg> 

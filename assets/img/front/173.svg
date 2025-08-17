@@ -194,12 +194,9 @@
         stroke="#4682B4" stroke-width="4" fill="none"/>
   
     <!-- Chinese character for rain -->
-    <text x="200" y="30" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#E0F6FF">雨</text>
-  
+    
     <!-- Rain sound effects -->
-    <text x="50" y="120" font-family="Arial, sans-serif" font-size="12" fill="#E0F6FF" opacity="0.7">pitter</text>
-    <text x="300" y="140" font-family="Arial, sans-serif" font-size="12" fill="#E0F6FF" opacity="0.7">patter</text>
-    <text x="150" y="320" font-family="Arial, sans-serif" font-size="10" fill="#B0E0E6" opacity="0.8">splash</text>
+    
     </g>
   </g>
 </svg> 

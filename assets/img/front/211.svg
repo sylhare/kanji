@@ -277,11 +277,6 @@
   
   <!-- Scoreboard -->
   <rect x="150" y="80" width="100" height="40" fill="#2F2F2F" stroke="#C0C0C0" stroke-width="2"/>
-  <text x="200" y="95" text-anchor="middle" fill="#00FF00" font-size="8" font-weight="bold">SCOREBOARD</text>
-  <text x="170" y="108" text-anchor="middle" fill="#FFD700" font-size="10" font-weight="bold">HOME</text>
-  <text x="230" y="108" text-anchor="middle" fill="#FFD700" font-size="10" font-weight="bold">AWAY</text>
-  <text x="170" y="118" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">3</text>
-  <text x="230" y="118" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">2</text>
   
   <!-- Flags waving -->
   <g transform="translate(380, 100)">

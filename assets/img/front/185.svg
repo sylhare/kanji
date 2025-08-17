@@ -113,7 +113,6 @@
   
   <!-- Cap insignia -->
   <circle cx="50" cy="35" r="4" fill="#FFD700"/>
-  <text x="50" y="38" text-anchor="middle" font-family="serif" font-size="6" fill="#4B0082">★</text>
   
   <!-- CEO/Business leader -->
   <ellipse cx="350" cy="80" rx="20" ry="25" fill="url(#headGradient)" stroke="#CD853F" stroke-width="2"/>
@@ -173,10 +172,9 @@
   </defs>
   
     <!-- Chinese character -->
-    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#4B0082">首</text>
-  
+    
     <!-- Title -->
-    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2F4F4F">HEAD, NECK &amp; CHIEF</text>
+    
     </g>
   </g>
 </svg> 

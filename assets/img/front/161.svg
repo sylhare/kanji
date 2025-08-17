@@ -89,10 +89,6 @@
   <circle cx="120" cy="120" r="35" fill="#F8F8FF"/>
   
   <!-- Clock numbers -->
-  <text x="120" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">12</text>
-  <text x="150" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">3</text>
-  <text x="120" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">6</text>
-  <text x="95" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">9</text>
   
   <!-- Clock hands pointing to around 8 o'clock -->
   <path d="M120 120 L120 100" stroke="#000" stroke-width="3"/>

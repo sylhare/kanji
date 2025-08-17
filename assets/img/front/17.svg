@@ -107,11 +107,10 @@
     <g transform="translate(400,350)" opacity="0.6">
     <!-- Salt container -->
     <rect x="0" y="0" width="15" height="20" rx="2" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
-    <text x="7.5" y="30" font-family="Arial" font-size="6" text-anchor="middle" fill="#424242">塩</text>
     
     <!-- Sugar container -->
     <rect x="20" y="0" width="15" height="20" rx="2" fill="#fff8e1" stroke="#e0e0e0" stroke-width="1"/>
-    <text x="27.5" y="30" font-family="Arial" font-size="6" text-anchor="middle" fill="#424242">糖</text>
+    
     </g>
   
     <!-- Wine/sake cups -->
@@ -177,7 +176,7 @@
     </g>
   
     <!-- Kanji character 凵 -->
-    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#2e7d32" opacity="0.8">凵</text>
+    
     </g>
   </g>
 </svg> 

@@ -89,10 +89,9 @@
     <ellipse cx="250" cy="250" rx="180" ry="120" fill="url(#sparkle44)" opacity="0.2"/>
   
     <!-- Number "44" integrated -->
-    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#880e4f" opacity="0.5">44</text>
-  
+    
     <!-- Kanji character 四十四 -->
-    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#880e4f" opacity="0.9">四十四</text>
+    
     </g>
   </g>
 </svg> 

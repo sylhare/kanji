@@ -169,10 +169,9 @@
     </g>
   
     <!-- Number "92" integrated -->
-    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#283593" opacity="0.5">92</text>
-  
+    
     <!-- Kanji character 九十二 -->
-    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#283593" opacity="0.9">九十二</text>
+    
     </g>
   </g>
 </svg> 

@@ -78,7 +78,6 @@
   <!-- Tanning process demonstration -->
   <!-- Raw hide -->
   <rect x="50" y="50" width="40" height="30" fill="#8B7355" stroke="#654321" stroke-width="2"/>
-  <text x="70" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFF">RAW</text>
   
   <!-- Process arrow -->
   <path d="M100 65 L140 65" stroke="#32CD32" stroke-width="4" marker-end="url(#processArrow)"/>
@@ -91,7 +90,6 @@
   <!-- Tanned soft leather -->
   <path d="M150 50 Q170 45 190 50 Q195 60 190 70 Q180 75 170 70 Q155 65 150 50" 
     fill="url(#softLeatherGradient)" stroke="#D2691E" stroke-width="2"/>
-  <text x="170" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#8B4513">SOFT</text>
   
   <!-- Flexibility demonstration -->
   <path d="M300 80 Q320 70 340 80 Q350 90 340 100 Q320 110 300 100 Q290 90 300 80" 
@@ -140,10 +138,8 @@
   <path d="M45 165 Q50 160 55 165" stroke="#A0522D" stroke-width="1" fill="none"/>
   
   <!-- Chinese character -->
-  <text x="200" y="30" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#D2691E">韋</text>
   
   <!-- Workshop label -->
-  <text x="200" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8B4513">SOFT LEATHER TANNING</text>
   
   <!-- Steam from vats -->
   <g stroke="#D3D3D3" stroke-width="2" fill="none" opacity="0.5">

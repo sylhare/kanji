@@ -211,10 +211,9 @@
     </g>
   
     <!-- Chinese character -->
-    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#4B0082">飛</text>
-  
+    
     <!-- Title -->
-    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2F4F4F">FLYING &amp; FLIGHT</text>
+    
     </g>
   </g>
 </svg> 

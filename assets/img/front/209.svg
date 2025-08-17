@@ -51,7 +51,6 @@
     <!-- Bass drum -->
     <circle cx="0" cy="20" r="25" fill="url(#drumGradient)" stroke="#696969" stroke-width="2"/>
     <circle cx="0" cy="20" r="20" fill="#FFFFFF"/>
-    <text x="0" y="25" text-anchor="middle" fill="#FF0000" font-size="8" font-weight="bold">ROCK</text>
     
     <!-- Tom drums -->
     <ellipse cx="-15" cy="5" rx="8" ry="12" fill="url(#drumGradient)"/>

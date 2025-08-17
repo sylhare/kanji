@@ -107,7 +107,7 @@
     <g transform="translate(250,150)" opacity="0.7">
     <path d="M-20,-10 Q-30,-20 -25,-30" stroke="url(#roosterGrad162)" stroke-width="3" fill="none"/>
     <ellipse cx="-25" cy="-25" rx="8" ry="5" fill="#ffccbc" opacity="0.6"/>
-    <text x="-15" y="-35" font-family="Arial, sans-serif" font-size="12" fill="#bf360c">♪♪</text>
+    
     </g>
   
     <!-- Sound waves -->
@@ -172,7 +172,7 @@
     <circle cx="0" cy="0" r="15" fill="none" stroke="#ff9800" stroke-width="2"/>
     <line x1="0" y1="0" x2="0" y2="-10" stroke="#ff9800" stroke-width="2"/>
     <line x1="0" y1="0" x2="7" y2="0" stroke="#ff9800" stroke-width="2"/>
-    <text x="0" y="25" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#e65100">5:30 AM</text>
+    
     </g>
   
     <!-- Territorial marks -->
@@ -187,7 +187,7 @@
     </g>
   
     <!-- Kanji character 酉 -->
-    <text x="50" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#bf360c" opacity="0.8">酉</text>
+    
     </g>
   </g>
 </svg> 

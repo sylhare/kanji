@@ -60,13 +60,12 @@
   <g transform="translate(120,200)">
     <circle cx="0" cy="0" r="25" fill="#ff9800"/>
     <circle cx="0" cy="0" r="15" fill="#ff6f00"/>
-    <text x="0" y="5" font-family="serif" font-size="20" text-anchor="middle" fill="#fff">A</text>
     
     <!-- Right element -->
     <g transform="translate(380,200)">
       <circle cx="0" cy="0" r="25" fill="#4caf50"/>
       <circle cx="0" cy="0" r="15" fill="#388e3c"/>
-      <text x="0" y="5" font-family="serif" font-size="20" text-anchor="middle" fill="#fff">B</text>
+      
     </g>
     </g>
   
@@ -135,7 +134,7 @@
     </g>
   
     <!-- Kanji character 而 -->
-    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1976d2" opacity="0.8">而</text>
+    
     </g>
   </g>
 </svg> 

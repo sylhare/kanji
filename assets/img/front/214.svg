@@ -178,11 +178,9 @@
   <rect x="144" y="151" width="1.5" height="20" fill="#2F2F2F"/>
   
   <!-- Chinese character for flute -->
-  <text x="200" y="50" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#4169E1">龠</text>
   
   <!-- Music title -->
-  <text x="200" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#2F2F2F">FLUTE MUSIC / 笛子音乐</text>
-
+  
   <!-- Confetti -->
   <g fill="#FF69B4" opacity="0.7">
   <rect x="70" y="60" width="3" height="3" transform="rotate(45 70 60)"/>

@@ -86,9 +86,7 @@
     
     <!-- Labels on boxes -->
     <g fill="#fff8e1" font-family="Arial, sans-serif" font-size="8" text-anchor="middle">
-      <text x="30" y="43" opacity="0.8">BOOKS</text>
-      <text x="30" y="15" opacity="0.8">PHOTOS</text>
-      <text x="30" y="-5" opacity="0.8">MISC</text>
+      
     </g>
     </g>
   
@@ -166,7 +164,7 @@
     </g>
     
     <!-- Calendar title -->
-    <text x="20" y="7" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#ffffff">ORGANIZE</text>
+    
     </g>
   
     <!-- Storage basket -->
@@ -226,17 +224,15 @@
     <!-- Storage labels -->
     <g transform="translate(200,400)" opacity="0.5">
     <rect x="0" y="0" width="25" height="8" rx="2" fill="#ffeb3b"/>
-    <text x="12" y="6" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#f57c00">STORAGE</text>
     
     <rect x="30" y="0" width="20" height="8" rx="2" fill="#4caf50"/>
-    <text x="40" y="6" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#ffffff">HOME</text>
+    
     </g>
   
     <!-- Number indicator -->
-    <text x="50" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#6d4c41" opacity="0.4">22</text>
-  
+    
     <!-- Kanji character 匚 -->
-    <text x="450" y="50" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#5d4037" opacity="0.8">匚</text>
+    
     </g>
   </g>
 </svg> 

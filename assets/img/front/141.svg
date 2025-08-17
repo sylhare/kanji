@@ -166,7 +166,7 @@
     <g transform="translate(80,150)" opacity="0.6">
     <!-- Danger sign -->
     <path d="M0 0 L15 -10 L30 0 L15 10 Z" fill="#f44336"/>
-    <text x="15" y="2" font-family="Arial" font-size="6" text-anchor="middle" fill="#ffffff">!</text>
+    
     <!-- Post -->
     <rect x="13" y="10" width="4" height="20" fill="#8d6e63"/>
     </g>
@@ -235,7 +235,7 @@
     </g>
   
     <!-- Kanji character 虎 -->
-    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#e65100" opacity="0.8">虎</text>
+    
     </g>
   </g>
 </svg> 

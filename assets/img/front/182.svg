@@ -201,10 +201,9 @@
     </g>
   
     <!-- Chinese character -->
-    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#1E90FF">風</text>
-  
+    
     <!-- Title -->
-    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4682B4">WIND &amp; BREEZE</text>
+    
     </g>
   </g>
 </svg> 

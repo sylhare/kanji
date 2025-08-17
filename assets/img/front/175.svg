@@ -42,13 +42,12 @@
   <path d="M230 220 L170 280" stroke="#FF0000" stroke-width="5"/>
   
   <!-- Crossed out text -->
-  <text x="280" y="260" font-family="Arial, sans-serif" font-size="18" fill="#2F2F2F">WRONG</text>
+  
   <path d="M250 250 L330 270" stroke="#FF0000" stroke-width="4"/>
   
   <!-- Stop sign -->
   <path d="M350 200 L375 180 L400 200 L400 230 L375 250 L350 230 Z" 
     fill="#FF0000" stroke="#8B0000" stroke-width="3"/>
-  <text x="375" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFF">STOP</text>
   
   <!-- Prohibited signs -->
   <circle cx="80" cy="350" r="25" fill="none" stroke="#FF0000" stroke-width="5"/>
@@ -64,23 +63,20 @@
   <!-- Wrong way arrow -->
   <path d="M320 320 L280 340 L320 360" stroke="#FF0000" stroke-width="6" fill="none"/>
   <path d="M280 340 L370 340" stroke="#FF0000" stroke-width="6"/>
-  <text x="325" y="335" font-family="Arial, sans-serif" font-size="10" fill="#FF0000">WRONG WAY</text>
   
   <!-- Incorrect math -->
-  <text x="50" y="200" font-family="Arial, sans-serif" font-size="16" fill="#2F2F2F">2 + 2 = 5</text>
+  
   <path d="M45 185 L115 205" stroke="#FF0000" stroke-width="3"/>
   <path d="M115 185 L45 205" stroke="#FF0000" stroke-width="3"/>
   
   <!-- Correct math for contrast -->
-  <text x="250" y="200" font-family="Arial, sans-serif" font-size="16" fill="#2F2F2F">2 + 2 = 4</text>
+  
   <path d="M280 180 L300 200 L320 180" stroke="#32CD32" stroke-width="3" fill="none"/>
   
   <!-- False vs True -->
   <rect x="50" y="300" width="60" height="25" fill="url(#wrongGradient)" stroke="#8B0000" stroke-width="2"/>
-  <text x="80" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFF">FALSE</text>
   
   <rect x="280" y="300" width="60" height="25" fill="url(#rightGradient)" stroke="#228B22" stroke-width="2"/>
-  <text x="310" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFF">TRUE</text>
   
   <!-- Broken heart (non-love) -->
   <path d="M150 320 Q140 310 130 320 Q130 330 150 350 Q170 330 170 320 Q160 310 150 320" 
@@ -96,41 +92,30 @@
   <circle cx="370" cy="295" r="3" fill="#FF0000"/>
   
   <!-- Negative symbols -->
-  <text x="150" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FF0000">-</text>
-  <text x="180" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FF0000">×</text>
-  <text x="210" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FF0000">≠</text>
   
   <!-- Warning triangle -->
   <path d="M300 50 L280 80 L320 80 Z" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
-  <text x="300" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FF0000">!</text>
   
   <!-- Error message box -->
   <rect x="20" y="380" width="100" height="15" fill="#FF0000" stroke="#8B0000" stroke-width="1"/>
-  <text x="70" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFF">ERROR</text>
   
   <!-- Not equal comparison -->
   <circle cx="200" cy="120" r="15" fill="#4169E1"/>
-  <text x="230" y="125" font-family="Arial, sans-serif" font-size="16" fill="#2F2F2F">≠</text>
+  
   <circle cx="260" cy="120" r="15" fill="#FF6347"/>
   
   <!-- Chinese character for non/wrong -->
-  <text x="200" y="30" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#FF0000">非</text>
   
   <!-- Diagonal "WRONG" stamp -->
   <g transform="rotate(-15 350 350)">
   <rect x="300" y="340" width="100" height="20" fill="none" stroke="#FF0000" stroke-width="3"/>
-  <text x="350" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF0000">INCORRECT</text>
   
   <!-- Contrast: "CORRECT" stamp -->
   <g transform="rotate(15 150 380)">
   <rect x="100" y="370" width="100" height="20" fill="none" stroke="#32CD32" stroke-width="3"/>
-  <text x="150" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#32CD32">CORRECT</text>
   
     <!-- Binary representation -->
-    <text x="350" y="150" font-family="monospace" font-size="12" fill="#2F2F2F">0</text>
-    <text x="50" y="100" font-family="monospace" font-size="12" fill="#2F2F2F">1</text>
-    <text x="350" y="170" font-family="Arial, sans-serif" font-size="8" fill="#FF0000">(false)</text>
-    <text x="50" y="115" font-family="Arial, sans-serif" font-size="8" fill="#32CD32">(true)</text>
+    
     </g>
   </g>
 </svg> 

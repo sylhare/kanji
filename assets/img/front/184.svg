@@ -209,10 +209,9 @@
     <circle cx="145" cy="362" r="2" fill="#DC143C"/>
   
     <!-- Chinese character -->
-    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#8B4513">食</text>
-  
+    
     <!-- Title -->
-    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#654321">FOOD &amp; DINING</text>
+    
     </g>
   </g>
 </svg> 
