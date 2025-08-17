@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad16" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="woodGrad16" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grainGrad16" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a1887f;stop-opacity:0.6" />
+      <stop offset="50%" style="stop-color:#8d6e63;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#a1887f;stop-opacity:0.6" />
+    </linearGradient>
+    <radialGradient id="craftGlow16" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#bcaaa4;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#bcaaa4;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad16)"/>
+  
+  <!-- Craftsmanship aura -->
+  <ellipse cx="250" cy="300" rx="180" ry="150" fill="url(#craftGlow16)"/>
+  
+  <!-- Main table representing 几 -->
+  <!-- Table top -->
+  <rect x="100" y="200" width="300" height="25" rx="5" fill="url(#woodGrad16)" stroke="#4e342e" stroke-width="3"/>
+  
+  <!-- Wood grain on table top -->
+  <rect x="100" y="200" width="300" height="25" rx="5" fill="url(#grainGrad16)"/>
+  
+  <!-- Wood grain lines -->
+  <g stroke="#795548" stroke-width="1" opacity="0.4">
+  <line x1="110" y1="207" x2="390" y2="207"/>
+  <line x1="110" y1="212" x2="390" y2="212"/>
+  <line x1="110" y1="217" x2="390" y2="217"/>
+  
+  <!-- Table legs (representing the vertical strokes of 几) -->
+  <!-- Left leg -->
+  <rect x="130" y="225" width="20" height="180" rx="10" fill="url(#woodGrad16)" stroke="#4e342e" stroke-width="2"/>
+  
+  <!-- Right leg -->
+  <rect x="350" y="225" width="20" height="180" rx="10" fill="url(#woodGrad16)" stroke="#4e342e" stroke-width="2"/>
+  
+  <!-- Leg wood grain -->
+  <g fill="url(#grainGrad16)">
+  <rect x="130" y="225" width="20" height="180" rx="10"/>
+  <rect x="350" y="225" width="20" height="180" rx="10"/>
+  
+    <!-- Cross support beam -->
+    <rect x="150" y="320" width="200" height="15" rx="7" fill="url(#woodGrad16)" stroke="#4e342e" stroke-width="2"/>
+    <rect x="150" y="320" width="200" height="15" rx="7" fill="url(#grainGrad16)"/>
+  
+    <!-- Table edge details -->
+    <g stroke="#6d4c41" stroke-width="1" opacity="0.6">
+    <line x1="100" y1="225" x2="400" y2="225"/>
+    <line x1="100" y1="200" x2="400" y2="200"/>
+    </g>
+  
+    <!-- Corner reinforcements -->
+    <g fill="#5d4037">
+    <circle cx="140" cy="215" r="4"/>
+    <circle cx="360" cy="215" r="4"/>
+    </g>
+  
+    <!-- Items on the table -->
+    <!-- Tea cup -->
+    <g transform="translate(180,180)">
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#2196f3"/>
+    <ellipse cx="0" cy="-2" rx="10" ry="6" fill="#1976d2"/>
+    <rect x="10" y="-3" width="3" height="6" rx="1" fill="#2196f3"/>
+    </g>
+  
+    <!-- Book -->
+    <g transform="translate(280,175)">
+    <rect x="-15" y="-8" width="30" height="16" rx="2" fill="#4caf50"/>
+    <rect x="-13" y="-6" width="26" height="12" rx="1" fill="#81c784"/>
+    <line x1="-10" y1="-3" x2="10" y2="-3" stroke="#2e7d32" stroke-width="1"/>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="#2e7d32" stroke-width="1"/>
+    <line x1="-10" y1="3" x2="5" y2="3" stroke="#2e7d32" stroke-width="1"/>
+    </g>
+  
+    <!-- Quill and inkwell -->
+    <g transform="translate(320,185)">
+    <ellipse cx="0" cy="0" rx="6" ry="4" fill="#424242"/>
+    <path d="M8,-5 Q15,-8 20,-5 Q18,-2 15,0 Q12,2 8,0" stroke="#8d6e63" stroke-width="2" fill="none"/>
+    </g>
+  
+    <!-- Wooden joints and construction details -->
+    <g stroke="#6d4c41" stroke-width="2" fill="none" opacity="0.5">
+    <!-- Mortise and tenon joints -->
+    <rect x="125" y="215" width="30" height="15"/>
+    <rect x="345" y="215" width="30" height="15"/>
+    </g>
+  
+    <!-- Wood shavings (showing craftsmanship) -->
+    <g fill="#a1887f" opacity="0.6">
+    <path d="M420 350 Q425 345 430 350 Q425 355 420 350"/>
+    <path d="M440 360 Q445 355 450 360 Q445 365 440 360"/>
+    <path d="M430 370 Q435 365 440 370 Q435 375 430 370"/>
+    </g>
+  
+    <!-- Woodworking tools (background) -->
+    <g transform="translate(80,350)" opacity="0.6">
+    <!-- Chisel -->
+    <rect x="0" y="0" width="3" height="30" fill="#8d6e63"/>
+    <rect x="-2" y="25" width="7" height="8" fill="#6d4c41"/>
+    
+    <!-- Plane -->
+    <rect x="15" y="5" width="25" height="8" rx="2" fill="#8d6e63"/>
+    <rect x="20" y="3" width="3" height="12" fill="#424242"/>
+    </g>
+  
+    <!-- Shadows and depth -->
+    <g fill="#5d4037" opacity="0.3">
+    <!-- Table shadow -->
+    <ellipse cx="250" cy="420" rx="160" ry="25"/>
+    
+    <!-- Item shadows -->
+    <ellipse cx="180" cy="195" rx="8" ry="4"/>
+    <ellipse cx="280" cy="190" rx="12" ry="6"/>
+    <ellipse cx="320" cy="195" rx="5" ry="3"/>
+    </g>
+  
+    <!-- Wood polish shine -->
+    <g fill="#ffffff" opacity="0.2">
+    <ellipse cx="250" cy="205" rx="100" ry="8"/>
+    <rect x="135" y="250" width="8" height="80" rx="4"/>
+    <rect x="355" y="250" width="8" height="80" rx="4"/>
+    </g>
+  
+    <!-- Craftsmanship marks -->
+    <g fill="#6d4c41" opacity="0.3">
+    <text x="380" y="240" font-family="Arial, sans-serif" font-size="8" text-anchor="middle">Made with Care</text>
+    </g>
+  
+    <!-- Quality indicators -->
+    <g stroke="#8d6e63" stroke-width="1" opacity="0.4">
+    <line x1="110" y1="230" x2="115" y2="235"/>
+    <line x1="385" y1="230" x2="390" y2="235"/>
+    </g>
+  
+    <!-- Stability lines -->
+    <g stroke="#a1887f" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M140 405 Q250 395 360 405"/>
+    <line x1="140" y1="225" x2="140" y2="405"/>
+    <line x1="360" y1="225" x2="360" y2="405"/>
+    </g>
+  
+    <!-- Kanji character 几 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#4e342e" opacity="0.8">几</text>
+    </g>
+  </g>
+</svg> 

@@ -1,0 +1,204 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="spaceGradient" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0%" stop-color="#191970"/>
+      <stop offset="50%" stop-color="#000080"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="planetGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="50%" stop-color="#4682B4"/>
+      <stop offset="100%" stop-color="#2F4F4F"/>
+    </radialGradient>
+    <radialGradient id="marsGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFA500"/>
+      <stop offset="50%" stop-color="#FF4500"/>
+      <stop offset="100%" stop-color="#8B0000"/>
+    </radialGradient>
+    <radialGradient id="starGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#FFFF99"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </radialGradient>
+    <linearGradient id="rocketGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C0C0C0"/>
+      <stop offset="50%" stop-color="#A9A9A9"/>
+      <stop offset="100%" stop-color="#808080"/>
+    </linearGradient>
+    <radialGradient id="nebulaGradient" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0%" stop-color="#FF69B4"/>
+      <stop offset="30%" stop-color="#9370DB"/>
+      <stop offset="70%" stop-color="#4169E1"/>
+      <stop offset="100%" stop-color="#000080"/>
+    </radialGradient>
+  </defs>  <!-- Space background -->
+  <rect width="500" height="500" fill="url(#spaceGradient)"/>
+  
+  <!-- Nebula -->
+  <ellipse cx="100" cy="150" rx="60" ry="40" fill="url(#nebulaGradient)" opacity="0.6"/>
+  <ellipse cx="300" cy="250" rx="50" ry="35" fill="url(#nebulaGradient)" opacity="0.4"/>
+  
+  <!-- Stars -->
+  <g fill="url(#starGradient)">
+  <!-- Large stars -->
+  <g transform="translate(80, 80)">
+  <circle cx="0" cy="0" r="2"/>
+  <path d="M-3 0 L3 0 M0 -3 L0 3" stroke="#FFFFFF" stroke-width="1"/>
+  
+  <g transform="translate(320, 120)">
+    <circle cx="0" cy="0" r="1.5"/>
+    <path d="M-2 0 L2 0 M0 -2 L0 2" stroke="#FFFFFF" stroke-width="0.8"/>
+    
+    <g transform="translate(200, 50)">
+      <circle cx="0" cy="0" r="1.8"/>
+      <path d="M-2.5 0 L2.5 0 M0 -2.5 L0 2.5" stroke="#FFFFFF" stroke-width="0.9"/>
+    </g>
+    
+    <!-- Medium stars -->
+    <circle cx="50" cy="60" r="1"/>
+    <circle cx="150" cy="90" r="1.2"/>
+    <circle cx="250" cy="70" r="0.8"/>
+    <circle cx="350" cy="40" r="1"/>
+    <circle cx="70" cy="200" r="0.9"/>
+    <circle cx="380" cy="180" r="1.1"/>
+    <circle cx="120" cy="320" r="0.7"/>
+    <circle cx="280" cy="350" r="1"/>
+    <circle cx="40" cy="300" r="0.8"/>
+    <circle cx="360" cy="300" r="0.9"/>
+    
+    <!-- Small stars -->
+    <circle cx="30" cy="40" r="0.4"/>
+    <circle cx="180" cy="30" r="0.3"/>
+    <circle cx="300" cy="60" r="0.4"/>
+    <circle cx="90" cy="110" r="0.3"/>
+    <circle cx="260" cy="110" r="0.4"/>
+    <circle cx="370" cy="90" r="0.3"/>
+    <circle cx="160" cy="180" r="0.4"/>
+    <circle cx="340" cy="220" r="0.3"/>
+    <circle cx="20" cy="250" r="0.4"/>
+    <circle cx="190" cy="300" r="0.3"/>
+    <circle cx="380" cy="350" r="0.4"/>
+    <circle cx="60" cy="380" r="0.3"/>
+    </g>
+  
+    <!-- Earth -->
+    <circle cx="120" cy="300" r="30" fill="url(#planetGradient)" stroke="#4682B4" stroke-width="2"/>
+    <!-- Earth continents -->
+    <g fill="#32CD32">
+    <path d="M100 290 Q110 285 120 290 Q130 295 125 305 Q115 310 105 305 Z"/>
+    <path d="M125 280 Q135 275 140 285 Q135 295 125 290 Z"/>
+    <ellipse cx="110" cy="315" rx="8" ry="5"/>
+    </g>
+    <!-- Earth clouds -->
+    <g fill="#FFFFFF" opacity="0.7">
+    <ellipse cx="105" cy="285" rx="6" ry="3"/>
+    <ellipse cx="130" cy="310" rx="8" ry="4"/>
+    </g>
+  
+    <!-- Mars -->
+    <circle cx="300" cy="150" r="20" fill="url(#marsGradient)" stroke="#FF4500" stroke-width="2"/>
+    <!-- Mars surface features -->
+    <g fill="#8B0000" opacity="0.8">
+    <ellipse cx="295" cy="145" rx="4" ry="2"/>
+    <ellipse cx="305" cy="155" rx="3" ry="1.5"/>
+    <circle cx="300" cy="140" r="1.5"/>
+    </g>
+  
+    <!-- Jupiter -->
+    <circle cx="280" cy="80" r="25" fill="#DAA520" stroke="#B8860B" stroke-width="2"/>
+    <!-- Jupiter stripes -->
+    <g stroke="#CD853F" stroke-width="2" fill="none">
+    <path d="M260 75 Q280 70 300 75"/>
+    <path d="M258 85 Q280 80 302 85"/>
+    <path d="M260 95 Q280 90 300 95"/>
+    </g>
+    <!-- Great Red Spot -->
+    <ellipse cx="275" cy="85" rx="6" ry="4" fill="#DC143C"/>
+  
+    <!-- Saturn -->
+    <circle cx="50" cy="180" r="18" fill="#F0E68C" stroke="#DAA520" stroke-width="2"/>
+    <!-- Saturn rings -->
+    <ellipse cx="50" cy="180" rx="28" ry="8" fill="none" stroke="#DEB887" stroke-width="2"/>
+    <ellipse cx="50" cy="180" rx="32" ry="10" fill="none" stroke="#CD853F" stroke-width="1.5"/>
+  
+    <!-- Rocket ship -->
+    <g transform="translate(200, 250)">
+    <!-- Main body -->
+    <rect x="-8" y="-20" width="16" height="40" rx="8" fill="url(#rocketGradient)"/>
+    <!-- Nose cone -->
+    <polygon points="0,-30 -8,-20 8,-20" fill="#FF0000"/>
+    <!-- Fins -->
+    <polygon points="-8,20 -15,30 -8,30" fill="#FF0000"/>
+    <polygon points="8,20 15,30 8,30" fill="#FF0000"/>
+    <!-- Windows -->
+    <circle cx="0" cy="-10" r="4" fill="#87CEEB"/>
+    <circle cx="0" cy="5" r="3" fill="#87CEEB"/>
+    <!-- Engine flame -->
+    <polygon points="-4,20 0,35 4,20" fill="#FF8C00"/>
+    <polygon points="-2,20 0,40 2,20" fill="#FFD700"/>
+    <!-- Details -->
+    <rect x="-6" y="-5" width="12" height="2" fill="#FF0000"/>
+    <rect x="-6" y="10" width="12" height="2" fill="#FF0000"/>
+    </g>
+  
+    <!-- Asteroid belt -->
+    <g fill="#696969">
+    <ellipse cx="160" cy="200" rx="3" ry="2" transform="rotate(30 160 200)"/>
+    <circle cx="180" cy="190" r="2"/>
+    <ellipse cx="200" cy="210" rx="2.5" ry="1.5" transform="rotate(-20 200 210)"/>
+    <circle cx="220" cy="195" r="1.5"/>
+    <ellipse cx="240" cy="205" rx="3" ry="1.8" transform="rotate(45 240 205)"/>
+    <circle cx="260" cy="190" r="2.2"/>
+    </g>
+  
+    <!-- Comet -->
+    <g transform="translate(350, 200)">
+    <!-- Comet head -->
+    <circle cx="0" cy="0" r="4" fill="#E6E6FA"/>
+    <!-- Comet tail -->
+    <path d="M0 0 Q-15 -10 -25 -15 Q-20 -5 -10 0 Q-20 5 -25 15 Q-15 10 0 0" 
+          fill="#87CEEB" opacity="0.7"/>
+    <path d="M0 0 Q-20 -15 -35 -25 Q-30 -10 -15 -5 Q-30 10 -35 25 Q-20 15 0 0" 
+          fill="#B0E0E6" opacity="0.5"/>
+    </g>
+  
+    <!-- Space station -->
+    <g transform="translate(80, 120)">
+    <!-- Central hub -->
+    <circle cx="0" cy="0" r="8" fill="#C0C0C0"/>
+    <!-- Solar panels -->
+    <rect x="-20" y="-3" width="15" height="6" fill="#000080"/>
+    <rect x="5" y="-3" width="15" height="6" fill="#000080"/>
+    <rect x="-3" y="-20" width="6" height="15" fill="#000080"/>
+    <rect x="-3" y="5" width="6" height="15" fill="#000080"/>
+    <!-- Solar panel details -->
+    <g stroke="#4169E1" stroke-width="0.5">
+      <path d="M-18 -1 L-7 -1"/>
+      <path d="M-18 1 L-7 1"/>
+      <path d="M7 -1 L18 -1"/>
+      <path d="M7 1 L18 1"/>
+      <path d="M-1 -18 L-1 -7"/>
+      <path d="M1 -18 L1 -7"/>
+      <path d="M-1 7 L-1 18"/>
+      <path d="M1 7 L1 18"/>
+    </g>
+    <!-- Docking port -->
+    <circle cx="0" cy="0" r="3" fill="#A9A9A9"/>
+    </g>
+  
+    <!-- Constellation lines -->
+    <g stroke="#FFFFFF" stroke-width="0.5" opacity="0.4">
+    <path d="M80 80 L150 90 L200 50 L250 70"/>
+    <path d="M320 120 L350 40 L380 90"/>
+    <path d="M50 60 L120 320 L280 350"/>
+    </g>
+  
+    <!-- Shooting stars -->
+    <g stroke="#FFD700" stroke-width="2" opacity="0.8">
+    <path d="M370 30 L380 40"/>
+    <path d="M340 160 L355 175"/>
+    <path d="M30 350 L45 365"/>
+    </g>
+    </g>
+  </g>
+</svg> 

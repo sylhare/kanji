@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad140" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grassGrad140" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#81c784;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#66bb6a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4caf50;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad140)"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="400" width="500" height="100" fill="#8d6e63" opacity="0.3"/>
+  
+  <!-- Main radical shape 艸 (grass) -->
+  <!-- Top dots -->
+  <circle cx="220" cy="150" r="6" fill="#4caf50"/>
+  <circle cx="250" cy="150" r="6" fill="#4caf50"/>
+  <circle cx="280" cy="150" r="6" fill="#4caf50"/>
+  
+  <!-- Horizontal stroke -->
+  <path d="M200 180 L300 180" 
+    stroke="#4caf50" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Vertical strokes -->
+  <path d="M220 180 L220 250" 
+    stroke="#4caf50" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M250 180 L250 250" 
+    stroke="#4caf50" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M280 180 L280 250" 
+    stroke="#4caf50" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Grass field -->
+  <g opacity="0.8">
+  <!-- Tall grass blades -->
+  <g stroke="url(#grassGrad140)" stroke-width="3" fill="none">
+  <path d="M50 450 Q55 400 50 350"/>
+  <path d="M60 450 Q65 380 60 340"/>
+  <path d="M70 450 Q75 420 70 370"/>
+  <path d="M80 450 Q85 390 80 330"/>
+  <path d="M90 450 Q95 410 90 360"/>
+  
+  <path d="M150 450 Q155 420 150 380"/>
+  <path d="M160 450 Q165 400 160 360"/>
+  <path d="M170 450 Q175 430 170 390"/>
+  <path d="M180 450 Q185 410 180 370"/>
+  
+  <path d="M320 450 Q325 400 320 350"/>
+  <path d="M330 450 Q335 420 330 380"/>
+  <path d="M340 450 Q345 390 340 340"/>
+  <path d="M350 450 Q355 410 350 370"/>
+  
+  <path d="M420 450 Q425 430 420 390"/>
+  <path d="M430 450 Q435 400 430 360"/>
+  <path d="M440 450 Q445 420 440 380"/>
+  <path d="M450 450 Q455 410 450 370"/>
+  
+    <!-- Wheat stalks -->
+    <g transform="translate(120,350)" opacity="0.8">
+    <!-- Wheat stem -->
+    <path d="M0 100 L0 0" stroke="#66bb6a" stroke-width="4" fill="none"/>
+    
+    <!-- Wheat grains -->
+    <g fill="#ffb300">
+      <ellipse cx="-3" cy="10" rx="2" ry="5"/>
+      <ellipse cx="3" cy="15" rx="2" ry="5"/>
+      <ellipse cx="-3" cy="20" rx="2" ry="5"/>
+      <ellipse cx="3" cy="25" rx="2" ry="5"/>
+      <ellipse cx="-3" cy="30" rx="2" ry="5"/>
+      <ellipse cx="3" cy="35" rx="2" ry="5"/>
+    </g>
+    </g>
+  
+    <!-- Wildflowers among grass -->
+    <g transform="translate(250,380)" opacity="0.7">
+    <!-- Flower stems -->
+    <g stroke="#4caf50" stroke-width="2">
+      <line x1="0" y1="0" x2="0" y2="40"/>
+      <line x1="20" y1="0" x2="20" y2="35"/>
+      <line x1="-15" y1="0" x2="-15" y2="45"/>
+    </g>
+    
+    <!-- Flower heads -->
+    <g fill="#f44336">
+      <circle cx="0" cy="0" r="4"/>
+      <circle cx="20" cy="0" r="3"/>
+    </g>
+    
+    <g fill="#ffeb3b">
+      <circle cx="-15" cy="0" r="3"/>
+    </g>
+    
+    <!-- Petals -->
+    <g fill="#ffffff" opacity="0.8">
+      <circle cx="-3" cy="-2" r="2"/>
+      <circle cx="3" cy="-2" r="2"/>
+      <circle cx="0" cy="3" r="2"/>
+    </g>
+    </g>
+  
+    <!-- Lawn mower -->
+    <g transform="translate(380,420)" opacity="0.6">
+    <!-- Mower body -->
+    <rect x="0" y="0" width="40" height="20" rx="5" fill="#d32f2f"/>
+    
+    <!-- Handle -->
+    <rect x="35" y="-20" width="3" height="25" fill="#8d6e63"/>
+    
+    <!-- Wheels -->
+    <circle cx="8" cy="25" r="8" fill="#424242"/>
+    <circle cx="32" cy="25" r="8" fill="#424242"/>
+    
+    <!-- Cut grass -->
+    <g fill="#81c784" opacity="0.6">
+      <rect x="-5" y="25" width="3" height="8"/>
+      <rect x="-10" y="28" width="3" height="6"/>
+      <rect x="-15" y="26" width="3" height="7"/>
+    </g>
+    </g>
+  
+    <!-- Dandelions -->
+    <g transform="translate(100,300)" opacity="0.7">
+    <!-- Dandelion stem -->
+    <path d="M0 50 L0 0" stroke="#4caf50" stroke-width="3" fill="none"/>
+    
+    <!-- Dandelion seeds -->
+    <g fill="#ffffff" opacity="0.8">
+      <circle cx="0" cy="0" r="8"/>
+      
+      <!-- Seed details -->
+      <g stroke="#e0e0e0" stroke-width="1">
+        <line x1="0" y1="0" x2="6" y2="-6"/>
+        <line x1="0" y1="0" x2="8" y2="0"/>
+        <line x1="0" y1="0" x2="6" y2="6"/>
+        <line x1="0" y1="0" x2="0" y2="8"/>
+        <line x1="0" y1="0" x2="-6" y2="6"/>
+        <line x1="0" y1="0" x2="-8" y2="0"/>
+        <line x1="0" y1="0" x2="-6" y2="-6"/>
+        <line x1="0" y1="0" x2="0" y2="-8"/>
+      </g>
+    </g>
+    
+    <!-- Seeds blowing away -->
+    <g fill="#ffffff" opacity="0.6">
+      <circle cx="15" cy="-8" r="2"/>
+      <circle cx="25" cy="-15" r="1"/>
+      <circle cx="35" cy="-10" r="1"/>
+    </g>
+    </g>
+  
+    <!-- Butterfly on flower -->
+    <g transform="translate(200,300)" opacity="0.8">
+    <!-- Flower -->
+    <circle cx="0" cy="0" r="6" fill="#ff9800"/>
+    <path d="M0 0 L0 25" stroke="#4caf50" stroke-width="2"/>
+    
+    <!-- Butterfly -->
+    <g transform="translate(8,0)" fill="#ff5722">
+      <ellipse cx="0" cy="0" rx="1" ry="4"/>
+      <!-- Wings -->
+      <ellipse cx="-3" cy="-1" rx="3" ry="5" fill="#ffeb3b" opacity="0.8"/>
+      <ellipse cx="3" cy="-1" rx="3" ry="5" fill="#2196f3" opacity="0.8"/>
+    </g>
+    </g>
+  
+    <!-- Picnic scene -->
+    <g transform="translate(350,350)" opacity="0.5">
+    <!-- Picnic blanket -->
+    <rect x="0" y="0" width="60" height="40" fill="#f44336"/>
+    
+    <!-- Checkered pattern -->
+    <g fill="#ffffff">
+      <rect x="0" y="0" width="15" height="10"/>
+      <rect x="30" y="0" width="15" height="10"/>
+      <rect x="15" y="10" width="15" height="10"/>
+      <rect x="45" y="10" width="15" height="10"/>
+      <rect x="0" y="20" width="15" height="10"/>
+      <rect x="30" y="20" width="15" height="10"/>
+      <rect x="15" y="30" width="15" height="10"/>
+      <rect x="45" y="30" width="15" height="10"/>
+    </g>
+    
+    <!-- Picnic basket -->
+    <rect x="50" y="-10" width="15" height="12" rx="2" fill="#8d6e63"/>
+    </g>
+  
+    <!-- Garden sprinkler -->
+    <g transform="translate(450,380)" opacity="0.6">
+    <!-- Sprinkler head -->
+    <circle cx="0" cy="0" r="5" fill="#9e9e9e"/>
+    
+    <!-- Water droplets -->
+    <g fill="#2196f3" opacity="0.6">
+      <circle cx="-10" cy="-8" r="1"/>
+      <circle cx="8" cy="-12" r="1"/>
+      <circle cx="12" cy="-5" r="1"/>
+      <circle cx="-8" cy="10" r="1"/>
+      <circle cx="5" cy="12" r="1"/>
+    </g>
+    
+    <!-- Post -->
+    <rect x="-1" y="5" width="2" height="20" fill="#757575"/>
+    </g>
+  
+    <!-- Wind effect on grass -->
+    <g stroke="#81c784" stroke-width="2" opacity="0.4" fill="none">
+    <path d="M100 450 Q150 430 200 450"/>
+    <path d="M250 450 Q300 430 350 450"/>
+    </g>
+  
+    <!-- Clover -->
+    <g transform="translate(150,420)" opacity="0.7">
+    <!-- Clover leaves -->
+    <g fill="#4caf50">
+      <circle cx="0" cy="-3" r="3"/>
+      <circle cx="-3" cy="3" r="3"/>
+      <circle cx="3" cy="3" r="3"/>
+    </g>
+    
+    <!-- Stem -->
+    <path d="M0 3 L0 15" stroke="#4caf50" stroke-width="1"/>
+    </g>
+  
+    <!-- Kanji character 艸 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#4caf50" opacity="0.8">艸</text>
+    </g>
+  </g>
+</svg> 

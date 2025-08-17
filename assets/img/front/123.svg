@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad123" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="woolGrad123" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad123)"/>
+  
+  <!-- Pastoral ground -->
+  <rect x="0" y="400" width="500" height="100" fill="#4caf50" opacity="0.3"/>
+  
+  <!-- Main sheep -->
+  <g transform="translate(250,300)">
+  <!-- Sheep body (woolly) -->
+  <ellipse cx="0" cy="0" rx="50" ry="35" fill="url(#woolGrad123)" stroke="#e0e0e0" stroke-width="2"/>
+  <!-- Wool texture -->
+  <g fill="#ffffff" opacity="0.8">
+  <circle cx="-20" cy="-15" r="8"/>
+  <circle cx="0" cy="-20" r="10"/>
+  <circle cx="20" cy="-15" r="8"/>
+  <circle cx="-30" cy="0" r="6"/>
+  <circle cx="30" cy="0" r="6"/>
+  <circle cx="-15" cy="15" r="7"/>
+  <circle cx="15" cy="15" r="7"/>
+  <!-- Head -->
+  <ellipse cx="45" cy="-10" rx="20" ry="15" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Eyes -->
+  <circle cx="50" cy="-15" r="3" fill="#000"/>
+  <circle cx="50" cy="-5" r="3" fill="#000"/>
+  <!-- Legs -->
+  <rect x="-30" y="35" width="6" height="20" fill="#8d6e63"/>
+  <rect x="-10" y="35" width="6" height="20" fill="#8d6e63"/>
+  <rect x="10" y="35" width="6" height="20" fill="#8d6e63"/>
+  <rect x="30" y="35" width="6" height="20" fill="#8d6e63"/>
+  
+    <!-- Main radical shape 羊 (sheep) -->
+    <!-- Top horizontal stroke -->
+    <path d="M200 150 L300 150" 
+        stroke="#424242" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Dots (sheep horns/ears) -->
+    <circle cx="220" cy="170" r="4" fill="#424242"/>
+    <circle cx="280" cy="170" r="4" fill="#424242"/>
+  
+    <!-- Vertical strokes -->
+    <path d="M230 180 L230 240" 
+        stroke="#424242" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M270 180 L270 240" 
+        stroke="#424242" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+    <!-- Middle horizontal stroke -->
+    <path d="M210 210 L290 210" 
+        stroke="#424242" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+    <!-- Bottom horizontal stroke -->
+    <path d="M190 240 L310 240" 
+        stroke="#424242" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Sheep flock in background -->
+    <g opacity="0.6">
+    <!-- Left sheep -->
+    <g transform="translate(120,350)">
+      <ellipse cx="0" cy="0" rx="25" ry="18" fill="url(#woolGrad123)"/>
+      <circle cx="-10" cy="-8" r="4" fill="#ffffff"/>
+      <circle cx="10" cy="-8" r="4" fill="#ffffff"/>
+      <ellipse cx="20" cy="-5" rx="10" ry="8" fill="#f5f5f5"/>
+      <circle cx="25" cy="-8" r="2" fill="#000"/>
+    </g>
+    
+    <!-- Right sheep -->
+    <g transform="translate(380,360)">
+      <ellipse cx="0" cy="0" rx="20" ry="15" fill="url(#woolGrad123)"/>
+      <circle cx="-8" cy="-6" r="3" fill="#ffffff"/>
+      <circle cx="8" cy="-6" r="3" fill="#ffffff"/>
+      <ellipse cx="15" cy="-3" rx="8" ry="6" fill="#f5f5f5"/>
+      <circle cx="20" cy="-6" r="1" fill="#000"/>
+    </g>
+    </g>
+  
+    <!-- Shepherd -->
+    <g transform="translate(100,300)" fill="#8d6e63" opacity="0.7">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="8"/>
+    <!-- Body -->
+    <rect x="-5" y="8" width="10" height="25" rx="5"/>
+    <!-- Arms -->
+    <ellipse cx="-8" cy="15" rx="3" ry="10" transform="rotate(-20)"/>
+    <ellipse cx="8" cy="15" rx="3" ry="10" transform="rotate(20)"/>
+    <!-- Legs -->
+    <ellipse cx="-3" cy="38" rx="3" ry="12"/>
+    <ellipse cx="3" cy="38" rx="3" ry="12"/>
+    <!-- Shepherd's staff -->
+    <path d="M12 10 L12 -20 Q15 -25 20 -20" stroke="#8d6e63" stroke-width="3" fill="none"/>
+    </g>
+  
+    <!-- Wool balls -->
+    <g fill="url(#woolGrad123)" opacity="0.8">
+    <circle cx="400" cy="200" r="12"/>
+    <circle cx="420" cy="220" r="10"/>
+    <circle cx="80" cy="250" r="8"/>
+    </g>
+  
+    <!-- Sheep tracks -->
+    <g fill="#8d6e63" opacity="0.4">
+    <ellipse cx="200" cy="420" rx="6" ry="3"/>
+    <ellipse cx="210" cy="430" rx="6" ry="3"/>
+    <ellipse cx="290" cy="440" rx="6" ry="3"/>
+    <ellipse cx="300" cy="450" rx="6" ry="3"/>
+    </g>
+  
+    <!-- Pastoral fence -->
+    <g transform="translate(400,320)" stroke="#8d6e63" stroke-width="3" opacity="0.5">
+    <line x1="0" y1="0" x2="0" y2="60"/>
+    <line x1="20" y1="0" x2="20" y2="60"/>
+    <line x1="40" y1="0" x2="40" y2="60"/>
+    <line x1="-5" y1="20" x2="45" y2="20"/>
+    <line x1="-5" y1="40" x2="45" y2="40"/>
+    </g>
+  
+    <!-- Grass -->
+    <g stroke="#4caf50" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M150 450 Q155 440 160 450"/>
+    <path d="M280 460 Q285 450 290 460"/>
+    <path d="M350 450 Q355 440 360 450"/>
+    </g>
+  
+    <!-- Clouds -->
+    <g fill="#ffffff" opacity="0.7">
+    <circle cx="380" cy="100" r="15"/>
+    <circle cx="400" cy="95" r="18"/>
+    <circle cx="420" cy="100" r="12"/>
+    </g>
+  
+    <!-- Kanji character 羊 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#424242" opacity="0.8">羊</text>
+    </g>
+  </g>
+</svg> 

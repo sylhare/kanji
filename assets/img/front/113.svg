@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad113" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="altarGrad113" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad113)"/>
+  
+  <!-- Altar base -->
+  <rect x="150" y="350" width="200" height="100" rx="10" fill="url(#altarGrad113)"/>
+  
+  <!-- Altar platform -->
+  <rect x="170" y="320" width="160" height="40" rx="5" fill="#8d6e63"/>
+  
+  <!-- Main radical shape 示 (altar/show) -->
+  <!-- Top horizontal stroke -->
+  <path d="M200 160 L300 160" 
+    stroke="#7b1fa2" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Left vertical stroke -->
+  <path d="M220 160 L220 260" 
+    stroke="#7b1fa2" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right vertical stroke -->
+  <path d="M280 160 L280 260" 
+    stroke="#7b1fa2" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Middle vertical stroke -->
+  <path d="M250 180 L250 260" 
+    stroke="#7b1fa2" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom horizontal stroke -->
+  <path d="M200 260 L300 260" 
+    stroke="#7b1fa2" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Sacred offerings -->
+  <g opacity="0.8">
+  <!-- Incense sticks -->
+  <g transform="translate(200,300)">
+  <rect x="0" y="0" width="2" height="30" fill="#8d6e63"/>
+  <rect x="8" y="0" width="2" height="30" fill="#8d6e63"/>
+  <rect x="16" y="0" width="2" height="30" fill="#8d6e63"/>
+  <!-- Smoke -->
+  <g stroke="#9e9e9e" stroke-width="1" opacity="0.6" fill="none">
+    <path d="M1 -5 Q3 -15 1 -25"/>
+    <path d="M9 -5 Q11 -15 9 -25"/>
+    <path d="M17 -5 Q19 -15 17 -25"/>
+    
+    <!-- Offering bowl -->
+    <g transform="translate(280,300)">
+      <ellipse cx="0" cy="0" rx="20" ry="12" fill="#ffcc02"/>
+      <ellipse cx="0" cy="-8" rx="15" ry="8" fill="#fff"/>
+    </g>
+    </g>
+  
+    <!-- Torii gate -->
+    <g transform="translate(380,200)" opacity="0.6">
+    <!-- Posts -->
+    <rect x="0" y="0" width="6" height="80" fill="#d32f2f"/>
+    <rect x="40" y="0" width="6" height="80" fill="#d32f2f"/>
+    <!-- Top rail -->
+    <rect x="-5" y="10" width="56" height="8" rx="4" fill="#d32f2f"/>
+    <!-- Lower rail -->
+    <rect x="5" y="30" width="36" height="6" rx="3" fill="#d32f2f"/>
+    </g>
+  
+    <!-- Prayer flags -->
+    <g transform="translate(100,180)" opacity="0.7">
+    <line x1="0" y1="0" x2="60" y2="0" stroke="#8d6e63" stroke-width="2"/>
+    <rect x="5" y="0" width="12" height="15" fill="#f44336"/>
+    <rect x="20" y="0" width="12" height="15" fill="#ff9800"/>
+    <rect x="35" y="0" width="12" height="15" fill="#4caf50"/>
+    </g>
+  
+    <!-- Candles -->
+    <g transform="translate(320,280)" opacity="0.8">
+    <rect x="0" y="0" width="4" height="25" fill="#fff9c4"/>
+    <rect x="8" y="0" width="4" height="25" fill="#fff9c4"/>
+    <!-- Flames -->
+    <ellipse cx="2" cy="-3" rx="2" ry="4" fill="#ff5722"/>
+    <ellipse cx="10" cy="-3" rx="2" ry="4" fill="#ff5722"/>
+    </g>
+  
+    <!-- Priest figure -->
+    <g transform="translate(120,350)" fill="#7b1fa2" opacity="0.5">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="8"/>
+    <!-- Body/robes -->
+    <ellipse cx="0" cy="15" rx="12" ry="20"/>
+    <!-- Arms in prayer -->
+    <ellipse cx="-8" cy="10" rx="3" ry="8" transform="rotate(-30)"/>
+    <ellipse cx="8" cy="10" rx="3" ry="8" transform="rotate(30)"/>
+    </g>
+  
+    <!-- Sacred symbols -->
+    <g transform="translate(400,300)" stroke="#9c27b0" stroke-width="2" opacity="0.5" fill="none">
+    <circle cx="0" cy="0" r="12"/>
+    <path d="M-8 -8 L8 8 M8 -8 L-8 8"/>
+    </g>
+  
+    <!-- Ceremonial bells -->
+    <g transform="translate(380,350)" fill="#ffb300" opacity="0.6">
+    <ellipse cx="0" cy="0" rx="8" ry="10"/>
+    <rect x="-1" y="-12" width="2" height="8" fill="#8d6e63"/>
+    </g>
+  
+    <!-- Kanji character 示 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#7b1fa2" opacity="0.8">示</text>
+    </g>
+  </g>
+</svg> 

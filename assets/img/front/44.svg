@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad44" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4ec;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8bbd9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gemGrad44" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec407a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e91e63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ad1457;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sparkle44" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#f48fb1;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#f48fb1;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="prismGrad44" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b9d;stop-opacity:0.8" />
+      <stop offset="33%" style="stop-color:#c44569;stop-opacity:0.8" />
+      <stop offset="66%" style="stop-color:#786fa6;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#4b7bec;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad44)"/>
+  
+  <!-- Four precious gemstones arranged in a pattern -->
+  <!-- Top left gem -->
+  <g transform="translate(140,160)">
+  <polygon points="0,-30 25,-10 15,25 -15,25 -25,-10" fill="url(#gemGrad44)"/>
+  <polygon points="0,-25 20,-8 12,20 -12,20 -20,-8" fill="url(#prismGrad44)" opacity="0.6"/>
+  <circle cx="0" cy="0" r="35" fill="url(#sparkle44)" opacity="0.4"/>
+  
+  <!-- Top right gem -->
+  <g transform="translate(360,160)">
+  <polygon points="0,-30 25,-10 15,25 -15,25 -25,-10" fill="url(#gemGrad44)"/>
+  <polygon points="0,-25 20,-8 12,20 -12,20 -20,-8" fill="url(#prismGrad44)" opacity="0.6"/>
+  <circle cx="0" cy="0" r="35" fill="url(#sparkle44)" opacity="0.4"/>
+  
+    <!-- Bottom left gem -->
+    <g transform="translate(140,340)">
+    <polygon points="0,-30 25,-10 15,25 -15,25 -25,-10" fill="url(#gemGrad44)"/>
+    <polygon points="0,-25 20,-8 12,20 -12,20 -20,-8" fill="url(#prismGrad44)" opacity="0.6"/>
+    <circle cx="0" cy="0" r="35" fill="url(#sparkle44)" opacity="0.4"/>
+    </g>
+  
+    <!-- Bottom right gem -->
+    <g transform="translate(360,340)">
+    <polygon points="0,-30 25,-10 15,25 -15,25 -25,-10" fill="url(#gemGrad44)"/>
+    <polygon points="0,-25 20,-8 12,20 -12,20 -20,-8" fill="url(#prismGrad44)" opacity="0.6"/>
+    <circle cx="0" cy="0" r="35" fill="url(#sparkle44)" opacity="0.4"/>
+    </g>
+  
+    <!-- Connecting energy lines between gems -->
+    <g stroke="#e91e63" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M140 160 Q250 100 360 160"/>
+    <path d="M360 160 Q420 250 360 340"/>
+    <path d="M360 340 Q250 400 140 340"/>
+    <path d="M140 340 Q80 250 140 160"/>
+    </g>
+  
+    <!-- Central sacred pattern -->
+    <g transform="translate(250,250)">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#e91e63" stroke-width="2" opacity="0.6"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#ad1457" stroke-width="1" opacity="0.8"/>
+    <polygon points="0,-15 10,0 0,15 -10,0" fill="#c2185b" opacity="0.7"/>
+    </g>
+  
+    <!-- Floating sparkles -->
+    <g fill="#ffffff" opacity="0.8">
+    <path d="M100 100 L105 95 L110 100 L105 105 Z"/>
+    <path d="M400 120 L405 115 L410 120 L405 125 Z"/>
+    <path d="M80 400 L85 395 L90 400 L85 405 Z"/>
+    <path d="M420 380 L425 375 L430 380 L425 385 Z"/>
+    <path d="M200 80 L203 77 L206 80 L203 83 Z"/>
+    <path d="M300 420 L303 417 L306 420 L303 423 Z"/>
+    </g>
+  
+    <!-- Light refractions -->
+    <g stroke="#f8bbd9" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M140 130 L180 90"/>
+    <path d="M360 130 L320 90"/>
+    <path d="M140 370 L180 410"/>
+    <path d="M360 370 L320 410"/>
+    </g>
+  
+    <!-- Mystical glow around the formation -->
+    <ellipse cx="250" cy="250" rx="180" ry="120" fill="url(#sparkle44)" opacity="0.2"/>
+  
+    <!-- Number "44" integrated -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#880e4f" opacity="0.5">44</text>
+  
+    <!-- Kanji character 四十四 -->
+    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#880e4f" opacity="0.9">四十四</text>
+    </g>
+  </g>
+</svg> 

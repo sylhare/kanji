@@ -1,0 +1,271 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wheatGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#DAA520"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="fieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="50%" stop-color="#F0E68C"/>
+      <stop offset="100%" stop-color="#DAA520"/>
+    </linearGradient>
+    <radialGradient id="grainGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFF99"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#DAA520"/>
+    </radialGradient>
+    <linearGradient id="stemGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0E68C"/>
+      <stop offset="50%" stop-color="#DEB887"/>
+      <stop offset="100%" stop-color="#CD853F"/>
+    </linearGradient>
+  </defs>  <!-- Sky background -->
+  <rect width="400" height="250" fill="#87CEEB"/>
+  
+  <!-- Wheat field -->
+  <rect x="0" y="250" width="400" height="150" fill="url(#fieldGradient)"/>
+  
+  <!-- Large wheat stalks -->
+  <!-- Wheat stalk 1 -->
+  <rect x="80" y="200" width="4" height="150" fill="url(#stemGradient)"/>
+  <g fill="url(#wheatGradient)" stroke="#B8860B" stroke-width="0.5">
+    <ellipse cx="82" cy="180" rx="3" ry="8"/>
+    <ellipse cx="80" cy="170" rx="3" ry="8"/>
+    <ellipse cx="84" cy="160" rx="3" ry="8"/>
+    <ellipse cx="81" cy="150" rx="3" ry="8"/>
+    <ellipse cx="85" cy="140" rx="3" ry="8"/>
+    <ellipse cx="82" cy="130" rx="3" ry="8"/>
+    <ellipse cx="80" cy="120" rx="3" ry="8"/>
+    <ellipse cx="84" cy="110" rx="3" ry="8"/>
+    <ellipse cx="82" cy="100" rx="3" ry="8"/>
+  </g>
+  
+  <!-- Wheat beards (awns) -->
+  <g stroke="#FFD700" stroke-width="1">
+    <path d="M85 180 L95 175"/>
+    <path d="M77 170 L67 165"/>
+    <path d="M87 160 L97 155"/>
+    <path d="M78 150 L68 145"/>
+    <path d="M88 140 L98 135"/>
+    <path d="M79 130 L69 125"/>
+    <path d="M83 120 L93 115"/>
+    <path d="M87 110 L97 105"/>
+    <path d="M85 100 L95 95"/>
+  </g>
+  
+  <!-- Wheat stalk 2 -->
+  <rect x="150" y="180" width="4" height="170" fill="url(#stemGradient)"/>
+  <g fill="url(#wheatGradient)" stroke="#B8860B" stroke-width="0.5">
+    <ellipse cx="152" cy="160" rx="3" ry="8"/>
+    <ellipse cx="150" cy="150" rx="3" ry="8"/>
+    <ellipse cx="154" cy="140" rx="3" ry="8"/>
+    <ellipse cx="151" cy="130" rx="3" ry="8"/>
+    <ellipse cx="155" cy="120" rx="3" ry="8"/>
+    <ellipse cx="152" cy="110" rx="3" ry="8"/>
+    <ellipse cx="150" cy="100" rx="3" ry="8"/>
+    <ellipse cx="154" cy="90" rx="3" ry="8"/>
+    <ellipse cx="152" cy="80" rx="3" ry="8"/>
+    <ellipse cx="150" cy="70" rx="3" ry="8"/>
+  </g>
+  
+  <!-- Wheat beards -->
+  <g stroke="#FFD700" stroke-width="1">
+    <path d="M155 160 L165 155"/>
+    <path d="M147 150 L137 145"/>
+    <path d="M157 140 L167 135"/>
+    <path d="M148 130 L138 125"/>
+    <path d="M158 120 L168 115"/>
+    <path d="M149 110 L139 105"/>
+    <path d="M153 100 L163 95"/>
+    <path d="M157 90 L167 85"/>
+    <path d="M155 80 L165 75"/>
+    <path d="M153 70 L163 65"/>
+  </g>
+  
+  <!-- Wheat stalk 3 -->
+  <rect x="220" y="190" width="4" height="160" fill="url(#stemGradient)"/>
+  <g fill="url(#wheatGradient)" stroke="#B8860B" stroke-width="0.5">
+    <ellipse cx="222" cy="170" rx="3" ry="8"/>
+    <ellipse cx="220" cy="160" rx="3" ry="8"/>
+    <ellipse cx="224" cy="150" rx="3" ry="8"/>
+    <ellipse cx="221" cy="140" rx="3" ry="8"/>
+    <ellipse cx="225" cy="130" rx="3" ry="8"/>
+    <ellipse cx="222" cy="120" rx="3" ry="8"/>
+    <ellipse cx="220" cy="110" rx="3" ry="8"/>
+    <ellipse cx="224" cy="100" rx="3" ry="8"/>
+    <ellipse cx="222" cy="90" rx="3" ry="8"/>
+  </g>
+  
+  <!-- Wheat beards -->
+  <g stroke="#FFD700" stroke-width="1">
+    <path d="M225 170 L235 165"/>
+    <path d="M217 160 L207 155"/>
+    <path d="M227 150 L237 145"/>
+    <path d="M218 140 L208 135"/>
+    <path d="M228 130 L238 125"/>
+    <path d="M219 120 L209 115"/>
+    <path d="M223 110 L233 105"/>
+    <path d="M227 100 L237 95"/>
+    <path d="M225 90 L235 85"/>
+  </g>
+  
+  <!-- Wheat stalk 4 -->
+  <rect x="300" y="200" width="4" height="150" fill="url(#stemGradient)"/>
+  <g fill="url(#wheatGradient)" stroke="#B8860B" stroke-width="0.5">
+    <ellipse cx="302" cy="180" rx="3" ry="8"/>
+    <ellipse cx="300" cy="170" rx="3" ry="8"/>
+    <ellipse cx="304" cy="160" rx="3" ry="8"/>
+    <ellipse cx="301" cy="150" rx="3" ry="8"/>
+    <ellipse cx="305" cy="140" rx="3" ry="8"/>
+    <ellipse cx="302" cy="130" rx="3" ry="8"/>
+    <ellipse cx="300" cy="120" rx="3" ry="8"/>
+    <ellipse cx="304" cy="110" rx="3" ry="8"/>
+  </g>
+  
+  <!-- Dense wheat field background -->
+  <g stroke="url(#stemGradient)" stroke-width="2" fill="none">
+    <!-- Multiple wheat stalks in background -->
+    <path d="M50 350 L50 280"/>
+    <path d="M60 360 L60 290"/>
+    <path d="M110 355 L110 285"/>
+    <path d="M120 350 L120 280"/>
+    <path d="M180 360 L180 290"/>
+    <path d="M190 355 L190 285"/>
+    <path d="M250 350 L250 280"/>
+    <path d="M260 360 L260 290"/>
+    <path d="M330 355 L330 285"/>
+    <path d="M340 350 L340 280"/>
+    <path d="M370 360 L370 290"/>
+    <path d="M380 355 L380 285"/>
+  </g>
+  
+  <!-- Wheat heads on background stalks -->
+  <g fill="url(#grainGradient)" opacity="0.8">
+    <ellipse cx="50" cy="275" rx="2" ry="6"/>
+    <ellipse cx="60" cy="285" rx="2" ry="6"/>
+    <ellipse cx="110" cy="280" rx="2" ry="6"/>
+    <ellipse cx="120" cy="275" rx="2" ry="6"/>
+    <ellipse cx="180" cy="285" rx="2" ry="6"/>
+    <ellipse cx="190" cy="280" rx="2" ry="6"/>
+    <ellipse cx="250" cy="275" rx="2" ry="6"/>
+    <ellipse cx="260" cy="285" rx="2" ry="6"/>
+    <ellipse cx="330" cy="280" rx="2" ry="6"/>
+    <ellipse cx="340" cy="275" rx="2" ry="6"/>
+    <ellipse cx="370" cy="285" rx="2" ry="6"/>
+    <ellipse cx="380" cy="280" rx="2" ry="6"/>
+  </g>
+  
+  <!-- Harvesting scene -->
+  <!-- Scythe -->
+  <path d="M350 250 Q360 260 370 270 Q375 275 380 270 Q375 265 370 260 Q360 250 350 240" 
+        stroke="#C0C0C0" stroke-width="3" fill="none"/>
+  <rect x="350" y="230" width="3" height="30" fill="#8B4513"/>
+  
+  <!-- Harvested wheat bundle -->
+  <g fill="url(#wheatGradient)">
+    <rect x="30" y="320" width="3" height="30"/>
+    <rect x="35" y="318" width="3" height="32"/>
+    <rect x="40" y="321" width="3" height="29"/>
+    <rect x="45" y="319" width="3" height="31"/>
+    <rect x="50" y="320" width="3" height="30"/>
+    <rect x="55" y="317" width="3" height="33"/>
+    <rect x="60" y="320" width="3" height="30"/>
+  </g>
+  
+  <!-- Bundle tie -->
+  <ellipse cx="45" cy="340" rx="20" ry="4" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Wheat grains scattered -->
+  <g fill="url(#grainGradient)">
+    <ellipse cx="100" cy="370" rx="2" ry="3"/>
+    <ellipse cx="105" cy="375" rx="2" ry="3"/>
+    <ellipse cx="110" cy="372" rx="2" ry="3"/>
+    <ellipse cx="115" cy="378" rx="2" ry="3"/>
+    <ellipse cx="120" cy="374" rx="2" ry="3"/>
+    
+    <ellipse cx="200" cy="365" rx="2" ry="3"/>
+    <ellipse cx="205" cy="370" rx="2" ry="3"/>
+    <ellipse cx="210" cy="367" rx="2" ry="3"/>
+    <ellipse cx="215" cy="373" rx="2" ry="3"/>
+    
+    <ellipse cx="280" cy="375" rx="2" ry="3"/>
+    <ellipse cx="285" cy="380" rx="2" ry="3"/>
+    <ellipse cx="290" cy="377" rx="2" ry="3"/>
+  </g>
+  
+  <!-- Bread (end product) -->
+  <ellipse cx="350" cy="320" rx="25" ry="15" fill="#DEB887" stroke="#CD853F" stroke-width="2"/>
+  <ellipse cx="350" cy="315" rx="20" ry="10" fill="#F5DEB3"/>
+  <!-- Bread scoring -->
+  <path d="M335 315 L365 315" stroke="#CD853F" stroke-width="1"/>
+  <path d="M340 320 L360 320" stroke="#CD853F" stroke-width="1"/>
+  
+  <!-- Mill/windmill in distance -->
+  <rect x="370" y="180" width="20" height="60" fill="#F5DEB3" stroke="#DEB887" stroke-width="2"/>
+  <rect x="375" y="170" width="10" height="15" fill="#F5DEB3" stroke="#DEB887" stroke-width="1"/>
+  
+  <!-- Windmill blades -->
+  <g stroke="#8B4513" stroke-width="3">
+    <path d="M380 175 L380 155"/>
+    <path d="M380 175 L400 175"/>
+    <path d="M380 175 L380 195"/>
+    <path d="M380 175 L360 175"/>
+  </g>
+  
+  <!-- Clouds -->
+  <circle cx="100" cy="80" r="20" fill="#FFF" opacity="0.8"/>
+  <circle cx="120" cy="75" r="25" fill="#FFF" opacity="0.8"/>
+  <circle cx="140" cy="80" r="18" fill="#FFF" opacity="0.8"/>
+  
+  <circle cx="300" cy="60" r="22" fill="#FFF" opacity="0.8"/>
+  <circle cx="320" cy="55" r="28" fill="#FFF" opacity="0.8"/>
+  <circle cx="340" cy="60" r="20" fill="#FFF" opacity="0.8"/>
+  
+  <!-- Sun -->
+  <circle cx="60" cy="60" r="25" fill="#FFD700" opacity="0.8"/>
+  <circle cx="60" cy="60" r="20" fill="#FFA500" opacity="0.6"/>
+  
+  <!-- Sun rays -->
+  <g stroke="#FFD700" stroke-width="3" opacity="0.6">
+    <path d="M35 60 L25 60"/>
+    <path d="M85 60 L95 60"/>
+    <path d="M60 35 L60 25"/>
+    <path d="M60 85 L60 95"/>
+    <path d="M42 42 L35 35"/>
+    <path d="M78 78 L85 85"/>
+    <path d="M78 42 L85 35"/>
+    <path d="M42 78 L35 85"/>
+  </g>
+  
+  <!-- Field rows perspective -->
+  <g stroke="#B8860B" stroke-width="1" opacity="0.5">
+    <path d="M0 280 L400 290"/>
+    <path d="M0 300 L400 310"/>
+    <path d="M0 320 L400 330"/>
+    <path d="M0 340 L400 350"/>
+  </g>
+  
+  <!-- Farmer's basket -->
+  <ellipse cx="250" cy="380" rx="30" ry="12" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <rect x="220" y="370" width="60" height="10" fill="#CD853F" stroke="#8B4513" stroke-width="1"/>
+  
+  <!-- Wheat in basket -->
+  <g fill="url(#wheatGradient)">
+    <rect x="230" y="360" width="2" height="15"/>
+    <rect x="235" y="358" width="2" height="17"/>
+    <rect x="240" y="361" width="2" height="14"/>
+    <rect x="245" y="359" width="2" height="16"/>
+    <rect x="250" y="360" width="2" height="15"/>
+    <rect x="255" y="357" width="2" height="18"/>
+    <rect x="260" y="360" width="2" height="15"/>
+    <rect x="265" y="359" width="2" height="16"/>
+    <rect x="270" y="361" width="2" height="14"/>
+  </g>
+  
+  <!-- Chinese character -->
+  <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#B8860B">麥</text>
+  
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8B4513">WHEAT HARVEST</text>
+</svg> 

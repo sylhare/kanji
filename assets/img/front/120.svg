@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad120" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4ec;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8bbd9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="threadGrad120" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e91e63;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ad1457;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#880e4f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad120)"/>
+  
+  <!-- Main radical shape 糸 (thread) -->
+  <!-- Top small strokes -->
+  <path d="M220 150 L240 170" 
+    stroke="#880e4f" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M260 150 L280 170" 
+    stroke="#880e4f" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Central vertical stroke -->
+  <path d="M250 180 L250 280" 
+    stroke="#880e4f" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Side curves -->
+  <path d="M220 200 Q210 230 220 260" 
+    stroke="#880e4f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M280 200 Q290 230 280 260" 
+    stroke="#880e4f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom horizontal stroke -->
+  <path d="M200 280 L300 280" 
+    stroke="#880e4f" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Thread spool -->
+  <g transform="translate(350,250)" opacity="0.8">
+  <ellipse cx="0" cy="0" rx="15" ry="25" fill="#ad1457"/>
+  <ellipse cx="0" cy="-15" rx="18" ry="8" fill="#8d6e63"/>
+  <ellipse cx="0" cy="15" rx="18" ry="8" fill="#8d6e63"/>
+  
+  <!-- Hanging threads -->
+  <g stroke="url(#threadGrad120)" stroke-width="3" opacity="0.7" fill="none">
+  <path d="M200 300 Q205 350 200 420"/>
+  <path d="M300 300 Q295 360 300 440"/>
+  <path d="M250 300 Q255 380 250 460"/>
+  
+    <!-- Needle -->
+    <g transform="translate(150,200)" opacity="0.8">
+    <rect x="0" y="0" width="2" height="40" fill="#757575"/>
+    <circle cx="1" cy="5" r="2" fill="none" stroke="#757575" stroke-width="1"/>
+    </g>
+  
+    <!-- Woven fabric -->
+    <g transform="translate(100,350)" opacity="0.5">
+    <rect x="0" y="0" width="60" height="40" fill="#f8bbd9"/>
+    <!-- Thread pattern -->
+    <g stroke="#e91e63" stroke-width="1">
+      <line x1="0" y1="10" x2="60" y2="10"/>
+      <line x1="0" y1="20" x2="60" y2="20"/>
+      <line x1="0" y1="30" x2="60" y2="30"/>
+      <line x1="10" y1="0" x2="10" y2="40"/>
+      <line x1="20" y1="0" x2="20" y2="40"/>
+      <line x1="30" y1="0" x2="30" y2="40"/>
+      <line x1="40" y1="0" x2="40" y2="40"/>
+      <line x1="50" y1="0" x2="50" y2="40"/>
+    </g>
+    </g>
+  
+    <!-- Kanji character 糸 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#880e4f" opacity="0.8">糸</text>
+    </g>
+  </g>
+</svg> 

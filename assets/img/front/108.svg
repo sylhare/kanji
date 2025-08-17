@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad108" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff3c4;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="plateGrad108" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad108)"/>
+  
+  <!-- Table surface -->
+  <ellipse cx="250" cy="450" rx="200" ry="20" fill="#8d6e63" opacity="0.3"/>
+  
+  <!-- Large plate/bowl -->
+  <ellipse cx="250" cy="300" rx="120" ry="80" fill="url(#plateGrad108)" stroke="#bdbdbd" stroke-width="3"/>
+  
+  <!-- Plate rim highlight -->
+  <ellipse cx="250" cy="300" rx="115" ry="75" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Main radical shape 皿 (plate/bowl) -->
+  <!-- Left vertical stroke -->
+  <path d="M180 180 L180 240" 
+    stroke="#757575" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right vertical stroke -->
+  <path d="M320 180 L320 240" 
+    stroke="#757575" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Middle vertical stroke -->
+  <path d="M250 190 L250 230" 
+    stroke="#757575" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom curved stroke (bowl shape) -->
+  <path d="M170 240 Q250 280 330 240" 
+    stroke="#757575" stroke-width="16" fill="none" stroke-linecap="round"/>
+  
+  <!-- Food items on plate -->
+  <g opacity="0.8">
+  <!-- Main dish -->
+  <ellipse cx="250" cy="280" rx="40" ry="25" fill="#ff8a65"/>
+  <!-- Vegetables -->
+  <circle cx="220" cy="290" r="8" fill="#4caf50"/>
+  <circle cx="280" cy="290" r="6" fill="#ff5722"/>
+  <circle cx="260" cy="305" r="5" fill="#ffc107"/>
+  
+  <!-- Small bowls around -->
+  <g fill="url(#plateGrad108)" stroke="#bdbdbd" stroke-width="2" opacity="0.7">
+  <ellipse cx="120" cy="200" rx="30" ry="20"/>
+  <ellipse cx="380" cy="220" rx="25" ry="18"/>
+  
+    <!-- Chopsticks -->
+    <g transform="translate(350,250)" opacity="0.6">
+    <rect x="0" y="0" width="40" height="3" rx="1" fill="#8d6e63"/>
+    <rect x="0" y="8" width="40" height="3" rx="1" fill="#8d6e63"/>
+    </g>
+  
+    <!-- Steam from hot food -->
+    <g stroke="#e0e0e0" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M240 260 Q245 250 250 260 Q255 250 260 260"/>
+    <path d="M230 250 Q235 240 240 250 Q245 240 250 250"/>
+    </g>
+  
+    <!-- Plate shadows -->
+    <ellipse cx="255" cy="310" rx="110" ry="70" fill="#9e9e9e" opacity="0.2"/>
+  
+    <!-- Decorative plate pattern -->
+    <g stroke="#e0e0e0" stroke-width="1" opacity="0.4" fill="none">
+    <circle cx="250" cy="300" r="60"/>
+    <circle cx="250" cy="300" r="40"/>
+    </g>
+  
+    <!-- Kanji character 皿 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#757575" opacity="0.8">皿</text>
+    </g>
+  </g>
+</svg> 

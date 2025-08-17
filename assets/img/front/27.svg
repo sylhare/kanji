@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad27" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffecb3;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="smallGrad27" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" style="stop-color:#ffc107;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8f00;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="tinyGlow27" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff176;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#fff176;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="delicateGrad27" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffcc02;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffab00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad27)"/>
+  
+  <!-- Tiny delicate aura -->
+  <ellipse cx="250" cy="250" rx="120" ry="100" fill="url(#tinyGlow27)"/>
+  
+  <!-- Main small character representing 小 -->
+  <!-- Central dot -->
+  <circle cx="250" cy="200" r="8" fill="url(#smallGrad27)" stroke="#e65100" stroke-width="2"/>
+  
+  <!-- Left stroke -->
+  <rect x="220" y="230" width="12" height="80" rx="6" fill="url(#smallGrad27)" stroke="#e65100" stroke-width="2" transform="rotate(-15 226 270)"/>
+  
+  <!-- Right stroke -->
+  <rect x="268" y="230" width="12" height="80" rx="6" fill="url(#smallGrad27)" stroke="#e65100" stroke-width="2" transform="rotate(15 274 270)"/>
+  
+  <!-- Tiny creatures and objects -->
+  <!-- Ladybug -->
+  <g transform="translate(150,150)">
+  <ellipse cx="0" cy="0" rx="8" ry="6" fill="#f44336"/>
+  <circle cx="-2" cy="-2" r="1" fill="#000"/>
+  <circle cx="2" cy="1" r="1" fill="#000"/>
+  <line x1="0" y1="-6" x2="0" y2="6" stroke="#000" stroke-width="1"/>
+  <circle cx="-1" cy="-4" r="2" fill="#000"/>
+  <circle cx="1" cy="-4" r="2" fill="#000"/>
+  
+  <!-- Butterfly -->
+  <g transform="translate(350,180)">
+  <ellipse cx="-3" cy="-2" rx="6" ry="4" fill="#e91e63"/>
+  <ellipse cx="3" cy="-2" rx="6" ry="4" fill="#e91e63"/>
+  <ellipse cx="-3" cy="2" rx="4" ry="3" fill="#f06292"/>
+  <ellipse cx="3" cy="2" rx="4" ry="3" fill="#f06292"/>
+  <line x1="0" y1="-5" x2="0" y2="5" stroke="#424242" stroke-width="1"/>
+  <circle cx="-1" cy="-6" r="1" fill="#424242"/>
+  <circle cx="1" cy="-6" r="1" fill="#424242"/>
+  
+    <!-- Ant -->
+    <g transform="translate(320,350)">
+    <circle cx="0" cy="0" r="2" fill="#424242"/>
+    <circle cx="-4" cy="0" r="1.5" fill="#424242"/>
+    <circle cx="4" cy="0" r="1" fill="#424242"/>
+    <line x1="-2" y1="-2" x2="-3" y2="-4" stroke="#424242" stroke-width="0.5"/>
+    <line x1="2" y1="-2" x2="3" y2="-4" stroke="#424242" stroke-width="0.5"/>
+    </g>
+  
+    <!-- Tiny flowers -->
+    <g fill="url(#smallGrad27)" opacity="0.8">
+    <g transform="translate(180,320)">
+      <circle cx="0" cy="0" r="3"/>
+      <circle cx="-3" cy="-1" r="2" fill="#e91e63"/>
+      <circle cx="3" cy="-1" r="2" fill="#e91e63"/>
+      <circle cx="0" cy="3" r="2" fill="#e91e63"/>
+      <circle cx="-2" cy="2" r="2" fill="#e91e63"/>
+      <circle cx="2" cy="2" r="2" fill="#e91e63"/>
+    </g>
+    
+    <g transform="translate(300,120)">
+      <circle cx="0" cy="0" r="2"/>
+      <circle cx="-2" cy="-1" r="1" fill="#9c27b0"/>
+      <circle cx="2" cy="-1" r="1" fill="#9c27b0"/>
+      <circle cx="0" cy="2" r="1" fill="#9c27b0"/>
+      <circle cx="-1" cy="1" r="1" fill="#9c27b0"/>
+      <circle cx="1" cy="1" r="1" fill="#9c27b0"/>
+    </g>
+    </g>
+  
+    <!-- Tiny leaves -->
+    <g fill="#4caf50" opacity="0.7">
+    <ellipse cx="120" cy="200" rx="4" ry="8" transform="rotate(30 120 200)"/>
+    <ellipse cx="380" cy="280" rx="3" ry="6" transform="rotate(-20 380 280)"/>
+    <ellipse cx="200" cy="400" rx="5" ry="10" transform="rotate(45 200 400)"/>
+    <ellipse cx="350" cy="400" rx="4" ry="7" transform="rotate(-30 350 400)"/>
+    </g>
+  
+    <!-- Baby animals -->
+    <!-- Chick -->
+    <g transform="translate(120,350)">
+    <circle cx="0" cy="0" r="6" fill="#ffeb3b"/>
+    <circle cx="-2" cy="-2" r="1" fill="#000"/>
+    <path d="M-4,0 L-6,-1 L-4,1 Z" fill="#ff9800"/>
+    <ellipse cx="0" cy="8" rx="4" ry="3" fill="#ffeb3b"/>
+    </g>
+  
+    <!-- Kitten -->
+    <g transform="translate(380,120)">
+    <circle cx="0" cy="0" r="5" fill="#8d6e63"/>
+    <circle cx="-2" cy="-1" r="1" fill="#000"/>
+    <circle cx="2" cy="-1" r="1" fill="#000"/>
+    <path d="M-3,-4 L-2,-6 L-1,-4 Z" fill="#8d6e63"/>
+    <path d="M1,-4 L2,-6 L3,-4 Z" fill="#8d6e63"/>
+    <ellipse cx="0" cy="6" rx="3" ry="4" fill="#8d6e63"/>
+    </g>
+  
+    <!-- Miniature objects -->
+    <!-- Thimble -->
+    <g transform="translate(150,450)">
+    <ellipse cx="0" cy="0" rx="6" ry="8" fill="#9e9e9e"/>
+    <ellipse cx="0" cy="-6" rx="4" ry="2" fill="#bdbdbd"/>
+    <g fill="#757575" opacity="0.5">
+      <circle cx="-2" cy="-2" r="0.5"/>
+      <circle cx="0" cy="-2" r="0.5"/>
+      <circle cx="2" cy="-2" r="0.5"/>
+      <circle cx="-1" cy="0" r="0.5"/>
+      <circle cx="1" cy="0" r="0.5"/>
+      <circle cx="0" cy="2" r="0.5"/>
+    </g>
+    </g>
+  
+    <!-- Miniature teacup -->
+    <g transform="translate(350,450)">
+    <ellipse cx="0" cy="0" rx="8" ry="6" fill="#2196f3"/>
+    <ellipse cx="0" cy="-4" rx="6" ry="2" fill="#1976d2"/>
+    <rect x="6" y="-2" width="2" height="4" rx="1" fill="#2196f3"/>
+    <ellipse cx="0" cy="-6" rx="4" ry="1" fill="#e3f2fd"/>
+    </g>
+  
+    <!-- Dewdrops -->
+    <g fill="#4fc3f7" opacity="0.7">
+    <circle cx="100" cy="100" r="2"/>
+    <circle cx="400" cy="200" r="1"/>
+    <circle cx="80" cy="300" r="1.5"/>
+    <circle cx="420" cy="350" r="2"/>
+    <circle cx="150" cy="80" r="1"/>
+    <circle cx="350" cy="80" r="1.5"/>
+    </g>
+  
+    <!-- Tiny sparkles -->
+    <g fill="url(#delicateGrad27)" opacity="0.8">
+    <path d="M200 100 L202 98 L204 100 L202 102 Z"/>
+    <path d="M300 380 L302 378 L304 380 L302 382 Z"/>
+    <path d="M100 250 L102 248 L104 250 L102 252 Z"/>
+    <path d="M400 250 L402 248 L404 250 L402 252 Z"/>
+    <path d="M250 50 L252 48 L254 50 L252 52 Z"/>
+    <path d="M250 450 L252 448 L254 450 L252 452 Z"/>
+    </g>
+  
+    <!-- Miniature mushrooms -->
+    <g transform="translate(280,380)">
+    <ellipse cx="0" cy="2" rx="1" ry="4" fill="#8d6e63"/>
+    <ellipse cx="0" cy="-2" rx="4" ry="3" fill="#f44336"/>
+    <circle cx="-1" cy="-3" r="0.5" fill="#fff"/>
+    <circle cx="1" cy="-1" r="0.5" fill="#fff"/>
+    </g>
+  
+    <g transform="translate(220,380)">
+    <ellipse cx="0" cy="1" rx="0.8" ry="3" fill="#8d6e63"/>
+    <ellipse cx="0" cy="-1" rx="3" ry="2" fill="#ff9800"/>
+    <circle cx="0" cy="-2" r="0.3" fill="#fff"/>
+    </g>
+  
+    <!-- Tiny stars -->
+    <g fill="#fff176" opacity="0.6">
+    <g transform="translate(80,150)">
+      <path d="M0,-3 L1,0 L3,-1 L1,1 L0,3 L-1,1 L-3,-1 L-1,0 Z"/>
+    </g>
+    <g transform="translate(420,300)">
+      <path d="M0,-2 L0.5,0 L2,-0.5 L0.5,0.5 L0,2 L-0.5,0.5 L-2,-0.5 L-0.5,0 Z"/>
+    </g>
+    </g>
+  
+    <!-- Seeds -->
+    <g fill="#8d6e63" opacity="0.6">
+    <ellipse cx="180" cy="250" rx="1" ry="2"/>
+    <ellipse cx="320" cy="220" rx="1" ry="2"/>
+    <ellipse cx="150" cy="300" rx="1" ry="1"/>
+    <ellipse cx="350" cy="300" rx="1" ry="2"/>
+    </g>
+  
+    <!-- Delicate frame -->
+    <g stroke="url(#delicateGrad27)" stroke-width="1" fill="none" opacity="0.3">
+    <circle cx="250" cy="250" r="80"/>
+    <circle cx="250" cy="250" r="100"/>
+    </g>
+  
+    <!-- Kanji character 小 -->
+    <text x="450" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#e65100" opacity="0.8">小</text>
+    </g>
+  </g>
+</svg> 

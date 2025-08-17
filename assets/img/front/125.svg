@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad125" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffecb3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sageGrad125" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad125)"/>
+  
+  <!-- Elderly sage/wise person -->
+  <g transform="translate(250,300)">
+  <!-- Head -->
+  <circle cx="0" cy="0" r="25" fill="#ffdbcb"/>
+  
+  <!-- Wrinkles -->
+  <g stroke="#d7ccc8" stroke-width="2" opacity="0.7" fill="none">
+  <path d="M-15 -10 Q-10 -8 -5 -10"/>
+  <path d="M5 -10 Q10 -8 15 -10"/>
+  <path d="M-12 5 Q-7 7 -2 5"/>
+  <path d="M2 5 Q7 7 12 5"/>
+  
+  <!-- Gray hair -->
+  <path d="M-20 -15 Q0 -35 20 -15 Q15 -25 0 -30 Q-15 -25 -20 -15" 
+        fill="#e0e0e0" stroke="#bdbdbd" stroke-width="1"/>
+  
+  <!-- Beard -->
+  <ellipse cx="0" cy="18" rx="18" ry="12" fill="#e0e0e0"/>
+  
+  <!-- Eyes (wise, squinting) -->
+  <path d="M-8 -5 Q-5 -3 -2 -5" stroke="#424242" stroke-width="2" fill="none"/>
+  <path d="M2 -5 Q5 -3 8 -5" stroke="#424242" stroke-width="2" fill="none"/>
+  
+  <!-- Body/robes -->
+  <ellipse cx="0" cy="60" rx="35" ry="50" fill="url(#sageGrad125)"/>
+  
+  <!-- Arms -->
+  <ellipse cx="-25" cy="45" rx="8" ry="25" fill="url(#sageGrad125)" transform="rotate(-20)"/>
+  <ellipse cx="25" cy="45" rx="8" ry="25" fill="url(#sageGrad125)" transform="rotate(20)"/>
+  
+  <!-- Walking stick -->
+  <rect x="35" y="20" width="4" height="80" fill="#8d6e63"/>
+  <circle cx="37" cy="18" r="3" fill="#6d4c41"/>
+  
+    <!-- Main radical shape 耂 (old) -->
+    <!-- Top horizontal stroke -->
+    <path d="M180 150 L320 150" 
+        stroke="#5d4037" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+    <!-- Left vertical stroke -->
+    <path d="M200 150 L200 220" 
+        stroke="#5d4037" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Cross stroke -->
+    <path d="M180 180 L240 180" 
+        stroke="#5d4037" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+    <!-- Right side strokes -->
+    <path d="M280 170 L300 190" 
+        stroke="#5d4037" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M300 170 L280 190" 
+        stroke="#5d4037" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+    <!-- Ancient scrolls -->
+    <g transform="translate(120,350)" opacity="0.7">
+    <rect x="0" y="0" width="60" height="80" rx="5" fill="#fff3c4" stroke="#d7ccc8" stroke-width="2"/>
+    <!-- Text lines -->
+    <g stroke="#8d6e63" stroke-width="1">
+      <line x1="10" y1="15" x2="50" y2="15"/>
+      <line x1="10" y1="25" x2="50" y2="25"/>
+      <line x1="10" y1="35" x2="50" y2="35"/>
+      <line x1="10" y1="45" x2="50" y2="45"/>
+      <line x1="10" y1="55" x2="50" y2="55"/>
+    </g>
+    </g>
+  
+    <!-- Ancient tree (symbol of age) -->
+    <g transform="translate(380,350)" opacity="0.6">
+    <rect x="0" y="0" width="15" height="100" fill="#8d6e63"/>
+    <!-- Gnarled branches -->
+    <path d="M7 20 Q-5 10 -15 25" stroke="#8d6e63" stroke-width="4" fill="none"/>
+    <path d="M7 40 Q20 30 30 45" stroke="#8d6e63" stroke-width="4" fill="none"/>
+    <!-- Sparse leaves -->
+    <g fill="#4caf50" opacity="0.5">
+      <circle cx="-12" cy="28" r="3"/>
+      <circle cx="25" cy="48" r="3"/>
+      <circle cx="5" cy="15" r="2"/>
+    </g>
+    </g>
+  
+    <!-- Hourglass (time passing) -->
+    <g transform="translate(100,200)" opacity="0.8">
+    <path d="M0 0 L20 0 L20 10 L10 20 L20 30 L20 40 L0 40 L0 30 L10 20 L0 10 Z" 
+          fill="#fff3c4" stroke="#8d6e63" stroke-width="2"/>
+    <!-- Sand -->
+    <ellipse cx="10" cy="35" rx="8" ry="3" fill="#ffcc02"/>
+    <ellipse cx="10" cy="5" rx="6" ry="2" fill="#ffcc02"/>
+    </g>
+  
+    <!-- Calendar pages (years passing) -->
+    <g transform="translate(400,150)" opacity="0.6">
+    <rect x="0" y="0" width="20" height="25" fill="#ffffff" stroke="#bdbdbd" stroke-width="1"/>
+    <rect x="3" y="3" width="20" height="25" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1"/>
+    <rect x="6" y="6" width="20" height="25" fill="#eeeeee" stroke="#bdbdbd" stroke-width="1"/>
+    <!-- Numbers -->
+    <text x="16" y="18" font-family="Arial" font-size="8" text-anchor="middle" fill="#424242">2024</text>
+    </g>
+  
+    <!-- Gray/white hair strands -->
+    <g stroke="#e0e0e0" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M200 120 Q205 110 210 120"/>
+    <path d="M290 120 Q295 110 300 120"/>
+    <path d="M230 115 Q235 105 240 115"/>
+    </g>
+  
+    <!-- Wisdom symbols -->
+    <g transform="translate(380,250)" stroke="#8d6e63" stroke-width="2" opacity="0.5" fill="none">
+    <circle cx="0" cy="0" r="10"/>
+    <path d="M-6 -3 Q0 -8 6 -3"/>
+    <circle cx="-3" cy="-3" r="1" fill="#8d6e63"/>
+    <circle cx="3" cy="-3" r="1" fill="#8d6e63"/>
+    <path d="M-3 3 Q0 6 3 3"/>
+    </g>
+  
+    <!-- Walking path (worn with age) -->
+    <path d="M100 450 Q250 430 400 450" 
+        stroke="#d7ccc8" stroke-width="4" opacity="0.5" fill="none"/>
+  
+    <!-- Footprints -->
+    <g fill="#d7ccc8" opacity="0.4">
+    <ellipse cx="180" cy="445" rx="6" ry="3"/>
+    <ellipse cx="200" cy="440" rx="6" ry="3"/>
+    <ellipse cx="220" cy="445" rx="6" ry="3"/>
+    </g>
+  
+    <!-- Kanji character 耂 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#5d4037" opacity="0.8">耂</text>
+    </g>
+  </g>
+</svg> 

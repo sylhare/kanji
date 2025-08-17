@@ -1,0 +1,86 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="70%" stop-color="#E0F6FF"/>
+      <stop offset="100%" stop-color="#F0F8FF"/>
+    </linearGradient>
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4682B4"/>
+      <stop offset="50%" stop-color="#708090"/>
+      <stop offset="100%" stop-color="#2F4F4F"/>
+    </linearGradient>
+    <linearGradient id="mountain2Gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6495ED"/>
+      <stop offset="50%" stop-color="#778899"/>
+      <stop offset="100%" stop-color="#483D8B"/>
+    </linearGradient>
+    <linearGradient id="riverGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00CED1"/>
+      <stop offset="50%" stop-color="#40E0D0"/>
+      <stop offset="100%" stop-color="#008B8B"/>
+    </linearGradient>
+    <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#90EE90"/>
+      <stop offset="50%" stop-color="#32CD32"/>
+      <stop offset="100%" stop-color="#228B22"/>
+    </linearGradient>
+  </defs>  <!-- Sky background -->
+  <rect width="500" height="500" fill="url(#skyGradient)"/>
+  
+  <!-- Left mountain -->
+  <path d="M0 400 L0 200 L100 80 L150 120 L180 180 L120 240 L0 280 Z" 
+    fill="url(#mountainGradient)" stroke="#2F4F4F" stroke-width="1"/>
+  
+  <!-- Right mountain -->
+  <path d="M400 400 L400 180 L320 60 L280 100 L250 160 L300 220 L380 260 L400 300 Z" 
+    fill="url(#mountain2Gradient)" stroke="#483D8B" stroke-width="1"/>
+  
+  <!-- Snow caps -->
+  <path d="M80 90 L100 80 L120 95 L110 100 L90 105 Z" fill="#FFFFFF" opacity="0.9"/>
+  <path d="M300 70 L320 60 L340 75 L330 80 L310 85 Z" fill="#FFFFFF" opacity="0.9"/>
+  
+  <!-- Valley floor -->
+  <path d="M120 240 L180 180 L250 160 L300 220 L380 260 L400 300 L400 400 L0 400 L0 280 Z" 
+    fill="url(#grassGradient)"/>
+  
+  <!-- River flowing through valley -->
+  <path d="M180 180 Q200 200 220 180 Q240 200 260 180 Q280 200 300 220 Q320 240 340 260 Q360 280 380 300" 
+    stroke="url(#riverGradient)" stroke-width="12" fill="none"/>
+  
+  <!-- River reflection -->
+  <path d="M180 180 Q200 200 220 180 Q240 200 260 180 Q280 200 300 220 Q320 240 340 260 Q360 280 380 300" 
+    stroke="#B0E0E6" stroke-width="6" fill="none" opacity="0.6"/>
+  
+  <!-- Trees on valley sides -->
+  <circle cx="50" cy="250" r="15" fill="#228B22"/>
+  <rect x="47" y="250" width="6" height="25" fill="#8B4513"/>
+  
+  <circle cx="80" cy="270" r="12" fill="#32CD32"/>
+  <rect x="77" y="270" width="5" height="20" fill="#8B4513"/>
+  
+  <circle cx="350" cy="240" r="18" fill="#228B22"/>
+  <rect x="346" y="240" width="7" height="30" fill="#8B4513"/>
+  
+  <circle cx="320" cy="270" r="14" fill="#32CD32"/>
+  <rect x="317" y="270" width="6" height="25" fill="#8B4513"/>
+  
+  <!-- Clouds -->
+  <circle cx="100" cy="50" r="20" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="120" cy="45" r="25" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="140" cy="50" r="18" fill="#FFFFFF" opacity="0.8"/>
+  
+  <circle cx="280" cy="40" r="22" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="300" cy="35" r="28" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="320" cy="40" r="20" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Small flowers in the valley -->
+  <circle cx="200" cy="320" r="3" fill="#FF69B4"/>
+  <circle cx="230" cy="330" r="2" fill="#FFD700"/>
+  <circle cx="270" cy="310" r="3" fill="#FF1493"/>
+  <circle cx="160" cy="340" r="2" fill="#00CED1"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="80" r="25" fill="#FFD700" opacity="0.9"/>
+  <circle cx="350" cy="80" r="20" fill="#FFA500" opacity="0.7"/>
+</svg> 

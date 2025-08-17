@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad139" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fafafa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f5f5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="rainbowGrad139" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f44336;stop-opacity:1" />
+      <stop offset="16.66%" style="stop-color:#ff9800;stop-opacity:1" />
+      <stop offset="33.33%" style="stop-color:#ffeb3b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="66.66%" style="stop-color:#2196f3;stop-opacity:1" />
+      <stop offset="83.33%" style="stop-color:#3f51b5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9c27b0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad139)"/>
+  
+  <!-- Rainbow arc -->
+  <g transform="translate(250,400)">
+  <path d="M-150 0 Q0 -100 150 0" stroke="url(#rainbowGrad139)" stroke-width="20" fill="none"/>
+  <path d="M-140 0 Q0 -85 140 0" stroke="#ffffff" stroke-width="3" fill="none"/>
+  
+  <!-- Main radical shape 色 (color) -->
+  <!-- Top stroke -->
+  <path d="M200 150 L280 150 Q300 150 300 170" 
+      stroke="#424242" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Left vertical stroke -->
+  <path d="M220 150 L220 250" 
+      stroke="#424242" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Middle stroke -->
+  <path d="M200 200 L300 200" 
+      stroke="#424242" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right curved stroke -->
+  <path d="M300 170 Q320 200 300 230" 
+      stroke="#424242" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom stroke -->
+  <path d="M220 250 L300 230" 
+      stroke="#424242" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Artist's palette -->
+  <g transform="translate(120,250)" opacity="0.9">
+  <!-- Palette shape -->
+  <path d="M0 0 Q20 -10 40 0 Q50 10 45 20 Q35 25 25 20 Q15 25 5 20 Q-5 10 0 0" 
+        fill="#ffffff" stroke="#bdbdbd" stroke-width="2"/>
+  
+  <!-- Paint dabs -->
+  <circle cx="8" cy="5" r="4" fill="#f44336"/>
+  <circle cx="20" cy="2" r="4" fill="#ff9800"/>
+  <circle cx="32" cy="5" r="4" fill="#ffeb3b"/>
+  <circle cx="25" cy="15" r="4" fill="#4caf50"/>
+  <circle cx="15" cy="18" r="4" fill="#2196f3"/>
+  <circle cx="35" cy="18" r="4" fill="#9c27b0"/>
+  
+  <!-- Thumb hole -->
+  <ellipse cx="30" cy="12" rx="3" ry="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1"/>
+  
+    <!-- Paint brushes -->
+    <g transform="translate(380,200)" opacity="0.8">
+    <!-- Brush 1 -->
+    <rect x="0" y="0" width="3" height="40" fill="#8d6e63"/>
+    <ellipse cx="1.5" cy="-5" rx="3" ry="8" fill="#f44336"/>
+    
+    <!-- Brush 2 -->
+    <rect x="8" y="0" width="3" height="40" fill="#8d6e63"/>
+    <ellipse cx="9.5" cy="-5" rx="3" ry="8" fill="#2196f3"/>
+    
+    <!-- Brush 3 -->
+    <rect x="16" y="0" width="3" height="40" fill="#8d6e63"/>
+    <ellipse cx="17.5" cy="-5" rx="3" ry="8" fill="#ffeb3b"/>
+    
+    <!-- Brush holder -->
+    <ellipse cx="9.5" cy="45" rx="12" ry="5" fill="#9e9e9e"/>
+    </g>
+  
+    <!-- Color wheel -->
+    <g transform="translate(100,150)" opacity="0.7">
+    <!-- Outer ring -->
+    <circle cx="0" cy="0" r="25" fill="none" stroke="url(#rainbowGrad139)" stroke-width="8"/>
+    
+    <!-- Inner sections -->
+    <g fill="#ffffff" opacity="0.8">
+      <circle cx="0" cy="0" r="12"/>
+    </g>
+    
+    <!-- Primary colors -->
+    <circle cx="0" cy="-15" r="4" fill="#f44336"/>
+    <circle cx="13" cy="7" r="4" fill="#ffeb3b"/>
+    <circle cx="-13" cy="7" r="4" fill="#2196f3"/>
+    
+    <!-- Center -->
+    <circle cx="0" cy="0" r="3" fill="#424242"/>
+    </g>
+  
+    <!-- Paint tubes -->
+    <g transform="translate(400,350)" opacity="0.8">
+    <!-- Red tube -->
+    <rect x="0" y="0" width="8" height="30" rx="4" fill="#f44336"/>
+    <rect x="2" y="-3" width="4" height="6" fill="#e57373"/>
+    
+    <!-- Blue tube -->
+    <rect x="12" y="0" width="8" height="30" rx="4" fill="#2196f3"/>
+    <rect x="14" y="-3" width="4" height="6" fill="#64b5f6"/>
+    
+    <!-- Yellow tube -->
+    <rect x="24" y="0" width="8" height="30" rx="4" fill="#ffeb3b"/>
+    <rect x="26" y="-3" width="4" height="6" fill="#fff176"/>
+    </g>
+  
+    <!-- Colorful flowers -->
+    <g transform="translate(150,380)" opacity="0.7">
+    <!-- Red flower -->
+    <g fill="#f44336">
+      <circle cx="-5" cy="-5" r="3"/>
+      <circle cx="5" cy="-5" r="3"/>
+      <circle cx="5" cy="5" r="3"/>
+      <circle cx="-5" cy="5" r="3"/>
+      <circle cx="0" cy="0" r="4" fill="#ffeb3b"/>
+    </g>
+    
+    <!-- Blue flower -->
+    <g transform="translate(20,0)" fill="#2196f3">
+      <circle cx="-4" cy="-4" r="3"/>
+      <circle cx="4" cy="-4" r="3"/>
+      <circle cx="4" cy="4" r="3"/>
+      <circle cx="-4" cy="4" r="3"/>
+      <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+    </g>
+    
+    <!-- Stems -->
+    <rect x="-1" y="8" width="2" height="15" fill="#4caf50"/>
+    <rect x="19" y="8" width="2" height="15" fill="#4caf50"/>
+    </g>
+  
+    <!-- Stained glass window -->
+    <g transform="translate(350,120)" opacity="0.6">
+    <!-- Frame -->
+    <rect x="0" y="0" width="40" height="60" rx="5" fill="#424242" stroke="#212121" stroke-width="2"/>
+    
+    <!-- Glass panels -->
+    <rect x="5" y="5" width="15" height="25" fill="#f44336" opacity="0.8"/>
+    <rect x="20" y="5" width="15" height="25" fill="#2196f3" opacity="0.8"/>
+    <rect x="5" y="30" width="15" height="25" fill="#ffeb3b" opacity="0.8"/>
+    <rect x="20" y="30" width="15" height="25" fill="#4caf50" opacity="0.8"/>
+    
+    <!-- Lead lines -->
+    <g stroke="#424242" stroke-width="1">
+      <line x1="20" y1="5" x2="20" y2="55"/>
+      <line x1="5" y1="30" x2="35" y2="30"/>
+    </g>
+    </g>
+  
+    <!-- Mixing colors -->
+    <g transform="translate(200,350)" opacity="0.7">
+    <!-- Color drops mixing -->
+    <circle cx="0" cy="0" r="6" fill="#f44336" opacity="0.7"/>
+    <circle cx="8" cy="0" r="6" fill="#ffeb3b" opacity="0.7"/>
+    <!-- Result -->
+    <circle cx="4" cy="8" r="5" fill="#ff9800"/>
+    
+    <!-- Blue + Yellow = Green -->
+    <circle cx="20" cy="0" r="6" fill="#2196f3" opacity="0.7"/>
+    <circle cx="28" cy="0" r="6" fill="#ffeb3b" opacity="0.7"/>
+    <circle cx="24" cy="8" r="5" fill="#4caf50"/>
+    </g>
+  
+    <!-- Colorful butterfly -->
+    <g transform="translate(80,300)" opacity="0.8">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="2" ry="15" fill="#424242"/>
+    
+    <!-- Wings -->
+    <ellipse cx="-8" cy="-5" rx="8" ry="12" fill="#f44336" opacity="0.8"/>
+    <ellipse cx="8" cy="-5" rx="8" ry="12" fill="#2196f3" opacity="0.8"/>
+    <ellipse cx="-6" cy="5" rx="6" ry="8" fill="#ffeb3b" opacity="0.8"/>
+    <ellipse cx="6" cy="5" rx="6" ry="8" fill="#4caf50" opacity="0.8"/>
+    
+    <!-- Wing patterns -->
+    <circle cx="-8" cy="-8" r="2" fill="#ffffff"/>
+    <circle cx="8" cy="-8" r="2" fill="#ffffff"/>
+    
+    <!-- Antennae -->
+    <path d="M-2 -15 Q-5 -20 -3 -18" stroke="#424242" stroke-width="1" fill="none"/>
+    <path d="M2 -15 Q5 -20 3 -18" stroke="#424242" stroke-width="1" fill="none"/>
+    </g>
+  
+    <!-- Prism splitting light -->
+    <g transform="translate(450,200)" opacity="0.6">
+    <!-- Prism -->
+    <path d="M0 0 L15 10 L0 20 Z" fill="#e0e0e0" stroke="#bdbdbd" stroke-width="1"/>
+    
+    <!-- White light entering -->
+    <rect x="-20" y="8" width="20" height="4" fill="#ffffff"/>
+    
+    <!-- Rainbow spectrum exiting -->
+    <g transform="translate(15,10)">
+      <rect x="0" y="0" width="15" height="1" fill="#f44336"/>
+      <rect x="0" y="2" width="15" height="1" fill="#ff9800"/>
+      <rect x="0" y="4" width="15" height="1" fill="#ffeb3b"/>
+      <rect x="0" y="6" width="15" height="1" fill="#4caf50"/>
+      <rect x="0" y="8" width="15" height="1" fill="#2196f3"/>
+      <rect x="0" y="10" width="15" height="1" fill="#9c27b0"/>
+    </g>
+    </g>
+  
+    <!-- Color chart -->
+    <g transform="translate(80,100)" opacity="0.5">
+    <!-- Primary colors -->
+    <rect x="0" y="0" width="12" height="12" fill="#f44336"/>
+    <rect x="15" y="0" width="12" height="12" fill="#ffeb3b"/>
+    <rect x="30" y="0" width="12" height="12" fill="#2196f3"/>
+    
+    <!-- Secondary colors -->
+    <rect x="0" y="15" width="12" height="12" fill="#ff9800"/>
+    <rect x="15" y="15" width="12" height="12" fill="#4caf50"/>
+    <rect x="30" y="15" width="12" height="12" fill="#9c27b0"/>
+    </g>
+  
+    <!-- Kanji character 色 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#424242" opacity="0.8">色</text>
+    </g>
+  </g>
+</svg> 

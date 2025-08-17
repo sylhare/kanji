@@ -1,0 +1,160 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="faceGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFDAB9"/>
+      <stop offset="50%" stop-color="#DEB887"/>
+      <stop offset="100%" stop-color="#CD853F"/>
+    </radialGradient>
+    <linearGradient id="mirrorGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F8FF"/>
+      <stop offset="50%" stop-color="#E6E6FA"/>
+      <stop offset="100%" stop-color="#D3D3D3"/>
+    </linearGradient>
+    <radialGradient id="waterGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#E0F6FF"/>
+      <stop offset="50%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#4682B4"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#F0F8FF"/>
+  
+  <!-- Main human face -->
+  <circle cx="150" cy="150" r="60" fill="url(#faceGradient)" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="135" cy="135" rx="8" ry="12" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <ellipse cx="165" cy="135" rx="8" ry="12" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <circle cx="135" cy="135" r="4" fill="#4169E1"/>
+  <circle cx="165" cy="135" r="4" fill="#4169E1"/>
+  <circle cx="137" cy="133" r="1.5" fill="#FFF"/>
+  <circle cx="167" cy="133" r="1.5" fill="#FFF"/>
+  
+  <!-- Eyebrows -->
+  <path d="M125 125 Q135 120 145 125" stroke="#8B4513" stroke-width="3" fill="none"/>
+  <path d="M155 125 Q165 120 175 125" stroke="#8B4513" stroke-width="3" fill="none"/>
+  
+  <!-- Nose -->
+  <ellipse cx="150" cy="150" rx="4" ry="8" fill="#DEB887" stroke="#CD853F" stroke-width="1"/>
+  
+  <!-- Mouth -->
+  <path d="M140 165 Q150 175 160 165" stroke="#DC143C" stroke-width="3" fill="none"/>
+  
+  <!-- Hair -->
+  <path d="M100 120 Q120 100 150 110 Q180 100 200 120 Q190 90 150 90 Q110 90 100 120" 
+    fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Different facial expressions -->
+  <!-- Happy face -->
+  <circle cx="300" cy="100" r="40" fill="url(#faceGradient)" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="290" cy="90" r="3" fill="#000"/>
+  <circle cx="310" cy="90" r="3" fill="#000"/>
+  <path d="M285 110 Q300 120 315 110" stroke="#DC143C" stroke-width="2" fill="none"/>
+  
+  <!-- Sad face -->
+  <circle cx="80" cy="280" r="35" fill="url(#faceGradient)" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="72" cy="270" r="2.5" fill="#000"/>
+  <circle cx="88" cy="270" r="2.5" fill="#000"/>
+  <path d="M70 295 Q80 285 90 295" stroke="#4169E1" stroke-width="2" fill="none"/>
+  <!-- Tears -->
+  <ellipse cx="70" cy="275" rx="2" ry="6" fill="#87CEEB"/>
+  <ellipse cx="90" cy="275" rx="2" ry="6" fill="#87CEEB"/>
+  
+  <!-- Surprised face -->
+  <circle cx="320" cy="280" r="35" fill="url(#faceGradient)" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="312" cy="270" r="4" fill="#000"/>
+  <circle cx="328" cy="270" r="4" fill="#000"/>
+  <circle cx="320" cy="290" r="6" fill="#FF69B4"/>
+  
+  <!-- Mirror/reflective surface -->
+  <ellipse cx="250" cy="200" rx="40" ry="60" fill="url(#mirrorGradient)" stroke="#C0C0C0" stroke-width="4"/>
+  
+  <!-- Reflection in mirror -->
+  <circle cx="250" cy="180" r="25" fill="url(#faceGradient)" stroke="#8B4513" stroke-width="1"/>
+  <circle cx="242" cy="172" r="2" fill="#000"/>
+  <circle cx="258" cy="172" r="2" fill="#000"/>
+  <path d="M245 185 Q250 190 255 185" stroke="#DC143C" stroke-width="1" fill="none"/>
+  
+  <!-- Water surface with reflection -->
+  <ellipse cx="120" cy="350" rx="80" ry="25" fill="url(#waterGradient)" stroke="#4682B4" stroke-width="2"/>
+  
+  <!-- Face reflection in water -->
+  <ellipse cx="120" cy="355" rx="15" ry="8" fill="url(#faceGradient)" opacity="0.6"/>
+  <circle cx="115" cy="353" r="1" fill="#000" opacity="0.6"/>
+  <circle cx="125" cy="353" r="1" fill="#000" opacity="0.6"/>
+  
+  <!-- Water ripples -->
+  <ellipse cx="120" cy="350" rx="60" ry="18" fill="none" stroke="#87CEEB" stroke-width="1" opacity="0.7"/>
+  <ellipse cx="120" cy="350" rx="40" ry="12" fill="none" stroke="#B0E0E6" stroke-width="1" opacity="0.7"/>
+  
+  <!-- Different surface textures -->
+  <!-- Wooden surface -->
+  <rect x="300" y="320" width="80" height="60" fill="#DEB887" stroke="#8B4513" stroke-width="2"/>
+  <path d="M305 330 Q340 325 375 330" stroke="#CD853F" stroke-width="2" fill="none"/>
+  <path d="M305 350 Q340 345 375 350" stroke="#CD853F" stroke-width="2" fill="none"/>
+  <path d="M305 370 Q340 365 375 370" stroke="#CD853F" stroke-width="2" fill="none"/>
+  
+  <!-- Metallic surface -->
+  <rect x="20" y="50" width="60" height="40" fill="url(#mirrorGradient)" stroke="#A9A9A9" stroke-width="2"/>
+  <path d="M25 60 L75 60" stroke="#E6E6FA" stroke-width="1"/>
+  <path d="M25 70 L75 70" stroke="#E6E6FA" stroke-width="1"/>
+  <path d="M25 80 L75 80" stroke="#E6E6FA" stroke-width="1"/>
+  
+  <!-- Stone surface -->
+  <ellipse cx="350" cy="180" rx="35" ry="25" fill="#A9A9A9" stroke="#696969" stroke-width="2"/>
+  <circle cx="340" cy="175" r="3" fill="#D3D3D3"/>
+  <circle cx="355" cy="185" r="2" fill="#D3D3D3"/>
+  <circle cx="345" cy="190" r="2.5" fill="#D3D3D3"/>
+  
+  <!-- Glass surface -->
+  <rect x="200" y="300" width="50" height="80" fill="#E0F6FF" stroke="#87CEEB" stroke-width="3" opacity="0.8"/>
+  <!-- Light reflection on glass -->
+  <rect x="205" y="305" width="8" height="70" fill="#FFF" opacity="0.6"/>
+  
+  <!-- Computer screen (digital surface) -->
+  <rect x="50" y="160" width="60" height="45" fill="#000" stroke="#2F2F2F" stroke-width="3"/>
+  <rect x="55" y="165" width="50" height="35" fill="#4169E1"/>
+  <!-- Pixelated face on screen -->
+  <rect x="65" y="175" width="6" height="6" fill="#FFDAB9"/>
+  <rect x="75" y="175" width="6" height="6" fill="#FFDAB9"/>
+  <rect x="65" y="185" width="6" height="6" fill="#000"/>
+  <rect x="75" y="185" width="6" height="6" fill="#000"/>
+  <rect x="70" y="190" width="6" height="3" fill="#FF0000"/>
+  
+  <!-- Moon face -->
+  <circle cx="50" cy="50" r="25" fill="#F0E68C" stroke="#DAA520" stroke-width="2"/>
+  <circle cx="42" cy="42" r="2" fill="#000"/>
+  <circle cx="58" cy="42" r="2" fill="#000"/>
+  <path d="M42 58 Q50 63 58 58" stroke="#8B4513" stroke-width="1" fill="none"/>
+  <!-- Moon craters -->
+  <circle cx="45" cy="55" r="2" fill="#DEB887"/>
+  <circle cx="60" cy="50" r="1.5" fill="#DEB887"/>
+  
+  <!-- Sun face -->
+  <circle cx="350" cy="50" r="25" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+  <circle cx="342" cy="42" r="2" fill="#000"/>
+  <circle cx="358" cy="42" r="2" fill="#000"/>
+  <path d="M342 58 Q350 63 358 58" stroke="#FF8C00" stroke-width="1" fill="none"/>
+  <!-- Sun rays -->
+  <path d="M325 50 L315 50" stroke="#FFD700" stroke-width="3"/>
+  <path d="M375 50 L385 50" stroke="#FFD700" stroke-width="3"/>
+  <path d="M350 25 L350 15" stroke="#FFD700" stroke-width="3"/>
+  <path d="M350 75 L350 85" stroke="#FFD700" stroke-width="3"/>
+  
+  <!-- Clock face -->
+  <circle cx="280" cy="350" r="30" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <circle cx="280" cy="350" r="2" fill="#000"/>
+  <!-- Clock numbers -->
+  <text x="280" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#000">12</text>
+  <text x="295" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#000">3</text>
+  <text x="280" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#000">6</text>
+  <text x="265" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#000">9</text>
+  <!-- Clock hands -->
+  <path d="M280 350 L280 340" stroke="#000" stroke-width="3"/>
+  <path d="M280 350 L290 350" stroke="#000" stroke-width="2"/>
+  
+  <!-- Chinese character -->
+  <text x="200" y="30" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#4B0082">面</text>
+  
+  <!-- Title -->
+  <text x="200" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2F4F4F">FACES &amp; SURFACES</text>
+</svg> 

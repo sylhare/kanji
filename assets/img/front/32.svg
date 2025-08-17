@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad32" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5ab;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4af37;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="earthGrad32" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad32)"/>
+  
+  <!-- Ground layers -->
+  <rect x="0" y="350" width="500" height="150" fill="#8d6e63" opacity="0.6"/>
+  <rect x="0" y="400" width="500" height="100" fill="#6d4c41" opacity="0.7"/>
+  <rect x="0" y="450" width="500" height="50" fill="#5d4037" opacity="0.8"/>
+  
+  <!-- Main radical shape 土 (earth) -->
+  <!-- Top horizontal stroke -->
+  <path d="M180 180 L320 180" 
+    stroke="url(#earthGrad32)" stroke-width="16" fill="none" stroke-linecap="round"/>
+  
+  <!-- Vertical stroke -->
+  <path d="M250 180 L250 320" 
+    stroke="url(#earthGrad32)" stroke-width="16" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom horizontal stroke -->
+  <path d="M170 320 L330 320" 
+    stroke="url(#earthGrad32)" stroke-width="16" fill="none" stroke-linecap="round"/>
+  
+  <!-- Soil particles -->
+  <g fill="#8d6e63" opacity="0.5">
+  <circle cx="150" cy="250" r="3"/>
+  <circle cx="350" cy="270" r="4"/>
+  <circle cx="120" cy="300" r="2"/>
+  <circle cx="380" cy="310" r="3"/>
+  <circle cx="180" cy="380" r="2"/>
+  <circle cx="320" cy="390" r="3"/>
+  
+  <!-- Small plants growing from earth -->
+  <g opacity="0.6">
+  <path d="M200 340 Q195 330 190 340" stroke="#4caf50" stroke-width="2" fill="none"/>
+  <path d="M300 350 Q305 340 310 350" stroke="#4caf50" stroke-width="2" fill="none"/>
+  <circle cx="190" cy="340" r="2" fill="#4caf50"/>
+  <circle cx="310" cy="350" r="2" fill="#4caf50"/>
+  
+    <!-- Rock/mineral deposits -->
+    <g fill="#37474f" opacity="0.4">
+    <ellipse cx="130" cy="420" rx="8" ry="5"/>
+    <ellipse cx="370" cy="430" rx="6" ry="4"/>
+    <ellipse cx="200" cy="470" rx="10" ry="6"/>
+    </g>
+  
+    <!-- Dust/earth texture -->
+    <g fill="#a1887f" opacity="0.3">
+    <circle cx="160" cy="360" r="1"/>
+    <circle cx="340" cy="370" r="1"/>
+    <circle cx="280" cy="440" r="1"/>
+    <circle cx="220" cy="460" r="1"/>
+    </g>
+  
+    <!-- Kanji character 土 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#5d4037" opacity="0.8">土</text>
+    </g>
+  </g>
+</svg> 

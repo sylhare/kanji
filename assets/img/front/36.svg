@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad36" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9800;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff5722;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d84315;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunsetGrad36" cx="30%" cy="40%" r="80%">
+      <stop offset="0%" style="stop-color:#ffeb3b;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#ff9800;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#ff5722;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d84315;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="twilightGrad36" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff7043;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff5722;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bf360c;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glowGrad36" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#ffab91;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffab91;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="skyGrad36" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff8a65;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#ff7043;stop-opacity:0.6" />
+    </linearGradient>
+    <radialGradient id="moonGrad36" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff3c4;stop-opacity:1" />
+    </radialGradient>
+    <filter id="evening36">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Evening sky background -->
+  <rect width="500" height="500" fill="url(#bgGrad36)"/>
+  
+  <!-- Sunset atmosphere -->
+  <ellipse cx="250" cy="150" rx="300" ry="100" fill="url(#glowGrad36)"/>
+  
+  <!-- Setting sun -->
+  <g transform="translate(120,150)" opacity="0.95">
+  <!-- Main sun disk -->
+  <circle cx="0" cy="0" r="40" fill="url(#sunsetGrad36)" filter="url(#evening36)"/>
+  
+  <!-- Sun's inner glow -->
+  <circle cx="0" cy="0" r="30" fill="#fff176" opacity="0.8"/>
+  <circle cx="0" cy="0" r="20" fill="#ffeb3b" opacity="0.9"/>
+  
+  <!-- Sun rays -->
+  <g stroke="#ff9800" stroke-width="3" opacity="0.7">
+  <line x1="0" y1="-55" x2="0" y2="-75"/>
+  <line x1="39" y1="-28" x2="54" y2="-39"/>
+  <line x1="39" y1="28" x2="54" y2="39"/>
+  <line x1="0" y1="55" x2="0" y2="75"/>
+  <line x1="-39" y1="28" x2="-54" y2="39"/>
+  <line x1="-39" y1="-28" x2="-54" y2="-39"/>
+  <line x1="-28" y1="-39" x2="-39" y2="-54"/>
+  <line x1="28" y1="-39" x2="39" y2="-54"/>
+  
+  <!-- Horizon line cutting through sun -->
+  <rect x="-60" y="25" width="120" height="50" fill="url(#twilightGrad36)" opacity="0.6"/>
+  
+    <!-- Evening clouds -->
+    <g opacity="0.8">
+    <!-- Cloud 1 -->
+    <g transform="translate(300,120)">
+      <ellipse cx="0" cy="0" rx="25" ry="12" fill="#ff8a65" opacity="0.9"/>
+      <ellipse cx="15" cy="-3" rx="20" ry="10" fill="#ff7043" opacity="0.8"/>
+      <ellipse cx="-12" cy="2" rx="18" ry="8" fill="#ff5722" opacity="0.7"/>
+    </g>
+    
+    <!-- Cloud 2 -->
+    <g transform="translate(400,100)">
+      <ellipse cx="0" cy="0" rx="20" ry="10" fill="#ff7043" opacity="0.8"/>
+      <ellipse cx="12" cy="-2" rx="15" ry="8" fill="#ff5722" opacity="0.7"/>
+      <ellipse cx="-8" cy="1" rx="12" ry="6" fill="#d84315" opacity="0.6"/>
+    </g>
+    
+    <!-- Cloud 3 -->
+    <g transform="translate(450,140)">
+      <ellipse cx="0" cy="0" rx="15" ry="8" fill="#ff5722" opacity="0.7"/>
+      <ellipse cx="8" cy="-1" rx="12" ry="6" fill="#d84315" opacity="0.6"/>
+    </g>
+    </g>
+  
+    <!-- Mountain silhouettes -->
+    <g opacity="0.7">
+    <path d="M0,300 Q50,250 100,280 Q150,240 200,270 Q250,220 300,260 Q350,200 400,250 Q450,230 500,270 L500,500 L0,500 Z" 
+          fill="#bf360c" opacity="0.8"/>
+    
+    <path d="M50,320 Q100,270 150,300 Q200,260 250,290 Q300,250 350,280 Q400,260 450,300 L500,500 L0,500 Z" 
+          fill="#d84315" opacity="0.6"/>
+    </g>
+  
+    <!-- Evening birds -->
+    <g transform="translate(250,180)" opacity="0.6">
+    <!-- Flying birds silhouettes -->
+    <g fill="#5d4037">
+      <path d="M0,0 Q-8,-3 -12,0 Q-8,3 0,0 Q8,-3 12,0 Q8,3 0,0"/>
+      <path d="M20,-5 Q12,-8 8,-5 Q12,-2 20,-5 Q28,-8 32,-5 Q28,-2 20,-5"/>
+      <path d="M-25,8 Q-33,5 -37,8 Q-33,11 -25,8 Q-17,5 -13,8 Q-17,11 -25,8"/>
+      <path d="M40,10 Q32,7 28,10 Q32,13 40,10 Q48,7 52,10 Q48,13 40,10"/>
+      <path d="M-10,15 Q-18,12 -22,15 Q-18,18 -10,15 Q-2,12 2,15 Q-2,18 -10,15"/>
+    </g>
+    </g>
+  
+    <!-- Evening crescent moon -->
+    <g transform="translate(380,80)" opacity="0.8">
+    <!-- Moon -->
+    <circle cx="0" cy="0" r="20" fill="url(#moonGrad36)"/>
+    
+    <!-- Crescent shadow -->
+    <circle cx="8" cy="-3" r="18" fill="#ff8a65" opacity="0.3"/>
+    
+    <!-- Moon craters -->
+    <g fill="#fff3c4" opacity="0.6">
+      <circle cx="-5" cy="-8" r="2"/>
+      <circle cx="3" cy="5" r="1"/>
+      <circle cx="-8" cy="4" r="1"/>
+    </g>
+    
+    <!-- Moon glow -->
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#fff8e1" stroke-width="2" opacity="0.4"/>
+    </g>
+  
+    <!-- Evening activities -->
+    <g transform="translate(300,350)" opacity="0.8">
+    <!-- Campfire -->
+    <g>
+      <!-- Fire -->
+      <ellipse cx="0" cy="0" rx="8" ry="15" fill="#ffeb3b" opacity="0.9"/>
+      <ellipse cx="0" cy="0" rx="5" ry="10" fill="#ff9800" opacity="0.8"/>
+      <ellipse cx="0" cy="0" rx="3" ry="6" fill="#ff5722" opacity="0.9"/>
+      
+      <!-- Wood logs -->
+      <ellipse cx="-8" cy="12" rx="12" ry="3" fill="#8d6e63" transform="rotate(-30 -8 12)"/>
+      <ellipse cx="8" cy="12" rx="12" ry="3" fill="#6d4c41" transform="rotate(30 8 12)"/>
+      <ellipse cx="0" cy="15" rx="10" ry="2" fill="#8d6e63"/>
+      
+      <!-- Sparks -->
+      <g fill="#ff9800" opacity="0.7">
+        <circle cx="-3" cy="-20" r="1"/>
+        <circle cx="5" cy="-18" r="1"/>
+        <circle cx="1" cy="-25" r="1"/>
+        <circle cx="-6" cy="-15" r="1"/>
+      </g>
+    </g>
+    </g>
+  
+    <!-- Evening flowers -->
+    <g transform="translate(80,380)" opacity="0.7">
+    <!-- Evening primrose -->
+    <g>
+      <!-- Stem -->
+      <rect x="-1" y="0" width="2" height="30" rx="1" fill="#4caf50"/>
+      
+      <!-- Flower -->
+      <g transform="translate(0,-5)">
+        <circle cx="0" cy="0" r="8" fill="#ff9800" opacity="0.9"/>
+        <g fill="#ffeb3b" opacity="0.8">
+          <ellipse cx="0" cy="-6" rx="3" ry="8"/>
+          <ellipse cx="6" cy="0" rx="8" ry="3"/>
+          <ellipse cx="0" cy="6" rx="3" ry="8"/>
+          <ellipse cx="-6" cy="0" rx="8" ry="3"/>
+        </g>
+        <circle cx="0" cy="0" r="3" fill="#ff5722"/>
+      </g>
+      
+      <!-- Leaves -->
+      <ellipse cx="-6" cy="15" rx="4" ry="2" fill="#66bb6a" transform="rotate(-20 -6 15)"/>
+      <ellipse cx="6" cy="20" rx="4" ry="2" fill="#66bb6a" transform="rotate(20 6 20)"/>
+    </g>
+    
+    <!-- More evening flowers -->
+    <g transform="translate(25,5)">
+      <rect x="-1" y="0" width="2" height="25" rx="1" fill="#4caf50"/>
+      <circle cx="0" cy="-3" r="5" fill="#ff7043" opacity="0.8"/>
+      <ellipse cx="-4" cy="12" rx="3" ry="1" fill="#66bb6a"/>
+    </g>
+    </g>
+  
+    <!-- Evening lantern -->
+    <g transform="translate(450,300)" opacity="0.8">
+    <!-- Lantern pole -->
+    <rect x="-2" y="0" width="4" height="80" rx="2" fill="#8d6e63"/>
+    
+    <!-- Lantern -->
+    <ellipse cx="0" cy="-15" rx="12" ry="18" fill="url(#twilightGrad36)" stroke="#bf360c" stroke-width="2"/>
+    
+    <!-- Lantern glow -->
+    <ellipse cx="0" cy="-15" rx="8" ry="12" fill="#fff176" opacity="0.7"/>
+    <ellipse cx="0" cy="-15" rx="4" ry="6" fill="#ffeb3b" opacity="0.8"/>
+    
+    <!-- Lantern frame -->
+    <g stroke="#8d6e63" stroke-width="1">
+      <line x1="0" y1="-33" x2="0" y2="3"/>
+      <ellipse cx="0" cy="-15" rx="12" ry="18" fill="none"/>
+    </g>
+    
+    <!-- Light rays -->
+    <g stroke="#fff176" stroke-width="2" opacity="0.5">
+      <line x1="0" y1="-30" x2="0" y2="-40"/>
+      <line x1="15" y1="-15" x2="25" y2="-15"/>
+      <line x1="-15" y1="-15" x2="-25" y2="-15"/>
+      <line x1="0" y1="0" x2="0" y2="10"/>
+    </g>
+    </g>
+  
+    <!-- Evening star -->
+    <g transform="translate(80,120)" opacity="0.7">
+    <!-- Star -->
+    <path d="M0,-12 L3,-3 L12,0 L3,3 L0,12 L-3,3 L-12,0 L-3,-3 Z" 
+          fill="#fff8e1" 
+          stroke="#ffeb3b" 
+          stroke-width="1"/>
+    
+    <!-- Star glow -->
+    <circle cx="0" cy="0" r="8" fill="#fff176" opacity="0.3"/>
+    </g>
+  
+    <!-- Nature sparkles -->
+    <g fill="#ffab91" opacity="0.7">
+    <path d="M180 250 L190 240 L200 250 L190 260 Z"/>
+    <path d="M320 300 L330 290 L340 300 L330 310 Z"/>
+    <path d="M160 350 L165 345 L170 350 L165 355 Z"/>
+    <path d="M400 180 L405 175 L410 180 L405 185 Z"/>
+    <path d="M70 300 L75 295 L80 300 L75 305 Z"/>
+    </g>
+  
+    <!-- Evening atmosphere flows -->
+    <g stroke="#ff8a65" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M100 200 Q150 180 200 200 Q250 220 300 200"/>
+    <path d="M50 350 Q100 330 150 350 Q200 370 250 350"/>
+    <path d="M300 100 Q320 150 340 200"/>
+    </g>
+  
+    <!-- Peaceful evening energy -->
+    <g stroke="#ff7043" stroke-width="2" fill="none" opacity="0.3" stroke-dasharray="8,6">
+    <ellipse cx="200" cy="200" rx="50" ry="30"/>
+    <ellipse cx="350" cy="300" rx="40" ry="25"/>
+    </g>
+  
+    <!-- Time of day indicator -->
+    <g transform="translate(50,80)" opacity="0.6">
+    <!-- Evening time -->
+    <rect x="0" y="0" width="30" height="20" rx="5" fill="#bf360c" stroke="#8d4037" stroke-width="1"/>
+    <text x="15" y="8" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#fff8e1">18:30</text>
+    <text x="15" y="16" font-family="Arial, sans-serif" font-size="4" text-anchor="middle" fill="#ffab91">EVENING</text>
+    </g>
+  
+    <!-- Number indicator -->
+    <text x="450" y="450" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#d84315" opacity="0.4">36</text>
+  
+    <!-- Kanji character 夕 -->
+    <text x="50" y="450" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#bf360c" opacity="0.8">夕</text>
+    </g>
+  </g>
+</svg> 

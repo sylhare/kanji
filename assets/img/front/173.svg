@@ -1,0 +1,205 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#708090"/>
+      <stop offset="50%" stop-color="#778899"/>
+      <stop offset="100%" stop-color="#2F4F4F"/>
+    </linearGradient>
+    <radialGradient id="cloudGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#F5F5F5"/>
+      <stop offset="50%" stop-color="#D3D3D3"/>
+      <stop offset="100%" stop-color="#A9A9A9"/>
+    </radialGradient>
+    <linearGradient id="rainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E0F6FF"/>
+      <stop offset="50%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#4682B4"/>
+    </linearGradient>
+    <radialGradient id="puddleGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#B0E0E6"/>
+      <stop offset="50%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#4682B4"/>
+    </radialGradient>
+  </defs>  <!-- Stormy sky background -->
+  <rect width="500" height="500" fill="url(#skyGradient)"/>
+  
+  <!-- Rain clouds -->
+  <circle cx="100" cy="80" r="40" fill="url(#cloudGradient)" stroke="#A9A9A9" stroke-width="1"/>
+  <circle cx="140" cy="70" r="50" fill="url(#cloudGradient)" stroke="#A9A9A9" stroke-width="1"/>
+  <circle cx="180" cy="80" r="45" fill="url(#cloudGradient)" stroke="#A9A9A9" stroke-width="1"/>
+  <circle cx="220" cy="75" r="35" fill="url(#cloudGradient)" stroke="#A9A9A9" stroke-width="1"/>
+  
+  <circle cx="270" cy="60" r="45" fill="url(#cloudGradient)" stroke="#A9A9A9" stroke-width="1"/>
+  <circle cx="310" cy="50" r="40" fill="url(#cloudGradient)" stroke="#A9A9A9" stroke-width="1"/>
+  <circle cx="350" cy="60" r="35" fill="url(#cloudGradient)" stroke="#A9A9A9" stroke-width="1"/>
+  
+  <!-- Dark storm clouds -->
+  <circle cx="50" cy="40" r="30" fill="#696969" stroke="#2F4F4F" stroke-width="1"/>
+  <circle cx="80" cy="35" r="35" fill="#696969" stroke="#2F4F4F" stroke-width="1"/>
+  <circle cx="110" cy="40" r="25" fill="#696969" stroke="#2F4F4F" stroke-width="1"/>
+  
+  <!-- Lightning -->
+  <path d="M120 100 L110 130 L125 130 L115 160 L130 140 L120 140 L125 120 Z" 
+    fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+  <path d="M300 90 L290 120 L305 120 L295 150 L310 130 L300 130 L305 110 Z" 
+    fill="#FFFF00" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Raindrops falling -->
+  <!-- Heavy rain pattern -->
+  <g stroke="url(#rainGradient)" stroke-width="3" fill="none">
+  <!-- First row of raindrops -->
+  <path d="M50 150 L45 170"/>
+  <path d="M70 140 L65 160"/>
+  <path d="M90 155 L85 175"/>
+  <path d="M110 145 L105 165"/>
+  <path d="M130 150 L125 170"/>
+  <path d="M150 140 L145 160"/>
+  <path d="M170 155 L165 175"/>
+  <path d="M190 145 L185 165"/>
+  <path d="M210 150 L205 170"/>
+  <path d="M230 140 L225 160"/>
+  <path d="M250 155 L245 175"/>
+  <path d="M270 145 L265 165"/>
+  <path d="M290 150 L285 170"/>
+  <path d="M310 140 L305 160"/>
+  <path d="M330 155 L325 175"/>
+  <path d="M350 145 L345 165"/>
+  <path d="M370 150 L365 170"/>
+  
+  <!-- Second row of raindrops -->
+  <path d="M60 180 L55 200"/>
+  <path d="M80 170 L75 190"/>
+  <path d="M100 185 L95 205"/>
+  <path d="M120 175 L115 195"/>
+  <path d="M140 180 L135 200"/>
+  <path d="M160 170 L155 190"/>
+  <path d="M180 185 L175 205"/>
+  <path d="M200 175 L195 195"/>
+  <path d="M220 180 L215 200"/>
+  <path d="M240 170 L235 190"/>
+  <path d="M260 185 L255 205"/>
+  <path d="M280 175 L275 195"/>
+  <path d="M300 180 L295 200"/>
+  <path d="M320 170 L315 190"/>
+  <path d="M340 185 L335 205"/>
+  <path d="M360 175 L355 195"/>
+  <path d="M380 180 L375 200"/>
+  
+  <!-- Third row of raindrops -->
+  <path d="M40 210 L35 230"/>
+  <path d="M70 200 L65 220"/>
+  <path d="M100 215 L95 235"/>
+  <path d="M130 205 L125 225"/>
+  <path d="M160 210 L155 230"/>
+  <path d="M190 200 L185 220"/>
+  <path d="M220 215 L215 235"/>
+  <path d="M250 205 L245 225"/>
+  <path d="M280 210 L275 230"/>
+  <path d="M310 200 L305 220"/>
+  <path d="M340 215 L335 235"/>
+  <path d="M370 205 L365 225"/>
+  
+  <!-- Fourth row of raindrops -->
+  <path d="M55 240 L50 260"/>
+  <path d="M85 230 L80 250"/>
+  <path d="M115 245 L110 265"/>
+  <path d="M145 235 L140 255"/>
+  <path d="M175 240 L170 260"/>
+  <path d="M205 230 L200 250"/>
+  <path d="M235 245 L230 265"/>
+  <path d="M265 235 L260 255"/>
+  <path d="M295 240 L290 260"/>
+  <path d="M325 230 L320 250"/>
+  <path d="M355 245 L350 265"/>
+  
+  <!-- Fifth row of raindrops -->
+  <path d="M30 270 L25 290"/>
+  <path d="M65 260 L60 280"/>
+  <path d="M95 275 L90 295"/>
+  <path d="M125 265 L120 285"/>
+  <path d="M155 270 L150 290"/>
+  <path d="M185 260 L180 280"/>
+  <path d="M215 275 L210 295"/>
+  <path d="M245 265 L240 285"/>
+  <path d="M275 270 L270 290"/>
+  <path d="M305 260 L300 280"/>
+  <path d="M335 275 L330 295"/>
+  <path d="M365 265 L360 285"/>
+  
+  <!-- Puddles on ground -->
+  <ellipse cx="80" cy="350" rx="30" ry="10" fill="url(#puddleGradient)" stroke="#4682B4" stroke-width="1"/>
+  <ellipse cx="200" cy="360" rx="45" ry="15" fill="url(#puddleGradient)" stroke="#4682B4" stroke-width="1"/>
+  <ellipse cx="320" cy="355" rx="35" ry="12" fill="url(#puddleGradient)" stroke="#4682B4" stroke-width="1"/>
+  <ellipse cx="150" cy="370" rx="25" ry="8" fill="url(#puddleGradient)" stroke="#4682B4" stroke-width="1"/>
+  <ellipse cx="280" cy="375" rx="20" ry="6" fill="url(#puddleGradient)" stroke="#4682B4" stroke-width="1"/>
+  
+  <!-- Ripples in puddles -->
+  <ellipse cx="80" cy="350" rx="20" ry="6" fill="none" stroke="#87CEEB" stroke-width="1" opacity="0.7"/>
+  <ellipse cx="200" cy="360" rx="30" ry="10" fill="none" stroke="#87CEEB" stroke-width="1" opacity="0.7"/>
+  <ellipse cx="320" cy="355" rx="25" ry="8" fill="none" stroke="#87CEEB" stroke-width="1" opacity="0.7"/>
+  
+  <!-- Splashing raindrops -->
+  <g fill="#B0E0E6" opacity="0.6">
+  <circle cx="75" cy="345" r="2"/>
+  <circle cx="85" cy="347" r="1.5"/>
+  <circle cx="195" cy="355" r="2.5"/>
+  <circle cx="205" cy="358" r="1"/>
+  <circle cx="315" cy="350" r="2"/>
+  <circle cx="325" cy="352" r="1.5"/>
+  
+    <!-- Umbrella -->
+    <path d="M350 200 Q370 190 390 200 Q390 210 370 220 Q350 210 350 200" 
+        fill="#FF0000" stroke="#8B0000" stroke-width="2"/>
+    <path d="M350 205 Q370 195 390 205" stroke="#DC143C" stroke-width="1"/>
+    <rect x="369" y="220" width="2" height="60" fill="#8B4513"/>
+    <path d="M369 280 Q367 285 371 285" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+    <!-- Person with umbrella -->
+    <circle cx="370" cy="250" r="8" fill="#FFDAB9"/>
+    <ellipse cx="370" cy="270" rx="10" ry="15" fill="#4169E1"/>
+    <ellipse cx="360" cy="265" rx="3" ry="10" fill="#FFDAB9"/>
+    <ellipse cx="370" cy="295" rx="4" ry="15" fill="#000080"/>
+    <ellipse cx="375" cy="295" rx="4" ry="15" fill="#000080"/>
+  
+    <!-- Rain boots -->
+    <ellipse cx="370" cy="310" rx="6" ry="4" fill="#8B0000"/>
+    <ellipse cx="375" cy="310" rx="6" ry="4" fill="#8B0000"/>
+  
+    <!-- Raincoat hood -->
+    <path d="M362 245 Q370 240 378 245 Q375 255 370 250 Q365 255 362 245" 
+        fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+  
+    <!-- House with rain on roof -->
+    <rect x="50" y="300" width="80" height="60" fill="#DEB887" stroke="#8B4513" stroke-width="2"/>
+    <path d="M40 300 L90 270 L140 300 Z" fill="#DC143C" stroke="#8B0000" stroke-width="2"/>
+    <rect x="70" y="330" width="15" height="30" fill="#8B4513"/>
+    <rect x="100" y="315" width="12" height="18" fill="#87CEEB"/>
+  
+    <!-- Rain on roof -->
+    <g stroke="#87CEEB" stroke-width="1" fill="none">
+    <path d="M45 285 L40 295"/>
+    <path d="M55 280 L50 290"/>
+    <path d="M65 275 L60 285"/>
+    <path d="M75 278 L70 288"/>
+    <path d="M85 275 L80 285"/>
+    <path d="M95 278 L90 288"/>
+    <path d="M105 275 L100 285"/>
+    <path d="M115 278 L110 288"/>
+    <path d="M125 280 L120 290"/>
+    <path d="M135 285 L130 295"/>
+    </g>
+  
+    <!-- Water flowing from roof -->
+    <path d="M135 300 Q140 320 135 340 Q130 360 135 380" 
+        stroke="#4682B4" stroke-width="4" fill="none"/>
+  
+    <!-- Chinese character for rain -->
+    <text x="200" y="30" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#E0F6FF">雨</text>
+  
+    <!-- Rain sound effects -->
+    <text x="50" y="120" font-family="Arial, sans-serif" font-size="12" fill="#E0F6FF" opacity="0.7">pitter</text>
+    <text x="300" y="140" font-family="Arial, sans-serif" font-size="12" fill="#E0F6FF" opacity="0.7">patter</text>
+    <text x="150" y="320" font-family="Arial, sans-serif" font-size="10" fill="#B0E0E6" opacity="0.8">splash</text>
+    </g>
+  </g>
+</svg> 

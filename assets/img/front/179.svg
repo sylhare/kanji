@@ -1,0 +1,175 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="leekGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9ACD32"/>
+      <stop offset="50%" stop-color="#6B8E23"/>
+      <stop offset="100%" stop-color="#556B2F"/>
+    </linearGradient>
+    <linearGradient id="chiveGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ADFF2F"/>
+      <stop offset="50%" stop-color="#32CD32"/>
+      <stop offset="100%" stop-color="#228B22"/>
+    </linearGradient>
+    <radialGradient id="rootGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#F5F5DC"/>
+      <stop offset="50%" stop-color="#DEB887"/>
+      <stop offset="100%" stop-color="#D2691E"/>
+    </radialGradient>
+    <linearGradient id="soilGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="50%" stop-color="#A0522D"/>
+      <stop offset="100%" stop-color="#654321"/>
+    </linearGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#E6F3E6"/>
+  
+  <!-- Garden soil -->
+  <rect x="0" y="250" width="400" height="150" fill="url(#soilGradient)"/>
+  
+  <!-- Large leek plants -->
+  <!-- Leek 1 -->
+  <ellipse cx="80" cy="320" rx="8" ry="15" fill="url(#rootGradient)" stroke="#D2691E" stroke-width="2"/>
+  <rect x="75" y="200" width="10" height="120" fill="url(#leekGradient)" stroke="#556B2F" stroke-width="2"/>
+  <rect x="78" y="150" width="4" height="50" fill="#9ACD32"/>
+  <path d="M82 150 Q85 130 90 120 Q85 110 80 100 Q75 110 70 120 Q75 130 78 150" 
+    fill="url(#leekGradient)" stroke="#556B2F" stroke-width="1"/>
+  
+  <!-- Leek 2 -->
+  <ellipse cx="150" cy="325" rx="10" ry="18" fill="url(#rootGradient)" stroke="#D2691E" stroke-width="2"/>
+  <rect x="145" y="180" width="12" height="145" fill="url(#leekGradient)" stroke="#556B2F" stroke-width="2"/>
+  <rect x="148" y="120" width="6" height="60" fill="#9ACD32"/>
+  <path d="M154 120 Q158 100 165 85 Q160 75 155 65 Q150 75 145 85 Q150 100 148 120" 
+    fill="url(#leekGradient)" stroke="#556B2F" stroke-width="1"/>
+  
+  <!-- Leek 3 -->
+  <ellipse cx="220" cy="315" rx="9" ry="16" fill="url(#rootGradient)" stroke="#D2691E" stroke-width="2"/>
+  <rect x="216" y="200" width="11" height="115" fill="url(#leekGradient)" stroke="#556B2F" stroke-width="2"/>
+  <rect x="218" y="140" width="5" height="60" fill="#9ACD32"/>
+  <path d="M223 140 Q227 120 235 105 Q230 95 225 85 Q220 95 215 105 Q220 120 218 140" 
+    fill="url(#leekGradient)" stroke="#556B2F" stroke-width="1"/>
+  
+  <!-- Chive bunches -->
+  <!-- Chive bunch 1 -->
+  <g stroke="#228B22" stroke-width="2" fill="url(#chiveGradient)">
+  <path d="M300 330 Q302 280 305 230 Q308 180 310 130 Q305 120 300 110"/>
+  <path d="M305 330 Q307 280 310 230 Q313 180 315 130 Q310 120 305 110"/>
+  <path d="M310 330 Q312 280 315 230 Q318 180 320 130 Q315 120 310 110"/>
+  <path d="M315 330 Q317 280 320 230 Q323 180 325 130 Q320 120 315 110"/>
+  <path d="M320 330 Q322 280 325 230 Q328 180 330 130 Q325 120 320 110"/>
+  
+  <!-- Chive roots -->
+  <ellipse cx="312" cy="335" rx="12" ry="8" fill="url(#rootGradient)" stroke="#D2691E" stroke-width="1"/>
+  
+  <!-- Chive bunch 2 -->
+  <g stroke="#228B22" stroke-width="2" fill="url(#chiveGradient)">
+  <path d="M350 335 Q352 285 355 235 Q358 185 360 135 Q355 125 350 115"/>
+  <path d="M355 335 Q357 285 360 235 Q363 185 365 135 Q360 125 355 115"/>
+  <path d="M360 335 Q362 285 365 235 Q368 185 370 135 Q365 125 360 115"/>
+  <path d="M365 335 Q367 285 370 235 Q373 185 375 135 Q370 125 365 115"/>
+  <path d="M370 335 Q372 285 375 235 Q378 185 380 135 Q375 125 370 115"/>
+  <path d="M375 335 Q377 285 380 235 Q383 185 385 135 Q380 125 375 115"/>
+  
+    <!-- Chive roots -->
+    <ellipse cx="367" cy="340" rx="15" ry="10" fill="url(#rootGradient)" stroke="#D2691E" stroke-width="1"/>
+  
+    <!-- Small chive seedlings -->
+    <g stroke="#32CD32" stroke-width="1.5">
+    <path d="M50 320 Q52 300 55 280 Q50 270 45 260"/>
+    <path d="M55 320 Q57 300 60 280 Q55 270 50 260"/>
+    <path d="M60 320 Q62 300 65 280 Q60 270 55 260"/>
+    
+    <path d="M120 325 Q122 305 125 285 Q120 275 115 265"/>
+    <path d="M125 325 Q127 305 130 285 Q125 275 120 265"/>
+    <path d="M130 325 Q132 305 135 285 Q130 275 125 265"/>
+    
+    <path d="M250 325 Q252 305 255 285 Q250 275 245 265"/>
+    <path d="M255 325 Q257 305 260 285 Q255 275 250 265"/>
+    <path d="M260 325 Q262 305 265 285 Q260 275 255 265"/>
+    </g>
+  
+    <!-- Garden tools -->
+    <!-- Hoe -->
+    <rect x="30" y="220" width="3" height="60" fill="#8B4513"/>
+    <rect x="20" y="218" width="15" height="6" fill="#696969" stroke="#2F2F2F" stroke-width="1"/>
+  
+    <!-- Watering can -->
+    <ellipse cx="380" cy="200" rx="15" ry="12" fill="#4682B4" stroke="#2F4F4F" stroke-width="2"/>
+    <rect x="390" y="195" width="8" height="5" fill="#4682B4"/>
+    <path d="M398 197 Q405 195 410 200" stroke="#4682B4" stroke-width="2" fill="none"/>
+    <!-- Water drops -->
+    <circle cx="405" cy="205" r="1" fill="#87CEEB"/>
+    <circle cx="408" cy="208" r="1" fill="#87CEEB"/>
+    <circle cx="410" cy="212" r="1" fill="#87CEEB"/>
+  
+    <!-- Basket with harvested leeks -->
+    <ellipse cx="200" cy="50" rx="40" ry="15" fill="#DEB887" stroke="#8B4513" stroke-width="2"/>
+    <rect x="160" y="35" width="80" height="15" fill="#CD853F" stroke="#8B4513" stroke-width="2"/>
+  
+    <!-- Leeks in basket -->
+    <rect x="170" y="20" width="6" height="30" fill="url(#leekGradient)"/>
+    <rect x="180" y="25" width="6" height="25" fill="url(#leekGradient)"/>
+    <rect x="190" y="22" width="6" height="28" fill="url(#leekGradient)"/>
+    <rect x="200" y="24" width="6" height="26" fill="url(#leekGradient)"/>
+    <rect x="210" y="21" width="6" height="29" fill="url(#leekGradient)"/>
+    <rect x="220" y="23" width="6" height="27" fill="url(#leekGradient)"/>
+  
+    <!-- Leek tops in basket -->
+    <path d="M173 20 Q175 15 178 10" stroke="#9ACD32" stroke-width="2" fill="none"/>
+    <path d="M183 25 Q185 20 188 15" stroke="#9ACD32" stroke-width="2" fill="none"/>
+    <path d="M193 22 Q195 17 198 12" stroke="#9ACD32" stroke-width="2" fill="none"/>
+    <path d="M203 24 Q205 19 208 14" stroke="#9ACD32" stroke-width="2" fill="none"/>
+    <path d="M213 21 Q215 16 218 11" stroke="#9ACD32" stroke-width="2" fill="none"/>
+    <path d="M223 23 Q225 18 228 13" stroke="#9ACD32" stroke-width="2" fill="none"/>
+  
+    <!-- Cooking pot with leek soup -->
+    <ellipse cx="100" cy="80" rx="30" ry="20" fill="#2F2F2F" stroke="#000" stroke-width="3"/>
+    <ellipse cx="100" cy="75" rx="25" ry="15" fill="#DAA520"/>
+  
+    <!-- Leek pieces in soup -->
+    <ellipse cx="90" cy="75" rx="3" ry="6" fill="#6B8E23"/>
+    <ellipse cx="105" cy="73" rx="3" ry="6" fill="#6B8E23"/>
+    <ellipse cx="95" cy="78" rx="3" ry="6" fill="#6B8E23"/>
+    <ellipse cx="110" cy="76" rx="3" ry="6" fill="#6B8E23"/>
+  
+    <!-- Steam from soup -->
+    <g stroke="#E6E6FA" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M85 55 Q90 45 85 35"/>
+    <path d="M100 55 Q105 45 100 35"/>
+    <path d="M115 55 Q120 45 115 35"/>
+    </g>
+  
+    <!-- Garden rows -->
+    <g stroke="#654321" stroke-width="1" fill="none">
+    <path d="M20 280 L380 280"/>
+    <path d="M20 300 L380 300"/>
+    <path d="M20 320 L380 320"/>
+    <path d="M20 340 L380 340"/>
+    </g>
+  
+    <!-- Plant markers -->
+    <rect x="75" y="275" width="10" height="15" fill="#F5DEB3" stroke="#8B4513" stroke-width="1"/>
+    <text x="80" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#8B4513">LEEK</text>
+  
+    <rect x="300" y="275" width="15" height="15" fill="#F5DEB3" stroke="#8B4513" stroke-width="1"/>
+    <text x="307" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#8B4513">CHIVE</text>
+  
+    <!-- Chinese character -->
+    <text x="200" y="30" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#6B8E23">韭</text>
+  
+    <!-- Garden fence -->
+    <g stroke="#8B4513" stroke-width="2">
+    <path d="M0 190 L400 190"/>
+    <path d="M50 185 L50 195"/>
+    <path d="M100 185 L100 195"/>
+    <path d="M150 185 L150 195"/>
+    <path d="M200 185 L200 195"/>
+    <path d="M250 185 L250 195"/>
+    <path d="M300 185 L300 195"/>
+    <path d="M350 185 L350 195"/>
+    </g>
+  
+    <!-- Title -->
+    <text x="200" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#556B2F">LEEKS &amp; CHIVES GARDEN</text>
+    </g>
+  </g>
+</svg> 

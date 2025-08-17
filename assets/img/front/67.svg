@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad67" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffecb3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="prismGrad67" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffb74d;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffa726;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff9800;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="lightGlow67" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff9c4;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#fff9c4;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="spectrumGrad67" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff4081;stop-opacity:0.8" />
+      <stop offset="16%" style="stop-color:#ff5722;stop-opacity:0.8" />
+      <stop offset="32%" style="stop-color:#ff9800;stop-opacity:0.8" />
+      <stop offset="48%" style="stop-color:#ffeb3b;stop-opacity:0.8" />
+      <stop offset="64%" style="stop-color:#4caf50;stop-opacity:0.8" />
+      <stop offset="80%" style="stop-color:#2196f3;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#9c27b0;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad67)"/>
+  
+  <!-- Six light prisms plus seven rainbow rays representing 67 -->
+  <!-- Central light source -->
+  <g transform="translate(250,250)">
+  <circle cx="0" cy="0" r="100" fill="url(#lightGlow67)" opacity="0.4"/>
+  
+  <!-- Central prism -->
+  <polygon points="0,-40 35,-20 35,20 0,40 -35,20 -35,-20" fill="url(#prismGrad67)" opacity="0.9"/>
+  <polygon points="0,-30 25,-15 25,15 0,30 -25,15 -25,-15" fill="#fff9c4" opacity="0.6"/>
+  
+  <!-- Light core -->
+  <circle cx="0" cy="0" r="15" fill="#fff176"/>
+  <circle cx="0" cy="0" r="8" fill="#ffffff"/>
+  
+  <!-- Six surrounding prisms -->
+  <!-- North prism -->
+  <g transform="translate(250,120)">
+  <circle cx="0" cy="0" r="40" fill="url(#lightGlow67)" opacity="0.3"/>
+  <polygon points="0,-25 20,-12 20,12 0,25 -20,12 -20,-12" fill="url(#prismGrad67)" opacity="0.8"/>
+  <polygon points="0,-15 12,-7 12,7 0,15 -12,7 -12,-7" fill="#fff9c4" opacity="0.5"/>
+  
+    <!-- Northeast prism -->
+    <g transform="translate(380,150)">
+    <circle cx="0" cy="0" r="35" fill="url(#lightGlow67)" opacity="0.3"/>
+    <polygon points="0,-22 18,-11 18,11 0,22 -18,11 -18,-11" fill="url(#prismGrad67)" opacity="0.8"/>
+    <polygon points="0,-13 11,-6 11,6 0,13 -11,6 -11,-6" fill="#fff9c4" opacity="0.5"/>
+    </g>
+  
+    <!-- Southeast prism -->
+    <g transform="translate(380,350)">
+    <circle cx="0" cy="0" r="35" fill="url(#lightGlow67)" opacity="0.3"/>
+    <polygon points="0,-22 18,-11 18,11 0,22 -18,11 -18,-11" fill="url(#prismGrad67)" opacity="0.8"/>
+    <polygon points="0,-13 11,-6 11,6 0,13 -11,6 -11,-6" fill="#fff9c4" opacity="0.5"/>
+    </g>
+  
+    <!-- South prism -->
+    <g transform="translate(250,380)">
+    <circle cx="0" cy="0" r="40" fill="url(#lightGlow67)" opacity="0.3"/>
+    <polygon points="0,-25 20,-12 20,12 0,25 -20,12 -20,-12" fill="url(#prismGrad67)" opacity="0.8"/>
+    <polygon points="0,-15 12,-7 12,7 0,15 -12,7 -12,-7" fill="#fff9c4" opacity="0.5"/>
+    </g>
+  
+    <!-- Southwest prism -->
+    <g transform="translate(120,350)">
+    <circle cx="0" cy="0" r="35" fill="url(#lightGlow67)" opacity="0.3"/>
+    <polygon points="0,-22 18,-11 18,11 0,22 -18,11 -18,-11" fill="url(#prismGrad67)" opacity="0.8"/>
+    <polygon points="0,-13 11,-6 11,6 0,13 -11,6 -11,-6" fill="#fff9c4" opacity="0.5"/>
+    </g>
+  
+    <!-- Northwest prism -->
+    <g transform="translate(120,150)">
+    <circle cx="0" cy="0" r="35" fill="url(#lightGlow67)" opacity="0.3"/>
+    <polygon points="0,-22 18,-11 18,11 0,22 -18,11 -18,-11" fill="url(#prismGrad67)" opacity="0.8"/>
+    <polygon points="0,-13 11,-6 11,6 0,13 -11,6 -11,-6" fill="#fff9c4" opacity="0.5"/>
+    </g>
+  
+    <!-- Seven rainbow rays emanating from center -->
+    <!-- Ray 1: Red -->
+    <g transform="translate(250,250) rotate(0)">
+    <ellipse cx="0" cy="-120" rx="8" ry="80" fill="#ff4081" opacity="0.7"/>
+    <ellipse cx="0" cy="-120" rx="4" ry="60" fill="#ffffff" opacity="0.4"/>
+    </g>
+  
+    <!-- Ray 2: Orange -->
+    <g transform="translate(250,250) rotate(51)">
+    <ellipse cx="0" cy="-120" rx="8" ry="80" fill="#ff5722" opacity="0.7"/>
+    <ellipse cx="0" cy="-120" rx="4" ry="60" fill="#ffffff" opacity="0.4"/>
+    </g>
+  
+    <!-- Ray 3: Yellow -->
+    <g transform="translate(250,250) rotate(102)">
+    <ellipse cx="0" cy="-120" rx="8" ry="80" fill="#ffeb3b" opacity="0.7"/>
+    <ellipse cx="0" cy="-120" rx="4" ry="60" fill="#ffffff" opacity="0.4"/>
+    </g>
+  
+    <!-- Ray 4: Green -->
+    <g transform="translate(250,250) rotate(153)">
+    <ellipse cx="0" cy="-120" rx="8" ry="80" fill="#4caf50" opacity="0.7"/>
+    <ellipse cx="0" cy="-120" rx="4" ry="60" fill="#ffffff" opacity="0.4"/>
+    </g>
+  
+    <!-- Ray 5: Blue -->
+    <g transform="translate(250,250) rotate(204)">
+    <ellipse cx="0" cy="-120" rx="8" ry="80" fill="#2196f3" opacity="0.7"/>
+    <ellipse cx="0" cy="-120" rx="4" ry="60" fill="#ffffff" opacity="0.4"/>
+    </g>
+  
+    <!-- Ray 6: Indigo -->
+    <g transform="translate(250,250) rotate(255)">
+    <ellipse cx="0" cy="-120" rx="8" ry="80" fill="#3f51b5" opacity="0.7"/>
+    <ellipse cx="0" cy="-120" rx="4" ry="60" fill="#ffffff" opacity="0.4"/>
+    </g>
+  
+    <!-- Ray 7: Violet -->
+    <g transform="translate(250,250) rotate(306)">
+    <ellipse cx="0" cy="-120" rx="8" ry="80" fill="#9c27b0" opacity="0.7"/>
+    <ellipse cx="0" cy="-120" rx="4" ry="60" fill="#ffffff" opacity="0.4"/>
+    </g>
+  
+    <!-- Spectral dispersions -->
+    <g stroke="url(#spectrumGrad67)" stroke-width="3" fill="none" opacity="0.5">
+    <circle cx="250" cy="250" r="140"/>
+    <circle cx="250" cy="250" r="180"/>
+    <circle cx="250" cy="250" r="220"/>
+    </g>
+  
+    <!-- Light particles -->
+    <g fill="#fff176" opacity="0.6">
+    <circle cx="100" cy="100" r="3"/>
+    <circle cx="400" cy="100" r="2"/>
+    <circle cx="100" cy="400" r="3"/>
+    <circle cx="400" cy="400" r="2"/>
+    <circle cx="50" cy="250" r="2"/>
+    <circle cx="450" cy="250" r="3"/>
+    <circle cx="250" cy="50" r="2"/>
+    <circle cx="250" cy="450" r="3"/>
+    <circle cx="180" cy="180" r="2"/>
+    <circle cx="320" cy="180" r="3"/>
+    <circle cx="180" cy="320" r="2"/>
+    <circle cx="320" cy="320" r="2"/>
+    </g>
+  
+    <!-- Refraction patterns -->
+    <g stroke="#ffa726" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M50 80 Q150 60 250 80"/>
+    <path d="M250 80 Q350 60 450 80"/>
+    <path d="M450 180 Q430 280 450 380"/>
+    <path d="M400 450 Q300 430 200 450"/>
+    <path d="M50 380 Q70 280 50 180"/>
+    </g>
+  
+    <!-- Chromatic aberrations -->
+    <g opacity="0.3">
+    <circle cx="150" cy="150" r="15" fill="none" stroke="#ff4081" stroke-width="1"/>
+    <circle cx="350" cy="150" r="15" fill="none" stroke="#4caf50" stroke-width="1"/>
+    <circle cx="150" cy="350" r="15" fill="none" stroke="#2196f3" stroke-width="1"/>
+    <circle cx="350" cy="350" r="15" fill="none" stroke="#9c27b0" stroke-width="1"/>
+    </g>
+  
+    <!-- Luminous sparkles -->
+    <g fill="#ffffff" opacity="0.9">
+    <path d="M80 80 L85 75 L90 80 L85 85 Z"/>
+    <path d="M420 80 L425 75 L430 80 L425 85 Z"/>
+    <path d="M80 420 L85 415 L90 420 L85 425 Z"/>
+    <path d="M420 420 L425 415 L430 420 L425 425 Z"/>
+    <path d="M250 30 L253 27 L256 30 L253 33 Z"/>
+    <path d="M250 470 L253 467 L256 470 L253 473 Z"/>
+    <path d="M30 250 L33 247 L36 250 L33 253 Z"/>
+    <path d="M470 250 L473 247 L476 250 L473 253 Z"/>
+    </g>
+  
+    <!-- Number "67" integrated -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#f57c00" opacity="0.5">67</text>
+  
+    <!-- Kanji character 六十七 -->
+    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#f57c00" opacity="0.9">六十七</text>
+    </g>
+  </g>
+</svg> 

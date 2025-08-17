@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad107" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#efebe9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d7ccc8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hideGrad107" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad107)"/>
+  
+  <!-- Animal hide/leather texture -->
+  <rect x="100" y="300" width="300" height="150" rx="20" fill="url(#hideGrad107)" opacity="0.7"/>
+  
+  <!-- Hide texture pattern -->
+  <g stroke="#3e2723" stroke-width="1" opacity="0.3" fill="none">
+  <path d="M120 320 Q140 315 160 320 Q180 325 200 320"/>
+  <path d="M220 330 Q240 325 260 330 Q280 335 300 330"/>
+  <path d="M320 340 Q340 335 360 340 Q380 345 400 340"/>
+  <path d="M130 360 Q150 355 170 360 Q190 365 210 360"/>
+  <path d="M230 370 Q250 365 270 370 Q290 375 310 370"/>
+  <path d="M330 380 Q350 375 370 380 Q390 385 410 380"/>
+  
+  <!-- Main radical shape 皮 (skin/hide) -->
+  <!-- Top horizontal stroke -->
+  <path d="M180 180 L320 180" 
+      stroke="#3e2723" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Left vertical stroke -->
+  <path d="M200 180 L200 260" 
+      stroke="#3e2723" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Middle horizontal stroke -->
+  <path d="M200 220 L280 220" 
+      stroke="#3e2723" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right curved stroke -->
+  <path d="M280 180 Q300 200 280 240 Q320 250 300 280" 
+      stroke="#3e2723" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom horizontal stroke -->
+  <path d="M180 260 L280 260" 
+      stroke="#3e2723" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Fur/hair texture -->
+  <g stroke="#8d6e63" stroke-width="2" opacity="0.5">
+  <path d="M120 200 Q125 190 130 200"/>
+  <path d="M340 210 Q345 200 350 210"/>
+  <path d="M110 240 Q115 230 120 240"/>
+  <path d="M360 250 Q365 240 370 250"/>
+  
+    <!-- Leather stitching -->
+    <g stroke="#5d4037" stroke-width="2" opacity="0.6">
+    <path d="M110 310 L390 310" stroke-dasharray="8,4"/>
+    <path d="M110 440 L390 440" stroke-dasharray="8,4"/>
+    </g>
+  
+    <!-- Animal tracks -->
+    <g fill="#6d4c41" opacity="0.4">
+    <ellipse cx="150" cy="150" rx="8" ry="12" transform="rotate(-15)"/>
+    <ellipse cx="350" cy="160" rx="6" ry="10" transform="rotate(20)"/>
+    <circle cx="145" cy="135" r="3"/>
+    <circle cx="355" cy="145" r="2"/>
+    </g>
+  
+    <!-- Tanning tools -->
+    <g transform="translate(400,350)" opacity="0.6">
+    <!-- Scraper -->
+    <rect x="-15" y="-2" width="30" height="4" fill="#757575"/>
+    <rect x="-2" y="2" width="4" height="20" fill="#8d6e63"/>
+    </g>
+  
+    <!-- Hide edges -->
+    <g stroke="#5d4037" stroke-width="3" opacity="0.4" fill="none">
+    <path d="M100 300 Q95 295 105 290"/>
+    <path d="M400 300 Q405 295 395 290"/>
+    <path d="M100 450 Q95 455 105 460"/>
+    <path d="M400 450 Q405 455 395 460"/>
+    </g>
+  
+    <!-- Kanji character 皮 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#3e2723" opacity="0.8">皮</text>
+    </g>
+  </g>
+</svg> 

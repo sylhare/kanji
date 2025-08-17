@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad82" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="butterflyGrad82" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#66bb6a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e7d32;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="gardenGlow82" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#a5d6a7;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#a5d6a7;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="wingGrad82" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#81c784;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#66bb6a;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#4caf50;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad82)"/>
+  
+  <!-- Eight butterfly wings plus two antennae representing 82 -->
+  <!-- Central butterfly body -->
+  <g transform="translate(250,250)">
+  <circle cx="0" cy="0" r="80" fill="url(#gardenGlow82)" opacity="0.4"/>
+  
+  <!-- Body -->
+  <ellipse cx="0" cy="0" rx="4" ry="40" fill="#2e7d32"/>
+  <ellipse cx="0" cy="0" rx="2" ry="35" fill="#4caf50"/>
+  
+  <!-- Head -->
+  <circle cx="0" cy="-35" r="8" fill="#2e7d32"/>
+  <circle cx="0" cy="-35" r="5" fill="#4caf50"/>
+  
+  <!-- Two antennae -->
+  <g stroke="#2e7d32" stroke-width="2" fill="none">
+  <path d="M-3 -40 Q-8 -48 -12 -45"/>
+  <path d="M3 -40 Q8 -48 12 -45"/>
+  <circle cx="-12" cy="-45" r="2" fill="#81c784"/>
+  <circle cx="12" cy="-45" r="2" fill="#81c784"/>
+  
+    <!-- Eight wing sections -->
+    <!-- Upper left wing -->
+    <g transform="translate(180,200)">
+    <ellipse cx="0" cy="0" rx="40" ry="25" fill="url(#butterflyGrad82)" opacity="0.8" transform="rotate(-20)"/>
+    <ellipse cx="0" cy="0" rx="25" ry="15" fill="url(#wingGrad82)" opacity="0.6" transform="rotate(-20)"/>
+    <!-- Wing spots -->
+    <circle cx="-8" cy="-5" r="4" fill="#388e3c" opacity="0.7"/>
+    <circle cx="8" cy="5" r="3" fill="#1b5e20" opacity="0.8"/>
+    </g>
+  
+    <!-- Upper right wing -->
+    <g transform="translate(320,200)">
+    <ellipse cx="0" cy="0" rx="40" ry="25" fill="url(#butterflyGrad82)" opacity="0.8" transform="rotate(20)"/>
+    <ellipse cx="0" cy="0" rx="25" ry="15" fill="url(#wingGrad82)" opacity="0.6" transform="rotate(20)"/>
+    <!-- Wing spots -->
+    <circle cx="8" cy="-5" r="4" fill="#388e3c" opacity="0.7"/>
+    <circle cx="-8" cy="5" r="3" fill="#1b5e20" opacity="0.8"/>
+    </g>
+  
+    <!-- Lower left wing -->
+    <g transform="translate(180,300)">
+    <ellipse cx="0" cy="0" rx="35" ry="20" fill="url(#butterflyGrad82)" opacity="0.8" transform="rotate(20)"/>
+    <ellipse cx="0" cy="0" rx="22" ry="12" fill="url(#wingGrad82)" opacity="0.6" transform="rotate(20)"/>
+    <!-- Wing spots -->
+    <circle cx="-6" cy="3" r="3" fill="#388e3c" opacity="0.7"/>
+    <circle cx="6" cy="-3" r="2" fill="#1b5e20" opacity="0.8"/>
+    </g>
+  
+    <!-- Lower right wing -->
+    <g transform="translate(320,300)">
+    <ellipse cx="0" cy="0" rx="35" ry="20" fill="url(#butterflyGrad82)" opacity="0.8" transform="rotate(-20)"/>
+    <ellipse cx="0" cy="0" rx="22" ry="12" fill="url(#wingGrad82)" opacity="0.6" transform="rotate(-20)"/>
+    <!-- Wing spots -->
+    <circle cx="6" cy="3" r="3" fill="#388e3c" opacity="0.7"/>
+    <circle cx="-6" cy="-3" r="2" fill="#1b5e20" opacity="0.8"/>
+    </g>
+  
+    <!-- Four additional wing detail sections -->
+    <!-- Upper left detail -->
+    <g transform="translate(150,180)">
+    <ellipse cx="0" cy="0" rx="20" ry="12" fill="url(#wingGrad82)" opacity="0.6" transform="rotate(-30)"/>
+    <circle cx="0" cy="0" r="3" fill="#2e7d32" opacity="0.8"/>
+    </g>
+  
+    <!-- Upper right detail -->
+    <g transform="translate(350,180)">
+    <ellipse cx="0" cy="0" rx="20" ry="12" fill="url(#wingGrad82)" opacity="0.6" transform="rotate(30)"/>
+    <circle cx="0" cy="0" r="3" fill="#2e7d32" opacity="0.8"/>
+    </g>
+  
+    <!-- Lower left detail -->
+    <g transform="translate(150,320)">
+    <ellipse cx="0" cy="0" rx="18" ry="10" fill="url(#wingGrad82)" opacity="0.6" transform="rotate(30)"/>
+    <circle cx="0" cy="0" r="2" fill="#2e7d32" opacity="0.8"/>
+    </g>
+  
+    <!-- Lower right detail -->
+    <g transform="translate(350,320)">
+    <ellipse cx="0" cy="0" rx="18" ry="10" fill="url(#wingGrad82)" opacity="0.6" transform="rotate(-30)"/>
+    <circle cx="0" cy="0" r="2" fill="#2e7d32" opacity="0.8"/>
+    </g>
+  
+    <!-- Flight path -->
+    <g stroke="url(#wingGrad82)" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M250 150 Q200 180 180 220"/>
+    <path d="M250 150 Q300 180 320 220"/>
+    <path d="M250 350 Q200 320 180 280"/>
+    <path d="M250 350 Q300 320 320 280"/>
+    </g>
+  
+    <!-- Garden atmosphere -->
+    <g stroke="#81c784" stroke-width="2" fill="none" opacity="0.4">
+    <circle cx="250" cy="250" r="120"/>
+    <circle cx="250" cy="250" r="160"/>
+    <circle cx="250" cy="250" r="200"/>
+    </g>
+  
+    <!-- Pollen particles -->
+    <g fill="#c8e6c9" opacity="0.6">
+    <circle cx="100" cy="100" r="2"/>
+    <circle cx="400" cy="100" r="3"/>
+    <circle cx="100" cy="400" r="2"/>
+    <circle cx="400" cy="400" r="3"/>
+    <circle cx="50" cy="250" r="2"/>
+    <circle cx="450" cy="250" r="3"/>
+    <circle cx="250" cy="50" r="2"/>
+    <circle cx="250" cy="450" r="3"/>
+    <circle cx="150" cy="150" r="2"/>
+    <circle cx="350" cy="150" r="3"/>
+    <circle cx="150" cy="350" r="2"/>
+    <circle cx="350" cy="350" r="3"/>
+    </g>
+  
+    <!-- Garden breeze -->
+    <g stroke="#a5d6a7" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M50 150 Q100 130 150 150"/>
+    <path d="M350 150 Q400 130 450 150"/>
+    <path d="M50 350 Q100 330 150 350"/>
+    <path d="M350 350 Q400 330 450 350"/>
+    <path d="M150 50 Q200 30 250 50"/>
+    <path d="M250 50 Q300 30 350 50"/>
+    </g>
+  
+    <!-- Flower petals floating -->
+    <g fill="#4caf50" opacity="0.5">
+    <ellipse cx="120" cy="120" rx="6" ry="3" transform="rotate(45 120 120)"/>
+    <ellipse cx="380" cy="120" rx="5" ry="3" transform="rotate(-30 380 120)"/>
+    <ellipse cx="120" cy="380" rx="6" ry="3" transform="rotate(-45 120 380)"/>
+    <ellipse cx="380" cy="380" rx="5" ry="3" transform="rotate(30 380 380)"/>
+    </g>
+  
+    <!-- Nature sparkles -->
+    <g fill="#ffffff" opacity="0.8">
+    <path d="M90 90 L95 85 L100 90 L95 95 Z"/>
+    <path d="M410 90 L415 85 L420 90 L415 95 Z"/>
+    <path d="M90 410 L95 405 L100 410 L95 415 Z"/>
+    <path d="M410 410 L415 405 L420 410 L415 415 Z"/>
+    <path d="M250 60 L253 57 L256 60 L253 63 Z"/>
+    <path d="M250 440 L253 437 L256 440 L253 443 Z"/>
+    </g>
+  
+    <!-- Number "82" integrated -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#1b5e20" opacity="0.5">82</text>
+  
+    <!-- Kanji character 八十二 -->
+    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#1b5e20" opacity="0.9">八十二</text>
+    </g>
+  </g>
+</svg> 

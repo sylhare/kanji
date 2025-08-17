@@ -1,0 +1,150 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="leatherGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DEB887"/>
+      <stop offset="50%" stop-color="#CD853F"/>
+      <stop offset="100%" stop-color="#8B4513"/>
+    </linearGradient>
+    <radialGradient id="toolGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#C0C0C0"/>
+      <stop offset="50%" stop-color="#A9A9A9"/>
+      <stop offset="100%" stop-color="#696969"/>
+    </radialGradient>
+    <linearGradient id="stitchGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#DAA520"/>
+    </linearGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#F5F5DC"/>
+  
+  <!-- Leather workshop table -->
+  <rect x="0" y="300" width="400" height="100" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Large leather hide -->
+  <path d="M50 80 Q80 60 120 80 Q160 70 200 90 Q240 70 280 80 Q320 90 350 100 Q340 140 320 160 Q280 180 240 170 Q200 180 160 170 Q120 160 80 150 Q50 120 50 80" 
+    fill="url(#leatherGradient)" stroke="#654321" stroke-width="3"/>
+  
+  <!-- Leather texture lines -->
+  <path d="M70 100 Q120 95 170 100 Q220 105 270 100" stroke="#A0522D" stroke-width="1.5" fill="none"/>
+  <path d="M80 120 Q130 115 180 120 Q230 125 280 120" stroke="#A0522D" stroke-width="1.5" fill="none"/>
+  <path d="M90 140 Q140 135 190 140 Q240 145 290 140" stroke="#A0522D" stroke-width="1.5" fill="none"/>
+  
+  <!-- Leather boots -->
+  <path d="M80 250 Q90 230 110 240 Q120 250 115 280 Q110 300 90 300 Q70 295 75 270 Q80 260 80 250" 
+    fill="url(#leatherGradient)" stroke="#654321" stroke-width="2"/>
+  <path d="M120 250 Q130 230 150 240 Q160 250 155 280 Q150 300 130 300 Q110 295 115 270 Q120 260 120 250" 
+    fill="url(#leatherGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Boot laces -->
+  <path d="M85 245 L105 245" stroke="url(#stitchGradient)" stroke-width="2"/>
+  <path d="M85 255 L105 255" stroke="url(#stitchGradient)" stroke-width="2"/>
+  <path d="M85 265 L105 265" stroke="url(#stitchGradient)" stroke-width="2"/>
+  
+  <path d="M125 245 L145 245" stroke="url(#stitchGradient)" stroke-width="2"/>
+  <path d="M125 255 L145 255" stroke="url(#stitchGradient)" stroke-width="2"/>
+  <path d="M125 265 L145 265" stroke="url(#stitchGradient)" stroke-width="2"/>
+  
+  <!-- Leather bag -->
+  <path d="M250 200 Q280 190 310 200 Q320 220 315 250 Q310 280 280 285 Q250 280 245 250 Q250 220 250 200" 
+    fill="url(#leatherGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Bag handle -->
+  <path d="M260 200 Q280 180 300 200" stroke="#654321" stroke-width="8" fill="none"/>
+  
+  <!-- Bag stitching -->
+  <path d="M255 210 L305 210" stroke="url(#stitchGradient)" stroke-width="1" stroke-dasharray="3,2"/>
+  <path d="M250 240 L310 240" stroke="url(#stitchGradient)" stroke-width="1" stroke-dasharray="3,2"/>
+  <path d="M252 270 L308 270" stroke="url(#stitchGradient)" stroke-width="1" stroke-dasharray="3,2"/>
+  
+  <!-- Leather wallet -->
+  <rect x="180" y="220" width="50" height="30" rx="5" fill="url(#leatherGradient)" stroke="#654321" stroke-width="2"/>
+  <path d="M185 235 L225 235" stroke="url(#stitchGradient)" stroke-width="1" stroke-dasharray="2,1"/>
+  
+  <!-- Leather crafting tools -->
+  <!-- Awl -->
+  <rect x="50" y="320" width="3" height="60" fill="#8B4513"/>
+  <path d="M48 315 L55 315 L52 320 Z" fill="url(#toolGradient)" stroke="#696969" stroke-width="1"/>
+  
+  <!-- Leather punch -->
+  <rect x="80" y="330" width="8" height="40" fill="url(#toolGradient)" stroke="#696969" stroke-width="1"/>
+  <circle cx="84" cy="325" r="4" fill="url(#toolGradient)" stroke="#696969" stroke-width="1"/>
+  
+  <!-- Stitching wheel -->
+  <circle cx="120" cy="340" r="12" fill="url(#toolGradient)" stroke="#696969" stroke-width="2"/>
+  <rect x="115" y="352" width="10" height="25" fill="#8B4513"/>
+  <!-- Wheel teeth -->
+  <path d="M108 340 L112 340 M116 340 L120 340 M124 340 L128 340 M132 340 L136 340" stroke="#2F2F2F" stroke-width="1"/>
+  
+  <!-- Cutting knife -->
+  <rect x="150" y="330" width="40" height="4" fill="url(#toolGradient)" stroke="#696969" stroke-width="1"/>
+  <rect x="190" y="325" width="15" height="14" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Thread spools -->
+  <ellipse cx="240" cy="340" rx="8" ry="12" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  <path d="M232 335 Q240 330 248 335" stroke="url(#stitchGradient)" stroke-width="3" fill="none"/>
+  <path d="M232 340 Q240 335 248 340" stroke="url(#stitchGradient)" stroke-width="3" fill="none"/>
+  <path d="M232 345 Q240 340 248 345" stroke="url(#stitchGradient)" stroke-width="3" fill="none"/>
+  
+  <ellipse cx="270" cy="340" rx="8" ry="12" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  <path d="M262 335 Q270 330 278 335" stroke="#4169E1" stroke-width="3" fill="none"/>
+  <path d="M262 340 Q270 335 278 340" stroke="#4169E1" stroke-width="3" fill="none"/>
+  <path d="M262 345 Q270 340 278 345" stroke="#4169E1" stroke-width="3" fill="none"/>
+  
+  <!-- Hammer for leather work -->
+  <rect x="300" y="350" width="30" height="6" rx="3" fill="url(#toolGradient)" stroke="#696969" stroke-width="1"/>
+  <rect x="330" y="340" width="8" height="25" fill="#8B4513"/>
+  
+  <!-- Leather belt -->
+  <rect x="30" y="200" width="120" height="15" rx="7" fill="url(#leatherGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Belt holes -->
+  <circle cx="40" cy="207.5" r="2" fill="#2F2F2F"/>
+  <circle cx="50" cy="207.5" r="2" fill="#2F2F2F"/>
+  <circle cx="60" cy="207.5" r="2" fill="#2F2F2F"/>
+  <circle cx="70" cy="207.5" r="2" fill="#2F2F2F"/>
+  <circle cx="80" cy="207.5" r="2" fill="#2F2F2F"/>
+  
+  <!-- Belt buckle -->
+  <rect x="145" y="202" width="12" height="11" fill="url(#toolGradient)" stroke="#696969" stroke-width="1" rx="2"/>
+  <rect x="147" y="204" width="8" height="7" fill="none" stroke="#696969" stroke-width="1"/>
+  
+  <!-- Leather gloves -->
+  <path d="M350 200 Q360 190 375 195 Q385 200 390 210 Q395 220 390 235 Q385 245 375 250 Q365 245 360 235 Q355 225 350 215 Q345 205 350 200" 
+    fill="url(#leatherGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Glove fingers -->
+  <ellipse cx="375" cy="200" rx="3" ry="8" fill="url(#leatherGradient)" stroke="#654321" stroke-width="1"/>
+  <ellipse cx="382" cy="195" rx="3" ry="8" fill="url(#leatherGradient)" stroke="#654321" stroke-width="1"/>
+  <ellipse cx="388" cy="200" rx="3" ry="8" fill="url(#leatherGradient)" stroke="#654321" stroke-width="1"/>
+  <ellipse cx="393" cy="205" rx="3" ry="8" fill="url(#leatherGradient)" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Glove thumb -->
+  <ellipse cx="365" cy="210" rx="4" ry="10" fill="url(#leatherGradient)" stroke="#654321" stroke-width="1" transform="rotate(-30 365 210)"/>
+  
+  <!-- Reform/change arrows (transformation theme) -->
+  <path d="M200 50 L250 50" stroke="#32CD32" stroke-width="6" marker-end="url(#arrowGreen)"/>
+  <defs>
+  <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+  <polygon points="0 0, 10 3.5, 0 7" fill="#32CD32"/>
+  </marker>
+  </defs>
+  
+  <!-- Before/after transformation -->
+  <circle cx="180" cy="50" r="15" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <text x="180" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFF">RAW</text>
+  
+  <rect x="260" y="35" width="30" height="30" rx="5" fill="url(#leatherGradient)" stroke="#654321" stroke-width="2"/>
+  <text x="275" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#FFF">CRAFT</text>
+  
+  <!-- Stitching pattern demonstration -->
+  <path d="M350 300 L350 280 L370 280 L370 300 L350 300" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M355 285 L365 285 M355 290 L365 290 M355 295 L365 295" stroke="url(#stitchGradient)" stroke-width="1" stroke-dasharray="2,1"/>
+  
+  <!-- Chinese character -->
+  <text x="200" y="30" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#8B4513">革</text>
+  
+  <!-- Workshop sign -->
+  <rect x="300" y="120" width="80" height="25" fill="#F5DEB3" stroke="#8B4513" stroke-width="2"/>
+  <text x="340" y="137" text-anchor="middle" font-family="serif" font-size="12" fill="#8B4513">LEATHER</text>
+  <text x="340" y="152" text-anchor="middle" font-family="serif" font-size="12" fill="#8B4513">CRAFT</text>
+</svg> 

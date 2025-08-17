@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient id="bgGrad9" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="personGrad9" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff7043;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff5722;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d84315;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="headGrad9" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#ffab91;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8a65;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="glowGrad9" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#ff8a65;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ff8a65;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad9)"/>
+  
+  <!-- Subtle glow around person -->
+  <ellipse cx="250" cy="280" rx="120" ry="180" fill="url(#glowGrad9)"/>
+  
+  <!-- Shadow on ground -->
+  <ellipse cx="250" cy="420" rx="60" ry="15" fill="#d84315" opacity="0.3"/>
+  
+  <!-- Main person body forming 人 shape -->
+  <!-- Head -->
+  <circle cx="250" cy="120" r="35" fill="url(#headGrad9)" stroke="#d84315" stroke-width="3"/>
+  
+  <!-- Face features -->
+  <g fill="#d84315" opacity="0.8">
+  <circle cx="240" cy="115" r="3"/>  <!-- Left eye -->
+  <circle cx="260" cy="115" r="3"/>  <!-- Right eye -->
+  <ellipse cx="250" cy="130" rx="8" ry="4"/>  <!-- Smile -->
+  
+  <!-- Hair -->
+  <path d="M220 105 Q250 85 280 105" fill="#8d6e63" stroke="#6d4c41" stroke-width="2"/>
+  
+  <!-- Body and arms (top part of 人) -->
+  <rect x="240" y="155" width="20" height="60" rx="10" fill="url(#personGrad9)"/>
+  
+  <!-- Arms extending outward -->
+  <rect x="180" y="170" width="60" height="15" rx="7" fill="url(#personGrad9)" transform="rotate(-20 210 177)"/>
+  <rect x="260" y="170" width="60" height="15" rx="7" fill="url(#personGrad9)" transform="rotate(20 290 177)"/>
+  
+  <!-- Legs forming the lower part of 人 shape -->
+  <rect x="235" y="215" width="15" height="80" rx="7" fill="url(#personGrad9)" transform="rotate(-25 242 255)"/>
+  <rect x="250" y="215" width="15" height="80" rx="7" fill="url(#personGrad9)" transform="rotate(25 257 255)"/>
+  
+  <!-- Extended legs to ground -->
+  <rect x="210" y="285" width="15" height="100" rx="7" fill="url(#personGrad9)" transform="rotate(-15 217 335)"/>
+  <rect x="275" y="285" width="15" height="100" rx="7" fill="url(#personGrad9)" transform="rotate(15 282 335)"/>
+  
+  <!-- Feet -->
+  <ellipse cx="200" cy="400" rx="15" ry="8" fill="#d84315"/>
+  <ellipse cx="300" cy="400" rx="15" ry="8" fill="#d84315"/>
+  
+  <!-- Clothing details -->
+  <g stroke="#bf360c" stroke-width="2" fill="none" opacity="0.6">
+  <line x1="235" y1="180" x2="265" y2="180"/>
+  <line x1="240" y1="200" x2="260" y2="200"/>
+  
+    <!-- Heart symbol for humanity -->
+    <path d="M245 140 Q240 135 235 140 Q235 150 245 155 Q255 150 255 140 Q250 135 245 140" 
+        fill="#e91e63" opacity="0.7"/>
+  
+    <!-- Kanji character 人 -->
+    <text x="380" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#bf360c" opacity="0.8">人</text>
+    </g>
+  </g>
+</svg> 

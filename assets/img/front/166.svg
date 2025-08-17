@@ -1,0 +1,140 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="70%" stop-color="#E0F6FF"/>
+      <stop offset="100%" stop-color="#F0F8FF"/>
+    </linearGradient>
+    <linearGradient id="houseGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#DEB887"/>
+      <stop offset="100%" stop-color="#8B7355"/>
+    </linearGradient>
+    <radialGradient id="fieldGradient" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0%" stop-color="#9ACD32"/>
+      <stop offset="70%" stop-color="#6B8E23"/>
+      <stop offset="100%" stop-color="#556B2F"/>
+    </radialGradient>
+  </defs>  <!-- Sky background -->
+  <rect width="500" height="500" fill="url(#skyGradient)"/>
+  
+  <!-- Mountains in background -->
+  <path d="M0 200 L100 120 L200 160 L300 100 L400 140 L400 400 L0 400 Z" 
+    fill="#8FBC8F" opacity="0.6"/>
+  
+  <!-- Hills -->
+  <path d="M0 250 L150 200 L300 220 L400 180 L400 400 L0 400 Z" 
+    fill="#90EE90" opacity="0.7"/>
+  
+  <!-- Village fields -->
+  <rect x="50" y="280" width="100" height="60" fill="url(#fieldGradient)" stroke="#556B2F" stroke-width="1"/>
+  <rect x="200" y="300" width="120" height="50" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+  <rect x="350" y="260" width="50" height="80" fill="#DDA0DD" stroke="#9370DB" stroke-width="1"/>
+  
+  <!-- Field rows -->
+  <path d="M60 290 L140 290 M60 300 L140 300 M60 310 L140 310 M60 320 L140 320 M60 330 L140 330" 
+    stroke="#228B22" stroke-width="1"/>
+  <path d="M210 310 L310 310 M210 320 L310 320 M210 330 L310 330 M210 340 L310 340" 
+    stroke="#B8860B" stroke-width="1"/>
+  
+  <!-- Traditional houses -->
+  <!-- House 1 -->
+  <rect x="80" y="220" width="50" height="40" fill="url(#houseGradient)" stroke="#654321" stroke-width="2"/>
+  <path d="M70 220 L105 200 L140 220 Z" fill="#DC143C" stroke="#8B0000" stroke-width="2"/>
+  <rect x="90" y="235" width="12" height="25" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  <rect x="110" y="225" width="10" height="15" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  
+  <!-- House 2 -->
+  <rect x="180" y="240" width="60" height="50" fill="url(#houseGradient)" stroke="#654321" stroke-width="2"/>
+  <path d="M170 240 L210 215 L250 240 Z" fill="#228B22" stroke="#006400" stroke-width="2"/>
+  <rect x="195" y="260" width="15" height="30" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  <rect x="220" y="250" width="12" height="18" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  
+  <!-- House 3 -->
+  <rect x="300" y="210" width="45" height="35" fill="url(#houseGradient)" stroke="#654321" stroke-width="2"/>
+  <path d="M290 210 L322.5 190 L355 210 Z" fill="#4169E1" stroke="#191970" stroke-width="2"/>
+  <rect x="315" y="225" width="10" height="20" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  <rect x="330" y="220" width="8" height="12" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  
+  <!-- Village well -->
+  <circle cx="160" cy="320" r="15" fill="#4682B4" stroke="#2F4F4F" stroke-width="3"/>
+  <circle cx="160" cy="320" r="10" fill="#87CEEB"/>
+  <rect x="155" y="305" width="10" height="30" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <path d="M150 305 L170 305" stroke="#654321" stroke-width="3"/>
+  <circle cx="160" cy="300" r="3" fill="#FFD700"/>
+  
+  <!-- Village shrine/temple -->
+  <rect x="250" y="180" width="40" height="30" fill="#F0E68C" stroke="#DAA520" stroke-width="2"/>
+  <path d="M240 180 L270 160 L300 180 Z" fill="#FF6347" stroke="#DC143C" stroke-width="2"/>
+  <rect x="265" y="195" width="10" height="15" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  <circle cx="270" cy="170" r="3" fill="#FFD700"/>
+  
+  <!-- Trees around village -->
+  <circle cx="50" cy="240" r="20" fill="#228B22"/>
+  <rect x="47" y="240" width="6" height="30" fill="#8B4513"/>
+  
+  <circle cx="350" cy="220" r="18" fill="#32CD32"/>
+  <rect x="347" y="220" width="6" height="25" fill="#8B4513"/>
+  
+  <circle cx="380" cy="250" r="15" fill="#228B22"/>
+  <rect x="377" y="250" width="6" height="20" fill="#8B4513"/>
+  
+  <circle cx="30" cy="280" r="22" fill="#32CD32"/>
+  <rect x="27" y="280" width="6" height="35" fill="#8B4513"/>
+  
+  <!-- Village path -->
+  <path d="M0 350 Q100 345 200 350 Q300 355 400 350" stroke="#DEB887" stroke-width="15" fill="none"/>
+  <path d="M0 350 Q100 345 200 350 Q300 355 400 350" stroke="#CD853F" stroke-width="8" fill="none"/>
+  
+  <!-- People in village -->
+  <circle cx="120" cy="340" r="4" fill="#FFDAB9"/>
+  <rect x="117" y="344" width="6" height="12" fill="#FF69B4"/>
+  
+  <circle cx="280" cy="345" r="4" fill="#DEB887"/>
+  <rect x="277" y="349" width="6" height="12" fill="#32CD32"/>
+  
+  <!-- Farm animals -->
+  <!-- Chicken -->
+  <ellipse cx="190" cy="350" rx="6" ry="8" fill="#DEB887"/>
+  <circle cx="190" cy="345" r="4" fill="#CD853F"/>
+  <path d="M186 343 Q184 341 186 339" fill="#FF0000"/>
+  <circle cx="188" cy="343" r="0.5" fill="#000"/>
+  
+  <!-- Vegetables/crops -->
+  <circle cx="110" cy="310" r="3" fill="#FF6347"/>
+  <circle cx="120" cy="315" r="3" fill="#FFD700"/>
+  <circle cx="100" cy="320" r="3" fill="#9370DB"/>
+  
+  <circle cx="250" cy="325" r="3" fill="#32CD32"/>
+  <circle cx="260" cy="330" r="3" fill="#FF4500"/>
+  <circle cx="270" cy="320" r="3" fill="#4169E1"/>
+  
+  <!-- Village smoke from chimneys -->
+  <path d="M95 200 Q100 190 95 180 Q90 190 95 200" stroke="#D3D3D3" stroke-width="2" fill="none"/>
+  <path d="M200 215 Q205 205 200 195 Q195 205 200 215" stroke="#D3D3D3" stroke-width="2" fill="none"/>
+  <path d="M315 190 Q320 180 315 170 Q310 180 315 190" stroke="#D3D3D3" stroke-width="2" fill="none"/>
+  
+  <!-- Flowers in village -->
+  <circle cx="70" cy="350" r="2" fill="#FF69B4"/>
+  <circle cx="130" cy="360" r="2" fill="#FFD700"/>
+  <circle cx="220" cy="355" r="2" fill="#9370DB"/>
+  <circle cx="320" cy="365" r="2" fill="#FF6347"/>
+  
+  <!-- Village fence -->
+  <path d="M20 320 L40 320 M20 315 L20 325 M40 315 L40 325 M25 315 L25 325 M35 315 L35 325" 
+    stroke="#8B4513" stroke-width="2"/>
+  <path d="M360 290 L380 290 M360 285 L360 295 M380 285 L380 295 M365 285 L365 295 M375 285 L375 295" 
+    stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="70" r="25" fill="#FFD700" opacity="0.8"/>
+  <circle cx="350" cy="70" r="20" fill="#FFA500" opacity="0.6"/>
+  
+  <!-- Clouds -->
+  <circle cx="100" cy="60" r="18" fill="#FFF" opacity="0.8"/>
+  <circle cx="120" cy="55" r="22" fill="#FFF" opacity="0.8"/>
+  <circle cx="140" cy="60" r="16" fill="#FFF" opacity="0.8"/>
+  
+  <!-- Village sign -->
+  <rect x="5" y="300" width="30" height="20" fill="#F5DEB3" stroke="#8B4513" stroke-width="2"/>
+  <text x="20" y="315" text-anchor="middle" font-family="serif" font-size="8" fill="#8B0000">里</text>
+</svg> 

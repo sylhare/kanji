@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient id="bgGrad24" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffecb3;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="crossGrad24" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd54f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffb300;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8f00;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glowGrad24" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#fff176;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#fff176;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad24)"/>
+  
+  <!-- Glow effect -->
+  <circle cx="250" cy="250" r="150" fill="url(#glowGrad24)"/>
+  
+  <!-- Vertical bar of cross -->
+  <rect x="225" y="100" width="50" height="300" rx="25" fill="url(#crossGrad24)" stroke="#f57c00" stroke-width="3"/>
+  
+  <!-- Horizontal bar of cross -->
+  <rect x="100" y="225" width="300" height="50" rx="25" fill="url(#crossGrad24)" stroke="#f57c00" stroke-width="3"/>
+  
+  <!-- Highlight effects -->
+  <rect x="235" y="100" width="20" height="300" rx="10" fill="#fff59d" opacity="0.6"/>
+  <rect x="100" y="235" width="300" height="20" rx="10" fill="#fff59d" opacity="0.6"/>
+  
+  <!-- Decorative elements at ends -->
+  <g fill="#ff8f00" opacity="0.8">
+  <circle cx="250" cy="115" r="15"/>
+  <circle cx="250" cy="385" r="15"/>
+  <circle cx="115" cy="250" r="15"/>
+  <circle cx="385" cy="250" r="15"/>
+  
+  <!-- Central ornament -->
+  <circle cx="250" cy="250" r="25" fill="#fff" stroke="#f57c00" stroke-width="4"/>
+  <circle cx="250" cy="250" r="15" fill="url(#crossGrad24)"/>
+  
+  <!-- Ten dots arranged around -->
+  <g fill="#ffb300" opacity="0.7">
+  <circle cx="200" cy="150" r="6"/>
+  <circle cx="300" cy="150" r="6"/>
+  <circle cx="350" cy="200" r="6"/>
+  <circle cx="350" cy="300" r="6"/>
+  <circle cx="300" cy="350" r="6"/>
+  <circle cx="200" cy="350" r="6"/>
+  <circle cx="150" cy="300" r="6"/>
+  <circle cx="150" cy="200" r="6"/>
+  <circle cx="250" cy="180" r="6"/>
+  <circle cx="250" cy="320" r="6"/>
+  
+    <!-- Sparkle effects -->
+    <g fill="#ffcc02" opacity="0.6">
+    <path d="M120 120 L130 110 L140 120 L130 130 Z"/>
+    <path d="M380 380 L390 370 L400 380 L390 390 Z"/>
+    <path d="M120 380 L130 370 L140 380 L130 390 Z"/>
+    <path d="M380 120 L390 110 L400 120 L390 130 Z"/>
+    </g>
+  
+    <!-- Number "10" subtly integrated -->
+    <text x="450" y="80" font-family="Arial, sans-serif" font-size="32" font-weight="300" text-anchor="middle" fill="#e65100" opacity="0.4">10</text>
+  
+    <!-- Kanji character 十 -->
+    <text x="80" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#e65100" opacity="0.8">十</text>
+    </g>
+  </g>
+</svg> 

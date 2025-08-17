@@ -1,0 +1,111 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="pepperGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FF6347"/>
+      <stop offset="50%" stop-color="#DC143C"/>
+      <stop offset="100%" stop-color="#8B0000"/>
+    </radialGradient>
+    <radialGradient id="coffeeGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#D2691E"/>
+      <stop offset="50%" stop-color="#8B4513"/>
+      <stop offset="100%" stop-color="#654321"/>
+    </radialGradient>
+    <linearGradient id="faceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFDAB9"/>
+      <stop offset="100%" stop-color="#DEB887"/>
+    </linearGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#FFF8DC"/>
+  
+  <!-- Expressive face showing bitter reaction -->
+  <circle cx="200" cy="120" r="50" fill="url(#faceGradient)" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Squinted eyes (from bitter taste) -->
+  <path d="M175 110 Q180 105 185 110" stroke="#000" stroke-width="3" fill="none"/>
+  <path d="M215 110 Q220 105 225 110" stroke="#000" stroke-width="3" fill="none"/>
+  
+  <!-- Wrinkled brow -->
+  <path d="M170 95 Q175 90 180 95" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M220 95 Q225 90 230 95" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <!-- Bitter mouth expression -->
+  <path d="M185 140 Q200 130 215 140" stroke="#8B0000" stroke-width="3" fill="none"/>
+  
+  <!-- Hot pepper -->
+  <path d="M120 200 Q110 180 120 160 Q140 150 160 160 Q170 180 160 200 Q140 210 120 200" 
+    fill="url(#pepperGradient)" stroke="#8B0000" stroke-width="2"/>
+  
+  <!-- Pepper stem -->
+  <path d="M140 160 Q145 145 150 140" stroke="#228B22" stroke-width="4"/>
+  <path d="M145 150 Q150 145 155 150" fill="#32CD32"/>
+  
+  <!-- Pepper heat lines -->
+  <path d="M170 170 Q180 165 190 170" stroke="#FF4500" stroke-width="2" opacity="0.7"/>
+  <path d="M175 185 Q185 180 195 185" stroke="#FF6347" stroke-width="2" opacity="0.7"/>
+  <path d="M170 200 Q180 195 190 200" stroke="#FF0000" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Coffee cup -->
+  <ellipse cx="300" cy="250" rx="40" ry="30" fill="url(#coffeeGradient)" stroke="#654321" stroke-width="3"/>
+  <ellipse cx="300" cy="235" rx="35" ry="25" fill="#2F1B14"/>
+  <ellipse cx="300" cy="230" rx="30" ry="20" fill="#4A2C2A"/>
+  
+  <!-- Coffee cup handle -->
+  <path d="M340 250 Q355 245 355 260 Q355 275 340 270" stroke="#654321" stroke-width="4" fill="none"/>
+  
+  <!-- Coffee steam -->
+  <path d="M285 210 Q290 200 285 190 Q280 200 285 210" stroke="#D3D3D3" stroke-width="2" fill="none"/>
+  <path d="M300 210 Q305 200 300 190 Q295 200 300 210" stroke="#D3D3D3" stroke-width="2" fill="none"/>
+  <path d="M315 210 Q320 200 315 190 Q310 200 315 210" stroke="#D3D3D3" stroke-width="2" fill="none"/>
+  
+  <!-- Dark chocolate bar -->
+  <rect x="80" y="300" width="80" height="40" fill="#654321" stroke="#2F1B14" stroke-width="2"/>
+  <!-- Chocolate squares -->
+  <path d="M100 300 L100 340 M120 300 L120 340 M140 300 L140 340" stroke="#2F1B14" stroke-width="1"/>
+  <path d="M80 320 L160 320" stroke="#2F1B14" stroke-width="1"/>
+  
+  <!-- Bitter melon -->
+  <ellipse cx="280" cy="350" rx="60" ry="25" fill="#90EE90" stroke="#228B22" stroke-width="2"/>
+  <!-- Bumpy texture -->
+  <circle cx="260" cy="345" r="4" fill="#32CD32"/>
+  <circle cx="275" cy="340" r="3" fill="#32CD32"/>
+  <circle cx="290" cy="345" r="4" fill="#32CD32"/>
+  <circle cx="300" cy="355" r="3" fill="#32CD32"/>
+  <circle cx="285" cy="360" r="4" fill="#32CD32"/>
+  <circle cx="270" cy="355" r="3" fill="#32CD32"/>
+  
+  <!-- Grapefruit -->
+  <circle cx="120" cy="350" r="30" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+  <!-- Grapefruit segments -->
+  <path d="M120 320 L120 380 M100 335 L140 365 M140 335 L100 365" stroke="#FF1493" stroke-width="1"/>
+  
+  <!-- Medicine pills -->
+  <ellipse cx="50" cy="150" rx="8" ry="12" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <ellipse cx="70" cy="160" rx="6" ry="10" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+  <ellipse cx="35" cy="175" rx="7" ry="11" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  
+  <!-- Taste buds on tongue -->
+  <ellipse cx="200" cy="160" rx="25" ry="15" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+  <circle cx="190" cy="155" r="2" fill="#FF1493"/>
+  <circle cx="200" cy="158" r="2" fill="#FF1493"/>
+  <circle cx="210" cy="155" r="2" fill="#FF1493"/>
+  <circle cx="195" cy="165" r="2" fill="#FF1493"/>
+  <circle cx="205" cy="165" r="2" fill="#FF1493"/>
+  
+  <!-- Bitter herbs -->
+  <path d="M350 150 Q360 140 370 150 Q365 160 355 155 Q350 160 345 150 Q350 140 360 145" 
+    fill="#228B22" stroke="#006400" stroke-width="1"/>
+  <path d="M380 160 Q390 150 400 160 Q395 170 385 165 Q380 170 375 160 Q380 150 390 155" 
+    fill="#32CD32" stroke="#228B22" stroke-width="1"/>
+  
+  <!-- Tears from bitter taste -->
+  <ellipse cx="170" cy="125" rx="3" ry="8" fill="#87CEEB" opacity="0.7"/>
+  <ellipse cx="230" cy="125" rx="3" ry="8" fill="#87CEEB" opacity="0.7"/>
+  
+  <!-- Bitter reaction symbols -->
+  <text x="250" y="100" font-family="Arial, sans-serif" font-size="20" fill="#8B0000" opacity="0.8">!</text>
+  <text x="260" y="85" font-family="Arial, sans-serif" font-size="16" fill="#DC143C" opacity="0.7">?</text>
+  <text x="270" y="110" font-family="Arial, sans-serif" font-size="18" fill="#FF0000" opacity="0.6">*</text>
+  
+  <!-- Chinese character for bitter -->
+  <text x="200" y="50" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#8B4513" opacity="0.6">苦</text>
+</svg> 

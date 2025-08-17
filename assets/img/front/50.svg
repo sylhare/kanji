@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad50" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="fabricGrad50" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#bbdefb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#90caf9;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="softGlow50" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#ce93d8;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#ce93d8;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="foldGrad50" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#81d4fa;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4fc3f7;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#29b6f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad50)"/>
+  
+  <!-- Soft textile aura -->
+  <ellipse cx="250" cy="250" rx="180" ry="160" fill="url(#softGlow50)"/>
+  
+  <!-- Main towel/cloth representing 巾 -->
+  <!-- Main fabric panel -->
+  <rect x="180" y="150" width="140" height="200" rx="10" fill="url(#fabricGrad50)" stroke="#1976d2" stroke-width="3"/>
+  
+  <!-- Left vertical border -->
+  <rect x="160" y="150" width="20" height="200" rx="10" fill="url(#fabricGrad50)" stroke="#1976d2" stroke-width="2"/>
+  
+  <!-- Right vertical border -->
+  <rect x="320" y="150" width="20" height="200" rx="10" fill="url(#fabricGrad50)" stroke="#1976d2" stroke-width="2"/>
+  
+  <!-- Fabric texture lines -->
+  <g stroke="#4fc3f7" stroke-width="1" opacity="0.4">
+  <!-- Warp threads (vertical) -->
+  <line x1="190" y1="150" x2="190" y2="350"/>
+  <line x1="210" y1="150" x2="210" y2="350"/>
+  <line x1="230" y1="150" x2="230" y2="350"/>
+  <line x1="250" y1="150" x2="250" y2="350"/>
+  <line x1="270" y1="150" x2="270" y2="350"/>
+  <line x1="290" y1="150" x2="290" y2="350"/>
+  <line x1="310" y1="150" x2="310" y2="350"/>
+  
+  <!-- Weft threads (horizontal) -->
+  <line x1="180" y1="170" x2="320" y2="170"/>
+  <line x1="180" y1="190" x2="320" y2="190"/>
+  <line x1="180" y1="210" x2="320" y2="210"/>
+  <line x1="180" y1="230" x2="320" y2="230"/>
+  <line x1="180" y1="250" x2="320" y2="250"/>
+  <line x1="180" y1="270" x2="320" y2="270"/>
+  <line x1="180" y1="290" x2="320" y2="290"/>
+  <line x1="180" y1="310" x2="320" y2="310"/>
+  <line x1="180" y1="330" x2="320" y2="330"/>
+  
+  <!-- Hanging towel -->
+  <g transform="translate(100,100)" opacity="0.8">
+  <rect x="0" y="0" width="60" height="80" rx="5" fill="url(#foldGrad50)" stroke="#0277bd" stroke-width="2"/>
+  <!-- Fold lines -->
+  <line x1="0" y1="20" x2="60" y2="20" stroke="#0277bd" stroke-width="1"/>
+  <line x1="0" y1="40" x2="60" y2="40" stroke="#0277bd" stroke-width="1"/>
+  <line x1="0" y1="60" x2="60" y2="60" stroke="#0277bd" stroke-width="1"/>
+  
+  <!-- Hook/hanger -->
+  <circle cx="30" cy="-10" r="5" fill="none" stroke="#8d6e63" stroke-width="3"/>
+  <line x1="30" y1="-5" x2="30" y2="0" stroke="#8d6e63" stroke-width="2"/>
+  
+    <!-- Folded towel stack -->
+    <g transform="translate(380,300)" opacity="0.8">
+    <!-- Bottom towel -->
+    <rect x="0" y="15" width="80" height="15" rx="3" fill="url(#foldGrad50)" stroke="#0277bd" stroke-width="1"/>
+    <!-- Middle towel -->
+    <rect x="0" y="5" width="80" height="15" rx="3" fill="url(#fabricGrad50)" stroke="#1976d2" stroke-width="1"/>
+    <!-- Top towel -->
+    <rect x="0" y="-5" width="80" height="15" rx="3" fill="#e1f5fe" stroke="#01579b" stroke-width="1"/>
+    </g>
+  
+    <!-- Washcloth -->
+    <g transform="translate(80,350)" opacity="0.7">
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="url(#fabricGrad50)" stroke="#1976d2" stroke-width="2"/>
+    <g stroke="#4fc3f7" stroke-width="0.5" opacity="0.5">
+      <line x1="8" y1="0" x2="8" y2="40"/>
+      <line x1="16" y1="0" x2="16" y2="40"/>
+      <line x1="24" y1="0" x2="24" y2="40"/>
+      <line x1="32" y1="0" x2="32" y2="40"/>
+      <line x1="0" y1="8" x2="40" y2="8"/>
+      <line x1="0" y1="16" x2="40" y2="16"/>
+      <line x1="0" y1="24" x2="40" y2="24"/>
+      <line x1="0" y1="32" x2="40" y2="32"/>
+    </g>
+    </g>
+  
+    <!-- Drying line -->
+    <g stroke="#8d6e63" stroke-width="2" opacity="0.6">
+    <line x1="50" y1="80" x2="450" y2="80"/>
+    <line x1="70" y1="60" x2="70" y2="100"/>
+    <line x1="430" y1="60" x2="430" y2="100"/>
+    </g>
+  
+    <!-- Clothespins -->
+    <g transform="translate(130,75)" opacity="0.7">
+    <ellipse cx="0" cy="0" rx="4" ry="8" fill="#ffb74d"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#f57c00" stroke-width="1"/>
+    </g>
+  
+    <!-- Water droplets -->
+    <g fill="#4fc3f7" opacity="0.7">
+    <path d="M200 380 Q205 375 210 380 Q205 385 200 380"/>
+    <path d="M280 390 Q285 385 290 390 Q285 395 280 390"/>
+    <path d="M250 395 Q255 390 260 395 Q255 400 250 395"/>
+    </g>
+  
+    <!-- Steam/freshness -->
+    <g stroke="#81d4fa" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M220 130 Q225 120 230 130"/>
+    <path d="M250 125 Q255 115 260 125"/>
+    <path d="M280 130 Q285 120 290 130"/>
+    </g>
+  
+    <!-- Embroidered pattern -->
+    <g transform="translate(250,220)" opacity="0.6">
+    <g fill="#9c27b0">
+      <circle cx="0" cy="0" r="3"/>
+      <circle cx="-10" cy="-10" r="2"/>
+      <circle cx="10" cy="-10" r="2"/>
+      <circle cx="-10" cy="10" r="2"/>
+      <circle cx="10" cy="10" r="2"/>
+    </g>
+    <g stroke="#9c27b0" stroke-width="1" fill="none">
+      <path d="M-15,0 Q0,-15 15,0 Q0,15 -15,0"/>
+    </g>
+    </g>
+  
+    <!-- Terry cloth loops -->
+    <g fill="#bbdefb" opacity="0.6">
+    <g transform="translate(200,180)">
+      <circle cx="0" cy="0" r="2"/>
+      <circle cx="5" cy="3" r="1"/>
+      <circle cx="10" cy="0" r="2"/>
+      <circle cx="15" cy="3" r="1"/>
+    </g>
+    <g transform="translate(250,300)">
+      <circle cx="0" cy="0" r="1"/>
+      <circle cx="4" cy="2" r="1"/>
+      <circle cx="8" cy="0" r="1"/>
+      <circle cx="12" cy="2" r="1"/>
+    </g>
+    </g>
+  
+    <!-- Softness indicators -->
+    <g fill="#e1bee7" opacity="0.7">
+    <path d="M150 200 L160 190 L170 200 L160 210 Z"/>
+    <path d="M330 280 L340 270 L350 280 L340 290 Z"/>
+    <path d="M120 280 L130 270 L140 280 L130 290 Z"/>
+    <path d="M360 180 L370 170 L380 180 L370 190 Z"/>
+    </g>
+  
+    <!-- Laundry basket -->
+    <g transform="translate(400,400)" opacity="0.7">
+    <ellipse cx="0" cy="5" rx="25" ry="15" fill="#8d6e63"/>
+    <rect x="-20" y="-15" width="40" height="20" fill="none" stroke="#8d6e63" stroke-width="2"/>
+    <g stroke="#6d4c41" stroke-width="1">
+      <line x1="-15" y1="-15" x2="-15" y2="5"/>
+      <line x1="-5" y1="-15" x2="-5" y2="5"/>
+      <line x1="5" y1="-15" x2="5" y2="5"/>
+      <line x1="15" y1="-15" x2="15" y2="5"/>
+    </g>
+    </g>
+  
+    <!-- Soap bubbles -->
+    <g fill="#e3f2fd" opacity="0.6">
+    <circle cx="120" cy="200" r="3"/>
+    <circle cx="380" cy="160" r="4"/>
+    <circle cx="100" cy="300" r="2"/>
+    <circle cx="400" cy="250" r="3"/>
+    <circle cx="150" cy="120" r="2"/>
+    </g>
+  
+    <!-- Fabric care symbols -->
+    <g transform="translate(450,150)" opacity="0.6">
+    <!-- Wash symbol -->
+    <path d="M-10,-10 Q0,-15 10,-10 L10,10 L-10,10 Z" fill="none" stroke="#2196f3" stroke-width="2"/>
+    <path d="M-5,-5 Q0,-8 5,-5" stroke="#2196f3" stroke-width="1" fill="none"/>
+    </g>
+  
+    <!-- Absorption lines -->
+    <g stroke="#29b6f6" stroke-width="1" opacity="0.3">
+    <path d="M180 400 Q200 390 220 400"/>
+    <path d="M280 400 Q300 390 320 400"/>
+    <path d="M160 420 Q180 410 200 420"/>
+    <path d="M300 420 Q320 410 340 420"/>
+    </g>
+  
+    <!-- Kanji character 巾 -->
+    <text x="450" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1976d2" opacity="0.8">巾</text>
+    </g>
+  </g>
+</svg> 

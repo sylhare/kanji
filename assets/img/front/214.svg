@@ -1,0 +1,201 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fluteGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#DAA520"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="silverFluteGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8F8FF"/>
+      <stop offset="50%" stop-color="#C0C0C0"/>
+      <stop offset="100%" stop-color="#A9A9A9"/>
+    </linearGradient>
+    <radialGradient id="noteGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#4169E1"/>
+      <stop offset="50%" stop-color="#191970"/>
+      <stop offset="100%" stop-color="#000080"/>
+    </radialGradient>
+    <linearGradient id="bambooGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#90EE90"/>
+      <stop offset="50%" stop-color="#32CD32"/>
+      <stop offset="100%" stop-color="#228B22"/>
+    </linearGradient>
+  </defs>  <!-- Background with music staff -->
+  <rect width="500" height="500" fill="#F8F8FF"/>
+  
+  <!-- Music staff lines -->
+  <rect x="0" y="100" width="400" height="2" fill="#2F2F2F"/>
+  <rect x="0" y="120" width="400" height="2" fill="#2F2F2F"/>
+  <rect x="0" y="140" width="400" height="2" fill="#2F2F2F"/>
+  <rect x="0" y="160" width="400" height="2" fill="#2F2F2F"/>
+  <rect x="0" y="180" width="400" height="2" fill="#2F2F2F"/>
+  
+  <!-- Treble clef -->
+  <path d="M30 120 Q40 110 35 130 Q30 150 40 140 Q50 130 45 160 Q40 180 30 160 Q20 140 30 120" 
+    fill="#4169E1" stroke="#191970" stroke-width="2"/>
+  
+  <!-- Golden concert flute -->
+  <rect x="80" y="200" width="240" height="8" rx="4" fill="url(#fluteGradient)" stroke="#B8860B" stroke-width="2"/>
+  
+  <!-- Flute holes -->
+  <circle cx="100" cy="204" r="3" fill="#8B4513"/>
+  <circle cx="120" cy="204" r="3" fill="#8B4513"/>
+  <circle cx="140" cy="204" r="3" fill="#8B4513"/>
+  <circle cx="160" cy="204" r="3" fill="#8B4513"/>
+  <circle cx="180" cy="204" r="3" fill="#8B4513"/>
+  <circle cx="200" cy="204" r="3" fill="#8B4513"/>
+  <circle cx="220" cy="204" r="3" fill="#8B4513"/>
+  <circle cx="240" cy="204" r="3" fill="#8B4513"/>
+  <circle cx="260" cy="204" r="3" fill="#8B4513"/>
+  <circle cx="280" cy="204" r="3" fill="#8B4513"/>
+  <circle cx="300" cy="204" r="3" fill="#8B4513"/>
+  
+  <!-- Flute mouthpiece -->
+  <ellipse cx="75" cy="204" rx="8" ry="6" fill="url(#fluteGradient)" stroke="#B8860B" stroke-width="2"/>
+  
+  <!-- Silver flute -->
+  <rect x="100" y="250" width="200" height="6" rx="3" fill="url(#silverFluteGradient)" stroke="#A9A9A9" stroke-width="2"/>
+  
+  <!-- Silver flute holes -->
+  <circle cx="120" cy="253" r="2" fill="#696969"/>
+  <circle cx="140" cy="253" r="2" fill="#696969"/>
+  <circle cx="160" cy="253" r="2" fill="#696969"/>
+  <circle cx="180" cy="253" r="2" fill="#696969"/>
+  <circle cx="200" cy="253" r="2" fill="#696969"/>
+  <circle cx="220" cy="253" r="2" fill="#696969"/>
+  <circle cx="240" cy="253" r="2" fill="#696969"/>
+  <circle cx="260" cy="253" r="2" fill="#696969"/>
+  <circle cx="280" cy="253" r="2" fill="#696969"/>
+  
+  <!-- Bamboo flute -->
+  <rect x="120" y="300" width="160" height="8" rx="4" fill="url(#bambooGradient)" stroke="#228B22" stroke-width="2"/>
+  
+  <!-- Bamboo segments -->
+  <rect x="140" y="298" width="2" height="12" fill="#006400"/>
+  <rect x="180" y="298" width="2" height="12" fill="#006400"/>
+  <rect x="220" y="298" width="2" height="12" fill="#006400"/>
+  <rect x="260" y="298" width="2" height="12" fill="#006400"/>
+  
+  <!-- Bamboo flute holes -->
+  <circle cx="150" cy="304" r="2.5" fill="#654321"/>
+  <circle cx="170" cy="304" r="2.5" fill="#654321"/>
+  <circle cx="190" cy="304" r="2.5" fill="#654321"/>
+  <circle cx="210" cy="304" r="2.5" fill="#654321"/>
+  <circle cx="230" cy="304" r="2.5" fill="#654321"/>
+  <circle cx="250" cy="304" r="2.5" fill="#654321"/>
+  
+  <!-- Musical notes flowing from flutes -->
+  <!-- Notes from golden flute -->
+  <ellipse cx="330" cy="190" rx="6" ry="8" fill="url(#noteGradient)" stroke="#191970" stroke-width="1"/>
+  <rect x="336" y="180" width="2" height="20" fill="#191970"/>
+  <path d="M338 180 Q348 175 350 185" fill="#191970"/>
+  
+  <ellipse cx="350" cy="170" rx="5" ry="7" fill="url(#noteGradient)" stroke="#191970" stroke-width="1"/>
+  <rect x="355" y="165" width="2" height="15" fill="#191970"/>
+  
+  <circle cx="370" cy="150" r="4" fill="url(#noteGradient)" stroke="#191970" stroke-width="1"/>
+  <rect x="374" y="145" width="2" height="15" fill="#191970"/>
+  <path d="M376 145 Q385 140 387 150" fill="#191970"/>
+  
+  <!-- Notes from silver flute -->
+  <ellipse cx="310" cy="240" rx="5" ry="6" fill="#9370DB" stroke="#4B0082" stroke-width="1"/>
+  <rect x="315" y="235" width="1.5" height="12" fill="#4B0082"/>
+  
+  <circle cx="330" cy="220" r="3.5" fill="#9370DB" stroke="#4B0082" stroke-width="1"/>
+  <rect x="333.5" y="218" width="1.5" height="10" fill="#4B0082"/>
+  
+  <ellipse cx="350" cy="210" rx="4" ry="5" fill="#9370DB" stroke="#4B0082" stroke-width="1"/>
+  <rect x="354" y="208" width="1.5" height="8" fill="#4B0082"/>
+  
+  <!-- Notes from bamboo flute -->
+  <circle cx="290" cy="285" r="4" fill="#32CD32" stroke="#228B22" stroke-width="1"/>
+  <rect x="294" y="283" width="2" height="10" fill="#228B22"/>
+  
+  <ellipse cx="310" cy="270" rx="4" ry="5" fill="#32CD32" stroke="#228B22" stroke-width="1"/>
+  <rect x="314" y="268" width="2" height="8" fill="#228B22"/>
+  
+  <circle cx="330" cy="260" r="3" fill="#32CD32" stroke="#228B22" stroke-width="1"/>
+  <rect x="333" y="258" width="1.5" height="8" fill="#228B22"/>
+  
+  <!-- Ancient Chinese flute (Dizi) -->
+  <rect x="60" y="350" width="180" height="10" rx="5" fill="#D2691E" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Dizi holes -->
+  <circle cx="80" cy="355" r="3" fill="#654321"/>
+  <circle cx="100" cy="355" r="2.5" fill="#654321"/>
+  <circle cx="120" cy="355" r="2.5" fill="#654321"/>
+  <circle cx="140" cy="355" r="2.5" fill="#654321"/>
+  <circle cx="160" cy="355" r="2.5" fill="#654321"/>
+  <circle cx="180" cy="355" r="2.5" fill="#654321"/>
+  <circle cx="200" cy="355" r="2.5" fill="#654321"/>
+  <circle cx="220" cy="355" r="3" fill="#654321"/>
+  
+  <!-- Membrane hole (特殊孔) -->
+  <circle cx="90" cy="355" r="4" fill="#8B0000"/>
+  
+  <!-- Pan flute -->
+  <rect x="300" y="300" width="8" height="60" rx="4" fill="url(#bambooGradient)" stroke="#228B22" stroke-width="1"/>
+  <rect x="312" y="310" width="8" height="50" rx="4" fill="url(#bambooGradient)" stroke="#228B22" stroke-width="1"/>
+  <rect x="324" y="320" width="8" height="40" rx="4" fill="url(#bambooGradient)" stroke="#228B22" stroke-width="1"/>
+  <rect x="336" y="330" width="8" height="30" rx="4" fill="url(#bambooGradient)" stroke="#228B22" stroke-width="1"/>
+  <rect x="348" y="340" width="8" height="20" rx="4" fill="url(#bambooGradient)" stroke="#228B22" stroke-width="1"/>
+  <rect x="360" y="345" width="8" height="15" rx="4" fill="url(#bambooGradient)" stroke="#228B22" stroke-width="1"/>
+  <rect x="372" y="350" width="8" height="10" rx="4" fill="url(#bambooGradient)" stroke="#228B22" stroke-width="1"/>
+  
+  <!-- Ocarina -->
+  <ellipse cx="350" cy="320" rx="20" ry="15" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <ellipse cx="360" cy="310" rx="8" ry="6" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  <!-- Ocarina holes -->
+  <circle cx="345" cy="315" r="2" fill="#2F2F2F"/>
+  <circle cx="355" cy="315" r="2" fill="#2F2F2F"/>
+  <circle cx="350" cy="325" r="2" fill="#2F2F2F"/>
+  <circle cx="340" cy="325" r="1.5" fill="#2F2F2F"/>
+  <circle cx="360" cy="325" r="1.5" fill="#2F2F2F"/>
+  
+  <!-- Sound waves -->
+  <g stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.6">
+  <path d="M380 160 Q390 150 400 160"/>
+  <path d="M385 165 Q395 155 405 165"/>
+  <path d="M390 170 Q400 160 410 170"/>
+  
+  <path d="M360 240 Q370 230 380 240"/>
+  <path d="M365 245 Q375 235 385 245"/>
+  
+  <path d="M350 285 Q360 275 370 285"/>
+  <path d="M355 290 Q365 280 375 290"/>
+  
+  <!-- Musical notation on staff -->
+  <ellipse cx="80" cy="101" rx="4" ry="6" fill="#2F2F2F"/>
+  <rect x="84" y="91" width="1.5" height="20" fill="#2F2F2F"/>
+  
+  <ellipse cx="100" cy="121" rx="4" ry="6" fill="#2F2F2F"/>
+  <rect x="104" y="111" width="1.5" height="20" fill="#2F2F2F"/>
+  
+  <circle cx="120" cy="141" r="3" fill="#2F2F2F"/>
+  <rect x="123" y="131" width="1.5" height="20" fill="#2F2F2F"/>
+  
+  <ellipse cx="140" cy="161" rx="4" ry="6" fill="#2F2F2F"/>
+  <rect x="144" y="151" width="1.5" height="20" fill="#2F2F2F"/>
+  
+  <!-- Chinese character for flute -->
+  <text x="200" y="50" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#4169E1">龠</text>
+  
+  <!-- Music title -->
+  <text x="200" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#2F2F2F">FLUTE MUSIC / 笛子音乐</text>
+
+  <!-- Confetti -->
+  <g fill="#FF69B4" opacity="0.7">
+  <rect x="70" y="60" width="3" height="3" transform="rotate(45 70 60)"/>
+  <rect x="130" y="40" width="3" height="3" transform="rotate(30 130 40)"/>
+  <rect x="270" y="50" width="3" height="3" transform="rotate(60 270 50)"/>
+  <rect x="320" y="35" width="3" height="3" transform="rotate(15 320 35)"/>
+  
+    <g fill="#32CD32" opacity="0.7">
+    <circle cx="90" cy="45" r="2"/>
+    <circle cx="310" cy="40" r="2"/>
+    <circle cx="250" cy="35" r="2"/>
+    <circle cx="150" cy="55" r="2"/>
+    </g>
+    </g>
+  </g>
+</svg> 

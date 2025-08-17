@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad34" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8eaf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c5cae9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="followGrad34" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5c6bc0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3f51b5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#283593;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="pathGrad34" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#7986cb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5c6bc0;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="trackGrad34" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9fa8da;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#7986cb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5c6bc0;stop-opacity:0.9" />
+    </linearGradient>
+    <radialGradient id="glowGrad34" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#9fa8da;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#9fa8da;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="motionGrad34" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8eaf6;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#c5cae9;stop-opacity:0.7" />
+    </linearGradient>
+    <filter id="motion34">
+      <feMotionBlur in="SourceGraphic" dx="3" dy="0" stdDeviation="1"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad34)"/>
+  
+  <!-- Following atmosphere -->
+  <ellipse cx="250" cy="250" rx="200" ry="160" fill="url(#glowGrad34)"/>
+  
+  <!-- Main following path representing 夂 -->
+  <g transform="translate(250,200)" opacity="0.95">
+  <!-- Leader's path -->
+  <path d="M-40,-30 Q-20,-40 0,-35 Q20,-30 40,-20 Q45,0 35,20 Q25,35 10,40 Q-5,45 -20,35 Q-35,25 -40,5 Q-38,-15 -40,-30" 
+      fill="none" 
+      stroke="url(#followGrad34)" 
+      stroke-width="6" 
+      stroke-dasharray="10,5" 
+      opacity="0.8"/>
+  
+  <!-- Follower's path (slightly offset) -->
+  <path d="M-35,-25 Q-15,-35 5,-30 Q25,-25 45,-15 Q50,5 40,25 Q30,40 15,45 Q0,50 -15,40 Q-30,30 -35,10 Q-33,-10 -35,-25" 
+      fill="none" 
+      stroke="#7986cb" 
+      stroke-width="4" 
+      stroke-dasharray="8,4" 
+      opacity="0.7"/>
+  
+  <!-- Direction arrows -->
+  <g fill="url(#followGrad34)" opacity="0.8">
+  <path d="M-10,-25 L-5,-30 L0,-25 L-5,-20 Z"/>
+  <path d="M15,-15 L20,-20 L25,-15 L20,-10 Z"/>
+  <path d="M30,10 L35,5 L40,10 L35,15 Z"/>
+  <path d="M10,35 L15,30 L20,35 L15,40 Z"/>
+  
+  <!-- Following footsteps -->
+  <g fill="#3f51b5" opacity="0.7">
+    <ellipse cx="-20" cy="-15" rx="4" ry="8" transform="rotate(-30 -20 -15)"/>
+    <ellipse cx="-10" cy="-20" rx="4" ry="8" transform="rotate(-20 -10 -20)"/>
+    <ellipse cx="5" cy="-18" rx="4" ry="8" transform="rotate(-10 5 -18)"/>
+    <ellipse cx="20" cy="-12" rx="4" ry="8" transform="rotate(10 20 -12)"/>
+    <ellipse cx="32" cy="5" rx="4" ry="8" transform="rotate(45 32 5)"/>
+    <ellipse cx="25" cy="25" rx="4" ry="8" transform="rotate(70 25 25)"/>
+    <ellipse cx="8" cy="35" rx="4" ry="8" transform="rotate(100 8 35)"/>
+    </g>
+  
+    <!-- Animal following sequence -->
+    <g transform="translate(120,150)" opacity="0.8">
+    <!-- Leader duck -->
+    <g>
+      <ellipse cx="0" cy="0" rx="12" ry="8" fill="url(#pathGrad34)"/>
+      <circle cx="8" cy="-3" r="5" fill="#7986cb"/>  <!-- Head -->
+      <path d="M12,-3 L16,-2 L16,-4 Z" fill="#ff9800"/>  <!-- Beak -->
+      <circle cx="10" cy="-4" r="1" fill="#1a237e"/>  <!-- Eye -->
+    </g>
+    
+    <!-- Following ducklings -->
+    <g transform="translate(-15,8)" opacity="0.9">
+      <ellipse cx="0" cy="0" rx="8" ry="6" fill="#9fa8da"/>
+      <circle cx="5" cy="-2" r="3" fill="#b39ddb"/>
+      <path d="M7,-2 L9,-1 L9,-3 Z" fill="#ff9800"/>
+    </g>
+    
+    <g transform="translate(-25,15)" opacity="0.8">
+      <ellipse cx="0" cy="0" rx="8" ry="6" fill="#9fa8da"/>
+      <circle cx="5" cy="-2" r="3" fill="#b39ddb"/>
+      <path d="M7,-2 L9,-1 L9,-3 Z" fill="#ff9800"/>
+    </g>
+    
+    <g transform="translate(-35,22)" opacity="0.7">
+      <ellipse cx="0" cy="0" rx="8" ry="6" fill="#9fa8da"/>
+      <circle cx="5" cy="-2" r="3" fill="#b39ddb"/>
+      <path d="M7,-2 L9,-1 L9,-3 Z" fill="#ff9800"/>
+    </g>
+    
+    <!-- Motion lines -->
+    <g stroke="#7986cb" stroke-width="2" fill="none" opacity="0.4">
+      <path d="M-5,8 Q-10,12 -15,15"/>
+      <path d="M-15,15 Q-20,18 -25,22"/>
+      <path d="M-25,22 Q-30,25 -35,29"/>
+    </g>
+    </g>
+  
+    <!-- Dance following sequence -->
+    <g transform="translate(350,180)" opacity="0.8">
+    <!-- Lead dancer -->
+    <g>
+      <circle cx="0" cy="-15" r="6" fill="#7986cb"/>  <!-- Head -->
+      <ellipse cx="0" cy="0" rx="8" ry="15" fill="url(#followGrad34)"/>  <!-- Body -->
+      <!-- Arms -->
+      <ellipse cx="-12" cy="-5" rx="3" ry="10" fill="#5c6bc0" transform="rotate(-30 -12 -5)"/>
+      <ellipse cx="12" cy="-5" rx="3" ry="10" fill="#5c6bc0" transform="rotate(30 12 -5)"/>
+      <!-- Legs -->
+      <ellipse cx="-4" cy="15" rx="3" ry="12" fill="#5c6bc0" transform="rotate(-15 -4 15)"/>
+      <ellipse cx="4" cy="15" rx="3" ry="12" fill="#5c6bc0" transform="rotate(15 4 15)"/>
+    </g>
+    
+    <!-- Following dancer -->
+    <g transform="translate(20,10)" opacity="0.8">
+      <circle cx="0" cy="-15" r="6" fill="#9fa8da"/>
+      <ellipse cx="0" cy="0" rx="8" ry="15" fill="#b39ddb"/>
+      <!-- Arms (mirroring) -->
+      <ellipse cx="-12" cy="-5" rx="3" ry="10" fill="#9fa8da" transform="rotate(-25 -12 -5)"/>
+      <ellipse cx="12" cy="-5" rx="3" ry="10" fill="#9fa8da" transform="rotate(25 12 -5)"/>
+      <!-- Legs -->
+      <ellipse cx="-4" cy="15" rx="3" ry="12" fill="#9fa8da" transform="rotate(-10 -4 15)"/>
+      <ellipse cx="4" cy="15" rx="3" ry="12" fill="#9fa8da" transform="rotate(10 4 15)"/>
+    </g>
+    
+    <!-- Movement trails -->
+    <g stroke="#9fa8da" stroke-width="3" fill="none" opacity="0.4" filter="url(#motion34)">
+      <path d="M0,0 Q10,5 20,8"/>
+      <path d="M-8,-5 Q2,0 12,3"/>
+    </g>
+    </g>
+  
+    <!-- Convoy following -->
+    <g transform="translate(80,320)" opacity="0.7">
+    <!-- Lead vehicle -->
+    <rect x="0" y="0" width="30" height="15" rx="3" fill="url(#followGrad34)"/>
+    <circle cx="8" cy="18" r="4" fill="#3f51b5"/>  <!-- Front wheel -->
+    <circle cx="22" cy="18" r="4" fill="#3f51b5"/>  <!-- Back wheel -->
+    
+    <!-- Following vehicles -->
+    <g transform="translate(50,3)" opacity="0.9">
+      <rect x="0" y="0" width="25" height="12" rx="2" fill="#7986cb"/>
+      <circle cx="6" cy="15" r="3" fill="#5c6bc0"/>
+      <circle cx="19" cy="15" r="3" fill="#5c6bc0"/>
+    </g>
+    
+    <g transform="translate(90,6)" opacity="0.8">
+      <rect x="0" y="0" width="25" height="12" rx="2" fill="#9fa8da"/>
+      <circle cx="6" cy="15" r="3" fill="#7986cb"/>
+      <circle cx="19" cy="15" r="3" fill="#7986cb"/>
+    </g>
+    
+    <!-- Road lines -->
+    <g stroke="#5c6bc0" stroke-width="2" fill="none" opacity="0.4" stroke-dasharray="8,4">
+      <line x1="-10" y1="30" x2="130" y2="30"/>
+      <line x1="-10" y1="35" x2="130" y2="35"/>
+    </g>
+    </g>
+  
+    <!-- Guidance system -->
+    <g transform="translate(400,350)" opacity="0.7">
+    <!-- GPS/guidance device -->
+    <rect x="0" y="0" width="40" height="30" rx="5" fill="url(#pathGrad34)" stroke="#3f51b5" stroke-width="2"/>
+    
+    <!-- Screen -->
+    <rect x="3" y="3" width="34" height="20" rx="2" fill="#e8eaf6"/>
+    
+    <!-- Route on screen -->
+    <g stroke="#5c6bc0" stroke-width="2" fill="none">
+      <path d="M8,8 Q15,12 25,8 Q32,5 35,10"/>
+    </g>
+    
+    <!-- Current position dot -->
+    <circle cx="15" cy="12" r="2" fill="#f44336"/>
+    
+    <!-- Direction arrow -->
+    <path d="M25,8 L30,6 L30,10 Z" fill="#4caf50"/>
+    
+    <!-- Control buttons -->
+    <g fill="#b39ddb">
+      <rect x="8" y="25" width="6" height="3" rx="1"/>
+      <rect x="18" y="25" width="6" height="3" rx="1"/>
+      <rect x="28" y="25" width="6" height="3" rx="1"/>
+    </g>
+    </g>
+  
+    <!-- Following formation -->
+    <g transform="translate(200,380)" opacity="0.6">
+    <!-- Formation leader -->
+    <circle cx="0" cy="0" r="8" fill="url(#followGrad34)"/>
+    <circle cx="0" cy="0" r="5" fill="#3f51b5"/>
+    
+    <!-- Formation followers -->
+    <g fill="#7986cb" opacity="0.9">
+      <circle cx="15" cy="8" r="6"/>
+      <circle cx="-15" cy="8" r="6"/>
+      <circle cx="25" cy="18" r="6"/>
+      <circle cx="-25" cy="18" r="6"/>
+      <circle cx="0" cy="25" r="6"/>
+    </g>
+    
+    <!-- Connection lines -->
+    <g stroke="#9fa8da" stroke-width="2" opacity="0.5">
+      <line x1="0" y1="0" x2="15" y2="8"/>
+      <line x1="0" y1="0" x2="-15" y2="8"/>
+      <line x1="15" y1="8" x2="25" y2="18"/>
+      <line x1="-15" y1="8" x2="-25" y2="18"/>
+      <line x1="15" y1="8" x2="0" y2="25"/>
+      <line x1="-15" y1="8" x2="0" y2="25"/>
+    </g>
+    </g>
+  
+    <!-- Trail markers -->
+    <g transform="translate(50,250)" opacity="0.8">
+    <!-- Breadcrumb trail -->
+    <g fill="#5c6bc0" opacity="0.7">
+      <circle cx="0" cy="0" r="3"/>
+      <circle cx="15" cy="-5" r="3"/>
+      <circle cx="30" cy="-8" r="3"/>
+      <circle cx="45" cy="-10" r="3"/>
+      <circle cx="60" cy="-12" r="3"/>
+      <circle cx="75" cy="-15" r="3"/>
+    </g>
+    
+    <!-- Connecting path -->
+    <path d="M0,0 Q15,-5 30,-8 Q45,-10 60,-12 Q75,-15 90,-18" 
+          stroke="#9fa8da" 
+          stroke-width="2" 
+          fill="none" 
+          opacity="0.5" 
+          stroke-dasharray="3,3"/>
+    </g>
+  
+    <!-- Capability sparkles -->
+    <g fill="#7986cb" opacity="0.7">
+    <path d="M180 100 L190 90 L200 100 L190 110 Z"/>
+    <path d="M320 140 L330 130 L340 140 L330 150 Z"/>
+    <path d="M160 400 L165 395 L170 400 L165 405 Z"/>
+    <path d="M400 200 L405 195 L410 200 L405 205 Z"/>
+    <path d="M120 280 L125 275 L130 280 L125 285 Z"/>
+    </g>
+  
+    <!-- Movement flow lines -->
+    <g stroke="#9fa8da" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M100 200 Q150 180 200 200 Q250 220 300 200"/>
+    <path d="M200 100 Q220 150 240 200"/>
+    <path d="M300 350 Q280 300 260 250"/>
+    </g>
+  
+    <!-- Direction indicators -->
+    <g fill="#5c6bc0" opacity="0.6">
+    <!-- Compass points -->
+    <g transform="translate(50,100)">
+      <circle cx="0" cy="0" r="12" fill="none" stroke="#3f51b5" stroke-width="2"/>
+      <path d="M0,-8 L3,0 L0,8 L-3,0 Z" fill="#f44336"/>  <!-- North -->
+      <text x="0" y="-15" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#3f51b5">N</text>
+    </g>
+    </g>
+  
+    <!-- Following energy fields -->
+    <g stroke="#7986cb" stroke-width="2" fill="none" opacity="0.3" stroke-dasharray="6,6">
+    <ellipse cx="250" cy="200" rx="50" ry="30"/>
+    <ellipse cx="200" cy="320" rx="40" ry="25"/>
+    </g>
+  
+    <!-- Number indicator -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#283593" opacity="0.4">34</text>
+  
+    <!-- Kanji character 夂 -->
+    <text x="450" y="450" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1a237e" opacity="0.8">夂</text>
+    </g>
+  </g>
+</svg> 

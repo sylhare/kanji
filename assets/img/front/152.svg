@@ -1,0 +1,75 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="pigGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFB6C1"/>
+      <stop offset="50%" stop-color="#FF69B4"/>
+      <stop offset="100%" stop-color="#DC143C"/>
+    </radialGradient>
+    <radialGradient id="snoutGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFC0CB"/>
+      <stop offset="70%" stop-color="#FF91A4"/>
+      <stop offset="100%" stop-color="#FF1493"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#F0F8FF"/>
+  
+  <!-- Pig body -->
+  <ellipse cx="200" cy="220" rx="120" ry="80" fill="url(#pigGradient)" stroke="#DC143C" stroke-width="2"/>
+  
+  <!-- Pig head -->
+  <circle cx="200" cy="140" r="70" fill="url(#pigGradient)" stroke="#DC143C" stroke-width="2"/>
+  
+  <!-- Snout -->
+  <ellipse cx="200" cy="160" rx="25" ry="20" fill="url(#snoutGradient)" stroke="#FF1493" stroke-width="2"/>
+  
+  <!-- Nostrils -->
+  <ellipse cx="190" cy="160" rx="3" ry="5" fill="#8B0000"/>
+  <ellipse cx="210" cy="160" rx="3" ry="5" fill="#8B0000"/>
+  
+  <!-- Eyes -->
+  <circle cx="175" cy="120" r="12" fill="#FFF"/>
+  <circle cx="225" cy="120" r="12" fill="#FFF"/>
+  <circle cx="175" cy="120" r="8" fill="#000"/>
+  <circle cx="225" cy="120" r="8" fill="#000"/>
+  <circle cx="178" cy="117" r="3" fill="#FFF"/>
+  <circle cx="228" cy="117" r="3" fill="#FFF"/>
+  
+  <!-- Ears -->
+  <path d="M160 100 Q150 80 170 85 Q175 95 165 105" fill="url(#pigGradient)" stroke="#DC143C" stroke-width="2"/>
+  <path d="M240 100 Q250 80 230 85 Q225 95 235 105" fill="url(#pigGradient)" stroke="#DC143C" stroke-width="2"/>
+  
+  <!-- Legs -->
+  <ellipse cx="150" cy="280" rx="15" ry="30" fill="url(#pigGradient)" stroke="#DC143C" stroke-width="2"/>
+  <ellipse cx="190" cy="285" rx="15" ry="30" fill="url(#pigGradient)" stroke="#DC143C" stroke-width="2"/>
+  <ellipse cx="210" cy="285" rx="15" ry="30" fill="url(#pigGradient)" stroke="#DC143C" stroke-width="2"/>
+  <ellipse cx="250" cy="280" rx="15" ry="30" fill="url(#pigGradient)" stroke="#DC143C" stroke-width="2"/>
+  
+  <!-- Hooves -->
+  <ellipse cx="150" cy="310" rx="12" ry="8" fill="#2F4F4F"/>
+  <ellipse cx="190" cy="315" rx="12" ry="8" fill="#2F4F4F"/>
+  <ellipse cx="210" cy="315" rx="12" ry="8" fill="#2F4F4F"/>
+  <ellipse cx="250" cy="310" rx="12" ry="8" fill="#2F4F4F"/>
+  
+  <!-- Curly tail -->
+  <path d="M320 200 Q340 180 350 200 Q360 220 340 230 Q320 240 330 220 Q340 210 335 205" 
+    stroke="url(#pigGradient)" stroke-width="8" fill="none"/>
+  
+  <!-- Pig spots -->
+  <circle cx="130" cy="200" r="8" fill="#FF1493" opacity="0.7"/>
+  <circle cx="270" cy="180" r="6" fill="#FF1493" opacity="0.7"/>
+  <circle cx="160" cy="250" r="7" fill="#FF1493" opacity="0.7"/>
+  
+  <!-- Mouth -->
+  <path d="M185 180 Q200 190 215 180" stroke="#8B0000" stroke-width="3" fill="none"/>
+  
+  <!-- Ground -->
+  <ellipse cx="200" cy="350" rx="180" ry="20" fill="#90EE90" opacity="0.6"/>
+  
+  <!-- Food dish -->
+  <ellipse cx="100" cy="340" rx="30" ry="15" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <ellipse cx="100" cy="335" rx="25" ry="12" fill="#DEB887"/>
+  
+  <!-- Hay/straw -->
+  <path d="M320 350 L330 330 M325 350 L335 325 M330 350 L340 320" stroke="#FFD700" stroke-width="3"/>
+  <path d="M340 350 L350 330 M345 350 L355 325 M350 350 L360 320" stroke="#FFD700" stroke-width="3"/>
+</svg> 

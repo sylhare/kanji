@@ -1,0 +1,245 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="boneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFAF0"/>
+      <stop offset="50%" stop-color="#F5F5DC"/>
+      <stop offset="100%" stop-color="#E6E6FA"/>
+    </linearGradient>
+    <radialGradient id="skullGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#F8F8FF"/>
+      <stop offset="50%" stop-color="#F0F0F0"/>
+      <stop offset="100%" stop-color="#E0E0E0"/>
+    </radialGradient>
+    <linearGradient id="marrowGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB6C1"/>
+      <stop offset="50%" stop-color="#FF69B4"/>
+      <stop offset="100%" stop-color="#DC143C"/>
+    </linearGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#2F2F2F"/>
+  
+  <!-- Large femur bone -->
+  <ellipse cx="200" cy="200" rx="15" ry="80" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="3"/>
+  
+  <!-- Femur head (ball joint) -->
+  <circle cx="200" cy="120" r="20" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+  
+  <!-- Femur condyles (knee end) -->
+  <ellipse cx="190" cy="280" rx="12" ry="15" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+  <ellipse cx="210" cy="280" rx="12" ry="15" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+  
+  <!-- Bone marrow inside -->
+  <ellipse cx="200" cy="200" rx="8" ry="70" fill="url(#marrowGradient)" opacity="0.7"/>
+  
+  <!-- Rib cage -->
+  <g stroke="url(#boneGradient)" stroke-width="6" fill="none">
+  <path d="M80 150 Q100 140 120 150 Q130 170 120 190 Q100 200 80 190"/>
+  <path d="M80 160 Q100 150 120 160 Q130 180 120 200 Q100 210 80 200"/>
+  <path d="M80 170 Q100 160 120 170 Q130 190 120 210 Q100 220 80 210"/>
+  <path d="M80 180 Q100 170 120 180 Q130 200 120 220 Q100 230 80 220"/>
+  <path d="M80 190 Q100 180 120 190 Q130 210 120 230 Q100 240 80 230"/>
+  
+  <!-- Spine/vertebrae -->
+  <g fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2">
+  <circle cx="100" cy="140" r="8"/>
+  <circle cx="100" cy="155" r="8"/>
+  <circle cx="100" cy="170" r="8"/>
+  <circle cx="100" cy="185" r="8"/>
+  <circle cx="100" cy="200" r="8"/>
+  <circle cx="100" cy="215" r="8"/>
+  <circle cx="100" cy="230" r="8"/>
+  
+    <!-- Vertebrae processes -->
+    <g fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="1">
+    <rect x="95" y="135" width="10" height="6"/>
+    <rect x="95" y="150" width="10" height="6"/>
+    <rect x="95" y="165" width="10" height="6"/>
+    <rect x="95" y="180" width="10" height="6"/>
+    <rect x="95" y="195" width="10" height="6"/>
+    <rect x="95" y="210" width="10" height="6"/>
+    <rect x="95" y="225" width="10" height="6"/>
+    </g>
+  
+    <!-- Skull -->
+    <ellipse cx="300" cy="120" rx="35" ry="40" fill="url(#skullGradient)" stroke="#D3D3D3" stroke-width="3"/>
+  
+    <!-- Eye sockets -->
+    <ellipse cx="285" cy="110" rx="8" ry="12" fill="#000"/>
+    <ellipse cx="315" cy="110" rx="8" ry="12" fill="#000"/>
+  
+    <!-- Nasal cavity -->
+    <path d="M300 120 L295 135 L300 140 L305 135 Z" fill="#000"/>
+  
+    <!-- Jaw -->
+    <ellipse cx="300" cy="150" rx="25" ry="12" fill="url(#skullGradient)" stroke="#D3D3D3" stroke-width="2"/>
+  
+    <!-- Teeth -->
+    <g fill="#FFFAF0" stroke="#E0E0E0" stroke-width="1">
+    <rect x="285" y="145" width="3" height="8"/>
+    <rect x="290" y="145" width="3" height="8"/>
+    <rect x="295" y="145" width="3" height="8"/>
+    <rect x="300" y="145" width="3" height="8"/>
+    <rect x="305" y="145" width="3" height="8"/>
+    <rect x="310" y="145" width="3" height="8"/>
+    <rect x="315" y="145" width="3" height="8"/>
+    </g>
+  
+    <!-- Arm bones (humerus, radius, ulna) -->
+    <ellipse cx="50" cy="300" rx="8" ry="40" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+    <ellipse cx="70" cy="330" rx="6" ry="30" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2" transform="rotate(30 70 330)"/>
+    <ellipse cx="30" cy="330" rx="6" ry="30" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2" transform="rotate(-30 30 330)"/>
+  
+    <!-- Elbow joint -->
+    <circle cx="50" cy="340" r="8" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+  
+    <!-- Hand bones -->
+    <g fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="1">
+    <!-- Metacarpals -->
+    <rect x="25" y="360" width="3" height="15"/>
+    <rect x="30" y="360" width="3" height="15"/>
+    <rect x="35" y="360" width="3" height="15"/>
+    <rect x="40" y="360" width="3" height="15"/>
+    <rect x="45" y="360" width="3" height="15"/>
+    
+    <!-- Phalanges -->
+    <rect x="25" y="375" width="3" height="8"/>
+    <rect x="30" y="375" width="3" height="8"/>
+    <rect x="35" y="375" width="3" height="8"/>
+    <rect x="40" y="375" width="3" height="8"/>
+    <rect x="45" y="375" width="3" height="8"/>
+    </g>
+  
+    <!-- Dog bone (classic shape) -->
+    <ellipse cx="320" cy="300" rx="40" ry="12" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+  
+    <!-- Dog bone ends -->
+    <circle cx="280" cy="295" r="8" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+    <circle cx="280" cy="305" r="8" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+    <circle cx="360" cy="295" r="8" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+    <circle cx="360" cy="305" r="8" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+  
+    <!-- X-ray effect -->
+    <g stroke="#00FF00" stroke-width="1" fill="none" opacity="0.6">
+    <rect x="180" y="100" width="40" height="200"/>
+    <path d="M180 100 L220 300"/>
+    <path d="M220 100 L180 300"/>
+    </g>
+  
+    <!-- Bone fracture lines -->
+    <g stroke="#FF0000" stroke-width="3" opacity="0.8">
+    <path d="M190 180 L210 185"/>
+    <path d="M195 175 L205 190"/>
+    </g>
+  
+    <!-- Calcium deposits -->
+    <g fill="#FFFAF0" opacity="0.8">
+    <circle cx="195" cy="160" r="2"/>
+    <circle cx="205" cy="170" r="1.5"/>
+    <circle cx="190" cy="240" r="2"/>
+    <circle cx="210" cy="250" r="1.5"/>
+    </g>
+  
+    <!-- Pelvis bones -->
+    <ellipse cx="150" cy="350" rx="30" ry="20" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+    <ellipse cx="120" cy="340" rx="15" ry="25" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+    <ellipse cx="180" cy="340" rx="15" ry="25" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+  
+    <!-- Hip sockets -->
+    <circle cx="125" cy="365" r="8" fill="#000"/>
+    <circle cx="175" cy="365" r="8" fill="#000"/>
+  
+    <!-- Tibia and fibula -->
+    <ellipse cx="280" cy="350" rx="8" ry="35" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+    <ellipse cx="295" cy="355" rx="6" ry="30" fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="2"/>
+  
+    <!-- Foot bones -->
+    <g fill="url(#boneGradient)" stroke="#D3D3D3" stroke-width="1">
+    <!-- Metatarsals -->
+    <rect x="270" y="385" width="3" height="12"/>
+    <rect x="275" y="385" width="3" height="12"/>
+    <rect x="280" y="385" width="3" height="12"/>
+    <rect x="285" y="385" width="3" height="12"/>
+    <rect x="290" y="385" width="3" height="12"/>
+    </g>
+  
+    <!-- Fish skeleton -->
+    <g stroke="url(#boneGradient)" stroke-width="2" fill="none">
+    <!-- Fish spine -->
+    <path d="M350 200 L390 210"/>
+    
+    <!-- Fish ribs -->
+    <path d="M355 200 L350 190"/>
+    <path d="M360 202 L355 192"/>
+    <path d="M365 204 L360 194"/>
+    <path d="M370 206 L365 196"/>
+    <path d="M375 207 L370 197"/>
+    <path d="M380 208 L375 198"/>
+    <path d="M385 209 L380 199"/>
+    
+    <!-- Fish head -->
+    <circle cx="345" cy="200" r="8"/>
+    
+    <!-- Fish tail -->
+    <path d="M390 210 L400 200"/>
+    <path d="M390 210 L400 220"/>
+    </g>
+  
+    <!-- Bone saw (medical tool) -->
+    <rect x="50" y="50" width="60" height="4" fill="#C0C0C0" stroke="#A9A9A9" stroke-width="1"/>
+    <rect x="110" y="45" width="15" height="14" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+    <!-- Saw teeth -->
+    <g stroke="#A9A9A9" stroke-width="1">
+    <path d="M55 50 L55 54"/>
+    <path d="M60 50 L60 54"/>
+    <path d="M65 50 L65 54"/>
+    <path d="M70 50 L70 54"/>
+    <path d="M75 50 L75 54"/>
+    <path d="M80 50 L80 54"/>
+    <path d="M85 50 L85 54"/>
+    <path d="M90 50 L90 54"/>
+    <path d="M95 50 L95 54"/>
+    <path d="M100 50 L100 54"/>
+    <path d="M105 50 L105 54"/>
+    </g>
+  
+    <!-- Dinosaur bone -->
+    <ellipse cx="350" cy="350" rx="20" ry="8" fill="#DEB887" stroke="#CD853F" stroke-width="2"/>
+    <ellipse cx="330" cy="345" rx="8" ry="12" fill="#DEB887" stroke="#CD853F" stroke-width="2"/>
+    <ellipse cx="370" cy="355" rx="8" ry="12" fill="#DEB887" stroke="#CD853F" stroke-width="2"/>
+  
+    <!-- Fossil texture -->
+    <g fill="#8B7355" opacity="0.6">
+    <circle cx="345" cy="350" r="1"/>
+    <circle cx="355" cy="348" r="1"/>
+    <circle cx="350" cy="355" r="1"/>
+    </g>
+  
+    <!-- Bone meal/powder -->
+    <g fill="#F5F5DC" opacity="0.7">
+    <circle cx="80" cy="380" r="1"/>
+    <circle cx="85" cy="385" r="1"/>
+    <circle cx="90" cy="380" r="1"/>
+    <circle cx="95" cy="385" r="1"/>
+    <circle cx="100" cy="380" r="1"/>
+    <circle cx="105" cy="385" r="1"/>
+    </g>
+  
+    <!-- Joint illustration -->
+    <g stroke="#FF69B4" stroke-width="2" fill="none">
+    <circle cx="150" cy="100" r="15"/>
+    <circle cx="170" cy="100" r="15"/>
+    <path d="M165 100 L175 100"/>
+    </g>
+  
+    <!-- Cartilage -->
+    <ellipse cx="162.5" cy="100" rx="3" ry="8" fill="#87CEEB" opacity="0.7"/>
+  
+    <!-- Chinese character -->
+    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#F5F5DC">骨</text>
+  
+    <!-- Title -->
+    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#D3D3D3">BONES &amp; SKELETON</text>
+    </g>
+  </g>
+</svg> 

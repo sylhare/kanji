@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient id="bgGrad103" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" style="stop-color:#ffebee;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffcdd2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ef9a9a;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="redGrad103" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#ff5722;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f44336;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d32f2f;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="passionGlow103" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#ef5350;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ef5350;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="warmthGrad103" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff7043;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#bf360c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Warm background -->
+  <rect width="500" height="500" fill="url(#bgGrad103)"/>
+  
+  <!-- Passion aura -->
+  <ellipse cx="250" cy="250" rx="200" ry="180" fill="url(#passionGlow103)"/>
+  
+  <!-- Main red element representing 赤 -->
+  <!-- Central red character structure -->
+  <path d="M150 180 L350 180 L350 200 L290 200 L290 230 L330 230 L330 250 L290 250 L290 280 L350 280 L350 300 L150 300 L150 280 L210 280 L210 250 L170 250 L170 230 L210 230 L210 200 L150 200 Z" 
+    fill="url(#redGrad103)" stroke="#b71c1c" stroke-width="3"/>
+  
+  <!-- Additional character strokes -->
+  <rect x="200" y="150" width="100" height="20" rx="10" fill="url(#redGrad103)" stroke="#b71c1c" stroke-width="2"/>
+  <rect x="240" y="320" width="20" height="50" rx="10" fill="url(#redGrad103)" stroke="#b71c1c" stroke-width="2"/>
+  
+  <!-- Fire/heat elements -->
+  <g fill="url(#warmthGrad103)" opacity="0.8">
+  <!-- Flames -->
+  <path d="M120 150 Q110 130 120 110 Q130 130 140 110 Q135 130 140 150 Q130 140 120 150"/>
+  <path d="M360 160 Q350 140 360 120 Q370 140 380 120 Q375 140 380 160 Q370 150 360 160"/>
+  <path d="M180 400 Q170 380 180 360 Q190 380 200 360 Q195 380 200 400 Q190 390 180 400"/>
+  <path d="M320 410 Q310 390 320 370 Q330 390 340 370 Q335 390 340 410 Q330 400 320 410"/>
+  
+  <!-- Red roses -->
+  <g fill="url(#redGrad103)" opacity="0.9">
+  <g transform="translate(100,350)">
+    <circle cx="0" cy="0" r="12"/>
+    <path d="M-8,-8 Q0,-15 8,-8 Q15,0 8,8 Q0,15 -8,8 Q-15,0 -8,-8"/>
+    <circle cx="0" cy="0" r="6" fill="#c62828"/>
+    
+    <g transform="translate(400,120)">
+      <circle cx="0" cy="0" r="10"/>
+      <path d="M-6,-6 Q0,-12 6,-6 Q12,0 6,6 Q0,12 -6,6 Q-12,0 -6,-6"/>
+      <circle cx="0" cy="0" r="4" fill="#c62828"/>
+    </g>
+    </g>
+  
+    <!-- Hearts showing love/passion -->
+    <g fill="url(#redGrad103)" opacity="0.8">
+    <g transform="translate(80,200)">
+      <path d="M-8,-8 Q-15,-15 -8,-20 Q0,-15 8,-20 Q15,-15 8,-8 Q0,5 -8,-8"/>
+    </g>
+    
+    <g transform="translate(420,300)">
+      <path d="M-6,-6 Q-12,-12 -6,-15 Q0,-12 6,-15 Q12,-12 6,-6 Q0,3 -6,-6"/>
+    </g>
+    
+    <g transform="translate(150,100)">
+      <path d="M-5,-5 Q-9,-9 -5,-12 Q0,-9 5,-12 Q9,-9 5,-5 Q0,2 -5,-5"/>
+    </g>
+    </g>
+  
+    <!-- Red apples -->
+    <g fill="url(#redGrad103)" opacity="0.7">
+    <g transform="translate(350,380)">
+      <circle cx="0" cy="0" r="15"/>
+      <ellipse cx="0" cy="-3" rx="12" ry="18"/>
+      <path d="M-2,-15 Q0,-20 2,-15" stroke="#4caf50" stroke-width="2" fill="none"/>
+      <ellipse cx="3" cy="-12" rx="4" ry="6" fill="#4caf50"/>
+    </g>
+    
+    <g transform="translate(100,100)">
+      <circle cx="0" cy="0" r="12"/>
+      <ellipse cx="0" cy="-2" rx="10" ry="15"/>
+      <path d="M-2,-12 Q0,-16 2,-12" stroke="#4caf50" stroke-width="2" fill="none"/>
+      <ellipse cx="2" cy="-10" rx="3" ry="5" fill="#4caf50"/>
+    </g>
+    </g>
+  
+    <!-- Ruby/red gems -->
+    <g fill="url(#redGrad103)" opacity="0.9">
+    <g transform="translate(150,450)">
+      <path d="M0,-10 L8,-5 L8,5 L0,10 L-8,5 L-8,-5 Z"/>
+      <path d="M0,-8 L6,-3 L6,3 L0,8 L-6,3 L-6,-3 Z" fill="#ff1744"/>
+    </g>
+    
+    <g transform="translate(350,50)">
+      <path d="M0,-8 L6,-3 L6,3 L0,8 L-6,3 L-6,-3 Z"/>
+      <path d="M0,-6 L4,-2 L4,2 L0,6 L-4,2 L-4,-2 Z" fill="#ff1744"/>
+    </g>
+    </g>
+  
+    <!-- Sunset/dawn sky -->
+    <g fill="url(#warmthGrad103)" opacity="0.4">
+    <ellipse cx="80" cy="80" rx="60" ry="20"/>
+    <ellipse cx="420" cy="420" rx="70" ry="25"/>
+    </g>
+  
+    <!-- Red birds/cardinals -->
+    <g fill="url(#redGrad103)" opacity="0.8">
+    <g transform="translate(200,80)">
+      <ellipse cx="0" cy="0" rx="10" ry="6"/>
+      <path d="M-10,0 Q-15,-3 -18,0 Q-15,3 -10,0"/>
+      <path d="M10,0 Q15,-3 18,0 Q15,3 10,0"/>
+      <circle cx="5" cy="-2" r="1" fill="#000"/>
+      <path d="M8,-5 L10,-8 L12,-5" fill="#ff1744"/>
+    </g>
+    </g>
+  
+    <!-- Heat/warmth waves -->
+    <g stroke="url(#warmthGrad103)" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M50 250 Q80 240 110 250 Q140 260 170 250"/>
+    <path d="M330 250 Q360 240 390 250 Q420 260 450 250"/>
+    <path d="M100 400 Q130 390 160 400 Q190 410 220 400"/>
+    <path d="M280 400 Q310 390 340 400 Q370 410 400 400"/>
+    </g>
+  
+    <!-- Passion sparkles -->
+    <g fill="url(#redGrad103)" opacity="0.7">
+    <path d="M120 180 L130 170 L140 180 L130 190 Z"/>
+    <path d="M360 320 L370 310 L380 320 L370 330 Z"/>
+    <path d="M80 320 L90 310 L100 320 L90 330 Z"/>
+    <path d="M420 180 L430 170 L440 180 L430 190 Z"/>
+    </g>
+  
+    <!-- Blood/life essence -->
+    <g fill="#c62828" opacity="0.6">
+    <circle cx="180" cy="350" r="4"/>
+    <circle cx="320" cy="150" r="3"/>
+    <circle cx="120" cy="250" r="2"/>
+    <circle cx="380" cy="280" r="5"/>
+    </g>
+  
+    <!-- Red lanterns -->
+    <g fill="url(#redGrad103)" opacity="0.8">
+    <g transform="translate(50,150)">
+      <ellipse cx="0" cy="0" rx="15" ry="20"/>
+      <rect x="-12" y="-15" width="24" height="5" rx="2" fill="#b71c1c"/>
+      <rect x="-12" y="10" width="24" height="5" rx="2" fill="#b71c1c"/>
+      <line x1="0" y1="-25" x2="0" y2="-20" stroke="#ffeb3b" stroke-width="2"/>
+    </g>
+    
+    <g transform="translate(450,350)">
+      <ellipse cx="0" cy="0" rx="12" ry="16"/>
+      <rect x="-10" y="-12" width="20" height="4" rx="2" fill="#b71c1c"/>
+      <rect x="-10" y="8" width="20" height="4" rx="2" fill="#b71c1c"/>
+      <line x1="0" y1="-20" x2="0" y2="-16" stroke="#ffeb3b" stroke-width="2"/>
+    </g>
+    </g>
+  
+    <!-- Energy/warmth radiating -->
+    <g stroke="url(#redGrad103)" stroke-width="1" fill="none" opacity="0.3">
+    <circle cx="250" cy="250" r="100"/>
+    <circle cx="250" cy="250" r="120"/>
+    <circle cx="250" cy="250" r="140"/>
+    <circle cx="250" cy="250" r="160"/>
+    </g>
+  
+    <!-- Kanji character 赤 -->
+    <text x="450" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#b71c1c" opacity="0.8">赤</text>
+    </g>
+  </g>
+</svg> 

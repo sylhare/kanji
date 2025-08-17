@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad115" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffecb3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grainGrad115" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffb300;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff8f00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e65100;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad115)"/>
+  
+  <!-- Field ground -->
+  <rect x="0" y="400" width="500" height="100" fill="#8d6e63" opacity="0.3"/>
+  
+  <!-- Main radical shape 禾 (grain) -->
+  <!-- Central stalk -->
+  <path d="M250 400 L250 200" 
+    stroke="#4caf50" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Top grain head -->
+  <ellipse cx="250" cy="180" rx="15" ry="25" fill="url(#grainGrad115)"/>
+  
+  <!-- Side branches -->
+  <path d="M250 220 L280 240" 
+    stroke="#4caf50" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M250 240 L220 260" 
+    stroke="#4caf50" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M250 260 L290 280" 
+    stroke="#4caf50" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M250 280 L210 300" 
+    stroke="#4caf50" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Grain kernels on branches -->
+  <g fill="url(#grainGrad115)">
+  <ellipse cx="285" cy="245" rx="8" ry="12"/>
+  <ellipse cx="215" cy="265" rx="8" ry="12"/>
+  <ellipse cx="295" cy="285" rx="8" ry="12"/>
+  <ellipse cx="205" cy="305" rx="8" ry="12"/>
+  
+  <!-- Additional grain stalks -->
+  <g opacity="0.7">
+  <!-- Left stalk -->
+  <path d="M150 400 L150 220" stroke="#4caf50" stroke-width="8" fill="none"/>
+  <ellipse cx="150" cy="210" rx="10" ry="18" fill="url(#grainGrad115)"/>
+  <path d="M150 240 L130 255" stroke="#4caf50" stroke-width="6" fill="none"/>
+  <ellipse cx="125" cy="260" rx="6" ry="10" fill="url(#grainGrad115)"/>
+  
+  <!-- Right stalk -->
+  <path d="M350 400 L350 230" stroke="#4caf50" stroke-width="8" fill="none"/>
+  <ellipse cx="350" cy="220" rx="10" ry="18" fill="url(#grainGrad115)"/>
+  <path d="M350 250 L370 265" stroke="#4caf50" stroke-width="6" fill="none"/>
+  <ellipse cx="375" cy="270" rx="6" ry="10" fill="url(#grainGrad115)"/>
+  
+    <!-- Wind effect -->
+    <g stroke="#81c784" stroke-width="2" opacity="0.4" fill="none">
+    <path d="M120 200 Q140 190 160 200"/>
+    <path d="M320 190 Q340 180 360 190"/>
+    <path d="M180 250 Q200 240 220 250"/>
+    </g>
+  
+    <!-- Scattered grain -->
+    <g fill="#ff8f00" opacity="0.6">
+    <ellipse cx="180" cy="420" rx="3" ry="5"/>
+    <ellipse cx="320" cy="430" rx="3" ry="5"/>
+    <ellipse cx="280" cy="450" rx="2" ry="4"/>
+    <ellipse cx="200" cy="460" rx="2" ry="4"/>
+    </g>
+  
+    <!-- Harvest basket -->
+    <g transform="translate(400,350)" opacity="0.6">
+    <ellipse cx="0" cy="0" rx="25" ry="15" fill="#8d6e63"/>
+    <rect x="-25" y="-5" width="50" height="20" fill="none" stroke="#6d4c41" stroke-width="2"/>
+    <!-- Grain in basket -->
+    <g fill="#ff8f00">
+      <circle cx="-10" cy="-8" r="2"/>
+      <circle cx="0" cy="-10" r="2"/>
+      <circle cx="10" cy="-8" r="2"/>
+    </g>
+    </g>
+  
+    <!-- Sun rays -->
+    <g stroke="#ffcc02" stroke-width="3" opacity="0.5">
+    <line x1="400" y1="80" x2="410" y2="70"/>
+    <line x1="420" y1="100" x2="430" y2="100"/>
+    <line x1="400" y1="120" x2="410" y2="130"/>
+    </g>
+  
+    <!-- Kanji character 禾 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#e65100" opacity="0.8">禾</text>
+    </g>
+  </g>
+</svg> 

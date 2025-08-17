@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad43" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bbdefb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGrad43" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#90caf9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#42a5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1976d2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cloudGrad43" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#e1f5fe;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.9" />
+    </linearGradient>
+    <radialGradient id="mistGrad43" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#e1f5fe;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#e1f5fe;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad43)"/>
+  
+  <!-- Three majestic mountains representing 43 -->
+  <!-- Back mountain -->
+  <path d="M50 400 L180 180 L300 400 Z" fill="url(#mountainGrad43)" opacity="0.7"/>
+  
+  <!-- Middle mountain -->
+  <path d="M150 400 L280 160 L400 400 Z" fill="url(#mountainGrad43)" opacity="0.8"/>
+  
+  <!-- Front mountain -->
+  <path d="M250 400 L380 140 L450 400 Z" fill="url(#mountainGrad43)"/>
+  
+  <!-- Mountain snow caps -->
+  <g fill="#ffffff" opacity="0.9">
+  <path d="M180 180 L160 200 L200 200 Z"/>
+  <path d="M280 160 L260 180 L300 180 Z"/>
+  <path d="M380 140 L360 160 L400 160 Z"/>
+  
+  <!-- Floating clouds -->
+  <g fill="url(#cloudGrad43)">
+  <ellipse cx="120" cy="120" rx="40" ry="20"/>
+  <ellipse cx="100" cy="130" rx="30" ry="15"/>
+  <ellipse cx="140" cy="130" rx="35" ry="18"/>
+  
+  <ellipse cx="350" cy="100" rx="45" ry="22"/>
+  <ellipse cx="330" cy="110" rx="35" ry="17"/>
+  <ellipse cx="370" cy="110" rx="30" ry="15"/>
+  
+  <ellipse cx="220" cy="80" rx="35" ry="18"/>
+  <ellipse cx="200" cy="90" rx="25" ry="12"/>
+  <ellipse cx="240" cy="90" rx="28" ry="14"/>
+  
+    <!-- Mountain mist -->
+    <ellipse cx="200" cy="320" rx="100" ry="40" fill="url(#mistGrad43)"/>
+    <ellipse cx="350" cy="300" rx="80" ry="30" fill="url(#mistGrad43)"/>
+  
+    <!-- Flying birds -->
+    <g stroke="#1565c0" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M80 200 Q85 195 90 200"/>
+    <path d="M90 195 Q95 190 100 195"/>
+    <path d="M320 180 Q325 175 330 180"/>
+    <path d="M330 175 Q335 170 340 175"/>
+    <path d="M200 150 Q205 145 210 150"/>
+    <path d="M210 145 Q215 140 220 145"/>
+    </g>
+  
+    <!-- Tree line at base -->
+    <g fill="#2e7d32" opacity="0.7">
+    <polygon points="60,380 65,360 70,380"/>
+    <polygon points="90,385 95,365 100,385"/>
+    <polygon points="420,385 425,365 430,385"/>
+    <polygon points="440,380 445,360 450,380"/>
+    </g>
+  
+    <!-- Sunlight rays -->
+    <g stroke="#ffeb3b" stroke-width="1" opacity="0.4">
+    <line x1="100" y1="50" x2="110" y2="150"/>
+    <line x1="150" y1="40" x2="160" y2="140"/>
+    <line x1="200" y1="45" x2="210" y2="145"/>
+    </g>
+  
+    <!-- Number "43" integrated -->
+    <text x="50" y="450" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#0d47a1" opacity="0.5">43</text>
+  
+    <!-- Kanji character 四十三 -->
+    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#0d47a1" opacity="0.9">四十三</text>
+    </g>
+  </g>
+</svg> 

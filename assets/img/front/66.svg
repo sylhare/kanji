@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad66" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="runeGrad66" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ab47bc;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9c27b0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7b1fa2;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="mysticGlow66" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#e1bee7;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="energyGrad66" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ce93d8;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#ba68c8;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ab47bc;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad66)"/>
+  
+  <!-- Six mystical runes plus six connecting ley lines representing 66 -->
+  <!-- Central mandala -->
+  <g transform="translate(250,250)">
+  <circle cx="0" cy="0" r="90" fill="url(#mysticGlow66)" opacity="0.4"/>
+  
+  <!-- Six-pointed star base -->
+  <g fill="url(#runeGrad66)" opacity="0.8">
+  <polygon points="0,-60 15,-20 0,0 -15,-20"/>
+  <polygon points="52,-30 35,5 0,0 20,-15"/>
+  <polygon points="52,30 20,15 0,0 35,-5"/>
+  <polygon points="0,60 -15,20 0,0 15,20"/>
+  <polygon points="-52,30 -35,-5 0,0 -20,15"/>
+  <polygon points="-52,-30 -20,-15 0,0 -35,5"/>
+  
+  <!-- Central runic symbol -->
+  <circle cx="0" cy="0" r="20" fill="#7b1fa2"/>
+  <circle cx="0" cy="0" r="12" fill="#f3e5f5" opacity="0.8"/>
+  <g stroke="#9c27b0" stroke-width="2" fill="none">
+    <circle cx="0" cy="0" r="8"/>
+    <line x1="0" y1="-8" x2="0" y2="8"/>
+    <line x1="-8" y1="0" x2="8" y2="0"/>
+    </g>
+  
+    <!-- Six outer rune stones -->
+    <!-- North rune -->
+    <g transform="translate(250,100)">
+    <circle cx="0" cy="0" r="35" fill="url(#mysticGlow66)" opacity="0.3"/>
+    <polygon points="0,-25 20,-15 20,15 0,25 -20,15 -20,-15" fill="url(#runeGrad66)" opacity="0.9"/>
+    <g stroke="#f3e5f5" stroke-width="2" fill="none">
+      <line x1="0" y1="-15" x2="0" y2="15"/>
+      <line x1="-10" y1="-5" x2="10" y2="-5"/>
+      <line x1="-10" y1="5" x2="10" y2="5"/>
+    </g>
+    </g>
+  
+    <!-- Northeast rune -->
+    <g transform="translate(380,150)">
+    <circle cx="0" cy="0" r="32" fill="url(#mysticGlow66)" opacity="0.3"/>
+    <polygon points="0,-22 18,-13 18,13 0,22 -18,13 -18,-13" fill="url(#runeGrad66)" opacity="0.9"/>
+    <g stroke="#f3e5f5" stroke-width="2" fill="none">
+      <line x1="-12" y1="0" x2="12" y2="0"/>
+      <line x1="0" y1="-12" x2="8" y2="8"/>
+      <line x1="0" y1="12" x2="8" y2="-8"/>
+    </g>
+    </g>
+  
+    <!-- Southeast rune -->
+    <g transform="translate(380,350)">
+    <circle cx="0" cy="0" r="32" fill="url(#mysticGlow66)" opacity="0.3"/>
+    <polygon points="0,-22 18,-13 18,13 0,22 -18,13 -18,-13" fill="url(#runeGrad66)" opacity="0.9"/>
+    <g stroke="#f3e5f5" stroke-width="2" fill="none">
+      <circle cx="0" cy="0" r="8"/>
+      <line x1="-8" y1="-5" x2="8" y2="5"/>
+      <line x1="-8" y1="5" x2="8" y2="-5"/>
+    </g>
+    </g>
+  
+    <!-- South rune -->
+    <g transform="translate(250,400)">
+    <circle cx="0" cy="0" r="35" fill="url(#mysticGlow66)" opacity="0.3"/>
+    <polygon points="0,-25 20,-15 20,15 0,25 -20,15 -20,-15" fill="url(#runeGrad66)" opacity="0.9"/>
+    <g stroke="#f3e5f5" stroke-width="2" fill="none">
+      <path d="M-10 -10 L0 -10 L0 0 L10 0 L10 10 L0 10 L0 0"/>
+    </g>
+    </g>
+  
+    <!-- Southwest rune -->
+    <g transform="translate(120,350)">
+    <circle cx="0" cy="0" r="32" fill="url(#mysticGlow66)" opacity="0.3"/>
+    <polygon points="0,-22 18,-13 18,13 0,22 -18,13 -18,-13" fill="url(#runeGrad66)" opacity="0.9"/>
+    <g stroke="#f3e5f5" stroke-width="2" fill="none">
+      <line x1="0" y1="-12" x2="0" y2="12"/>
+      <line x1="-8" y1="-8" x2="8" y2="8"/>
+      <line x1="8" y1="-8" x2="-8" y2="8"/>
+    </g>
+    </g>
+  
+    <!-- Northwest rune -->
+    <g transform="translate(120,150)">
+    <circle cx="0" cy="0" r="32" fill="url(#mysticGlow66)" opacity="0.3"/>
+    <polygon points="0,-22 18,-13 18,13 0,22 -18,13 -18,-13" fill="url(#runeGrad66)" opacity="0.9"/>
+    <g stroke="#f3e5f5" stroke-width="2" fill="none">
+      <polygon points="0,-10 8,0 0,10 -8,0"/>
+      <line x1="0" y1="-10" x2="0" y2="10"/>
+    </g>
+    </g>
+  
+    <!-- Six ley lines connecting the runes -->
+    <g stroke="url(#energyGrad66)" stroke-width="3" fill="none" opacity="0.6">
+    <line x1="250" y1="135" x2="250" y2="170"/>
+    <line x1="302" y1="180" x2="340" y2="150"/>
+    <line x1="302" y1="320" x2="340" y2="350"/>
+    <line x1="250" y1="365" x2="250" y2="330"/>
+    <line x1="198" y1="320" x2="160" y2="350"/>
+    <line x1="198" y1="180" x2="160" y2="150"/>
+    </g>
+  
+    <!-- Mystical energy field -->
+    <g stroke="#ba68c8" stroke-width="1" fill="none" opacity="0.3">
+    <circle cx="250" cy="250" r="140"/>
+    <circle cx="250" cy="250" r="180"/>
+    <circle cx="250" cy="250" r="220"/>
+    </g>
+  
+    <!-- Floating essence particles -->
+    <g fill="#ce93d8" opacity="0.6">
+    <circle cx="80" cy="100" r="3"/>
+    <circle cx="420" cy="100" r="2"/>
+    <circle cx="80" cy="400" r="3"/>
+    <circle cx="420" cy="400" r="2"/>
+    <circle cx="50" cy="250" r="2"/>
+    <circle cx="450" cy="250" r="3"/>
+    <circle cx="250" cy="50" r="2"/>
+    <circle cx="250" cy="450" r="3"/>
+    <circle cx="180" cy="180" r="2"/>
+    <circle cx="320" cy="180" r="3"/>
+    <circle cx="180" cy="320" r="2"/>
+    <circle cx="320" cy="320" r="2"/>
+    </g>
+  
+    <!-- Arcane symbols floating -->
+    <g fill="#9c27b0" opacity="0.5">
+    <g transform="translate(100,200) scale(0.5)">
+      <polygon points="0,-10 8,0 0,10 -8,0"/>
+    </g>
+    <g transform="translate(400,200) scale(0.5)">
+      <circle cx="0" cy="0" r="6"/>
+      <circle cx="0" cy="0" r="3" fill="#f3e5f5"/>
+    </g>
+    <g transform="translate(100,300) scale(0.5)">
+      <rect x="-5" y="-5" width="10" height="10" transform="rotate(45)"/>
+    </g>
+    <g transform="translate(400,300) scale(0.5)">
+      <polygon points="0,-8 7,-3 4,8 -4,8 -7,-3"/>
+    </g>
+    </g>
+  
+    <!-- Ritual circle perimeter -->
+    <g stroke="#ab47bc" stroke-width="2" fill="none" opacity="0.4">
+    <circle cx="250" cy="250" r="240"/>
+    <g stroke-dasharray="10,5">
+      <circle cx="250" cy="250" r="260"/>
+    </g>
+    </g>
+  
+    <!-- Mystical sparkles -->
+    <g fill="#ffffff" opacity="0.8">
+    <path d="M90 90 L95 85 L100 90 L95 95 Z"/>
+    <path d="M410 90 L415 85 L420 90 L415 95 Z"/>
+    <path d="M90 410 L95 405 L100 410 L95 415 Z"/>
+    <path d="M410 410 L415 405 L420 410 L415 415 Z"/>
+    <path d="M250 40 L253 37 L256 40 L253 43 Z"/>
+    <path d="M250 460 L253 457 L256 460 L253 463 Z"/>
+    </g>
+  
+    <!-- Number "66" integrated -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#6a1b9a" opacity="0.5">66</text>
+  
+    <!-- Kanji character 六十六 -->
+    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#6a1b9a" opacity="0.9">六十六</text>
+    </g>
+  </g>
+</svg> 

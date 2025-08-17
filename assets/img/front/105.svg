@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad105" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bbdefb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="legGrad105" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1976d2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1565c0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad105)"/>
+  
+  <!-- Ground/departure platform -->
+  <ellipse cx="250" cy="450" rx="200" ry="20" fill="#90caf9" opacity="0.4"/>
+  
+  <!-- Main radical shape 癶 (outspread legs) -->
+  <!-- Left leg spreading out -->
+  <path d="M220 200 L160 300 L140 380" 
+    stroke="url(#legGrad105)" stroke-width="16" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right leg spreading out -->
+  <path d="M280 200 L340 300 L360 380" 
+    stroke="url(#legGrad105)" stroke-width="16" fill="none" stroke-linecap="round"/>
+  
+  <!-- Hip/connection point -->
+  <path d="M220 200 L280 200" 
+    stroke="url(#legGrad105)" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Top connecting strokes -->
+  <path d="M200 180 L220 200" 
+    stroke="url(#legGrad105)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M280 200 L300 180" 
+    stroke="url(#legGrad105)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Movement indicators -->
+  <g stroke="#42a5f5" stroke-width="3" opacity="0.5" fill="none">
+  <!-- Left movement -->
+  <path d="M120 350 Q100 340 110 360"/>
+  <path d="M100 340 L120 340"/>
+  <path d="M105 335 L120 340 L105 345"/>
+  
+  <!-- Right movement -->
+  <path d="M380 350 Q400 340 390 360"/>
+  <path d="M380 340 L400 340"/>
+  <path d="M395 335 L380 340 L395 345"/>
+  
+  <!-- Footprints showing departure -->
+  <g fill="#1976d2" opacity="0.3">
+  <ellipse cx="130" cy="400" rx="12" ry="8" transform="rotate(-20 130 400)"/>
+  <ellipse cx="370" cy="400" rx="12" ry="8" transform="rotate(20 370 400)"/>
+  
+    <!-- Step marks -->
+    <g fill="#64b5f6" opacity="0.4">
+    <circle cx="150" cy="320" r="4"/>
+    <circle cx="350" cy="320" r="4"/>
+    <circle cx="170" cy="360" r="3"/>
+    <circle cx="330" cy="360" r="3"/>
+    </g>
+  
+    <!-- Central pivot point -->
+    <circle cx="250" cy="200" r="8" fill="#0d47a1"/>
+  
+    <!-- Departure trails -->
+    <g stroke="#29b6f6" stroke-width="2" opacity="0.3">
+    <path d="M180 220 Q150 250 120 280"/>
+    <path d="M320 220 Q350 250 380 280"/>
+    </g>
+  
+    <!-- Dynamic energy -->
+    <g fill="#42a5f5" opacity="0.6">
+    <circle cx="200" cy="160" r="3"/>
+    <circle cx="300" cy="160" r="3"/>
+    <circle cx="180" cy="240" r="2"/>
+    <circle cx="320" cy="240" r="2"/>
+    </g>
+  
+    <!-- Kanji character 癶 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#0d47a1" opacity="0.8">癶</text>
+    </g>
+  </g>
+</svg> 

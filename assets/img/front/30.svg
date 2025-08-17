@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <!-- Background gradient -->
+  <defs>
+    <radialGradient id="bgGrad30" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fce4ec;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8bbd9;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="mouthGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e91e63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ad1457;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="toothGrad" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f5f5;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad30)"/>
+  
+  <!-- Stylized mouth in square shape like 口 -->
+  <rect x="150" y="200" width="200" height="150" rx="20" fill="url(#mouthGrad)" stroke="#880e4f" stroke-width="4"/>
+  
+  <!-- Inner mouth cavity -->
+  <rect x="170" y="220" width="160" height="110" rx="15" fill="#4a0e4e"/>
+  
+  <!-- Teeth -->
+  <rect x="180" y="210" width="15" height="20" rx="3" fill="url(#toothGrad)"/>
+  <rect x="200" y="210" width="15" height="20" rx="3" fill="url(#toothGrad)"/>
+  <rect x="220" y="210" width="15" height="20" rx="3" fill="url(#toothGrad)"/>
+  <rect x="240" y="210" width="15" height="20" rx="3" fill="url(#toothGrad)"/>
+  <rect x="260" y="210" width="15" height="20" rx="3" fill="url(#toothGrad)"/>
+  <rect x="280" y="210" width="15" height="20" rx="3" fill="url(#toothGrad)"/>
+  <rect x="300" y="210" width="15" height="20" rx="3" fill="url(#toothGrad)"/>
+  
+  <!-- Lower teeth -->
+  <rect x="180" y="330" width="15" height="20" rx="3" fill="url(#toothGrad)"/>
+  <rect x="200" y="330" width="15" height="20" rx="3" fill="url(#toothGrad)"/>
+  <rect x="220" y="330" width="15" height="20" rx="3" fill="url(#toothGrad)"/>
+  <rect x="240" y="330" width="15" height="20" rx="3" fill="url(#toothGrad)"/>
+  <rect x="260" y="330" width="15" height="20" rx="3" fill="url(#toothGrad)"/>
+  <rect x="280" y="330" width="15" height="20" rx="3" fill="url(#toothGrad)"/>
+  <rect x="300" y="330" width="15" height="20" rx="3" fill="url(#toothGrad)"/>
+  
+  <!-- Tongue -->
+  <ellipse cx="250" cy="280" rx="60" ry="30" fill="#ff5722"/>
+  
+  <!-- Kanji character 口 -->
+  <text x="400" y="120" font-family="serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#880e4f" opacity="0.7">口</text>
+</svg> 

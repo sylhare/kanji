@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient id="bgGrad102" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" style="stop-color:#424242;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#212121;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="blackGrad102" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#424242;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#212121;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="voidGlow102" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#424242;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="shadowGrad102" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#212121;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Dark background -->
+  <rect width="500" height="500" fill="url(#bgGrad102)"/>
+  
+  <!-- Void depth aura -->
+  <ellipse cx="250" cy="250" rx="200" ry="180" fill="url(#voidGlow102)"/>
+  
+  <!-- Main black element representing 黒 -->
+  <!-- Central black form -->
+  <path d="M120 150 L380 150 L380 170 L300 170 L300 200 L360 200 L360 220 L300 220 L300 250 L360 250 L360 270 L300 270 L300 300 L380 300 L380 320 L120 320 L120 300 L200 300 L200 270 L140 270 L140 250 L200 250 L200 220 L140 220 L140 200 L200 200 L200 170 L120 170 Z" 
+    fill="url(#blackGrad102)" stroke="#616161" stroke-width="2"/>
+  
+  <!-- Inner void spaces -->
+  <rect x="160" y="190" width="40" height="20" fill="#000000"/>
+  <rect x="300" y="190" width="40" height="20" fill="#000000"/>
+  <rect x="160" y="240" width="40" height="20" fill="#000000"/>
+  <rect x="300" y="240" width="40" height="20" fill="#000000"/>
+  
+  <!-- Darkness emanating -->
+  <g fill="#000000" opacity="0.6">
+  <circle cx="80" cy="100" r="15"/>
+  <circle cx="420" cy="120" r="18"/>
+  <circle cx="60" cy="200" r="12"/>
+  <circle cx="440" cy="250" r="20"/>
+  <circle cx="90" cy="350" r="16"/>
+  <circle cx="410" cy="380" r="14"/>
+  
+  <!-- Night elements -->
+  <!-- Night sky -->
+  <g fill="#616161" opacity="0.4">
+  <circle cx="100" cy="80" r="2"/>
+  <circle cx="150" cy="60" r="1"/>
+  <circle cx="350" cy="70" r="2"/>
+  <circle cx="400" cy="90" r="1"/>
+  <circle cx="80" cy="150" r="1"/>
+  <circle cx="420" cy="180" r="2"/>
+  
+    <!-- Dark crescent moon -->
+    <g transform="translate(400,100)">
+    <circle cx="0" cy="0" r="15" fill="#000000"/>
+    <circle cx="5" cy="0" r="12" fill="#424242"/>
+    </g>
+  
+    <!-- Shadows and silhouettes -->
+    <g fill="#000000" opacity="0.8">
+    <!-- Cat silhouette -->
+    <g transform="translate(100,380)">
+      <ellipse cx="0" cy="0" rx="20" ry="12"/>
+      <circle cx="-8" cy="-5" r="8"/>
+      <path d="M-15,-10 L-12,-15 L-10,-10"/>
+      <path d="M-6,-10 L-4,-15 L-2,-10"/>
+      <ellipse cx="15" cy="0" rx="6" ry="3"/>
+    </g>
+    
+    <!-- Tree silhouette -->
+    <g transform="translate(420,350)">
+      <rect x="-3" y="-30" width="6" height="40"/>
+      <ellipse cx="0" cy="-35" rx="20" ry="15"/>
+    </g>
+    </g>
+  
+    <!-- Coal/charcoal pieces -->
+    <g fill="#212121" opacity="0.9">
+    <ellipse cx="150" cy="400" rx="12" ry="8" transform="rotate(20 150 400)"/>
+    <ellipse cx="350" cy="420" rx="15" ry="10" transform="rotate(-15 350 420)"/>
+    <ellipse cx="200" cy="450" rx="10" ry="6" transform="rotate(45 200 450)"/>
+    </g>
+  
+    <!-- Ink/paint splatters -->
+    <g fill="#000000" opacity="0.7">
+    <circle cx="120" cy="200" r="6"/>
+    <ellipse cx="115" cy="195" rx="4" ry="8" transform="rotate(30 115 195)"/>
+    <circle cx="380" cy="280" r="8"/>
+    <ellipse cx="385" cy="275" rx="5" ry="10" transform="rotate(-20 385 275)"/>
+    </g>
+  
+    <!-- Dark matter/void effects -->
+    <g stroke="#000000" stroke-width="2" fill="none" opacity="0.4">
+    <circle cx="180" cy="120" r="25"/>
+    <circle cx="320" cy="350" r="30"/>
+    <circle cx="80" cy="300" r="20"/>
+    <circle cx="420" cy="200" r="35"/>
+    </g>
+  
+    <!-- Obsidian/black stone -->
+    <g fill="url(#shadowGrad102)" opacity="0.8">
+    <ellipse cx="80" cy="450" rx="25" ry="15"/>
+    <ellipse cx="420" cy="450" rx="30" ry="18"/>
+    </g>
+  
+    <!-- Raven/black bird -->
+    <g transform="translate(150,100)" fill="#000000" opacity="0.9">
+    <ellipse cx="0" cy="0" rx="12" ry="6"/>
+    <path d="M-12,0 Q-18,-4 -20,0 Q-18,4 -12,0"/>
+    <path d="M12,0 Q18,-4 20,0 Q18,4 12,0"/>
+    <circle cx="6" cy="-2" r="1" fill="#616161"/>
+    </g>
+  
+    <!-- Black hole effect -->
+    <g stroke="#212121" stroke-width="1" fill="none" opacity="0.3">
+    <circle cx="250" cy="250" r="80"/>
+    <circle cx="250" cy="250" r="100"/>
+    <circle cx="250" cy="250" r="120"/>
+    <circle cx="250" cy="250" r="140"/>
+    </g>
+  
+    <!-- Midnight elements -->
+    <g fill="#000000" opacity="0.5">
+    <!-- Coffin shape -->
+    <g transform="translate(50,250)">
+      <path d="M0,-20 L10,-15 L10,15 L0,20 L-10,15 L-10,-15 Z"/>
+    </g>
+    
+    <!-- Closed book -->
+    <g transform="translate(450,300)">
+      <rect x="-15" y="-8" width="30" height="16" rx="2"/>
+      <line x1="-13" y1="0" x2="13" y2="0" stroke="#616161" stroke-width="1"/>
+    </g>
+    </g>
+  
+    <!-- Mystery/darkness sparkles -->
+    <g fill="#424242" opacity="0.6">
+    <path d="M180 50 L185 45 L190 50 L185 55 Z"/>
+    <path d="M320 450 L325 445 L330 450 L325 455 Z"/>
+    <path d="M50 150 L55 145 L60 150 L55 155 Z"/>
+    <path d="M450 350 L455 345 L460 350 L455 355 Z"/>
+    </g>
+  
+    <!-- Depth indicators -->
+    <g stroke="#424242" stroke-width="1" opacity="0.2">
+    <line x1="0" y1="100" x2="500" y2="100"/>
+    <line x1="0" y1="200" x2="500" y2="200"/>
+    <line x1="0" y1="300" x2="500" y2="300"/>
+    <line x1="0" y1="400" x2="500" y2="400"/>
+    </g>
+  
+    <!-- Kanji character 黒 -->
+    <text x="450" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#616161" opacity="0.8">黒</text>
+    </g>
+  </g>
+</svg> 

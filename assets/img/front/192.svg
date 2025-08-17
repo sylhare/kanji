@@ -1,0 +1,82 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E6E6FA"/>
+      <stop offset="50%" stop-color="#9370DB"/>
+      <stop offset="100%" stop-color="#4B0082"/>
+    </linearGradient>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="50%" stop-color="#98CDD8"/>
+      <stop offset="100%" stop-color="#B0E0E6"/>
+    </linearGradient>
+    <radialGradient id="sunGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFF99"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </radialGradient>
+    <linearGradient id="treeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#90EE90"/>
+      <stop offset="50%" stop-color="#32CD32"/>
+      <stop offset="100%" stop-color="#228B22"/>
+    </linearGradient>
+  </defs>  <!-- Sky background -->
+  <rect width="500" height="500" fill="url(#skyGradient)"/>
+  
+  <!-- Sun -->
+  <circle cx="320" cy="80" r="30" fill="url(#sunGradient)" stroke="#FF8C00" stroke-width="2"/>
+  
+  <!-- Sun rays -->
+  <g stroke="#FFD700" stroke-width="3">
+  <path d="M320 40 L320 30"/>
+  <path d="M340 60 L350 50"/>
+  <path d="M360 80 L370 80"/>
+  <path d="M340 100 L350 110"/>
+  <path d="M320 120 L320 130"/>
+  <path d="M300 100 L290 110"/>
+  <path d="M280 80 L270 80"/>
+  <path d="M300 60 L290 50"/>
+  
+  <!-- Mountains -->
+  <polygon points="0,350 100,150 200,250 300,100 400,200 400,400 0,400" 
+         fill="url(#mountainGradient)" stroke="#4B0082" stroke-width="2"/>
+  
+  <!-- Snow caps on peaks -->
+  <polygon points="80,170 100,150 120,170" fill="#F0F8FF"/>
+  <polygon points="280,120 300,100 320,120" fill="#F0F8FF"/>
+  
+  <!-- Trees on mountainside -->
+  <g fill="url(#treeGradient)" stroke="#228B22" stroke-width="1">
+  <polygon points="150,300 160,280 170,300" />
+  <rect x="158" y="300" width="4" height="20" fill="#8B4513"/>
+  
+  <polygon points="220,320 235,295 250,320" />
+  <rect x="233" y="320" width="4" height="25" fill="#8B4513"/>
+  
+  <polygon points="120,330 130,310 140,330" />
+  <rect x="128" y="330" width="4" height="15" fill="#8B4513"/>
+  
+    <!-- Clouds -->
+    <g fill="#FFFFFF" opacity="0.8">
+    <ellipse cx="80" cy="120" rx="25" ry="15"/>
+    <ellipse cx="100" cy="115" rx="20" ry="12"/>
+    <ellipse cx="90" cy="105" rx="15" ry="10"/>
+    
+    <ellipse cx="250" cy="140" rx="30" ry="18"/>
+    <ellipse cx="275" cy="135" rx="25" ry="15"/>
+    <ellipse cx="260" cy="125" rx="20" ry="12"/>
+    </g>
+  
+    <!-- Mountain path -->
+    <path d="M50 380 Q150 350 250 320 Q300 300 350 280" 
+        stroke="#CD853F" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+    <!-- Small birds -->
+    <g stroke="#2F2F2F" stroke-width="2" fill="none">
+    <path d="M150 100 Q155 95 160 100"/>
+    <path d="M170 110 Q175 105 180 110"/>
+    <path d="M190 90 Q195 85 200 90"/>
+    </g>
+    </g>
+  </g>
+</svg> 

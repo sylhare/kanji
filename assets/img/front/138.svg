@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad138" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGrad138" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad138)"/>
+  
+  <!-- Mountain range -->
+  <g opacity="0.8">
+  <!-- Main mountain -->
+  <path d="M150 450 L250 200 L350 450 Z" fill="url(#mountainGrad138)"/>
+  
+  <!-- Left mountain -->
+  <path d="M50 450 L150 280 L250 450 Z" fill="#8d6e63" opacity="0.7"/>
+  
+  <!-- Right mountain -->
+  <path d="M250 450 L350 250 L450 450 Z" fill="#a1887f" opacity="0.6"/>
+  
+  <!-- Snow caps -->
+  <path d="M230 220 L250 200 L270 220 Q260 230 250 225 Q240 230 230 220" fill="#ffffff"/>
+  <path d="M130 300 L150 280 L170 300 Q160 310 150 305 Q140 310 130 300" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Main radical shape 艮 (stopping/mountain) -->
+  <!-- Top horizontal stroke -->
+  <path d="M200 150 L300 150" 
+      stroke="#2e7d32" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Left vertical stroke -->
+  <path d="M220 150 L220 220" 
+      stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right vertical stroke -->
+  <path d="M280 150 L280 220" 
+      stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Middle horizontal stroke -->
+  <path d="M220 180 L280 180" 
+      stroke="#2e7d32" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom strokes -->
+  <path d="M220 220 L240 240" 
+      stroke="#2e7d32" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M280 220 L260 240" 
+      stroke="#2e7d32" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Stop sign -->
+  <g transform="translate(120,200)" opacity="0.8">
+  <!-- Octagonal stop sign -->
+  <path d="M-15 -5 L-5 -15 L5 -15 L15 -5 L15 5 L5 15 L-5 15 L-15 5 Z" 
+        fill="#d32f2f" stroke="#b71c1c" stroke-width="2"/>
+  <text x="0" y="2" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#ffffff">STOP</text>
+  
+  <!-- Sign post -->
+  <rect x="-2" y="15" width="4" height="30" fill="#757575"/>
+  
+    <!-- Traffic barrier -->
+    <g transform="translate(380,350)" opacity="0.7">
+    <!-- Barrier -->
+    <rect x="0" y="0" width="60" height="12" rx="6" fill="#ff9800"/>
+    
+    <!-- Warning stripes -->
+    <g fill="#d32f2f">
+      <rect x="5" y="2" width="8" height="8"/>
+      <rect x="17" y="2" width="8" height="8"/>
+      <rect x="29" y="2" width="8" height="8"/>
+      <rect x="41" y="2" width="8" height="8"/>
+    </g>
+    
+    <!-- Support posts -->
+    <rect x="10" y="12" width="4" height="20" fill="#757575"/>
+    <rect x="46" y="12" width="4" height="20" fill="#757575"/>
+    </g>
+  
+    <!-- Mountain climber stopped at cliff -->
+    <g transform="translate(100,300)" opacity="0.7">
+    <!-- Climber -->
+    <circle cx="0" cy="0" r="8" fill="#ffdbcb"/>
+    <rect x="-4" y="8" width="8" height="15" fill="#f44336"/>
+    <!-- Arms -->
+    <ellipse cx="-8" cy="12" rx="3" ry="8" fill="#ffdbcb" transform="rotate(-30)"/>
+    <ellipse cx="8" cy="12" rx="3" ry="8" fill="#ffdbcb" transform="rotate(30)"/>
+    <!-- Rope -->
+    <rect x="10" y="5" width="2" height="30" fill="#8d6e63"/>
+    <!-- Cliff face -->
+    <rect x="15" y="-20" width="20" height="60" fill="#8d6e63"/>
+    </g>
+  
+    <!-- Boundary fence -->
+    <g transform="translate(350,380)" opacity="0.6">
+    <!-- Fence posts -->
+    <rect x="0" y="0" width="4" height="40" fill="#8d6e63"/>
+    <rect x="20" y="0" width="4" height="40" fill="#8d6e63"/>
+    <rect x="40" y="0" width="4" height="40" fill="#8d6e63"/>
+    
+    <!-- Fence rails -->
+    <rect x="0" y="15" width="44" height="3" fill="#a1887f"/>
+    <rect x="0" y="25" width="44" height="3" fill="#a1887f"/>
+    
+    <!-- Warning sign -->
+    <rect x="10" y="5" width="20" height="12" rx="2" fill="#ffeb3b" stroke="#f57c00" stroke-width="1"/>
+    <text x="20" y="13" font-family="Arial" font-size="6" text-anchor="middle" fill="#d84315">STOP</text>
+    </g>
+  
+    <!-- Roadblock -->
+    <g transform="translate(80,400)" opacity="0.6">
+    <!-- Concrete barriers -->
+    <path d="M0 0 L30 0 L25 15 L5 15 Z" fill="#9e9e9e"/>
+    <path d="M35 0 L65 0 L60 15 L40 15 Z" fill="#9e9e9e"/>
+    
+    <!-- Reflective tape -->
+    <rect x="3" y="3" width="24" height="3" fill="#ffeb3b"/>
+    <rect x="38" y="3" width="24" height="3" fill="#ffeb3b"/>
+    </g>
+  
+    <!-- Mountain temple -->
+    <g transform="translate(250,250)" opacity="0.5">
+    <!-- Temple roof -->
+    <path d="M-15 0 L0 -15 L15 0 Z" fill="#d32f2f"/>
+    <!-- Temple walls -->
+    <rect x="-10" y="0" width="20" height="15" fill="#8d6e63"/>
+    <!-- Door -->
+    <rect x="-3" y="8" width="6" height="7" fill="#5d4037"/>
+    <!-- Steps -->
+    <rect x="-12" y="15" width="24" height="3" fill="#a1887f"/>
+    </g>
+  
+    <!-- Border checkpoint -->
+    <g transform="translate(400,150)" opacity="0.6">
+    <!-- Booth -->
+    <rect x="0" y="0" width="25" height="20" fill="#ffffff" stroke="#757575" stroke-width="1"/>
+    <!-- Roof -->
+    <rect x="-2" y="-3" width="29" height="6" fill="#1976d2"/>
+    <!-- Window -->
+    <rect x="5" y="5" width="15" height="8" fill="#e3f2fd"/>
+    <!-- Barrier gate -->
+    <rect x="25" y="15" width="30" height="3" fill="#d32f2f"/>
+    <rect x="25" y="12" width="3" height="12" fill="#757575"/>
+    </g>
+  
+    <!-- Rock formation -->
+    <g transform="translate(400,300)" opacity="0.6">
+    <!-- Large rock -->
+    <ellipse cx="0" cy="0" rx="20" ry="25" fill="#8d6e63"/>
+    <ellipse cx="0" cy="-8" rx="15" ry="18" fill="#a1887f"/>
+    
+    <!-- Smaller rocks -->
+    <ellipse cx="-15" cy="10" rx="8" ry="10" fill="#6d4c41"/>
+    <ellipse cx="15" cy="8" rx="10" ry="12" fill="#795548"/>
+    </g>
+  
+    <!-- Warning lights -->
+    <g transform="translate(150,350)" opacity="0.7">
+    <circle cx="0" cy="0" r="8" fill="#ff5722"/>
+    <circle cx="0" cy="0" r="5" fill="#ff9800" opacity="0.8"/>
+    <rect x="-2" y="8" width="4" height="15" fill="#424242"/>
+    </g>
+  
+    <!-- Compass showing direction -->
+    <g transform="translate(120,120)" opacity="0.6">
+    <circle cx="0" cy="0" r="20" fill="#ffffff" stroke="#424242" stroke-width="2"/>
+    <!-- Compass needle -->
+    <path d="M0 -15 L3 0 L0 15 L-3 0 Z" fill="#d32f2f"/>
+    <!-- Directional markers -->
+    <text x="0" y="-25" font-family="Arial" font-size="8" text-anchor="middle" fill="#424242">N</text>
+    <text x="25" y="3" font-family="Arial" font-size="8" text-anchor="middle" fill="#424242">E</text>
+    <text x="0" y="35" font-family="Arial" font-size="8" text-anchor="middle" fill="#424242">S</text>
+    <text x="-25" y="3" font-family="Arial" font-size="8" text-anchor="middle" fill="#424242">W</text>
+    </g>
+  
+    <!-- Mountain path ending -->
+    <g stroke="#8d6e63" stroke-width="3" opacity="0.4" fill="none">
+    <path d="M50 450 Q150 400 250 450"/>
+    <path d="M250 450 Q350 400 450 450"/>
+    <!-- Path ends at barrier -->
+    <circle cx="380" cy="430" r="5" fill="#d32f2f"/>
+    </g>
+  
+    <!-- Kanji character 艮 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#2e7d32" opacity="0.8">艮</text>
+    </g>
+  </g>
+</svg> 

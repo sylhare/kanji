@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad116" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="caveGrad116" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#212121;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#424242;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#616161;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad116)"/>
+  
+  <!-- Mountain/cliff face -->
+  <path d="M0 300 L150 200 L300 250 L450 150 L500 200 L500 500 L0 500 Z" 
+    fill="#8d6e63" opacity="0.6"/>
+  
+  <!-- Main cave entrance -->
+  <ellipse cx="250" cy="300" rx="80" ry="60" fill="url(#caveGrad116)"/>
+  
+  <!-- Cave opening depth -->
+  <ellipse cx="250" cy="290" rx="60" ry="45" fill="#212121"/>
+  
+  <!-- Main radical shape 穴 (hole/cave) -->
+  <!-- Top cover stroke -->
+  <path d="M180 180 L320 180" 
+    stroke="#424242" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Left vertical stroke -->
+  <path d="M200 180 L200 220" 
+    stroke="#424242" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right vertical stroke -->
+  <path d="M300 180 L300 220" 
+    stroke="#424242" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Inside strokes -->
+  <path d="M220 200 L280 200" 
+    stroke="#424242" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M230 220 L270 220" 
+    stroke="#424242" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Small holes in rock -->
+  <g fill="#424242">
+  <circle cx="120" cy="250" r="8"/>
+  <circle cx="380" cy="270" r="6"/>
+  <circle cx="150" cy="350" r="5"/>
+  <circle cx="350" cy="380" r="7"/>
+  
+  <!-- Cave stalactites -->
+  <g fill="#757575" opacity="0.7">
+  <ellipse cx="230" cy="280" rx="4" ry="12"/>
+  <ellipse cx="270" cy="285" rx="3" ry="10"/>
+  <ellipse cx="250" cy="275" rx="3" ry="8"/>
+  
+    <!-- Bats flying out of cave -->
+    <g transform="translate(280,250)" fill="#424242" opacity="0.6">
+    <ellipse cx="0" cy="0" rx="8" ry="3"/>
+    <ellipse cx="-5" cy="-2" rx="6" ry="2" transform="rotate(-20)"/>
+    <ellipse cx="5" cy="-2" rx="6" ry="2" transform="rotate(20)"/>
+    </g>
+  
+    <g transform="translate(220,240)" fill="#424242" opacity="0.4">
+    <ellipse cx="0" cy="0" rx="6" ry="2"/>
+    <ellipse cx="-4" cy="-1" rx="4" ry="1" transform="rotate(-25)"/>
+    <ellipse cx="4" cy="-1" rx="4" ry="1" transform="rotate(25)"/>
+    </g>
+  
+    <!-- Echo lines from cave -->
+    <g stroke="#9c27b0" stroke-width="2" opacity="0.3" fill="none">
+    <ellipse cx="250" cy="300" rx="90" ry="70"/>
+    <ellipse cx="250" cy="300" rx="110" ry="85"/>
+    </g>
+  
+    <!-- Rock debris -->
+    <g fill="#616161" opacity="0.5">
+    <ellipse cx="180" cy="380" rx="8" ry="5"/>
+    <ellipse cx="320" cy="390" rx="6" ry="4"/>
+    <ellipse cx="200" cy="420" rx="5" ry="3"/>
+    </g>
+  
+    <!-- Underground water -->
+    <ellipse cx="250" cy="420" rx="40" ry="10" fill="#2196f3" opacity="0.4"/>
+  
+    <!-- Cave painting symbols -->
+    <g transform="translate(180,320)" stroke="#8d6e63" stroke-width="2" opacity="0.4" fill="none">
+    <circle cx="0" cy="0" r="4"/>
+    <line x1="-6" y1="0" x2="6" y2="0"/>
+    <line x1="0" y1="-6" x2="0" y2="6"/>
+    </g>
+  
+    <!-- Kanji character 穴 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#424242" opacity="0.8">穴</text>
+    </g>
+  </g>
+</svg> 

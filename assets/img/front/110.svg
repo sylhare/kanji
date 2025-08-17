@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad110" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bladeGrad110" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#eceff1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#cfd8dc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#90a4ae;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shaftGrad110" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad110)"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="480" rx="150" ry="15" fill="#8d6e63" opacity="0.3"/>
+  
+  <!-- Halberd shaft -->
+  <rect x="245" y="200" width="10" height="280" fill="url(#shaftGrad110)"/>
+  
+  <!-- Main radical shape 矛 (halberd) -->
+  <!-- Blade assembly -->
+  
+  <!-- Central spear point -->
+  <path d="M250 120 L230 180 L270 180 Z" 
+    fill="url(#bladeGrad110)" stroke="#607d8b" stroke-width="2"/>
+  
+  <!-- Left blade -->
+  <path d="M230 180 L200 160 L210 200 Z" 
+    fill="url(#bladeGrad110)" stroke="#607d8b" stroke-width="2"/>
+  
+  <!-- Right blade -->
+  <path d="M270 180 L300 160 L290 200 Z" 
+    fill="url(#bladeGrad110)" stroke="#607d8b" stroke-width="2"/>
+  
+  <!-- Cross guard -->
+  <rect x="220" y="195" width="60" height="8" rx="4" fill="#455a64"/>
+  
+  <!-- Shaft binding -->
+  <g fill="#3e2723" opacity="0.8">
+  <rect x="242" y="210" width="16" height="6"/>
+  <rect x="242" y="220" width="16" height="6"/>
+  <rect x="242" y="230" width="16" height="6"/>
+  
+  <!-- Blade shine effects -->
+  <g stroke="#ffffff" stroke-width="2" opacity="0.6">
+  <line x1="245" y1="130" x2="240" y2="170"/>
+  <line x1="215" y1="170" x2="205" y2="185"/>
+  <line x1="285" y1="170" x2="295" y2="185"/>
+  
+    <!-- Weapon decorations -->
+    <g fill="#ff5722" opacity="0.7">
+    <circle cx="250" cy="240" r="3"/>
+    <circle cx="250" cy="260" r="2"/>
+    </g>
+  
+    <!-- Motion blur showing combat -->
+    <g stroke="#9c27b0" stroke-width="3" opacity="0.3" fill="none">
+    <path d="M100 200 Q150 180 200 200"/>
+    <path d="M300 200 Q350 180 400 200"/>
+    </g>
+  
+    <!-- Warrior silhouette in background -->
+    <g transform="translate(400,300)" fill="#9c27b0" opacity="0.2">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="8"/>
+    <!-- Body -->
+    <rect x="-4" y="8" width="8" height="25" rx="4"/>
+    <!-- Arms -->
+    <ellipse cx="-10" cy="15" rx="3" ry="8" transform="rotate(-30)"/>
+    <ellipse cx="10" cy="15" rx="3" ry="8" transform="rotate(30)"/>
+    <!-- Legs -->
+    <ellipse cx="-3" cy="38" rx="3" ry="12"/>
+    <ellipse cx="3" cy="38" rx="3" ry="12"/>
+    </g>
+  
+    <!-- Blood drops (stylized) -->
+    <g fill="#d32f2f" opacity="0.4">
+    <circle cx="180" cy="220" r="2"/>
+    <circle cx="320" cy="230" r="1"/>
+    </g>
+  
+    <!-- Kanji character 矛 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#455a64" opacity="0.8">矛</text>
+    </g>
+  </g>
+</svg> 

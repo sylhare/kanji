@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad18" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bladeGrad18" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#eceff1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#cfd8dc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#90a4ae;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad18)"/>
+  
+  <!-- Main katana/sword -->
+  <g transform="translate(250,250)">
+  <!-- Blade -->
+  <path d="M0 -100 L10 -90 L12 80 L-12 80 L-10 -90 Z" 
+      fill="url(#bladeGrad18)" stroke="#607d8b" stroke-width="2"/>
+  
+  <!-- Blade edge -->
+  <line x1="0" y1="-100" x2="0" y2="80" stroke="#455a64" stroke-width="3"/>
+  
+  <!-- Guard (tsuba) -->
+  <ellipse cx="0" cy="80" rx="20" ry="8" fill="#424242"/>
+  
+  <!-- Handle (tsuka) -->
+  <rect x="-8" y="80" width="16" height="40" rx="4" fill="#8d6e63"/>
+  
+  <!-- Handle wrap -->
+  <g stroke="#6d4c41" stroke-width="2">
+  <line x1="-6" y1="85" x2="6" y2="95"/>
+  <line x1="-6" y1="95" x2="6" y2="105"/>
+  <line x1="-6" y1="105" x2="6" y2="115"/>
+  
+  <!-- Pommel -->
+  <ellipse cx="0" cy="125" rx="10" ry="6" fill="#5d4037"/>
+  
+    <!-- Main radical shape 刀 (knife/sword) -->
+    <!-- Main blade stroke -->
+    <path d="M300 150 L350 300" 
+        stroke="#455a64" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+    <!-- Back of blade -->
+    <path d="M290 170 L340 320" 
+        stroke="#607d8b" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+    <!-- Handle -->
+    <path d="M350 300 L360 320" 
+        stroke="#8d6e63" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+    <!-- Kitchen knife -->
+    <g transform="translate(120,300)" opacity="0.8">
+    <!-- Blade -->
+    <rect x="0" y="0" width="60" height="25" fill="url(#bladeGrad18)" stroke="#607d8b" stroke-width="1"/>
+    <!-- Edge -->
+    <line x1="0" y1="25" x2="60" y2="25" stroke="#455a64" stroke-width="2"/>
+    <!-- Handle -->
+    <rect x="60" y="5" width="30" height="15" rx="3" fill="#8d6e63"/>
+    <!-- Rivets -->
+    <circle cx="70" cy="12" r="2" fill="#424242"/>
+    <circle cx="80" cy="12" r="2" fill="#424242"/>
+    </g>
+  
+    <!-- Samurai practicing -->
+    <g transform="translate(380,350)" opacity="0.7">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="12" fill="#ffdbcb"/>
+    <!-- Body -->
+    <rect x="-8" y="12" width="16" height="30" fill="#3f51b5"/>
+    <!-- Arms -->
+    <ellipse cx="-12" cy="20" rx="4" ry="12" fill="#ffdbcb" transform="rotate(-45)"/>
+    <ellipse cx="12" cy="20" rx="4" ry="12" fill="#ffdbcb" transform="rotate(45)"/>
+    <!-- Sword in hands -->
+    <rect x="15" y="10" width="2" height="30" fill="#607d8b"/>
+    <ellipse cx="16" cy="8" rx="4" ry="2" fill="#424242"/>
+    </g>
+  
+    <!-- Cutting board with knife -->
+    <g transform="translate(100,400)" opacity="0.6">
+    <!-- Board -->
+    <rect x="0" y="0" width="40" height="25" rx="3" fill="#8d6e63"/>
+    <!-- Knife marks -->
+    <g stroke="#6d4c41" stroke-width="1">
+      <line x1="5" y1="0" x2="5" y2="25"/>
+      <line x1="15" y1="0" x2="15" y2="25"/>
+      <line x1="25" y1="0" x2="25" y2="25"/>
+    </g>
+    <!-- Small knife -->
+    <rect x="45" y="8" width="20" height="8" fill="url(#bladeGrad18)"/>
+    <rect x="65" y="10" width="8" height="4" fill="#8d6e63"/>
+    </g>
+  
+    <!-- Sharpening stone -->
+    <g transform="translate(380,150)" opacity="0.6">
+    <ellipse cx="0" cy="0" rx="25" ry="10" fill="#9e9e9e"/>
+    <ellipse cx="0" cy="-5" rx="20" ry="8" fill="#bdbdbd"/>
+    <!-- Blade being sharpened -->
+    <rect x="-15" y="-8" width="30" height="3" fill="url(#bladeGrad18)"/>
+    </g>
+  
+    <!-- Blade sparks -->
+    <g fill="#ff9800" opacity="0.6">
+    <circle cx="370" cy="140" r="1"/>
+    <circle cx="385" cy="145" r="1"/>
+    <circle cx="375" cy="160" r="1"/>
+    <circle cx="390" cy="155" r="1"/>
+    </g>
+  
+    <!-- Scabbard -->
+    <g transform="translate(120,180)" opacity="0.7">
+    <rect x="0" y="0" width="8" height="80" rx="4" fill="#5d4037"/>
+    <rect x="1" y="1" width="6" height="78" rx="3" fill="#6d4c41"/>
+    <!-- Decorative elements -->
+    <rect x="0" y="5" width="8" height="3" fill="#8d6e63"/>
+    <rect x="0" y="15" width="8" height="3" fill="#8d6e63"/>
+    </g>
+  
+    <!-- Multiple blades display -->
+    <g transform="translate(100,120)" opacity="0.5">
+    <!-- Short sword -->
+    <rect x="0" y="0" width="3" height="30" fill="url(#bladeGrad18)"/>
+    <rect x="-2" y="30" width="7" height="8" fill="#8d6e63"/>
+    
+    <!-- Dagger -->
+    <rect x="15" y="5" width="2" height="20" fill="url(#bladeGrad18)"/>
+    <rect x="13" y="25" width="6" height="5" fill="#8d6e63"/>
+    
+    <!-- Tanto -->
+    <rect x="30" y="2" width="3" height="25" fill="url(#bladeGrad18)"/>
+    <rect x="28" y="27" width="7" height="6" fill="#8d6e63"/>
+    </g>
+  
+    <!-- Blade reflection -->
+    <g stroke="#ffffff" stroke-width="2" opacity="0.4" fill="none">
+    <line x1="245" y1="150" x2="250" y2="330"/>
+    <line x1="305" y1="160" x2="345" y2="300"/>
+    </g>
+  
+    <!-- Cut marks/slashes -->
+    <g stroke="#d32f2f" stroke-width="3" opacity="0.4" fill="none">
+    <path d="M400 250 L450 280"/>
+    <path d="M420 300 L470 330"/>
+    <path d="M380 280 L430 310"/>
+    </g>
+  
+    <!-- Forge/anvil -->
+    <g transform="translate(400,400)" opacity="0.5">
+    <ellipse cx="0" cy="0" rx="20" ry="8" fill="#424242"/>
+    <rect x="-15" y="-15" width="30" height="15" fill="#616161"/>
+    <!-- Hammer -->
+    <rect x="-25" y="-20" width="15" height="4" fill="#757575"/>
+    <rect x="-35" y="-22" width="8" height="8" fill="#9e9e9e"/>
+    </g>
+  
+    <!-- Blood drops -->
+    <g fill="#d32f2f" opacity="0.4">
+    <circle cx="330" cy="350" r="2"/>
+    <circle cx="340" cy="370" r="1"/>
+    <circle cx="320" cy="380" r="2"/>
+    </g>
+  
+    <!-- Knife throwing target -->
+    <g transform="translate(80,250)" opacity="0.6">
+    <circle cx="0" cy="0" r="20" fill="#fff8e1" stroke="#8d6e63" stroke-width="2"/>
+    <circle cx="0" cy="0" r="15" fill="#ffffff"/>
+    <circle cx="0" cy="0" r="10" fill="#fff8e1"/>
+    <circle cx="0" cy="0" r="5" fill="#d32f2f"/>
+    <!-- Knife in target -->
+    <rect x="-8" y="-1" width="16" height="2" fill="url(#bladeGrad18)"/>
+    <rect x="8" y="-2" width="4" height="4" fill="#8d6e63"/>
+    </g>
+  
+    <!-- Kanji character 刀 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#455a64" opacity="0.8">刀</text>
+    </g>
+  </g>
+</svg> 

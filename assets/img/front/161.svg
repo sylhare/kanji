@@ -1,0 +1,131 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE4B5"/>
+      <stop offset="30%" stop-color="#FFB6C1"/>
+      <stop offset="60%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#4682B4"/>
+    </linearGradient>
+    <radialGradient id="sunGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFF00"/>
+      <stop offset="40%" stop-color="#FFD700"/>
+      <stop offset="80%" stop-color="#FFA500"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </radialGradient>
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#DDA0DD"/>
+      <stop offset="50%" stop-color="#9370DB"/>
+      <stop offset="100%" stop-color="#4B0082"/>
+    </linearGradient>
+  </defs>  <!-- Dawn sky -->
+  <rect width="500" height="500" fill="url(#skyGradient)"/>
+  
+  <!-- Rising sun -->
+  <circle cx="320" cy="80" r="40" fill="url(#sunGradient)" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Sun rays -->
+  <path d="M320 20 L320 40" stroke="#FFD700" stroke-width="4"/>
+  <path d="M350 35 L340 45" stroke="#FFD700" stroke-width="3"/>
+  <path d="M375 65 L355 65" stroke="#FFD700" stroke-width="4"/>
+  <path d="M365 95 L350 85" stroke="#FFD700" stroke-width="3"/>
+  <path d="M350 125 L340 115" stroke="#FFD700" stroke-width="3"/>
+  <path d="M320 140 L320 120" stroke="#FFD700" stroke-width="4"/>
+  <path d="M290 125 L300 115" stroke="#FFD700" stroke-width="3"/>
+  <path d="M275 95 L290 85" stroke="#FFD700" stroke-width="3"/>
+  <path d="M265 65 L285 65" stroke="#FFD700" stroke-width="4"/>
+  <path d="M275 35 L290 45" stroke="#FFD700" stroke-width="3"/>
+  
+  <!-- Mountains silhouetted against dawn -->
+  <path d="M0 300 L80 200 L150 250 L220 180 L300 220 L380 160 L400 180 L400 400 L0 400 Z" 
+    fill="url(#mountainGradient)" opacity="0.8"/>
+  
+  <!-- Morning mist -->
+  <ellipse cx="100" cy="280" rx="60" ry="20" fill="#FFF" opacity="0.4"/>
+  <ellipse cx="250" cy="290" rx="80" ry="15" fill="#F0F8FF" opacity="0.5"/>
+  <ellipse cx="350" cy="275" rx="50" ry="18" fill="#FFF" opacity="0.3"/>
+  
+  <!-- Trees in morning light -->
+  <circle cx="80" cy="280" r="25" fill="#228B22" opacity="0.7"/>
+  <rect x="77" y="280" width="6" height="40" fill="#8B4513" opacity="0.7"/>
+  
+  <circle cx="180" cy="270" r="20" fill="#32CD32" opacity="0.6"/>
+  <rect x="177" y="270" width="6" height="35" fill="#8B4513" opacity="0.6"/>
+  
+  <circle cx="330" cy="260" r="18" fill="#228B22" opacity="0.5"/>
+  <rect x="327" y="260" width="6" height="30" fill="#8B4513" opacity="0.5"/>
+  
+  <!-- Morning birds -->
+  <path d="M150 120 Q160 115 170 120" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M160 115 Q170 110 180 115" stroke="#000" stroke-width="2" fill="none"/>
+  
+  <path d="M200 100 Q210 95 220 100" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M210 95 Q220 90 230 95" stroke="#000" stroke-width="2" fill="none"/>
+  
+  <path d="M100 140 Q110 135 120 140" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M110 135 Q120 130 130 135" stroke="#000" stroke-width="2" fill="none"/>
+  
+  <!-- Morning dew on grass -->
+  <circle cx="50" cy="320" r="2" fill="#87CEEB" opacity="0.8"/>
+  <circle cx="120" cy="330" r="1.5" fill="#B0E0E6" opacity="0.8"/>
+  <circle cx="200" cy="325" r="2" fill="#87CEEB" opacity="0.8"/>
+  <circle cx="280" cy="335" r="1.5" fill="#B0E0E6" opacity="0.8"/>
+  <circle cx="350" cy="315" r="2" fill="#87CEEB" opacity="0.8"/>
+  
+  <!-- Morning flowers -->
+  <circle cx="70" cy="340" r="5" fill="#FFB6C1"/>
+  <circle cx="70" cy="340" r="3" fill="#FF69B4"/>
+  <path d="M70 345 L70 355" stroke="#228B22" stroke-width="2"/>
+  
+  <circle cx="130" cy="350" r="4" fill="#DDA0DD"/>
+  <circle cx="130" cy="350" r="2" fill="#9370DB"/>
+  <path d="M130 354 L130 364" stroke="#228B22" stroke-width="2"/>
+  
+  <circle cx="300" cy="345" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="345" r="3" fill="#FFA500"/>
+  <path d="M300 350 L300 360" stroke="#228B22" stroke-width="2"/>
+  
+  <!-- Clock showing 7-9 AM -->
+  <circle cx="120" cy="120" r="40" fill="#FFF" stroke="#000" stroke-width="3" opacity="0.9"/>
+  <circle cx="120" cy="120" r="35" fill="#F8F8FF"/>
+  
+  <!-- Clock numbers -->
+  <text x="120" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">12</text>
+  <text x="150" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">3</text>
+  <text x="120" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">6</text>
+  <text x="95" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">9</text>
+  
+  <!-- Clock hands pointing to around 8 o'clock -->
+  <path d="M120 120 L120 100" stroke="#000" stroke-width="3"/>
+  <path d="M120 120 L105 110" stroke="#000" stroke-width="4"/>
+  <circle cx="120" cy="120" r="3" fill="#000"/>
+  
+  <!-- Rooster (symbol of morning) -->
+  <ellipse cx="60" cy="200" rx="15" ry="20" fill="#8B4513"/>
+  <circle cx="60" cy="180" r="12" fill="#CD853F"/>
+  <path d="M55 175 Q50 170 55 165 Q60 170 55 175" fill="#FF0000"/>
+  <circle cx="57" cy="177" r="1" fill="#000"/>
+  <path d="M70 185 Q75 180 80 185 Q85 190 80 195 Q75 190 70 185" fill="#FF6347"/>
+  <path d="M45 210 L40 225" stroke="#8B4513" stroke-width="3"/>
+  <path d="M55 215 L50 230" stroke="#8B4513" stroke-width="3"/>
+  <path d="M65 215 L70 230" stroke="#8B4513" stroke-width="3"/>
+  <path d="M75 210 L80 225" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Morning coffee steam -->
+  <ellipse cx="200" cy="350" rx="15" ry="10" fill="#8B4513"/>
+  <ellipse cx="200" cy="345" rx="12" ry="8" fill="#654321"/>
+  <path d="M195 335 Q200 325 195 315" stroke="#D3D3D3" stroke-width="2" fill="none"/>
+  <path d="M205 335 Q210 325 205 315" stroke="#D3D3D3" stroke-width="2" fill="none"/>
+  
+  <!-- Dawn clouds -->
+  <circle cx="50" cy="80" r="20" fill="#FFB6C1" opacity="0.6"/>
+  <circle cx="70" cy="75" r="25" fill="#FFB6C1" opacity="0.6"/>
+  <circle cx="90" cy="80" r="18" fill="#FFB6C1" opacity="0.6"/>
+  
+  <circle cx="250" cy="60" r="22" fill="#DDA0DD" opacity="0.5"/>
+  <circle cx="270" cy="55" r="28" fill="#DDA0DD" opacity="0.5"/>
+  <circle cx="290" cy="60" r="20" fill="#DDA0DD" opacity="0.5"/>
+  
+  <!-- Morning star -->
+  <path d="M150 50 L155 40 L160 50 L170 45 L162 55 L170 65 L160 60 L155 70 L150 60 L140 65 L148 55 L140 45 Z" 
+    fill="#FFD700" opacity="0.8"/>
+</svg> 

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad99" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff3c4;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="honeyGrad99" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffcc02;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8f00;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="candyGrad99" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff80ab;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f8bbd9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f48fb1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad99)"/>
+  
+  <!-- Honey dripping -->
+  <g fill="url(#honeyGrad99)" opacity="0.7">
+  <path d="M150 100 Q155 150 150 200 Q145 250 150 300" stroke-width="8"/>
+  <path d="M350 120 Q345 170 350 220 Q355 270 350 320" stroke-width="8"/>
+  <circle cx="150" cy="310" r="8"/>
+  <circle cx="350" cy="330" r="6"/>
+  
+  <!-- Main radical shape 甘 (sweet) -->
+  <!-- Top horizontal stroke -->
+  <path d="M180 180 L320 180" 
+      stroke="#d84315" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Middle horizontal stroke -->
+  <path d="M190 220 L310 220" 
+      stroke="#d84315" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Vertical strokes -->
+  <path d="M210 180 L210 280" 
+      stroke="#d84315" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M290 180 L290 280" 
+      stroke="#d84315" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom horizontal stroke -->
+  <path d="M180 280 L320 280" 
+      stroke="#d84315" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Sweet treats around -->
+  <!-- Candy -->
+  <ellipse cx="120" cy="200" rx="15" ry="8" fill="url(#candyGrad99)"/>
+  <ellipse cx="380" cy="250" rx="12" ry="6" fill="#e1bee7"/>
+  
+  <!-- Lollipop -->
+  <circle cx="400" cy="150" r="12" fill="#f06292"/>
+  <rect x="398" y="162" width="4" height="30" fill="#8d6e63"/>
+  
+  <!-- Sugar crystals -->
+  <g fill="#ffffff" opacity="0.8">
+  <polygon points="100,300 105,295 110,300 105,305"/>
+  <polygon points="390,180 395,175 400,180 395,185"/>
+  <polygon points="130,350 135,345 140,350 135,355"/>
+  
+    <!-- Honeycomb pattern -->
+    <g stroke="#ffb300" stroke-width="2" fill="none" opacity="0.4">
+    <polygon points="320,350 330,355 330,365 320,370 310,365 310,355"/>
+    <polygon points="340,350 350,355 350,365 340,370 330,365 330,355"/>
+    </g>
+  
+    <!-- Sweet sparkles -->
+    <g fill="#ff9800" opacity="0.6">
+    <circle cx="160" cy="120" r="3"/>
+    <circle cx="340" cy="130" r="4"/>
+    <circle cx="180" cy="360" r="3"/>
+    <circle cx="320" cy="380" r="2"/>
+    </g>
+  
+    <!-- Steam/sweet aroma -->
+    <g stroke="#ffcc02" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M240 160 Q245 150 250 160 Q255 150 260 160"/>
+    <path d="M230 140 Q235 130 240 140 Q245 130 250 140"/>
+    </g>
+  
+    <!-- Kanji character 甘 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#d84315" opacity="0.8">甘</text>
+    </g>
+  </g>
+</svg> 

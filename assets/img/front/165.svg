@@ -1,0 +1,113 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="leftGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="100%" stop-color="#DC143C"/>
+    </linearGradient>
+    <linearGradient id="rightGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ECDC4"/>
+      <stop offset="100%" stop-color="#20B2AA"/>
+    </linearGradient>
+    <linearGradient id="centerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE66D"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#F8F8FF"/>
+  
+  <!-- Central dividing line -->
+  <rect x="195" y="50" width="10" height="300" fill="#4B0082" stroke="#2E0854" stroke-width="2"/>
+  
+  <!-- Dividing elements - Circle being split -->
+  <circle cx="150" cy="150" r="40" fill="url(#leftGradient)" stroke="#8B0000" stroke-width="3"/>
+  <circle cx="250" cy="150" r="40" fill="url(#rightGradient)" stroke="#006666" stroke-width="3"/>
+  
+  <!-- Central dividing wedge -->
+  <path d="M195 110 L205 110 L225 150 L205 190 L195 190 L175 150 Z" 
+    fill="url(#centerGradient)" stroke="#DAA520" stroke-width="2"/>
+  
+  <!-- Separating arrows -->
+  <path d="M130 150 L80 150" stroke="#DC143C" stroke-width="6" marker-end="url(#arrowRed)"/>
+  <path d="M270 150 L320 150" stroke="#20B2AA" stroke-width="6" marker-end="url(#arrowTeal)"/>
+  
+  <!-- Arrow markers -->
+  <defs>
+  <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+  <polygon points="0 0, 10 3.5, 0 7" fill="#DC143C"/>
+  </marker>
+  <marker id="arrowTeal" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+  <polygon points="0 0, 10 3.5, 0 7" fill="#20B2AA"/>
+  </marker>
+  </defs>
+  
+  <!-- Rectangle being divided -->
+  <rect x="100" y="250" width="80" height="40" fill="url(#leftGradient)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="220" y="250" width="80" height="40" fill="url(#rightGradient)" stroke="#006666" stroke-width="2"/>
+  
+  <!-- Division symbols -->
+  <circle cx="200" cy="270" r="3" fill="#4B0082"/>
+  <rect x="192" y="265" width="16" height="2" fill="#4B0082"/>
+  <rect x="192" y="273" width="16" height="2" fill="#4B0082"/>
+  
+  <!-- Water/liquid being separated -->
+  <path d="M80 320 Q120 310 160 320 Q140 330 100 335 Q90 325 80 320" fill="#4169E1" opacity="0.7"/>
+  <path d="M240 320 Q280 310 320 320 Q300 330 260 335 Q250 325 240 320" fill="#FF6347" opacity="0.7"/>
+  
+  <!-- Particles/molecules separating -->
+  <circle cx="70" cy="80" r="8" fill="#FF69B4"/>
+  <circle cx="90" cy="70" r="6" fill="#FF1493"/>
+  <circle cx="110" cy="85" r="7" fill="#DC143C"/>
+  
+  <circle cx="290" cy="80" r="8" fill="#00CED1"/>
+  <circle cx="310" cy="70" r="6" fill="#20B2AA"/>
+  <circle cx="330" cy="85" r="7" fill="#008B8B"/>
+  
+  <!-- Motion lines showing separation -->
+  <path d="M90 95 L70 115" stroke="#FF69B4" stroke-width="3" opacity="0.6"/>
+  <path d="M100 90 L80 110" stroke="#FF1493" stroke-width="3" opacity="0.6"/>
+  <path d="M120 100 L100 120" stroke="#DC143C" stroke-width="3" opacity="0.6"/>
+  
+  <path d="M310 95 L330 115" stroke="#00CED1" stroke-width="3" opacity="0.6"/>
+  <path d="M320 90 L340 110" stroke="#20B2AA" stroke-width="3" opacity="0.6"/>
+  <path d="M300 100 L320 120" stroke="#008B8B" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Yin-Yang being separated -->
+  <circle cx="200" cy="350" r="30" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <path d="M200 320 Q215 335 200 350 Q185 335 200 320" fill="#000"/>
+  <circle cx="200" cy="335" r="8" fill="#FFF"/>
+  <circle cx="200" cy="365" r="8" fill="#000"/>
+  <circle cx="200" cy="335" r="3" fill="#000"/>
+  <circle cx="200" cy="365" r="3" fill="#FFF"/>
+  
+  <!-- Separation forces arrows on yin-yang -->
+  <path d="M170 350 L140 350" stroke="#8B0000" stroke-width="4" marker-end="url(#arrowRed)"/>
+  <path d="M230 350 L260 350" stroke="#006666" stroke-width="4" marker-end="url(#arrowTeal)"/>
+  
+  <!-- Crystal/gem being split -->
+  <path d="M50 200 L70 180 L90 200 L70 220 Z" fill="url(#leftGradient)" stroke="#8B0000" stroke-width="2"/>
+  <path d="M310 200 L330 180 L350 200 L330 220 Z" fill="url(#rightGradient)" stroke="#006666" stroke-width="2"/>
+  
+  <!-- Lightning/energy showing separation force -->
+  <path d="M195 200 L190 180 L200 175 L195 160 L205 165 L200 180 L210 185 L205 200" 
+    fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+  
+  <!-- DNA helix separating -->
+  <path d="M120 350 Q130 340 140 350 Q150 360 160 350" stroke="#FF69B4" stroke-width="4" fill="none"/>
+  <path d="M120 355 Q130 365 140 355 Q150 345 160 355" stroke="#4169E1" stroke-width="4" fill="none"/>
+  
+  <path d="M240 350 Q250 340 260 350 Q270 360 280 350" stroke="#32CD32" stroke-width="4" fill="none"/>
+  <path d="M240 355 Q250 365 260 355 Q270 345 280 355" stroke="#FF6347" stroke-width="4" fill="none"/>
+  
+  <!-- Connecting bonds being broken -->
+  <circle cx="135" cy="352" r="2" fill="#FFF"/>
+  <circle cx="255" cy="352" r="2" fill="#FFF"/>
+  <path d="M137 352 L195 352" stroke="#FF0000" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+  <path d="M205 352 L253 352" stroke="#FF0000" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+  
+  <!-- Text indicating separation -->
+  <text x="200" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#4B0082">DIVIDE</text>
+  <text x="200" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#696969">SEPARATE</text>
+  
+  <!-- Border effects -->
+  <rect x="5" y="5" width="390" height="390" fill="none" stroke="#D3D3D3" stroke-width="2" stroke-dasharray="10,5"/>
+</svg> 

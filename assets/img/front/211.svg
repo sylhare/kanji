@@ -1,0 +1,296 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#4682B4"/>
+    </linearGradient>
+    <linearGradient id="trackGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#DC143C"/>
+      <stop offset="100%" stop-color="#8B0000"/>
+    </linearGradient>
+    <linearGradient id="fieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#90EE90"/>
+      <stop offset="100%" stop-color="#228B22"/>
+    </linearGradient>
+    <radialGradient id="ballGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F0F0F0"/>
+      <stop offset="100%" stop-color="#C0C0C0"/>
+    </radialGradient>
+    <linearGradient id="athleteGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FFA500"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </linearGradient>
+    <radialGradient id="sunGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFF99"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </radialGradient>
+  </defs>  <!-- Sky background -->
+  <rect width="400" height="250" fill="url(#skyGradient)"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="50" r="25" fill="url(#sunGradient)" stroke="#FF8C00" stroke-width="2"/>
+  
+  <!-- Stadium background -->
+  <rect x="0" y="250" width="400" height="150" fill="url(#fieldGradient)"/>
+  
+  <!-- Running track (oval) -->
+  <ellipse cx="200" cy="320" rx="180" ry="60" fill="none" stroke="url(#trackGradient)" stroke-width="20"/>
+  <ellipse cx="200" cy="320" rx="160" ry="40" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="10,5"/>
+  
+  <!-- Track lanes -->
+  <ellipse cx="200" cy="320" rx="140" ry="30" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+  <ellipse cx="200" cy="320" rx="150" ry="35" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+  <ellipse cx="200" cy="320" rx="170" ry="45" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+  
+  <!-- Soccer field -->
+  <rect x="50" y="280" width="300" height="80" fill="url(#fieldGradient)" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Center circle -->
+  <circle cx="200" cy="320" r="25" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Goal areas -->
+  <rect x="50" y="300" width="20" height="40" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="330" y="300" width="20" height="40" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Goals -->
+  <rect x="45" y="305" width="5" height="30" fill="#FFFFFF"/>
+  <rect x="350" y="305" width="5" height="30" fill="#FFFFFF"/>
+  
+  <!-- Soccer ball -->
+  <g transform="translate(180, 310)">
+    <circle cx="0" cy="0" r="8" fill="url(#ballGradient)" stroke="#000" stroke-width="1"/>
+    <!-- Pentagon pattern -->
+    <polygon points="0,-6 -4,-2 -2,4 2,4 4,-2" fill="#000"/>
+    <g stroke="#000" stroke-width="0.5" fill="none">
+      <path d="M0 -6 L-6 -3"/>
+      <path d="M0 -6 L6 -3"/>
+      <path d="M-4 -2 L-6 3"/>
+      <path d="M4 -2 L6 3"/>
+      <path d="M-2 4 L-6 3"/>
+      <path d="M2 4 L6 3"/>
+    </g>
+  </g>
+  
+  <!-- Soccer players -->
+  <!-- Player 1 (running) -->
+  <g transform="translate(150, 310)">
+    <ellipse cx="0" cy="10" rx="6" ry="12" fill="#FF0000"/>
+    <circle cx="0" cy="-5" r="4" fill="#FFDAB9"/>
+    <ellipse cx="-8" cy="5" rx="10" ry="3" fill="#FF0000" transform="rotate(-20 -8 5)"/>
+    <ellipse cx="8" cy="8" rx="10" ry="3" fill="#FF0000" transform="rotate(30 8 8)"/>
+    <ellipse cx="-3" cy="25" rx="3" ry="12" fill="#000080"/>
+    <ellipse cx="3" cy="25" rx="3" ry="12" fill="#000080" transform="rotate(15 3 25)"/>
+    <ellipse cx="-3" cy="40" rx="4" ry="2" fill="#000"/>
+    <ellipse cx="6" cy="38" rx="4" ry="2" fill="#000" transform="rotate(15 6 38)"/>
+  </g>
+  
+  <!-- Player 2 (kicking) -->
+  <g transform="translate(220, 315)">
+    <ellipse cx="0" cy="8" rx="6" ry="12" fill="#0000FF"/>
+    <circle cx="0" cy="-6" r="4" fill="#FFDAB9"/>
+    <ellipse cx="-10" cy="3" rx="12" ry="3" fill="#0000FF" transform="rotate(-45 -10 3)"/>
+    <ellipse cx="10" cy="6" rx="12" ry="3" fill="#0000FF" transform="rotate(15 10 6)"/>
+    <ellipse cx="-4" cy="22" rx="3" ry="12" fill="#FFFFFF"/>
+    <ellipse cx="8" cy="20" rx="3" ry="12" fill="#FFFFFF" transform="rotate(45 8 20)"/>
+    <ellipse cx="-4" cy="35" rx="4" ry="2" fill="#000"/>
+    <ellipse cx="12" cy="28" rx="4" ry="2" fill="#000" transform="rotate(45 12 28)"/>
+  </g>
+  
+  <!-- Basketball court section -->
+  <g transform="translate(80, 100)">
+    <!-- Court -->
+    <rect x="0" y="0" width="60" height="40" fill="#CD853F" stroke="#FFFFFF" stroke-width="1"/>
+    <!-- Free throw circle -->
+    <circle cx="30" cy="35" r="8" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+    <!-- Basketball hoop -->
+    <ellipse cx="30" cy="5" rx="6" ry="2" fill="none" stroke="#FF8C00" stroke-width="2"/>
+    <rect x="29" y="7" width="2" height="8" fill="#8B4513"/>
+    
+    <!-- Basketball -->
+    <circle cx="25" cy="25" r="4" fill="#FF8C00" stroke="#000" stroke-width="0.5"/>
+    <path d="M25 21 L25 29" stroke="#000" stroke-width="0.5"/>
+    <path d="M21 25 L29 25" stroke="#000" stroke-width="0.5"/>
+    <path d="M22 22 Q25 25 28 22" stroke="#000" stroke-width="0.5" fill="none"/>
+    <path d="M22 28 Q25 25 28 28" stroke="#000" stroke-width="0.5" fill="none"/>
+    
+    <!-- Basketball player (shooting) -->
+    <g transform="translate(15, 25)">
+      <ellipse cx="0" cy="5" rx="4" ry="8" fill="#9370DB"/>
+      <circle cx="0" cy="-3" r="3" fill="#FFDAB9"/>
+      <ellipse cx="-6" cy="0" rx="8" ry="2" fill="#9370DB" transform="rotate(-60 -6 0)"/>
+      <ellipse cx="6" cy="-2" rx="8" ry="2" fill="#9370DB" transform="rotate(60 6 -2)"/>
+      <ellipse cx="-2" cy="15" rx="2" ry="8" fill="#FFD700"/>
+      <ellipse cx="2" cy="15" rx="2" ry="8" fill="#FFD700"/>
+    </g>
+  </g>
+  
+  <!-- Tennis court section -->
+  <g transform="translate(280, 120)">
+    <!-- Court -->
+    <rect x="0" y="0" width="40" height="30" fill="#32CD32" stroke="#FFFFFF" stroke-width="1"/>
+    <!-- Net -->
+    <rect x="19" y="0" width="2" height="30" fill="#FFFFFF"/>
+    <g stroke="#FFFFFF" stroke-width="0.3">
+      <path d="M20 5 L20 25"/>
+      <path d="M19 8 L21 8"/>
+      <path d="M19 12 L21 12"/>
+      <path d="M19 16 L21 16"/>
+      <path d="M19 20 L21 20"/>
+    </g>
+    
+    <!-- Tennis ball -->
+    <circle cx="35" cy="15" r="2" fill="#FFFF00" stroke="#FFFFFF" stroke-width="0.5"/>
+    <path d="M33 15 Q35 13 37 15" stroke="#FFFFFF" stroke-width="0.5" fill="none"/>
+    <path d="M33 15 Q35 17 37 15" stroke="#FFFFFF" stroke-width="0.5" fill="none"/>
+    
+    <!-- Tennis player -->
+    <g transform="translate(8, 15)">
+      <ellipse cx="0" cy="3" rx="3" ry="6" fill="#FF69B4"/>
+      <circle cx="0" cy="-2" r="2.5" fill="#FFDAB9"/>
+      <ellipse cx="-5" cy="0" rx="6" ry="2" fill="#FF69B4" transform="rotate(-30 -5 0)"/>
+      <ellipse cx="5" cy="2" rx="6" ry="2" fill="#FF69B4" transform="rotate(45 5 2)"/>
+      <!-- Tennis racket -->
+      <ellipse cx="8" cy="-2" rx="3" ry="5" fill="none" stroke="#8B4513" stroke-width="1"/>
+      <rect x="8" y="3" width="1" height="6" fill="#8B4513"/>
+    </g>
+  </g>
+  
+  <!-- Track and field events -->
+  <!-- High jumper -->
+  <g transform="translate(100, 180)">
+    <!-- High jump bar -->
+    <rect x="0" y="0" width="40" height="1" fill="#FFD700"/>
+    <rect x="-2" y="-10" width="2" height="12" fill="#C0C0C0"/>
+    <rect x="40" y="-10" width="2" height="12" fill="#C0C0C0"/>
+    
+    <!-- Jumper -->
+    <g transform="translate(20, -15)">
+      <ellipse cx="0" cy="8" rx="5" ry="10" fill="url(#athleteGradient)"/>
+      <circle cx="0" cy="-4" r="3" fill="#FFDAB9"/>
+      <ellipse cx="-8" cy="2" rx="10" ry="3" fill="url(#athleteGradient)" transform="rotate(-45 -8 2)"/>
+      <ellipse cx="8" cy="5" rx="10" ry="3" fill="url(#athleteGradient)" transform="rotate(30 8 5)"/>
+      <ellipse cx="-3" cy="20" rx="3" ry="10" fill="#FF0000" transform="rotate(-30 -3 20)"/>
+      <ellipse cx="3" cy="18" rx="3" ry="10" fill="#FF0000" transform="rotate(20 3 18)"/>
+    </g>
+  </g>
+  
+  <!-- Shot put athlete -->
+  <g transform="translate(300, 200)">
+    <ellipse cx="0" cy="10" rx="8" ry="15" fill="#32CD32"/>
+    <circle cx="0" cy="-8" r="5" fill="#FFDAB9"/>
+    <ellipse cx="-12" cy="0" rx="15" ry="5" fill="#32CD32" transform="rotate(-20 -12 0)"/>
+    <ellipse cx="12" cy="5" rx="15" ry="5" fill="#32CD32" transform="rotate(60 12 5)"/>
+    <ellipse cx="-4" cy="28" rx="4" ry="12" fill="#000080"/>
+    <ellipse cx="4" cy="28" rx="4" ry="12" fill="#000080"/>
+    <!-- Shot put ball -->
+    <circle cx="18" cy="-5" r="3" fill="#696969"/>
+  </g>
+  
+  <!-- Sprinter on track -->
+  <g transform="translate(250, 280)">
+    <ellipse cx="0" cy="8" rx="5" ry="10" fill="#FF1493"/>
+    <circle cx="0" cy="-5" r="3" fill="#FFDAB9"/>
+    <ellipse cx="-8" cy="3" rx="12" ry="3" fill="#FF1493" transform="rotate(-45 -8 3)"/>
+    <ellipse cx="10" cy="6" rx="12" ry="3" fill="#FF1493" transform="rotate(45 10 6)"/>
+    <ellipse cx="-5" cy="22" rx="3" ry="12" fill="#FFFFFF" transform="rotate(-45 -5 22)"/>
+    <ellipse cx="6" cy="20" rx="3" ry="12" fill="#FFFFFF" transform="rotate(30 6 20)"/>
+    <!-- Motion lines -->
+    <g stroke="#FFD700" stroke-width="1" opacity="0.6">
+      <path d="M-15 0 L-25 -2"/>
+      <path d="M-15 5 L-25 3"/>
+      <path d="M-15 10 L-25 8"/>
+    </g>
+  </g>
+  
+  <!-- Volleyball net and players -->
+  <g transform="translate(50, 220)">
+    <!-- Net -->
+    <rect x="30" y="0" width="2" height="25" fill="#FFFFFF"/>
+    <g stroke="#FFFFFF" stroke-width="0.5" opacity="0.7">
+      <path d="M30 5 L32 5"/>
+      <path d="M30 10 L32 10"/>
+      <path d="M30 15 L32 15"/>
+      <path d="M30 20 L32 20"/>
+    </g>
+    
+    <!-- Volleyball -->
+    <circle cx="25" cy="10" r="3" fill="#FFFFFF" stroke="#000" stroke-width="0.5"/>
+    <g stroke="#000" stroke-width="0.3" fill="none">
+      <path d="M25 7 Q25 10 25 13"/>
+      <path d="M22 10 Q25 10 28 10"/>
+      <path d="M23 8 Q25 10 27 12"/>
+    </g>
+    
+    <!-- Volleyball players -->
+    <!-- Player 1 (spiking) -->
+    <g transform="translate(15, 15)">
+      <ellipse cx="0" cy="5" rx="4" ry="8" fill="#00CED1"/>
+      <circle cx="0" cy="-5" r="3" fill="#FFDAB9"/>
+      <ellipse cx="-6" cy="-2" rx="8" ry="3" fill="#00CED1" transform="rotate(-60 -6 -2)"/>
+      <ellipse cx="6" cy="0" rx="8" ry="3" fill="#00CED1" transform="rotate(80 6 0)"/>
+    </g>
+    
+    <!-- Player 2 (blocking) -->
+    <g transform="translate(45, 18)">
+      <ellipse cx="0" cy="5" rx="4" ry="8" fill="#FF6347"/>
+      <circle cx="0" cy="-5" r="3" fill="#FFDAB9"/>
+      <ellipse cx="-6" cy="-5" rx="8" ry="3" fill="#FF6347" transform="rotate(-80 -6 -5)"/>
+      <ellipse cx="6" cy="-5" rx="8" ry="3" fill="#FF6347" transform="rotate(80 6 -5)"/>
+    </g>
+  </g>
+  
+  <!-- Olympic rings -->
+  <g transform="translate(320, 30)">
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#0081C8" stroke-width="2"/>
+    <circle cx="18" cy="0" r="8" fill="none" stroke="#000000" stroke-width="2"/>
+    <circle cx="36" cy="0" r="8" fill="none" stroke="#EE334E" stroke-width="2"/>
+    <circle cx="9" cy="10" r="8" fill="none" stroke="#FCB131" stroke-width="2"/>
+    <circle cx="27" cy="10" r="8" fill="none" stroke="#00A651" stroke-width="2"/>
+  </g>
+  
+  <!-- Stadium crowd -->
+  <g fill="#2F2F2F" opacity="0.6">
+    <rect x="0" y="50" width="400" height="30"/>
+    <!-- Crowd silhouettes -->
+    <g fill="#404040">
+      <circle cx="20" cy="60" r="2"/>
+      <circle cx="40" cy="58" r="2"/>
+      <circle cx="60" cy="62" r="2"/>
+      <circle cx="80" cy="59" r="2"/>
+      <circle cx="100" cy="61" r="2"/>
+      <circle cx="120" cy="58" r="2"/>
+      <circle cx="140" cy="60" r="2"/>
+      <circle cx="160" cy="62" r="2"/>
+      <circle cx="180" cy="59" r="2"/>
+      <circle cx="200" cy="61" r="2"/>
+      <circle cx="220" cy="58" r="2"/>
+      <circle cx="240" cy="60" r="2"/>
+      <circle cx="260" cy="62" r="2"/>
+      <circle cx="280" cy="59" r="2"/>
+      <circle cx="300" cy="61" r="2"/>
+      <circle cx="320" cy="58" r="2"/>
+      <circle cx="340" cy="60" r="2"/>
+      <circle cx="360" cy="62" r="2"/>
+      <circle cx="380" cy="59" r="2"/>
+    </g>
+  </g>
+  
+  <!-- Scoreboard -->
+  <rect x="150" y="80" width="100" height="40" fill="#2F2F2F" stroke="#C0C0C0" stroke-width="2"/>
+  <text x="200" y="95" text-anchor="middle" fill="#00FF00" font-size="8" font-weight="bold">SCOREBOARD</text>
+  <text x="170" y="108" text-anchor="middle" fill="#FFD700" font-size="10" font-weight="bold">HOME</text>
+  <text x="230" y="108" text-anchor="middle" fill="#FFD700" font-size="10" font-weight="bold">AWAY</text>
+  <text x="170" y="118" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">3</text>
+  <text x="230" y="118" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">2</text>
+  
+  <!-- Flags waving -->
+  <g transform="translate(380, 100)">
+    <rect x="0" y="0" width="2" height="40" fill="#8B4513"/>
+    <path d="M2 0 Q15 5 12 15 Q18 20 2 25" fill="#FF0000"/>
+  </g>
+  
+  <g transform="translate(20, 90)">
+    <rect x="0" y="0" width="2" height="35" fill="#8B4513"/>
+    <path d="M2 0 Q12 4 10 12 Q15 16 2 20" fill="#0000FF"/>
+  </g>
+</svg> 

@@ -1,0 +1,285 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad144" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pathGrad144" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2196f3;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1976d2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1565c0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad144)"/>
+  
+  <!-- Walking path -->
+  <g stroke="#8d6e63" stroke-width="4" opacity="0.5" fill="none">
+  <path d="M50 450 Q150 400 250 450 Q350 400 450 450"/>
+  
+  <!-- Main walking figure -->
+  <g transform="translate(250,350)">
+  <!-- Head -->
+  <circle cx="0" cy="-30" r="12" fill="#ffdbcb"/>
+  
+  <!-- Body -->
+  <rect x="-8" y="-18" width="16" height="30" fill="#2196f3"/>
+  
+  <!-- Arms in motion -->
+  <ellipse cx="-15" cy="-10" rx="4" ry="12" fill="#ffdbcb" transform="rotate(-20)"/>
+  <ellipse cx="15" cy="-10" rx="4" ry="12" fill="#ffdbcb" transform="rotate(20)"/>
+  
+  <!-- Legs in walking motion -->
+  <ellipse cx="-5" cy="20" rx="4" ry="15" fill="#1976d2" transform="rotate(-15)"/>
+  <ellipse cx="5" cy="20" rx="4" ry="15" fill="#1976d2" transform="rotate(15)"/>
+  
+  <!-- Motion lines -->
+  <g stroke="#2196f3" stroke-width="2" opacity="0.4" fill="none">
+    <path d="M-25 -5 Q-30 -8 -25 -11"/>
+    <path d="M25 -5 Q30 -8 25 -11"/>
+    <path d="M-8 35 Q-12 38 -8 41"/>
+    <path d="M8 35 Q12 38 8 41"/>
+    </g>
+  
+    <!-- Main radical shape 行 (go/carry out) -->
+    <!-- Left vertical stroke -->
+    <path d="M200 150 L200 250" 
+        stroke="#1976d2" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+    <!-- Right vertical stroke -->
+    <path d="M280 150 L280 250" 
+        stroke="#1976d2" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+    <!-- Top horizontal stroke -->
+    <path d="M180 170 L300 170" 
+        stroke="#1976d2" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Middle horizontal stroke -->
+    <path d="M180 200 L300 200" 
+        stroke="#1976d2" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Bottom horizontal stroke -->
+    <path d="M180 230 L300 230" 
+        stroke="#1976d2" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Center vertical stroke -->
+    <path d="M240 150 L240 250" 
+        stroke="#1976d2" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+    <!-- Group of people walking -->
+    <g transform="translate(120,380)" opacity="0.7">
+    <!-- Person 1 -->
+    <g>
+      <circle cx="0" cy="-15" r="6" fill="#ffdbcb"/>
+      <rect x="-3" y="-9" width="6" height="15" fill="#f44336"/>
+      <ellipse cx="-6" cy="-5" rx="2" ry="6" fill="#ffdbcb" transform="rotate(-30)"/>
+      <ellipse cx="6" cy="-5" rx="2" ry="6" fill="#ffdbcb" transform="rotate(30)"/>
+      <ellipse cx="-2" cy="8" rx="2" ry="8" fill="#d32f2f"/>
+      <ellipse cx="2" cy="8" rx="2" ry="8" fill="#d32f2f"/>
+    </g>
+    
+    <!-- Person 2 -->
+    <g transform="translate(15,0)">
+      <circle cx="0" cy="-15" r="6" fill="#ffdbcb"/>
+      <rect x="-3" y="-9" width="6" height="15" fill="#4caf50"/>
+      <ellipse cx="-6" cy="-5" rx="2" ry="6" fill="#ffdbcb" transform="rotate(-20)"/>
+      <ellipse cx="6" cy="-5" rx="2" ry="6" fill="#ffdbcb" transform="rotate(20)"/>
+      <ellipse cx="-2" cy="8" rx="2" ry="8" fill="#388e3c"/>
+      <ellipse cx="2" cy="8" rx="2" ry="8" fill="#388e3c"/>
+    </g>
+    
+    <!-- Person 3 -->
+    <g transform="translate(30,0)">
+      <circle cx="0" cy="-15" r="6" fill="#ffdbcb"/>
+      <rect x="-3" y="-9" width="6" height="15" fill="#ff9800"/>
+      <ellipse cx="-6" cy="-5" rx="2" ry="6" fill="#ffdbcb" transform="rotate(-10)"/>
+      <ellipse cx="6" cy="-5" rx="2" ry="6" fill="#ffdbcb" transform="rotate(10)"/>
+      <ellipse cx="-2" cy="8" rx="2" ry="8" fill="#f57c00"/>
+      <ellipse cx="2" cy="8" rx="2" ry="8" fill="#f57c00"/>
+    </g>
+    </g>
+  
+    <!-- Footsteps -->
+    <g fill="#8d6e63" opacity="0.6">
+    <ellipse cx="100" cy="420" rx="8" ry="4"/>
+    <ellipse cx="120" cy="430" rx="8" ry="4"/>
+    <ellipse cx="140" cy="420" rx="8" ry="4"/>
+    <ellipse cx="160" cy="430" rx="8" ry="4"/>
+    <ellipse cx="180" cy="420" rx="8" ry="4"/>
+    
+    <ellipse cx="300" cy="430" rx="8" ry="4"/>
+    <ellipse cx="320" cy="420" rx="8" ry="4"/>
+    <ellipse cx="340" cy="430" rx="8" ry="4"/>
+    <ellipse cx="360" cy="420" rx="8" ry="4"/>
+    <ellipse cx="380" cy="430" rx="8" ry="4"/>
+    </g>
+  
+    <!-- Direction arrows -->
+    <g stroke="url(#pathGrad144)" stroke-width="4" opacity="0.7" fill="none">
+    <path d="M80 200 L140 200"/>
+    <path d="M130 195 L140 200 L130 205"/>
+    
+    <path d="M360 200 L420 200"/>
+    <path d="M410 195 L420 200 L410 205"/>
+    
+    <path d="M200 120 L260 120"/>
+    <path d="M250 115 L260 120 L250 125"/>
+    </g>
+  
+    <!-- Running figure -->
+    <g transform="translate(380,250)" opacity="0.8">
+    <!-- Head -->
+    <circle cx="0" cy="-25" r="8" fill="#ffdbcb"/>
+    
+    <!-- Body leaning forward -->
+    <rect x="-5" y="-17" width="10" height="20" fill="#9c27b0" transform="rotate(15)"/>
+    
+    <!-- Arms pumping -->
+    <ellipse cx="-12" cy="-8" rx="3" ry="8" fill="#ffdbcb" transform="rotate(-45)"/>
+    <ellipse cx="12" cy="-8" rx="3" ry="8" fill="#ffdbcb" transform="rotate(45)"/>
+    
+    <!-- Legs in running motion -->
+    <ellipse cx="-8" cy="10" rx="3" ry="12" fill="#7b1fa2" transform="rotate(-30)"/>
+    <ellipse cx="8" cy="10" rx="3" ry="12" fill="#7b1fa2" transform="rotate(30)"/>
+    
+    <!-- Speed lines -->
+    <g stroke="#9c27b0" stroke-width="2" opacity="0.5" fill="none">
+      <path d="M-20 -10 L-15 -8"/>
+      <path d="M-22 -5 L-17 -3"/>
+      <path d="M-21 0 L-16 2"/>
+    </g>
+    </g>
+  
+    <!-- Bicycle -->
+    <g transform="translate(100,300)" opacity="0.6">
+    <!-- Wheels -->
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#424242" stroke-width="3"/>
+    <circle cx="40" cy="0" r="15" fill="none" stroke="#424242" stroke-width="3"/>
+    
+    <!-- Frame -->
+    <g stroke="#2196f3" stroke-width="3" fill="none">
+      <path d="M0 0 L20 -15 L40 0"/>
+      <path d="M20 -15 L20 -5"/>
+      <path d="M15 -5 L25 -5"/>
+    </g>
+    
+    <!-- Rider -->
+    <circle cx="20" cy="-20" r="4" fill="#ffdbcb"/>
+    <rect x="18" y="-16" width="4" height="8" fill="#ff5722"/>
+    
+    <!-- Motion lines -->
+    <g stroke="#2196f3" stroke-width="1" opacity="0.5">
+      <line x1="-25" y1="-5" x2="-20" y2="-5"/>
+      <line x1="-25" y1="0" x2="-20" y2="0"/>
+      <line x1="-25" y1="5" x2="-20" y2="5"/>
+    </g>
+    </g>
+  
+    <!-- Car -->
+    <g transform="translate(400,300)" opacity="0.6">
+    <!-- Car body -->
+    <rect x="0" y="0" width="40" height="15" rx="3" fill="#d32f2f"/>
+    
+    <!-- Car roof -->
+    <rect x="8" y="-8" width="24" height="8" rx="2" fill="#f44336"/>
+    
+    <!-- Wheels -->
+    <circle cx="8" cy="20" r="6" fill="#424242"/>
+    <circle cx="32" cy="20" r="6" fill="#424242"/>
+    
+    <!-- Motion lines -->
+    <g stroke="#d32f2f" stroke-width="2" opacity="0.5" fill="none">
+      <path d="M-10 5 L-5 5"/>
+      <path d="M-12 10 L-7 10"/>
+      <path d="M-10 15 L-5 15"/>
+    </g>
+    </g>
+  
+    <!-- Task checklist (carrying out) -->
+    <g transform="translate(80,150)" opacity="0.7">
+    <!-- Checklist background -->
+    <rect x="0" y="0" width="60" height="80" rx="5" fill="#ffffff" stroke="#bdbdbd" stroke-width="1"/>
+    
+    <!-- Completed tasks -->
+    <g fill="#4caf50">
+      <rect x="10" y="10" width="8" height="8" rx="1"/>
+      <path d="M12 14 L15 17 L22 10" stroke="#ffffff" stroke-width="2" fill="none"/>
+      
+      <rect x="10" y="25" width="8" height="8" rx="1"/>
+      <path d="M12 29 L15 32 L22 25" stroke="#ffffff" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Pending task -->
+    <rect x="10" y="40" width="8" height="8" rx="1" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1"/>
+    
+    <!-- Task lines -->
+    <g stroke="#424242" stroke-width="1">
+      <line x1="25" y1="14" x2="50" y2="14"/>
+      <line x1="25" y1="29" x2="50" y2="29"/>
+      <line x1="25" y1="44" x2="50" y2="44"/>
+    </g>
+    </g>
+  
+    <!-- Progress bar -->
+    <g transform="translate(350,150)" opacity="0.6">
+    <!-- Progress background -->
+    <rect x="0" y="0" width="80" height="12" rx="6" fill="#e0e0e0"/>
+    
+    <!-- Progress fill -->
+    <rect x="2" y="2" width="50" height="8" rx="4" fill="url(#pathGrad144)"/>
+    
+    <!-- Progress text -->
+    <text x="40" y="25" font-family="Arial" font-size="8" text-anchor="middle" fill="#1976d2">65%</text>
+    </g>
+  
+    <!-- Destination sign -->
+    <g transform="translate(400,100)" opacity="0.7">
+    <!-- Sign post -->
+    <rect x="15" y="20" width="4" height="40" fill="#8d6e63"/>
+    
+    <!-- Sign board -->
+    <rect x="0" y="0" width="35" height="20" rx="2" fill="#4caf50"/>
+    
+    <!-- Sign text -->
+    <text x="17.5" y="12" font-family="Arial" font-size="6" text-anchor="middle" fill="#ffffff">GOAL</text>
+    
+    <!-- Arrow -->
+    <path d="M35 10 L45 10" stroke="#4caf50" stroke-width="3" fill="none"/>
+    <path d="M40 7 L45 10 L40 13" stroke="#4caf50" stroke-width="2" fill="none"/>
+    </g>
+  
+    <!-- Compass -->
+    <g transform="translate(120,120)" opacity="0.6">
+    <circle cx="0" cy="0" r="15" fill="#ffffff" stroke="#424242" stroke-width="2"/>
+    
+    <!-- Compass needle -->
+    <path d="M0 -10 L2 0 L0 10 L-2 0 Z" fill="#f44336"/>
+    
+    <!-- Cardinal directions -->
+    <text x="0" y="-20" font-family="Arial" font-size="6" text-anchor="middle" fill="#424242">N</text>
+    <text x="20" y="3" font-family="Arial" font-size="6" text-anchor="middle" fill="#424242">E</text>
+    </g>
+  
+    <!-- Journey map -->
+    <g transform="translate(50,50)" opacity="0.5">
+    <!-- Map background -->
+    <rect x="0" y="0" width="60" height="40" rx="3" fill="#fff8e1" stroke="#d7ccc8" stroke-width="1"/>
+    
+    <!-- Route line -->
+    <path d="M10 30 Q30 10 50 30" stroke="#f44336" stroke-width="2" fill="none"/>
+    
+    <!-- Start point -->
+    <circle cx="10" cy="30" r="3" fill="#4caf50"/>
+    <text x="10" y="45" font-family="Arial" font-size="4" text-anchor="middle" fill="#4caf50">START</text>
+    
+    <!-- End point -->
+    <circle cx="50" cy="30" r="3" fill="#f44336"/>
+    <text x="50" y="45" font-family="Arial" font-size="4" text-anchor="middle" fill="#f44336">END</text>
+    </g>
+  
+    <!-- Kanji character 行 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1976d2" opacity="0.8">行</text>
+    </g>
+  </g>
+</svg> 

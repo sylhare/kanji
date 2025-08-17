@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ribbonGrad5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#66bb6a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e7d32;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ribbonShade5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#81c784;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#388e3c;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="highlight5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a5d6a7;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#a5d6a7;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad5)"/>
+  
+  <!-- Shadow/depth effect -->
+  <path d="M120 150 Q200 120 300 180 Q350 220 370 280 Q380 340 350 400 Q300 450 220 420 Q150 400 140 350 Q135 320 160 300" 
+    fill="#2e7d32" opacity="0.2" transform="translate(5,5)"/>
+  
+  <!-- Main ribbon curve representing 乙 -->
+  <path d="M120 150 Q200 120 300 180 Q350 220 370 280 Q380 340 350 400 Q300 450 220 420 Q150 400 140 350 Q135 320 160 300" 
+    fill="url(#ribbonGrad5)" stroke="#1b5e20" stroke-width="3"/>
+  
+  <!-- Ribbon shading for 3D effect -->
+  <path d="M120 150 Q200 120 300 180 Q350 220 370 280 Q380 340 350 400 Q300 450 220 420 Q150 400 140 350 Q135 320 160 300" 
+    fill="url(#ribbonShade5)"/>
+  
+  <!-- Highlight along the curve -->
+  <path d="M130 160 Q190 140 280 190 Q320 220 340 270 Q350 320 330 370 Q290 410 230 390 Q180 380 170 340 Q165 320 180 310" 
+    fill="none" stroke="url(#highlight5)" stroke-width="8"/>
+  
+  <!-- Decorative swirls -->
+  <g fill="#81c784" opacity="0.6">
+  <circle cx="350" cy="120" r="6"/>
+  <circle cx="100" cy="200" r="4"/>
+  <circle cx="400" cy="350" r="5"/>
+  <circle cx="80" cy="380" r="3"/>
+  
+  <!-- Elegant curves accent -->
+  <g stroke="#4caf50" stroke-width="2" fill="none" opacity="0.4">
+  <path d="M380 100 Q390 110 400 120"/>
+  <path d="M60 360 Q50 370 40 380"/>
+  <path d="M100 120 Q90 130 80 140"/>
+  
+    <!-- Number "2" subtly integrated -->
+    <text x="420" y="450" font-family="Arial, sans-serif" font-size="32" font-weight="300" text-anchor="middle" fill="#2e7d32" opacity="0.4">2</text>
+  
+    <!-- Kanji character 乙 -->
+    <text x="80" y="100" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1b5e20" opacity="0.8">乙</text>
+    </g>
+  </g>
+</svg> 

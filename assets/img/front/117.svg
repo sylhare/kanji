@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad117" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pillarGrad117" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad117)"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="480" rx="200" ry="15" fill="#8d6e63" opacity="0.3"/>
+  
+  <!-- Standing pillar -->
+  <rect x="230" y="200" width="40" height="280" fill="url(#pillarGrad117)"/>
+  
+  <!-- Main radical shape 立 (to stand) -->
+  <!-- Top horizontal stroke -->
+  <path d="M200 160 L300 160" 
+    stroke="#2e7d32" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Left vertical stroke -->
+  <path d="M220 160 L220 280" 
+    stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right vertical stroke -->
+  <path d="M280 160 L280 280" 
+    stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Middle horizontal stroke -->
+  <path d="M220 200 L280 200" 
+    stroke="#2e7d32" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom horizontal stroke -->
+  <path d="M200 280 L300 280" 
+    stroke="#2e7d32" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Standing figure silhouette -->
+  <g transform="translate(350,300)" fill="#4caf50" opacity="0.6">
+  <!-- Head -->
+  <circle cx="0" cy="0" r="15"/>
+  <!-- Body -->
+  <rect x="-8" y="15" width="16" height="40" rx="8"/>
+  <!-- Arms -->
+  <ellipse cx="-15" cy="25" rx="4" ry="15" transform="rotate(-20)"/>
+  <ellipse cx="15" cy="25" rx="4" ry="15" transform="rotate(20)"/>
+  <!-- Legs -->
+  <ellipse cx="-6" cy="60" rx="4" ry="20"/>
+  <ellipse cx="6" cy="60" rx="4" ry="20"/>
+  
+  <!-- Standing trees -->
+  <g opacity="0.5">
+  <!-- Left tree -->
+  <rect x="95" y="350" width="10" height="130" fill="#8d6e63"/>
+  <circle cx="100" cy="340" r="20" fill="#4caf50"/>
+  
+  <!-- Right tree -->
+  <rect x="395" y="360" width="8" height="120" fill="#8d6e63"/>
+  <circle cx="399" cy="350" r="15" fill="#4caf50"/>
+  
+    <!-- Stability indicators -->
+    <g stroke="#66bb6a" stroke-width="2" opacity="0.4" fill="none">
+    <line x1="250" y1="480" x2="250" y2="460"/>
+    <path d="M230 470 L250 460 L270 470"/>
+    </g>
+  
+    <!-- Standing flag -->
+    <g transform="translate(150,250)" opacity="0.7">
+    <rect x="0" y="0" width="3" height="100" fill="#8d6e63"/>
+    <rect x="3" y="0" width="30" height="20" fill="#f44336"/>
+    </g>
+  
+    <!-- Monument base -->
+    <rect x="210" y="470" width="80" height="20" rx="5" fill="#757575" opacity="0.6"/>
+  
+    <!-- Balance lines -->
+    <g stroke="#81c784" stroke-width="1" opacity="0.3" fill="none">
+    <line x1="150" y1="280" x2="350" y2="280"/>
+    <circle cx="250" cy="280" r="80"/>
+    </g>
+  
+    <!-- Wind resistance lines -->
+    <g stroke="#4caf50" stroke-width="2" opacity="0.3" fill="none">
+    <path d="M120 200 Q140 190 160 200"/>
+    <path d="M340 200 Q360 190 380 200"/>
+    </g>
+  
+    <!-- Kanji character 立 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#2e7d32" opacity="0.8">立</text>
+    </g>
+  </g>
+</svg> 

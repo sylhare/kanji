@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad19" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffebee;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffcdd2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="muscleGrad19" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffdbcb;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffab91;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8a65;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad19)"/>
+  
+  <!-- Strongman lifting weights -->
+  <g transform="translate(250,300)">
+  <!-- Head -->
+  <circle cx="0" cy="-80" r="20" fill="url(#muscleGrad19)"/>
+  
+  <!-- Muscular torso -->
+  <ellipse cx="0" cy="-30" rx="30" ry="40" fill="url(#muscleGrad19)"/>
+  
+  <!-- Muscular arms -->
+  <ellipse cx="-40" cy="-50" rx="15" ry="25" fill="url(#muscleGrad19)" transform="rotate(-30)"/>
+  <ellipse cx="40" cy="-50" rx="15" ry="25" fill="url(#muscleGrad19)" transform="rotate(30)"/>
+  
+  <!-- Barbell -->
+  <rect x="-60" y="-70" width="120" height="6" rx="3" fill="#424242"/>
+  <rect x="-65" y="-80" width="10" height="26" fill="#616161"/>
+  <rect x="55" y="-80" width="10" height="26" fill="#616161"/>
+  
+  <!-- Weight plates -->
+  <circle cx="-60" cy="-67" r="12" fill="#757575"/>
+  <circle cx="60" cy="-67" r="12" fill="#757575"/>
+  
+  <!-- Legs -->
+  <ellipse cx="-12" cy="30" rx="8" ry="25" fill="url(#muscleGrad19)"/>
+  <ellipse cx="12" cy="30" rx="8" ry="25" fill="url(#muscleGrad19)"/>
+  
+  <!-- Sweat droplets -->
+  <g fill="#2196f3" opacity="0.6">
+  <circle cx="-15" cy="-85" r="2"/>
+  <circle cx="10" cy="-75" r="1"/>
+  <circle cx="25" cy="-45" r="2"/>
+  
+    <!-- Main radical shape 力 (power/force) -->
+    <!-- Horizontal stroke -->
+    <path d="M320 180 L380 180" 
+        stroke="#d32f2f" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+    <!-- Curved vertical stroke -->
+    <path d="M340 180 Q320 220 340 260" 
+        stroke="#d32f2f" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+    <!-- Hook stroke -->
+    <path d="M340 260 L380 280" 
+        stroke="#d32f2f" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Force arrows -->
+    <g stroke="#ff5722" stroke-width="4" opacity="0.7" fill="none">
+    <path d="M100 200 L150 200"/>
+    <path d="M140 195 L150 200 L140 205"/>
+    
+    <path d="M400 300 L450 300"/>
+    <path d="M440 295 L450 300 L440 305"/>
+    
+    <path d="M150 400 L200 400"/>
+    <path d="M190 395 L200 400 L190 405"/>
+    </g>
+  
+    <!-- Explosion/impact -->
+    <g transform="translate(380,200)" opacity="0.8">
+    <g stroke="#ff9800" stroke-width="3" fill="none">
+      <line x1="0" y1="0" x2="15" y2="-15"/>
+      <line x1="0" y1="0" x2="20" y2="0"/>
+      <line x1="0" y1="0" x2="15" y2="15"/>
+      <line x1="0" y1="0" x2="0" y2="20"/>
+      <line x1="0" y1="0" x2="-15" y2="15"/>
+      <line x1="0" y1="0" x2="-20" y2="0"/>
+      <line x1="0" y1="0" x2="-15" y2="-15"/>
+      <line x1="0" y1="0" x2="0" y2="-20"/>
+    </g>
+    <circle cx="0" cy="0" r="5" fill="#ffeb3b"/>
+    </g>
+  
+    <!-- Rock being crushed -->
+    <g transform="translate(120,400)" opacity="0.7">
+    <!-- Rock -->
+    <ellipse cx="0" cy="0" rx="20" ry="15" fill="#9e9e9e"/>
+    <!-- Crack -->
+    <path d="M-15 -10 Q0 0 15 -8" stroke="#424242" stroke-width="2" fill="none"/>
+    <!-- Force from above -->
+    <path d="M0 -30 L0 -15" stroke="#d32f2f" stroke-width="4"/>
+    <path d="M-5 -20 L0 -15 L5 -20" stroke="#d32f2f" stroke-width="3" fill="none"/>
+    </g>
+  
+    <!-- Tug of war -->
+    <g transform="translate(100,150)" opacity="0.6">
+    <!-- Rope -->
+    <rect x="0" y="0" width="80" height="6" rx="3" fill="#8d6e63"/>
+    <!-- Left team -->
+    <g transform="translate(-20,0)">
+      <circle cx="0" cy="0" r="8" fill="url(#muscleGrad19)"/>
+      <rect x="-5" y="8" width="10" height="15" fill="#2196f3"/>
+    </g>
+    <!-- Right team -->
+    <g transform="translate(100,0)">
+      <circle cx="0" cy="0" r="8" fill="url(#muscleGrad19)"/>
+      <rect x="-5" y="8" width="10" height="15" fill="#f44336"/>
+    </g>
+    </g>
+  
+    <!-- Muscle flexing -->
+    <g transform="translate(420,380)" opacity="0.8">
+    <!-- Arm -->
+    <ellipse cx="0" cy="0" rx="20" ry="12" fill="url(#muscleGrad19)"/>
+    <!-- Bicep bulge -->
+    <ellipse cx="-5" cy="-3" rx="8" ry="6" fill="#ff8a65"/>
+    <!-- Forearm -->
+    <ellipse cx="15" cy="5" rx="12" ry="8" fill="url(#muscleGrad19)" transform="rotate(30)"/>
+    </g>
+  
+    <!-- Power lines/energy -->
+    <g stroke="#ffeb3b" stroke-width="3" opacity="0.6" fill="none">
+    <path d="M80 250 Q120 230 160 250"/>
+    <path d="M160 250 Q200 230 240 250"/>
+    <path d="M300 350 Q340 330 380 350"/>
+    <path d="M380 350 Q420 330 460 350"/>
+    </g>
+  
+    <!-- Hammer striking -->
+    <g transform="translate(380,120)" opacity="0.7">
+    <!-- Hammer head -->
+    <rect x="0" y="0" width="20" height="8" rx="2" fill="#757575"/>
+    <!-- Handle -->
+    <rect x="8" y="8" width="4" height="25" fill="#8d6e63"/>
+    <!-- Impact sparks -->
+    <g fill="#ff9800" opacity="0.8">
+      <circle cx="25" cy="4" r="1"/>
+      <circle cx="30" cy="8" r="1"/>
+      <circle cx="28" cy="12" r="1"/>
+    </g>
+    <!-- Anvil -->
+    <rect x="25" y="12" width="15" height="8" fill="#424242"/>
+    </g>
+  
+    <!-- Machine/engine -->
+    <g transform="translate(100,300)" opacity="0.5">
+    <!-- Engine block -->
+    <rect x="0" y="0" width="30" height="25" rx="3" fill="#616161"/>
+    <!-- Piston -->
+    <rect x="10" y="-10" width="10" height="15" fill="#9e9e9e"/>
+    <!-- Motion lines -->
+    <g stroke="#ff5722" stroke-width="2" opacity="0.6">
+      <line x1="15" y1="-15" x2="15" y2="-20"/>
+      <line x1="12" y1="-18" x2="18" y2="-18"/>
+    </g>
+    </g>
+  
+    <!-- Lightning bolt (electric power) -->
+    <g transform="translate(450,150)" opacity="0.7">
+    <path d="M0 0 L-8 15 L-3 15 L-5 25 L3 10 L-2 10 Z" fill="#ffeb3b"/>
+    </g>
+  
+    <!-- Pressure gauge -->
+    <g transform="translate(420,250)" opacity="0.6">
+    <circle cx="0" cy="0" r="15" fill="#ffffff" stroke="#424242" stroke-width="2"/>
+    <!-- Needle -->
+    <path d="M0 0 L8 -8" stroke="#d32f2f" stroke-width="2"/>
+    <!-- Scale marks -->
+    <g stroke="#424242" stroke-width="1">
+      <line x1="0" y1="-12" x2="0" y2="-10"/>
+      <line x1="8" y1="-8" x2="10" y2="-6"/>
+      <line x1="12" y1="0" x2="10" y2="0"/>
+    </g>
+    </g>
+  
+    <!-- Breaking chains -->
+    <g transform="translate(150,350)" opacity="0.6">
+    <!-- Chain links -->
+    <g fill="none" stroke="#757575" stroke-width="3">
+      <ellipse cx="-10" cy="0" rx="5" ry="8"/>
+      <ellipse cx="0" cy="0" rx="5" ry="8"/>
+      <ellipse cx="10" cy="0" rx="5" ry="8"/>
+    </g>
+    <!-- Break point -->
+    <g stroke="#ff5722" stroke-width="2">
+      <line x1="-2" y1="-5" x2="2" y2="5"/>
+      <line x1="2" y1="-5" x2="-2" y2="5"/>
+    </g>
+    </g>
+  
+    <!-- Kanji character 力 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#d32f2f" opacity="0.8">力</text>
+    </g>
+  </g>
+</svg> 

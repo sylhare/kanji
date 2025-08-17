@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad111" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="arrowGrad111" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#37474f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad111)"/>
+  
+  <!-- Target in background -->
+  <g transform="translate(400,150)" opacity="0.3">
+  <circle cx="0" cy="0" r="40" fill="#f44336"/>
+  <circle cx="0" cy="0" r="30" fill="#ffffff"/>
+  <circle cx="0" cy="0" r="20" fill="#f44336"/>
+  <circle cx="0" cy="0" r="10" fill="#ffffff"/>
+  
+  <!-- Main radical shape 矢 (arrow) -->
+  <!-- Arrow shaft -->
+  <rect x="80" y="245" width="300" height="10" fill="url(#arrowGrad111)"/>
+  
+  <!-- Arrowhead -->
+  <path d="M380 250 L420 235 L420 265 Z" 
+      fill="#37474f" stroke="#263238" stroke-width="2"/>
+  
+  <!-- Arrow fletching (feathers) -->
+  <g transform="translate(80,250)">
+  <!-- Top feather -->
+  <path d="M0 0 L-30 -15 L-20 -5 L0 -5 Z" 
+        fill="#4caf50" opacity="0.8"/>
+  <!-- Bottom feather -->
+  <path d="M0 0 L-30 15 L-20 5 L0 5 Z" 
+        fill="#2e7d32" opacity="0.8"/>
+  
+    <!-- Arrow nock -->
+    <path d="M50 245 L50 255 L60 250 Z" 
+        fill="#8d6e63"/>
+  
+    <!-- Motion lines showing flight -->
+    <g stroke="#66bb6a" stroke-width="2" opacity="0.4" fill="none">
+    <path d="M30 240 L70 240"/>
+    <path d="M20 260 L60 260"/>
+    <path d="M35 275 L75 275"/>
+    </g>
+  
+    <!-- Bow string (implied) -->
+    <path d="M40 200 Q30 250 40 300" 
+        stroke="#8d6e63" stroke-width="3" opacity="0.5" fill="none"/>
+  
+    <!-- Arrow's trajectory arc -->
+    <path d="M50 250 Q200 200 400 180" 
+        stroke="#4caf50" stroke-width="2" opacity="0.3" fill="none" stroke-dasharray="5,5"/>
+  
+    <!-- Wind effects -->
+    <g stroke="#81c784" stroke-width="2" opacity="0.3" fill="none">
+    <path d="M100 180 Q120 170 140 180"/>
+    <path d="M200 160 Q220 150 240 160"/>
+    <path d="M300 140 Q320 130 340 140"/>
+    </g>
+  
+    <!-- Arrow shadow -->
+    <ellipse cx="250" cy="280" rx="150" ry="8" fill="#37474f" opacity="0.2"/>
+  
+    <!-- Fletching details -->
+    <g stroke="#2e7d32" stroke-width="1" opacity="0.6">
+    <line x1="55" y1="240" x2="75" y2="245"/>
+    <line x1="55" y1="260" x2="75" y2="255"/>
+    </g>
+  
+    <!-- Kanji character 矢 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#2e7d32" opacity="0.8">矢</text>
+    </g>
+  </g>
+</svg> 

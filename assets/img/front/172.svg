@@ -1,0 +1,158 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bird1Gradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFE4B5"/>
+      <stop offset="50%" stop-color="#DEB887"/>
+      <stop offset="100%" stop-color="#8B7355"/>
+    </radialGradient>
+    <radialGradient id="bird2Gradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFB6C1"/>
+      <stop offset="50%" stop-color="#FF69B4"/>
+      <stop offset="100%" stop-color="#DC143C"/>
+    </radialGradient>
+    <radialGradient id="bird3Gradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="50%" stop-color="#4682B4"/>
+      <stop offset="100%" stop-color="#191970"/>
+    </radialGradient>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E0F6FF"/>
+      <stop offset="100%" stop-color="#87CEEB"/>
+    </linearGradient>
+  </defs>  <!-- Sky background -->
+  <rect width="500" height="500" fill="url(#skyGradient)"/>
+  
+  <!-- Tree branch -->
+  <rect x="50" y="150" width="300" height="15" rx="7" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <rect x="150" y="120" width="12" height="40" rx="6" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  <rect x="250" y="130" width="10" height="35" rx="5" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Small leaves -->
+  <ellipse cx="145" cy="115" rx="8" ry="12" fill="#32CD32" stroke="#228B22" stroke-width="1"/>
+  <ellipse cx="155" cy="110" rx="6" ry="10" fill="#90EE90" stroke="#32CD32" stroke-width="1"/>
+  <ellipse cx="255" cy="125" rx="7" ry="11" fill="#32CD32" stroke="#228B22" stroke-width="1"/>
+  
+  <!-- Bird 1 - Sparrow perched -->
+  <ellipse cx="120" cy="140" rx="20" ry="15" fill="url(#bird1Gradient)" stroke="#8B7355" stroke-width="1"/>
+  <circle cx="110" cy="135" r="12" fill="url(#bird1Gradient)" stroke="#8B7355" stroke-width="1"/>
+  
+  <!-- Bird 1 details -->
+  <circle cx="107" cy="132" r="2" fill="#000"/>
+  <circle cx="108" cy="131" r="0.5" fill="#FFF"/>
+  <path d="M100 135 Q95 133 95 137" fill="#FFD700" stroke="#FFA500" stroke-width="0.5"/>
+  <!-- Wing -->
+  <ellipse cx="125" cy="138" rx="8" ry="12" fill="#CD853F" stroke="#8B7355" stroke-width="1"/>
+  <!-- Tail -->
+  <ellipse cx="140" cy="145" rx="12" ry="6" fill="#A0522D" stroke="#8B7355" stroke-width="1"/>
+  <!-- Legs -->
+  <path d="M115 150 L115 165" stroke="#FFD700" stroke-width="2"/>
+  <path d="M125 150 L125 165" stroke="#FFD700" stroke-width="2"/>
+  <!-- Feet -->
+  <path d="M110 165 L115 170 M115 165 L120 170 M115 165 L115 170" stroke="#FFD700" stroke-width="1"/>
+  <path d="M120 165 L125 170 M125 165 L130 170 M125 165 L125 170" stroke="#FFD700" stroke-width="1"/>
+  
+  <!-- Bird 2 - Robin in flight -->
+  <ellipse cx="200" cy="100" rx="18" ry="12" fill="url(#bird2Gradient)" stroke="#DC143C" stroke-width="1"/>
+  <circle cx="190" cy="95" r="10" fill="url(#bird2Gradient)" stroke="#DC143C" stroke-width="1"/>
+  
+  <!-- Bird 2 details -->
+  <circle cx="187" cy="93" r="1.5" fill="#000"/>
+  <circle cx="188" cy="92" r="0.5" fill="#FFF"/>
+  <path d="M182 95 Q178 93 178 97" fill="#FFD700" stroke="#FFA500" stroke-width="0.5"/>
+  <!-- Wings spread -->
+  <ellipse cx="210" cy="98" rx="15" ry="8" fill="#FF1493" stroke="#DC143C" stroke-width="1" transform="rotate(20 210 98)"/>
+  <ellipse cx="190" cy="108" rx="15" ry="8" fill="#FF1493" stroke="#DC143C" stroke-width="1" transform="rotate(-20 190 108)"/>
+  <!-- Tail spread -->
+  <ellipse cx="215" cy="105" rx="10" ry="5" fill="#8B0000" stroke="#DC143C" stroke-width="1"/>
+  
+  <!-- Bird 3 - Blue jay on branch -->
+  <ellipse cx="280" cy="145" rx="22" ry="16" fill="url(#bird3Gradient)" stroke="#191970" stroke-width="1"/>
+  <circle cx="265" cy="138" r="14" fill="url(#bird3Gradient)" stroke="#191970" stroke-width="1"/>
+  
+  <!-- Bird 3 details -->
+  <circle cx="261" cy="135" r="2" fill="#000"/>
+  <circle cx="262" cy="134" r="0.5" fill="#FFF"/>
+  <path d="M252 138 Q247 136 247 140" fill="#000" stroke="#2F2F2F" stroke-width="0.5"/>
+  <!-- Crest -->
+  <path d="M265 125 Q270 118 275 125 Q280 120 285 125" fill="#4169E1" stroke="#191970" stroke-width="1"/>
+  <!-- Wing -->
+  <ellipse cx="285" cy="143" rx="10" ry="14" fill="#6495ED" stroke="#191970" stroke-width="1"/>
+  <!-- Tail -->
+  <ellipse cx="302" cy="150" rx="15" ry="8" fill="#483D8B" stroke="#191970" stroke-width="1"/>
+  <!-- Legs -->
+  <path d="M270 155 L270 170" stroke="#2F2F2F" stroke-width="2"/>
+  <path d="M280 155 L280 170" stroke="#2F2F2F" stroke-width="2"/>
+  <!-- Feet gripping branch -->
+  <path d="M265 170 L270 175 M270 170 L275 175 M270 170 L270 175" stroke="#2F2F2F" stroke-width="1"/>
+  <path d="M275 170 L280 175 M280 170 L285 175 M280 170 L280 175" stroke="#2F2F2F" stroke-width="1"/>
+  
+  <!-- Bird 4 - Small finch -->
+  <ellipse cx="80" cy="200" rx="12" ry="8" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+  <circle cx="75" cy="195" r="7" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+  
+  <!-- Bird 4 details -->
+  <circle cx="73" cy="193" r="1" fill="#000"/>
+  <path d="M69 195 Q66 194 66 196" fill="#FF8C00" stroke="#FF4500" stroke-width="0.5"/>
+  <!-- Wing -->
+  <ellipse cx="85" cy="198" rx="6" ry="8" fill="#FF8C00" stroke="#FFA500" stroke-width="1"/>
+  <!-- Tail -->
+  <ellipse cx="92" cy="203" rx="8" ry="4" fill="#DAA520" stroke="#FFA500" stroke-width="1"/>
+  
+  <!-- Bird 5 - Cardinal on ground -->
+  <ellipse cx="320" cy="350" rx="18" ry="14" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+  <circle cx="310" cy="345" r="11" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+  
+  <!-- Bird 5 details -->
+  <circle cx="307" cy="342" r="1.5" fill="#000"/>
+  <path d="M301 345 Q297 343 297 347" fill="#FFD700" stroke="#FFA500" stroke-width="0.5"/>
+  <!-- Crest -->
+  <path d="M310 335 Q315 328 320 335" fill="#B22222" stroke="#8B0000" stroke-width="1"/>
+  <!-- Wing -->
+  <ellipse cx="325" cy="348" rx="8" ry="12" fill="#B22222" stroke="#8B0000" stroke-width="1"/>
+  <!-- Tail -->
+  <ellipse cx="338" cy="355" rx="12" ry="6" fill="#8B0000" stroke="#654321" stroke-width="1"/>
+  <!-- Legs -->
+  <path d="M315 360 L315 375" stroke="#FFD700" stroke-width="1.5"/>
+  <path d="M325 360 L325 375" stroke="#FFD700" stroke-width="1.5"/>
+  
+  <!-- Flying birds in distance -->
+  <path d="M100 60 Q110 55 120 60" stroke="#000" stroke-width="1.5" fill="none"/>
+  <path d="M110 55 Q120 50 130 55" stroke="#000" stroke-width="1.5" fill="none"/>
+  
+  <path d="M250 50 Q260 45 270 50" stroke="#000" stroke-width="1.5" fill="none"/>
+  <path d="M260 45 Q270 40 280 45" stroke="#000" stroke-width="1.5" fill="none"/>
+  
+  <path d="M350 70 Q360 65 370 70" stroke="#000" stroke-width="1.5" fill="none"/>
+  <path d="M360 65 Q370 60 380 65" stroke="#000" stroke-width="1.5" fill="none"/>
+  
+  <!-- Bird nest -->
+  <ellipse cx="160" cy="155" rx="20" ry="8" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  <ellipse cx="160" cy="150" rx="18" ry="6" fill="#DEB887" stroke="#CD853F" stroke-width="1"/>
+  <!-- Eggs in nest -->
+  <ellipse cx="155" cy="150" rx="4" ry="6" fill="#F0F8FF" stroke="#E6E6FA" stroke-width="1"/>
+  <ellipse cx="165" cy="150" rx="4" ry="6" fill="#F0F8FF" stroke="#E6E6FA" stroke-width="1"/>
+  
+  <!-- Bird feathers floating -->
+  <ellipse cx="180" cy="80" rx="3" ry="8" fill="#DEB887" opacity="0.7" transform="rotate(45 180 80)"/>
+  <ellipse cx="220" cy="70" rx="2" ry="6" fill="#FF69B4" opacity="0.7" transform="rotate(-30 220 70)"/>
+  <ellipse cx="300" cy="90" rx="3" ry="7" fill="#4682B4" opacity="0.7" transform="rotate(60 300 90)"/>
+  
+  <!-- Ground with seeds -->
+  <ellipse cx="200" cy="380" rx="200" ry="25" fill="#90EE90" opacity="0.6"/>
+  <circle cx="310" cy="375" r="2" fill="#8B4513"/>
+  <circle cx="330" cy="372" r="1.5" fill="#DAA520"/>
+  <circle cx="295" cy="378" r="1" fill="#654321"/>
+  <circle cx="340" cy="380" r="1.5" fill="#8B4513"/>
+  
+  <!-- Clouds -->
+  <circle cx="50" cy="50" r="15" fill="#FFF" opacity="0.8"/>
+  <circle cx="70" cy="45" r="20" fill="#FFF" opacity="0.8"/>
+  <circle cx="90" cy="50" r="12" fill="#FFF" opacity="0.8"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="60" r="20" fill="#FFD700" opacity="0.8"/>
+  <circle cx="350" cy="60" r="15" fill="#FFA500" opacity="0.6"/>
+  
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#2F4F4F">SMALL BIRDS / 隹</text>
+</svg> 

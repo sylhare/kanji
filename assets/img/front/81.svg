@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad81" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff3c4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phoenixGrad81" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6f00;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff8f00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffb300;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="flameGlow81" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff176;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#fff176;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="emberGrad81" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffecb3;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffd54f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffc107;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad81)"/>
+  
+  <!-- Eight phoenix feathers plus one sacred flame representing 81 -->
+  <!-- Central sacred flame -->
+  <g transform="translate(250,250)">
+  <circle cx="0" cy="0" r="100" fill="url(#flameGlow81)" opacity="0.4"/>
+  
+  <!-- Core flame -->
+  <ellipse cx="0" cy="20" rx="25" ry="80" fill="url(#phoenixGrad81)" opacity="0.9"/>
+  <ellipse cx="0" cy="10" rx="18" ry="60" fill="url(#emberGrad81)" opacity="0.8"/>
+  <ellipse cx="0" cy="0" rx="12" ry="40" fill="#fff59d" opacity="0.7"/>
+  
+  <!-- Inner ember core -->
+  <ellipse cx="0" cy="-10" rx="8" ry="25" fill="#ffffff" opacity="0.6"/>
+  <circle cx="0" cy="-20" r="6" fill="#ffeb3b"/>
+  
+  <!-- Eight phoenix feathers arranged around the flame -->
+  <!-- North feather -->
+  <g transform="translate(250,100)">
+  <ellipse cx="0" cy="0" rx="12" ry="40" fill="url(#phoenixGrad81)" opacity="0.8" transform="rotate(0)"/>
+  <ellipse cx="0" cy="0" rx="8" ry="25" fill="url(#emberGrad81)" opacity="0.6"/>
+  <ellipse cx="0" cy="-10" rx="4" ry="15" fill="#fff59d" opacity="0.5"/>
+  
+    <!-- Northeast feather -->
+    <g transform="translate(380,150)">
+    <ellipse cx="0" cy="0" rx="10" ry="35" fill="url(#phoenixGrad81)" opacity="0.8" transform="rotate(45)"/>
+    <ellipse cx="0" cy="0" rx="7" ry="22" fill="url(#emberGrad81)" opacity="0.6" transform="rotate(45)"/>
+    <ellipse cx="0" cy="-8" rx="3" ry="12" fill="#fff59d" opacity="0.5" transform="rotate(45)"/>
+    </g>
+  
+    <!-- East feather -->
+    <g transform="translate(420,250)">
+    <ellipse cx="0" cy="0" rx="10" ry="35" fill="url(#phoenixGrad81)" opacity="0.8" transform="rotate(90)"/>
+    <ellipse cx="0" cy="0" rx="7" ry="22" fill="url(#emberGrad81)" opacity="0.6" transform="rotate(90)"/>
+    <ellipse cx="8" cy="0" rx="3" ry="12" fill="#fff59d" opacity="0.5" transform="rotate(90)"/>
+    </g>
+  
+    <!-- Southeast feather -->
+    <g transform="translate(380,350)">
+    <ellipse cx="0" cy="0" rx="10" ry="35" fill="url(#phoenixGrad81)" opacity="0.8" transform="rotate(135)"/>
+    <ellipse cx="0" cy="0" rx="7" ry="22" fill="url(#emberGrad81)" opacity="0.6" transform="rotate(135)"/>
+    <ellipse cx="0" cy="8" rx="3" ry="12" fill="#fff59d" opacity="0.5" transform="rotate(135)"/>
+    </g>
+  
+    <!-- South feather -->
+    <g transform="translate(250,400)">
+    <ellipse cx="0" cy="0" rx="12" ry="40" fill="url(#phoenixGrad81)" opacity="0.8" transform="rotate(180)"/>
+    <ellipse cx="0" cy="0" rx="8" ry="25" fill="url(#emberGrad81)" opacity="0.6" transform="rotate(180)"/>
+    <ellipse cx="0" cy="10" rx="4" ry="15" fill="#fff59d" opacity="0.5" transform="rotate(180)"/>
+    </g>
+  
+    <!-- Southwest feather -->
+    <g transform="translate(120,350)">
+    <ellipse cx="0" cy="0" rx="10" ry="35" fill="url(#phoenixGrad81)" opacity="0.8" transform="rotate(225)"/>
+    <ellipse cx="0" cy="0" rx="7" ry="22" fill="url(#emberGrad81)" opacity="0.6" transform="rotate(225)"/>
+    <ellipse cx="0" cy="-8" rx="3" ry="12" fill="#fff59d" opacity="0.5" transform="rotate(225)"/>
+    </g>
+  
+    <!-- West feather -->
+    <g transform="translate(80,250)">
+    <ellipse cx="0" cy="0" rx="10" ry="35" fill="url(#phoenixGrad81)" opacity="0.8" transform="rotate(270)"/>
+    <ellipse cx="0" cy="0" rx="7" ry="22" fill="url(#emberGrad81)" opacity="0.6" transform="rotate(270)"/>
+    <ellipse cx="-8" cy="0" rx="3" ry="12" fill="#fff59d" opacity="0.5" transform="rotate(270)"/>
+    </g>
+  
+    <!-- Northwest feather -->
+    <g transform="translate(120,150)">
+    <ellipse cx="0" cy="0" rx="10" ry="35" fill="url(#phoenixGrad81)" opacity="0.8" transform="rotate(315)"/>
+    <ellipse cx="0" cy="0" rx="7" ry="22" fill="url(#emberGrad81)" opacity="0.6" transform="rotate(315)"/>
+    <ellipse cx="0" cy="8" rx="3" ry="12" fill="#fff59d" opacity="0.5" transform="rotate(315)"/>
+    </g>
+  
+    <!-- Rising thermal currents -->
+    <g stroke="url(#emberGrad81)" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M250 190 Q220 160 250 130"/>
+    <path d="M250 190 Q280 160 250 130"/>
+    <path d="M310 200 Q340 170 370 140"/>
+    <path d="M310 300 Q340 330 370 360"/>
+    <path d="M250 310 Q280 340 250 370"/>
+    <path d="M250 310 Q220 340 250 370"/>
+    <path d="M190 300 Q160 330 130 360"/>
+    <path d="M190 200 Q160 170 130 140"/>
+    </g>
+  
+    <!-- Rebirth energy waves -->
+    <g stroke="#ffb300" stroke-width="2" fill="none" opacity="0.4">
+    <circle cx="250" cy="250" r="120"/>
+    <circle cx="250" cy="250" r="160"/>
+    <circle cx="250" cy="250" r="200"/>
+    </g>
+  
+    <!-- Phoenix ashes transforming to embers -->
+    <g fill="#ffc107" opacity="0.6">
+    <circle cx="180" cy="180" r="3"/>
+    <circle cx="320" cy="180" r="2"/>
+    <circle cx="320" cy="320" r="3"/>
+    <circle cx="180" cy="320" r="2"/>
+    <circle cx="100" cy="200" r="2"/>
+    <circle cx="400" cy="200" r="3"/>
+    <circle cx="100" cy="300" r="3"/>
+    <circle cx="400" cy="300" r="2"/>
+    <circle cx="200" cy="100" r="2"/>
+    <circle cx="300" cy="100" r="3"/>
+    <circle cx="200" cy="400" r="3"/>
+    <circle cx="300" cy="400" r="2"/>
+    </g>
+  
+    <!-- Ethereal smoke trails -->
+    <g stroke="#ffcc80" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M50 100 Q100 80 150 100 Q200 120 250 100"/>
+    <path d="M250 100 Q300 80 350 100 Q400 120 450 100"/>
+    <path d="M450 200 Q430 250 450 300"/>
+    <path d="M450 350 Q400 330 350 350"/>
+    <path d="M250 350 Q200 330 150 350"/>
+    <path d="M50 300 Q70 250 50 200"/>
+    </g>
+  
+    <!-- Sacred phoenix eye markings -->
+    <g fill="#ff8f00" opacity="0.7">
+    <ellipse cx="230" cy="200" rx="8" ry="4"/>
+    <ellipse cx="270" cy="200" rx="8" ry="4"/>
+    <circle cx="235" cy="200" r="2" fill="#ffffff"/>
+    <circle cx="265" cy="200" r="2" fill="#ffffff"/>
+    </g>
+  
+    <!-- Transformation sparkles -->
+    <g fill="#ffffff" opacity="0.8">
+    <path d="M100 120 L105 115 L110 120 L105 125 Z"/>
+    <path d="M400 120 L405 115 L410 120 L405 125 Z"/>
+    <path d="M100 380 L105 375 L110 380 L105 385 Z"/>
+    <path d="M400 380 L405 375 L410 380 L405 385 Z"/>
+    <path d="M250 60 L253 57 L256 60 L253 63 Z"/>
+    <path d="M250 440 L253 437 L256 440 L253 443 Z"/>
+    <path d="M60 250 L63 247 L66 250 L63 253 Z"/>
+    <path d="M440 250 L443 247 L446 250 L443 253 Z"/>
+    </g>
+  
+    <!-- Number "81" integrated -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#e65100" opacity="0.5">81</text>
+  
+    <!-- Kanji character 八十一 -->
+    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#e65100" opacity="0.9">八十一</text>
+    </g>
+  </g>
+</svg> 

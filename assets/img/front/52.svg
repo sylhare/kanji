@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad52" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ce93d8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="crystalGrad52" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e1bee7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ba68c8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8e24aa;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="crystalGlow52" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="prismGrad52" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b9d;stop-opacity:0.7" />
+      <stop offset="25%" style="stop-color:#4fc3f7;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#66bb6a;stop-opacity:0.7" />
+      <stop offset="75%" style="stop-color:#ffb74d;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#ab47bc;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad52)"/>
+  
+  <!-- Two mystical crystal formations representing the duality of 52 -->
+  <!-- Left crystal cluster -->
+  <g transform="translate(150,300)">
+  <!-- Main crystal -->
+  <polygon points="0,-120 30,-60 40,40 -40,40 -30,-60" fill="url(#crystalGrad52)"/>
+  <polygon points="0,-110 25,-50 35,35 -35,35 -25,-50" fill="url(#prismGrad52)" opacity="0.6"/>
+  
+  <!-- Side crystals -->
+  <polygon points="-50,-80 -30,-40 -25,20 -65,20 -55,-40" fill="url(#crystalGrad52)" opacity="0.8"/>
+  <polygon points="50,-70 70,-30 75,30 35,30 45,-30" fill="url(#crystalGrad52)" opacity="0.8"/>
+  
+  <!-- Small accent crystals -->
+  <polygon points="-70,-50 -60,-30 -58,-10 -82,-10 -80,-30" fill="url(#crystalGrad52)" opacity="0.6"/>
+  <polygon points="80,-40 90,-20 92,0 68,0 70,-20" fill="url(#crystalGrad52)" opacity="0.6"/>
+  
+  <!-- Crystal glow -->
+  <circle cx="0" cy="-40" r="80" fill="url(#crystalGlow52)" opacity="0.4"/>
+  
+  <!-- Right crystal cluster -->
+  <g transform="translate(350,280)">
+  <!-- Main crystal -->
+  <polygon points="0,-100 25,-50 35,60 -35,60 -25,-50" fill="url(#crystalGrad52)"/>
+  <polygon points="0,-90 20,-40 30,55 -30,55 -20,-40" fill="url(#prismGrad52)" opacity="0.6"/>
+  
+  <!-- Side crystals -->
+  <polygon points="-45,-60 -25,-30 -20,40 -60,40 -50,-30" fill="url(#crystalGrad52)" opacity="0.8"/>
+  <polygon points="45,-80 65,-40 70,20 30,20 40,-40" fill="url(#crystalGrad52)" opacity="0.8"/>
+  
+  <!-- Small accent crystals -->
+  <polygon points="-65,-30 -55,-10 -53,10 -77,10 -75,-10" fill="url(#crystalGrad52)" opacity="0.6"/>
+  <polygon points="75,-50 85,-30 87,-10 63,-10 65,-30" fill="url(#crystalGrad52)" opacity="0.6"/>
+  
+  <!-- Crystal glow -->
+  <circle cx="0" cy="-20" r="80" fill="url(#crystalGlow52)" opacity="0.4"/>
+  
+    <!-- Energy beam connecting the crystals -->
+    <g opacity="0.6">
+    <path d="M190 220 Q250 180 310 200" stroke="url(#prismGrad52)" stroke-width="8" fill="none"/>
+    <path d="M190 220 Q250 180 310 200" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.8"/>
+    </g>
+  
+    <!-- Floating crystal shards -->
+    <g fill="url(#crystalGrad52)" opacity="0.7">
+    <polygon points="80,150 85,140 90,160 85,170 80,160"/>
+    <polygon points="420,120 425,110 430,130 425,140 420,130"/>
+    <polygon points="100,380 105,370 110,390 105,400 100,390"/>
+    <polygon points="400,400 405,390 410,410 405,420 400,410"/>
+    <polygon points="200,100 203,95 206,105 203,110 200,105"/>
+    <polygon points="300,420 303,415 306,425 303,430 300,425"/>
+    </g>
+  
+    <!-- Prismatic light reflections -->
+    <g stroke="url(#prismGrad52)" stroke-width="1" fill="none" opacity="0.5">
+    <line x1="120" y1="180" x2="170" y2="140"/>
+    <line x1="180" y1="160" x2="220" y2="120"/>
+    <line x1="280" y1="140" x2="320" y2="100"/>
+    <line x1="380" y1="160" x2="420" y2="120"/>
+    
+    <line x1="110" y1="320" x2="140" y2="360"/>
+    <line x1="160" y1="340" x2="190" y2="380"/>
+    <line x1="310" y1="340" x2="340" y2="380"/>
+    <line x1="360" y1="360" x2="390" y2="400"/>
+    </g>
+  
+    <!-- Magical sparkles -->
+    <g fill="#ffffff" opacity="0.8">
+    <path d="M120 200 L125 195 L130 200 L125 205 Z"/>
+    <path d="M380 180 L385 175 L390 180 L385 185 Z"/>
+    <path d="M90 350 L95 345 L100 350 L95 355 Z"/>
+    <path d="M410 370 L415 365 L420 370 L415 375 Z"/>
+    <path d="M250 120 L253 117 L256 120 L253 123 Z"/>
+    <path d="M250 400 L253 397 L256 400 L253 403 Z"/>
+    </g>
+  
+    <!-- Mystical energy field -->
+    <ellipse cx="250" cy="250" rx="200" ry="100" fill="url(#crystalGlow52)" opacity="0.2"/>
+  
+    <!-- Sacred geometry pattern -->
+    <g stroke="#9c27b0" stroke-width="1" fill="none" opacity="0.3">
+    <circle cx="250" cy="250" r="80"/>
+    <circle cx="250" cy="250" r="120"/>
+    <polygon points="250,170 320,210 320,290 250,330 180,290 180,210"/>
+    </g>
+  
+    <!-- Number "52" integrated -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#4a148c" opacity="0.5">52</text>
+  
+    <!-- Kanji character 五十二 -->
+    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#4a148c" opacity="0.9">五十二</text>
+    </g>
+  </g>
+</svg> 

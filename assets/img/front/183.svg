@@ -1,0 +1,220 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="50%" stop-color="#E0F6FF"/>
+      <stop offset="100%" stop-color="#F0F8FF"/>
+    </linearGradient>
+    <radialGradient id="birdGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="50%" stop-color="#A0522D"/>
+      <stop offset="100%" stop-color="#654321"/>
+    </radialGradient>
+    <linearGradient id="planeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C0C0C0"/>
+      <stop offset="50%" stop-color="#A9A9A9"/>
+      <stop offset="100%" stop-color="#696969"/>
+    </linearGradient>
+  </defs>  <!-- Sky background -->
+  <rect width="500" height="500" fill="url(#skyGradient)"/>
+  
+  <!-- Large bird in flight -->
+  <ellipse cx="200" cy="150" rx="25" ry="15" fill="url(#birdGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Bird head -->
+  <circle cx="225" cy="145" r="8" fill="url(#birdGradient)" stroke="#654321" stroke-width="1"/>
+  <path d="M233 145 L240 143 L235 147 Z" fill="#FFD700"/>
+  <circle cx="227" cy="143" r="1.5" fill="#000"/>
+  
+  <!-- Bird wings spread -->
+  <ellipse cx="180" cy="140" rx="30" ry="8" fill="url(#birdGradient)" stroke="#654321" stroke-width="2" transform="rotate(-15 180 140)"/>
+  <ellipse cx="220" cy="140" rx="30" ry="8" fill="url(#birdGradient)" stroke="#654321" stroke-width="2" transform="rotate(15 220 140)"/>
+  
+  <!-- Wing feathers -->
+  <g fill="#8B4513" stroke="#654321" stroke-width="1">
+  <ellipse cx="160" cy="135" rx="8" ry="3" transform="rotate(-15 160 135)"/>
+  <ellipse cx="155" cy="145" rx="8" ry="3" transform="rotate(-15 155 145)"/>
+  <ellipse cx="240" cy="135" rx="8" ry="3" transform="rotate(15 240 135)"/>
+  <ellipse cx="245" cy="145" rx="8" ry="3" transform="rotate(15 245 145)"/>
+  
+  <!-- Bird tail -->
+  <ellipse cx="175" cy="155" rx="15" ry="5" fill="url(#birdGradient)" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Flock of birds -->
+  <g fill="#654321" stroke="#4B0000" stroke-width="1">
+  <!-- V formation -->
+  <ellipse cx="100" cy="80" rx="8" ry="5"/>
+  <ellipse cx="90" cy="90" rx="6" ry="4"/>
+  <ellipse cx="80" cy="100" rx="5" ry="3"/>
+  
+  <ellipse cx="110" cy="90" rx="6" ry="4"/>
+  <ellipse cx="120" cy="100" rx="5" ry="3"/>
+  <ellipse cx="130" cy="110" rx="4" ry="3"/>
+  
+  <ellipse cx="300" cy="70" rx="7" ry="4"/>
+  <ellipse cx="290" cy="80" rx="6" ry="4"/>
+  <ellipse cx="280" cy="90" rx="5" ry="3"/>
+  
+  <ellipse cx="310" cy="80" rx="6" ry="4"/>
+  <ellipse cx="320" cy="90" rx="5" ry="3"/>
+  <ellipse cx="330" cy="100" rx="4" ry="3"/>
+  
+    <!-- Airplane -->
+    <ellipse cx="350" cy="200" rx="20" ry="6" fill="url(#planeGradient)" stroke="#2F2F2F" stroke-width="2"/>
+  
+    <!-- Plane wings -->
+    <rect x="340" y="195" width="20" height="3" fill="url(#planeGradient)"/>
+    <rect x="345" y="202" width="10" height="2" fill="url(#planeGradient)"/>
+  
+    <!-- Plane tail -->
+    <rect x="330" y="198" width="8" height="4" fill="url(#planeGradient)"/>
+    <rect x="325" y="195" width="5" height="2" fill="url(#planeGradient)"/>
+    <rect x="325" y="203" width="5" height="2" fill="url(#planeGradient)"/>
+  
+    <!-- Propeller blur -->
+    <circle cx="370" cy="200" r="6" fill="#D3D3D3" opacity="0.5"/>
+  
+    <!-- Contrail -->
+    <path d="M325 200 Q300 202 275 200 Q250 198 225 200" stroke="#FFF" stroke-width="4" opacity="0.7"/>
+  
+    <!-- Flying insects -->
+    <g fill="#000" opacity="0.8">
+    <ellipse cx="120" cy="250" rx="3" ry="1"/>
+    <ellipse cx="130" cy="245" rx="3" ry="1"/>
+    <ellipse cx="140" cy="255" rx="3" ry="1"/>
+    <ellipse cx="150" cy="240" rx="3" ry="1"/>
+    </g>
+  
+    <!-- Butterfly -->
+    <ellipse cx="60" cy="180" rx="2" ry="8" fill="#000"/>
+    <g fill="#FF69B4" stroke="#DC143C" stroke-width="1">
+    <ellipse cx="55" cy="175" rx="6" ry="8"/>
+    <ellipse cx="65" cy="175" rx="6" ry="8"/>
+    <ellipse cx="55" cy="185" rx="4" ry="6"/>
+    <ellipse cx="65" cy="185" rx="4" ry="6"/>
+    </g>
+  
+    <!-- Wing patterns -->
+    <g fill="#FFF">
+    <circle cx="55" cy="175" r="2"/>
+    <circle cx="65" cy="175" r="2"/>
+    <circle cx="55" cy="185" r="1.5"/>
+    <circle cx="65" cy="185" r="1.5"/>
+    </g>
+  
+    <!-- Flying balloon -->
+    <circle cx="80" cy="300" r="20" fill="#FF6347" stroke="#DC143C" stroke-width="2"/>
+    <path d="M80 320 L80 350" stroke="#654321" stroke-width="2"/>
+    <rect x="75" y="350" width="10" height="8" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+    <!-- Balloon motion lines -->
+    <g stroke="#FF6347" stroke-width="1" opacity="0.5">
+    <path d="M60 305 Q70 300 80 305"/>
+    <path d="M100 305 Q90 300 80 305"/>
+    </g>
+  
+    <!-- Flying carpet -->
+    <rect x="250" y="280" width="40" height="25" fill="#9370DB" stroke="#4B0082" stroke-width="2" rx="3"/>
+    <g fill="#FFD700">
+    <circle cx="260" cy="290" r="2"/>
+    <circle cx="270" cy="290" r="2"/>
+    <circle cx="280" cy="290" r="2"/>
+    <circle cx="265" cy="295" r="2"/>
+    <circle cx="275" cy="295" r="2"/>
+    </g>
+  
+    <!-- Carpet tassels -->
+    <g stroke="#9370DB" stroke-width="2">
+    <path d="M245 292 L240 295"/>
+    <path d="M245 297 L240 300"/>
+    <path d="M295 292 L300 295"/>
+    <path d="M295 297 L300 300"/>
+    </g>
+  
+    <!-- Paper airplane -->
+    <path d="M120 350 L140 345 L135 350 L140 355 Z" fill="#FFF" stroke="#D3D3D3" stroke-width="1"/>
+    <path d="M135 350 L130 348 L130 352 Z" fill="#E6E6FA"/>
+  
+    <!-- Motion trail -->
+    <path d="M110 350 Q115 348 120 350" stroke="#D3D3D3" stroke-width="1" opacity="0.6"/>
+  
+    <!-- Flying superhero -->
+    <ellipse cx="180" cy="320" rx="8" ry="15" fill="#4169E1"/>
+    <circle cx="180" cy="308" r="5" fill="#FFDAB9"/>
+    <circle cx="178" cy="306" r="1" fill="#000"/>
+    <circle cx="182" cy="306" r="1" fill="#000"/>
+  
+    <!-- Cape flowing -->
+    <path d="M170 315 Q160 325 155 335 Q165 330 175 325" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+  
+    <!-- Arms extended -->
+    <ellipse cx="165" cy="315" rx="12" ry="4" fill="#FFDAB9"/>
+    <ellipse cx="195" cy="315" rx="12" ry="4" fill="#FFDAB9"/>
+  
+    <!-- Flying trajectory lines -->
+    <g stroke="#4169E1" stroke-width="2" opacity="0.5">
+    <path d="M150 330 Q165 325 180 320"/>
+    <path d="M140 340 Q155 335 170 330"/>
+    </g>
+  
+    <!-- Helicopter -->
+    <ellipse cx="320" cy="100" rx="15" ry="8" fill="#32CD32" stroke="#228B22" stroke-width="2"/>
+  
+    <!-- Main rotor -->
+    <ellipse cx="320" cy="85" rx="25" ry="3" fill="#D3D3D3" opacity="0.6"/>
+  
+    <!-- Tail -->
+    <rect x="305" y="97" width="20" height="3" fill="#32CD32"/>
+    <ellipse cx="300" cy="95" rx="3" ry="6" fill="#32CD32"/>
+  
+    <!-- Tail rotor -->
+    <ellipse cx="300" cy="95" rx="6" ry="2" fill="#D3D3D3" opacity="0.6" transform="rotate(90 300 95)"/>
+  
+    <!-- Helicopter landing skids -->
+    <rect x="310" y="108" width="20" height="2" fill="#696969"/>
+  
+    <!-- Clouds -->
+    <g fill="#FFF" opacity="0.8">
+    <circle cx="50" cy="50" r="15"/>
+    <circle cx="65" cy="45" r="18"/>
+    <circle cx="80" cy="50" r="12"/>
+    
+    <circle cx="350" cy="60" r="18"/>
+    <circle cx="365" cy="55" r="22"/>
+    <circle cx="380" cy="60" r="15"/>
+    </g>
+  
+    <!-- Wind lines showing air movement -->
+    <g stroke="#B0E0E6" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M20 120 Q40 115 60 120"/>
+    <path d="M340 120 Q360 115 380 120"/>
+    <path d="M20 200 Q40 195 60 200"/>
+    <path d="M340 200 Q360 195 380 200"/>
+    </g>
+  
+    <!-- Flying fish -->
+    <ellipse cx="300" cy="250" rx="12" ry="6" fill="#4682B4" stroke="#2F4F4F" stroke-width="1"/>
+  
+    <!-- Fish fins spread like wings -->
+    <ellipse cx="285" cy="245" rx="8" ry="3" fill="#4682B4" transform="rotate(-20 285 245)"/>
+    <ellipse cx="285" cy="255" rx="8" ry="3" fill="#4682B4" transform="rotate(20 285 255)"/>
+    <ellipse cx="315" cy="245" rx="8" ry="3" fill="#4682B4" transform="rotate(20 315 245)"/>
+    <ellipse cx="315" cy="255" rx="8" ry="3" fill="#4682B4" transform="rotate(-20 315 255)"/>
+  
+    <!-- Fish tail -->
+    <path d="M275 250 L265 245 L270 250 L265 255 Z" fill="#4682B4"/>
+  
+    <!-- Speed lines -->
+    <g stroke="#87CEEB" stroke-width="1" opacity="0.5">
+    <path d="M250 250 Q265 248 280 250"/>
+    <path d="M245 255 Q260 253 275 255"/>
+    </g>
+  
+    <!-- Chinese character -->
+    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#4B0082">飛</text>
+  
+    <!-- Title -->
+    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2F4F4F">FLYING &amp; FLIGHT</text>
+    </g>
+  </g>
+</svg> 

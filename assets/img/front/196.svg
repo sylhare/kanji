@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad196" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e1f5fe;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#81d4fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#29b6f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="birdGrad196" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="wingGrad196" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#795548;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a1887f;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="flightGlow196" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#e3f2fd;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="500" height="500" fill="url(#bgGrad196)"/>
+  
+  <!-- Clouds -->
+  <g fill="#ffffff" opacity="0.8">
+  <ellipse cx="100" cy="100" rx="40" ry="25"/>
+  <ellipse cx="130" cy="95" rx="35" ry="20"/>
+  <ellipse cx="380" cy="80" rx="50" ry="30"/>
+  <ellipse cx="420" cy="75" rx="30" ry="18"/>
+  <ellipse cx="200" cy="400" rx="60" ry="35"/>
+  <ellipse cx="250" cy="395" rx="45" ry="25"/>
+  
+  <!-- Flight aura -->
+  <ellipse cx="250" cy="250" rx="180" ry="120" fill="url(#flightGlow196)"/>
+  
+  <!-- Main bird representing 鳥 -->
+  <!-- Bird body -->
+  <ellipse cx="250" cy="280" rx="40" ry="60" fill="url(#birdGrad196)" stroke="#4e342e" stroke-width="2"/>
+  
+  <!-- Bird head -->
+  <ellipse cx="250" cy="200" rx="25" ry="30" fill="url(#birdGrad196)" stroke="#4e342e" stroke-width="2"/>
+  
+  <!-- Beak -->
+  <path d="M225 190 L200 185 L225 200 Z" fill="#ff9800"/>
+  
+  <!-- Eye -->
+  <circle cx="240" cy="190" r="6" fill="#000"/>
+  <circle cx="242" cy="188" r="2" fill="#fff"/>
+  
+  <!-- Left wing (extended) -->
+  <path d="M210 250 Q150 200 100 220 Q120 240 150 250 Q180 260 210 280" 
+      fill="url(#wingGrad196)" stroke="#5d4037" stroke-width="2"/>
+  
+  <!-- Right wing (extended) -->
+  <path d="M290 250 Q350 200 400 220 Q380 240 350 250 Q320 260 290 280" 
+      fill="url(#wingGrad196)" stroke="#5d4037" stroke-width="2"/>
+  
+  <!-- Wing feather details -->
+  <g stroke="#6d4c41" stroke-width="1" opacity="0.6">
+  <!-- Left wing feathers -->
+  <line x1="180" y1="230" x2="160" y2="225"/>
+  <line x1="170" y1="240" x2="150" y2="235"/>
+  <line x1="160" y1="250" x2="140" y2="245"/>
+  <line x1="150" y1="260" x2="130" y2="255"/>
+  
+  <!-- Right wing feathers -->
+  <line x1="320" y1="230" x2="340" y2="225"/>
+  <line x1="330" y1="240" x2="350" y2="235"/>
+  <line x1="340" y1="250" x2="360" y2="245"/>
+  <line x1="350" y1="260" x2="370" y2="255"/>
+  
+    <!-- Tail feathers -->
+    <path d="M250 340 Q230 380 220 420 Q240 400 250 360 Q260 400 280 420 Q270 380 250 340" 
+        fill="url(#wingGrad196)" stroke="#5d4037" stroke-width="2"/>
+  
+    <!-- Tail feather lines -->
+    <g stroke="#6d4c41" stroke-width="1" opacity="0.6">
+    <line x1="240" y1="360" x2="235" y2="390"/>
+    <line x1="250" y1="360" x2="250" y2="395"/>
+    <line x1="260" y1="360" x2="265" y2="390"/>
+    </g>
+  
+    <!-- Bird legs -->
+    <g stroke="#ff9800" stroke-width="3" opacity="0.8">
+    <line x1="235" y1="330" x2="230" y2="350"/>
+    <line x1="265" y1="330" x2="270" y2="350"/>
+    </g>
+  
+    <!-- Bird feet -->
+    <g stroke="#ff9800" stroke-width="2" opacity="0.8">
+    <path d="M225 350 L220 360 M230 350 L235 360 M235 350 L240 360"/>
+    <path d="M265 350 L260 360 M270 350 L275 360 M275 350 L280 360"/>
+    </g>
+  
+    <!-- Flight motion lines -->
+    <g stroke="#4fc3f7" stroke-width="2" opacity="0.5">
+    <path d="M80 200 Q120 210 160 200"/>
+    <path d="M340 200 Q380 210 420 200"/>
+    <path d="M60 250 Q100 260 140 250"/>
+    <path d="M360 250 Q400 260 440 250"/>
+    </g>
+  
+    <!-- Wing tip vortices -->
+    <g stroke="#29b6f6" stroke-width="1" fill="none" opacity="0.4">
+    <circle cx="100" cy="220" r="10"/>
+    <circle cx="100" cy="220" r="15"/>
+    <circle cx="400" cy="220" r="10"/>
+    <circle cx="400" cy="220" r="15"/>
+    </g>
+  
+    <!-- Other birds in formation -->
+    <g fill="#795548" opacity="0.6">
+    <!-- Bird 1 -->
+    <g transform="translate(120,150) scale(0.5)">
+      <path d="M-15,0 Q-8,-5 0,0 Q8,-5 15,0 Q8,3 0,0 Q-8,3 -15,0"/>
+      <ellipse cx="0" cy="5" rx="8" ry="12"/>
+    </g>
+    
+    <!-- Bird 2 -->
+    <g transform="translate(380,160) scale(0.5)">
+      <path d="M-15,0 Q-8,-5 0,0 Q8,-5 15,0 Q8,3 0,0 Q-8,3 -15,0"/>
+      <ellipse cx="0" cy="5" rx="8" ry="12"/>
+    </g>
+    
+    <!-- Bird 3 -->
+    <g transform="translate(180,120) scale(0.4)">
+      <path d="M-12,0 Q-6,-4 0,0 Q6,-4 12,0 Q6,2 0,0 Q-6,2 -12,0"/>
+      <ellipse cx="0" cy="4" rx="6" ry="10"/>
+    </g>
+    </g>
+  
+    <!-- Wind currents -->
+    <g stroke="#81d4fa" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M50 180 Q100 170 150 180 Q200 190 250 180"/>
+    <path d="M250 180 Q300 190 350 180 Q400 170 450 180"/>
+    <path d="M40 300 Q90 290 140 300 Q190 310 240 300"/>
+    <path d="M260 300 Q310 310 360 300 Q410 290 460 300"/>
+    </g>
+  
+    <!-- Altitude indicators -->
+    <g fill="#1976d2" opacity="0.5">
+    <text x="450" y="150" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">500m</text>
+    <line x1="440" y1="145" x2="460" y2="145" stroke="#1976d2" stroke-width="1"/>
+    </g>
+  
+    <!-- Soaring thermals -->
+    <g stroke="#42a5f5" stroke-width="1" fill="none" opacity="0.2">
+    <circle cx="150" cy="300" r="30"/>
+    <circle cx="150" cy="300" r="50"/>
+    <circle cx="350" cy="320" r="40"/>
+    <circle cx="350" cy="320" r="60"/>
+    </g>
+  
+    <!-- Freedom sparkles -->
+    <g fill="#4fc3f7" opacity="0.7">
+    <path d="M180 180 L190 170 L200 180 L190 190 Z"/>
+    <path d="M320 170 L330 160 L340 170 L330 180 Z"/>
+    <path d="M200 320 L210 310 L220 320 L210 330 Z"/>
+    <path d="M300 330 L310 320 L320 330 L310 340 Z"/>
+    </g>
+  
+    <!-- Nest location (distant) -->
+    <g transform="translate(400,450)" opacity="0.4">
+    <ellipse cx="0" cy="0" rx="20" ry="8" fill="#8d6e63"/>
+    <path d="M-15,-5 L0,-15 L15,-5" fill="#4caf50"/>
+    </g>
+  
+    <!-- Kanji character 鳥 -->
+    <text x="100" y="100" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#37474f" opacity="0.8">鳥</text>
+    </g>
+  </g>
+</svg> 

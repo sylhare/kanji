@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad71" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="treeGrad71" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#66bb6a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e7d32;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="forestGlow71" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#a5d6a7;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#a5d6a7;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="trunkGrad71" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad71)"/>
+  
+  <!-- Seven ancient trees plus one mystical center tree representing 71 -->
+  <!-- Central mystical tree -->
+  <g transform="translate(250,250)">
+  <circle cx="0" cy="0" r="100" fill="url(#forestGlow71)" opacity="0.4"/>
+  
+  <!-- Main trunk -->
+  <rect x="-15" y="50" width="30" height="150" rx="15" fill="url(#trunkGrad71)"/>
+  
+  <!-- Sacred crown -->
+  <circle cx="0" cy="0" r="80" fill="url(#treeGrad71)" opacity="0.9"/>
+  <circle cx="0" cy="0" r="60" fill="#81c784" opacity="0.7"/>
+  <circle cx="0" cy="0" r="40" fill="#a5d6a7" opacity="0.6"/>
+  
+  <!-- Mystical inner light -->
+  <circle cx="0" cy="0" r="20" fill="#c8e6c9" opacity="0.8"/>
+  <circle cx="0" cy="0" r="10" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- Seven surrounding ancient trees -->
+  <!-- North tree -->
+  <g transform="translate(250,100)">
+  <rect x="-8" y="40" width="16" height="80" rx="8" fill="url(#trunkGrad71)"/>
+  <circle cx="0" cy="0" r="50" fill="url(#treeGrad71)" opacity="0.8"/>
+  <circle cx="0" cy="0" r="35" fill="#81c784" opacity="0.6"/>
+  
+    <!-- Northeast tree -->
+    <g transform="translate(380,150)">
+    <rect x="-7" y="35" width="14" height="70" rx="7" fill="url(#trunkGrad71)"/>
+    <circle cx="0" cy="0" r="45" fill="url(#treeGrad71)" opacity="0.8"/>
+    <circle cx="0" cy="0" r="30" fill="#81c784" opacity="0.6"/>
+    </g>
+  
+    <!-- East tree -->
+    <g transform="translate(420,250)">
+    <rect x="-8" y="40" width="16" height="80" rx="8" fill="url(#trunkGrad71)"/>
+    <circle cx="0" cy="0" r="50" fill="url(#treeGrad71)" opacity="0.8"/>
+    <circle cx="0" cy="0" r="35" fill="#81c784" opacity="0.6"/>
+    </g>
+  
+    <!-- Southeast tree -->
+    <g transform="translate(380,350)">
+    <rect x="-7" y="35" width="14" height="70" rx="7" fill="url(#trunkGrad71)"/>
+    <circle cx="0" cy="0" r="45" fill="url(#treeGrad71)" opacity="0.8"/>
+    <circle cx="0" cy="0" r="30" fill="#81c784" opacity="0.6"/>
+    </g>
+  
+    <!-- South tree -->
+    <g transform="translate(250,400)">
+    <rect x="-8" y="40" width="16" height="80" rx="8" fill="url(#trunkGrad71)"/>
+    <circle cx="0" cy="0" r="50" fill="url(#treeGrad71)" opacity="0.8"/>
+    <circle cx="0" cy="0" r="35" fill="#81c784" opacity="0.6"/>
+    </g>
+  
+    <!-- Southwest tree -->
+    <g transform="translate(120,350)">
+    <rect x="-7" y="35" width="14" height="70" rx="7" fill="url(#trunkGrad71)"/>
+    <circle cx="0" cy="0" r="45" fill="url(#treeGrad71)" opacity="0.8"/>
+    <circle cx="0" cy="0" r="30" fill="#81c784" opacity="0.6"/>
+    </g>
+  
+    <!-- West tree -->
+    <g transform="translate(80,250)">
+    <rect x="-8" y="40" width="16" height="80" rx="8" fill="url(#trunkGrad71)"/>
+    <circle cx="0" cy="0" r="50" fill="url(#treeGrad71)" opacity="0.8"/>
+    <circle cx="0" cy="0" r="35" fill="#81c784" opacity="0.6"/>
+    </g>
+  
+    <!-- Forest floor and root system -->
+    <ellipse cx="250" cy="450" rx="200" ry="40" fill="#689f38" opacity="0.3"/>
+  
+    <!-- Connecting root network -->
+    <g stroke="#689f38" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M250 350 Q200 380 150 350"/>
+    <path d="M250 350 Q300 380 350 350"/>
+    <path d="M250 350 Q280 320 380 320"/>
+    <path d="M250 350 Q220 320 120 320"/>
+    <path d="M250 350 Q250 300 250 150"/>
+    <path d="M250 350 Q320 280 380 220"/>
+    <path d="M250 350 Q180 280 120 220"/>
+    </g>
+  
+    <!-- Falling leaves -->
+    <g fill="#8bc34a" opacity="0.6">
+    <ellipse cx="180" cy="120" rx="4" ry="8" transform="rotate(30 180 120)"/>
+    <ellipse cx="320" cy="140" rx="3" ry="6" transform="rotate(-45 320 140)"/>
+    <ellipse cx="150" cy="280" rx="4" ry="7" transform="rotate(60 150 280)"/>
+    <ellipse cx="350" cy="300" rx="3" ry="6" transform="rotate(-30 350 300)"/>
+    <ellipse cx="100" cy="200" rx="3" ry="5" transform="rotate(15 100 200)"/>
+    <ellipse cx="400" cy="180" rx="4" ry="6" transform="rotate(-60 400 180)"/>
+    <ellipse cx="200" cy="380" rx="3" ry="5" transform="rotate(45 200 380)"/>
+    </g>
+  
+    <!-- Wind patterns through forest -->
+    <g stroke="#a5d6a7" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M50 150 Q100 130 150 150"/>
+    <path d="M350 150 Q400 130 450 150"/>
+    <path d="M50 350 Q100 330 150 350"/>
+    <path d="M350 350 Q400 330 450 350"/>
+    <path d="M150 50 Q200 30 250 50"/>
+    <path d="M250 50 Q300 30 350 50"/>
+    </g>
+  
+    <!-- Sacred grove energy -->
+    <g stroke="#66bb6a" stroke-width="1" fill="none" opacity="0.3">
+    <circle cx="250" cy="250" r="120"/>
+    <circle cx="250" cy="250" r="160"/>
+    <circle cx="250" cy="250" r="200"/>
+    </g>
+  
+    <!-- Forest spirits (fireflies) -->
+    <g fill="#fff59d" opacity="0.7">
+    <circle cx="200" cy="180" r="2"/>
+    <circle cx="300" cy="200" r="3"/>
+    <circle cx="180" cy="320" r="2"/>
+    <circle cx="320" cy="300" r="2"/>
+    <circle cx="120" cy="280" r="3"/>
+    <circle cx="380" cy="220" r="2"/>
+    <circle cx="220" cy="120" r="2"/>
+    <circle cx="280" cy="380" r="3"/>
+    </g>
+  
+    <!-- Moss and undergrowth -->
+    <g fill="#4caf50" opacity="0.5">
+    <ellipse cx="150" cy="440" rx="20" ry="8"/>
+    <ellipse cx="350" cy="450" rx="25" ry="10"/>
+    <ellipse cx="100" cy="430" rx="15" ry="6"/>
+    <ellipse cx="400" cy="440" rx="18" ry="7"/>
+    <ellipse cx="250" cy="460" rx="30" ry="12"/>
+    </g>
+  
+    <!-- Dappled sunlight -->
+    <g fill="#ffffff" opacity="0.4">
+    <ellipse cx="180" cy="200" rx="15" ry="8" transform="rotate(30 180 200)"/>
+    <ellipse cx="320" cy="180" rx="12" ry="6" transform="rotate(-30 320 180)"/>
+    <ellipse cx="200" cy="320" rx="10" ry="5" transform="rotate(45 200 320)"/>
+    <ellipse cx="300" cy="300" rx="8" ry="4" transform="rotate(-45 300 300)"/>
+    </g>
+  
+    <!-- Nature sparkles -->
+    <g fill="#ffffff" opacity="0.8">
+    <path d="M90 90 L95 85 L100 90 L95 95 Z"/>
+    <path d="M410 90 L415 85 L420 90 L415 95 Z"/>
+    <path d="M90 410 L95 405 L100 410 L95 415 Z"/>
+    <path d="M410 410 L415 405 L420 410 L415 415 Z"/>
+    <path d="M250 60 L253 57 L256 60 L253 63 Z"/>
+    </g>
+  
+    <!-- Number "71" integrated -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#2e7d32" opacity="0.5">71</text>
+  
+    <!-- Kanji character 七十一 -->
+    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#2e7d32" opacity="0.9">七十一</text>
+    </g>
+  </g>
+</svg> 

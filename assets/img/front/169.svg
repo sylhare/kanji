@@ -1,0 +1,130 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gateGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="50%" stop-color="#A0522D"/>
+      <stop offset="100%" stop-color="#654321"/>
+    </linearGradient>
+    <radialGradient id="metalGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#C0C0C0"/>
+      <stop offset="50%" stop-color="#A9A9A9"/>
+      <stop offset="100%" stop-color="#696969"/>
+    </radialGradient>
+    <linearGradient id="torii-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6347"/>
+      <stop offset="100%" stop-color="#DC143C"/>
+    </linearGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#E6F3FF"/>
+  
+  <!-- Traditional Japanese gate (Torii) -->
+  <rect x="50" y="80" width="15" height="120" fill="url(#torii-gradient)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="135" y="80" width="15" height="120" fill="url(#torii-gradient)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="40" y="90" width="120" height="12" rx="6" fill="url(#torii-gradient)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="45" y="110" width="110" height="8" rx="4" fill="url(#torii-gradient)" stroke="#8B0000" stroke-width="2"/>
+  
+  <!-- Temple/shrine building behind torii -->
+  <rect x="70" y="150" width="60" height="50" fill="#F0E68C" stroke="#DAA520" stroke-width="2"/>
+  <path d="M60 150 L100 130 L140 150 Z" fill="#FF6347" stroke="#DC143C" stroke-width="2"/>
+  <rect x="90" y="170" width="20" height="30" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Modern gate entrance -->
+  <rect x="220" y="100" width="20" height="100" fill="url(#metalGradient)" stroke="#2F2F2F" stroke-width="2"/>
+  <rect x="300" y="100" width="20" height="100" fill="url(#metalGradient)" stroke="#2F2F2F" stroke-width="2"/>
+  <rect x="240" y="100" width="60" height="80" fill="none" stroke="url(#metalGradient)" stroke-width="4"/>
+  
+  <!-- Gate bars -->
+  <rect x="245" y="110" width="50" height="3" fill="#696969"/>
+  <rect x="245" y="125" width="50" height="3" fill="#696969"/>
+  <rect x="245" y="140" width="50" height="3" fill="#696969"/>
+  <rect x="245" y="155" width="50" height="3" fill="#696969"/>
+  <rect x="245" y="170" width="50" height="3" fill="#696969"/>
+  
+  <!-- Gate handle -->
+  <circle cx="285" cy="140" r="4" fill="#FFD700" stroke="#B8860B" stroke-width="1"/>
+  
+  <!-- Garden gate -->
+  <rect x="350" y="120" width="12" height="80" fill="url(#gateGradient)" stroke="#654321" stroke-width="2"/>
+  <rect x="375" y="120" width="12" height="80" fill="url(#gateGradient)" stroke="#654321" stroke-width="2"/>
+  <!-- Gate arch -->
+  <path d="M350 120 Q375 100 400 120" stroke="url(#gateGradient)" stroke-width="12" fill="none"/>
+  <!-- Gate decorations -->
+  <circle cx="362" cy="140" r="3" fill="#FFD700"/>
+  <circle cx="375" cy="160" r="3" fill="#FF69B4"/>
+  
+  <!-- Castle gate -->
+  <rect x="50" y="250" width="100" height="80" fill="#696969" stroke="#2F2F2F" stroke-width="3"/>
+  <path d="M50 250 L100 220 L150 250 Z" fill="#4B0082" stroke="#2E0854" stroke-width="2"/>
+  <!-- Castle gate door -->
+  <rect x="75" y="280" width="50" height="50" rx="25" fill="url(#gateGradient)" stroke="#654321" stroke-width="3"/>
+  <!-- Castle gate details -->
+  <circle cx="100" cy="305" r="4" fill="url(#metalGradient)"/>
+  <rect x="85" y="290" width="30" height="3" fill="#8B4513"/>
+  <rect x="85" y="305" width="30" height="3" fill="#8B4513"/>
+  <rect x="85" y="320" width="30" height="3" fill="#8B4513"/>
+  
+  <!-- Modern automatic sliding door -->
+  <rect x="200" y="250" width="120" height="80" fill="#E6E6FA" stroke="#9370DB" stroke-width="2"/>
+  <rect x="220" y="260" width="35" height="60" fill="#B0E0E6" stroke="#4682B4" stroke-width="1"/>
+  <rect x="265" y="260" width="35" height="60" fill="#B0E0E6" stroke="#4682B4" stroke-width="1"/>
+  <!-- Door sensors -->
+  <circle cx="210" cy="255" r="3" fill="#FF0000"/>
+  <circle cx="310" cy="255" r="3" fill="#FF0000"/>
+  <!-- Motion lines -->
+  <path d="M220 275 L200 275" stroke="#32CD32" stroke-width="2" opacity="0.7"/>
+  <path d="M265 275 L285 275" stroke="#32CD32" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Residential door -->
+  <rect x="350" y="250" width="40" height="80" fill="url(#gateGradient)" stroke="#654321" stroke-width="2"/>
+  <!-- Door window -->
+  <rect x="360" y="265" width="20" height="25" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <!-- Door handle -->
+  <circle cx="375" cy="300" r="3" fill="#FFD700"/>
+  <!-- Door mat -->
+  <rect x="345" y="330" width="50" height="8" fill="#654321"/>
+  <text x="370" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#DEB887">WELCOME</text>
+  
+  <!-- Traditional Chinese gate -->
+  <rect x="30" y="350" width="100" height="20" fill="url(#torii-gradient)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="50" y="320" width="12" height="50" fill="url(#torii-gradient)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="98" y="320" width="12" height="50" fill="url(#torii-gradient)" stroke="#8B0000" stroke-width="2"/>
+  <!-- Decorative roof elements -->
+  <path d="M25 350 Q80 340 135 350" stroke="#FFD700" stroke-width="3" fill="none"/>
+  <circle cx="60" cy="345" r="3" fill="#FFD700"/>
+  <circle cx="100" cy="345" r="3" fill="#FFD700"/>
+  
+  <!-- Security gate -->
+  <rect x="200" y="350" width="80" height="40" fill="none" stroke="#2F2F2F" stroke-width="4"/>
+  <circle cx="240" cy="370" r="15" fill="#FF0000" stroke="#8B0000" stroke-width="2"/>
+  <text x="240" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFF">STOP</text>
+  <rect x="290" y="360" width="15" height="20" fill="#32CD32"/>
+  <text x="297.5" y="373" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#FFF">GO</text>
+  
+  <!-- Garden trellis gate -->
+  <rect x="320" y="350" width="60" height="40" fill="none" stroke="#228B22" stroke-width="3"/>
+  <!-- Lattice pattern -->
+  <path d="M330 350 L330 390 M340 350 L340 390 M350 350 L350 390 M360 350 L360 390 M370 350 L370 390" 
+    stroke="#228B22" stroke-width="1"/>
+  <path d="M320 360 L380 360 M320 370 L380 370 M320 380 L380 380" 
+    stroke="#228B22" stroke-width="1"/>
+  <!-- Flowers on trellis -->
+  <circle cx="335" cy="365" r="2" fill="#FF69B4"/>
+  <circle cx="355" cy="375" r="2" fill="#FFD700"/>
+  <circle cx="365" cy="355" r="2" fill="#9370DB"/>
+  
+  <!-- Clouds in sky -->
+  <circle cx="80" cy="40" r="18" fill="#FFF" opacity="0.8"/>
+  <circle cx="100" cy="35" r="22" fill="#FFF" opacity="0.8"/>
+  <circle cx="120" cy="40" r="16" fill="#FFF" opacity="0.8"/>
+  
+  <circle cx="300" cy="50" r="20" fill="#FFF" opacity="0.8"/>
+  <circle cx="320" cy="45" r="25" fill="#FFF" opacity="0.8"/>
+  <circle cx="340" cy="50" r="18" fill="#FFF" opacity="0.8"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="60" r="25" fill="#FFD700" opacity="0.8"/>
+  <circle cx="350" cy="60" r="20" fill="#FFA500" opacity="0.6"/>
+  
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#4B0082">GATES &amp; DOORS / 門</text>
+</svg> 

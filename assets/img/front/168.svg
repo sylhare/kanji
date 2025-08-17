@@ -1,0 +1,144 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="trainGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="50%" stop-color="#4ECDC4"/>
+      <stop offset="100%" stop-color="#45B7D1"/>
+    </linearGradient>
+    <linearGradient id="bridgeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="50%" stop-color="#CD853F"/>
+      <stop offset="100%" stop-color="#DEB887"/>
+    </linearGradient>
+    <linearGradient id="snakeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#32CD32"/>
+      <stop offset="25%" stop-color="#228B22"/>
+      <stop offset="50%" stop-color="#32CD32"/>
+      <stop offset="75%" stop-color="#228B22"/>
+      <stop offset="100%" stop-color="#32CD32"/>
+    </linearGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#F0F8FF"/>
+  
+  <!-- Long train -->
+  <!-- Engine -->
+  <rect x="50" y="120" width="60" height="30" rx="5" fill="url(#trainGradient)" stroke="#2C3E50" stroke-width="2"/>
+  <circle cx="65" cy="150" r="8" fill="#2F2F2F"/>
+  <circle cx="95" cy="150" r="8" fill="#2F2F2F"/>
+  <rect x="100" y="125" width="8" height="20" fill="#FFD700"/>
+  
+  <!-- Train cars -->
+  <rect x="120" y="125" width="50" height="25" rx="3" fill="#FF69B4" stroke="#2C3E50" stroke-width="2"/>
+  <circle cx="135" cy="150" r="6" fill="#2F2F2F"/>
+  <circle cx="155" cy="150" r="6" fill="#2F2F2F"/>
+  
+  <rect x="180" y="125" width="50" height="25" rx="3" fill="#32CD32" stroke="#2C3E50" stroke-width="2"/>
+  <circle cx="195" cy="150" r="6" fill="#2F2F2F"/>
+  <circle cx="215" cy="150" r="6" fill="#2F2F2F"/>
+  
+  <rect x="240" y="125" width="50" height="25" rx="3" fill="#FFD700" stroke="#2C3E50" stroke-width="2"/>
+  <circle cx="255" cy="150" r="6" fill="#2F2F2F"/>
+  <circle cx="275" cy="150" r="6" fill="#2F2F2F"/>
+  
+  <rect x="300" y="125" width="50" height="25" rx="3" fill="#9370DB" stroke="#2C3E50" stroke-width="2"/>
+  <circle cx="315" cy="150" r="6" fill="#2F2F2F"/>
+  <circle cx="335" cy="150" r="6" fill="#2F2F2F"/>
+  
+  <!-- Train tracks -->
+  <rect x="0" y="160" width="400" height="8" fill="#8B4513"/>
+  <rect x="0" y="163" width="400" height="2" fill="#C0C0C0"/>
+  <rect x="0" y="165" width="400" height="2" fill="#C0C0C0"/>
+  
+  <!-- Long bridge -->
+  <rect x="0" y="250" width="400" height="15" fill="url(#bridgeGradient)" stroke="#654321" stroke-width="2"/>
+  <!-- Bridge supports -->
+  <rect x="80" y="265" width="8" height="40" fill="#8B4513"/>
+  <rect x="160" y="265" width="8" height="40" fill="#8B4513"/>
+  <rect x="240" y="265" width="8" height="40" fill="#8B4513"/>
+  <rect x="320" y="265" width="8" height="40" fill="#8B4513"/>
+  
+  <!-- Long snake -->
+  <path d="M20 200 Q60 190 100 200 Q140 210 180 200 Q220 190 260 200 Q300 210 340 200 Q380 190 400 200" 
+    stroke="url(#snakeGradient)" stroke-width="12" fill="none"/>
+  <!-- Snake head -->
+  <circle cx="400" cy="200" r="8" fill="#228B22"/>
+  <circle cx="398" cy="197" r="2" fill="#FF0000"/>
+  <circle cx="398" cy="203" r="2" fill="#FF0000"/>
+  <!-- Snake patterns -->
+  <circle cx="50" cy="195" r="3" fill="#FFD700"/>
+  <circle cx="120" cy="205" r="3" fill="#FFD700"/>
+  <circle cx="200" cy="195" r="3" fill="#FFD700"/>
+  <circle cx="280" cy="205" r="3" fill="#FFD700"/>
+  <circle cx="360" cy="195" r="3" fill="#FFD700"/>
+  
+  <!-- Long ruler -->
+  <rect x="50" y="50" width="300" height="20" fill="#F5DEB3" stroke="#8B4513" stroke-width="2"/>
+  <!-- Ruler markings -->
+  <path d="M60 50 L60 70 M80 50 L80 65 M100 50 L100 70 M120 50 L120 65 M140 50 L140 70 M160 50 L160 65 M180 50 L180 70 M200 50 L200 65 M220 50 L220 70 M240 50 L240 65 M260 50 L260 70 M280 50 L280 65 M300 50 L300 70 M320 50 L320 65 M340 50 L340 70" 
+    stroke="#8B4513" stroke-width="1"/>
+  <!-- Numbers on ruler -->
+  <text x="100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">10</text>
+  <text x="200" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">20</text>
+  <text x="300" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">30</text>
+  
+  <!-- Long rope -->
+  <path d="M50 320 Q100 310 150 320 Q200 330 250 320 Q300 310 350 320" 
+    stroke="#D2691E" stroke-width="8" fill="none"/>
+  <path d="M52 318 Q102 308 152 318 Q202 328 252 318 Q302 308 352 318" 
+    stroke="#CD853F" stroke-width="4" fill="none"/>
+  
+  <!-- Long noodles -->
+  <path d="M30 350 Q80 340 130 350 Q180 360 230 350 Q280 340 330 350 Q370 360 390 350" 
+    stroke="#FFD700" stroke-width="6" fill="none"/>
+  <path d="M35 355 Q85 345 135 355 Q185 365 235 355 Q285 345 335 355 Q375 365 395 355" 
+    stroke="#FFA500" stroke-width="6" fill="none"/>
+  <path d="M40 360 Q90 350 140 360 Q190 370 240 360 Q290 350 340 360 Q380 370 400 360" 
+    stroke="#FF8C00" stroke-width="6" fill="none"/>
+  
+  <!-- Long pencil -->
+  <rect x="100" y="80" width="200" height="8" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+  <rect x="100" y="80" width="20" height="8" fill="#CD853F"/>
+  <path d="M95 84 L100 80 L100 88 Z" fill="#8B4513"/>
+  <rect x="300" y="82" width="15" height="4" fill="#FF69B4"/>
+  <text x="200" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">#2 PENCIL</text>
+  
+  <!-- Long ladder -->
+  <rect x="20" y="80" width="8" height="120" fill="#8B4513"/>
+  <rect x="30" y="80" width="8" height="120" fill="#8B4513"/>
+  <!-- Rungs -->
+  <rect x="20" y="90" width="18" height="3" fill="#CD853F"/>
+  <rect x="20" y="105" width="18" height="3" fill="#CD853F"/>
+  <rect x="20" y="120" width="18" height="3" fill="#CD853F"/>
+  <rect x="20" y="135" width="18" height="3" fill="#CD853F"/>
+  <rect x="20" y="150" width="18" height="3" fill="#CD853F"/>
+  <rect x="20" y="165" width="18" height="3" fill="#CD853F"/>
+  <rect x="20" y="180" width="18" height="3" fill="#CD853F"/>
+  <rect x="20" y="195" width="18" height="3" fill="#CD853F"/>
+  
+  <!-- Long fishing rod -->
+  <path d="M350 50 Q355 100 360 150 Q365 200 370 250" stroke="#654321" stroke-width="4" fill="none"/>
+  <path d="M370 250 Q375 260 380 270" stroke="#0000FF" stroke-width="2" fill="none"/>
+  <circle cx="380" cy="270" r="2" fill="#C0C0C0"/>
+  
+  <!-- Long hair -->
+  <path d="M180 20 Q185 50 190 80 Q195 110 200 140" stroke="#8B4513" stroke-width="6" fill="none"/>
+  <path d="M190 20 Q195 50 200 80 Q205 110 210 140" stroke="#A0522D" stroke-width="6" fill="none"/>
+  <path d="M200 20 Q205 50 210 80 Q215 110 220 140" stroke="#8B4513" stroke-width="6" fill="none"/>
+  <path d="M210 20 Q215 50 220 80 Q225 110 230 140" stroke="#A0522D" stroke-width="6" fill="none"/>
+  
+  <!-- Long arrows indicating length -->
+  <defs>
+  <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+  <polygon points="0 0, 10 3.5, 0 7" fill="#FF0000"/>
+  </marker>
+  </defs>
+  <path d="M50 380 L350 380" stroke="#FF0000" stroke-width="3" marker-start="url(#arrowhead)" marker-end="url(#arrowhead)"/>
+  <text x="200" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF0000">LONG / 長</text>
+  
+  <!-- Extension lines -->
+  <path d="M50 370 L50 385" stroke="#FF0000" stroke-width="2"/>
+  <path d="M350 370 L350 385" stroke="#FF0000" stroke-width="2"/>
+  
+  <!-- Length measurements -->
+  <text x="200" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4B0082">LENGTH EXAMPLES</text>
+</svg> 

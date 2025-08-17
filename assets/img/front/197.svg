@@ -1,0 +1,170 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="saltGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F8F8FF"/>
+      <stop offset="100%" stop-color="#E6E6FA"/>
+    </radialGradient>
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="50%" stop-color="#4682B4"/>
+      <stop offset="100%" stop-color="#191970"/>
+    </linearGradient>
+    <radialGradient id="crystalGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#F0F8FF"/>
+      <stop offset="50%" stop-color="#E6E6FA"/>
+      <stop offset="100%" stop-color="#D3D3D3"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#E0F6FF"/>
+  
+  <!-- Ocean/salt water -->
+  <rect x="0" y="200" width="400" height="200" fill="url(#oceanGradient)"/>
+  
+  <!-- Salt flats/dried salt beds -->
+  <ellipse cx="100" cy="150" rx="80" ry="30" fill="#F8F8FF" stroke="#D3D3D3" stroke-width="2"/>
+  <ellipse cx="300" cy="130" rx="70" ry="25" fill="#F8F8FF" stroke="#D3D3D3" stroke-width="2"/>
+  
+  <!-- Salt crystal formations -->
+  <!-- Large salt crystal -->
+  <path d="M150 80 L170 60 L190 80 L170 120 Z" fill="url(#crystalGradient)" stroke="#C0C0C0" stroke-width="2"/>
+  <path d="M155 80 L170 65 L185 80 L170 110 Z" fill="#F0F8FF"/>
+  
+  <!-- Medium salt crystals -->
+  <path d="M250 100 L265 85 L280 100 L265 125 Z" fill="url(#crystalGradient)" stroke="#C0C0C0" stroke-width="2"/>
+  <path d="M255 100 L265 90 L275 100 L265 120 Z" fill="#F8F8FF"/>
+  
+  <!-- Small salt crystals -->
+  <path d="M80 120 L90 110 L100 120 L90 135 Z" fill="url(#crystalGradient)" stroke="#C0C0C0" stroke-width="1"/>
+  <path d="M320 110 L330 100 L340 110 L330 125 Z" fill="url(#crystalGradient)" stroke="#C0C0C0" stroke-width="1"/>
+  <path d="M200 140 L210 130 L220 140 L210 155 Z" fill="url(#crystalGradient)" stroke="#C0C0C0" stroke-width="1"/>
+  
+  <!-- Salt granules scattered -->
+  <circle cx="120" cy="140" r="3" fill="url(#saltGradient)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <circle cx="130" cy="145" r="2" fill="url(#saltGradient)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <circle cx="140" cy="135" r="2.5" fill="url(#saltGradient)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <circle cx="160" cy="150" r="2" fill="url(#saltGradient)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <circle cx="180" cy="145" r="3" fill="url(#saltGradient)" stroke="#D3D3D3" stroke-width="0.5"/>
+  
+  <circle cx="270" cy="120" r="2.5" fill="url(#saltGradient)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <circle cx="285" cy="125" r="2" fill="url(#saltGradient)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <circle cx="300" cy="115" r="3" fill="url(#saltGradient)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <circle cx="315" cy="130" r="2" fill="url(#saltGradient)" stroke="#D3D3D3" stroke-width="0.5"/>
+  
+  <!-- Salt shaker -->
+  <ellipse cx="350" cy="280" rx="15" ry="25" fill="#C0C0C0" stroke="#A9A9A9" stroke-width="2"/>
+  <ellipse cx="350" cy="255" rx="12" ry="8" fill="#C0C0C0" stroke="#A9A9A9" stroke-width="2"/>
+  <rect x="345" y="250" width="10" height="5" fill="#A9A9A9"/>
+  
+  <!-- Salt pouring from shaker -->
+  <g fill="url(#saltGradient)" opacity="0.8">
+  <circle cx="348" cy="305" r="1"/>
+  <circle cx="352" cy="308" r="1"/>
+  <circle cx="350" cy="312" r="1"/>
+  <circle cx="346" cy="315" r="1"/>
+  <circle cx="354" cy="318" r="1"/>
+  <circle cx="349" cy="322" r="1"/>
+  <circle cx="353" cy="325" r="1"/>
+  
+  <!-- Salt holes pattern on shaker -->
+  <circle cx="345" cy="270" r="1" fill="#696969"/>
+  <circle cx="350" cy="268" r="1" fill="#696969"/>
+  <circle cx="355" cy="270" r="1" fill="#696969"/>
+  <circle cx="347" cy="275" r="1" fill="#696969"/>
+  <circle cx="353" cy="275" r="1" fill="#696969"/>
+  
+  <!-- Salt mine entrance -->
+  <rect x="50" y="80" width="40" height="60" fill="#696969" stroke="#2F2F2F" stroke-width="2"/>
+  <path d="M45 80 L70 60 L95 80 Z" fill="#A9A9A9" stroke="#2F2F2F" stroke-width="2"/>
+  <rect x="65" y="100" width="10" height="40" fill="#2F2F2F"/>
+  
+  <!-- Mine cart with salt -->
+  <rect x="20" y="160" width="30" height="15" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <ellipse cx="25" cy="180" rx="5" ry="8" fill="url(#saltGradient)" stroke="#D3D3D3" stroke-width="1"/>
+  <ellipse cx="35" cy="180" rx="5" ry="8" fill="url(#saltGradient)" stroke="#D3D3D3" stroke-width="1"/>
+  <ellipse cx="45" cy="180" rx="5" ry="8" fill="url(#saltGradient)" stroke="#D3D3D3" stroke-width="1"/>
+  <!-- Cart wheels -->
+  <circle cx="25" cy="185" r="4" fill="#2F2F2F"/>
+  <circle cx="45" cy="185" r="4" fill="#2F2F2F"/>
+  
+  <!-- Sea salt evaporation ponds -->
+  <rect x="200" y="250" width="60" height="40" fill="#F0F8FF" stroke="#87CEEB" stroke-width="2"/>
+  <rect x="270" y="250" width="60" height="40" fill="#F0F8FF" stroke="#87CEEB" stroke-width="2"/>
+  <rect x="200" y="300" width="60" height="40" fill="#F0F8FF" stroke="#87CEEB" stroke-width="2"/>
+  <rect x="270" y="300" width="60" height="40" fill="#F0F8FF" stroke="#87CEEB" stroke-width="2"/>
+  
+  <!-- Salt residue in ponds -->
+  <rect x="205" y="255" width="50" height="30" fill="#FFFFFF" opacity="0.6"/>
+  <rect x="275" y="255" width="50" height="30" fill="#FFFFFF" opacity="0.6"/>
+  <rect x="205" y="305" width="50" height="30" fill="#FFFFFF" opacity="0.6"/>
+  <rect x="275" y="305" width="50" height="30" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Table salt pile -->
+  <ellipse cx="120" cy="350" rx="25" ry="15" fill="url(#saltGradient)" stroke="#E6E6FA" stroke-width="2"/>
+  <ellipse cx="120" cy="345" rx="20" ry="12" fill="#FFFFFF"/>
+  <ellipse cx="120" cy="340" rx="15" ry="8" fill="#F8F8FF"/>
+  
+  <!-- Salt spoon -->
+  <ellipse cx="150" cy="340" rx="8" ry="4" fill="#C0C0C0" stroke="#A9A9A9" stroke-width="1"/>
+  <rect x="158" y="338" width="15" height="2" fill="#C0C0C0"/>
+  <!-- Salt in spoon -->
+  <ellipse cx="150" cy="340" rx="6" ry="3" fill="url(#saltGradient)"/>
+  
+  <!-- Rock salt chunks -->
+  <path d="M80 300 L95 290 L105 305 L90 320 L75 315 Z" fill="#F8F8FF" stroke="#D3D3D3" stroke-width="2"/>
+  <path d="M365 180 L375 170 L385 180 L380 195 L370 195 Z" fill="#F8F8FF" stroke="#D3D3D3" stroke-width="2"/>
+  
+  <!-- Himalayan pink salt -->
+  <path d="M300 50 L315 40 L330 50 L320 70 L305 70 Z" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+  <path d="M305 50 L315 45 L325 50 L320 65 L310 65 Z" fill="#FFC0CB"/>
+  
+  <!-- Salt formation underground -->
+  <rect x="0" y="350" width="400" height="50" fill="#8B7355" stroke="#654321" stroke-width="1"/>
+  <!-- Salt veins in rock -->
+  <path d="M50 360 Q100 350 150 360 Q200 370 250 360 Q300 350 350 360" 
+      stroke="#FFFFFF" stroke-width="3" fill="none"/>
+  <path d="M30 375 Q80 365 130 375 Q180 385 230 375 Q280 365 330 375" 
+      stroke="#F8F8FF" stroke-width="2" fill="none"/>
+  
+  <!-- Chemical formula -->
+  <text x="50" y="40" font-family="Arial, sans-serif" font-size="16" fill="#2F2F2F">NaCl</text>
+  <text x="50" y="55" font-family="Arial, sans-serif" font-size="10" fill="#696969">Sodium Chloride</text>
+  
+  <!-- Chinese character for salt -->
+  <text x="200" y="35" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#4682B4">鹵</text>
+  
+  <!-- Waves in salt water -->
+  <path d="M0 220 Q50 210 100 220 Q150 230 200 220 Q250 210 300 220 Q350 230 400 220" 
+      stroke="#87CEEB" stroke-width="3" fill="none"/>
+  <path d="M0 235 Q50 225 100 235 Q150 245 200 235 Q250 225 300 235 Q350 245 400 235" 
+      stroke="#B0E0E6" stroke-width="2" fill="none"/>
+  
+  <!-- Salt molecules (stylized) -->
+  <g fill="#4169E1" opacity="0.6">
+  <circle cx="170" cy="280" r="2"/>
+  <circle cx="180" cy="280" r="2"/>
+  <circle cx="175" cy="290" r="2"/>
+  <circle cx="175" cy="270" r="2"/>
+    <g fill="#FF6347" opacity="0.6">
+    <circle cx="175" cy="280" r="2"/>
+    <circle cx="170" cy="290" r="2"/>
+    <circle cx="180" cy="290" r="2"/>
+    <circle cx="170" cy="270" r="2"/>
+    <circle cx="180" cy="270" r="2"/>
+    </g>
+  
+    <!-- Sun evaporating water -->
+    <circle cx="350" cy="60" r="25" fill="#FFD700" opacity="0.8"/>
+    <circle cx="350" cy="60" r="20" fill="#FFA500" opacity="0.6"/>
+  
+    <!-- Evaporation lines -->
+    <g stroke="#FFD700" stroke-width="1" opacity="0.5">
+    <path d="M220 200 Q225 180 230 200"/>
+    <path d="M240 200 Q245 180 250 200"/>
+    <path d="M260 200 Q265 180 270 200"/>
+    <path d="M280 200 Q285 180 290 200"/>
+    <path d="M300 200 Q305 180 310 200"/>
+    </g>
+    </g>
+  </g>
+</svg> 

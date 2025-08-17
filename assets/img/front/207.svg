@@ -1,0 +1,309 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="fireworkGradient1" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#FFD700"/>
+      <stop offset="70%" stop-color="#FF4500"/>
+      <stop offset="100%" stop-color="#DC143C"/>
+    </radialGradient>
+    <radialGradient id="fireworkGradient2" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#00FF00"/>
+      <stop offset="70%" stop-color="#32CD32"/>
+      <stop offset="100%" stop-color="#228B22"/>
+    </radialGradient>
+    <radialGradient id="fireworkGradient3" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#4169E1"/>
+      <stop offset="70%" stop-color="#1E90FF"/>
+      <stop offset="100%" stop-color="#191970"/>
+    </radialGradient>
+    <linearGradient id="nightSkyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#191970"/>
+      <stop offset="50%" stop-color="#000080"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2F2F2F"/>
+      <stop offset="50%" stop-color="#404040"/>
+      <stop offset="100%" stop-color="#1C1C1C"/>
+    </linearGradient>
+    <radialGradient id="lanternGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FF8C00"/>
+      <stop offset="100%" stop-color="#FF4500"/>
+    </radialGradient>
+  </defs>  <!-- Night sky -->
+  <rect width="500" height="500" fill="url(#nightSkyGradient)"/>
+  
+  <!-- Stars -->
+  <g fill="#FFFFFF">
+  <circle cx="50" cy="40" r="1"/>
+  <circle cx="150" cy="30" r="0.8"/>
+  <circle cx="250" cy="50" r="1.2"/>
+  <circle cx="350" cy="35" r="0.9"/>
+  <circle cx="80" cy="80" r="0.7"/>
+  <circle cx="320" cy="70" r="1"/>
+  <circle cx="180" cy="60" r="0.6"/>
+  <circle cx="280" cy="90" r="0.8"/>
+  <circle cx="120" cy="100" r="0.5"/>
+  <circle cx="380" cy="110" r="0.7"/>
+  
+  <!-- Moon -->
+  <circle cx="350" cy="60" r="20" fill="#FFFACD" stroke="#FFD700" stroke-width="2"/>
+  <g fill="#F0E68C" opacity="0.3">
+  <circle cx="345" cy="55" r="3"/>
+  <circle cx="355" cy="65" r="2"/>
+  <circle cx="350" cy="50" r="1.5"/>
+  
+    <!-- City skyline -->
+    <g fill="url(#buildingGradient)" stroke="#1C1C1C" stroke-width="1">
+    <rect x="0" y="300" width="50" height="100"/>
+    <rect x="60" y="280" width="40" height="120"/>
+    <rect x="110" y="320" width="35" height="80"/>
+    <rect x="155" y="290" width="45" height="110"/>
+    <rect x="210" y="310" width="30" height="90"/>
+    <rect x="250" y="270" width="50" height="130"/>
+    <rect x="310" y="300" width="35" height="100"/>
+    <rect x="355" y="285" width="45" height="115"/>
+    </g>
+  
+    <!-- Building windows (lit up) -->
+    <g fill="url(#lanternGradient)">
+    <rect x="15" y="320" width="4" height="6"/>
+    <rect x="25" y="340" width="4" height="6"/>
+    <rect x="35" y="315" width="4" height="6"/>
+    
+    <rect x="70" y="300" width="5" height="7"/>
+    <rect x="85" y="320" width="5" height="7"/>
+    <rect x="75" y="350" width="5" height="7"/>
+    
+    <rect x="170" y="310" width="4" height="6"/>
+    <rect x="185" y="330" width="4" height="6"/>
+    <rect x="175" y="355" width="4" height="6"/>
+    
+    <rect x="265" y="290" width="6" height="8"/>
+    <rect x="280" y="310" width="6" height="8"/>
+    <rect x="270" y="340" width="6" height="8"/>
+    
+    <rect x="370" y="305" width="5" height="7"/>
+    <rect x="380" y="325" width="5" height="7"/>
+    <rect x="375" y="350" width="5" height="7"/>
+    </g>
+  
+    <!-- Large firework explosion 1 -->
+    <g transform="translate(150, 120)">
+    <circle cx="0" cy="0" r="3" fill="url(#fireworkGradient1)"/>
+    <g stroke="url(#fireworkGradient1)" stroke-width="2">
+      <path d="M0 0 L-25 -10"/>
+      <path d="M0 0 L-20 -20"/>
+      <path d="M0 0 L-10 -25"/>
+      <path d="M0 0 L0 -30"/>
+      <path d="M0 0 L10 -25"/>
+      <path d="M0 0 L20 -20"/>
+      <path d="M0 0 L25 -10"/>
+      <path d="M0 0 L30 0"/>
+      <path d="M0 0 L25 10"/>
+      <path d="M0 0 L20 20"/>
+      <path d="M0 0 L10 25"/>
+      <path d="M0 0 L0 30"/>
+      <path d="M0 0 L-10 25"/>
+      <path d="M0 0 L-20 20"/>
+      <path d="M0 0 L-25 10"/>
+      <path d="M0 0 L-30 0"/>
+    </g>
+    <!-- Sparkling effects -->
+    <g fill="#FFD700">
+      <circle cx="-20" cy="-15" r="1"/>
+      <circle cx="18" cy="-18" r="0.8"/>
+      <circle cx="22" cy="12" r="1.2"/>
+      <circle cx="-15" cy="20" r="0.9"/>
+      <circle cx="0" cy="-25" r="1.1"/>
+      <circle cx="25" cy="0" r="0.7"/>
+    </g>
+    </g>
+  
+    <!-- Large firework explosion 2 -->
+    <g transform="translate(280, 100)">
+    <circle cx="0" cy="0" r="2.5" fill="url(#fireworkGradient2)"/>
+    <g stroke="url(#fireworkGradient2)" stroke-width="1.8">
+      <path d="M0 0 L-22 -8"/>
+      <path d="M0 0 L-18 -18"/>
+      <path d="M0 0 L-8 -22"/>
+      <path d="M0 0 L0 -25"/>
+      <path d="M0 0 L8 -22"/>
+      <path d="M0 0 L18 -18"/>
+      <path d="M0 0 L22 -8"/>
+      <path d="M0 0 L25 0"/>
+      <path d="M0 0 L22 8"/>
+      <path d="M0 0 L18 18"/>
+      <path d="M0 0 L8 22"/>
+      <path d="M0 0 L0 25"/>
+      <path d="M0 0 L-8 22"/>
+      <path d="M0 0 L-18 18"/>
+      <path d="M0 0 L-22 8"/>
+      <path d="M0 0 L-25 0"/>
+    </g>
+    <!-- Sparkling effects -->
+    <g fill="#00FF00">
+      <circle cx="-18" cy="-12" r="0.9"/>
+      <circle cx="15" cy="-15" r="0.7"/>
+      <circle cx="20" cy="10" r="1"/>
+      <circle cx="-12" cy="18" r="0.8"/>
+      <circle cx="0" cy="-22" r="1"/>
+      <circle cx="22" cy="0" r="0.6"/>
+    </g>
+    </g>
+  
+    <!-- Large firework explosion 3 -->
+    <g transform="translate(80, 140)">
+    <circle cx="0" cy="0" r="2" fill="url(#fireworkGradient3)"/>
+    <g stroke="url(#fireworkGradient3)" stroke-width="1.5">
+      <path d="M0 0 L-20 -6"/>
+      <path d="M0 0 L-15 -15"/>
+      <path d="M0 0 L-6 -20"/>
+      <path d="M0 0 L0 -22"/>
+      <path d="M0 0 L6 -20"/>
+      <path d="M0 0 L15 -15"/>
+      <path d="M0 0 L20 -6"/>
+      <path d="M0 0 L22 0"/>
+      <path d="M0 0 L20 6"/>
+      <path d="M0 0 L15 15"/>
+      <path d="M0 0 L6 20"/>
+      <path d="M0 0 L0 22"/>
+      <path d="M0 0 L-6 20"/>
+      <path d="M0 0 L-15 15"/>
+      <path d="M0 0 L-20 6"/>
+      <path d="M0 0 L-22 0"/>
+    </g>
+    <!-- Sparkling effects -->
+    <g fill="#4169E1">
+      <circle cx="-15" cy="-10" r="0.8"/>
+      <circle cx="12" cy="-12" r="0.6"/>
+      <circle cx="18" cy="8" r="0.9"/>
+      <circle cx="-10" cy="15" r="0.7"/>
+      <circle cx="0" cy="-18" r="0.8"/>
+      <circle cx="20" cy="0" r="0.5"/>
+    </g>
+    </g>
+  
+    <!-- Smaller firework bursts -->
+    <g>
+    <g transform="translate(320, 160)">
+      <circle cx="0" cy="0" r="1.5" fill="#FF69B4"/>
+      <g stroke="#FF69B4" stroke-width="1">
+        <path d="M0 0 L-12 -5"/>
+        <path d="M0 0 L-8 -10"/>
+        <path d="M0 0 L0 -12"/>
+        <path d="M0 0 L8 -10"/>
+        <path d="M0 0 L12 -5"/>
+        <path d="M0 0 L12 5"/>
+        <path d="M0 0 L8 10"/>
+        <path d="M0 0 L0 12"/>
+        <path d="M0 0 L-8 10"/>
+        <path d="M0 0 L-12 5"/>
+      </g>
+    </g>
+    
+    <g transform="translate(200, 80)">
+      <circle cx="0" cy="0" r="1" fill="#9370DB"/>
+      <g stroke="#9370DB" stroke-width="0.8">
+        <path d="M0 0 L-10 -4"/>
+        <path d="M0 0 L-6 -8"/>
+        <path d="M0 0 L0 -10"/>
+        <path d="M0 0 L6 -8"/>
+        <path d="M0 0 L10 -4"/>
+        <path d="M0 0 L10 4"/>
+        <path d="M0 0 L6 8"/>
+        <path d="M0 0 L0 10"/>
+        <path d="M0 0 L-6 8"/>
+        <path d="M0 0 L-10 4"/>
+      </g>
+    </g>
+    </g>
+  
+    <!-- Firework trails -->
+    <g stroke-width="2" opacity="0.7">
+    <path d="M150 400 Q148 300 150 120" stroke="#FFD700" fill="none"/>
+    <path d="M280 400 Q285 250 280 100" stroke="#00FF00" fill="none"/>
+    <path d="M80 400 Q75 300 80 140" stroke="#4169E1" fill="none"/>
+    <path d="M320 400 Q318 280 320 160" stroke="#FF69B4" fill="none"/>
+    <path d="M200 400 Q205 200 200 80" stroke="#9370DB" fill="none"/>
+    </g>
+  
+    <!-- Crowd silhouettes -->
+    <g fill="#1C1C1C">
+    <ellipse cx="50" cy="380" rx="8" ry="15"/>
+    <circle cx="50" cy="365" r="5"/>
+    
+    <ellipse cx="80" cy="385" rx="6" ry="12"/>
+    <circle cx="80" cy="373" r="4"/>
+    
+    <ellipse cx="120" cy="380" rx="7" ry="14"/>
+    <circle cx="120" cy="366" r="4.5"/>
+    
+    <ellipse cx="160" cy="385" rx="8" ry="13"/>
+    <circle cx="160" cy="372" r="5"/>
+    
+    <ellipse cx="200" cy="380" rx="6" ry="15"/>
+    <circle cx="200" cy="365" r="4"/>
+    
+    <ellipse cx="240" cy="385" rx="7" ry="12"/>
+    <circle cx="240" cy="373" r="4.5"/>
+    
+    <ellipse cx="280" cy="380" rx="8" ry="14"/>
+    <circle cx="280" cy="366" r="5"/>
+    
+    <ellipse cx="320" cy="385" rx="6" ry="13"/>
+    <circle cx="320" cy="372" r="4"/>
+    
+    <ellipse cx="360" cy="380" rx="7" ry="15"/>
+    <circle cx="360" cy="365" r="4.5"/>
+    </g>
+  
+    <!-- Festival lanterns -->
+    <g>
+    <g transform="translate(60, 250)">
+      <ellipse cx="0" cy="0" rx="8" ry="12" fill="url(#lanternGradient)" stroke="#FF4500" stroke-width="1"/>
+      <rect x="-1" y="-15" width="2" height="3" fill="#8B4513"/>
+      <g stroke="#FF0000" stroke-width="0.5">
+        <path d="M-6 -8 L6 -8"/>
+        <path d="M-6 0 L6 0"/>
+        <path d="M-6 8 L6 8"/>
+      </g>
+    </g>
+    
+    <g transform="translate(340, 260)">
+      <ellipse cx="0" cy="0" rx="6" ry="10" fill="url(#lanternGradient)" stroke="#FF4500" stroke-width="1"/>
+      <rect x="-0.5" y="-12" width="1" height="2" fill="#8B4513"/>
+      <g stroke="#FF0000" stroke-width="0.4">
+        <path d="M-4 -6 L4 -6"/>
+        <path d="M-4 0 L4 0"/>
+        <path d="M-4 6 L4 6"/>
+      </g>
+    </g>
+    </g>
+  
+    <!-- Sparkles in air -->
+    <g fill="#FFD700">
+    <circle cx="100" cy="200" r="0.5"/>
+    <circle cx="180" cy="180" r="0.3"/>
+    <circle cx="250" cy="210" r="0.4"/>
+    <circle cx="300" cy="190" r="0.6"/>
+    <circle cx="130" cy="170" r="0.4"/>
+    <circle cx="350" cy="220" r="0.3"/>
+    <circle cx="70" cy="190" r="0.5"/>
+    <circle cx="220" cy="150" r="0.4"/>
+    <circle cx="380" cy="180" r="0.3"/>
+    <circle cx="40" cy="210" r="0.4"/>
+    </g>
+  
+    <!-- Reflection on water/windows -->
+    <g fill="#FFD700" opacity="0.3">
+    <ellipse cx="150" cy="350" rx="3" ry="15"/>
+    <ellipse cx="280" cy="340" rx="2.5" ry="12"/>
+    <ellipse cx="80" cy="360" rx="2" ry="10"/>
+    </g>
+    </g>
+  </g>
+</svg> 

@@ -1,0 +1,310 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="balloonGradient1" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFB6C1"/>
+      <stop offset="50%" stop-color="#FF69B4"/>
+      <stop offset="100%" stop-color="#DC143C"/>
+    </radialGradient>
+    <radialGradient id="balloonGradient2" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFF99"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </radialGradient>
+    <radialGradient id="balloonGradient3" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#90EE90"/>
+      <stop offset="50%" stop-color="#32CD32"/>
+      <stop offset="100%" stop-color="#228B22"/>
+    </radialGradient>
+    <radialGradient id="confettiGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </radialGradient>
+    <linearGradient id="cakeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5DEB3"/>
+      <stop offset="50%" stop-color="#DEB887"/>
+      <stop offset="100%" stop-color="#D2B48C"/>
+    </linearGradient>
+    <radialGradient id="flameGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFF99"/>
+      <stop offset="50%" stop-color="#FF8C00"/>
+      <stop offset="100%" stop-color="#FF4500"/>
+    </radialGradient>
+  </defs>  <!-- Party background -->
+  <rect width="500" height="500" fill="#FFB6C1"/>
+  
+  <!-- Confetti falling -->
+  <g fill="url(#confettiGradient)">
+  <!-- Large confetti pieces -->
+  <rect x="50" y="30" width="4" height="8" rx="1" fill="#FF69B4" transform="rotate(45 50 30)"/>
+  <rect x="120" y="60" width="6" height="3" rx="1" fill="#32CD32" transform="rotate(-30 120 60)"/>
+  <rect x="200" y="40" width="5" height="5" rx="1" fill="#FFD700" transform="rotate(60 200 40)"/>
+  <rect x="280" y="80" width="4" height="6" rx="1" fill="#4169E1" transform="rotate(-45 280 80)"/>
+  <rect x="350" y="50" width="3" height="7" rx="1" fill="#FF8C00" transform="rotate(30 350 50)"/>
+  
+  <!-- Medium confetti -->
+  <rect x="80" y="100" width="3" height="6" rx="1" fill="#9370DB" transform="rotate(-60 80 100)"/>
+  <rect x="160" y="120" width="4" height="4" rx="1" fill="#FF1493" transform="rotate(15 160 120)"/>
+  <rect x="240" y="90" width="3" height="5" rx="1" fill="#00CED1" transform="rotate(-15 240 90)"/>
+  <rect x="320" y="110" width="5" height="3" rx="1" fill="#FFFF00" transform="rotate(75 320 110)"/>
+  
+  <!-- Small confetti -->
+  <circle cx="100" cy="150" r="2" fill="#FF6347"/>
+  <circle cx="180" cy="170" r="1.5" fill="#00FF00"/>
+  <circle cx="260" cy="140" r="2" fill="#FF69B4"/>
+  <circle cx="340" cy="160" r="1.5" fill="#4169E1"/>
+  <circle cx="60" cy="180" r="1" fill="#FFD700"/>
+  <circle cx="380" cy="140" r="1.5" fill="#DC143C"/>
+  
+  <!-- Balloons -->
+  <g>
+  <!-- Red balloon -->
+  <g transform="translate(80, 200)">
+    <ellipse cx="0" cy="0" rx="15" ry="20" fill="url(#balloonGradient1)"/>
+    <polygon points="0,18 -3,25 3,25" fill="#DC143C"/>
+    <path d="M0 25 Q-2 35 0 45 Q2 35 0 25" stroke="#8B4513" stroke-width="1" fill="none"/>
+    
+    <!-- Yellow balloon -->
+    <g transform="translate(120, 180)">
+      <ellipse cx="0" cy="0" rx="12" ry="18" fill="url(#balloonGradient2)"/>
+      <polygon points="0,16 -2,22 2,22" fill="#FFA500"/>
+      <path d="M0 22 Q-1 30 0 38 Q1 30 0 22" stroke="#8B4513" stroke-width="1" fill="none"/>
+    </g>
+    
+    <!-- Green balloon -->
+    <g transform="translate(160, 190)">
+      <ellipse cx="0" cy="0" rx="13" ry="19" fill="url(#balloonGradient3)"/>
+      <polygon points="0,17 -2,24 2,24" fill="#228B22"/>
+      <path d="M0 24 Q-2 33 0 42 Q2 33 0 24" stroke="#8B4513" stroke-width="1" fill="none"/>
+    </g>
+    
+    <!-- Blue balloon -->
+    <g transform="translate(200, 170)">
+      <ellipse cx="0" cy="0" rx="14" ry="20" fill="#4169E1"/>
+      <polygon points="0,18 -3,25 3,25" fill="#191970"/>
+      <path d="M0 25 Q-2 35 0 45 Q2 35 0 25" stroke="#8B4513" stroke-width="1" fill="none"/>
+    </g>
+    
+    <!-- Purple balloon -->
+    <g transform="translate(240, 185)">
+      <ellipse cx="0" cy="0" rx="12" ry="18" fill="#9370DB"/>
+      <polygon points="0,16 -2,22 2,22" fill="#8B008B"/>
+      <path d="M0 22 Q-1 30 0 38 Q1 30 0 22" stroke="#8B4513" stroke-width="1" fill="none"/>
+    </g>
+    </g>
+  
+    <!-- Birthday cake -->
+    <g transform="translate(200, 300)">
+    <!-- Cake base -->
+    <rect x="-40" y="0" width="80" height="30" rx="5" fill="url(#cakeGradient)"/>
+    <!-- Cake layers -->
+    <rect x="-35" y="-15" width="70" height="15" rx="4" fill="#FFB6C1"/>
+    <rect x="-30" y="-25" width="60" height="10" rx="3" fill="#DEB887"/>
+    
+    <!-- Frosting decorations -->
+    <g fill="#FFFFFF">
+      <ellipse cx="-25" cy="5" rx="3" ry="2"/>
+      <ellipse cx="0" cy="5" rx="3" ry="2"/>
+      <ellipse cx="25" cy="5" rx="3" ry="2"/>
+      <ellipse cx="-15" cy="-8" rx="2" ry="1.5"/>
+      <ellipse cx="15" cy="-8" rx="2" ry="1.5"/>
+    </g>
+    
+    <!-- Candles -->
+    <g>
+      <rect x="-20" y="-35" width="2" height="10" fill="#FFD700"/>
+      <rect x="-5" y="-37" width="2" height="12" fill="#FF69B4"/>
+      <rect x="10" y="-35" width="2" height="10" fill="#32CD32"/>
+      <rect x="25" y="-36" width="2" height="11" fill="#4169E1"/>
+      
+      <!-- Flames -->
+      <ellipse cx="-19" cy="-37" rx="2" ry="3" fill="url(#flameGradient)"/>
+      <ellipse cx="-4" cy="-39" rx="2" ry="3" fill="url(#flameGradient)"/>
+      <ellipse cx="11" cy="-37" rx="2" ry="3" fill="url(#flameGradient)"/>
+      <ellipse cx="26" cy="-38" rx="2" ry="3" fill="url(#flameGradient)"/>
+    </g>
+    
+    <!-- Cake decorations -->
+    <g fill="#FF1493">
+      <circle cx="-30" cy="15" r="2"/>
+      <circle cx="-10" cy="15" r="2"/>
+      <circle cx="10" cy="15" r="2"/>
+      <circle cx="30" cy="15" r="2"/>
+    </g>
+    </g>
+  
+    <!-- Party hats -->
+    <g>
+    <!-- Hat 1 -->
+    <g transform="translate(50, 320)">
+      <polygon points="0,-20 -8,5 8,5" fill="#FF8C00"/>
+      <circle cx="0" cy="-20" r="2" fill="#FFFF00"/>
+      <g stroke="#DC143C" stroke-width="1">
+        <path d="M-6 -10 L6 -10"/>
+        <path d="M-6 -5 L6 -5"/>
+        <path d="M-6 0 L6 0"/>
+      </g>
+    </g>
+    
+    <!-- Hat 2 -->
+    <g transform="translate(350, 310)">
+      <polygon points="0,-18 -7,4 7,4" fill="#9370DB"/>
+      <circle cx="0" cy="-18" r="2" fill="#FFD700"/>
+      <g stroke="#FF69B4" stroke-width="1">
+        <path d="M-5 -9 L5 -9"/>
+        <path d="M-5 -4 L5 -4"/>
+        <path d="M-5 1 L5 1"/>
+      </g>
+    </g>
+    </g>
+  
+    <!-- Gift boxes -->
+    <g>
+    <!-- Gift 1 -->
+    <g transform="translate(80, 350)">
+      <rect x="0" y="0" width="25" height="20" fill="#32CD32"/>
+      <rect x="10" y="-5" width="5" height="30" fill="#FFD700"/>
+      <rect x="-2" y="8" width="29" height="4" fill="#FFD700"/>
+      <!-- Bow -->
+      <ellipse cx="12.5" cy="0" rx="6" ry="3" fill="#FF0000"/>
+      <ellipse cx="8" cy="0" rx="3" ry="2" fill="#DC143C"/>
+      <ellipse cx="17" cy="0" rx="3" ry="2" fill="#DC143C"/>
+    </g>
+    
+    <!-- Gift 2 -->
+    <g transform="translate(300, 360)">
+      <rect x="0" y="0" width="20" height="15" fill="#4169E1"/>
+      <rect x="8" y="-3" width="4" height="21" fill="#FFFF00"/>
+      <rect x="-2" y="6" width="24" height="3" fill="#FFFF00"/>
+      <!-- Bow -->
+      <ellipse cx="10" cy="0" rx="5" ry="2.5" fill="#FF69B4"/>
+      <ellipse cx="7" cy="0" rx="2.5" ry="1.5" fill="#FF1493"/>
+      <ellipse cx="13" cy="0" rx="2.5" ry="1.5" fill="#FF1493"/>
+    </g>
+    </g>
+  
+    <!-- Party streamers -->
+    <g stroke-width="3" fill="none">
+    <path d="M0 100 Q50 80 100 100 Q150 120 200 100 Q250 80 300 100 Q350 120 400 100" 
+          stroke="#FF69B4"/>
+    <path d="M0 130 Q50 110 100 130 Q150 150 200 130 Q250 110 300 130 Q350 150 400 130" 
+          stroke="#32CD32"/>
+    <path d="M0 160 Q50 140 100 160 Q150 180 200 160 Q250 140 300 160 Q350 180 400 160" 
+          stroke="#FFD700"/>
+    </g>
+  
+    <!-- Musical notes -->
+    <g fill="#FF8C00">
+    <g transform="translate(150, 120)">
+      <circle cx="0" cy="0" r="3"/>
+      <rect x="3" y="-12" width="1" height="12"/>
+      <path d="M4 -12 Q8 -10 6 -8" stroke="#FF8C00" stroke-width="1" fill="none"/>
+    </g>
+    
+    <g transform="translate(250, 100)">
+      <circle cx="0" cy="0" r="2.5"/>
+      <rect x="2.5" y="-10" width="1" height="10"/>
+    </g>
+    </g>
+  
+    <!-- Party people -->
+    <g>
+    <!-- Person 1 (dancing) -->
+    <g transform="translate(100, 280)">
+      <ellipse cx="0" cy="15" rx="8" ry="18" fill="#FF1493"/>
+      <circle cx="0" cy="-5" r="6" fill="#FFDAB9"/>
+      <ellipse cx="-12" cy="8" rx="12" ry="4" fill="#FF1493" transform="rotate(-30 -12 8)"/>
+      <ellipse cx="12" cy="12" rx="12" ry="4" fill="#FF1493" transform="rotate(45 12 12)"/>
+      <ellipse cx="-4" cy="35" rx="4" ry="15" fill="#000080" transform="rotate(-15 -4 35)"/>
+      <ellipse cx="4" cy="35" rx="4" ry="15" fill="#000080" transform="rotate(15 4 35)"/>
+      <!-- Party hat -->
+      <polygon points="0,-15 -6,0 6,0" fill="#32CD32"/>
+      <circle cx="0" cy="-15" r="1.5" fill="#FFD700"/>
+    </g>
+    
+    <!-- Person 2 (cheering) -->
+    <g transform="translate(300, 270)">
+      <ellipse cx="0" cy="18" rx="7" ry="20" fill="#4169E1"/>
+      <circle cx="0" cy="-3" r="5" fill="#FFDAB9"/>
+      <ellipse cx="-10" cy="5" rx="15" ry="4" fill="#4169E1" transform="rotate(-60 -10 5)"/>
+      <ellipse cx="10" cy="8" rx="15" ry="4" fill="#4169E1" transform="rotate(60 10 8)"/>
+      <ellipse cx="-3" cy="40" rx="4" ry="18" fill="#8B4513"/>
+      <ellipse cx="3" cy="40" rx="4" ry="18" fill="#8B4513"/>
+      <!-- Party hat -->
+      <polygon points="0,-12 -5,2 5,2" fill="#FF8C00"/>
+      <circle cx="0" cy="-12" r="1.5" fill="#FF69B4"/>
+    </g>
+    </g>
+  
+    <!-- Fireworks -->
+    <g>
+    <g transform="translate(50, 80)">
+      <circle cx="0" cy="0" r="2" fill="#FFD700"/>
+      <g stroke="#FFD700" stroke-width="1">
+        <path d="M0 0 L-8 -3"/>
+        <path d="M0 0 L-6 -6"/>
+        <path d="M0 0 L-3 -8"/>
+        <path d="M0 0 L3 -8"/>
+        <path d="M0 0 L6 -6"/>
+        <path d="M0 0 L8 -3"/>
+        <path d="M0 0 L8 3"/>
+        <path d="M0 0 L6 6"/>
+        <path d="M0 0 L3 8"/>
+        <path d="M0 0 L-3 8"/>
+        <path d="M0 0 L-6 6"/>
+        <path d="M0 0 L-8 3"/>
+      </g>
+    </g>
+    
+    <g transform="translate(350, 90)">
+      <circle cx="0" cy="0" r="1.5" fill="#FF69B4"/>
+      <g stroke="#FF69B4" stroke-width="0.8">
+        <path d="M0 0 L-6 -2"/>
+        <path d="M0 0 L-4 -4"/>
+        <path d="M0 0 L-2 -6"/>
+        <path d="M0 0 L2 -6"/>
+        <path d="M0 0 L4 -4"/>
+        <path d="M0 0 L6 -2"/>
+        <path d="M0 0 L6 2"/>
+        <path d="M0 0 L4 4"/>
+        <path d="M0 0 L2 6"/>
+        <path d="M0 0 L-2 6"/>
+        <path d="M0 0 L-4 4"/>
+        <path d="M0 0 L-6 2"/>
+      </g>
+    </g>
+    </g>
+  
+    <!-- Party bubbles -->
+    <g fill="#87CEEB" opacity="0.6">
+    <circle cx="70" cy="200" r="4"/>
+    <circle cx="130" cy="180" r="6"/>
+    <circle cx="180" cy="220" r="3"/>
+    <circle cx="220" cy="190" r="5"/>
+    <circle cx="270" cy="210" r="4"/>
+    <circle cx="320" cy="180" r="3"/>
+    <circle cx="360" cy="200" r="5"/>
+    </g>
+  
+    <!-- "PARTY!" text -->
+    <text x="200" y="50" text-anchor="middle" fill="#FF0000" font-size="24" font-weight="bold" 
+        stroke="#FFFF00" stroke-width="1">PARTY!</text>
+  
+    <!-- Celebration sparkles -->
+    <g fill="#FFFFFF">
+    <g transform="translate(120, 60)">
+      <path d="M0 -4 L1 -1 L4 0 L1 1 L0 4 L-1 1 L-4 0 L-1 -1 Z"/>
+    </g>
+    <g transform="translate(280, 70)">
+      <path d="M0 -3 L0.8 -0.8 L3 0 L0.8 0.8 L0 3 L-0.8 0.8 L-3 0 L-0.8 -0.8 Z"/>
+    </g>
+    <g transform="translate(180, 40)">
+      <path d="M0 -2 L0.6 -0.6 L2 0 L0.6 0.6 L0 2 L-0.6 0.6 L-2 0 L-0.6 -0.6 Z"/>
+    </g>
+    <g transform="translate(320, 45)">
+      <path d="M0 -3 L0.8 -0.8 L3 0 L0.8 0.8 L0 3 L-0.8 0.8 L-3 0 L-0.8 -0.8 Z"/>
+    </g>
+    </g>
+    </g>
+  </g>
+</svg> 

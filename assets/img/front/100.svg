@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad100" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="plantGrad100" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#81c784;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#66bb6a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4caf50;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="lifeGlow100" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#a5d6a7;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#a5d6a7;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad100)"/>
+  
+  <!-- Life energy glow -->
+  <ellipse cx="250" cy="250" rx="150" ry="100" fill="url(#lifeGlow100)"/>
+  
+  <!-- Soil/ground -->
+  <rect x="0" y="400" width="500" height="100" fill="#8d6e63" opacity="0.3"/>
+  
+  <!-- Main radical shape 生 (life/birth) -->
+  <!-- Top horizontal stroke -->
+  <path d="M180 180 L320 180" 
+    stroke="#2e7d32" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Left vertical stroke -->
+  <path d="M200 180 L200 300" 
+    stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Middle horizontal stroke -->
+  <path d="M200 220 L300 220" 
+    stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right vertical stroke -->
+  <path d="M300 180 L300 340" 
+    stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom horizontal stroke -->
+  <path d="M180 300 L320 300" 
+    stroke="#2e7d32" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Sprouting plant -->
+  <g transform="translate(250,300)">
+  <!-- Stem -->
+  <path d="M0 0 L0 -80" stroke="url(#plantGrad100)" stroke-width="8" fill="none"/>
+  
+  <!-- First leaves -->
+  <ellipse cx="-20" cy="-40" rx="15" ry="8" fill="url(#plantGrad100)" transform="rotate(-30)"/>
+  <ellipse cx="20" cy="-35" rx="12" ry="6" fill="url(#plantGrad100)" transform="rotate(30)"/>
+  
+  <!-- Top leaves -->
+  <ellipse cx="-15" cy="-70" rx="18" ry="10" fill="url(#plantGrad100)" transform="rotate(-20)"/>
+  <ellipse cx="15" cy="-65" rx="16" ry="9" fill="url(#plantGrad100)" transform="rotate(20)"/>
+  
+  <!-- Central bud -->
+  <circle cx="0" cy="-80" r="6" fill="#81c784"/>
+  
+  <!-- Seed in soil -->
+  <ellipse cx="250" cy="420" rx="8" ry="5" fill="#8d6e63"/>
+  
+  <!-- Root system -->
+  <g stroke="#4caf50" stroke-width="3" opacity="0.6" fill="none">
+  <path d="M250 420 Q240 440 230 460"/>
+  <path d="M250 420 Q260 440 270 460"/>
+  <path d="M250 420 Q250 450 245 480"/>
+  
+    <!-- Growth sparkles -->
+    <g fill="#81c784" opacity="0.7">
+    <circle cx="190" cy="160" r="3"/>
+    <circle cx="310" cy="170" r="4"/>
+    <circle cx="180" cy="250" r="2"/>
+    <circle cx="320" cy="260" r="3"/>
+    <circle cx="270" cy="200" r="2"/>
+    </g>
+  
+    <!-- Life energy spirals -->
+    <g stroke="#66bb6a" stroke-width="2" opacity="0.4" fill="none">
+    <path d="M150 200 Q160 190 170 200 Q180 210 190 200"/>
+    <path d="M330 250 Q340 240 350 250 Q360 260 370 250"/>
+    </g>
+  
+    <!-- Water droplets for nourishment -->
+    <g fill="#2196f3" opacity="0.5">
+    <circle cx="220" cy="140" r="2"/>
+    <circle cx="280" cy="150" r="3"/>
+    <circle cx="240" cy="380" r="2"/>
+    </g>
+  
+    <!-- Kanji character 生 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#2e7d32" opacity="0.8">生</text>
+    </g>
+  </g>
+</svg> 

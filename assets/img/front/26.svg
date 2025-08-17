@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad26" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f2f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b2dfdb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sealGrad26" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#26a69a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00897b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00695c;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="stampGrad26" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" style="stop-color:#4db6ac;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#26a69a;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="documentGrad26" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fafafa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f5f5;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glowGrad26" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#80cbc4;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#80cbc4;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="waxGrad26" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d32f2f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b71c1c;stop-opacity:1" />
+    </linearGradient>
+    <filter id="emboss26">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1"/>
+      <feOffset dx="1" dy="1" result="offset"/>
+      <feSpecularLighting in="offset" result="specOut" lighting-color="#ffffff" specularConstant="1" specularExponent="10">
+        <fePointLight x="-50" y="-100" z="200"/>
+      </feSpecularLighting>
+      <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad26)"/>
+  
+  <!-- Official atmosphere -->
+  <ellipse cx="250" cy="250" rx="180" ry="140" fill="url(#glowGrad26)"/>
+  
+  <!-- Main official seal representing 卩 -->
+  <g transform="translate(250,200)" opacity="0.95">
+  <!-- Seal base -->
+  <rect x="-25" y="0" width="50" height="20" rx="8" fill="url(#sealGrad26)" stroke="#004d40" stroke-width="2"/>
+  
+  <!-- Seal handle -->
+  <rect x="-8" y="-30" width="16" height="30" rx="8" fill="url(#stampGrad26)" stroke="#00695c" stroke-width="2"/>
+  
+  <!-- Handle grip details -->
+  <g fill="#00897b" opacity="0.8">
+  <circle cx="0" cy="-25" r="2"/>
+  <circle cx="0" cy="-15" r="2"/>
+  <circle cx="0" cy="-5" r="2"/>
+  
+  <!-- Carved seal pattern -->
+  <g transform="translate(0,10)" fill="#ffffff" opacity="0.9">
+    <rect x="-15" y="-5" width="30" height="3" rx="1"/>
+    <rect x="-10" y="-1" width="20" height="2" rx="1"/>
+    <rect x="-12" y="2" width="24" height="2" rx="1"/>
+    <circle cx="-8" cy="5" r="2"/>
+    <circle cx="8" cy="5" r="2"/>
+    <rect x="-6" y="7" width="12" height="2" rx="1"/>
+    
+    <!-- Seal shadow -->
+    <ellipse cx="0" cy="23" rx="20" ry="5" fill="#004d40" opacity="0.3"/>
+    </g>
+  
+    <!-- Official document -->
+    <g transform="translate(150,300)" opacity="0.9">
+    <!-- Parchment -->
+    <rect x="0" y="0" width="120" height="80" rx="5" fill="url(#documentGrad26)" stroke="#e0e0e0" stroke-width="2"/>
+    
+    <!-- Document header -->
+    <rect x="5" y="5" width="110" height="15" rx="2" fill="#e0f2f1" stroke="#26a69a" stroke-width="1"/>
+    <text x="60" y="15" font-family="serif" font-size="8" text-anchor="middle" fill="#00695c" font-weight="bold">OFFICIAL DOCUMENT</text>
+    
+    <!-- Document lines -->
+    <g stroke="#bdbdbd" stroke-width="1" opacity="0.7">
+      <line x1="10" y1="30" x2="110" y2="30"/>
+      <line x1="10" y1="38" x2="100" y2="38"/>
+      <line x1="10" y1="46" x2="105" y2="46"/>
+      <line x1="10" y1="54" x2="95" y2="54"/>
+      <line x1="10" y1="62" x2="85" y2="62"/>
+    </g>
+    
+    <!-- Stamped seal on document -->
+    <g transform="translate(80,50)">
+      <circle cx="0" cy="0" r="12" fill="url(#waxGrad26)" opacity="0.8"/>
+      <circle cx="0" cy="0" r="8" fill="#f44336" opacity="0.9"/>
+      
+      <!-- Seal impression -->
+      <g fill="#ffffff" opacity="0.7" font-family="serif" font-size="6">
+        <text x="0" y="-2" text-anchor="middle">SEAL</text>
+        <text x="0" y="4" text-anchor="middle">官</text>
+      </g>
+    </g>
+    
+    <!-- Document fold -->
+    <line x1="0" y1="25" x2="120" y2="25" stroke="#e0e0e0" stroke-width="1" opacity="0.5"/>
+    </g>
+  
+    <!-- Traditional Chinese seal set -->
+    <g transform="translate(350,150)" opacity="0.8">
+    <!-- Large ceremonial seal -->
+    <rect x="0" y="0" width="30" height="30" rx="5" fill="url(#sealGrad26)" stroke="#004d40" stroke-width="2"/>
+    
+    <!-- Seal top knob -->
+    <circle cx="15" cy="-8" r="6" fill="url(#stampGrad26)" stroke="#00695c" stroke-width="1"/>
+    <circle cx="15" cy="-8" r="3" fill="#4db6ac"/>
+    
+    <!-- Intricate carved characters -->
+    <g transform="translate(15,15)" fill="#ffffff" opacity="0.9">
+      <rect x="-8" y="-8" width="16" height="3" rx="1"/>
+      <rect x="-6" y="-3" width="12" height="2" rx="1"/>
+      <circle cx="-4" cy="2" r="2"/>
+      <circle cx="4" cy="2" r="2"/>
+      <rect x="-5" y="5" width="10" height="3" rx="1"/>
+    </g>
+    
+    <!-- Smaller personal seal -->
+    <rect x="40" y="10" width="20" height="20" rx="3" fill="#4db6ac" stroke="#00695c" stroke-width="1"/>
+    <circle cx="50" cy="-3" r="4" fill="#26a69a"/>
+    
+    <!-- Personal seal pattern -->
+    <g transform="translate(50,20)" fill="#ffffff" opacity="0.8">
+      <rect x="-6" y="-6" width="12" height="2" rx="1"/>
+      <circle cx="0" cy="-1" r="2"/>
+      <rect x="-4" y="2" width="8" height="2" rx="1"/>
+    </g>
+    </g>
+  
+    <!-- Ink pad -->
+    <g transform="translate(120,180)" opacity="0.7">
+    <!-- Ink pad case -->
+    <rect x="0" y="0" width="40" height="25" rx="5" fill="#8d6e63" stroke="#5d4037" stroke-width="2"/>
+    
+    <!-- Ink pad interior -->
+    <rect x="3" y="3" width="34" height="19" rx="3" fill="#d32f2f"/>
+    <rect x="5" y="5" width="30" height="15" rx="2" fill="#f44336" opacity="0.8"/>
+    
+    <!-- Ink texture -->
+    <g fill="#b71c1c" opacity="0.6">
+      <circle cx="12" cy="12" r="2"/>
+      <circle cx="20" cy="10" r="1"/>
+      <circle cx="28" cy="14" r="2"/>
+      <circle cx="15" cy="17" r="1"/>
+      <circle cx="25" cy="18" r="1"/>
+    </g>
+    </g>
+  
+    <!-- Government building silhouette -->
+    <g transform="translate(50,120)" opacity="0.6">
+    <!-- Building columns -->
+    <rect x="0" y="20" width="80" height="40" rx="5" fill="#607d8b"/>
+    <g fill="#546e7a">
+      <rect x="8" y="10" width="4" height="50" rx="2"/>
+      <rect x="18" y="10" width="4" height="50" rx="2"/>
+      <rect x="28" y="10" width="4" height="50" rx="2"/>
+      <rect x="38" y="10" width="4" height="50" rx="2"/>
+      <rect x="48" y="10" width="4" height="50" rx="2"/>
+      <rect x="58" y="10" width="4" height="50" rx="2"/>
+      <rect x="68" y="10" width="4" height="50" rx="2"/>
+    </g>
+    
+    <!-- Building roof -->
+    <path d="M-5,20 L40,5 L85,20 Z" fill="#455a64"/>
+    
+    <!-- Pediment -->
+    <rect x="5" y="58" width="70" height="8" rx="2" fill="#37474f"/>
+    </g>
+  
+    <!-- Official ribbon and medal -->
+    <g transform="translate(380,280)" opacity="0.8">
+    <!-- Ribbon -->
+    <rect x="0" y="0" width="6" height="40" rx="3" fill="#1976d2"/>
+    <rect x="8" y="0" width="6" height="40" rx="3" fill="#ffffff"/>
+    <rect x="16" y="0" width="6" height="40" rx="3" fill="#d32f2f"/>
+    
+    <!-- Medal -->
+    <circle cx="11" cy="50" r="15" fill="#ffb300" stroke="#f57c00" stroke-width="2"/>
+    <circle cx="11" cy="50" r="10" fill="#ffc107"/>
+    
+    <!-- Medal emblem -->
+    <g transform="translate(11,50)" fill="#f57c00">
+      <polygon points="0,-6 2,-2 6,-2 3,1 4,5 0,3 -4,5 -3,1 -6,-2 -2,-2"/>
+    </g>
+    </g>
+  
+    <!-- Society elements - scroll with seal -->
+    <g transform="translate(400,380)" opacity="0.7">
+    <!-- Scroll -->
+    <rect x="0" y="0" width="60" height="8" rx="4" fill="#8d6e63"/>
+    <circle cx="0" cy="4" r="4" fill="#a1887f"/>
+    <circle cx="60" cy="4" r="4" fill="#a1887f"/>
+    
+    <!-- Scroll content visible -->
+    <rect x="8" y="-15" width="44" height="30" rx="2" fill="#fff8e1" stroke="#f57c00" stroke-width="1"/>
+    
+    <!-- Text on scroll -->
+    <g stroke="#8d6e63" stroke-width="0.5" opacity="0.7">
+      <line x1="12" y1="-10" x2="48" y2="-10"/>
+      <line x1="12" y1="-5" x2="44" y2="-5"/>
+      <line x1="12" y1="0" x2="46" y2="0"/>
+      <line x1="12" y1="5" x2="40" y2="5"/>
+      <line x1="12" y1="10" x2="42" y2="10"/>
+    </g>
+    
+    <!-- Wax seal on scroll -->
+    <circle cx="30" cy="4" r="6" fill="#d32f2f" opacity="0.8"/>
+    <circle cx="30" cy="4" r="4" fill="#f44336" opacity="0.9"/>
+    </g>
+  
+    <!-- Official filing cabinet -->
+    <g transform="translate(50,350)" opacity="0.6">
+    <rect x="0" y="0" width="60" height="80" rx="5" fill="#757575" stroke="#424242" stroke-width="2"/>
+    
+    <!-- Drawers -->
+    <g stroke="#424242" stroke-width="1">
+      <line x1="0" y1="20" x2="60" y2="20"/>
+      <line x1="0" y1="40" x2="60" y2="40"/>
+      <line x1="0" y1="60" x2="60" y2="60"/>
+    </g>
+    
+    <!-- Drawer handles -->
+    <g fill="#616161">
+      <rect x="45" y="8" width="8" height="4" rx="2"/>
+      <rect x="45" y="28" width="8" height="4" rx="2"/>
+      <rect x="45" y="48" width="8" height="4" rx="2"/>
+      <rect x="45" y="68" width="8" height="4" rx="2"/>
+    </g>
+    
+    <!-- Labels on drawers -->
+    <g fill="#ffffff" font-family="Arial, sans-serif" font-size="6" opacity="0.8">
+      <text x="10" y="12">OFFICIAL</text>
+      <text x="10" y="32">RECORDS</text>
+      <text x="10" y="52">STAMPS</text>
+      <text x="10" y="72">SEALS</text>
+    </g>
+    </g>
+  
+    <!-- Authority sparkles -->
+    <g fill="#4db6ac" opacity="0.7">
+    <path d="M180 120 L190 110 L200 120 L190 130 Z"/>
+    <path d="M320 140 L330 130 L340 140 L330 150 Z"/>
+    <path d="M160 380 L165 375 L170 380 L165 385 Z"/>
+    <path d="M380 200 L385 195 L390 200 L385 205 Z"/>
+    <path d="M120 250 L125 245 L130 250 L125 255 Z"/>
+    </g>
+  
+    <!-- Official validation marks -->
+    <g transform="translate(300,350)" opacity="0.5">
+    <!-- Checkmark -->
+    <g stroke="#4caf50" stroke-width="3" fill="none">
+      <path d="M0,5 L5,10 L15,0"/>
+    </g>
+    <circle cx="7" cy="5" r="12" fill="none" stroke="#4caf50" stroke-width="2"/>
+    
+    <!-- Approved stamp -->
+    <rect x="25" y="-5" width="30" height="15" rx="3" fill="none" stroke="#26a69a" stroke-width="2"/>
+    <text x="40" y="5" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#26a69a">APPROVED</text>
+    </g>
+  
+    <!-- Formal borders -->
+    <g stroke="#26a69a" stroke-width="2" fill="none" opacity="0.4">
+    <rect x="20" y="20" width="460" height="460" rx="10"/>
+    <rect x="30" y="30" width="440" height="440" rx="8"/>
+    </g>
+  
+    <!-- Number indicator -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#00695c" opacity="0.4">26</text>
+  
+    <!-- Kanji character 卩 -->
+    <text x="80" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#004d40" opacity="0.8">卩</text>
+    </g>
+  </g>
+</svg> 

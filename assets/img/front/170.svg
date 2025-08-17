@@ -1,0 +1,147 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hillGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#90EE90"/>
+      <stop offset="50%" stop-color="#32CD32"/>
+      <stop offset="100%" stop-color="#228B22"/>
+    </linearGradient>
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D3D3D3"/>
+      <stop offset="40%" stop-color="#A9A9A9"/>
+      <stop offset="80%" stop-color="#696969"/>
+      <stop offset="100%" stop-color="#2F4F4F"/>
+    </linearGradient>
+    <linearGradient id="damGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C0C0C0"/>
+      <stop offset="50%" stop-color="#A9A9A9"/>
+      <stop offset="100%" stop-color="#808080"/>
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="50%" stop-color="#4682B4"/>
+      <stop offset="100%" stop-color="#191970"/>
+    </linearGradient>
+  </defs>  <!-- Sky background -->
+  <rect width="500" height="500" fill="#E0F6FF"/>
+  
+  <!-- Large mountain in background -->
+  <path d="M0 250 L100 150 L200 120 L300 160 L400 180 L400 400 L0 400 Z" 
+    fill="url(#mountainGradient)" stroke="#696969" stroke-width="1"/>
+  
+  <!-- Snow cap on mountain -->
+  <path d="M150 140 L200 120 L250 150 Q225 160 200 155 Q175 150 150 140" 
+    fill="#FFFFFF" stroke="#E6E6FA" stroke-width="1"/>
+  
+  <!-- Rolling hills -->
+  <path d="M0 280 L80 220 L160 240 L240 200 L320 220 L400 210 L400 400 L0 400 Z" 
+    fill="url(#hillGradient)" stroke="#228B22" stroke-width="1"/>
+  
+  <!-- Smaller mounds -->
+  <ellipse cx="100" cy="320" rx="60" ry="30" fill="#9ACD32" stroke="#6B8E23" stroke-width="1"/>
+  <ellipse cx="300" cy="330" rx="50" ry="25" fill="#90EE90" stroke="#32CD32" stroke-width="1"/>
+  <ellipse cx="50" cy="340" rx="40" ry="20" fill="#98FB98" stroke="#228B22" stroke-width="1"/>
+  
+  <!-- Dam structure -->
+  <path d="M180 200 L220 200 L230 350 L170 350 Z" 
+    fill="url(#damGradient)" stroke="#696969" stroke-width="3"/>
+  
+  <!-- Dam reservoir -->
+  <path d="M50 200 L180 200 L170 350 L50 350 Q40 325 50 300 Q45 275 50 250 Q55 225 50 200" 
+    fill="url(#waterGradient)" stroke="#4682B4" stroke-width="2"/>
+  
+  <!-- Water flowing from dam -->
+  <path d="M220 250 Q240 260 250 280 Q260 300 270 320 Q280 340 290 360" 
+    stroke="#4682B4" stroke-width="8" fill="none"/>
+  <path d="M225 270 Q245 280 255 300 Q265 320 275 340 Q285 360 295 380" 
+    stroke="#87CEEB" stroke-width="6" fill="none"/>
+  
+  <!-- Water splash -->
+  <circle cx="295" cy="380" r="8" fill="#B0E0E6" opacity="0.7"/>
+  <circle cx="300" cy="375" r="6" fill="#E0F6FF" opacity="0.6"/>
+  <circle cx="290" cy="385" r="5" fill="#87CEEB" opacity="0.8"/>
+  
+  <!-- Ancient burial mound -->
+  <ellipse cx="350" cy="280" rx="40" ry="25" fill="#CD853F" stroke="#8B4513" stroke-width="2"/>
+  <!-- Mound entrance -->
+  <rect x="340" y="275" width="20" height="15" rx="10" fill="#2F2F2F"/>
+  <!-- Stone markers -->
+  <rect x="320" y="265" width="6" height="20" fill="#696969"/>
+  <rect x="374" y="270" width="6" height="15" fill="#696969"/>
+  
+  <!-- Hill path -->
+  <path d="M0 350 Q100 340 200 350 Q300 360 400 350" 
+    stroke="#DEB887" stroke-width="12" fill="none"/>
+  <path d="M0 350 Q100 340 200 350 Q300 360 400 350" 
+    stroke="#CD853F" stroke-width="6" fill="none"/>
+  
+  <!-- Trees on hills -->
+  <circle cx="80" cy="240" r="15" fill="#228B22"/>
+  <rect x="77" y="240" width="6" height="25" fill="#8B4513"/>
+  
+  <circle cx="160" cy="220" r="12" fill="#32CD32"/>
+  <rect x="157" y="220" width="6" height="20" fill="#8B4513"/>
+  
+  <circle cx="280" cy="200" r="18" fill="#228B22"/>
+  <rect x="277" y="200" width="6" height="30" fill="#8B4513"/>
+  
+  <circle cx="360" cy="210" r="14" fill="#32CD32"/>
+  <rect x="357" y="210" width="6" height="22" fill="#8B4513"/>
+  
+  <!-- Houses on hills -->
+  <rect x="120" y="230" width="25" height="20" fill="#DEB887" stroke="#8B4513" stroke-width="1"/>
+  <path d="M115 230 L132.5 215 L150 230 Z" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+  <rect x="128" y="240" width="8" height="10" fill="#8B4513"/>
+  
+  <rect x="320" y="200" width="20" height="15" fill="#F0E68C" stroke="#DAA520" stroke-width="1"/>
+  <path d="M316 200 L330 188 L344 200 Z" fill="#4169E1" stroke="#191970" stroke-width="1"/>
+  <rect x="325" y="208" width="6" height="7" fill="#8B4513"/>
+  
+  <!-- Stone quarry -->
+  <rect x="250" y="300" width="60" height="40" fill="#D3D3D3" stroke="#A9A9A9" stroke-width="2"/>
+  <!-- Quarry levels -->
+  <rect x="255" y="310" width="50" height="3" fill="#696969"/>
+  <rect x="260" y="320" width="40" height="3" fill="#696969"/>
+  <rect x="265" y="330" width="30" height="3" fill="#696969"/>
+  
+  <!-- Mining equipment -->
+  <rect x="275" y="295" width="4" height="15" fill="#8B4513"/>
+  <circle cx="277" cy="290" r="8" fill="#FFD700" stroke="#B8860B" stroke-width="1"/>
+  
+  <!-- Terraced hillside -->
+  <path d="M0 320 L50 315 L50 325 L100 320 L100 330 L150 325 L150 335 L200 330" 
+    stroke="#8B4513" stroke-width="3" fill="none"/>
+  <path d="M0 340 L40 335 L40 345 L80 340 L80 350 L120 345 L120 355 L160 350" 
+    stroke="#8B4513" stroke-width="3" fill="none"/>
+  
+  <!-- Windmill on hill -->
+  <rect x="130" y="180" width="6" height="40" fill="#F5DEB3"/>
+  <circle cx="133" cy="180" r="8" fill="#F5DEB3" stroke="#DEB887" stroke-width="2"/>
+  <!-- Windmill blades -->
+  <path d="M133 180 L133 160" stroke="#8B4513" stroke-width="3"/>
+  <path d="M133 180 L153 180" stroke="#8B4513" stroke-width="3"/>
+  <path d="M133 180 L133 200" stroke="#8B4513" stroke-width="3"/>
+  <path d="M133 180 L113 180" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Clouds around mountain peaks -->
+  <circle cx="180" cy="130" r="12" fill="#FFF" opacity="0.8"/>
+  <circle cx="200" cy="125" r="15" fill="#FFF" opacity="0.8"/>
+  <circle cx="220" cy="130" r="10" fill="#FFF" opacity="0.8"/>
+  
+  <circle cx="250" cy="140" r="14" fill="#FFF" opacity="0.7"/>
+  <circle cx="270" cy="135" r="18" fill="#FFF" opacity="0.7"/>
+  <circle cx="290" cy="140" r="12" fill="#FFF" opacity="0.7"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="70" r="25" fill="#FFD700" opacity="0.8"/>
+  <circle cx="350" cy="70" r="20" fill="#FFA500" opacity="0.6"/>
+  
+  <!-- Birds in sky -->
+  <path d="M80 100 Q90 95 100 100" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M90 95 Q100 90 110 95" stroke="#000" stroke-width="2" fill="none"/>
+  
+  <path d="M300 90 Q310 85 320 90" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M310 85 Q320 80 330 85" stroke="#000" stroke-width="2" fill="none"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#2F4F4F">HILLS &amp; MOUNDS / 阜</text>
+</svg> 

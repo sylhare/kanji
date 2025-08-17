@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad143" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffebee;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffcdd2;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="bloodGrad143" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#f44336;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#d32f2f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b71c1c;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad143)"/>
+  
+  <!-- Stylized heart -->
+  <g transform="translate(250,250)">
+  <!-- Heart shape -->
+  <path d="M0 10 Q-20 -10 -35 0 Q-40 10 -20 30 L0 50 L20 30 Q40 10 35 0 Q20 -10 0 10" 
+      fill="url(#bloodGrad143)" stroke="#b71c1c" stroke-width="2"/>
+  
+  <!-- Heart chambers -->
+  <path d="M-15 15 Q-5 5 5 15 Q15 25 0 35 Q-15 25 -15 15" 
+      fill="#ef5350" opacity="0.6"/>
+  
+  <!-- Heartbeat line -->
+  <g stroke="#ffffff" stroke-width="2" opacity="0.8" fill="none">
+  <path d="M-30 0 L-20 0 L-15 -10 L-10 20 L-5 -15 L0 25 L5 -20 L10 15 L15 -8 L20 0 L30 0"/>
+  
+    <!-- Main radical shape 血 (blood) -->
+    <!-- Top horizontal stroke -->
+    <path d="M200 150 L300 150" 
+        stroke="#d32f2f" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+    <!-- Left vertical stroke -->
+    <path d="M220 150 L220 230" 
+        stroke="#d32f2f" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Right vertical stroke -->
+    <path d="M280 150 L280 230" 
+        stroke="#d32f2f" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Middle horizontal stroke -->
+    <path d="M220 190 L280 190" 
+        stroke="#d32f2f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+    <!-- Bottom horizontal stroke -->
+    <path d="M200 230 L300 230" 
+        stroke="#d32f2f" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+    <!-- Center dot -->
+    <circle cx="250" cy="215" r="6" fill="#d32f2f"/>
+  
+    <!-- Blood drops -->
+    <g opacity="0.8">
+    <!-- Large drop -->
+    <path d="M120 200 Q115 185 125 185 Q135 185 130 200 Q125 215 120 200" 
+          fill="url(#bloodGrad143)"/>
+    
+    <!-- Medium drops -->
+    <path d="M380 180 Q377 170 383 170 Q389 170 386 180 Q383 190 380 180" 
+          fill="url(#bloodGrad143)"/>
+    
+    <path d="M100 350 Q97 340 103 340 Q109 340 106 350 Q103 360 100 350" 
+          fill="url(#bloodGrad143)"/>
+    
+    <!-- Small drops -->
+    <path d="M400 320 Q398 315 402 315 Q406 315 404 320 Q402 325 400 320" 
+          fill="url(#bloodGrad143)"/>
+    
+    <path d="M150 400 Q148 395 152 395 Q156 395 154 400 Q152 405 150 400" 
+          fill="url(#bloodGrad143)"/>
+    </g>
+  
+    <!-- Blood circulation system -->
+    <g transform="translate(120,300)" opacity="0.6">
+    <!-- Arteries (red) -->
+    <path d="M0 0 Q20 -20 40 0 Q60 20 80 0" 
+          stroke="#f44336" stroke-width="4" fill="none"/>
+    
+    <!-- Veins (blue) -->
+    <path d="M5 10 Q25 -10 45 10 Q65 30 85 10" 
+          stroke="#2196f3" stroke-width="4" fill="none"/>
+    
+    <!-- Blood cells -->
+    <g fill="#f44336">
+      <circle cx="20" cy="-5" r="2"/>
+      <circle cx="60" cy="5" r="2"/>
+    </g>
+    
+    <g fill="#2196f3">
+      <circle cx="25" cy="5" r="2"/>
+      <circle cx="65" cy="15" r="2"/>
+    </g>
+    </g>
+  
+    <!-- Medical syringe -->
+    <g transform="translate(350,350)" opacity="0.7">
+    <!-- Syringe body -->
+    <rect x="0" y="0" width="30" height="8" rx="4" fill="#e0e0e0"/>
+    
+    <!-- Plunger -->
+    <rect x="-5" y="2" width="8" height="4" fill="#9e9e9e"/>
+    
+    <!-- Needle -->
+    <rect x="30" y="3" width="15" height="2" fill="#757575"/>
+    
+    <!-- Blood in syringe -->
+    <rect x="2" y="2" width="20" height="4" rx="2" fill="#d32f2f"/>
+    
+    <!-- Measurement marks -->
+    <g stroke="#424242" stroke-width="1">
+      <line x1="8" y1="0" x2="8" y2="8"/>
+      <line x1="16" y1="0" x2="16" y2="8"/>
+      <line x1="24" y1="0" x2="24" y2="8"/>
+    </g>
+    </g>
+  
+    <!-- Blood test tube -->
+    <g transform="translate(80,150)" opacity="0.7">
+    <!-- Test tube -->
+    <rect x="0" y="0" width="8" height="40" rx="4" fill="#e0e0e0"/>
+    
+    <!-- Blood sample -->
+    <rect x="1" y="20" width="6" height="19" rx="3" fill="#d32f2f"/>
+    
+    <!-- Label -->
+    <rect x="-2" y="10" width="12" height="8" fill="#ffffff"/>
+    <text x="4" y="16" font-family="Arial" font-size="4" text-anchor="middle" fill="#424242">B+</text>
+    
+    <!-- Cap -->
+    <rect x="-1" y="-3" width="10" height="6" rx="2" fill="#424242"/>
+    </g>
+  
+    <!-- Blood pressure monitor -->
+    <g transform="translate(400,200)" opacity="0.6">
+    <!-- Monitor screen -->
+    <rect x="0" y="0" width="40" height="25" rx="3" fill="#424242"/>
+    <rect x="2" y="2" width="36" height="21" rx="2" fill="#000000"/>
+    
+    <!-- Blood pressure reading -->
+    <text x="20" y="15" font-family="Arial" font-size="8" text-anchor="middle" fill="#00ff00">120/80</text>
+    
+    <!-- Cuff -->
+    <rect x="45" y="8" width="20" height="8" rx="4" fill="#757575"/>
+    
+    <!-- Tube -->
+    <path d="M40 12 Q50 15 45 20" stroke="#424242" stroke-width="2" fill="none"/>
+    </g>
+  
+    <!-- Blood donation -->
+    <g transform="translate(100,400)" opacity="0.6">
+    <!-- Blood bag -->
+    <path d="M0 0 Q-5 -5 0 -10 Q5 -5 0 0 L0 30 Q-8 35 0 40 Q8 35 0 30 Z" 
+          fill="#ffffff" stroke="#bdbdbd" stroke-width="1"/>
+    
+    <!-- Blood in bag -->
+    <path d="M0 5 L0 25 Q-6 30 0 35 Q6 30 0 25 Z" fill="#d32f2f"/>
+    
+    <!-- Tube -->
+    <path d="M0 35 Q10 40 20 35" stroke="#bdbdbd" stroke-width="2" fill="none"/>
+    
+    <!-- Label -->
+    <rect x="-8" y="10" width="16" height="8" fill="#ffffff"/>
+    <text x="0" y="16" font-family="Arial" font-size="4" text-anchor="middle" fill="#d32f2f">O-</text>
+    </g>
+  
+    <!-- Microscope view of blood cells -->
+    <g transform="translate(350,120)" opacity="0.7">
+    <!-- Microscope view circle -->
+    <circle cx="0" cy="0" r="25" fill="#ffffff" stroke="#424242" stroke-width="2"/>
+    
+    <!-- Red blood cells -->
+    <g fill="#f44336" opacity="0.8">
+      <circle cx="-8" cy="-8" r="4"/>
+      <circle cx="8" cy="-5" r="4"/>
+      <circle cx="-3" cy="8" r="4"/>
+      <circle cx="10" cy="10" r="4"/>
+      <circle cx="0" cy="0" r="4"/>
+    </g>
+    
+    <!-- White blood cells -->
+    <g fill="#e0e0e0" opacity="0.8">
+      <circle cx="-15" cy="5" r="3"/>
+      <circle cx="15" cy="-8" r="3"/>
+    </g>
+    
+    <!-- Platelets -->
+    <g fill="#ffeb3b" opacity="0.8">
+      <circle cx="5" cy="-15" r="1"/>
+      <circle cx="-5" cy="15" r="1"/>
+      <circle cx="12" cy="2" r="1"/>
+    </g>
+    </g>
+  
+    <!-- IV drip -->
+    <g transform="translate(450,100)" opacity="0.6">
+    <!-- IV bag -->
+    <rect x="0" y="0" width="20" height="30" rx="3" fill="#e3f2fd"/>
+    
+    <!-- Blood/medicine -->
+    <rect x="2" y="2" width="16" height="26" rx="2" fill="#f44336" opacity="0.3"/>
+    
+    <!-- Drip chamber -->
+    <circle cx="10" cy="35" r="4" fill="#ffffff" stroke="#bdbdbd" stroke-width="1"/>
+    <circle cx="10" cy="35" r="2" fill="#f44336"/>
+    
+    <!-- Tube -->
+    <line x1="10" y1="39" x2="10" y2="60" stroke="#bdbdbd" stroke-width="2"/>
+    
+    <!-- Drip -->
+    <circle cx="10" cy="55" r="1" fill="#f44336"/>
+    </g>
+  
+    <!-- Bandage with blood -->
+    <g transform="translate(200,400)" opacity="0.7">
+    <!-- Bandage -->
+    <rect x="0" y="0" width="40" height="15" rx="7" fill="#fff8e1"/>
+    
+    <!-- Blood stain -->
+    <ellipse cx="20" cy="7" rx="8" ry="4" fill="#d32f2f" opacity="0.6"/>
+    
+    <!-- Bandage texture -->
+    <g stroke="#e0e0e0" stroke-width="1">
+      <line x1="5" y1="3" x2="35" y2="3"/>
+      <line x1="5" y1="7" x2="35" y2="7"/>
+      <line x1="5" y1="11" x2="35" y2="11"/>
+    </g>
+    </g>
+  
+    <!-- Blood trail -->
+    <g opacity="0.5">
+    <g fill="#d32f2f">
+      <circle cx="300" cy="380" r="3"/>
+      <circle cx="310" cy="390" r="2"/>
+      <circle cx="320" cy="395" r="2"/>
+      <circle cx="330" cy="400" r="1"/>
+      <circle cx="340" cy="403" r="1"/>
+    </g>
+    </g>
+  
+    <!-- Pulse/heartbeat graph -->
+    <g transform="translate(50,100)" opacity="0.5">
+    <!-- Graph line -->
+    <rect x="0" y="20" width="100" height="1" fill="#424242"/>
+    
+    <!-- Heartbeat -->
+    <path d="M10 20 L15 10 L20 30 L25 5 L30 35 L35 15 L40 20 L60 20 L65 10 L70 30 L75 5 L80 35 L85 15 L90 20" 
+          stroke="#f44336" stroke-width="2" fill="none"/>
+    </g>
+  
+    <!-- Red cross -->
+    <g transform="translate(450,400)" opacity="0.6">
+    <rect x="0" y="-8" width="8" height="16" fill="#f44336"/>
+    <rect x="-8" y="0" width="16" height="8" fill="#f44336"/>
+    </g>
+  
+    <!-- Kanji character 血 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#d32f2f" opacity="0.8">血</text>
+    </g>
+  </g>
+</svg> 

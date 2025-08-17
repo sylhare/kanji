@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad92" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8eaf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c5cae9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="crystalGrad92" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7986cb;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#5c6bc0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3f51b5;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="prismGlow92" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#e8eaf6;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#e8eaf6;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="facetGrad92" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9fa8da;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#7986cb;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#5c6bc0;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad92)"/>
+  
+  <!-- Nine crystal formations plus two light refractions representing 92 -->
+  <!-- Central master crystal -->
+  <g transform="translate(250,250)">
+  <circle cx="0" cy="0" r="80" fill="url(#prismGlow92)" opacity="0.4"/>
+  
+  <!-- Main crystal -->
+  <polygon points="0,-50 35,-25 35,25 0,50 -35,25 -35,-25" fill="url(#crystalGrad92)" opacity="0.9"/>
+  <polygon points="0,-35 25,-17 25,17 0,35 -25,17 -25,-17" fill="url(#facetGrad92)" opacity="0.7"/>
+  <polygon points="0,-20 15,-10 15,10 0,20 -15,10 -15,-10" fill="#e8eaf6" opacity="0.6"/>
+  
+  <!-- Crystal core -->
+  <circle cx="0" cy="0" r="10" fill="#3f51b5"/>
+  <circle cx="0" cy="0" r="5" fill="#e8eaf6"/>
+  
+  <!-- Nine surrounding crystals -->
+  <!-- Crystal 1: North -->
+  <g transform="translate(250,120)">
+  <polygon points="0,-25 18,-12 18,12 0,25 -18,12 -18,-12" fill="url(#crystalGrad92)" opacity="0.8"/>
+  <polygon points="0,-18 13,-9 13,9 0,18 -13,9 -13,-9" fill="url(#facetGrad92)" opacity="0.6"/>
+  <polygon points="0,-10 7,-5 7,5 0,10 -7,5 -7,-5" fill="#e8eaf6" opacity="0.5"/>
+  <circle cx="0" cy="0" r="4" fill="#5c6bc0"/>
+  
+    <!-- Crystal 2: Northeast -->
+    <g transform="translate(380,150)">
+    <polygon points="0,-22 15,-11 15,11 0,22 -15,11 -15,-11" fill="url(#crystalGrad92)" opacity="0.7"/>
+    <polygon points="0,-15 10,-7 10,7 0,15 -10,7 -10,-7" fill="url(#facetGrad92)" opacity="0.6"/>
+    <polygon points="0,-8 5,-4 5,4 0,8 -5,4 -5,-4" fill="#e8eaf6" opacity="0.5"/>
+    <circle cx="0" cy="0" r="3" fill="#5c6bc0"/>
+    </g>
+  
+    <!-- Crystal 3: East -->
+    <g transform="translate(420,250)">
+    <polygon points="0,-24 16,-12 16,12 0,24 -16,12 -16,-12" fill="url(#crystalGrad92)" opacity="0.8"/>
+    <polygon points="0,-17 11,-8 11,8 0,17 -11,8 -11,-8" fill="url(#facetGrad92)" opacity="0.6"/>
+    <polygon points="0,-9 6,-4 6,4 0,9 -6,4 -6,-4" fill="#e8eaf6" opacity="0.5"/>
+    <circle cx="0" cy="0" r="4" fill="#5c6bc0"/>
+    </g>
+  
+    <!-- Crystal 4: Southeast -->
+    <g transform="translate(380,350)">
+    <polygon points="0,-22 15,-11 15,11 0,22 -15,11 -15,-11" fill="url(#crystalGrad92)" opacity="0.7"/>
+    <polygon points="0,-15 10,-7 10,7 0,15 -10,7 -10,-7" fill="url(#facetGrad92)" opacity="0.6"/>
+    <polygon points="0,-8 5,-4 5,4 0,8 -5,4 -5,-4" fill="#e8eaf6" opacity="0.5"/>
+    <circle cx="0" cy="0" r="3" fill="#5c6bc0"/>
+    </g>
+  
+    <!-- Crystal 5: South -->
+    <g transform="translate(250,380)">
+    <polygon points="0,-25 18,-12 18,12 0,25 -18,12 -18,-12" fill="url(#crystalGrad92)" opacity="0.8"/>
+    <polygon points="0,-18 13,-9 13,9 0,18 -13,9 -13,-9" fill="url(#facetGrad92)" opacity="0.6"/>
+    <polygon points="0,-10 7,-5 7,5 0,10 -7,5 -7,-5" fill="#e8eaf6" opacity="0.5"/>
+    <circle cx="0" cy="0" r="4" fill="#5c6bc0"/>
+    </g>
+  
+    <!-- Crystal 6: Southwest -->
+    <g transform="translate(120,350)">
+    <polygon points="0,-22 15,-11 15,11 0,22 -15,11 -15,-11" fill="url(#crystalGrad92)" opacity="0.7"/>
+    <polygon points="0,-15 10,-7 10,7 0,15 -10,7 -10,-7" fill="url(#facetGrad92)" opacity="0.6"/>
+    <polygon points="0,-8 5,-4 5,4 0,8 -5,4 -5,-4" fill="#e8eaf6" opacity="0.5"/>
+    <circle cx="0" cy="0" r="3" fill="#5c6bc0"/>
+    </g>
+  
+    <!-- Crystal 7: West -->
+    <g transform="translate(80,250)">
+    <polygon points="0,-24 16,-12 16,12 0,24 -16,12 -16,-12" fill="url(#crystalGrad92)" opacity="0.8"/>
+    <polygon points="0,-17 11,-8 11,8 0,17 -11,8 -11,-8" fill="url(#facetGrad92)" opacity="0.6"/>
+    <polygon points="0,-9 6,-4 6,4 0,9 -6,4 -6,-4" fill="#e8eaf6" opacity="0.5"/>
+    <circle cx="0" cy="0" r="4" fill="#5c6bc0"/>
+    </g>
+  
+    <!-- Crystal 8: Northwest -->
+    <g transform="translate(120,150)">
+    <polygon points="0,-22 15,-11 15,11 0,22 -15,11 -15,-11" fill="url(#crystalGrad92)" opacity="0.7"/>
+    <polygon points="0,-15 10,-7 10,7 0,15 -10,7 -10,-7" fill="url(#facetGrad92)" opacity="0.6"/>
+    <polygon points="0,-8 5,-4 5,4 0,8 -5,4 -5,-4" fill="#e8eaf6" opacity="0.5"/>
+    <circle cx="0" cy="0" r="3" fill="#5c6bc0"/>
+    </g>
+  
+    <!-- Crystal 9: Upper center -->
+    <g transform="translate(250,180)">
+    <polygon points="0,-18 12,-9 12,9 0,18 -12,9 -12,-9" fill="url(#crystalGrad92)" opacity="0.7"/>
+    <polygon points="0,-12 8,-6 8,6 0,12 -8,6 -8,-6" fill="url(#facetGrad92)" opacity="0.6"/>
+    <polygon points="0,-6 4,-3 4,3 0,6 -4,3 -4,-3" fill="#e8eaf6" opacity="0.5"/>
+    <circle cx="0" cy="0" r="2" fill="#5c6bc0"/>
+    </g>
+  
+    <!-- Two major light refractions -->
+    <!-- Refraction 1: Diagonal from upper left to lower right -->
+    <g stroke="url(#facetGrad92)" stroke-width="4" fill="none" opacity="0.6">
+    <path d="M100 100 Q180 140 250 180 Q320 220 400 260 Q380 300 360 340"/>
+    </g>
+  
+    <!-- Refraction 2: Diagonal from upper right to lower left -->
+    <g stroke="url(#facetGrad92)" stroke-width="4" fill="none" opacity="0.6">
+    <path d="M400 100 Q320 140 250 180 Q180 220 100 260 Q120 300 140 340"/>
+    </g>
+  
+    <!-- Crystal lattice structure -->
+    <g stroke="#7986cb" stroke-width="1" fill="none" opacity="0.3">
+    <circle cx="250" cy="250" r="120"/>
+    <circle cx="250" cy="250" r="160"/>
+    <circle cx="250" cy="250" r="200"/>
+    </g>
+  
+    <!-- Prismatic light rays -->
+    <g stroke="#9fa8da" stroke-width="2" fill="none" opacity="0.4">
+    <line x1="250" y1="190" x2="250" y2="150"/>
+    <line x1="290" y1="210" x2="330" y2="190"/>
+    <line x1="290" y1="290" x2="330" y2="310"/>
+    <line x1="250" y1="310" x2="250" y2="350"/>
+    <line x1="210" y1="290" x2="170" y2="310"/>
+    <line x1="210" y1="210" x2="170" y2="190"/>
+    </g>
+  
+    <!-- Spectral particles -->
+    <g fill="#c5cae9" opacity="0.6">
+    <circle cx="150" cy="120" r="2"/>
+    <circle cx="350" cy="120" r="3"/>
+    <circle cx="150" cy="380" r="2"/>
+    <circle cx="350" cy="380" r="3"/>
+    <circle cx="50" cy="250" r="2"/>
+    <circle cx="450" cy="250" r="3"/>
+    <circle cx="250" cy="50" r="2"/>
+    <circle cx="250" cy="450" r="3"/>
+    </g>
+  
+    <!-- Crystal resonance -->
+    <g stroke="#e8eaf6" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M50 100 Q150 80 250 100"/>
+    <path d="M250 100 Q350 80 450 100"/>
+    <path d="M450 200 Q430 300 450 400"/>
+    <path d="M400 450 Q300 430 200 450"/>
+    <path d="M50 400 Q70 300 50 200"/>
+    </g>
+  
+    <!-- Crystal sparkles -->
+    <g fill="#ffffff" opacity="0.8">
+    <path d="M90 90 L95 85 L100 90 L95 95 Z"/>
+    <path d="M410 90 L415 85 L420 90 L415 95 Z"/>
+    <path d="M90 410 L95 405 L100 410 L95 415 Z"/>
+    <path d="M410 410 L415 405 L420 410 L415 415 Z"/>
+    <path d="M250 60 L253 57 L256 60 L253 63 Z"/>
+    <path d="M250 440 L253 437 L256 440 L253 443 Z"/>
+    </g>
+  
+    <!-- Number "92" integrated -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#283593" opacity="0.5">92</text>
+  
+    <!-- Kanji character 九十二 -->
+    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#283593" opacity="0.9">九十二</text>
+    </g>
+  </g>
+</svg> 

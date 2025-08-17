@@ -1,0 +1,226 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hairGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="50%" stop-color="#A0522D"/>
+      <stop offset="100%" stop-color="#654321"/>
+    </linearGradient>
+    <linearGradient id="hairGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#DAA520"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="hairGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="50%" stop-color="#2F2F2F"/>
+      <stop offset="100%" stop-color="#696969"/>
+    </linearGradient>
+    <radialGradient id="headGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFDAB9"/>
+      <stop offset="50%" stop-color="#DEB887"/>
+      <stop offset="100%" stop-color="#CD853F"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#F0F8FF"/>
+  
+  <!-- Long flowing hair (main feature) -->
+  <path d="M200 80 Q180 100 160 140 Q140 180 130 220 Q125 260 135 300 Q145 340 160 380" 
+    stroke="url(#hairGradient1)" stroke-width="12" fill="none"/>
+  <path d="M200 80 Q190 100 180 140 Q170 180 165 220 Q160 260 170 300 Q180 340 195 380" 
+    stroke="url(#hairGradient1)" stroke-width="10" fill="none"/>
+  <path d="M200 80 Q200 100 200 140 Q200 180 200 220 Q200 260 200 300 Q200 340 200 380" 
+    stroke="url(#hairGradient1)" stroke-width="14" fill="none"/>
+  <path d="M200 80 Q210 100 220 140 Q230 180 235 220 Q240 260 230 300 Q220 340 205 380" 
+    stroke="url(#hairGradient1)" stroke-width="10" fill="none"/>
+  <path d="M200 80 Q220 100 240 140 Q260 180 270 220 Q275 260 265 300 Q255 340 240 380" 
+    stroke="url(#hairGradient1)" stroke-width="12" fill="none"/>
+  
+  <!-- Head with different hairstyles -->
+  <!-- Head 1 - Long curly hair -->
+  <circle cx="80" cy="150" r="25" fill="url(#headGradient)" stroke="#CD853F" stroke-width="2"/>
+  
+  <!-- Curly hair -->
+  <g stroke="url(#hairGradient2)" stroke-width="8" fill="none">
+  <path d="M60 130 Q50 120 60 110 Q70 120 60 130"/>
+  <path d="M70 125 Q60 115 70 105 Q80 115 70 125"/>
+  <path d="M80 120 Q70 110 80 100 Q90 110 80 120"/>
+  <path d="M90 125 Q80 115 90 105 Q100 115 90 125"/>
+  <path d="M100 130 Q90 120 100 110 Q110 120 100 130"/>
+  <path d="M55 140 Q45 135 55 125 Q65 135 55 140"/>
+  <path d="M105 140 Q95 135 105 125 Q115 135 105 140"/>
+  <path d="M60 150 Q50 145 60 135 Q70 145 60 150"/>
+  <path d="M100 150 Q90 145 100 135 Q110 145 100 150"/>
+  
+  <!-- Head 2 - Straight long hair -->
+  <circle cx="200" cy="50" r="20" fill="url(#headGradient)" stroke="#CD853F" stroke-width="2"/>
+  
+  <!-- Head 3 - Braided hair -->
+  <circle cx="320" cy="150" r="25" fill="url(#headGradient)" stroke="#CD853F" stroke-width="2"/>
+  
+  <!-- Braided hair -->
+  <g stroke="url(#hairGradient3)" stroke-width="10" fill="none">
+  <path d="M310 125 Q300 140 310 155 Q320 170 310 185 Q300 200 310 215 Q320 230 310 245"/>
+  <path d="M330 125 Q340 140 330 155 Q320 170 330 185 Q340 200 330 215 Q320 230 330 245"/>
+  
+    <!-- Braid weaving pattern -->
+    <g stroke="url(#hairGradient3)" stroke-width="6" fill="none">
+    <path d="M320 130 Q315 145 320 160 Q325 175 320 190 Q315 205 320 220 Q325 235 320 250"/>
+    </g>
+  
+    <!-- Ponytail -->
+    <circle cx="100" cy="300" r="20" fill="url(#headGradient)" stroke="#CD853F" stroke-width="2"/>
+  
+    <!-- Ponytail hair -->
+    <g stroke="url(#hairGradient2)" stroke-width="8" fill="none">
+    <path d="M100 280 Q105 290 110 300 Q115 310 120 320 Q125 330 130 340 Q135 350 140 360"/>
+    <path d="M100 280 Q95 290 90 300 Q85 310 80 320 Q75 330 70 340 Q65 350 60 360"/>
+    <path d="M100 280 Q100 295 100 310 Q100 325 100 340 Q100 355 100 370"/>
+    </g>
+  
+    <!-- Hair band -->
+    <ellipse cx="100" cy="285" rx="15" ry="5" fill="#FF69B4" stroke="#DC143C" stroke-width="2"/>
+  
+    <!-- Short bob cut -->
+    <circle cx="300" cy="300" r="20" fill="url(#headGradient)" stroke="#CD853F" stroke-width="2"/>
+  
+    <!-- Bob hair -->
+    <path d="M275 285 Q280 290 285 295 Q290 300 295 305 Q300 310 305 305 Q310 300 315 295 Q320 290 325 285 Q315 275 300 280 Q285 275 275 285" 
+        fill="url(#hairGradient3)" stroke="#000" stroke-width="2"/>
+  
+    <!-- Hair accessories -->
+    <!-- Hair clips -->
+    <rect x="95" y="140" width="8" height="4" rx="2" fill="#FF69B4" stroke="#DC143C" stroke-width="1"/>
+    <rect x="315" y="140" width="8" height="4" rx="2" fill="#32CD32" stroke="#228B22" stroke-width="1"/>
+  
+    <!-- Hair brush -->
+    <ellipse cx="50" cy="50" rx="8" ry="20" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  
+    <!-- Brush bristles -->
+    <g stroke="#654321" stroke-width="1">
+    <path d="M45 45 L55 45"/>
+    <path d="M45 50 L55 50"/>
+    <path d="M45 55 L55 55"/>
+    <path d="M45 60 L55 60"/>
+    <path d="M45 65 L55 65"/>
+    <path d="M45 70 L55 70"/>
+    </g>
+  
+    <!-- Comb -->
+    <rect x="350" y="50" width="15" height="3" fill="#A9A9A9" stroke="#696969" stroke-width="1"/>
+  
+    <!-- Comb teeth -->
+    <g stroke="#696969" stroke-width="1">
+    <path d="M352 53 L352 65"/>
+    <path d="M355 53 L355 65"/>
+    <path d="M358 53 L358 65"/>
+    <path d="M361 53 L361 65"/>
+    <path d="M363 53 L363 65"/>
+    </g>
+  
+    <!-- Hair scissors -->
+    <g stroke="#C0C0C0" stroke-width="3" fill="none">
+    <circle cx="380" cy="300" r="8"/>
+    <circle cx="395" cy="315" r="8"/>
+    <path d="M380 300 L395 315"/>
+    <path d="M375 295 L385 285"/>
+    <path d="M400 320 L390 330"/>
+    </g>
+  
+    <!-- Hair dryer -->
+    <ellipse cx="50" cy="350" rx="20" ry="12" fill="#FF69B4" stroke="#DC143C" stroke-width="2"/>
+  
+    <!-- Hair dryer nozzle -->
+    <rect x="70" y="345" width="15" height="10" fill="#FF69B4" stroke="#DC143C" stroke-width="1"/>
+  
+    <!-- Hot air -->
+    <g stroke="#FFD700" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M85 350 Q95 345 105 350"/>
+    <path d="M85 347 Q95 342 105 347"/>
+    <path d="M85 353 Q95 348 105 353"/>
+    </g>
+  
+    <!-- Hair gel/product bottle -->
+    <rect x="350" y="350" width="15" height="30" rx="3" fill="#87CEEB" stroke="#4682B4" stroke-width="2"/>
+    <rect x="352" y="345" width="11" height="8" fill="#4682B4"/>
+    <circle cx="357.5" cy="340" r="3" fill="#2F4F4F"/>
+  
+    <!-- Shampoo bottle -->
+    <ellipse cx="380" cy="365" rx="8" ry="15" fill="#32CD32" stroke="#228B22" stroke-width="2"/>
+    <rect x="375" y="345" width="10" height="8" fill="#228B22"/>
+    <circle cx="380" cy="340" r="3" fill="#006400"/>
+  
+    <!-- Hair curler -->
+    <rect x="150" y="350" width="40" height="8" rx="4" fill="#FF69B4" stroke="#DC143C" stroke-width="2"/>
+  
+    <!-- Curler sections -->
+    <g stroke="#DC143C" stroke-width="1">
+    <path d="M155 350 L155 358"/>
+    <path d="M165 350 L165 358"/>
+    <path d="M175 350 L175 358"/>
+    <path d="M185 350 L185 358"/>
+    </g>
+  
+    <!-- Hair straightener -->
+    <rect x="200" y="350" width="30" height="6" fill="#2F2F2F" stroke="#000" stroke-width="2"/>
+    <rect x="200" y="360" width="30" height="6" fill="#2F2F2F" stroke="#000" stroke-width="2"/>
+  
+    <!-- Straightener hinge -->
+    <circle cx="200" cy="357" r="3" fill="#696969"/>
+  
+    <!-- Hair elastic/scrunchie -->
+    <circle cx="120" cy="380" r="8" fill="#9370DB" stroke="#4B0082" stroke-width="2"/>
+    <circle cx="120" cy="380" r="4" fill="none" stroke="#8A2BE2" stroke-width="2"/>
+  
+    <!-- Hair spray -->
+    <ellipse cx="280" cy="370" rx="8" ry="20" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+    <rect x="275" y="345" width="10" height="8" fill="#DAA520"/>
+    <circle cx="280" cy="340" r="3" fill="#B8860B"/>
+  
+    <!-- Spray mist -->
+    <g fill="#E6E6FA" opacity="0.5">
+    <circle cx="285" cy="335" r="1"/>
+    <circle cx="290" cy="330" r="1.5"/>
+    <circle cx="295" cy="325" r="1"/>
+    <circle cx="300" cy="320" r="1.5"/>
+    </g>
+  
+    <!-- Hair salon chair -->
+    <rect x="250" y="200" width="40" height="60" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+    <circle cx="270" cy="190" r="15" fill="#A0522D" stroke="#8B4513" stroke-width="2"/>
+    <rect x="265" y="260" width="10" height="30" fill="#A9A9A9"/>
+  
+    <!-- Wig on stand -->
+    <rect x="150" y="250" width="6" height="40" fill="#8B4513"/>
+    <circle cx="153" cy="240" r="15" fill="url(#hairGradient2)" stroke="#DAA520" stroke-width="2"/>
+  
+    <!-- Wig hair -->
+    <g stroke="url(#hairGradient2)" stroke-width="4" fill="none">
+    <path d="M140 235 Q130 240 125 250"/>
+    <path d="M145 230 Q135 235 130 245"/>
+    <path d="M160 230 Q170 235 175 245"/>
+    <path d="M165 235 Q175 240 180 250"/>
+    </g>
+  
+    <!-- Hair falling/cut hair -->
+    <g fill="url(#hairGradient1)" opacity="0.6">
+    <ellipse cx="375" cy="330" rx="2" ry="8" transform="rotate(45 375 330)"/>
+    <ellipse cx="385" cy="335" rx="2" ry="6" transform="rotate(-30 385 335)"/>
+    <ellipse cx="390" cy="345" rx="1.5" ry="5" transform="rotate(60 390 345)"/>
+    <ellipse cx="380" cy="350" rx="2" ry="7" transform="rotate(-45 380 350)"/>
+    </g>
+  
+    <!-- Hair texture/waves demonstration -->
+    <g stroke="url(#hairGradient1)" stroke-width="6" fill="none" opacity="0.7">
+    <path d="M20 200 Q30 190 40 200 Q50 210 60 200 Q70 190 80 200"/>
+    <path d="M20 215 Q30 205 40 215 Q50 225 60 215 Q70 205 80 215"/>
+    <path d="M20 230 Q30 220 40 230 Q50 240 60 230 Q70 220 80 230"/>
+    </g>
+  
+    <!-- Chinese character -->
+    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#8B4513">髟</text>
+  
+    <!-- Title -->
+    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#654321">HAIR &amp; HAIRSTYLES</text>
+    </g>
+  </g>
+</svg> 

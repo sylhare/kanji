@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad22" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fafafa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f5f5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="boxGrad22" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="storageGrad22" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#a1887f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8d6e63;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="paperGrad22" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fff3c4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffecb3;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glowGrad22" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#bcaaa4;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#bcaaa4;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="shadowGrad22" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3e2723;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#3e2723;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad22)"/>
+  
+  <!-- Storage room glow -->
+  <ellipse cx="250" cy="250" rx="180" ry="140" fill="url(#glowGrad22)"/>
+  
+  <!-- Main storage box representing 匚 -->
+  <g transform="translate(250,250)" opacity="0.95">
+  <!-- Box shadow -->
+  <rect x="-47" y="28" width="94" height="72" rx="8" fill="url(#shadowGrad22)"/>
+  
+  <!-- Box front -->
+  <rect x="-45" y="25" width="90" height="70" rx="8" fill="url(#boxGrad22)" stroke="#3e2723" stroke-width="3"/>
+  
+  <!-- Box top (lid) -->
+  <rect x="-50" y="15" width="100" height="15" rx="5" fill="url(#storageGrad22)" stroke="#5d4037" stroke-width="2"/>
+  
+  <!-- Box sides showing 3D depth -->
+  <path d="M45,25 L55,15 L55,85 L45,95 Z" fill="#5d4037" opacity="0.8"/>
+  <path d="M-45,25 L-50,15 L50,15 L45,25 Z" fill="#a1887f" opacity="0.6"/>
+  
+  <!-- Box interior showing depth -->
+  <rect x="-40" y="30" width="80" height="60" rx="5" fill="#3e2723" opacity="0.3"/>
+  
+  <!-- Wood grain texture -->
+  <g stroke="#5d4037" stroke-width="1" opacity="0.7">
+  <line x1="-40" y1="35" x2="40" y2="35"/>
+  <line x1="-40" y1="50" x2="40" y2="50"/>
+  <line x1="-40" y1="65" x2="40" y2="65"/>
+  <line x1="-40" y1="80" x2="40" y2="80"/>
+  
+  <!-- Box handle -->
+  <rect x="-15" y="12" width="30" height="8" rx="4" fill="#616161" stroke="#424242" stroke-width="1"/>
+  
+  <!-- Metal corner reinforcements -->
+  <g fill="#616161" stroke="#424242" stroke-width="1">
+    <rect x="-45" y="25" width="8" height="8" rx="1"/>
+    <rect x="37" y="25" width="8" height="8" rx="1"/>
+    <rect x="-45" y="87" width="8" height="8" rx="1"/>
+    <rect x="37" y="87" width="8" height="8" rx="1"/>
+    </g>
+  
+    <!-- Stack of smaller boxes -->
+    <g transform="translate(120,180)" opacity="0.9">
+    <!-- Bottom box -->
+    <rect x="0" y="20" width="60" height="40" rx="5" fill="url(#storageGrad22)" stroke="#6d4c41" stroke-width="2"/>
+    <rect x="5" y="25" width="50" height="30" rx="3" fill="#3e2723" opacity="0.2"/>
+    
+    <!-- Middle box -->
+    <rect x="5" y="0" width="50" height="25" rx="4" fill="url(#boxGrad22)" stroke="#5d4037" stroke-width="2"/>
+    <rect x="8" y="3" width="44" height="19" rx="2" fill="#3e2723" opacity="0.2"/>
+    
+    <!-- Top box -->
+    <rect x="10" y="-15" width="40" height="20" rx="3" fill="#a1887f" stroke="#6d4c41" stroke-width="2"/>
+    <rect x="13" y="-12" width="34" height="14" rx="1" fill="#3e2723" opacity="0.2"/>
+    
+    <!-- Labels on boxes -->
+    <g fill="#fff8e1" font-family="Arial, sans-serif" font-size="8" text-anchor="middle">
+      <text x="30" y="43" opacity="0.8">BOOKS</text>
+      <text x="30" y="15" opacity="0.8">PHOTOS</text>
+      <text x="30" y="-5" opacity="0.8">MISC</text>
+    </g>
+    </g>
+  
+    <!-- File organizer -->
+    <g transform="translate(350,200)" opacity="0.8">
+    <!-- Organizer base -->
+    <rect x="0" y="0" width="80" height="60" rx="5" fill="url(#paperGrad22)" stroke="#f57c00" stroke-width="2"/>
+    
+    <!-- Dividers -->
+    <g fill="#ffcc02" opacity="0.8">
+      <rect x="20" y="5" width="3" height="50" rx="1"/>
+      <rect x="40" y="5" width="3" height="50" rx="1"/>
+      <rect x="60" y="5" width="3" height="50" rx="1"/>
+    </g>
+    
+    <!-- Files/documents -->
+    <g fill="#ffffff" stroke="#e0e0e0" stroke-width="1">
+      <rect x="5" y="8" width="12" height="45" rx="1"/>
+      <rect x="25" y="10" width="12" height="43" rx="1"/>
+      <rect x="45" y="7" width="12" height="46" rx="1"/>
+      <rect x="65" y="9" width="12" height="44" rx="1"/>
+    </g>
+    
+    <!-- File tabs -->
+    <g fill="#2196f3" opacity="0.7">
+      <rect x="8" y="8" width="6" height="4" rx="1"/>
+      <rect x="28" y="10" width="6" height="4" rx="1"/>
+      <rect x="48" y="7" width="6" height="4" rx="1"/>
+      <rect x="68" y="9" width="6" height="4" rx="1"/>
+    </g>
+    </g>
+  
+    <!-- Decorative storage shelf -->
+    <g transform="translate(80,350)" opacity="0.7">
+    <!-- Shelf -->
+    <rect x="0" y="0" width="120" height="15" rx="5" fill="#8d6e63"/>
+    <rect x="0" y="0" width="120" height="5" rx="2" fill="#a1887f" opacity="0.8"/>
+    
+    <!-- Shelf brackets -->
+    <g fill="#616161">
+      <rect x="10" y="0" width="8" height="20" rx="2"/>
+      <rect x="102" y="0" width="8" height="20" rx="2"/>
+    </g>
+    
+    <!-- Items on shelf -->
+    <g opacity="0.9">
+      <!-- Books -->
+      <rect x="20" y="-25" width="4" height="25" rx="1" fill="#d32f2f"/>
+      <rect x="25" y="-23" width="4" height="23" rx="1" fill="#1976d2"/>
+      <rect x="30" y="-24" width="4" height="24" rx="1" fill="#388e3c"/>
+      
+      <!-- Decorative box -->
+      <rect x="45" y="-15" width="25" height="15" rx="3" fill="#ab47bc"/>
+      <circle cx="57" cy="-7" r="2" fill="#e1bee7"/>
+      
+      <!-- Small container -->
+      <rect x="80" y="-12" width="15" height="12" rx="2" fill="#ff7043"/>
+    </g>
+    </g>
+  
+    <!-- Home organization elements -->
+    <g transform="translate(50,100)" opacity="0.6">
+    <!-- Wall calendar -->
+    <rect x="0" y="0" width="40" height="50" rx="3" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+    <rect x="0" y="0" width="40" height="10" rx="3" fill="#1976d2"/>
+    
+    <!-- Calendar grid -->
+    <g stroke="#e0e0e0" stroke-width="0.5">
+      <line x1="0" y1="20" x2="40" y2="20"/>
+      <line x1="0" y1="30" x2="40" y2="30"/>
+      <line x1="0" y1="40" x2="40" y2="40"/>
+      <line x1="10" y1="10" x2="10" y2="50"/>
+      <line x1="20" y1="10" x2="20" y2="50"/>
+      <line x1="30" y1="10" x2="30" y2="50"/>
+    </g>
+    
+    <!-- Calendar title -->
+    <text x="20" y="7" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#ffffff">ORGANIZE</text>
+    </g>
+  
+    <!-- Storage basket -->
+    <g transform="translate(400,350)" opacity="0.8">
+    <!-- Basket weave pattern -->
+    <ellipse cx="0" cy="0" rx="30" ry="20" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2"/>
+    
+    <!-- Weave texture -->
+    <g stroke="#a1887f" stroke-width="1" fill="none" opacity="0.7">
+      <path d="M-25,-10 Q-20,-5 -15,-10 Q-10,-5 -5,-10"/>
+      <path d="M-25,0 Q-20,5 -15,0 Q-10,5 -5,0"/>
+      <path d="M-5,-10 Q0,-5 5,-10 Q10,-5 15,-10"/>
+      <path d="M-5,0 Q0,5 5,0 Q10,5 15,0"/>
+      <path d="M15,-10 Q20,-5 25,-10"/>
+      <path d="M15,0 Q20,5 25,0"/>
+    </g>
+    
+    <!-- Basket handles -->
+    <g stroke="#8d6e63" stroke-width="3" fill="none">
+      <path d="M-35,-5 Q-40,-10 -35,-15"/>
+      <path d="M35,-5 Q40,-10 35,-15"/>
+    </g>
+    
+    <!-- Contents -->
+    <ellipse cx="0" cy="-5" rx="20" ry="12" fill="#f3e5f5" opacity="0.8"/>
+    </g>
+  
+    <!-- Tool organizer -->
+    <g transform="translate(420,120)" opacity="0.7">
+    <rect x="0" y="0" width="60" height="80" rx="5" fill="url(#storageGrad22)" stroke="#6d4c41" stroke-width="2"/>
+    
+    <!-- Tool slots -->
+    <g fill="#3e2723" opacity="0.3">
+      <rect x="5" y="5" width="8" height="70" rx="2"/>
+      <rect x="16" y="5" width="6" height="70" rx="1"/>
+      <rect x="25" y="5" width="10" height="70" rx="2"/>
+      <rect x="38" y="5" width="7" height="70" rx="1"/>
+      <rect x="48" y="5" width="9" height="70" rx="2"/>
+    </g>
+    
+    <!-- Some tools visible -->
+    <g opacity="0.9">
+      <rect x="6" y="10" width="6" height="40" rx="1" fill="#757575"/>
+      <rect x="27" y="15" width="6" height="35" rx="1" fill="#616161"/>
+      <rect x="50" y="8" width="5" height="45" rx="1" fill="#757575"/>
+    </g>
+    </g>
+  
+    <!-- Organizational sparkles -->
+    <g fill="#a1887f" opacity="0.6">
+    <path d="M150 120 L160 110 L170 120 L160 130 Z"/>
+    <path d="M320 160 L330 150 L340 160 L330 170 Z"/>
+    <path d="M180 370 L185 365 L190 370 L185 375 Z"/>
+    <path d="M380 280 L385 275 L390 280 L385 285 Z"/>
+    </g>
+  
+    <!-- Storage labels -->
+    <g transform="translate(200,400)" opacity="0.5">
+    <rect x="0" y="0" width="25" height="8" rx="2" fill="#ffeb3b"/>
+    <text x="12" y="6" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#f57c00">STORAGE</text>
+    
+    <rect x="30" y="0" width="20" height="8" rx="2" fill="#4caf50"/>
+    <text x="40" y="6" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#ffffff">HOME</text>
+    </g>
+  
+    <!-- Number indicator -->
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#6d4c41" opacity="0.4">22</text>
+  
+    <!-- Kanji character 匚 -->
+    <text x="450" y="50" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#5d4037" opacity="0.8">匚</text>
+    </g>
+  </g>
+</svg> 

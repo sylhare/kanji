@@ -1,0 +1,224 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="horseGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DEB887"/>
+      <stop offset="50%" stop-color="#D2691E"/>
+      <stop offset="100%" stop-color="#8B4513"/>
+    </linearGradient>
+    <linearGradient id="maneGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#654321"/>
+      <stop offset="50%" stop-color="#8B4513"/>
+      <stop offset="100%" stop-color="#4B0000"/>
+    </linearGradient>
+    <radialGradient id="fieldGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#90EE90"/>
+      <stop offset="50%" stop-color="#32CD32"/>
+      <stop offset="100%" stop-color="#228B22"/>
+    </radialGradient>
+  </defs>  <!-- Background field -->
+  <rect width="500" height="500" fill="url(#fieldGradient)"/>
+  
+  <!-- Sky -->
+  <rect width="400" height="150" fill="#87CEEB"/>
+  
+  <!-- Main horse -->
+  <ellipse cx="200" cy="250" rx="40" ry="60" fill="url(#horseGradient)" stroke="#654321" stroke-width="3"/>
+  
+  <!-- Horse head -->
+  <ellipse cx="200" cy="180" rx="25" ry="35" fill="url(#horseGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Horse muzzle -->
+  <ellipse cx="200" cy="200" rx="12" ry="18" fill="url(#horseGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Horse nostrils -->
+  <ellipse cx="195" cy="205" rx="2" ry="4" fill="#000"/>
+  <ellipse cx="205" cy="205" rx="2" ry="4" fill="#000"/>
+  
+  <!-- Horse eyes -->
+  <circle cx="190" cy="175" r="5" fill="#000"/>
+  <circle cx="210" cy="175" r="5" fill="#000"/>
+  <circle cx="192" cy="173" r="2" fill="#FFF"/>
+  <circle cx="212" cy="173" r="2" fill="#FFF"/>
+  
+  <!-- Horse ears -->
+  <ellipse cx="185" cy="155" rx="6" ry="15" fill="url(#horseGradient)" stroke="#654321" stroke-width="1" transform="rotate(-30 185 155)"/>
+  <ellipse cx="215" cy="155" rx="6" ry="15" fill="url(#horseGradient)" stroke="#654321" stroke-width="1" transform="rotate(30 215 155)"/>
+  
+  <!-- Horse mane -->
+  <g fill="url(#maneGradient)" stroke="#4B0000" stroke-width="1">
+  <path d="M175 150 Q170 130 175 110 Q180 120 185 140 Q190 130 195 150"/>
+  <path d="M185 155 Q180 135 185 115 Q190 125 195 145 Q200 135 205 155"/>
+  <path d="M195 160 Q190 140 195 120 Q200 130 205 150 Q210 140 215 160"/>
+  <path d="M205 165 Q200 145 205 125 Q210 135 215 155 Q220 145 225 165"/>
+  
+  <!-- Horse legs -->
+  <rect x="175" y="305" width="12" height="50" fill="url(#horseGradient)" stroke="#654321" stroke-width="2"/>
+  <rect x="195" y="310" width="12" height="45" fill="url(#horseGradient)" stroke="#654321" stroke-width="2"/>
+  <rect x="205" y="310" width="12" height="45" fill="url(#horseGradient)" stroke="#654321" stroke-width="2"/>
+  <rect x="225" y="305" width="12" height="50" fill="url(#horseGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Horse hooves -->
+  <ellipse cx="181" cy="360" rx="8" ry="5" fill="#2F2F2F"/>
+  <ellipse cx="201" cy="360" rx="8" ry="5" fill="#2F2F2F"/>
+  <ellipse cx="211" cy="360" rx="8" ry="5" fill="#2F2F2F"/>
+  <ellipse cx="231" cy="360" rx="8" ry="5" fill="#2F2F2F"/>
+  
+  <!-- Horse tail -->
+  <g fill="url(#maneGradient)" stroke="#4B0000" stroke-width="1">
+  <path d="M240 270 Q260 280 255 300 Q250 320 245 340 Q250 330 255 310 Q260 290 250 280"/>
+  
+    <!-- Foal (baby horse) -->
+    <ellipse cx="100" cy="320" rx="20" ry="30" fill="url(#horseGradient)" stroke="#654321" stroke-width="2"/>
+  
+    <!-- Foal head -->
+    <ellipse cx="100" cy="290" rx="12" ry="18" fill="url(#horseGradient)" stroke="#654321" stroke-width="1"/>
+  
+    <!-- Foal features -->
+    <circle cx="95" cy="285" r="2" fill="#000"/>
+    <circle cx="105" cy="285" r="2" fill="#000"/>
+    <ellipse cx="100" cy="295" rx="4" ry="8" fill="url(#horseGradient)"/>
+  
+    <!-- Foal legs -->
+    <rect x="90" y="345" width="6" height="25" fill="url(#horseGradient)" stroke="#654321" stroke-width="1"/>
+    <rect x="100" y="348" width="6" height="22" fill="url(#horseGradient)" stroke="#654321" stroke-width="1"/>
+    <rect x="106" y="348" width="6" height="22" fill="url(#horseGradient)" stroke="#654321" stroke-width="1"/>
+    <rect x="116" y="345" width="6" height="25" fill="url(#horseGradient)" stroke="#654321" stroke-width="1"/>
+  
+    <!-- Racing horse -->
+    <ellipse cx="320" cy="280" rx="35" ry="25" fill="url(#horseGradient)" stroke="#654321" stroke-width="2" transform="rotate(-10 320 280)"/>
+  
+    <!-- Racing horse head -->
+    <ellipse cx="350" cy="275" rx="15" ry="20" fill="url(#horseGradient)" stroke="#654321" stroke-width="1" transform="rotate(-10 350 275)"/>
+  
+    <!-- Racing horse legs in motion -->
+    <rect x="305" y="295" width="8" height="25" fill="url(#horseGradient)" stroke="#654321" stroke-width="1" transform="rotate(20 309 307.5)"/>
+    <rect x="315" y="300" width="8" height="20" fill="url(#horseGradient)" stroke="#654321" stroke-width="1" transform="rotate(-10 319 310)"/>
+    <rect x="325" y="300" width="8" height="20" fill="url(#horseGradient)" stroke="#654321" stroke-width="1" transform="rotate(10 329 310)"/>
+    <rect x="335" y="295" width="8" height="25" fill="url(#horseGradient)" stroke="#654321" stroke-width="1" transform="rotate(-20 339 307.5)"/>
+  
+    <!-- Motion lines for racing horse -->
+    <g stroke="#D2691E" stroke-width="2" opacity="0.6">
+    <path d="M280 275 L270 275"/>
+    <path d="M275 285 L265 285"/>
+    <path d="M280 295 L270 295"/>
+    </g>
+  
+    <!-- Jockey on racing horse -->
+    <ellipse cx="325" cy="265" rx="8" ry="12" fill="#4169E1"/>
+    <circle cx="325" cy="250" r="5" fill="#FFDAB9"/>
+    <ellipse cx="320" cy="245" rx="6" ry="4" fill="#8B0000"/>
+  
+    <!-- Jockey's riding cap -->
+    <ellipse cx="325" cy="245" rx="5" ry="6" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+  
+    <!-- Carousel horse -->
+    <ellipse cx="50" cy="180" rx="25" ry="40" fill="#FF69B4" stroke="#DC143C" stroke-width="2"/>
+  
+    <!-- Carousel horse head -->
+    <ellipse cx="50" cy="140" rx="15" ry="20" fill="#FF69B4" stroke="#DC143C" stroke-width="1"/>
+  
+    <!-- Carousel pole -->
+    <rect x="47" y="80" width="6" height="160" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+  
+    <!-- Carousel decorations -->
+    <g fill="#FFD700">
+    <circle cx="45" cy="160" r="3"/>
+    <circle cx="55" cy="165" r="3"/>
+    <circle cx="40" cy="180" r="4"/>
+    <circle cx="60" cy="185" r="4"/>
+    </g>
+  
+    <!-- Horseshoe -->
+    <path d="M300 100 Q280 120 300 140 Q320 120 300 100" stroke="#C0C0C0" stroke-width="8" fill="none"/>
+    <circle cx="290" cy="135" r="2" fill="#C0C0C0"/>
+    <circle cx="310" cy="135" r="2" fill="#C0C0C0"/>
+    <circle cx="285" cy="125" r="2" fill="#C0C0C0"/>
+    <circle cx="315" cy="125" r="2" fill="#C0C0C0"/>
+  
+    <!-- Western saddle -->
+    <ellipse cx="200" cy="230" rx="35" ry="15" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+    <rect x="185" y="220" width="30" height="8" fill="#A0522D" stroke="#8B4513" stroke-width="1"/>
+  
+    <!-- Saddle horn -->
+    <ellipse cx="185" cy="225" rx="4" ry="8" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+    <!-- Stirrups -->
+    <ellipse cx="175" cy="245" rx="6" ry="10" fill="none" stroke="#C0C0C0" stroke-width="3"/>
+    <ellipse cx="225" cy="245" rx="6" ry="10" fill="none" stroke="#C0C0C0" stroke-width="3"/>
+  
+    <!-- Reins -->
+    <path d="M190 195 Q180 210 170 225" stroke="#8B4513" stroke-width="3" fill="none"/>
+    <path d="M210 195 Q220 210 230 225" stroke="#8B4513" stroke-width="3" fill="none"/>
+  
+    <!-- Horse bridle -->
+    <g stroke="#8B4513" stroke-width="3" fill="none">
+    <path d="M185 175 Q200 170 215 175"/>
+    <path d="M190 185 Q200 180 210 185"/>
+    <path d="M185 175 L185 200"/>
+    <path d="M215 175 L215 200"/>
+    </g>
+  
+    <!-- Bit in horse's mouth -->
+    <rect x="195" y="198" width="10" height="2" fill="#C0C0C0"/>
+  
+    <!-- Fence -->
+    <g stroke="#8B4513" stroke-width="4" fill="none">
+    <path d="M0 350 L400 350"/>
+    <path d="M50 340 L50 360"/>
+    <path d="M150 340 L150 360"/>
+    <path d="M250 340 L250 360"/>
+    <path d="M350 340 L350 360"/>
+    </g>
+  
+    <!-- Hay bales -->
+    <ellipse cx="380" cy="340" rx="15" ry="8" fill="#DAA520" stroke="#B8860B" stroke-width="2"/>
+    <ellipse cx="370" cy="330" rx="15" ry="8" fill="#DAA520" stroke="#B8860B" stroke-width="2"/>
+  
+    <!-- Horse tracks/hoofprints -->
+    <g fill="#8B4513" opacity="0.6">
+    <ellipse cx="150" cy="380" rx="4" ry="6"/>
+    <ellipse cx="160" cy="375" rx="4" ry="6"/>
+    <ellipse cx="170" cy="380" rx="4" ry="6"/>
+    <ellipse cx="180" cy="375" rx="4" ry="6"/>
+    <ellipse cx="190" cy="380" rx="4" ry="6"/>
+    </g>
+  
+    <!-- Wild mustang -->
+    <ellipse cx="350" cy="200" rx="20" ry="30" fill="#654321" stroke="#4B0000" stroke-width="2"/>
+  
+    <!-- Mustang head -->
+    <ellipse cx="350" cy="170" rx="12" ry="16" fill="#654321" stroke="#4B0000" stroke-width="1"/>
+  
+    <!-- Mustang wild mane -->
+    <g fill="#4B0000" stroke="#2F2F2F" stroke-width="1">
+    <path d="M340 155 Q335 140 340 125 Q345 135 350 150"/>
+    <path d="M350 160 Q345 145 350 130 Q355 140 360 155"/>
+    <path d="M360 165 Q355 150 360 135 Q365 145 370 160"/>
+    </g>
+  
+    <!-- Mountains in background -->
+    <path d="M0 150 L50 100 L100 130 L150 80 L200 110 L250 90 L300 120 L350 70 L400 100 L400 150 Z" 
+        fill="#8FBC8F" opacity="0.6"/>
+  
+    <!-- Clouds -->
+    <g fill="#FFF" opacity="0.8">
+    <circle cx="80" cy="50" r="15"/>
+    <circle cx="95" cy="45" r="18"/>
+    <circle cx="110" cy="50" r="12"/>
+    
+    <circle cx="300" cy="40" r="18"/>
+    <circle cx="315" cy="35" r="22"/>
+    <circle cx="330" cy="40" r="15"/>
+    </g>
+  
+    <!-- Sun -->
+    <circle cx="50" cy="50" r="20" fill="#FFD700" opacity="0.8"/>
+  
+    <!-- Chinese character -->
+    <text x="200" y="35" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#8B4513">馬</text>
+  
+    <!-- Title -->
+    <text x="200" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#654321">HORSES</text>
+    </g>
+  </g>
+</svg> 

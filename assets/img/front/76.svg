@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad76" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e1f5fe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b3e5fc;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="diamondGrad76" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#81d4fa;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#29b6f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0288d1;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="crystalGlow76" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#e1f5fe;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="prismGrad76" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#81d4fa;stop-opacity:0.8" />
+      <stop offset="25%" style="stop-color:#4fc3f7;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#29b6f6;stop-opacity:0.8" />
+      <stop offset="75%" style="stop-color:#03a9f4;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0288d1;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad76)"/>
+  
+  <!-- Seven diamond crystals plus six light reflections representing 76 -->
+  <!-- Central master diamond -->
+  <g transform="translate(250,250)">
+  <circle cx="0" cy="0" r="100" fill="url(#crystalGlow76)" opacity="0.4"/>
+  
+  <!-- Large diamond shape -->
+  <polygon points="0,-60 40,-20 40,20 0,60 -40,20 -40,-20" fill="url(#diamondGrad76)" opacity="0.9"/>
+  <polygon points="0,-45 30,-15 30,15 0,45 -30,15 -30,-15" fill="url(#prismGrad76)" opacity="0.7"/>
+  <polygon points="0,-30 20,-10 20,10 0,30 -20,10 -20,-10" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- Inner crystal core -->
+  <circle cx="0" cy="0" r="15" fill="#e1f5fe"/>
+  <circle cx="0" cy="0" r="8" fill="#ffffff"/>
+  
+  <!-- Seven surrounding diamonds -->
+  <!-- North diamond -->
+  <g transform="translate(250,120)">
+  <circle cx="0" cy="0" r="40" fill="url(#crystalGlow76)" opacity="0.3"/>
+  <polygon points="0,-30 20,-10 20,10 0,30 -20,10 -20,-10" fill="url(#diamondGrad76)" opacity="0.8"/>
+  <polygon points="0,-20 13,-7 13,7 0,20 -13,7 -13,-7" fill="url(#prismGrad76)" opacity="0.6"/>
+  <polygon points="0,-10 7,-3 7,3 0,10 -7,3 -7,-3" fill="#ffffff" opacity="0.5"/>
+  
+    <!-- Northeast diamond -->
+    <g transform="translate(380,160)">
+    <circle cx="0" cy="0" r="35" fill="url(#crystalGlow76)" opacity="0.3"/>
+    <polygon points="0,-25 17,-8 17,8 0,25 -17,8 -17,-8" fill="url(#diamondGrad76)" opacity="0.8"/>
+    <polygon points="0,-17 11,-6 11,6 0,17 -11,6 -11,-6" fill="url(#prismGrad76)" opacity="0.6"/>
+    <polygon points="0,-8 5,-3 5,3 0,8 -5,3 -5,-3" fill="#ffffff" opacity="0.5"/>
+    </g>
+  
+    <!-- Southeast diamond -->
+    <g transform="translate(380,340)">
+    <circle cx="0" cy="0" r="35" fill="url(#crystalGlow76)" opacity="0.3"/>
+    <polygon points="0,-25 17,-8 17,8 0,25 -17,8 -17,-8" fill="url(#diamondGrad76)" opacity="0.8"/>
+    <polygon points="0,-17 11,-6 11,6 0,17 -11,6 -11,-6" fill="url(#prismGrad76)" opacity="0.6"/>
+    <polygon points="0,-8 5,-3 5,3 0,8 -5,3 -5,-3" fill="#ffffff" opacity="0.5"/>
+    </g>
+  
+    <!-- South diamond -->
+    <g transform="translate(250,380)">
+    <circle cx="0" cy="0" r="40" fill="url(#crystalGlow76)" opacity="0.3"/>
+    <polygon points="0,-30 20,-10 20,10 0,30 -20,10 -20,-10" fill="url(#diamondGrad76)" opacity="0.8"/>
+    <polygon points="0,-20 13,-7 13,7 0,20 -13,7 -13,-7" fill="url(#prismGrad76)" opacity="0.6"/>
+    <polygon points="0,-10 7,-3 7,3 0,10 -7,3 -7,-3" fill="#ffffff" opacity="0.5"/>
+    </g>
+  
+    <!-- Southwest diamond -->
+    <g transform="translate(120,340)">
+    <circle cx="0" cy="0" r="35" fill="url(#crystalGlow76)" opacity="0.3"/>
+    <polygon points="0,-25 17,-8 17,8 0,25 -17,8 -17,-8" fill="url(#diamondGrad76)" opacity="0.8"/>
+    <polygon points="0,-17 11,-6 11,6 0,17 -11,6 -11,-6" fill="url(#prismGrad76)" opacity="0.6"/>
+    <polygon points="0,-8 5,-3 5,3 0,8 -5,3 -5,-3" fill="#ffffff" opacity="0.5"/>
+    </g>
+  
+    <!-- Northwest diamond -->
+    <g transform="translate(120,160)">
+    <circle cx="0" cy="0" r="35" fill="url(#crystalGlow76)" opacity="0.3"/>
+    <polygon points="0,-25 17,-8 17,8 0,25 -17,8 -17,-8" fill="url(#diamondGrad76)" opacity="0.8"/>
+    <polygon points="0,-17 11,-6 11,6 0,17 -11,6 -11,-6" fill="url(#prismGrad76)" opacity="0.6"/>
+    <polygon points="0,-8 5,-3 5,3 0,8 -5,3 -5,-3" fill="#ffffff" opacity="0.5"/>
+    </g>
+  
+    <!-- West diamond -->
+    <g transform="translate(80,250)">
+    <circle cx="0" cy="0" r="38" fill="url(#crystalGlow76)" opacity="0.3"/>
+    <polygon points="0,-28 18,-9 18,9 0,28 -18,9 -18,-9" fill="url(#diamondGrad76)" opacity="0.8"/>
+    <polygon points="0,-18 12,-6 12,6 0,18 -12,6 -12,-6" fill="url(#prismGrad76)" opacity="0.6"/>
+    <polygon points="0,-9 6,-3 6,3 0,9 -6,3 -6,-3" fill="#ffffff" opacity="0.5"/>
+    </g>
+  
+    <!-- Six light reflections -->
+    <g stroke="url(#prismGrad76)" stroke-width="3" fill="none" opacity="0.6">
+    <!-- Central to diamonds -->
+    <line x1="250" y1="190" x2="250" y2="150"/>
+    <line x1="310" y1="190" x2="345" y2="175"/>
+    <line x1="310" y1="310" x2="345" y2="325"/>
+    <line x1="250" y1="310" x2="250" y2="350"/>
+    <line x1="190" y1="310" x2="155" y2="325"/>
+    <line x1="190" y1="190" x2="155" y2="175"/>
+    </g>
+  
+    <!-- Crystalline lattice structure -->
+    <g stroke="#29b6f6" stroke-width="1" fill="none" opacity="0.3">
+    <circle cx="250" cy="250" r="120"/>
+    <circle cx="250" cy="250" r="160"/>
+    <circle cx="250" cy="250" r="200"/>
+    
+    <!-- Geometric grid -->
+    <line x1="120" y1="160" x2="380" y2="340"/>
+    <line x1="380" y1="160" x2="120" y2="340"/>
+    <line x1="250" y1="80" x2="250" y2="420"/>
+    <line x1="80" y1="250" x2="420" y2="250"/>
+    </g>
+  
+    <!-- Light refractions -->
+    <g stroke="#81d4fa" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M50 100 Q150 80 250 100"/>
+    <path d="M250 100 Q350 80 450 100"/>
+    <path d="M450 200 Q430 300 450 400"/>
+    <path d="M400 450 Q300 430 200 450"/>
+    <path d="M50 400 Q70 300 50 200"/>
+    </g>
+  
+    <!-- Prismatic particles -->
+    <g fill="#4fc3f7" opacity="0.6">
+    <circle cx="100" cy="100" r="3"/>
+    <circle cx="400" cy="100" r="2"/>
+    <circle cx="100" cy="400" r="3"/>
+    <circle cx="400" cy="400" r="2"/>
+    <circle cx="50" cy="250" r="2"/>
+    <circle cx="450" cy="250" r="3"/>
+    <circle cx="250" cy="50" r="2"/>
+    <circle cx="250" cy="450" r="3"/>
+    <circle cx="180" cy="180" r="2"/>
+    <circle cx="320" cy="180" r="3"/>
+    <circle cx="180" cy="320" r="2"/>
+    <circle cx="320" cy="320" r="2"/>
+    </g>
+  
+    <!-- Spectral dispersions -->
+    <g opacity="0.3">
+    <ellipse cx="150" cy="150" rx="20" ry="5" fill="#ff4081" transform="rotate(45 150 150)"/>
+    <ellipse cx="350" cy="150" rx="20" ry="5" fill="#4caf50" transform="rotate(-45 350 150)"/>
+    <ellipse cx="150" cy="350" rx="20" ry="5" fill="#2196f3" transform="rotate(-45 150 350)"/>
+    <ellipse cx="350" cy="350" rx="20" ry="5" fill="#9c27b0" transform="rotate(45 350 350)"/>
+    </g>
+  
+    <!-- Crystal facet highlights -->
+    <g fill="#ffffff" opacity="0.7">
+    <polygon points="250,190 265,200 265,210 250,220 235,210 235,200"/>
+    <polygon points="310,190 320,195 320,205 310,210 300,205 300,195"/>
+    <polygon points="310,310 320,305 320,315 310,320 300,315 300,305"/>
+    <polygon points="250,310 265,300 265,310 250,320 235,310 235,300"/>
+    <polygon points="190,310 200,305 200,315 190,320 180,315 180,305"/>
+    <polygon points="190,190 200,195 200,205 190,210 180,205 180,195"/>
+    </g>
+  
+    <!-- Brilliant sparkles -->
+    <g fill="#ffffff" opacity="0.9">
+    <path d="M90 90 L95 85 L100 90 L95 95 Z"/>
+    <path d="M410 90 L415 85 L420 90 L415 95 Z"/>
+    <path d="M90 410 L95 405 L100 410 L95 415 Z"/>
+    <path d="M410 410 L415 405 L420 410 L415 415 Z"/>
+    <path d="M250 40 L253 37 L256 40 L253 43 Z"/>
+    <path d="M250 460 L253 457 L256 460 L253 463 Z"/>
+    <path d="M40 250 L43 247 L46 250 L43 253 Z"/>
+    <path d="M460 250 L463 247 L466 250 L463 253 Z"/>
+    </g>
+  
+    <!-- Number "76" integrated -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#0277bd" opacity="0.5">76</text>
+  
+    <!-- Kanji character 七十六 -->
+    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#0277bd" opacity="0.9">七十六</text>
+    </g>
+  </g>
+</svg> 

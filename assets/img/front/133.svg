@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad133" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pathGrad133" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2e7d32;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#66bb6a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad133)"/>
+  
+  <!-- Journey path -->
+  <path d="M50 400 Q150 350 250 380 Q350 410 450 360" 
+    stroke="url(#pathGrad133)" stroke-width="6" fill="none" opacity="0.7"/>
+  
+  <!-- Traveler arriving -->
+  <g transform="translate(400,350)">
+  <!-- Head -->
+  <circle cx="0" cy="0" r="12" fill="#ffdbcb"/>
+  <!-- Body -->
+  <rect x="-6" y="12" width="12" height="25" fill="#2e7d32"/>
+  <!-- Arms -->
+  <ellipse cx="-10" cy="20" rx="3" ry="10" fill="#ffdbcb" transform="rotate(-30)"/>
+  <ellipse cx="10" cy="20" rx="3" ry="10" fill="#ffdbcb" transform="rotate(30)"/>
+  <!-- Legs walking -->
+  <ellipse cx="-4" cy="42" rx="3" ry="12" fill="#2e7d32" transform="rotate(-15)"/>
+  <ellipse cx="4" cy="42" rx="3" ry="12" fill="#2e7d32" transform="rotate(15)"/>
+  <!-- Backpack -->
+  <ellipse cx="-8" cy="15" rx="6" ry="10" fill="#8d6e63"/>
+  
+  <!-- Main radical shape 至 (arrive/reach) -->
+  <!-- Top horizontal stroke -->
+  <path d="M180 150 L320 150" 
+      stroke="#2e7d32" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Left slanted stroke -->
+  <path d="M200 150 L180 190" 
+      stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right slanted stroke -->
+  <path d="M300 150 L320 190" 
+      stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Central vertical stroke -->
+  <path d="M250 170 L250 270" 
+      stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Middle horizontal stroke -->
+  <path d="M200 210 L300 210" 
+      stroke="#2e7d32" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom horizontal stroke -->
+  <path d="M180 270 L320 270" 
+      stroke="#2e7d32" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Destination building -->
+  <g transform="translate(420,300)" opacity="0.8">
+  <!-- Building -->
+  <rect x="0" y="0" width="40" height="60" fill="#8d6e63"/>
+  <rect x="-5" y="-10" width="50" height="15" fill="#a1887f"/>
+  <!-- Windows -->
+  <rect x="8" y="15" width="8" height="8" fill="#ffeb3b"/>
+  <rect x="24" y="15" width="8" height="8" fill="#ffeb3b"/>
+  <rect x="8" y="35" width="8" height="8" fill="#ffeb3b"/>
+  <rect x="24" y="35" width="8" height="8" fill="#ffeb3b"/>
+  <!-- Door -->
+  <rect x="16" y="45" width="8" height="15" fill="#d84315"/>
+  
+    <!-- Starting point -->
+    <g transform="translate(50,400)" opacity="0.6">
+    <!-- Flag -->
+    <rect x="0" y="0" width="3" height="40" fill="#8d6e63"/>
+    <rect x="3" y="5" width="20" height="12" fill="#4caf50"/>
+    <text x="13" y="13" font-family="Arial" font-size="8" text-anchor="middle" fill="#fff">START</text>
+    </g>
+  
+    <!-- Finish line -->
+    <g transform="translate(450,340)" opacity="0.7">
+    <!-- Checkered flag -->
+    <rect x="0" y="0" width="3" height="30" fill="#8d6e63"/>
+    <g fill="#424242">
+      <rect x="3" y="5" width="4" height="4"/>
+      <rect x="11" y="5" width="4" height="4"/>
+      <rect x="7" y="9" width="4" height="4"/>
+      <rect x="15" y="9" width="4" height="4"/>
+      <rect x="3" y="13" width="4" height="4"/>
+      <rect x="11" y="13" width="4" height="4"/>
+    </g>
+    <g fill="#ffffff">
+      <rect x="7" y="5" width="4" height="4"/>
+      <rect x="15" y="5" width="4" height="4"/>
+      <rect x="3" y="9" width="4" height="4"/>
+      <rect x="11" y="9" width="4" height="4"/>
+      <rect x="7" y="13" width="4" height="4"/>
+      <rect x="15" y="13" width="4" height="4"/>
+    </g>
+    </g>
+  
+    <!-- Progress markers -->
+    <g fill="#4caf50" opacity="0.6">
+    <circle cx="150" cy="350" r="4"/>
+    <circle cx="250" cy="380" r="4"/>
+    <circle cx="350" cy="410" r="4"/>
+    <!-- Mile markers -->
+    <text x="150" y="340" font-family="Arial" font-size="8" text-anchor="middle" fill="#2e7d32">1km</text>
+    <text x="250" y="370" font-family="Arial" font-size="8" text-anchor="middle" fill="#2e7d32">2km</text>
+    <text x="350" y="400" font-family="Arial" font-size="8" text-anchor="middle" fill="#2e7d32">3km</text>
+    </g>
+  
+    <!-- Footprints on path -->
+    <g fill="#8d6e63" opacity="0.4">
+    <ellipse cx="100" cy="390" rx="3" ry="6"/>
+    <ellipse cx="110" cy="385" rx="3" ry="6"/>
+    <ellipse cx="200" cy="370" rx="3" ry="6"/>
+    <ellipse cx="210" cy="375" rx="3" ry="6"/>
+    <ellipse cx="300" cy="395" rx="3" ry="6"/>
+    <ellipse cx="310" cy="390" rx="3" ry="6"/>
+    </g>
+  
+    <!-- Train arriving at station -->
+    <g transform="translate(100,200)" opacity="0.7">
+    <!-- Train -->
+    <rect x="0" y="0" width="60" height="20" rx="10" fill="#1976d2"/>
+    <rect x="5" y="5" width="15" height="8" fill="#42a5f5"/>
+    <rect x="25" y="5" width="15" height="8" fill="#42a5f5"/>
+    <rect x="45" y="5" width="10" height="8" fill="#42a5f5"/>
+    <!-- Wheels -->
+    <circle cx="12" cy="25" r="5" fill="#424242"/>
+    <circle cx="32" cy="25" r="5" fill="#424242"/>
+    <circle cx="52" cy="25" r="5" fill="#424242"/>
+    </g>
+  
+    <!-- Arrow pointing to destination -->
+    <g stroke="#4caf50" stroke-width="3" opacity="0.6" fill="none">
+    <path d="M350 300 L400 280"/>
+    <path d="M390 275 L400 280 L390 285"/>
+    </g>
+  
+    <!-- Distance indicator -->
+    <g transform="translate(200,100)" opacity="0.5">
+    <rect x="0" y="0" width="60" height="20" rx="5" fill="#ffffff" stroke="#2e7d32" stroke-width="1"/>
+    <text x="30" y="13" font-family="Arial" font-size="10" text-anchor="middle" fill="#2e7d32">5.2km</text>
+    </g>
+  
+    <!-- GPS/navigation icon -->
+    <g transform="translate(120,120)" opacity="0.6">
+    <circle cx="0" cy="0" r="15" fill="#2196f3"/>
+    <circle cx="0" cy="0" r="10" fill="#ffffff"/>
+    <circle cx="0" cy="0" r="3" fill="#2196f3"/>
+    <!-- Compass needle -->
+    <path d="M0 -8 L3 0 L0 8 L-3 0 Z" fill="#f44336"/>
+    </g>
+  
+    <!-- Achievement badge -->
+    <g transform="translate(380,120)" opacity="0.7">
+    <circle cx="0" cy="0" r="15" fill="#ff9800"/>
+    <path d="M0 -10 L3 -3 L10 -3 L5 2 L7 9 L0 5 L-7 9 L-5 2 L-10 -3 L-3 -3 Z" fill="#ffeb3b"/>
+    <text x="0" y="3" font-family="Arial" font-size="6" text-anchor="middle" fill="#ff9800">到着</text>
+    </g>
+  
+    <!-- Kanji character 至 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#2e7d32" opacity="0.8">至</text>
+    </g>
+  </g>
+</svg> 

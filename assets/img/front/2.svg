@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8eaf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stickGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#a1887f;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6d4c41;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="woodGrain" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a1887f;stop-opacity:0.3" />
+      <stop offset="20%" style="stop-color:#6d4c41;stop-opacity:0.1" />
+      <stop offset="40%" style="stop-color:#a1887f;stop-opacity:0.3" />
+      <stop offset="60%" style="stop-color:#6d4c41;stop-opacity:0.1" />
+      <stop offset="80%" style="stop-color:#a1887f;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#6d4c41;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad2)"/>
+  
+  <!-- Main vertical stick -->
+  <rect x="235" y="60" width="30" height="380" rx="15" fill="url(#stickGrad2)" stroke="#5d4037" stroke-width="2"/>
+  
+  <!-- Wood grain texture -->
+  <rect x="235" y="60" width="30" height="380" rx="15" fill="url(#woodGrain)"/>
+  
+  <!-- Carved rings for texture -->
+  <g stroke="#5d4037" stroke-width="1" fill="none" opacity="0.4">
+  <ellipse cx="250" cy="120" rx="18" ry="3"/>
+  <ellipse cx="250" cy="180" rx="18" ry="3"/>
+  <ellipse cx="250" cy="240" rx="18" ry="3"/>
+  <ellipse cx="250" cy="300" rx="18" ry="3"/>
+  <ellipse cx="250" cy="360" rx="18" ry="3"/>
+  <ellipse cx="250" cy="420" rx="18" ry="3"/>
+  
+  <!-- Shadow at base -->
+  <ellipse cx="250" cy="450" rx="25" ry="8" fill="#5d4037" opacity="0.3"/>
+  
+  <!-- Decorative top and bottom caps -->
+  <ellipse cx="250" cy="75" rx="20" ry="8" fill="#6d4c41"/>
+  <ellipse cx="250" cy="425" rx="20" ry="8" fill="#6d4c41"/>
+  
+  <!-- Subtle highlights -->
+  <rect x="238" y="60" width="4" height="380" rx="2" fill="#bcaaa4" opacity="0.6"/>
+  
+  <!-- Kanji character 丨 -->
+  <text x="150" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#4e342e" opacity="0.8">丨</text>
+  </g>
+</svg> 

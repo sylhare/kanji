@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad70" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="compassGrad70" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#66bb6a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e7d32;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="directionGlow70" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#81c784;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#81c784;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="squareGrad70" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#388e3c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad70)"/>
+  
+  <!-- Direction aura -->
+  <ellipse cx="250" cy="250" rx="180" ry="150" fill="url(#directionGlow70)"/>
+  
+  <!-- Main compass representing 方 -->
+  <!-- Compass circle -->
+  <circle cx="250" cy="250" r="80" fill="none" stroke="url(#compassGrad70)" stroke-width="4"/>
+  
+  <!-- Compass rose -->
+  <!-- North -->
+  <path d="M250 170 L240 200 L250 190 L260 200 Z" fill="#f44336"/>
+  <text x="250" y="160" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#f44336">N</text>
+  
+  <!-- East -->
+  <path d="M330 250 L300 240 L310 250 L300 260 Z" fill="url(#squareGrad70)"/>
+  <text x="340" y="255" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="url(#squareGrad70)">E</text>
+  
+  <!-- South -->
+  <path d="M250 330 L240 300 L250 310 L260 300 Z" fill="url(#squareGrad70)"/>
+  <text x="250" y="350" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="url(#squareGrad70)">S</text>
+  
+  <!-- West -->
+  <path d="M170 250 L200 240 L190 250 L200 260 Z" fill="url(#squareGrad70)"/>
+  <text x="160" y="255" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="url(#squareGrad70)">W</text>
+  
+  <!-- Center pivot -->
+  <circle cx="250" cy="250" r="8" fill="url(#compassGrad70)"/>
+  
+  <!-- Square grid pattern -->
+  <g stroke="#4caf50" stroke-width="1" opacity="0.3">
+  <line x1="150" y1="150" x2="350" y2="150"/>
+  <line x1="150" y1="200" x2="350" y2="200"/>
+  <line x1="150" y1="250" x2="350" y2="250"/>
+  <line x1="150" y1="300" x2="350" y2="300"/>
+  <line x1="150" y1="350" x2="350" y2="350"/>
+  
+  <line x1="150" y1="150" x2="150" y2="350"/>
+  <line x1="200" y1="150" x2="200" y2="350"/>
+  <line x1="250" y1="150" x2="250" y2="350"/>
+  <line x1="300" y1="150" x2="300" y2="350"/>
+  <line x1="350" y1="150" x2="350" y2="350"/>
+  
+  <!-- Perfect square -->
+  <rect x="180" y="180" width="140" height="140" fill="none" stroke="url(#squareGrad70)" stroke-width="5"/>
+  
+  <!-- Direction arrows -->
+  <g fill="url(#compassGrad70)" opacity="0.8">
+  <!-- Northeast -->
+  <path d="M320 180 L340 160 L350 180 L330 170 Z"/>
+  <!-- Southeast -->
+  <path d="M320 320 L340 340 L350 320 L330 330 Z"/>
+  <!-- Southwest -->
+  <path d="M180 320 L160 340 L150 320 L170 330 Z"/>
+  <!-- Northwest -->
+  <path d="M180 180 L160 160 L150 180 L170 170 Z"/>
+  
+    <!-- Map elements -->
+    <g transform="translate(80,100)" opacity="0.7">
+    <!-- Mountain -->
+    <path d="M0 30 L15 0 L30 30 Z" fill="#795548"/>
+    <path d="M10 15 L15 5 L20 15" fill="#fff"/>
+    <text x="15" y="45" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2e7d32">Mt. Fuji</text>
+    </g>
+  
+    <g transform="translate(420,100)" opacity="0.7">
+    <!-- City -->
+    <rect x="0" y="20" width="8" height="15" fill="#607d8b"/>
+    <rect x="10" y="15" width="8" height="20" fill="#607d8b"/>
+    <rect x="20" y="18" width="8" height="17" fill="#607d8b"/>
+    <text x="14" y="45" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2e7d32">Tokyo</text>
+    </g>
+  
+    <!-- Coordinate system -->
+    <g stroke="#388e3c" stroke-width="2" opacity="0.6">
+    <line x1="50" y1="400" x2="450" y2="400"/>
+    <line x1="50" y1="400" x2="50" y2="100"/>
+    
+    <!-- Axis labels -->
+    <text x="40" y="250" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2e7d32" transform="rotate(-90 40 250)">Y</text>
+    <text x="250" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2e7d32">X</text>
+    </g>
+  
+    <!-- GPS coordinates -->
+    <g transform="translate(420,400)" opacity="0.8">
+    <rect x="-40" y="-25" width="80" height="35" rx="5" fill="url(#squareGrad70)"/>
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#fff">35.6762°N</text>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#fff">139.6503°E</text>
+    </g>
+  
+    <!-- Wind rose -->
+    <g transform="translate(100,400)" opacity="0.7">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="url(#compassGrad70)" stroke-width="2"/>
+    <g fill="url(#compassGrad70)">
+      <path d="M0,-20 L-3,-10 L0,-15 L3,-10 Z"/>
+      <path d="M20,0 L10,-3 L15,0 L10,3 Z"/>
+      <path d="M0,20 L-3,10 L0,15 L3,10 Z"/>
+      <path d="M-20,0 L-10,-3 L-15,0 L-10,3 Z"/>
+    </g>
+    </g>
+  
+    <!-- Geometric patterns -->
+    <g stroke="url(#squareGrad70)" stroke-width="1" fill="none" opacity="0.4">
+    <rect x="100" y="100" width="50" height="50"/>
+    <rect x="350" y="350" width="40" ry="40"/>
+    <rect x="50" y="350" width="35" height="35"/>
+    <rect x="415" y="50" width="30" height="30"/>
+    </g>
+  
+    <!-- Navigation paths -->
+    <g stroke="#4caf50" stroke-width="3" fill="none" opacity="0.5">
+    <path d="M100 150 Q200 100 300 150"/>
+    <path d="M150 350 Q250 400 350 350"/>
+    <path d="M150 100 Q100 200 150 300"/>
+    <path d="M350 100 Q400 200 350 300"/>
+    </g>
+  
+    <!-- Survey markers -->
+    <g fill="#2e7d32" opacity="0.8">
+    <g transform="translate(120,120)">
+      <path d="M0,-10 L8,8 L-8,8 Z"/>
+      <circle cx="0" cy="-5" r="2" fill="#fff"/>
+    </g>
+    
+    <g transform="translate(380,380)">
+      <path d="M0,-8 L6,6 L-6,6 Z"/>
+      <circle cx="0" cy="-4" r="1" fill="#fff"/>
+    </g>
+    </g>
+  
+    <!-- Direction sparkles -->
+    <g fill="url(#compassGrad70)" opacity="0.8">
+    <path d="M400 150 L410 140 L420 150 L410 160 Z"/>
+    <path d="M80 350 L90 340 L100 350 L90 360 Z"/>
+    <path d="M150 50 L160 40 L170 50 L160 60 Z"/>
+    <path d="M350 450 L360 440 L370 450 L360 460 Z"/>
+    </g>
+  
+    <!-- Magnetic declination -->
+    <g transform="translate(400,200)" opacity="0.6">
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#ff5722" stroke-width="2"/>
+    <path d="M0,-15 L5,-5 L0,-10 L-5,-5 Z" fill="#ff5722"/>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#ff5722">Mag N</text>
+    </g>
+  
+    <!-- Scale -->
+    <g transform="translate(80,50)" opacity="0.8">
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#2e7d32" stroke-width="3"/>
+    <line x1="0" y1="-3" x2="0" y2="3" stroke="#2e7d32" stroke-width="2"/>
+    <line x1="50" y1="-3" x2="50" y2="3" stroke="#2e7d32" stroke-width="2"/>
+    <text x="25" y="15" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2e7d32">1 km</text>
+    </g>
+  
+    <!-- Kanji character 方 -->
+    <text x="450" y="50" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1b5e20" opacity="0.8">方</text>
+    </g>
+  </g>
+</svg> 

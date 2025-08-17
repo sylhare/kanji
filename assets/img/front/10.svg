@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad10" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="legGrad10" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad10)"/>
+  
+  <!-- Ground/path -->
+  <ellipse cx="250" cy="450" rx="200" ry="20" fill="#d7ccc8" opacity="0.6"/>
+  
+  <!-- Walking path -->
+  <path d="M50 450 Q250 430 450 450" stroke="#bcaaa4" stroke-width="3" fill="none" opacity="0.5"/>
+  
+  <!-- Main radical shape 儿 (human legs) -->
+  <!-- Left leg -->
+  <path d="M180 150 L180 200 L160 350 L140 450" 
+    stroke="url(#legGrad10)" stroke-width="18" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right leg -->
+  <path d="M320 150 L320 200 L340 350 L360 450" 
+    stroke="url(#legGrad10)" stroke-width="18" fill="none" stroke-linecap="round"/>
+  
+  <!-- Connecting body/hip area -->
+  <path d="M180 150 Q250 140 320 150" 
+    stroke="url(#legGrad10)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Footsteps -->
+  <g fill="#8d6e63" opacity="0.3">
+  <ellipse cx="135" cy="460" rx="15" ry="8" transform="rotate(-10 135 460)"/>
+  <ellipse cx="365" cy="460" rx="15" ry="8" transform="rotate(10 365 460)"/>
+  
+  <!-- Motion lines -->
+  <g stroke="#ff9800" stroke-width="2" opacity="0.4">
+  <path d="M120 400 Q140 390 160 400"/>
+  <path d="M380 400 Q360 390 340 400"/>
+  
+    <!-- Kanji character 儿 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#5d4037" opacity="0.8">儿</text>
+    </g>
+  </g>
+</svg> 

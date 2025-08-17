@@ -1,0 +1,138 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="goldGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFF99"/>
+      <stop offset="40%" stop-color="#FFD700"/>
+      <stop offset="80%" stop-color="#FFA500"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </radialGradient>
+    <radialGradient id="silverGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#F8F8FF"/>
+      <stop offset="50%" stop-color="#C0C0C0"/>
+      <stop offset="100%" stop-color="#808080"/>
+    </radialGradient>
+    <radialGradient id="copperGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFDAB9"/>
+      <stop offset="50%" stop-color="#CD853F"/>
+      <stop offset="100%" stop-color="#8B4513"/>
+    </radialGradient>
+    <radialGradient id="gemGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#E6E6FA"/>
+      <stop offset="50%" stop-color="#9370DB"/>
+      <stop offset="100%" stop-color="#4B0082"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#1C1C1C"/>
+  
+  <!-- Gold treasure chest -->
+  <rect x="150" y="200" width="100" height="60" rx="10" fill="url(#goldGradient)" stroke="#B8860B" stroke-width="3"/>
+  <rect x="150" y="200" width="100" height="30" rx="10" fill="url(#goldGradient)" stroke="#B8860B" stroke-width="3"/>
+  <circle cx="220" cy="215" r="5" fill="#8B4513"/>
+  
+  <!-- Gold coins spilling from chest -->
+  <circle cx="260" cy="250" r="12" fill="url(#goldGradient)" stroke="#B8860B" stroke-width="2"/>
+  <circle cx="280" cy="260" r="10" fill="url(#goldGradient)" stroke="#B8860B" stroke-width="2"/>
+  <circle cx="270" cy="280" r="11" fill="url(#goldGradient)" stroke="#B8860B" stroke-width="2"/>
+  <circle cx="290" cy="270" r="9" fill="url(#goldGradient)" stroke="#B8860B" stroke-width="2"/>
+  <circle cx="300" cy="290" r="10" fill="url(#goldGradient)" stroke="#B8860B" stroke-width="2"/>
+  
+  <!-- Coin details -->
+  <circle cx="260" cy="250" r="6" fill="#FFA500"/>
+  <circle cx="280" cy="260" r="5" fill="#FFA500"/>
+  <circle cx="270" cy="280" r="5.5" fill="#FFA500"/>
+  <circle cx="290" cy="270" r="4.5" fill="#FFA500"/>
+  <circle cx="300" cy="290" r="5" fill="#FFA500"/>
+  
+  <!-- Silver bars -->
+  <rect x="50" y="150" width="60" height="20" rx="3" fill="url(#silverGradient)" stroke="#A9A9A9" stroke-width="2"/>
+  <rect x="55" y="180" width="60" height="20" rx="3" fill="url(#silverGradient)" stroke="#A9A9A9" stroke-width="2"/>
+  <rect x="60" y="210" width="60" height="20" rx="3" fill="url(#silverGradient)" stroke="#A9A9A9" stroke-width="2"/>
+  
+  <!-- Silver bar markings -->
+  <text x="80" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#696969">Ag</text>
+  <text x="85" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#696969">999</text>
+  <text x="90" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#696969">FINE</text>
+  
+  <!-- Copper ingots -->
+  <rect x="320" y="160" width="50" height="15" rx="2" fill="url(#copperGradient)" stroke="#A0522D" stroke-width="2"/>
+  <rect x="325" y="185" width="50" height="15" rx="2" fill="url(#copperGradient)" stroke="#A0522D" stroke-width="2"/>
+  <rect x="330" y="210" width="50" height="15" rx="2" fill="url(#copperGradient)" stroke="#A0522D" stroke-width="2"/>
+  
+  <!-- Gold jewelry -->
+  <!-- Crown -->
+  <path d="M180 80 Q190 70 200 80 Q210 70 220 80 L215 100 L185 100 Z" 
+    fill="url(#goldGradient)" stroke="#B8860B" stroke-width="2"/>
+  <circle cx="190" cy="75" r="3" fill="#FF0000"/>
+  <circle cx="200" cy="68" r="4" fill="#4169E1"/>
+  <circle cx="210" cy="75" r="3" fill="#32CD32"/>
+  
+  <!-- Necklace -->
+  <ellipse cx="200" cy="130" rx="40" ry="20" fill="none" stroke="url(#goldGradient)" stroke-width="6"/>
+  <circle cx="200" cy="150" r="8" fill="url(#gemGradient)" stroke="#4B0082" stroke-width="2"/>
+  
+  <!-- Ring -->
+  <circle cx="100" cy="300" r="15" fill="none" stroke="url(#goldGradient)" stroke-width="8"/>
+  <circle cx="100" cy="285" r="4" fill="#FF69B4"/>
+  
+  <!-- Bracelet -->
+  <ellipse cx="320" cy="320" rx="25" ry="12" fill="none" stroke="url(#goldGradient)" stroke-width="6"/>
+  <circle cx="310" cy="320" r="3" fill="#00CED1"/>
+  <circle cx="330" cy="320" r="3" fill="#FF1493"/>
+  
+  <!-- Precious gems -->
+  <!-- Diamond -->
+  <path d="M150 320 L160 310 L170 320 L160 340 Z" fill="#E0E0E0" stroke="#B0B0B0" stroke-width="2"/>
+  <path d="M155 320 L160 315 L165 320 L160 330 Z" fill="#F8F8FF"/>
+  
+  <!-- Ruby -->
+  <path d="M350 100 L365 90 L380 100 L365 120 Z" fill="#DC143C" stroke="#8B0000" stroke-width="2"/>
+  <path d="M358 100 L365 95 L372 100 L365 110 Z" fill="#FF6347"/>
+  
+  <!-- Emerald -->
+  <path d="M80 350 L95 340 L110 350 L95 370 Z" fill="#50C878" stroke="#228B22" stroke-width="2"/>
+  <path d="M88 350 L95 345 L102 350 L95 360 Z" fill="#90EE90"/>
+  
+  <!-- Sapphire -->
+  <path d="M330 50 L345 40 L360 50 L345 70 Z" fill="#0F52BA" stroke="#000080" stroke-width="2"/>
+  <path d="M338 50 L345 45 L352 50 L345 60 Z" fill="#4169E1"/>
+  
+  <!-- Gold nuggets -->
+  <ellipse cx="50" cy="50" rx="12" ry="8" fill="url(#goldGradient)" stroke="#B8860B" stroke-width="2"/>
+  <ellipse cx="75" cy="40" rx="8" ry="6" fill="url(#goldGradient)" stroke="#B8860B" stroke-width="1"/>
+  <ellipse cx="45" cy="75" rx="10" ry="7" fill="url(#goldGradient)" stroke="#B8860B" stroke-width="1"/>
+  
+  <!-- Mining pickaxe -->
+  <rect x="30" y="280" width="5" height="80" fill="#8B4513"/>
+  <path d="M20 280 L50 280 L45 270 L25 270 Z" fill="#C0C0C0" stroke="#808080" stroke-width="2"/>
+  
+  <!-- Anvil -->
+  <rect x="280" y="350" width="60" height="20" rx="5" fill="#2F2F2F" stroke="#000" stroke-width="2"/>
+  <rect x="285" y="340" width="50" height="10" rx="2" fill="#2F2F2F" stroke="#000" stroke-width="1"/>
+  <rect x="305" y="370" width="10" height="15" fill="#2F2F2F"/>
+  
+  <!-- Hammer on anvil -->
+  <rect x="310" y="325" width="4" height="20" fill="#8B4513"/>
+  <rect x="305" y="325" width="14" height="8" rx="2" fill="#696969" stroke="#2F2F2F" stroke-width="1"/>
+  
+  <!-- Sparks from metalwork -->
+  <circle cx="295" cy="335" r="1" fill="#FFD700"/>
+  <circle cx="335" cy="340" r="1" fill="#FFA500"/>
+  <circle cx="300" cy="345" r="1" fill="#FF8C00"/>
+  <circle cx="325" cy="330" r="1" fill="#FFD700"/>
+  
+  <!-- Metal chain -->
+  <ellipse cx="370" cy="150" rx="8" ry="4" fill="none" stroke="url(#silverGradient)" stroke-width="3"/>
+  <ellipse cx="370" cy="160" rx="4" ry="8" fill="none" stroke="url(#silverGradient)" stroke-width="3"/>
+  <ellipse cx="370" cy="170" rx="8" ry="4" fill="none" stroke="url(#silverGradient)" stroke-width="3"/>
+  <ellipse cx="370" cy="180" rx="4" ry="8" fill="none" stroke="url(#silverGradient)" stroke-width="3"/>
+  
+  <!-- Golden Chinese character -->
+  <text x="200" y="380" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#FFD700">金</text>
+  
+  <!-- Sparkles around precious items -->
+  <path d="M120 100 L125 90 L130 100 L125 110 Z" fill="#FFD700" opacity="0.8"/>
+  <path d="M250 80 L255 70 L260 80 L255 90 Z" fill="#FFF" opacity="0.8"/>
+  <path d="M350 300 L355 290 L360 300 L355 310 Z" fill="#FFD700" opacity="0.8"/>
+  <path d="M50 250 L55 240 L60 250 L55 260 Z" fill="#FFF" opacity="0.8"/>
+  <path d="M380 350 L385 340 L390 350 L385 360 Z" fill="#FFD700" opacity="0.8"/>
+</svg> 

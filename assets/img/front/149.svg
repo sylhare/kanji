@@ -1,0 +1,60 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bubbleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E6F3FF"/>
+      <stop offset="50%" stop-color="#B3D9FF"/>
+      <stop offset="100%" stop-color="#80BFFF"/>
+    </linearGradient>
+    <linearGradient id="bubble2Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE6F3"/>
+      <stop offset="50%" stop-color="#FFB3D9"/>
+      <stop offset="100%" stop-color="#FF80BF"/>
+    </linearGradient>
+    <linearGradient id="bubble3Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3FFE6"/>
+      <stop offset="50%" stop-color="#D9FFB3"/>
+      <stop offset="100%" stop-color="#BFFF80"/>
+    </linearGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#FFF8E7"/>
+  
+  <!-- Main speech bubble -->
+  <ellipse cx="200" cy="150" rx="120" ry="80" fill="url(#bubbleGradient)" stroke="#4169E1" stroke-width="3"/>
+  <path d="M160 220 Q180 240 200 220 Q180 250 160 220" fill="url(#bubbleGradient)" stroke="#4169E1" stroke-width="3"/>
+  
+  <!-- Second speech bubble -->
+  <ellipse cx="100" cy="280" rx="70" ry="50" fill="url(#bubble2Gradient)" stroke="#FF1493" stroke-width="2"/>
+  <path d="M80 320 Q90 335 100 320 Q90 340 80 320" fill="url(#bubble2Gradient)" stroke="#FF1493" stroke-width="2"/>
+  
+  <!-- Third speech bubble -->
+  <ellipse cx="320" cy="300" rx="60" ry="40" fill="url(#bubble3Gradient)" stroke="#32CD32" stroke-width="2"/>
+  <path d="M300 330 Q310 345 320 330 Q310 350 300 330" fill="url(#bubble3Gradient)" stroke="#32CD32" stroke-width="2"/>
+  
+  <!-- Text elements in bubbles -->
+  <text x="200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FF6347">HELLO</text>
+  <text x="200" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#32CD32">こんにちは</text>
+  
+  <text x="100" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#8B0000">Word</text>
+  
+  <text x="320" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#006400">言葉</text>
+  
+  <!-- Sound waves -->
+  <path d="M60 100 Q80 80 100 100 Q80 120 60 100" stroke="#FFD700" stroke-width="3" fill="none"/>
+  <path d="M340 120 Q360 100 380 120 Q360 140 340 120" stroke="#FFD700" stroke-width="3" fill="none"/>
+  <path d="M50 50 Q80 30 110 50 Q80 70 50 50" stroke="#FF69B4" stroke-width="2" fill="none"/>
+  
+  <!-- Musical notes representing speech -->
+  <circle cx="150" cy="80" r="8" fill="#FF6347"/>
+  <path d="M158 80 L158 50" stroke="#FF6347" stroke-width="3"/>
+  <path d="M158 50 Q170 45 175 55" stroke="#FF6347" stroke-width="2" fill="none"/>
+  
+  <circle cx="250" cy="70" r="6" fill="#32CD32"/>
+  <path d="M256 70 L256 45" stroke="#32CD32" stroke-width="2"/>
+  <path d="M256 45 Q265 42 268 50" stroke="#32CD32" stroke-width="2" fill="none"/>
+  
+  <!-- Decorative letters floating around -->
+  <text x="50" y="200" font-family="Arial, sans-serif" font-size="18" fill="#9370DB" opacity="0.7">A</text>
+  <text x="350" y="180" font-family="Arial, sans-serif" font-size="20" fill="#FF4500" opacity="0.7">文</text>
+  <text x="30" y="350" font-family="Arial, sans-serif" font-size="16" fill="#20B2AA" opacity="0.7">語</text>
+  <text x="370" y="370" font-family="Arial, sans-serif" font-size="22" fill="#DA70D6" opacity="0.7">話</text>
+</svg> 

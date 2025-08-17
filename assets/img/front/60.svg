@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad60" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="stepGrad60" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#ff9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e65100;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="motionGlow60" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#ffcc80;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#ffcc80;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="pathGrad60" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffab00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6f00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad60)"/>
+  
+  <!-- Movement aura -->
+  <ellipse cx="250" cy="300" rx="200" ry="150" fill="url(#motionGlow60)"/>
+  
+  <!-- Main stepping pattern representing 彳 -->
+  <!-- Left vertical stroke (standing position) -->
+  <rect x="150" y="200" width="20" height="180" rx="10" fill="url(#stepGrad60)" stroke="#bf360c" stroke-width="3"/>
+  
+  <!-- First step -->
+  <rect x="200" y="240" width="40" height="15" rx="7" fill="url(#stepGrad60)" stroke="#bf360c" stroke-width="2"/>
+  
+  <!-- Second step -->
+  <rect x="200" y="300" width="40" height="15" rx="7" fill="url(#stepGrad60)" stroke="#bf360c" stroke-width="2"/>
+  
+  <!-- Footprint trail -->
+  <g fill="url(#pathGrad60)" opacity="0.7">
+  <!-- First footprint -->
+  <ellipse cx="80" cy="380" rx="15" ry="25" transform="rotate(-10 80 380)"/>
+  <g transform="translate(80,380) rotate(-10)">
+  <ellipse cx="0" cy="-12" rx="4" ry="5"/>
+  <ellipse cx="-3" cy="-8" rx="2" ry="3"/>
+  <ellipse cx="3" cy="-8" rx="2" ry="3"/>
+  <ellipse cx="-5" cy="-4" rx="2" ry="3"/>
+  <ellipse cx="5" cy="-4" rx="2" ry="3"/>
+  
+  <!-- Second footprint -->
+  <ellipse cx="130" cy="350" rx="15" ry="25" transform="rotate(5 130 350)"/>
+  <g transform="translate(130,350) rotate(5)">
+    <ellipse cx="0" cy="-12" rx="4" ry="5"/>
+    <ellipse cx="-3" cy="-8" rx="2" ry="3"/>
+    <ellipse cx="3" cy="-8" rx="2" ry="3"/>
+    <ellipse cx="-5" cy="-4" rx="2" ry="3"/>
+    <ellipse cx="5" cy="-4" rx="2" ry="3"/>
+    
+    <!-- Third footprint -->
+    <ellipse cx="180" cy="320" rx="15" ry="25" transform="rotate(-5 180 320)"/>
+    <g transform="translate(180,320) rotate(-5)">
+      <ellipse cx="0" cy="-12" rx="4" ry="5"/>
+      <ellipse cx="-3" cy="-8" rx="2" ry="3"/>
+      <ellipse cx="3" cy="-8" rx="2" ry="3"/>
+      <ellipse cx="-5" cy="-4" rx="2" ry="3"/>
+      <ellipse cx="5" cy="-4" rx="2" ry="3"/>
+    </g>
+    
+    <!-- Fourth footprint -->
+    <ellipse cx="230" cy="290" rx="15" ry="25" transform="rotate(8 230 290)"/>
+    <g transform="translate(230,290) rotate(8)">
+      <ellipse cx="0" cy="-12" rx="4" ry="5"/>
+      <ellipse cx="-3" cy="-8" rx="2" ry="3"/>
+      <ellipse cx="3" cy="-8" rx="2" ry="3"/>
+      <ellipse cx="-5" cy="-4" rx="2" ry="3"/>
+      <ellipse cx="5" cy="-4" rx="2" ry="3"/>
+    </g>
+    </g>
+  
+    <!-- Walking figure silhouette -->
+    <g transform="translate(300,250)" fill="url(#stepGrad60)" opacity="0.6">
+    <!-- Head -->
+    <circle cx="0" cy="-30" r="12"/>
+    <!-- Body -->
+    <rect x="-8" y="-18" width="16" height="40" rx="8"/>
+    <!-- Left arm -->
+    <ellipse cx="-15" cy="-10" rx="6" ry="20" transform="rotate(-20 -15 -10)"/>
+    <!-- Right arm -->
+    <ellipse cx="15" cy="-10" rx="6" ry="20" transform="rotate(20 15 -10)"/>
+    <!-- Left leg (forward) -->
+    <ellipse cx="-8" cy="35" rx="8" ry="25" transform="rotate(-15 -8 35)"/>
+    <!-- Right leg (back) -->
+    <ellipse cx="8" cy="35" rx="8" ry="25" transform="rotate(10 8 35)"/>
+    </g>
+  
+    <!-- Motion lines -->
+    <g stroke="url(#pathGrad60)" stroke-width="3" opacity="0.5">
+    <path d="M50 300 Q100 290 150 300"/>
+    <path d="M60 350 Q110 340 160 350"/>
+    <path d="M70 400 Q120 390 170 400"/>
+    </g>
+  
+    <!-- Speed indicators -->
+    <g fill="url(#stepGrad60)" opacity="0.6">
+    <path d="M350 200 L360 190 L370 200 L360 210 Z"/>
+    <path d="M380 230 L390 220 L400 230 L390 240 Z"/>
+    <path d="M350 350 L360 340 L370 350 L360 360 Z"/>
+    <path d="M380 380 L390 370 L400 380 L390 390 Z"/>
+    </g>
+  
+    <!-- Stride measurement -->
+    <g transform="translate(100,450)" opacity="0.7">
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#ff6f00" stroke-width="2"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#ff6f00" stroke-width="2"/>
+    <line x1="80" y1="-5" x2="80" y2="5" stroke="#ff6f00" stroke-width="2"/>
+    <text x="40" y="-10" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#e65100">Stride</text>
+    </g>
+  
+    <!-- Path markers -->
+    <g fill="#ff9800" opacity="0.8">
+    <circle cx="120" cy="180" r="4"/>
+    <circle cx="180" cy="150" r="4"/>
+    <circle cx="240" cy="120" r="4"/>
+    <circle cx="300" cy="90" r="4"/>
+    <text x="310" y="85" font-family="Arial, sans-serif" font-size="8" fill="#e65100">Destination</text>
+    </g>
+  
+    <!-- Ground texture -->
+    <g stroke="#ffb74d" stroke-width="1" opacity="0.3">
+    <line x1="50" y1="420" x2="450" y2="420"/>
+    <line x1="60" y1="430" x2="440" y2="430"/>
+    <line x1="70" y1="440" x2="430" y2="440"/>
+    </g>
+  
+    <!-- Walking rhythm -->
+    <g transform="translate(420,300)" opacity="0.7">
+    <rect x="0" y="0" width="4" height="15" fill="#ff9800"/>
+    <rect x="8" y="-5" width="4" height="20" fill="#ff9800"/>
+    <rect x="16" y="0" width="4" height="15" fill="#ff9800"/>
+    <rect x="24" y="-8" width="4" height="23" fill="#ff9800"/>
+    <text x="12" y="35" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#e65100">Rhythm</text>
+    </g>
+  
+    <!-- Direction arrow -->
+    <g transform="translate(350,150)" opacity="0.8">
+    <path d="M0,0 L30,0 M20,-8 L30,0 L20,8" stroke="#ff6f00" stroke-width="3" fill="none"/>
+    <text x="15" y="-15" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#e65100">Forward</text>
+    </g>
+  
+    <!-- Pedestrian crossing -->
+    <g transform="translate(50,200)" opacity="0.5">
+    <g fill="#fff" stroke="#ffb74d" stroke-width="1">
+      <rect x="0" y="0" width="15" height="80"/>
+      <rect x="20" y="0" width="15" height="80"/>
+      <rect x="40" y="0" width="15" height="80"/>
+    </g>
+    </g>
+  
+    <!-- Compass showing direction -->
+    <g transform="translate(400,100)" opacity="0.7">
+    <circle cx="0" cy="0" r="20" fill="none" stroke="url(#stepGrad60)" stroke-width="2"/>
+    <path d="M0,-15 L-5,-5 L0,-10 L5,-5 Z" fill="#f44336"/>
+    <text x="0" y="-25" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#e65100">N</text>
+    </g>
+  
+    <!-- Step counter -->
+    <g transform="translate(450,200)" opacity="0.8">
+    <rect x="-20" y="-15" width="40" height="30" rx="5" fill="url(#stepGrad60)"/>
+    <text x="0" y="-2" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#fff">1,247</text>
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#fff">STEPS</text>
+    </g>
+  
+    <!-- Progress indicators -->
+    <g fill="url(#stepGrad60)" opacity="0.5">
+    <circle cx="100" cy="100" r="3"/>
+    <circle cx="150" cy="80" r="4"/>
+    <circle cx="200" cy="60" r="5"/>
+    <circle cx="250" cy="40" r="6"/>
+    </g>
+  
+    <!-- Journey milestones -->
+    <g transform="translate(50,100)" opacity="0.6">
+    <rect x="0" y="0" width="3" height="20" fill="#ff6f00"/>
+    <text x="8" y="15" font-family="Arial, sans-serif" font-size="8" fill="#e65100">Start</text>
+    </g>
+  
+    <!-- Balance lines -->
+    <g stroke="#ffab00" stroke-width="1" opacity="0.3">
+    <line x1="160" y1="200" x2="160" y2="380"/>
+    <path d="M140 290 Q160 280 180 290"/>
+    </g>
+  
+    <!-- Energy expenditure -->
+    <g fill="#ff8f00" opacity="0.6">
+    <path d="M250 450 Q260 440 270 450"/>
+    <path d="M280 445 Q290 435 300 445"/>
+    <path d="M310 450 Q320 440 330 450"/>
+    </g>
+  
+    <!-- Kanji character 彳 -->
+    <text x="80" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#bf360c" opacity="0.8">彳</text>
+    </g>
+  </g>
+</svg> 

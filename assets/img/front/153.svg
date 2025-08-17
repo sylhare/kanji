@@ -1,0 +1,90 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bodyGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#D3D3D3"/>
+      <stop offset="50%" stop-color="#A9A9A9"/>
+      <stop offset="100%" stop-color="#696969"/>
+    </radialGradient>
+    <linearGradient id="stripeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="50%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#E6F3E6"/>
+  
+  <!-- Badger body -->
+  <ellipse cx="200" cy="220" rx="100" ry="60" fill="url(#bodyGradient)" stroke="#696969" stroke-width="2"/>
+  
+  <!-- Badger head -->
+  <ellipse cx="200" cy="140" rx="60" ry="50" fill="url(#bodyGradient)" stroke="#696969" stroke-width="2"/>
+  
+  <!-- Distinctive face markings (white stripes) -->
+  <ellipse cx="200" cy="140" rx="50" ry="40" fill="#FFF" opacity="0.8"/>
+  
+  <!-- Black eye stripes -->
+  <path d="M160 130 Q180 120 200 130 Q220 120 240 130 Q220 140 200 130 Q180 140 160 130" fill="#000"/>
+  
+  <!-- Eyes -->
+  <circle cx="180" cy="130" r="8" fill="#000"/>
+  <circle cx="220" cy="130" r="8" fill="#000"/>
+  <circle cx="182" cy="128" r="2" fill="#FFF"/>
+  <circle cx="222" cy="128" r="2" fill="#FFF"/>
+  
+  <!-- Nose -->
+  <ellipse cx="200" cy="150" rx="6" ry="4" fill="#000"/>
+  
+  <!-- Ears -->
+  <ellipse cx="170" cy="110" rx="12" ry="18" fill="url(#bodyGradient)" stroke="#696969" stroke-width="1"/>
+  <ellipse cx="230" cy="110" rx="12" ry="18" fill="url(#bodyGradient)" stroke="#696969" stroke-width="1"/>
+  <ellipse cx="170" cy="110" rx="8" ry="12" fill="#FFB6C1"/>
+  <ellipse cx="230" cy="110" rx="8" ry="12" fill="#FFB6C1"/>
+  
+  <!-- Legs -->
+  <ellipse cx="150" cy="270" rx="12" ry="25" fill="url(#bodyGradient)" stroke="#696969" stroke-width="1"/>
+  <ellipse cx="180" cy="275" rx="12" ry="25" fill="url(#bodyGradient)" stroke="#696969" stroke-width="1"/>
+  <ellipse cx="220" cy="275" rx="12" ry="25" fill="url(#bodyGradient)" stroke="#696969" stroke-width="1"/>
+  <ellipse cx="250" cy="270" rx="12" ry="25" fill="url(#bodyGradient)" stroke="#696969" stroke-width="1"/>
+  
+  <!-- Paws -->
+  <ellipse cx="150" cy="295" rx="10" ry="6" fill="#2F2F2F"/>
+  <ellipse cx="180" cy="300" rx="10" ry="6" fill="#2F2F2F"/>
+  <ellipse cx="220" cy="300" rx="10" ry="6" fill="#2F2F2F"/>
+  <ellipse cx="250" cy="295" rx="10" ry="6" fill="#2F2F2F"/>
+  
+  <!-- Claws -->
+  <path d="M145 295 L142 300 M155 295 L158 300" stroke="#000" stroke-width="2"/>
+  <path d="M175 300 L172 305 M185 300 L188 305" stroke="#000" stroke-width="2"/>
+  <path d="M215 300 L212 305 M225 300 L228 305" stroke="#000" stroke-width="2"/>
+  <path d="M245 295 L242 300 M255 295 L258 300" stroke="#000" stroke-width="2"/>
+  
+  <!-- Tail -->
+  <ellipse cx="280" cy="210" rx="35" ry="15" fill="url(#bodyGradient)" stroke="#696969" stroke-width="2"/>
+  
+  <!-- Tail stripes -->
+  <ellipse cx="275" cy="210" rx="6" ry="12" fill="#000"/>
+  <ellipse cx="285" cy="210" rx="6" ry="12" fill="#FFF"/>
+  <ellipse cx="295" cy="210" rx="6" ry="12" fill="#000"/>
+  
+  <!-- Whiskers -->
+  <path d="M140 140 Q120 135 100 140" stroke="#000" stroke-width="2"/>
+  <path d="M140 150 Q120 150 100 155" stroke="#000" stroke-width="2"/>
+  <path d="M260 140 Q280 135 300 140" stroke="#000" stroke-width="2"/>
+  <path d="M260 150 Q280 150 300 155" stroke="#000" stroke-width="2"/>
+  
+  <!-- Ground/burrow entrance -->
+  <ellipse cx="200" cy="350" rx="150" ry="20" fill="#8B4513" opacity="0.6"/>
+  <ellipse cx="80" cy="330" rx="40" ry="20" fill="#654321"/>
+  <ellipse cx="80" cy="325" rx="35" ry="15" fill="#2F2F2F"/>
+  
+  <!-- Small rocks/dirt -->
+  <circle cx="120" cy="340" r="5" fill="#696969"/>
+  <circle cx="280" cy="345" r="4" fill="#A9A9A9"/>
+  <circle cx="320" cy="335" r="6" fill="#778899"/>
+  
+  <!-- Forest elements -->
+  <circle cx="50" cy="200" r="20" fill="#228B22"/>
+  <rect x="47" y="200" width="6" height="30" fill="#8B4513"/>
+  <circle cx="350" cy="180" r="25" fill="#32CD32"/>
+  <rect x="346" y="180" width="8" height="35" fill="#8B4513"/>
+</svg> 

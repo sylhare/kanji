@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad157" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bbdefb;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="footGrad157" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#ffcc80;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffb74d;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="toeGrad157" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffab91;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8a65;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="stepGlow157" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#81d4fa;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#81d4fa;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad157)"/>
+  
+  <!-- Movement energy aura -->
+  <ellipse cx="250" cy="300" rx="160" ry="120" fill="url(#stepGlow157)"/>
+  
+  <!-- Main foot representing 足 -->
+  <!-- Foot arch and heel -->
+  <path d="M180 250 Q200 280 220 320 Q240 360 260 380 Q280 400 320 400 Q350 395 370 380 Q380 360 370 340 Q360 320 340 310 Q320 300 300 290 Q280 280 260 270 Q240 260 220 250 Q200 245 180 250" 
+    fill="url(#footGrad157)" stroke="#f57c00" stroke-width="3"/>
+  
+  <!-- Toes -->
+  <!-- Big toe -->
+  <ellipse cx="320" cy="250" rx="18" ry="25" fill="url(#toeGrad157)"/>
+  <!-- Second toe -->
+  <ellipse cx="300" cy="240" rx="12" ry="20" fill="url(#toeGrad157)"/>
+  <!-- Third toe -->
+  <ellipse cx="280" cy="245" rx="10" ry="18" fill="url(#toeGrad157)"/>
+  <!-- Fourth toe -->
+  <ellipse cx="260" cy="250" rx="8" ry="15" fill="url(#toeGrad157)"/>
+  <!-- Pinky toe -->
+  <ellipse cx="240" cy="255" rx="6" ry="12" fill="url(#toeGrad157)"/>
+  
+  <!-- Toenails -->
+  <g fill="#fff" opacity="0.8">
+  <ellipse cx="320" cy="245" rx="8" ry="6"/>
+  <ellipse cx="300" cy="235" rx="5" ry="4"/>
+  <ellipse cx="280" cy="240" rx="4" ry="3"/>
+  <ellipse cx="260" cy="245" rx="3" ry="2"/>
+  <ellipse cx="240" cy="250" rx="2" ry="2"/>
+  
+  <!-- Ankle -->
+  <ellipse cx="200" cy="230" rx="25" ry="40" fill="url(#footGrad157)"/>
+  
+  <!-- Ankle bone -->
+  <circle cx="185" cy="220" r="8" fill="url(#toeGrad157)"/>
+  <circle cx="215" cy="240" r="6" fill="url(#toeGrad157)"/>
+  
+  <!-- Foot arch definition -->
+  <path d="M220 320 Q250 310 280 320" stroke="#e65100" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Footprint trail -->
+  <g fill="#42a5f5" opacity="0.3">
+  <ellipse cx="150" cy="380" rx="30" ry="50" transform="rotate(-10 150 380)"/>
+  <ellipse cx="80" cy="420" rx="28" ry="48" transform="rotate(-5 80 420)"/>
+  <ellipse cx="420" cy="350" rx="32" ry="52" transform="rotate(15 420 350)"/>
+  
+    <!-- Movement lines -->
+    <g stroke="#29b6f6" stroke-width="3" opacity="0.5">
+    <path d="M100 300 Q140 310 180 300"/>
+    <path d="M90 350 Q130 360 170 350"/>
+    <path d="M370 300 Q410 310 450 300"/>
+    <path d="M380 350 Q420 360 460 350"/>
+    </g>
+  
+    <!-- Ground contact points -->
+    <g fill="#1976d2" opacity="0.6">
+    <circle cx="320" cy="410" r="4"/>
+    <circle cx="280" cy="415" r="3"/>
+    <circle cx="240" cy="420" r="2"/>
+    <circle cx="200" cy="425" r="3"/>
+    </g>
+  
+    <!-- Pressure distribution -->
+    <g stroke="#1565c0" stroke-width="2" fill="none" opacity="0.4">
+    <ellipse cx="280" cy="390" rx="40" ry="20"/>
+    <ellipse cx="200" cy="380" rx="20" ry="30"/>
+    <ellipse cx="320" cy="380" rx="15" ry="25"/>
+    </g>
+  
+    <!-- Balance lines -->
+    <g stroke="#42a5f5" stroke-width="1" opacity="0.3">
+    <line x1="200" y1="200" x2="320" y2="200"/>
+    <line x1="220" y1="180" x2="320" y2="280"/>
+    </g>
+  
+    <!-- Speed indicators -->
+    <g fill="#64b5f6" opacity="0.7">
+    <path d="M120 250 L130 240 L140 250 L130 260 Z"/>
+    <path d="M380 280 L390 270 L400 280 L390 290 Z"/>
+    <path d="M100 320 L110 310 L120 320 L110 330 Z"/>
+    <path d="M400 320 L410 310 L420 320 L410 330 Z"/>
+    </g>
+  
+    <!-- Support structure lines -->
+    <g stroke="#f57c00" stroke-width="1" opacity="0.4">
+    <line x1="180" y1="270" x2="300" y2="290"/>
+    <line x1="200" y1="300" x2="340" y2="320"/>
+    <line x1="220" y1="330" x2="350" y2="360"/>
+    </g>
+  
+    <!-- Walking rhythm -->
+    <g fill="#29b6f6" opacity="0.5">
+    <rect x="380" y="450" width="4" height="15"/>
+    <rect x="390" y="440" width="4" height="25"/>
+    <rect x="400" y="445" width="4" height="20"/>
+    <rect x="410" y="450" width="4" height="15"/>
+    </g>
+  
+    <!-- Heel impact -->
+    <g stroke="#1976d2" stroke-width="2" fill="none" opacity="0.4">
+    <circle cx="200" cy="400" r="15"/>
+    <circle cx="200" cy="400" r="25"/>
+    <circle cx="200" cy="400" r="35"/>
+    </g>
+  
+    <!-- Kanji character 足 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1565c0" opacity="0.8">足</text>
+    </g>
+  </g>
+</svg> 

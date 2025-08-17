@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="strokeGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8e24aa;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ab47bc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9c27b0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brushTrail" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ba68c8;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#ba68c8;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad4)"/>
+  
+  <!-- Brush trail effect -->
+  <path d="M350 120 Q300 200 200 280 Q150 340 80 400" 
+    stroke="url(#brushTrail)" stroke-width="25" fill="none" opacity="0.4"/>
+  
+  <!-- Main curved stroke representing 丿 -->
+  <path d="M350 120 Q300 200 200 280 Q150 340 80 400" 
+    stroke="url(#strokeGrad4)" stroke-width="18" fill="none" stroke-linecap="round"/>
+  
+  <!-- Brush texture lines -->
+  <g stroke="#7b1fa2" stroke-width="2" opacity="0.3">
+  <path d="M340 130 Q290 210 190 290"/>
+  <path d="M360 110 Q310 190 210 270"/>
+  <path d="M345 135 Q295 215 195 295"/>
+  
+  <!-- Ink droplets along the stroke -->
+  <g fill="#8e24aa" opacity="0.7">
+  <circle cx="320" cy="150" r="4"/>
+  <circle cx="260" cy="220" r="3"/>
+  <circle cx="180" cy="310" r="5"/>
+  <circle cx="120" cy="370" r="3"/>
+  
+    <!-- Elegant start point (brush tip touch) -->
+    <circle cx="350" cy="120" r="12" fill="url(#strokeGrad4)" opacity="0.8"/>
+  
+    <!-- Brush end effect (lift off) -->
+    <g fill="#ba68c8" opacity="0.5">
+    <ellipse cx="80" cy="400" rx="15" ry="8" transform="rotate(45 80 400)"/>
+    <ellipse cx="70" cy="405" rx="8" ry="4" transform="rotate(45 70 405)"/>
+    <ellipse cx="90" cy="395" rx="6" ry="3" transform="rotate(45 90 395)"/>
+    </g>
+  
+    <!-- Decorative flourishes -->
+    <g stroke="#ce93d8" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M400 100 Q410 110 420 100"/>
+    <path d="M50 420 Q40 430 30 420"/>
+    </g>
+  
+    <!-- Kanji character 丿 -->
+    <text x="420" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#6a1b9a" opacity="0.8">丿</text>
+    </g>
+  </g>
+</svg> 

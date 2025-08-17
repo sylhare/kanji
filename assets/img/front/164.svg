@@ -1,0 +1,139 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="jarGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#F5DEB3"/>
+      <stop offset="50%" stop-color="#DEB887"/>
+      <stop offset="100%" stop-color="#CD853F"/>
+    </radialGradient>
+    <linearGradient id="sakeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0F8FF"/>
+      <stop offset="50%" stop-color="#E6E6FA"/>
+      <stop offset="100%" stop-color="#D3D3D3"/>
+    </linearGradient>
+    <radialGradient id="birdGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFE4B5"/>
+      <stop offset="50%" stop-color="#DEB887"/>
+      <stop offset="100%" stop-color="#8B7355"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#FFF8DC"/>
+  
+  <!-- Traditional sake jar -->
+  <ellipse cx="200" cy="250" rx="60" ry="80" fill="url(#jarGradient)" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Jar neck -->
+  <ellipse cx="200" cy="170" rx="20" ry="25" fill="url(#jarGradient)" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Sake inside jar -->
+  <ellipse cx="200" cy="240" rx="50" ry="65" fill="url(#sakeGradient)" stroke="#C0C0C0" stroke-width="1"/>
+  
+  <!-- Jar decorative pattern -->
+  <circle cx="180" cy="220" r="8" fill="#4169E1" opacity="0.6"/>
+  <circle cx="220" cy="220" r="8" fill="#4169E1" opacity="0.6"/>
+  <circle cx="200" cy="200" r="10" fill="#DC143C" opacity="0.6"/>
+  <circle cx="200" cy="240" r="6" fill="#32CD32" opacity="0.6"/>
+  <circle cx="170" cy="260" r="5" fill="#FFD700" opacity="0.6"/>
+  <circle cx="230" cy="260" r="5" fill="#FFD700" opacity="0.6"/>
+  
+  <!-- Jar cork/stopper -->
+  <ellipse cx="200" cy="160" rx="18" ry="8" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Steam/aroma rising from jar -->
+  <path d="M185 150 Q190 140 185 130 Q180 140 185 150" stroke="#D3D3D3" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M200 150 Q205 140 200 130 Q195 140 200 150" stroke="#D3D3D3" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M215 150 Q220 140 215 130 Q210 140 215 150" stroke="#D3D3D3" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Bird (rooster/cock) -->
+  <ellipse cx="100" cy="180" rx="25" ry="30" fill="url(#birdGradient)" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="100" cy="150" r="20" fill="url(#birdGradient)" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Bird's comb -->
+  <path d="M90 135 Q85 125 90 120 Q95 125 100 120 Q105 125 110 120 Q105 130 100 135 Q95 130 90 135" 
+    fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+  
+  <!-- Bird's beak -->
+  <path d="M85 150 Q75 148 75 152 Q85 155 85 150" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+  
+  <!-- Bird's eye -->
+  <circle cx="92" cy="145" r="3" fill="#000"/>
+  <circle cx="93" cy="144" r="1" fill="#FFF"/>
+  
+  <!-- Bird's wattles -->
+  <ellipse cx="85" cy="160" rx="5" ry="8" fill="#DC143C"/>
+  
+  <!-- Bird's tail feathers -->
+  <path d="M125 170 Q140 160 150 170 Q145 180 135 185 Q130 175 125 170" fill="#228B22" stroke="#006400" stroke-width="1"/>
+  <path d="M130 180 Q145 170 155 180 Q150 190 140 195 Q135 185 130 180" fill="#4169E1" stroke="#191970" stroke-width="1"/>
+  <path d="M135 190 Q150 180 160 190 Q155 200 145 205 Q140 195 135 190" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Bird's legs -->
+  <path d="M85 210 L80 230" stroke="#FFD700" stroke-width="3"/>
+  <path d="M95 210 L90 230" stroke="#FFD700" stroke-width="3"/>
+  <path d="M105 210 L110 230" stroke="#FFD700" stroke-width="3"/>
+  <path d="M115 210 L120 230" stroke="#FFD700" stroke-width="3"/>
+  
+  <!-- Bird claws -->
+  <path d="M75 230 L70 235 M80 230 L85 235 M85 230 L80 235" stroke="#FFD700" stroke-width="2"/>
+  <path d="M85 230 L80 235 M90 230 L95 235 M95 230 L90 235" stroke="#FFD700" stroke-width="2"/>
+  <path d="M105 230 L100 235 M110 230 L115 235 M115 230 L110 235" stroke="#FFD700" stroke-width="2"/>
+  <path d="M115 230 L110 235 M120 230 L125 235 M125 230 L120 235" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Small bird flying -->
+  <ellipse cx="320" cy="100" rx="15" ry="10" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  <circle cx="315" cy="95" r="8" fill="#CD853F"/>
+  <circle cx="312" cy="93" r="2" fill="#000"/>
+  <path d="M300 95 Q290 90 285 95" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M295 100 Q285 95 280 100" stroke="#654321" stroke-width="2" fill="none"/>
+  
+  <!-- Another flying bird -->
+  <ellipse cx="350" cy="80" rx="12" ry="8" fill="#A0522D" stroke="#8B4513" stroke-width="1"/>
+  <circle cx="347" cy="76" r="6" fill="#DEB887"/>
+  <circle cx="345" cy="75" r="1.5" fill="#000"/>
+  <path d="M335 76 Q325 71 320 76" stroke="#8B4513" stroke-width="1.5" fill="none"/>
+  <path d="M340 80 Q330 75 325 80" stroke="#8B4513" stroke-width="1.5" fill="none"/>
+  
+  <!-- Sake cups -->
+  <ellipse cx="300" cy="300" rx="20" ry="8" fill="#F5DEB3" stroke="#8B4513" stroke-width="2"/>
+  <ellipse cx="300" cy="295" rx="18" ry="6" fill="url(#sakeGradient)"/>
+  
+  <ellipse cx="120" cy="320" rx="18" ry="7" fill="#F5DEB3" stroke="#8B4513" stroke-width="2"/>
+  <ellipse cx="120" cy="316" rx="16" ry="5" fill="url(#sakeGradient)"/>
+  
+  <!-- Sake bottle -->
+  <rect x="340" y="200" width="25" height="80" rx="5" fill="url(#jarGradient)" stroke="#8B4513" stroke-width="2"/>
+  <ellipse cx="352.5" cy="200" rx="12" ry="8" fill="url(#jarGradient)" stroke="#8B4513" stroke-width="2"/>
+  <rect x="348" y="190" width="9" height="15" fill="url(#jarGradient)" stroke="#8B4513" stroke-width="1"/>
+  
+  <!-- Japanese characters/labels -->
+  <text x="352" y="240" text-anchor="middle" font-family="serif" font-size="12" fill="#8B0000">酒</text>
+  <text x="200" y="350" text-anchor="middle" font-family="serif" font-size="16" fill="#8B4513">清酒</text>
+  
+  <!-- Rice grains (ingredient) -->
+  <ellipse cx="50" cy="300" rx="3" ry="5" fill="#FFF8DC"/>
+  <ellipse cx="58" cy="305" rx="3" ry="5" fill="#FFF8DC"/>
+  <ellipse cx="45" cy="310" rx="3" ry="5" fill="#FFF8DC"/>
+  <ellipse cx="55" cy="315" rx="3" ry="5" fill="#FFF8DC"/>
+  <ellipse cx="62" cy="295" rx="3" ry="5" fill="#FFF8DC"/>
+  
+  <!-- Bamboo decoration -->
+  <rect x="30" y="100" width="8" height="120" fill="#228B22" stroke="#006400" stroke-width="1"/>
+  <rect x="30" y="130" width="8" height="3" fill="#006400"/>
+  <rect x="30" y="160" width="8" height="3" fill="#006400"/>
+  <rect x="30" y="190" width="8" height="3" fill="#006400"/>
+  
+  <!-- Traditional lantern -->
+  <ellipse cx="380" cy="150" rx="15" ry="30" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+  <rect x="375" y="135" width="10" height="5" fill="#8B4513"/>
+  <rect x="375" y="175" width="10" height="5" fill="#8B4513"/>
+  <path d="M370 150 L390 150" stroke="#FF6347" stroke-width="2"/>
+  <text x="380" y="155" text-anchor="middle" font-family="serif" font-size="8" fill="#8B0000">祭</text>
+  
+  <!-- Clouds -->
+  <circle cx="80" cy="50" r="18" fill="#FFF" opacity="0.7"/>
+  <circle cx="100" cy="45" r="22" fill="#FFF" opacity="0.7"/>
+  <circle cx="120" cy="50" r="16" fill="#FFF" opacity="0.7"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="60" r="25" fill="#FFD700" opacity="0.8"/>
+  <circle cx="350" cy="60" r="20" fill="#FFA500" opacity="0.6"/>
+</svg> 

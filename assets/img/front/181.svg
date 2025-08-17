@@ -1,0 +1,199 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pageGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFAF0"/>
+      <stop offset="50%" stop-color="#F5F5DC"/>
+      <stop offset="100%" stop-color="#E6E6FA"/>
+    </linearGradient>
+    <linearGradient id="bookGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="50%" stop-color="#A0522D"/>
+      <stop offset="100%" stop-color="#CD853F"/>
+    </linearGradient>
+    <radialGradient id="inkGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#000080"/>
+      <stop offset="50%" stop-color="#000"/>
+      <stop offset="100%" stop-color="#2F2F2F"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#F0F8FF"/>
+  
+  <!-- Large open book -->
+  <rect x="100" y="150" width="200" height="150" fill="url(#bookGradient)" stroke="#654321" stroke-width="3"/>
+  
+  <!-- Book pages -->
+  <rect x="110" y="160" width="85" height="130" fill="url(#pageGradient)" stroke="#D3D3D3" stroke-width="1"/>
+  <rect x="205" y="160" width="85" height="130" fill="url(#pageGradient)" stroke="#D3D3D3" stroke-width="1"/>
+  
+  <!-- Text lines on pages -->
+  <g stroke="#000" stroke-width="1" opacity="0.6">
+  <!-- Left page -->
+  <path d="M120 175 L185 175"/>
+  <path d="M120 185 L185 185"/>
+  <path d="M120 195 L180 195"/>
+  <path d="M120 205 L185 205"/>
+  <path d="M120 215 L175 215"/>
+  <path d="M120 225 L185 225"/>
+  <path d="M120 235 L180 235"/>
+  <path d="M120 245 L185 245"/>
+  <path d="M120 255 L175 255"/>
+  <path d="M120 265 L185 265"/>
+  <path d="M120 275 L180 275"/>
+  
+  <!-- Right page -->
+  <path d="M215 175 L280 175"/>
+  <path d="M215 185 L280 185"/>
+  <path d="M215 195 L275 195"/>
+  <path d="M215 205 L280 205"/>
+  <path d="M215 215 L270 215"/>
+  <path d="M215 225 L280 225"/>
+  <path d="M215 235 L275 235"/>
+  <path d="M215 245 L280 245"/>
+  <path d="M215 255 L270 255"/>
+  <path d="M215 265 L280 265"/>
+  <path d="M215 275 L275 275"/>
+  
+  <!-- Book spine -->
+  <rect x="195" y="150" width="20" height="150" fill="#654321" stroke="#4B0000" stroke-width="2"/>
+  
+  <!-- Individual pages flying -->
+  <rect x="50" y="80" width="60" height="80" fill="url(#pageGradient)" stroke="#D3D3D3" stroke-width="2" transform="rotate(-15 80 120)"/>
+  <g stroke="#000" stroke-width="1" opacity="0.5">
+  <path d="M60 95 L95 95" transform="rotate(-15 80 120)"/>
+  <path d="M60 105 L95 105" transform="rotate(-15 80 120)"/>
+  <path d="M60 115 L90 115" transform="rotate(-15 80 120)"/>
+  <path d="M60 125 L95 125" transform="rotate(-15 80 120)"/>
+  <path d="M60 135 L90 135" transform="rotate(-15 80 120)"/>
+  <path d="M60 145 L95 145" transform="rotate(-15 80 120)"/>
+  
+    <rect x="320" y="70" width="50" height="70" fill="url(#pageGradient)" stroke="#D3D3D3" stroke-width="2" transform="rotate(20 345 105)"/>
+    <g stroke="#000" stroke-width="1" opacity="0.5">
+    <path d="M330 85 L360 85" transform="rotate(20 345 105)"/>
+    <path d="M330 95 L360 95" transform="rotate(20 345 105)"/>
+    <path d="M330 105 L355 105" transform="rotate(20 345 105)"/>
+    <path d="M330 115 L360 115" transform="rotate(20 345 105)"/>
+    <path d="M330 125 L355 125" transform="rotate(20 345 105)"/>
+    </g>
+  
+    <!-- Scroll -->
+    <ellipse cx="50" cy="250" rx="8" ry="40" fill="#F5DEB3" stroke="#D2691E" stroke-width="2"/>
+    <rect x="58" y="210" width="80" height="80" fill="url(#pageGradient)" stroke="#D3D3D3" stroke-width="1"/>
+    <ellipse cx="146" cy="250" rx="8" ry="40" fill="#F5DEB3" stroke="#D2691E" stroke-width="2"/>
+  
+    <!-- Scroll text -->
+    <g stroke="#8B0000" stroke-width="1" opacity="0.7">
+    <path d="M65 225 L130 225"/>
+    <path d="M65 235 L130 235"/>
+    <path d="M65 245 L125 245"/>
+    <path d="M65 255 L130 255"/>
+    <path d="M65 265 L125 265"/>
+    <path d="M65 275 L130 275"/>
+    </g>
+  
+    <!-- Manuscript with illuminated letters -->
+    <rect x="300" y="200" width="80" height="100" fill="url(#pageGradient)" stroke="#DAA520" stroke-width="3"/>
+  
+    <!-- Illuminated letter -->
+    <rect x="310" y="210" width="15" height="20" fill="#DC143C"/>
+    <text x="317.5" y="225" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#FFD700">A</text>
+  
+    <!-- Decorative border -->
+    <rect x="305" y="205" width="70" height="90" fill="none" stroke="#DAA520" stroke-width="2"/>
+    <circle cx="315" cy="215" r="2" fill="#4169E1"/>
+    <circle cx="365" cy="215" r="2" fill="#4169E1"/>
+    <circle cx="315" cy="285" r="2" fill="#4169E1"/>
+    <circle cx="365" cy="285" r="2" fill="#4169E1"/>
+  
+    <!-- Manuscript text -->
+    <g stroke="#000" stroke-width="0.8" opacity="0.6">
+    <path d="M330 215 L370 215"/>
+    <path d="M310 225 L370 225"/>
+    <path d="M310 235 L365 235"/>
+    <path d="M310 245 L370 245"/>
+    <path d="M310 255 L365 255"/>
+    <path d="M310 265 L370 265"/>
+    <path d="M310 275 L365 275"/>
+    <path d="M310 285 L370 285"/>
+    </g>
+  
+    <!-- Stack of books -->
+    <rect x="250" y="320" width="60" height="12" fill="#8B0000" stroke="#4B0000" stroke-width="1"/>
+    <rect x="250" y="332" width="60" height="12" fill="#006400" stroke="#2F4F2F" stroke-width="1"/>
+    <rect x="250" y="344" width="60" height="12" fill="#4B0082" stroke="#2E0854" stroke-width="1"/>
+    <rect x="250" y="356" width="60" height="12" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+    <!-- Book spines with titles -->
+    <text x="280" y="328" text-anchor="middle" font-family="serif" font-size="6" fill="#FFF">POETRY</text>
+    <text x="280" y="340" text-anchor="middle" font-family="serif" font-size="6" fill="#FFF">HISTORY</text>
+    <text x="280" y="352" text-anchor="middle" font-family="serif" font-size="6" fill="#FFF">SCIENCE</text>
+    <text x="280" y="364" text-anchor="middle" font-family="serif" font-size="6" fill="#FFF">PHILOSOPHY</text>
+  
+    <!-- Quill pen -->
+    <rect x="160" y="320" width="2" height="50" fill="#8B4513"/>
+    <path d="M162 320 Q170 315 175 320 Q170 325 162 330" fill="#FFF" stroke="#D3D3D3" stroke-width="1"/>
+    <path d="M162 330 Q167 335 172 340 Q167 345 162 350" fill="#A9A9A9" stroke="#696969" stroke-width="1"/>
+  
+    <!-- Ink well -->
+    <circle cx="140" cy="350" r="15" fill="url(#inkGradient)" stroke="#000" stroke-width="2"/>
+    <circle cx="140" cy="345" r="10" fill="#000080"/>
+  
+    <!-- Ink drops -->
+    <circle cx="165" cy="360" r="2" fill="#000080"/>
+    <circle cx="170" cy="365" r="1.5" fill="#000080"/>
+  
+    <!-- Bookshelf -->
+    <rect x="20" y="300" width="120" height="80" fill="#DEB887" stroke="#8B4513" stroke-width="2"/>
+    <rect x="25" y="305" width="110" height="3" fill="#8B4513"/>
+    <rect x="25" y="325" width="110" height="3" fill="#8B4513"/>
+    <rect x="25" y="345" width="110" height="3" fill="#8B4513"/>
+    <rect x="25" y="365" width="110" height="3" fill="#8B4513"/>
+  
+    <!-- Books on shelf -->
+    <rect x="30" y="308" width="8" height="15" fill="#DC143C"/>
+    <rect x="40" y="308" width="8" height="15" fill="#4169E1"/>
+    <rect x="50" y="308" width="8" height="15" fill="#32CD32"/>
+    <rect x="60" y="308" width="8" height="15" fill="#FFD700"/>
+    <rect x="70" y="308" width="8" height="15" fill="#FF69B4"/>
+  
+    <rect x="30" y="328" width="8" height="15" fill="#9370DB"/>
+    <rect x="40" y="328" width="8" height="15" fill="#FF6347"/>
+    <rect x="50" y="328" width="8" height="15" fill="#00CED1"/>
+    <rect x="60" y="328" width="8" height="15" fill="#FFA500"/>
+  
+    <!-- Library lamp -->
+    <rect x="350" y="320" width="4" height="40" fill="#8B4513"/>
+    <circle cx="352" cy="315" r="8" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+    <circle cx="352" cy="315" r="5" fill="#FFF" opacity="0.8"/>
+  
+    <!-- Light rays -->
+    <g stroke="#FFD700" stroke-width="1" opacity="0.6">
+    <path d="M345 310 L340 305"/>
+    <path d="M359 310 L364 305"/>
+    <path d="M345 320 L340 325"/>
+    <path d="M359 320 L364 325"/>
+    <path d="M340 315 L335 315"/>
+    <path d="M364 315 L369 315"/>
+    </g>
+  
+    <!-- Reading glasses -->
+    <circle cx="200" cy="100" r="12" fill="none" stroke="#C0C0C0" stroke-width="2"/>
+    <circle cx="230" cy="100" r="12" fill="none" stroke="#C0C0C0" stroke-width="2"/>
+    <path d="M212 100 L218 100" stroke="#C0C0C0" stroke-width="2"/>
+    <path d="M188 100 L185 105" stroke="#C0C0C0" stroke-width="2"/>
+    <path d="M242 100 L245 105" stroke="#C0C0C0" stroke-width="2"/>
+  
+    <!-- Bookmark ribbon -->
+    <rect x="200" y="130" width="6" height="60" fill="#DC143C"/>
+    <path d="M200 190 L203 180 L206 190 Z" fill="#DC143C"/>
+  
+    <!-- Page corner folded -->
+    <path d="M280 160 L280 175 L295 160 Z" fill="#D3D3D3" stroke="#A9A9A9" stroke-width="1"/>
+  
+    <!-- Chinese character -->
+    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#4B0082">頁</text>
+  
+    <!-- Title -->
+    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2F4F4F">PAGES &amp; BOOKS</text>
+    </g>
+  </g>
+</svg> 

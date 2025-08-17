@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad46" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#eceff1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cfd8dc;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="metalGrad46" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#90a4ae;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#607d8b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#455a64;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="workGlow46" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#b0bec5;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#b0bec5;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="toolGrad46" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#78909c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#546e7a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Industrial background -->
+  <rect width="500" height="500" fill="url(#bgGrad46)"/>
+  
+  <!-- Work energy aura -->
+  <ellipse cx="250" cy="250" rx="180" ry="150" fill="url(#workGlow46)"/>
+  
+  <!-- Main structure representing 工 -->
+  <!-- Top horizontal beam -->
+  <rect x="150" y="180" width="200" height="20" rx="10" fill="url(#metalGrad46)" stroke="#37474f" stroke-width="3"/>
+  
+  <!-- Vertical support beam -->
+  <rect x="240" y="180" width="20" height="160" rx="10" fill="url(#metalGrad46)" stroke="#37474f" stroke-width="3"/>
+  
+  <!-- Bottom horizontal beam -->
+  <rect x="150" y="320" width="200" height="20" rx="10" fill="url(#metalGrad46)" stroke="#37474f" stroke-width="3"/>
+  
+  <!-- Rivets and bolts -->
+  <g fill="#263238">
+  <circle cx="170" cy="190" r="4"/>
+  <circle cx="330" cy="190" r="4"/>
+  <circle cx="250" cy="190" r="4"/>
+  
+  <circle cx="170" cy="330" r="4"/>
+  <circle cx="330" cy="330" r="4"/>
+  <circle cx="250" cy="330" r="4"/>
+  
+  <circle cx="250" cy="220" r="3"/>
+  <circle cx="250" cy="300" r="3"/>
+  
+  <!-- Workshop tools -->
+  <!-- Hammer -->
+  <g transform="translate(100,300)" opacity="0.8">
+  <rect x="0" y="0" width="8" height="40" rx="4" fill="#8d6e63"/>
+  <rect x="-8" y="-5" width="24" height="15" rx="3" fill="url(#metalGrad46)"/>
+  <circle cx="4" cy="-10" r="3" fill="#37474f"/>
+  
+    <!-- Wrench -->
+    <g transform="translate(400,320)" opacity="0.8">
+    <rect x="0" y="0" width="4" height="30" rx="2" fill="url(#toolGrad46)"/>
+    <rect x="-3" y="25" width="10" height="8" rx="2" fill="url(#metalGrad46)"/>
+    <rect x="-2" y="0" width="8" height="5" rx="1" fill="url(#metalGrad46)"/>
+    </g>
+  
+    <!-- Gear wheels -->
+    <g transform="translate(120,150)" opacity="0.7">
+    <circle cx="0" cy="0" r="15" fill="url(#metalGrad46)" stroke="#37474f" stroke-width="2"/>
+    <g fill="#263238">
+      <rect x="-2" y="-18" width="4" height="6"/>
+      <rect x="-2" y="12" width="4" height="6"/>
+      <rect x="12" y="-2" width="6" height="4"/>
+      <rect x="-18" y="-2" width="6" height="4"/>
+      <rect x="10" y="-10" width="5" height="4" transform="rotate(45 12.5 -8)"/>
+      <rect x="10" y="6" width="5" height="4" transform="rotate(-45 12.5 8)"/>
+      <rect x="-15" y="-10" width="5" height="4" transform="rotate(-45 -12.5 -8)"/>
+      <rect x="-15" y="6" width="5" height="4" transform="rotate(45 -12.5 8)"/>
+    </g>
+    <circle cx="0" cy="0" r="5" fill="#37474f"/>
+    </g>
+  
+    <!-- Smaller gear -->
+    <g transform="translate(380,150)" opacity="0.7">
+    <circle cx="0" cy="0" r="12" fill="url(#metalGrad46)" stroke="#37474f" stroke-width="2"/>
+    <g fill="#263238">
+      <rect x="-1" y="-14" width="2" height="4"/>
+      <rect x="-1" y="10" width="2" height="4"/>
+      <rect x="10" y="-1" width="4" height="2"/>
+      <rect x="-14" y="-1" width="4" height="2"/>
+    </g>
+    <circle cx="0" cy="0" r="3" fill="#37474f"/>
+    </g>
+  
+    <!-- Anvil -->
+    <g transform="translate(350,400)" opacity="0.8">
+    <rect x="-20" y="0" width="40" height="15" rx="3" fill="url(#metalGrad46)"/>
+    <rect x="-15" y="-10" width="30" height="10" rx="2" fill="url(#metalGrad46)"/>
+    <rect x="-25" y="-15" width="10" height="5" rx="1" fill="url(#metalGrad46)"/>
+    <rect x="-10" y="15" width="4" height="20" fill="#8d6e63"/>
+    <rect x="6" y="15" width="4" height="20" fill="#8d6e63"/>
+    </g>
+  
+    <!-- Blueprint/technical drawing -->
+    <g transform="translate(80,80)" opacity="0.6">
+    <rect x="0" y="0" width="80" height="60" fill="#e3f2fd" stroke="#1976d2" stroke-width="1"/>
+    <g stroke="#2196f3" stroke-width="1" fill="none">
+      <line x1="10" y1="15" x2="70" y2="15"/>
+      <line x1="10" y1="30" x2="70" y2="30"/>
+      <line x1="10" y1="45" x2="70" y2="45"/>
+      <line x1="20" y1="10" x2="20" y2="50"/>
+      <line x1="60" y1="10" x2="60" y2="50"/>
+      <rect x="25" y="20" width="30" height="20"/>
+    </g>
+    <text x="40" y="8" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#1976d2">BLUEPRINT</text>
+    </g>
+  
+    <!-- Welding sparks -->
+    <g fill="#ffeb3b" opacity="0.8">
+    <circle cx="180" cy="280" r="2"/>
+    <circle cx="185" cy="275" r="1"/>
+    <circle cx="175" cy="285" r="1"/>
+    <circle cx="190" cy="280" r="1"/>
+    <circle cx="170" cy="275" r="2"/>
+    </g>
+  
+    <!-- Construction helmet -->
+    <g transform="translate(450,100)" opacity="0.7">
+    <ellipse cx="0" cy="0" rx="20" ry="15" fill="#ffeb3b"/>
+    <rect x="-15" y="-2" width="30" height="4" fill="#f57c00"/>
+    <circle cx="0" cy="-8" r="3" fill="#ff9800"/>
+    </g>
+  
+    <!-- Measuring tools -->
+    <g transform="translate(50,250)" opacity="0.7">
+    <!-- Ruler -->
+    <rect x="0" y="0" width="60" height="8" rx="2" fill="url(#metalGrad46)"/>
+    <g stroke="#37474f" stroke-width="0.5">
+      <line x1="0" y1="8" x2="0" y2="12"/>
+      <line x1="15" y1="8" x2="15" y2="10"/>
+      <line x1="30" y1="8" x2="30" y2="12"/>
+      <line x1="45" y1="8" x2="45" y2="10"/>
+      <line x1="60" y1="8" x2="60" y2="12"/>
+    </g>
+    </g>
+  
+    <!-- Level tool -->
+    <g transform="translate(400,250)" opacity="0.7">
+    <rect x="0" y="0" width="50" height="12" rx="6" fill="#4caf50"/>
+    <circle cx="25" cy="6" r="4" fill="#66bb6a"/>
+    <circle cx="25" cy="6" r="2" fill="#2e7d32"/>
+    </g>
+  
+    <!-- Industrial pipes -->
+    <g stroke="url(#metalGrad46)" stroke-width="8" fill="none" opacity="0.6">
+    <line x1="50" y1="400" x2="150" y2="400"/>
+    <line x1="350" y1="450" x2="450" y2="450"/>
+    <path d="M50 400 Q60 380 80 380"/>
+    <path d="M420 450 Q430 430 450 430"/>
+    </g>
+  
+    <!-- Pipe joints -->
+    <g fill="url(#metalGrad46)" opacity="0.6">
+    <circle cx="80" cy="380" r="6"/>
+    <circle cx="430" cy="430" r="6"/>
+    </g>
+  
+    <!-- Workshop bench -->
+    <g transform="translate(200,450)" opacity="0.5">
+    <rect x="-50" y="0" width="100" height="30" rx="5" fill="#8d6e63"/>
+    <rect x="-45" y="-5" width="90" height="5" fill="#a1887f"/>
+    <rect x="-40" y="30" width="8" height="20" fill="#6d4c41"/>
+    <rect x="32" y="30" width="8" height="20" fill="#6d4c41"/>
+    </g>
+  
+    <!-- Work progress indicators -->
+    <g fill="#4caf50" opacity="0.7">
+    <rect x="160" y="360" width="20" height="8" rx="4"/>
+    <rect x="190" y="360" width="20" height="8" rx="4"/>
+    <rect x="220" y="360" width="20" height="8" rx="4"/>
+    <rect x="250" y="360" width="20" height="8" fill="#81c784" rx="4"/>
+    <rect x="280" y="360" width="20" height="8" fill="#e0e0e0" rx="4"/>
+    <rect x="310" y="360" width="20" height="8" fill="#e0e0e0" rx="4"/>
+    </g>
+  
+    <!-- Industrial sparkles -->
+    <g fill="#607d8b" opacity="0.8">
+    <path d="M120 250 L130 240 L140 250 L130 260 Z"/>
+    <path d="M360 250 L370 240 L380 250 L370 260 Z"/>
+    <path d="M180 120 L190 110 L200 120 L190 130 Z"/>
+    <path d="M320 380 L330 370 L340 380 L330 390 Z"/>
+    </g>
+  
+    <!-- Safety signs -->
+    <g transform="translate(450,200)" opacity="0.6">
+    <polygon points="0,-10 8.7,-5 8.7,5 0,10 -8.7,5 -8.7,-5" fill="#f44336"/>
+    <text x="0" y="2" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#fff">!</text>
+    </g>
+  
+    <!-- Quality control -->
+    <g transform="translate(50,150)" opacity="0.7">
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#4caf50" stroke-width="2"/>
+    <path d="M-6,0 L-2,4 L6,-4" stroke="#4caf50" stroke-width="2" fill="none"/>
+    </g>
+  
+    <!-- Kanji character 工 -->
+    <text x="50" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#37474f" opacity="0.8">工</text>
+    </g>
+  </g>
+</svg> 

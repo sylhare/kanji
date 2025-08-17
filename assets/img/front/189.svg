@@ -1,0 +1,253 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E6E6FA"/>
+      <stop offset="30%" stop-color="#8FBC8F"/>
+      <stop offset="70%" stop-color="#654321"/>
+      <stop offset="100%" stop-color="#2F4F4F"/>
+    </linearGradient>
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="50%" stop-color="#4682B4"/>
+      <stop offset="100%" stop-color="#2F4F4F"/>
+    </linearGradient>
+    <radialGradient id="sunGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFF99"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </radialGradient>
+  </defs>  <!-- Sky background -->
+  <rect width="500" height="500" fill="#87CEEB"/>
+  
+  <!-- Highest mountain peak -->
+  <path d="M200 50 L250 200 L300 150 L350 200 L400 180 L400 400 L0 400 L0 200 L50 180 L100 200 L150 150 Z" 
+    fill="url(#mountainGradient)" stroke="#2F4F4F" stroke-width="2"/>
+  
+  <!-- Snow cap on peak -->
+  <path d="M200 50 L230 120 L250 100 L280 120 L300 100 L320 120 L350 90 L380 110 L400 90 L400 0 L0 0 L0 90 L20 110 L50 90 L80 120 L100 100 L120 120 L150 100 L170 120 Z" 
+    fill="#FFFAFA" opacity="0.8"/>
+  
+  <!-- Skyscraper -->
+  <rect x="80" y="100" width="40" height="300" fill="url(#buildingGradient)" stroke="#2F4F4F" stroke-width="2"/>
+  
+  <!-- Skyscraper windows -->
+  <g fill="#E0F6FF" stroke="#4682B4" stroke-width="1">
+  <rect x="85" y="110" width="6" height="8"/>
+  <rect x="95" y="110" width="6" height="8"/>
+  <rect x="105" y="110" width="6" height="8"/>
+  <rect x="85" y="125" width="6" height="8"/>
+  <rect x="95" y="125" width="6" height="8"/>
+  <rect x="105" y="125" width="6" height="8"/>
+  <rect x="85" y="140" width="6" height="8"/>
+  <rect x="95" y="140" width="6" height="8"/>
+  <rect x="105" y="140" width="6" height="8"/>
+  <rect x="85" y="155" width="6" height="8"/>
+  <rect x="95" y="155" width="6" height="8"/>
+  <rect x="105" y="155" width="6" height="8"/>
+  <rect x="85" y="170" width="6" height="8"/>
+  <rect x="95" y="170" width="6" height="8"/>
+  <rect x="105" y="170" width="6" height="8"/>
+  
+  <!-- Antenna on top -->
+  <rect x="98" y="80" width="4" height="20" fill="#C0C0C0"/>
+  <circle cx="100" cy="75" r="3" fill="#FF0000"/>
+  
+  <!-- Radio waves from antenna -->
+  <g stroke="#FF69B4" stroke-width="2" fill="none" opacity="0.6">
+  <circle cx="100" cy="75" r="10"/>
+  <circle cx="100" cy="75" r="20"/>
+  <circle cx="100" cy="75" r="30"/>
+  
+    <!-- Very tall tree -->
+    <rect x="300" y="120" width="8" height="280" fill="#8B4513"/>
+  
+    <!-- Tree crown at top -->
+    <circle cx="304" cy="110" r="20" fill="#228B22" stroke="#006400" stroke-width="2"/>
+    <circle cx="290" cy="120" r="15" fill="#32CD32" stroke="#228B22" stroke-width="1"/>
+    <circle cx="318" cy="120" r="15" fill="#32CD32" stroke="#228B22" stroke-width="1"/>
+  
+    <!-- Lighthouse -->
+    <rect x="30" y="150" width="20" height="200" fill="#FFF" stroke="#D3D3D3" stroke-width="2"/>
+  
+    <!-- Lighthouse stripes -->
+    <rect x="30" y="180" width="20" height="15" fill="#DC143C"/>
+    <rect x="30" y="210" width="20" height="15" fill="#DC143C"/>
+    <rect x="30" y="240" width="20" height="15" fill="#DC143C"/>
+    <rect x="30" y="270" width="20" height="15" fill="#DC143C"/>
+    <rect x="30" y="300" width="20" height="15" fill="#DC143C"/>
+  
+    <!-- Lighthouse lamp -->
+    <rect x="25" y="140" width="30" height="20" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+  
+    <!-- Light beam -->
+    <path d="M55 150 L80 130 L80 170 Z" fill="#FFFF99" opacity="0.6"/>
+    <path d="M55 150 L100 100 L100 200 Z" fill="#FFFF99" opacity="0.3"/>
+  
+    <!-- High-rise apartment building -->
+    <rect x="150" y="200" width="60" height="200" fill="#A9A9A9" stroke="#696969" stroke-width="2"/>
+  
+    <!-- Apartment windows -->
+    <g fill="#FFFAF0" stroke="#D3D3D3" stroke-width="1">
+    <!-- Floor 1 -->
+    <rect x="155" y="210" width="8" height="12"/>
+    <rect x="167" y="210" width="8" height="12"/>
+    <rect x="179" y="210" width="8" height="12"/>
+    <rect x="191" y="210" width="8" height="12"/>
+    <!-- Floor 2 -->
+    <rect x="155" y="230" width="8" height="12"/>
+    <rect x="167" y="230" width="8" height="12"/>
+    <rect x="179" y="230" width="8" height="12"/>
+    <rect x="191" y="230" width="8" height="12"/>
+    <!-- Floor 3 -->
+    <rect x="155" y="250" width="8" height="12"/>
+    <rect x="167" y="250" width="8" height="12"/>
+    <rect x="179" y="250" width="8" height="12"/>
+    <rect x="191" y="250" width="8" height="12"/>
+    <!-- Floor 4 -->
+    <rect x="155" y="270" width="8" height="12"/>
+    <rect x="167" y="270" width="8" height="12"/>
+    <rect x="179" y="270" width="8" height="12"/>
+    <rect x="191" y="270" width="8" height="12"/>
+    </g>
+  
+    <!-- Tall crane -->
+    <rect x="320" y="180" width="6" height="180" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+  
+    <!-- Crane arm -->
+    <rect x="290" y="180" width="60" height="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+  
+    <!-- Crane hook -->
+    <rect x="285" y="185" width="2" height="15" fill="#C0C0C0"/>
+    <rect x="280" y="200" width="12" height="4" fill="#C0C0C0"/>
+  
+    <!-- Hot air balloon at high altitude -->
+    <circle cx="250" cy="80" r="25" fill="#FF69B4" stroke="#DC143C" stroke-width="2"/>
+  
+    <!-- Balloon basket -->
+    <rect x="245" y="105" width="10" height="8" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+    <!-- Balloon ropes -->
+    <path d="M235 95 L245 105" stroke="#654321" stroke-width="1"/>
+    <path d="M265 95 L255 105" stroke="#654321" stroke-width="1"/>
+    <path d="M250 105 L250 105" stroke="#654321" stroke-width="1"/>
+  
+    <!-- Tall flagpole -->
+    <rect x="360" y="120" width="3" height="200" fill="#A9A9A9"/>
+  
+    <!-- Flag at top -->
+    <rect x="363" y="120" width="25" height="15" fill="#DC143C"/>
+    <rect x="363" y="127" width="25" height="8" fill="#FFF"/>
+  
+    <!-- High voltage tower -->
+    <g stroke="#696969" stroke-width="4" fill="none">
+    <!-- Tower legs -->
+    <path d="M380 300 L390 150"/>
+    <path d="M390 300 L380 150"/>
+    <path d="M385 200 L375 200"/>
+    <path d="M385 240 L375 240"/>
+    <path d="M385 280 L375 280"/>
+    </g>
+  
+    <!-- Power lines -->
+    <g stroke="#2F2F2F" stroke-width="2" fill="none">
+    <path d="M375 200 Q350 205 325 200"/>
+    <path d="M375 240 Q350 245 325 240"/>
+    <path d="M375 280 Q350 285 325 280"/>
+    </g>
+  
+    <!-- Airplane flying high -->
+    <ellipse cx="120" cy="60" rx="15" ry="4" fill="#C0C0C0" stroke="#A9A9A9" stroke-width="1"/>
+  
+    <!-- Airplane wings -->
+    <rect x="105" y="57" width="20" height="2" fill="#C0C0C0"/>
+    <rect x="112" y="60" width="6" height="1" fill="#C0C0C0"/>
+  
+    <!-- Airplane tail -->
+    <rect x="100" y="58" width="5" height="3" fill="#C0C0C0"/>
+  
+    <!-- Contrail -->
+    <path d="M100 60 Q80 62 60 60" stroke="#FFF" stroke-width="2" opacity="0.7"/>
+  
+    <!-- High diving platform -->
+    <rect x="250" y="250" width="30" height="4" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+    <rect x="265" y="254" width="4" height="40" fill="#8B4513"/>
+  
+    <!-- Ladder to platform -->
+    <rect x="267" y="294" width="2" height="20" fill="#C0C0C0"/>
+    <rect x="263" y="300" width="8" height="1" fill="#C0C0C0"/>
+    <rect x="263" y="305" width="8" height="1" fill="#C0C0C0"/>
+    <rect x="263" y="310" width="8" height="1" fill="#C0C0C0"/>
+  
+    <!-- Tall cactus -->
+    <rect x="370" y="250" width="10" height="100" fill="#32CD32" stroke="#228B22" stroke-width="2" rx="5"/>
+  
+    <!-- Cactus arms -->
+    <rect x="355" y="270" width="15" height="8" fill="#32CD32" stroke="#228B22" stroke-width="1" rx="4"/>
+    <rect x="380" y="280" width="15" height="8" fill="#32CD32" stroke="#228B22" stroke-width="1" rx="4"/>
+  
+    <!-- Cactus spines -->
+    <g stroke="#8B4513" stroke-width="1">
+    <path d="M372 255 L374 253"/>
+    <path d="M376 260 L378 258"/>
+    <path d="M374 270 L376 268"/>
+    <path d="M378 280 L380 278"/>
+    <path d="M372 290 L374 288"/>
+    </g>
+  
+    <!-- Height measurement markers -->
+    <g stroke="#FF0000" stroke-width="2" fill="none">
+    <path d="M20 100 L25 100"/>
+    <path d="M20 150 L25 150"/>
+    <path d="M20 200 L25 200"/>
+    <path d="M20 250 L25 250"/>
+    <path d="M20 300 L25 300"/>
+    <path d="M20 350 L25 350"/>
+    <path d="M22.5 100 L22.5 350"/>
+    </g>
+  
+    <!-- Elevation numbers -->
+    <g fill="#FF0000" font-family="Arial, sans-serif" font-size="10">
+    <text x="15" y="105">300m</text>
+    <text x="15" y="155">250m</text>
+    <text x="15" y="205">200m</text>
+    <text x="15" y="255">150m</text>
+    <text x="15" y="305">100m</text>
+    <text x="15" y="355">50m</text>
+    </g>
+  
+    <!-- Sun at high altitude -->
+    <circle cx="50" cy="50" r="20" fill="url(#sunGradient)" stroke="#FFA500" stroke-width="2"/>
+  
+    <!-- Sun rays -->
+    <g stroke="#FFD700" stroke-width="3" opacity="0.8">
+    <path d="M30 30 L20 20"/>
+    <path d="M70 30 L80 20"/>
+    <path d="M30 70 L20 80"/>
+    <path d="M70 70 L80 80"/>
+    <path d="M30 50 L15 50"/>
+    <path d="M70 50 L85 50"/>
+    <path d="M50 30 L50 15"/>
+    <path d="M50 70 L50 85"/>
+    </g>
+  
+    <!-- Clouds at different heights -->
+    <g fill="#FFF" opacity="0.8">
+    <!-- High clouds -->
+    <circle cx="180" cy="70" r="12"/>
+    <circle cx="195" cy="65" r="15"/>
+    <circle cx="210" cy="70" r="10"/>
+    
+    <!-- Mid-level clouds -->
+    <circle cx="300" cy="120" r="15"/>
+    <circle cx="320" cy="115" r="18"/>
+    <circle cx="340" cy="120" r="12"/>
+    </g>
+  
+    <!-- Chinese character -->
+    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#4B0082">高</text>
+  
+    <!-- Title -->
+    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2F4F4F">HIGH &amp; TALL</text>
+    </g>
+  </g>
+</svg> 

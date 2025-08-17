@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad33" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f2f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b2dfdb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="scholarGrad33" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#26a69a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00897b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00695c;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="honorGrad33" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#4db6ac;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#26a69a;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="samuraiGrad33" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#80cbc4;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#4db6ac;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#26a69a;stop-opacity:0.9" />
+    </linearGradient>
+    <radialGradient id="glowGrad33" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#80cbc4;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#80cbc4;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="dignityGrad33" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f2f1;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#b2dfdb;stop-opacity:0.7" />
+    </linearGradient>
+    <filter id="honor33">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#004d40" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad33)"/>
+  
+  <!-- Noble atmosphere -->
+  <ellipse cx="250" cy="250" rx="200" ry="160" fill="url(#glowGrad33)"/>
+  
+  <!-- Main scholar figure representing 士 -->
+  <g transform="translate(250,220)" opacity="0.95">
+  <!-- Scholar's robe -->
+  <path d="M-30,-40 Q-40,-20 -35,10 Q-30,40 -20,60 Q-10,80 0,85 Q10,80 20,60 Q30,40 35,10 Q40,-20 30,-40 Q20,-50 0,-45 Q-20,-50 -30,-40" 
+      fill="url(#scholarGrad33)" 
+      stroke="#004d40" 
+      stroke-width="3" 
+      filter="url(#honor33)"/>
+  
+  <!-- Scholar's head -->
+  <circle cx="0" cy="-55" r="15" fill="url(#honorGrad33)" stroke="#00695c" stroke-width="2"/>
+  
+  <!-- Scholarly cap -->
+  <rect x="-12" y="-72" width="24" height="12" rx="6" fill="#004d40"/>
+  <rect x="-8" y="-70" width="16" height="8" rx="4" fill="#00695c"/>
+  
+  <!-- Face features -->
+  <g fill="#004d40" opacity="0.8">
+  <circle cx="-4" cy="-58" r="1"/>  <!-- Left eye -->
+  <circle cx="4" cy="-58" r="1"/>   <!-- Right eye -->
+  <path d="M-3,-50 Q0,-48 3,-50" stroke="#004d40" stroke-width="1" fill="none"/>  <!-- Beard -->
+  
+  <!-- Robe details -->
+  <g stroke="#00695c" stroke-width="2" fill="none" opacity="0.7">
+    <line x1="-20" y1="-20" x2="20" y2="-20"/>  <!-- Collar -->
+    <line x1="-15" y1="0" x2="15" y2="0"/>      <!-- Belt -->
+    <line x1="-25" y1="20" x2="25" y2="20"/>    <!-- Bottom hem -->
+    
+    <!-- Scholarly insignia -->
+    <g transform="translate(0,-10)" fill="#80cbc4" opacity="0.9">
+      <circle cx="0" cy="0" r="8"/>
+      <circle cx="0" cy="0" r="5" fill="#4db6ac"/>
+      <text x="0" y="3" font-family="serif" font-size="8" text-anchor="middle" fill="#004d40">士</text>
+    </g>
+    
+    <!-- Scholar's sleeves -->
+    <ellipse cx="-25" cy="10" rx="8" ry="20" fill="url(#scholarGrad33)" transform="rotate(-20 -25 10)"/>
+    <ellipse cx="25" cy="10" rx="8" ry="20" fill="url(#scholarGrad33)" transform="rotate(20 25 10)"/>
+    </g>
+  
+    <!-- Samurai elements -->
+    <g transform="translate(120,180)" opacity="0.8">
+    <!-- Samurai helmet -->
+    <path d="M0,0 Q15,-10 30,0 Q35,10 30,20 Q20,25 15,20 Q10,25 0,20 Q-5,10 0,0" 
+          fill="url(#samuraiGrad33)" 
+          stroke="#00695c" 
+          stroke-width="2"/>
+    
+    <!-- Helmet crest -->
+    <path d="M15,-15 Q20,-20 25,-15 Q20,-10 15,-10 Q10,-10 5,-15 Q10,-20 15,-15" 
+          fill="#004d40" 
+          opacity="0.9"/>
+    
+    <!-- Face guard -->
+    <rect x="8" y="15" width="14" height="12" rx="7" fill="url(#honorGrad33)" opacity="0.8"/>
+    
+    <!-- Armor plates -->
+    <g fill="#26a69a" opacity="0.7" stroke="#00695c" stroke-width="1">
+      <rect x="5" y="25" width="20" height="8" rx="4"/>
+      <rect x="3" y="35" width="24" height="8" rx="4"/>
+      <rect x="2" y="45" width="26" height="8" rx="4"/>
+    </g>
+    </g>
+  
+    <!-- Scholarly tools -->
+    <g transform="translate(350,200)" opacity="0.8">
+    <!-- Scroll with wisdom -->
+    <rect x="0" y="0" width="6" height="50" rx="3" fill="#8d6e63"/>
+    <rect x="8" y="5" width="40" height="40" rx="3" fill="#fff8e1" stroke="#00695c" stroke-width="1"/>
+    
+    <!-- Text on scroll -->
+    <g fill="#00695c" opacity="0.8" font-family="serif" font-size="8">
+      <text x="28" y="15">學</text>
+      <text x="28" y="25">問</text>
+      <text x="28" y="35">之</text>
+      <text x="28" y="45">道</text>
+    </g>
+    
+    <!-- Scroll ties -->
+    <rect x="22" y="2" width="12" height="3" rx="1" fill="#d32f2f"/>
+    <rect x="22" y="45" width="12" height="3" rx="1" fill="#d32f2f"/>
+    
+    <!-- Ink stone -->
+    <ellipse cx="60" cy="30" rx="12" ry="8" fill="#37474f"/>
+    <ellipse cx="60" cy="30" rx="8" ry="5" fill="#455a64"/>
+    
+    <!-- Brush -->
+    <rect x="70" y="15" width="2" height="20" rx="1" fill="#8d6e63"/>
+    <ellipse cx="71" cy="10" rx="3" ry="8" fill="#424242"/>
+    </g>
+  
+    <!-- Traditional torii gate -->
+    <g transform="translate(80,350)" opacity="0.6">
+    <!-- Vertical posts -->
+    <rect x="0" y="0" width="6" height="60" rx="3" fill="url(#scholarGrad33)"/>
+    <rect x="54" y="0" width="6" height="60" rx="3" fill="url(#scholarGrad33)"/>
+    
+    <!-- Top crossbeam -->
+    <rect x="-5" y="10" width="70" height="8" rx="4" fill="url(#honorGrad33)"/>
+    
+    <!-- Lower crossbeam -->
+    <rect x="5" y="25" width="50" height="6" rx="3" fill="url(#scholarGrad33)"/>
+    
+    <!-- Decorative ends -->
+    <circle cx="-5" cy="14" r="4" fill="#004d40"/>
+    <circle cx="65" cy="14" r="4" fill="#004d40"/>
+    </g>
+  
+    <!-- Honor symbols -->
+    <g transform="translate(400,320)" opacity="0.7">
+    <!-- Traditional family crest -->
+    <circle cx="0" cy="0" r="20" fill="none" stroke="url(#scholarGrad33)" stroke-width="3"/>
+    
+    <!-- Inner pattern -->
+    <g fill="#26a69a" opacity="0.8">
+      <circle cx="0" cy="0" r="12"/>
+      <circle cx="0" cy="0" r="8" fill="#4db6ac"/>
+      
+      <!-- Traditional pattern -->
+      <g fill="#004d40">
+        <path d="M-6,-6 L6,-6 L6,6 L-6,6 Z"/>
+        <circle cx="0" cy="0" r="3" fill="#80cbc4"/>
+      </g>
+    </g>
+    </g>
+  
+    <!-- Study room elements -->
+    <g transform="translate(50,150)" opacity="0.6">
+    <!-- Low table -->
+    <rect x="0" y="0" width="80" height="6" rx="3" fill="#8d6e63"/>
+    <rect x="5" y="6" width="4" height="15" rx="2" fill="#6d4c41"/>
+    <rect x="71" y="6" width="4" height="15" rx="2" fill="#6d4c41"/>
+    
+    <!-- Books on table -->
+    <rect x="10" y="-8" width="4" height="12" rx="2" fill="#d32f2f"/>
+    <rect x="15" y="-10" width="4" height="14" rx="2" fill="#1976d2"/>
+    <rect x="20" y="-9" width="4" height="13" rx="2" fill="#388e3c"/>
+    
+    <!-- Tea set -->
+    <circle cx="55" cy="-3" r="5" fill="#fff8e1" opacity="0.9"/>
+    <circle cx="65" cy="-3" r="3" fill="#fff8e1" opacity="0.9"/>
+    <ellipse cx="60" cy="-8" rx="4" ry="2" fill="#ffb300"/>
+    </g>
+  
+    <!-- Scholar's garden -->
+    <g transform="translate(380,120)" opacity="0.7">
+    <!-- Rock garden -->
+    <ellipse cx="0" cy="0" rx="30" ry="20" fill="#e0f2f1" opacity="0.6"/>
+    
+    <!-- Zen stones -->
+    <g fill="#607d8b" opacity="0.8">
+      <ellipse cx="-15" cy="-5" rx="5" ry="3"/>
+      <ellipse cx="5" cy="0" rx="4" ry="6"/>
+      <ellipse cx="15" cy="-8" rx="6" ry="4"/>
+      <ellipse cx="-5" cy="8" rx="3" ry="2"/>
+    </g>
+    
+    <!-- Raked sand patterns -->
+    <g stroke="#b2dfdb" stroke-width="1" fill="none" opacity="0.5">
+      <path d="M-25,-15 Q-15,-10 -5,-15 Q5,-10 15,-15"/>
+      <path d="M-25,-5 Q-15,0 -5,-5 Q5,0 15,-5"/>
+      <path d="M-25,5 Q-15,10 -5,5 Q5,10 15,5"/>
+    </g>
+    </g>
+  
+    <!-- Society sparkles -->
+    <g fill="#4db6ac" opacity="0.7">
+    <path d="M180 100 L190 90 L200 100 L190 110 Z"/>
+    <path d="M320 140 L330 130 L340 140 L330 150 Z"/>
+    <path d="M160 400 L165 395 L170 400 L165 405 Z"/>
+    <path d="M400 250 L405 245 L410 250 L405 255 Z"/>
+    <path d="M120 280 L125 275 L130 280 L125 285 Z"/>
+    </g>
+  
+    <!-- Noble flowing lines -->
+    <g stroke="#80cbc4" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M100 200 Q150 180 200 200 Q250 220 300 200"/>
+    <path d="M200 100 Q220 150 240 200"/>
+    <path d="M300 350 Q280 300 260 250"/>
+    </g>
+  
+    <!-- Honor symbols -->
+    <g fill="#26a69a" opacity="0.5">
+    <!-- Formal boundary markers -->
+    <rect x="50" y="50" width="8" height="20" rx="4"/>
+    <rect x="442" y="50" width="8" height="20" rx="4"/>
+    <rect x="50" y="430" width="8" height="20" rx="4"/>
+    <rect x="442" y="430" width="8" height="20" rx="4"/>
+    </g>
+  
+    <!-- Dignified energy fields -->
+    <g stroke="#4db6ac" stroke-width="2" fill="none" opacity="0.3" stroke-dasharray="8,4">
+    <ellipse cx="250" cy="200" rx="40" ry="30"/>
+    <ellipse cx="200" cy="320" rx="35" ry="25"/>
+    </g>
+  
+    <!-- Number indicator -->
+    <text x="450" y="450" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#004d40" opacity="0.4">33</text>
+  
+    <!-- Kanji character 士 -->
+    <text x="80" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#004d40" opacity="0.8">士</text>
+    </g>
+  </g>
+</svg> 

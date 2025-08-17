@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad98" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#c8e6c8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a5d6a7;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="cowGrad98" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="pastoralGlow98" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#c8e6c8;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="spotGrad98" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3e2723;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Pastoral background -->
+  <rect width="500" height="500" fill="url(#bgGrad98)"/>
+  
+  <!-- Peaceful aura -->
+  <ellipse cx="250" cy="300" rx="200" ry="150" fill="url(#pastoralGlow98)"/>
+  
+  <!-- Main cow representing 牛 -->
+  <!-- Cow body -->
+  <ellipse cx="250" cy="300" rx="80" ry="50" fill="url(#cowGrad98)" stroke="#3e2723" stroke-width="3"/>
+  
+  <!-- Cow head -->
+  <ellipse cx="180" cy="270" rx="40" ry="35" fill="url(#cowGrad98)" stroke="#3e2723" stroke-width="3"/>
+  
+  <!-- Cow horns -->
+  <path d="M150 250 Q145 240 150 230" stroke="url(#spotGrad98)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M210 250 Q215 240 210 230" stroke="url(#spotGrad98)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Horn tips -->
+  <circle cx="150" cy="230" r="4" fill="#424242"/>
+  <circle cx="210" cy="230" r="4" fill="#424242"/>
+  
+  <!-- Cow face features -->
+  <!-- Eyes -->
+  <circle cx="165" cy="265" r="6" fill="#000"/>
+  <circle cx="195" cy="265" r="6" fill="#000"/>
+  <circle cx="167" cy="263" r="2" fill="#fff"/>
+  <circle cx="197" cy="263" r="2" fill="#fff"/>
+  
+  <!-- Nostrils -->
+  <ellipse cx="170" cy="285" rx="3" ry="2" fill="#000"/>
+  <ellipse cx="190" cy="285" rx="3" ry="2" fill="#000"/>
+  
+  <!-- Mouth -->
+  <path d="M160 295 Q180 305 200 295" stroke="#3e2723" stroke-width="3" fill="none"/>
+  
+  <!-- Cow spots -->
+  <g fill="url(#spotGrad98)" opacity="0.8">
+  <ellipse cx="220" cy="280" rx="15" ry="20"/>
+  <ellipse cx="280" cy="295" rx="20" ry="15"/>
+  <ellipse cx="260" cy="320" rx="12" ry="18"/>
+  <ellipse cx="200" cy="320" rx="18" ry="12"/>
+  <circle cx="165" cy="250" r="8"/>
+  
+  <!-- Cow legs -->
+  <g fill="url(#cowGrad98)">
+  <rect x="200" y="340" width="15" height="40" rx="7"/>
+  <rect x="225" y="340" width="15" height="40" rx="7"/>
+  <rect x="270" y="340" width="15" height="40" rx="7"/>
+  <rect x="295" y="340" width="15" height="40" rx="7"/>
+  
+    <!-- Hooves -->
+    <g fill="#424242">
+    <ellipse cx="207" cy="385" rx="8" ry="6"/>
+    <ellipse cx="232" cy="385" rx="8" ry="6"/>
+    <ellipse cx="277" cy="385" rx="8" ry="6"/>
+    <ellipse cx="302" cy="385" rx="8" ry="6"/>
+    </g>
+  
+    <!-- Hoof splits -->
+    <g stroke="#212121" stroke-width="1">
+    <line x1="207" y1="380" x2="207" y2="390"/>
+    <line x1="232" y1="380" x2="232" y2="390"/>
+    <line x1="277" y1="380" x2="277" y2="390"/>
+    <line x1="302" y1="380" x2="302" y2="390"/>
+    </g>
+  
+    <!-- Cow tail -->
+    <path d="M330 310 Q370 320 380 340 Q385 355 375 365" stroke="url(#cowGrad98)" stroke-width="8" fill="none"/>
+    <ellipse cx="375" cy="365" rx="6" ry="12" fill="#3e2723"/>
+  
+    <!-- Udder -->
+    <ellipse cx="260" cy="335" rx="25" ry="15" fill="#ffab91"/>
+    <g fill="#ff8a65">
+    <circle cx="250" cy="345" r="3"/>
+    <circle cx="260" cy="348" r="3"/>
+    <circle cx="270" cy="345" r="3"/>
+    </g>
+  
+    <!-- Meadow grass -->
+    <g fill="#4caf50" opacity="0.8">
+    <path d="M80 400 Q85 390 90 400"/>
+    <path d="M95 405 Q100 395 105 405"/>
+    <path d="M110 400 Q115 390 120 400"/>
+    <path d="M380 400 Q385 390 390 400"/>
+    <path d="M395 405 Q400 395 405 405"/>
+    <path d="M410 400 Q415 390 420 400"/>
+    <path d="M150 420 Q155 410 160 420"/>
+    <path d="M340 420 Q345 410 350 420"/>
+    </g>
+  
+    <!-- Flowers in meadow -->
+    <g fill="#e91e63" opacity="0.7">
+    <g transform="translate(120,380)">
+      <circle cx="0" cy="0" r="4"/>
+      <circle cx="-3" cy="-2" r="3" fill="#f06292"/>
+      <circle cx="3" cy="-2" r="3" fill="#f06292"/>
+      <circle cx="0" cy="3" r="3" fill="#f06292"/>
+      <circle cx="-2" cy="2" r="3" fill="#f06292"/>
+      <circle cx="2" cy="2" r="3" fill="#f06292"/>
+    </g>
+    
+    <g transform="translate(380,370)">
+      <circle cx="0" cy="0" r="3"/>
+      <circle cx="-2" cy="-1" r="2" fill="#f06292"/>
+      <circle cx="2" cy="-1" r="2" fill="#f06292"/>
+      <circle cx="0" cy="2" r="2" fill="#f06292"/>
+    </g>
+    </g>
+  
+    <!-- Dandelions -->
+    <g fill="#ffeb3b" opacity="0.8">
+    <g transform="translate(350,400)">
+      <circle cx="0" cy="0" r="6"/>
+      <g stroke="#fff176" stroke-width="0.5">
+        <line x1="0" y1="0" x2="5" y2="0"/>
+        <line x1="0" y1="0" x2="3" y2="4"/>
+        <line x1="0" y1="0" x2="-3" y2="4"/>
+        <line x1="0" y1="0" x2="-5" y2="0"/>
+        <line x1="0" y1="0" x2="-3" y2="-4"/>
+        <line x1="0" y1="0" x2="3" y2="-4"/>
+      </g>
+    </g>
+    </g>
+  
+    <!-- Butterflies -->
+    <g transform="translate(150,200)">
+    <ellipse cx="-3" cy="-1" rx="4" ry="3" fill="#ff9800"/>
+    <ellipse cx="3" cy="-1" rx="4" ry="3" fill="#ff9800"/>
+    <ellipse cx="-3" cy="1" rx="3" ry="2" fill="#ffb74d"/>
+    <ellipse cx="3" cy="1" rx="3" ry="2" fill="#ffb74d"/>
+    <line x1="0" y1="-3" x2="0" y2="3" stroke="#424242" stroke-width="1"/>
+    </g>
+  
+    <!-- Farm fence -->
+    <g transform="translate(450,300)" opacity="0.7">
+    <rect x="0" y="0" width="5" height="60" fill="#8d6e63"/>
+    <rect x="10" y="0" width="5" height="60" fill="#8d6e63"/>
+    <rect x="20" y="0" width="5" height="60" fill="#8d6e63"/>
+    <rect x="-5" y="15" width="35" height="4" fill="#8d6e63"/>
+    <rect x="-5" y="30" width="35" height="4" fill="#8d6e63"/>
+    </g>
+  
+    <!-- Barn in distance -->
+    <g transform="translate(80,150)" opacity="0.6">
+    <rect x="0" y="15" width="40" height="25" fill="#d32f2f"/>
+    <path d="M-5 15 L20 0 L45 15 Z" fill="#b71c1c"/>
+    <rect x="10" y="25" width="8" height="15" fill="#6d4c41"/>
+    <rect x="25" y="20" width="6" height="6" fill="#ffeb3b"/>
+    </g>
+  
+    <!-- Milk bucket -->
+    <g transform="translate(400,350)" opacity="0.8">
+    <ellipse cx="0" cy="5" rx="12" ry="8" fill="#9e9e9e"/>
+    <rect x="-10" y="-10" width="20" height="15" fill="#bdbdbd"/>
+    <ellipse cx="0" cy="-10" rx="10" ry="6" fill="#e0e0e0"/>
+    <path d="M-8,-5 Q0,-15 8,-5" stroke="#757575" stroke-width="2" fill="none"/>
+    </g>
+  
+    <!-- Hay bale -->
+    <g transform="translate(400,200)" opacity="0.7">
+    <ellipse cx="0" cy="0" rx="20" ry="15" fill="#ffcc02"/>
+    <g stroke="#ff8f00" stroke-width="1">
+      <line x1="-15" y1="-5" x2="15" y2="-5"/>
+      <line x1="-15" y1="0" x2="15" y2="0"/>
+      <line x1="-15" y1="5" x2="15" y2="5"/>
+    </g>
+    </g>
+  
+    <!-- Peaceful sparkles -->
+    <g fill="#81c784" opacity="0.7">
+    <path d="M100 250 L110 240 L120 250 L110 260 Z"/>
+    <path d="M380 150 L390 140 L400 150 L390 160 Z"/>
+    <path d="M50 350 L60 340 L70 350 L60 360 Z"/>
+    <path d="M450 350 L460 340 L470 350 L460 360 Z"/>
+    </g>
+  
+    <!-- Cow breath in cool air -->
+    <g fill="#e3f2fd" opacity="0.6">
+    <ellipse cx="140" cy="280" rx="8" ry="5"/>
+    <ellipse cx="130" cy="275" rx="6" ry="4"/>
+    <ellipse cx="125" cy="270" rx="4" ry="3"/>
+    </g>
+  
+    <!-- Ground shadow -->
+    <ellipse cx="250" cy="420" rx="100" ry="20" fill="#388e3c" opacity="0.3"/>
+  
+    <!-- Kanji character 牛 -->
+    <text x="450" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#2e7d32" opacity="0.8">牛</text>
+    </g>
+  </g>
+</svg> 

@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad87" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff3c4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="honeyGrad87" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd54f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffb300;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8f00;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="hiveGlow87" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff59d;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#fff59d;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="cellGrad87" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffecb3;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffd54f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffc107;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad87)"/>
+  
+  <!-- Eight honeycomb cells plus seven buzzing bees representing 87 -->
+  <!-- Central hive cluster -->
+  <g transform="translate(250,250)">
+  <circle cx="0" cy="0" r="100" fill="url(#hiveGlow87)" opacity="0.4"/>
+  
+  <!-- Central hexagon -->
+  <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15" fill="url(#honeyGrad87)" opacity="0.9"/>
+  <polygon points="0,-20 17,-10 17,10 0,20 -17,10 -17,-10" fill="url(#cellGrad87)" opacity="0.7"/>
+  <polygon points="0,-10 9,-5 9,5 0,10 -9,5 -9,-5" fill="#fff59d" opacity="0.6"/>
+  
+  <!-- Eight surrounding hexagon cells -->
+  <!-- Top hexagon -->
+  <g transform="translate(250,180)">
+  <polygon points="0,-25 22,-12 22,12 0,25 -22,12 -22,-12" fill="url(#honeyGrad87)" opacity="0.8"/>
+  <polygon points="0,-15 13,-7 13,7 0,15 -13,7 -13,-7" fill="url(#cellGrad87)" opacity="0.6"/>
+  <polygon points="0,-8 7,-4 7,4 0,8 -7,4 -7,-4" fill="#fff59d" opacity="0.5"/>
+  
+    <!-- Top-right hexagon -->
+    <g transform="translate(320,200)">
+    <polygon points="0,-22 19,-11 19,11 0,22 -19,11 -19,-11" fill="url(#honeyGrad87)" opacity="0.7"/>
+    <polygon points="0,-13 11,-6 11,6 0,13 -11,6 -11,-6" fill="url(#cellGrad87)" opacity="0.6"/>
+    <polygon points="0,-7 6,-3 6,3 0,7 -6,3 -6,-3" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Right hexagon -->
+    <g transform="translate(340,250)">
+    <polygon points="0,-24 21,-12 21,12 0,24 -21,12 -21,-12" fill="url(#honeyGrad87)" opacity="0.8"/>
+    <polygon points="0,-14 12,-7 12,7 0,14 -12,7 -12,-7" fill="url(#cellGrad87)" opacity="0.6"/>
+    <polygon points="0,-8 7,-4 7,4 0,8 -7,4 -7,-4" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Bottom-right hexagon -->
+    <g transform="translate(320,300)">
+    <polygon points="0,-22 19,-11 19,11 0,22 -19,11 -19,-11" fill="url(#honeyGrad87)" opacity="0.7"/>
+    <polygon points="0,-13 11,-6 11,6 0,13 -11,6 -11,-6" fill="url(#cellGrad87)" opacity="0.6"/>
+    <polygon points="0,-7 6,-3 6,3 0,7 -6,3 -6,-3" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Bottom hexagon -->
+    <g transform="translate(250,320)">
+    <polygon points="0,-25 22,-12 22,12 0,25 -22,12 -22,-12" fill="url(#honeyGrad87)" opacity="0.8"/>
+    <polygon points="0,-15 13,-7 13,7 0,15 -13,7 -13,-7" fill="url(#cellGrad87)" opacity="0.6"/>
+    <polygon points="0,-8 7,-4 7,4 0,8 -7,4 -7,-4" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Bottom-left hexagon -->
+    <g transform="translate(180,300)">
+    <polygon points="0,-22 19,-11 19,11 0,22 -19,11 -19,-11" fill="url(#honeyGrad87)" opacity="0.7"/>
+    <polygon points="0,-13 11,-6 11,6 0,13 -11,6 -11,-6" fill="url(#cellGrad87)" opacity="0.6"/>
+    <polygon points="0,-7 6,-3 6,3 0,7 -6,3 -6,-3" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Left hexagon -->
+    <g transform="translate(160,250)">
+    <polygon points="0,-24 21,-12 21,12 0,24 -21,12 -21,-12" fill="url(#honeyGrad87)" opacity="0.8"/>
+    <polygon points="0,-14 12,-7 12,7 0,14 -12,7 -12,-7" fill="url(#cellGrad87)" opacity="0.6"/>
+    <polygon points="0,-8 7,-4 7,4 0,8 -7,4 -7,-4" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Top-left hexagon -->
+    <g transform="translate(180,200)">
+    <polygon points="0,-22 19,-11 19,11 0,22 -19,11 -19,-11" fill="url(#honeyGrad87)" opacity="0.7"/>
+    <polygon points="0,-13 11,-6 11,6 0,13 -11,6 -11,-6" fill="url(#cellGrad87)" opacity="0.6"/>
+    <polygon points="0,-7 6,-3 6,3 0,7 -6,3 -6,-3" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Seven buzzing bees -->
+    <!-- Bee 1 -->
+    <g transform="translate(100,150)">
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#ffb300"/>
+    <ellipse cx="0" cy="0" rx="6" ry="3" fill="#ff8f00"/>
+    <!-- Stripes -->
+    <rect x="-3" y="-2" width="1" height="4" fill="#000000"/>
+    <rect x="0" y="-2" width="1" height="4" fill="#000000"/>
+    <rect x="3" y="-2" width="1" height="4" fill="#000000"/>
+    <!-- Wings -->
+    <ellipse cx="-5" cy="-2" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    <ellipse cx="5" cy="-2" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    </g>
+  
+    <!-- Bee 2 -->
+    <g transform="translate(400,180)">
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#ffb300"/>
+    <ellipse cx="0" cy="0" rx="6" ry="3" fill="#ff8f00"/>
+    <rect x="-3" y="-2" width="1" height="4" fill="#000000"/>
+    <rect x="0" y="-2" width="1" height="4" fill="#000000"/>
+    <rect x="3" y="-2" width="1" height="4" fill="#000000"/>
+    <ellipse cx="-5" cy="-2" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    <ellipse cx="5" cy="-2" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    </g>
+  
+    <!-- Bee 3 -->
+    <g transform="translate(420,320)">
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#ffb300"/>
+    <ellipse cx="0" cy="0" rx="6" ry="3" fill="#ff8f00"/>
+    <rect x="-3" y="-2" width="1" height="4" fill="#000000"/>
+    <rect x="0" y="-2" width="1" height="4" fill="#000000"/>
+    <rect x="3" y="-2" width="1" height="4" fill="#000000"/>
+    <ellipse cx="-5" cy="-2" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    <ellipse cx="5" cy="-2" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    </g>
+  
+    <!-- Bee 4 -->
+    <g transform="translate(280,400)">
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#ffb300"/>
+    <ellipse cx="0" cy="0" rx="6" ry="3" fill="#ff8f00"/>
+    <rect x="-3" y="-2" width="1" height="4" fill="#000000"/>
+    <rect x="0" y="-2" width="1" height="4" fill="#000000"/>
+    <rect x="3" y="-2" width="1" height="4" fill="#000000"/>
+    <ellipse cx="-5" cy="-2" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    <ellipse cx="5" cy="-2" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    </g>
+  
+    <!-- Bee 5 -->
+    <g transform="translate(120,380)">
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#ffb300"/>
+    <ellipse cx="0" cy="0" rx="6" ry="3" fill="#ff8f00"/>
+    <rect x="-3" y="-2" width="1" height="4" fill="#000000"/>
+    <rect x="0" y="-2" width="1" height="4" fill="#000000"/>
+    <rect x="3" y="-2" width="1" height="4" fill="#000000"/>
+    <ellipse cx="-5" cy="-2" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    <ellipse cx="5" cy="-2" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    </g>
+  
+    <!-- Bee 6 -->
+    <g transform="translate(80,280)">
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#ffb300"/>
+    <ellipse cx="0" cy="0" rx="6" ry="3" fill="#ff8f00"/>
+    <rect x="-3" y="-2" width="1" height="4" fill="#000000"/>
+    <rect x="0" y="-2" width="1" height="4" fill="#000000"/>
+    <rect x="3" y="-2" width="1" height="4" fill="#000000"/>
+    <ellipse cx="-5" cy="-2" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    <ellipse cx="5" cy="-2" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    </g>
+  
+    <!-- Bee 7 -->
+    <g transform="translate(380,100)">
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#ffb300"/>
+    <ellipse cx="0" cy="0" rx="6" ry="3" fill="#ff8f00"/>
+    <rect x="-3" y="-2" width="1" height="4" fill="#000000"/>
+    <rect x="0" y="-2" width="1" height="4" fill="#000000"/>
+    <rect x="3" y="-2" width="1" height="4" fill="#000000"/>
+    <ellipse cx="-5" cy="-2" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    <ellipse cx="5" cy="-2" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    </g>
+  
+    <!-- Bee flight paths -->
+    <g stroke="url(#cellGrad87)" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M100 150 Q180 170 250 180"/>
+    <path d="M400 180 Q350 200 320 200"/>
+    <path d="M420 320 Q380 300 340 280"/>
+    <path d="M280 400 Q260 370 250 320"/>
+    <path d="M120 380 Q150 350 180 300"/>
+    <path d="M80 280 Q120 260 160 250"/>
+    <path d="M380 100 Q320 130 280 160"/>
+    </g>
+  
+    <!-- Hive energy field -->
+    <g stroke="#ffc107" stroke-width="2" fill="none" opacity="0.4">
+    <circle cx="250" cy="250" r="120"/>
+    <circle cx="250" cy="250" r="160"/>
+    <circle cx="250" cy="250" r="200"/>
+    </g>
+  
+    <!-- Pollen particles -->
+    <g fill="#fff59d" opacity="0.6">
+    <circle cx="150" cy="120" r="2"/>
+    <circle cx="350" cy="140" r="3"/>
+    <circle cx="430" cy="290" r="2"/>
+    <circle cx="310" cy="430" r="3"/>
+    <circle cx="90" cy="410" r="2"/>
+    <circle cx="50" cy="310" r="3"/>
+    <circle cx="410" cy="70" r="2"/>
+    <circle cx="190" cy="50" r="3"/>
+    </g>
+  
+    <!-- Sweet aroma trails -->
+    <g stroke="#ffecb3" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M50 100 Q100 80 150 100"/>
+    <path d="M350 100 Q400 80 450 100"/>
+    <path d="M450 200 Q430 250 450 300"/>
+    <path d="M400 450 Q350 430 300 450"/>
+    <path d="M50 400 Q100 420 150 400"/>
+    <path d="M50 300 Q70 250 50 200"/>
+    </g>
+  
+    <!-- Golden sparkles -->
+    <g fill="#ffffff" opacity="0.8">
+    <path d="M90 90 L95 85 L100 90 L95 95 Z"/>
+    <path d="M410 90 L415 85 L420 90 L415 95 Z"/>
+    <path d="M90 410 L95 405 L100 410 L95 415 Z"/>
+    <path d="M410 410 L415 405 L420 410 L415 415 Z"/>
+    <path d="M250 60 L253 57 L256 60 L253 63 Z"/>
+    <path d="M250 440 L253 437 L256 440 L253 443 Z"/>
+    </g>
+  
+    <!-- Number "87" integrated -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#e65100" opacity="0.5">87</text>
+  
+    <!-- Kanji character 八十七 -->
+    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#e65100" opacity="0.9">八十七</text>
+    </g>
+  </g>
+</svg> 

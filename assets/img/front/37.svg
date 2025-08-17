@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad37" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="figureGrad37" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff7043;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff5722;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d84315;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="presenceGlow37" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#ffab91;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#ffab91;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="shadowGrad37" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d84315;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#d84315;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad37)"/>
+  
+  <!-- Presence aura showing magnitude -->
+  <ellipse cx="250" cy="250" rx="180" ry="200" fill="url(#presenceGlow37)"/>
+  
+  <!-- Main figure representing 大 (person with arms spread wide) -->
+  <!-- Head -->
+  <circle cx="250" cy="120" r="30" fill="url(#figureGrad37)" stroke="#bf360c" stroke-width="3"/>
+  
+  <!-- Body (central vertical line of 大) -->
+  <rect x="240" y="150" width="20" height="150" rx="10" fill="url(#figureGrad37)"/>
+  
+  <!-- Left arm spread wide -->
+  <rect x="120" y="180" width="120" height="18" rx="9" fill="url(#figureGrad37)" transform="rotate(-20 180 189)"/>
+  
+  <!-- Right arm spread wide -->
+  <rect x="260" y="180" width="120" height="18" rx="9" fill="url(#figureGrad37)" transform="rotate(20 320 189)"/>
+  
+  <!-- Left leg spread -->
+  <rect x="200" y="290" width="18" height="120" rx="9" fill="url(#figureGrad37)" transform="rotate(-25 209 350)"/>
+  
+  <!-- Right leg spread -->
+  <rect x="282" y="290" width="18" height="120" rx="9" fill="url(#figureGrad37)" transform="rotate(25 291 350)"/>
+  
+  <!-- Shadow showing imposing size -->
+  <ellipse cx="250" cy="450" rx="150" ry="30" fill="url(#shadowGrad37)"/>
+  
+  <!-- Size comparison elements -->
+  <!-- Small trees showing scale -->
+  <g fill="#4caf50" opacity="0.6">
+  <rect x="60" y="380" width="6" height="30" rx="3"/>
+  <circle cx="63" cy="375" r="8"/>
+  <rect x="420" y="390" width="5" height="25" rx="2"/>
+  <circle cx="422" cy="387" r="6"/>
+  
+  <!-- Small buildings for scale -->
+  <g fill="#757575" opacity="0.5">
+  <rect x="50" y="420" width="20" height="30"/>
+  <rect x="430" y="430" width="15" height="20"/>
+  
+    <!-- Radiating lines showing magnitude -->
+    <g stroke="#ff8a65" stroke-width="3" opacity="0.4">
+    <line x1="250" y1="50" x2="250" y2="30"/>
+    <line x1="150" y1="100" x2="130" y2="80"/>
+    <line x1="350" y1="100" x2="370" y2="80"/>
+    <line x1="100" y1="200" x2="80" y2="180"/>
+    <line x1="400" y1="200" x2="420" y2="180"/>
+    <line x1="120" y1="350" x2="100" y2="370"/>
+    <line x1="380" y1="350" x2="400" y2="370"/>
+    </g>
+  
+    <!-- Muscular definition showing strength -->
+    <g stroke="#d84315" stroke-width="2" fill="none" opacity="0.6">
+    <ellipse cx="250" cy="200" rx="15" ry="25"/>
+    <ellipse cx="160" cy="189" rx="12" ry="8" transform="rotate(-20 160 189)"/>
+    <ellipse cx="340" cy="189" rx="12" ry="8" transform="rotate(20 340 189)"/>
+    </g>
+  
+    <!-- Power emanation effects -->
+    <g fill="#ff7043" opacity="0.3">
+    <circle cx="100" cy="150" r="8"/>
+    <circle cx="400" cy="170" r="6"/>
+    <circle cx="80" cy="300" r="5"/>
+    <circle cx="420" cy="320" r="7"/>
+    </g>
+  
+    <!-- Scale indicators -->
+    <text x="80" y="460" font-family="Arial, sans-serif" font-size="14" fill="#bf360c" opacity="0.7">BIG</text>
+    <text x="400" y="470" font-family="Arial, sans-serif" font-size="14" fill="#bf360c" opacity="0.7">LARGE</text>
+  
+    <!-- Expansion lines -->
+    <g stroke="#ffab91" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M50 250 Q150 240 250 250 Q350 260 450 250"/>
+    <path d="M250 50 Q240 150 250 250 Q260 350 250 450"/>
+    </g>
+  
+    <!-- Kanji character 大 -->
+    <text x="420" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#bf360c" opacity="0.8">大</text>
+    </g>
+  </g>
+</svg> 

@@ -1,0 +1,53 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="eyeGradient" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="40%" stop-color="#4169E1"/>
+      <stop offset="80%" stop-color="#191970"/>
+      <stop offset="100%" stop-color="#000080"/>
+    </radialGradient>
+    <radialGradient id="pupilGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#333"/>
+      <stop offset="70%" stop-color="#000"/>
+      <stop offset="100%" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="highlightGradient" cx="0.3" cy="0.3" r="0.5">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#FFF8DC"/>
+  
+  <!-- Eye socket shadow -->
+  <ellipse cx="200" cy="200" rx="140" ry="90" fill="#E6E6FA" opacity="0.5"/>
+  
+  <!-- Main eye -->
+  <ellipse cx="200" cy="200" rx="120" ry="80" fill="url(#eyeGradient)" stroke="#4B0082" stroke-width="3"/>
+  
+  <!-- Iris -->
+  <circle cx="200" cy="200" r="45" fill="url(#eyeGradient)"/>
+  
+  <!-- Pupil -->
+  <circle cx="200" cy="200" r="25" fill="url(#pupilGradient)"/>
+  
+  <!-- Eye highlight -->
+  <circle cx="185" cy="185" r="15" fill="url(#highlightGradient)"/>
+  
+  <!-- Eyelashes -->
+  <path d="M80 170 Q70 160 75 150" stroke="#8B4513" stroke-width="3" fill="none"/>
+  <path d="M90 150 Q85 140 90 130" stroke="#8B4513" stroke-width="3" fill="none"/>
+  <path d="M310 150 Q315 140 310 130" stroke="#8B4513" stroke-width="3" fill="none"/>
+  <path d="M320 170 Q330 160 325 150" stroke="#8B4513" stroke-width="3" fill="none"/>
+  
+  <!-- Vision rays -->
+  <path d="M200 200 L350 120" stroke="#FFD700" stroke-width="4" opacity="0.7"/>
+  <path d="M200 200 L380 200" stroke="#FFD700" stroke-width="4" opacity="0.7"/>
+  <path d="M200 200 L350 280" stroke="#FFD700" stroke-width="4" opacity="0.7"/>
+  
+  <!-- Small sparkles around eye -->
+  <circle cx="140" cy="120" r="3" fill="#FFD700"/>
+  <circle cx="260" cy="110" r="4" fill="#FF69B4"/>
+  <circle cx="320" cy="240" r="3" fill="#00CED1"/>
+  <circle cx="100" cy="250" r="4" fill="#32CD32"/>
+</svg> 

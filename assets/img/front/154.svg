@@ -1,0 +1,81 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="shellGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFF8DC"/>
+      <stop offset="50%" stop-color="#F0E68C"/>
+      <stop offset="100%" stop-color="#DAA520"/>
+    </radialGradient>
+    <radialGradient id="pearlGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFAFA"/>
+      <stop offset="50%" stop-color="#F8F8FF"/>
+      <stop offset="100%" stop-color="#E6E6FA"/>
+    </radialGradient>
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="50%" stop-color="#4682B4"/>
+      <stop offset="100%" stop-color="#191970"/>
+    </linearGradient>
+  </defs>  <!-- Ocean background -->
+  <rect width="500" height="500" fill="url(#oceanGradient)"/>
+  
+  <!-- Sand bottom -->
+  <ellipse cx="200" cy="380" rx="200" ry="30" fill="#F4A460"/>
+  
+  <!-- Main shell (clam) -->
+  <path d="M200 200 Q120 150 80 200 Q120 250 200 200 Z" fill="url(#shellGradient)" stroke="#B8860B" stroke-width="3"/>
+  <path d="M200 200 Q280 150 320 200 Q280 250 200 200 Z" fill="url(#shellGradient)" stroke="#B8860B" stroke-width="3"/>
+  
+  <!-- Shell ridges -->
+  <path d="M90 180 Q140 160 190 180" stroke="#CD853F" stroke-width="2" fill="none"/>
+  <path d="M95 200 Q140 185 185 200" stroke="#CD853F" stroke-width="2" fill="none"/>
+  <path d="M90 220 Q140 240 190 220" stroke="#CD853F" stroke-width="2" fill="none"/>
+  
+  <path d="M310 180 Q260 160 210 180" stroke="#CD853F" stroke-width="2" fill="none"/>
+  <path d="M305 200 Q260 185 215 200" stroke="#CD853F" stroke-width="2" fill="none"/>
+  <path d="M310 220 Q260 240 210 220" stroke="#CD853F" stroke-width="2" fill="none"/>
+  
+  <!-- Pearl inside shell -->
+  <circle cx="200" cy="200" r="20" fill="url(#pearlGradient)" stroke="#E6E6FA" stroke-width="2"/>
+  <circle cx="195" cy="195" r="6" fill="#FFF" opacity="0.8"/>
+  
+  <!-- Smaller shells around -->
+  <ellipse cx="120" cy="320" rx="25" ry="20" fill="url(#shellGradient)" stroke="#B8860B" stroke-width="2"/>
+  <path d="M105 320 Q115 310 125 320 Q135 330 125 340 Q115 330 105 320" stroke="#CD853F" stroke-width="1" fill="none"/>
+  
+  <ellipse cx="300" cy="340" rx="20" ry="15" fill="url(#shellGradient)" stroke="#B8860B" stroke-width="2"/>
+  <path d="M290 340 Q295 335 305 340 Q310 345 305 350 Q295 345 290 340" stroke="#CD853F" stroke-width="1" fill="none"/>
+  
+  <!-- Starfish -->
+  <path d="M80 120 L90 100 L100 120 L120 115 L105 135 L85 140 L70 125 L75 105 Z" fill="#FF6347" stroke="#DC143C" stroke-width="2"/>
+  <circle cx="90" cy="120" r="8" fill="#FF4500"/>
+  
+  <!-- Sea coral -->
+  <path d="M350 300 Q360 280 370 300 Q365 320 350 300" fill="#FF69B4" stroke="#FF1493" stroke-width="2"/>
+  <path d="M355 300 Q365 285 375 300 Q370 315 355 300" fill="#FFB6C1" stroke="#FF69B4" stroke-width="1"/>
+  
+  <!-- Treasure coins -->
+  <circle cx="150" cy="280" r="12" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+  <circle cx="250" cy="290" r="10" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+  <circle cx="180" cy="300" r="8" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+  
+  <!-- Coin details -->
+  <circle cx="150" cy="280" r="6" fill="#FFA500"/>
+  <circle cx="250" cy="290" r="5" fill="#FFA500"/>
+  <circle cx="180" cy="300" r="4" fill="#FFA500"/>
+  
+  <!-- Bubbles -->
+  <circle cx="100" cy="80" r="8" fill="#E0F6FF" opacity="0.7"/>
+  <circle cx="320" cy="60" r="6" fill="#E0F6FF" opacity="0.7"/>
+  <circle cx="150" cy="50" r="10" fill="#E0F6FF" opacity="0.7"/>
+  <circle cx="280" cy="90" r="5" fill="#E0F6FF" opacity="0.7"/>
+  <circle cx="200" cy="40" r="12" fill="#E0F6FF" opacity="0.7"/>
+  
+  <!-- Seaweed -->
+  <path d="M50 400 Q60 350 50 300 Q40 250 50 200" stroke="#228B22" stroke-width="6" fill="none"/>
+  <path d="M380 400 Q370 360 380 320 Q390 280 380 240" stroke="#32CD32" stroke-width="5" fill="none"/>
+  
+  <!-- Small pearls scattered -->
+  <circle cx="70" cy="260" r="4" fill="url(#pearlGradient)"/>
+  <circle cx="330" cy="250" r="3" fill="url(#pearlGradient)"/>
+  <circle cx="110" cy="360" r="5" fill="url(#pearlGradient)"/>
+</svg> 

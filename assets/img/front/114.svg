@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad114" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="trackGrad114" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad114)"/>
+  
+  <!-- Ground/path -->
+  <rect x="0" y="400" width="500" height="100" fill="#d7ccc8" opacity="0.6"/>
+  
+  <!-- Main radical shape 禸 (footprint) -->
+  <!-- Top strokes -->
+  <path d="M220 160 L260 160" 
+    stroke="#5d4037" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M260 160 L280 180" 
+    stroke="#5d4037" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Left vertical stroke -->
+  <path d="M220 160 L220 240" 
+    stroke="#5d4037" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Middle strokes -->
+  <path d="M240 200 L260 200" 
+    stroke="#5d4037" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom curved stroke -->
+  <path d="M220 240 Q250 260 280 240" 
+    stroke="#5d4037" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Animal footprints trail -->
+  <g fill="url(#trackGrad114)" opacity="0.7">
+  <!-- Bear paw prints -->
+  <g transform="translate(150,300)">
+  <ellipse cx="0" cy="0" rx="12" ry="18"/>
+  <!-- Toes -->
+  <circle cx="-8" cy="-15" r="3"/>
+  <circle cx="-3" cy="-18" r="3"/>
+  <circle cx="3" cy="-18" r="3"/>
+  <circle cx="8" cy="-15" r="3"/>
+  
+  <g transform="translate(200,350)">
+    <ellipse cx="0" cy="0" rx="12" ry="18"/>
+    <!-- Toes -->
+    <circle cx="-8" cy="-15" r="3"/>
+    <circle cx="-3" cy="-18" r="3"/>
+    <circle cx="3" cy="-18" r="3"/>
+    <circle cx="8" cy="-15" r="3"/>
+    
+    <g transform="translate(250,400)">
+      <ellipse cx="0" cy="0" rx="12" ry="18"/>
+      <!-- Toes -->
+      <circle cx="-8" cy="-15" r="3"/>
+      <circle cx="-3" cy="-18" r="3"/>
+      <circle cx="3" cy="-18" r="3"/>
+      <circle cx="8" cy="-15" r="3"/>
+    </g>
+    </g>
+  
+    <!-- Bird tracks -->
+    <g fill="#8d6e63" opacity="0.6">
+    <g transform="translate(350,320)">
+      <!-- Three-toed bird track -->
+      <ellipse cx="0" cy="0" rx="2" ry="8"/>
+      <ellipse cx="-5" cy="2" rx="2" ry="6" transform="rotate(-30)"/>
+      <ellipse cx="5" cy="2" rx="2" ry="6" transform="rotate(30)"/>
+    </g>
+    
+    <g transform="translate(370,350)">
+      <ellipse cx="0" cy="0" rx="2" ry="8"/>
+      <ellipse cx="-5" cy="2" rx="2" ry="6" transform="rotate(-30)"/>
+      <ellipse cx="5" cy="2" rx="2" ry="6" transform="rotate(30)"/>
+    </g>
+    
+    <g transform="translate(390,380)">
+      <ellipse cx="0" cy="0" rx="2" ry="8"/>
+      <ellipse cx="-5" cy="2" rx="2" ry="6" transform="rotate(-30)"/>
+      <ellipse cx="5" cy="2" rx="2" ry="6" transform="rotate(30)"/>
+    </g>
+    </g>
+  
+    <!-- Human footprints -->
+    <g fill="#6d4c41" opacity="0.5">
+    <ellipse cx="120" cy="380" rx="8" ry="15"/>
+    <ellipse cx="140" cy="420" rx="8" ry="15"/>
+    <ellipse cx="160" cy="460" rx="8" ry="15"/>
+    </g>
+  
+    <!-- Detective magnifying glass -->
+    <g transform="translate(400,200)" opacity="0.7">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#757575" stroke-width="3"/>
+    <rect x="12" y="12" width="3" height="20" fill="#8d6e63" transform="rotate(45)"/>
+    <!-- Magnified footprint -->
+    <g fill="#5d4037" opacity="0.8">
+      <ellipse cx="-3" cy="-3" rx="4" ry="6"/>
+      <circle cx="-6" cy="-8" r="1"/>
+      <circle cx="0" cy="-9" r="1"/>
+      <circle cx="3" cy="-8" r="1"/>
+    </g>
+    </g>
+  
+    <!-- Trail direction arrows -->
+    <g stroke="#ff9800" stroke-width="2" opacity="0.4" fill="none">
+    <path d="M180 280 L220 320"/>
+    <path d="M205 285 L220 320 L210 310"/>
+    
+    <path d="M230 330 L270 370"/>
+    <path d="M255 335 L270 370 L260 360"/>
+    </g>
+  
+    <!-- Muddy puddle -->
+    <ellipse cx="300" cy="450" rx="40" ry="20" fill="#6d4c41" opacity="0.4"/>
+  
+    <!-- Tracking tools -->
+    <g transform="translate(80,200)" opacity="0.6">
+    <!-- Ruler/measuring stick -->
+    <rect x="0" y="0" width="4" height="60" fill="#8d6e63"/>
+    <g stroke="#ffffff" stroke-width="1">
+      <line x1="0" y1="10" x2="4" y2="10"/>
+      <line x1="0" y1="20" x2="4" y2="20"/>
+      <line x1="0" y1="30" x2="4" y2="30"/>
+      <line x1="0" y1="40" x2="4" y2="40"/>
+      <line x1="0" y1="50" x2="4" y2="50"/>
+    </g>
+    </g>
+  
+    <!-- Kanji character 禸 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#5d4037" opacity="0.8">禸</text>
+    </g>
+  </g>
+</svg> 

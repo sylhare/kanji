@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient id="bgGrad101" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8eaf6;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="whiteGrad101" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fafafa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="purityGlow101" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="lightBeam101" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad101)"/>
+  
+  <!-- Purity radiance -->
+  <ellipse cx="250" cy="250" rx="200" ry="180" fill="url(#purityGlow101)"/>
+  
+  <!-- Main white element representing 白 -->
+  <!-- Central white form -->
+  <path d="M150 200 L350 200 L350 220 L270 220 L270 280 L350 280 L350 300 L150 300 L150 280 L230 280 L230 220 L150 220 Z" 
+    fill="url(#whiteGrad101)" stroke="#bdbdbd" stroke-width="2"/>
+  
+  <!-- Inner white space -->
+  <rect x="170" y="240" width="160" height="20" fill="#ffffff"/>
+  
+  <!-- Light rays emanating -->
+  <g stroke="#ffffff" stroke-width="3" opacity="0.7">
+  <line x1="250" y1="100" x2="250" y2="50"/>
+  <line x1="320" y1="130" x2="370" y2="80"/>
+  <line x1="380" y1="200" x2="430" y2="200"/>
+  <line x1="380" y1="270" x2="430" y2="320"/>
+  <line x1="350" y1="340" x2="400" y2="390"/>
+  <line x1="280" y1="370" x2="280" y2="420"/>
+  <line x1="220" y1="370" x2="220" y2="420"/>
+  <line x1="150" y1="340" x2="100" y2="390"/>
+  <line x1="120" y1="270" x2="70" y2="320"/>
+  <line x1="120" y1="200" x2="70" y2="200"/>
+  <line x1="150" y1="130" x2="100" y2="80"/>
+  <line x1="220" y1="100" x2="220" y2="50"/>
+  
+  <!-- Shorter light rays -->
+  <g stroke="#ffffff" stroke-width="2" opacity="0.5">
+  <line x1="250" y1="120" x2="250" y2="80"/>
+  <line x1="300" y1="150" x2="330" y2="120"/>
+  <line x1="350" y1="200" x2="380" y2="200"/>
+  <line x1="350" y1="250" x2="380" y2="280"/>
+  <line x1="300" y1="320" x2="330" y2="350"/>
+  <line x1="250" y1="350" x2="250" y2="380"/>
+  <line x1="200" y1="320" x2="170" y2="350"/>
+  <line x1="150" y1="250" x2="120" y2="280"/>
+  <line x1="150" y1="200" x2="120" y2="200"/>
+  <line x1="200" y1="150" x2="170" y2="120"/>
+  
+    <!-- Snow/ice crystals showing purity -->
+    <g fill="#ffffff" opacity="0.8">
+    <g transform="translate(120,120)">
+      <circle cx="0" cy="0" r="8"/>
+      <line x1="-6" y1="0" x2="6" y2="0" stroke="#e0e0e0" stroke-width="1"/>
+      <line x1="0" y1="-6" x2="0" y2="6" stroke="#e0e0e0" stroke-width="1"/>
+      <line x1="-4" y1="-4" x2="4" y2="4" stroke="#e0e0e0" stroke-width="1"/>
+      <line x1="-4" y1="4" x2="4" y2="-4" stroke="#e0e0e0" stroke-width="1"/>
+    </g>
+    
+    <g transform="translate(380,380)">
+      <circle cx="0" cy="0" r="6"/>
+      <line x1="-4" y1="0" x2="4" y2="0" stroke="#e0e0e0" stroke-width="1"/>
+      <line x1="0" y1="-4" x2="0" y2="4" stroke="#e0e0e0" stroke-width="1"/>
+      <line x1="-3" y1="-3" x2="3" y2="3" stroke="#e0e0e0" stroke-width="1"/>
+      <line x1="-3" y1="3" x2="3" y2="-3" stroke="#e0e0e0" stroke-width="1"/>
+    </g>
+    
+    <g transform="translate(100,380)">
+      <circle cx="0" cy="0" r="5"/>
+      <line x1="-3" y1="0" x2="3" y2="0" stroke="#e0e0e0" stroke-width="1"/>
+      <line x1="0" y1="-3" x2="0" y2="3" stroke="#e0e0e0" stroke-width="1"/>
+    </g>
+    
+    <g transform="translate(400,120)">
+      <circle cx="0" cy="0" r="7"/>
+      <line x1="-5" y1="0" x2="5" y2="0" stroke="#e0e0e0" stroke-width="1"/>
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="#e0e0e0" stroke-width="1"/>
+      <line x1="-4" y1="-4" x2="4" y2="4" stroke="#e0e0e0" stroke-width="1"/>
+      <line x1="-4" y1="4" x2="4" y2="-4" stroke="#e0e0e0" stroke-width="1"/>
+    </g>
+    </g>
+  
+    <!-- Reflective surfaces -->
+    <g fill="#ffffff" opacity="0.6">
+    <ellipse cx="200" cy="180" rx="30" ry="8"/>
+    <ellipse cx="300" cy="320" rx="35" ry="10"/>
+    <ellipse cx="150" cy="350" rx="25" ry="6"/>
+    <ellipse cx="350" cy="150" rx="28" ry="8"/>
+    </g>
+  
+    <!-- Clean, pristine elements -->
+    <g fill="#ffffff" opacity="0.9">
+    <!-- Clean sheet of paper -->
+    <g transform="translate(80,80)">
+      <rect x="0" y="0" width="40" height="30" rx="2" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+      <line x1="5" y1="8" x2="35" y2="8" stroke="#e0e0e0" stroke-width="0.5"/>
+      <line x1="5" y1="15" x2="35" y2="15" stroke="#e0e0e0" stroke-width="0.5"/>
+      <line x1="5" y1="22" x2="25" y2="22" stroke="#e0e0e0" stroke-width="0.5"/>
+    </g>
+    
+    <!-- Dove/pure bird -->
+    <g transform="translate(350,100)">
+      <ellipse cx="0" cy="0" rx="15" ry="8" fill="#ffffff"/>
+      <path d="M-15,0 Q-20,-5 -25,0 Q-20,5 -15,0" fill="#ffffff"/>
+      <path d="M15,0 Q20,-5 25,0 Q20,5 15,0" fill="#ffffff"/>
+      <circle cx="8" cy="-2" r="1" fill="#424242"/>
+    </g>
+    </g>
+  
+    <!-- Clouds (pure white) -->
+    <g fill="#ffffff" opacity="0.8">
+    <ellipse cx="80" cy="200" rx="25" ry="15"/>
+    <ellipse cx="100" cy="195" rx="20" ry="12"/>
+    <ellipse cx="420" cy="250" rx="30" ry="18"/>
+    <ellipse cx="450" cy="245" rx="22" ry="14"/>
+    </g>
+  
+    <!-- Pearls/pure gems -->
+    <g fill="#ffffff" opacity="0.9">
+    <circle cx="120" cy="300" r="8" stroke="#e0e0e0" stroke-width="1"/>
+    <circle cx="380" cy="200" r="6" stroke="#e0e0e0" stroke-width="1"/>
+    <circle cx="150" cy="450" r="5" stroke="#e0e0e0" stroke-width="1"/>
+    <circle cx="350" cy="450" r="7" stroke="#e0e0e0" stroke-width="1"/>
+    </g>
+  
+    <!-- Pearl highlights -->
+    <g fill="#ffffff">
+    <circle cx="123" cy="297" r="3"/>
+    <circle cx="382" cy="198" r="2"/>
+    <circle cx="152" cy="448" r="1"/>
+    <circle cx="352" cy="448" r="2"/>
+    </g>
+  
+    <!-- Cleanliness sparkles -->
+    <g fill="#ffffff" opacity="0.8">
+    <path d="M180 100 L185 95 L190 100 L185 105 Z"/>
+    <path d="M320 400 L325 395 L330 400 L325 405 Z"/>
+    <path d="M420 300 L425 295 L430 300 L425 305 Z"/>
+    <path d="M80 350 L85 345 L90 350 L85 355 Z"/>
+    </g>
+  
+    <!-- Brightness aura lines -->
+    <g stroke="#ffffff" stroke-width="1" fill="none" opacity="0.3">
+    <circle cx="250" cy="250" r="120"/>
+    <circle cx="250" cy="250" r="140"/>
+    <circle cx="250" cy="250" r="160"/>
+    <circle cx="250" cy="250" r="180"/>
+    </g>
+  
+    <!-- Kanji character 白 -->
+    <text x="450" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#9e9e9e" opacity="0.6">白</text>
+    </g>
+  </g>
+</svg> 

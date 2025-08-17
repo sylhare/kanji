@@ -1,0 +1,272 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad28" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f2f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b2dfdb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="privateGrad28" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#26a69a;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#00897b;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#00695c;stop-opacity:0.7" />
+    </linearGradient>
+    <radialGradient id="intimateGrad28" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" style="stop-color:#4db6ac;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#26a69a;stop-opacity:0.6" />
+    </radialGradient>
+    <linearGradient id="curtainGrad28" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#80cbc4;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#4db6ac;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#26a69a;stop-opacity:0.8" />
+    </linearGradient>
+    <radialGradient id="glowGrad28" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#80cbc4;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#80cbc4;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="personalGrad28" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a7ffeb;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#64ffda;stop-opacity:0.7" />
+    </linearGradient>
+    <filter id="softBlur28">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad28)"/>
+  
+  <!-- Private atmosphere -->
+  <ellipse cx="250" cy="250" rx="200" ry="160" fill="url(#glowGrad28)"/>
+  
+  <!-- Main private space symbol representing 厶 -->
+  <g transform="translate(250,200)" opacity="0.9">
+  <!-- Curved private boundary -->
+  <path d="M-30,-20 Q-15,-35 0,-30 Q15,-25 25,-10 Q20,10 10,25 Q-5,15 -15,0 Q-25,-10 -30,-20" 
+      fill="url(#privateGrad28)" 
+      stroke="#004d40" 
+      stroke-width="3" 
+      opacity="0.8"/>
+  
+  <!-- Inner sanctuary -->
+  <path d="M-20,-15 Q-10,-25 0,-20 Q10,-15 15,-5 Q10,5 5,15 Q-5,10 -10,0 Q-15,-8 -20,-15" 
+      fill="url(#personalGrad28)" 
+      opacity="0.7"/>
+  
+  <!-- Privacy screen effect -->
+  <g stroke="#26a69a" stroke-width="2" fill="none" opacity="0.6">
+  <path d="M-25,-15 Q-10,-30 5,-25"/>
+  <path d="M5,-25 Q20,-20 20,-5"/>
+  <path d="M20,-5 Q15,15 0,20"/>
+  
+  <!-- Mu katakana subtle integration -->
+  <g transform="translate(0,-5)" fill="#00695c" opacity="0.5">
+    <path d="M-8,-10 L-8,15 M8,-10 L8,15 M-8,-10 L8,-10"/>
+    </g>
+  
+    <!-- Private garden/courtyard -->
+    <g transform="translate(120,320)" opacity="0.8">
+    <!-- Garden boundary -->
+    <rect x="0" y="0" width="80" height="60" rx="10" fill="url(#intimateGrad28)" stroke="#00695c" stroke-width="2" opacity="0.7"/>
+    
+    <!-- Private plants -->
+    <g fill="#4caf50" opacity="0.8">
+      <ellipse cx="20" cy="15" rx="8" ry="12"/>
+      <ellipse cx="40" cy="10" rx="6" ry="15"/>
+      <ellipse cx="60" cy="18" rx="10" ry="14"/>
+      <ellipse cx="15" cy="35" rx="7" ry="10"/>
+      <ellipse cx="50" cy="40" rx="9" ry="12"/>
+      <ellipse cx="65" cy="45" rx="6" ry="8"/>
+    </g>
+    
+    <!-- Private stone path -->
+    <g fill="#90a4ae" opacity="0.6">
+      <circle cx="25" cy="50" r="3"/>
+      <circle cx="35" cy="45" r="3"/>
+      <circle cx="45" cy="50" r="3"/>
+      <circle cx="55" cy="48" r="3"/>
+    </g>
+    
+    <!-- Secluded bench -->
+    <rect x="30" y="25" width="20" height="8" rx="4" fill="#8d6e63" opacity="0.7"/>
+    <rect x="32" y="33" width="3" height="8" rx="1" fill="#6d4c41"/>
+    <rect x="45" y="33" width="3" height="8" rx="1" fill="#6d4c41"/>
+    </g>
+  
+    <!-- Privacy curtains -->
+    <g transform="translate(350,150)" opacity="0.7">
+    <!-- Left curtain -->
+    <path d="M0,0 Q5,-5 10,0 Q8,20 10,40 Q5,60 0,80 Q-2,60 0,40 Q2,20 0,0" 
+          fill="url(#curtainGrad28)" 
+          stroke="#26a69a" 
+          stroke-width="2"/>
+    
+    <!-- Right curtain -->
+    <path d="M20,0 Q25,-5 30,0 Q28,20 30,40 Q25,60 20,80 Q18,60 20,40 Q22,20 20,0" 
+          fill="url(#curtainGrad28)" 
+          stroke="#26a69a" 
+          stroke-width="2"/>
+    
+    <!-- Curtain ties -->
+    <g fill="#00897b" opacity="0.8">
+      <ellipse cx="5" cy="20" rx="3" ry="2"/>
+      <ellipse cx="25" cy="20" rx="3" ry="2"/>
+    </g>
+    
+    <!-- Window behind (partially visible) -->
+    <rect x="5" y="10" width="20" height="30" rx="3" fill="#e3f2fd" opacity="0.4"/>
+    <line x1="15" y1="10" x2="15" y2="40" stroke="#1976d2" stroke-width="1" opacity="0.3"/>
+    <line x1="5" y1="25" x2="25" y2="25" stroke="#1976d2" stroke-width="1" opacity="0.3"/>
+    </g>
+  
+    <!-- Personal study room -->
+    <g transform="translate(80,150)" opacity="0.6">
+    <!-- Room boundary -->
+    <rect x="0" y="0" width="60" height="80" rx="5" fill="#a7ffeb" opacity="0.3"/>
+    
+    <!-- Desk -->
+    <rect x="10" y="40" width="40" height="6" rx="3" fill="#8d6e63"/>
+    <rect x="12" y="46" width="3" height="20" rx="1" fill="#6d4c41"/>
+    <rect x="45" y="46" width="3" height="20" rx="1" fill="#6d4c41"/>
+    
+    <!-- Books on desk -->
+    <rect x="15" y="35" width="4" height="8" rx="1" fill="#d32f2f"/>
+    <rect x="20" y="37" width="4" height="6" rx="1" fill="#1976d2"/>
+    <rect x="25" y="36" width="4" height="7" rx="1" fill="#388e3c"/>
+    
+    <!-- Reading lamp -->
+    <rect x="35" y="30" width="2" height="12" rx="1" fill="#424242"/>
+    <ellipse cx="36" cy="28" rx="6" ry="4" fill="#fff8e1" opacity="0.8"/>
+    
+    <!-- Private documents -->
+    <rect x="12" y="20" width="8" height="12" rx="1" fill="#ffffff" opacity="0.9"/>
+    <g stroke="#424242" stroke-width="0.5" opacity="0.5">
+      <line x1="14" y1="24" x2="18" y2="24"/>
+      <line x1="14" y1="26" x2="18" y2="26"/>
+      <line x1="14" y1="28" x2="16" y2="28"/>
+    </g>
+    </g>
+  
+    <!-- Intimate conversation area -->
+    <g transform="translate(400,300)" opacity="0.7">
+    <!-- Cozy seating -->
+    <ellipse cx="0" cy="0" rx="25" ry="15" fill="#4db6ac" opacity="0.6"/>
+    <ellipse cx="0" cy="-5" rx="20" ry="10" fill="#80cbc4" opacity="0.8"/>
+    
+    <!-- Small side table -->
+    <ellipse cx="30" cy="0" rx="8" ry="5" fill="#8d6e63"/>
+    <rect x="27" y="0" width="6" height="8" rx="1" fill="#6d4c41"/>
+    
+    <!-- Tea set for private moments -->
+    <g opacity="0.9">
+      <circle cx="28" cy="-3" r="2" fill="#fff8e1"/>
+      <circle cx="32" cy="-3" r="2" fill="#fff8e1"/>
+      <ellipse cx="30" cy="-6" rx="3" ry="2" fill="#ffb300"/>
+    </g>
+    
+    <!-- Soft lighting -->
+    <circle cx="0" cy="-25" r="15" fill="#fff176" opacity="0.3" filter="url(#softBlur28)"/>
+    </g>
+  
+    <!-- Personal diary/journal -->
+    <g transform="translate(200,350)" opacity="0.8">
+    <!-- Closed book -->
+    <rect x="0" y="0" width="30" height="20" rx="2" fill="#8d6e63" stroke="#5d4037" stroke-width="1"/>
+    <rect x="1" y="1" width="28" height="18" rx="1" fill="#a1887f"/>
+    
+    <!-- Book clasp (for privacy) -->
+    <rect x="28" y="8" width="4" height="4" rx="1" fill="#424242"/>
+    <circle cx="30" cy="10" r="1" fill="#757575"/>
+    
+    <!-- "PRIVATE" label -->
+    <text x="15" y="12" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#5d4037" opacity="0.7">PRIVATE</text>
+    
+    <!-- Lock symbol -->
+    <g transform="translate(15,15)" fill="#616161" opacity="0.6">
+      <rect x="-2" y="-1" width="4" height="3" rx="1"/>
+      <path d="M-1,-1 Q-1,-3 0,-3 Q1,-3 1,-1" stroke="#616161" fill="none" stroke-width="0.5"/>
+    </g>
+    </g>
+  
+    <!-- Secluded meditation space -->
+    <g transform="translate(50,300)" opacity="0.6">
+    <!-- Meditation mat -->
+    <ellipse cx="0" cy="0" rx="20" ry="30" fill="#4db6ac" opacity="0.8"/>
+    <ellipse cx="0" cy="0" rx="15" ry="25" fill="#80cbc4" opacity="0.6"/>
+    
+    <!-- Zen stones -->
+    <g fill="#607d8b" opacity="0.8">
+      <ellipse cx="-8" cy="-10" rx="3" ry="2"/>
+      <ellipse cx="5" cy="-15" rx="2" ry="3"/>
+      <ellipse cx="0" cy="15" rx="4" ry="2"/>
+      <ellipse cx="10" cy="8" rx="2" ry="2"/>
+    </g>
+    
+    <!-- Incense -->
+    <rect x="15" y="-20" width="1" height="8" rx="0.5" fill="#8d6e63"/>
+    <g stroke="#e0e0e0" stroke-width="1" fill="none" opacity="0.4">
+      <path d="M15.5,-20 Q17,-25 15.5,-30"/>
+    </g>
+    </g>
+  
+    <!-- Private correspondence -->
+    <g transform="translate(300,120)" opacity="0.7">
+    <!-- Sealed envelope -->
+    <polygon points="0,0 25,0 25,15 12.5,22 0,15" fill="#ffffff" stroke="#26a69a" stroke-width="1"/>
+    
+    <!-- Wax seal -->
+    <circle cx="12.5" cy="10" r="4" fill="#d32f2f" opacity="0.8"/>
+    <circle cx="12.5" cy="10" r="2" fill="#f44336" opacity="0.9"/>
+    
+    <!-- "Confidential" marking -->
+    <text x="12.5" y="6" font-family="Arial, sans-serif" font-size="4" text-anchor="middle" fill="#26a69a" opacity="0.8">CONFIDENTIAL</text>
+    </g>
+  
+    <!-- Society element - Personal space bubbles -->
+    <g opacity="0.4">
+    <circle cx="150" cy="200" r="30" fill="none" stroke="#26a69a" stroke-width="2" stroke-dasharray="5,5"/>
+    <circle cx="350" cy="250" r="35" fill="none" stroke="#4db6ac" stroke-width="2" stroke-dasharray="3,7"/>
+    <circle cx="200" cy="300" r="25" fill="none" stroke="#80cbc4" stroke-width="2" stroke-dasharray="8,3"/>
+    </g>
+  
+    <!-- Privacy indicators -->
+    <g fill="#26a69a" opacity="0.6">
+    <path d="M180 100 L190 90 L200 100 L190 110 Z"/>
+    <path d="M320 140 L330 130 L340 140 L330 150 Z"/>
+    <path d="M160 380 L165 375 L170 380 L165 385 Z"/>
+    <path d="M380 200 L385 195 L390 200 L385 205 Z"/>
+    <path d="M120 250 L125 245 L130 250 L125 255 Z"/>
+    </g>
+  
+    <!-- Personal boundary markers -->
+    <g stroke="#4db6ac" stroke-width="2" fill="none" opacity="0.3">
+    <path d="M100 150 Q150 130 200 150"/>
+    <path d="M300 350 Q350 330 400 350"/>
+    <path d="M150 80 Q180 120 150 160"/>
+    <path d="M350 400 Q320 360 350 320"/>
+    </g>
+  
+    <!-- Discrete social elements -->
+    <g transform="translate(450,150)" opacity="0.5">
+    <!-- "Do not disturb" sign -->
+    <rect x="0" y="0" width="30" height="15" rx="3" fill="#ffffff" stroke="#26a69a" stroke-width="1"/>
+    <text x="15" y="6" font-family="Arial, sans-serif" font-size="4" text-anchor="middle" fill="#00695c">DO NOT</text>
+    <text x="15" y="11" font-family="Arial, sans-serif" font-size="4" text-anchor="middle" fill="#00695c">DISTURB</text>
+    </g>
+  
+    <!-- Whisper effect -->
+    <g opacity="0.3">
+    <ellipse cx="200" cy="180" rx="20" ry="8" fill="#80cbc4" filter="url(#softBlur28)"/>
+    <ellipse cx="300" cy="280" rx="15" ry="6" fill="#a7ffeb" filter="url(#softBlur28)"/>
+    </g>
+  
+    <!-- Number indicator -->
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#00695c" opacity="0.4">28</text>
+  
+    <!-- Kanji character 厶 -->
+    <text x="450" y="450" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#004d40" opacity="0.8">厶</text>
+    </g>
+  </g>
+</svg> 

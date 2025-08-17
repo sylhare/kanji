@@ -1,0 +1,210 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="windGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E0F6FF"/>
+      <stop offset="25%" stop-color="#87CEEB"/>
+      <stop offset="50%" stop-color="#B0E0E6"/>
+      <stop offset="75%" stop-color="#ADD8E6"/>
+      <stop offset="100%" stop-color="#87CEFA"/>
+    </linearGradient>
+    <radialGradient id="cloudGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="50%" stop-color="#F0F8FF"/>
+      <stop offset="100%" stop-color="#E6E6FA"/>
+    </radialGradient>
+    <linearGradient id="sailGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFAF0"/>
+      <stop offset="50%" stop-color="#F5F5DC"/>
+      <stop offset="100%" stop-color="#E6E6FA"/>
+    </linearGradient>
+  </defs>  <!-- Sky background -->
+  <rect width="500" height="500" fill="url(#windGradient)"/>
+  
+  <!-- Large wind currents -->
+  <g stroke="#4682B4" stroke-width="4" fill="none" opacity="0.7">
+  <path d="M0 100 Q50 80 100 100 Q150 120 200 100 Q250 80 300 100 Q350 120 400 100"/>
+  <path d="M0 140 Q50 120 100 140 Q150 160 200 140 Q250 120 300 140 Q350 160 400 140"/>
+  <path d="M0 180 Q50 160 100 180 Q150 200 200 180 Q250 160 300 180 Q350 200 400 180"/>
+  <path d="M0 220 Q50 200 100 220 Q150 240 200 220 Q250 200 300 220 Q350 240 400 220"/>
+  
+  <!-- Stronger wind streams -->
+  <g stroke="#1E90FF" stroke-width="6" fill="none" opacity="0.8">
+  <path d="M0 60 Q100 40 200 60 Q300 80 400 60"/>
+  <path d="M0 300 Q100 280 200 300 Q300 320 400 300"/>
+  
+    <!-- Windmill -->
+    <rect x="320" y="240" width="15" height="80" fill="#F5DEB3" stroke="#DEB887" stroke-width="2"/>
+    <rect x="325" y="230" width="8" height="15" fill="#F5DEB3" stroke="#DEB887" stroke-width="1"/>
+  
+    <!-- Windmill blades spinning -->
+    <g stroke="#8B4513" stroke-width="4" transform="rotate(25 330 240)">
+    <path d="M330 240 L330 210"/>
+    <path d="M330 240 L360 240"/>
+    <path d="M330 240 L330 270"/>
+    <path d="M330 240 L300 240"/>
+    </g>
+  
+    <!-- Blade canvas -->
+    <g fill="#F5F5DC" stroke="#D3D3D3" stroke-width="1" transform="rotate(25 330 240)">
+    <path d="M330 240 L335 215 L325 215 Z"/>
+    <path d="M330 240 L355 235 L355 245 Z"/>
+    <path d="M330 240 L335 265 L325 265 Z"/>
+    <path d="M330 240 L305 235 L305 245 Z"/>
+    </g>
+  
+    <!-- Sailing ship -->
+    <path d="M50 300 Q80 285 110 300 L100 320 L60 320 Z" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  
+    <!-- Ship mast -->
+    <rect x="80" y="240" width="3" height="80" fill="#8B4513"/>
+  
+    <!-- Main sail (billowing in wind) -->
+    <path d="M50 250 Q70 230 90 250 Q85 270 80 280 Q75 270 70 260 Q65 250 50 250" 
+        fill="url(#sailGradient)" stroke="#D3D3D3" stroke-width="2"/>
+  
+    <!-- Jib sail -->
+    <path d="M80 260 Q95 245 105 260 Q100 270 95 275 Q90 270 85 265 Q80 260 80 260" 
+        fill="url(#sailGradient)" stroke="#D3D3D3" stroke-width="1"/>
+  
+    <!-- Sail lines showing wind -->
+    <g stroke="#B0B0B0" stroke-width="1">
+    <path d="M60 255 Q75 250 85 255"/>
+    <path d="M62 265 Q77 260 87 265"/>
+    <path d="M90 250 Q98 248 102 250"/>
+    <path d="M92 265 Q98 263 102 265"/>
+    </g>
+  
+    <!-- Waves (wind-driven) -->
+    <g stroke="#4682B4" stroke-width="3" fill="none">
+    <path d="M0 330 Q20 320 40 330 Q60 340 80 330 Q100 320 120 330 Q140 340 160 330"/>
+    <path d="M120 340 Q140 330 160 340 Q180 350 200 340 Q220 330 240 340 Q260 350 280 340"/>
+    <path d="M240 350 Q260 340 280 350 Q300 360 320 350 Q340 340 360 350 Q380 360 400 350"/>
+    </g>
+  
+    <!-- Trees bending in wind -->
+    <rect x="150" y="280" width="6" height="50" fill="#8B4513"/>
+    <circle cx="153" cy="275" r="15" fill="#228B22" transform="rotate(30 153 275)"/>
+  
+    <rect x="180" y="285" width="5" height="45" fill="#8B4513"/>
+    <circle cx="182.5" cy="280" r="12" fill="#32CD32" transform="rotate(25 182.5 280)"/>
+  
+    <!-- Leaves blowing in wind -->
+    <g fill="#228B22" opacity="0.8">
+    <ellipse cx="200" cy="150" rx="3" ry="6" transform="rotate(45 200 150)"/>
+    <ellipse cx="230" cy="170" rx="3" ry="6" transform="rotate(60 230 170)"/>
+    <ellipse cx="260" cy="140" rx="3" ry="6" transform="rotate(30 260 140)"/>
+    <ellipse cx="290" cy="160" rx="3" ry="6" transform="rotate(75 290 160)"/>
+    <ellipse cx="320" cy="180" rx="3" ry="6" transform="rotate(40 320 180)"/>
+    </g>
+  
+    <!-- Motion lines for leaves -->
+    <g stroke="#90EE90" stroke-width="1" opacity="0.6">
+    <path d="M190 160 Q200 155 210 160"/>
+    <path d="M220 180 Q230 175 240 180"/>
+    <path d="M250 150 Q260 145 270 150"/>
+    <path d="M280 170 Q290 165 300 170"/>
+    <path d="M310 190 Q320 185 330 190"/>
+    </g>
+  
+    <!-- Clouds driven by wind -->
+    <g fill="url(#cloudGradient)" opacity="0.9">
+    <circle cx="100" cy="80" r="20"/>
+    <circle cx="120" cy="75" r="25"/>
+    <circle cx="140" cy="80" r="18"/>
+    
+    <circle cx="250" cy="60" r="22"/>
+    <circle cx="270" cy="55" r="28"/>
+    <circle cx="290" cy="60" r="20"/>
+    </g>
+  
+    <!-- Cloud motion streaks -->
+    <g stroke="#E6E6FA" stroke-width="3" opacity="0.6">
+    <path d="M160 80 L200 75"/>
+    <path d="M310 60 L350 55"/>
+    </g>
+  
+    <!-- Kite flying in wind -->
+    <path d="M280 120 L290 110 L300 120 L290 130 Z" fill="#FF69B4" stroke="#DC143C" stroke-width="2"/>
+    <path d="M285 115 L295 115 M290 110 L290 120" stroke="#FFF" stroke-width="1"/>
+  
+    <!-- Kite string -->
+    <path d="M290 130 Q280 150 270 170 Q260 190 250 210" stroke="#000" stroke-width="1"/>
+  
+    <!-- Kite tail ribbons -->
+    <g fill="#FFD700">
+    <rect x="288" y="135" width="2" height="8"/>
+    <rect x="291" y="140" width="2" height="8"/>
+    <rect x="288" y="145" width="2" height="8"/>
+    <rect x="291" y="150" width="2" height="8"/>
+    </g>
+  
+    <!-- Weather vane -->
+    <rect x="370" y="150" width="2" height="40" fill="#A9A9A9"/>
+    <circle cx="371" cy="145" r="5" fill="#A9A9A9"/>
+  
+    <!-- Vane arrow pointing wind direction -->
+    <path d="M371 145 L380 145 L376 140 L376 150 Z" fill="#FFD700"/>
+    <path d="M371 145 L362 145 L366 140 L366 150 Z" fill="#FFD700"/>
+  
+    <!-- Dandelion seeds blowing -->
+    <g fill="#FFFAF0" opacity="0.8">
+    <circle cx="120" cy="200" r="1"/>
+    <circle cx="140" cy="190" r="1"/>
+    <circle cx="160" cy="185" r="1"/>
+    <circle cx="180" cy="180" r="1"/>
+    <circle cx="200" cy="190" r="1"/>
+    <circle cx="220" cy="185" r="1"/>
+    </g>
+  
+    <!-- Seed trails -->
+    <g stroke="#FFFAF0" stroke-width="0.5" opacity="0.5">
+    <path d="M110 205 Q120 200 130 205"/>
+    <path d="M130 195 Q140 190 150 195"/>
+    <path d="M150 190 Q160 185 170 190"/>
+    <path d="M170 185 Q180 180 190 185"/>
+    <path d="M190 195 Q200 190 210 195"/>
+    <path d="M210 190 Q220 185 230 190"/>
+    </g>
+  
+    <!-- Wind turbine (modern) -->
+    <rect x="50" y="180" width="4" height="60" fill="#E6E6FA"/>
+    <circle cx="52" cy="175" r="3" fill="#A9A9A9"/>
+  
+    <!-- Turbine blades -->
+    <g stroke="#FFF" stroke-width="3" transform="rotate(-45 52 175)">
+    <path d="M52 175 L52 155"/>
+    <path d="M52 175 L67 185"/>
+    <path d="M52 175 L37 185"/>
+    </g>
+  
+    <!-- Flag on pole fluttering -->
+    <rect x="20" y="100" width="2" height="80" fill="#A9A9A9"/>
+    <path d="M22 110 Q35 105 45 110 Q40 120 35 125 Q30 120 25 115 Q22 110 22 110" 
+        fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+  
+    <!-- Wind direction arrows -->
+    <g stroke="#1E90FF" stroke-width="3" opacity="0.7">
+    <path d="M350 100 L380 100 L375 95 M380 100 L375 105"/>
+    <path d="M350 130 L380 130 L375 125 M380 130 L375 135"/>
+    <path d="M10 250 L40 250 L35 245 M40 250 L35 255"/>
+    <path d="M10 280 L40 280 L35 275 M40 280 L35 285"/>
+    </g>
+  
+    <!-- Dust or sand particles -->
+    <g fill="#DEB887" opacity="0.6">
+    <circle cx="300" cy="300" r="0.5"/>
+    <circle cx="310" cy="295" r="0.5"/>
+    <circle cx="320" cy="305" r="0.5"/>
+    <circle cx="330" cy="298" r="0.5"/>
+    <circle cx="340" cy="308" r="0.5"/>
+    <circle cx="350" cy="302" r="0.5"/>
+    </g>
+  
+    <!-- Chinese character -->
+    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#1E90FF">風</text>
+  
+    <!-- Title -->
+    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4682B4">WIND &amp; BREEZE</text>
+    </g>
+  </g>
+</svg> 

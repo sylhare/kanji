@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad20" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="embraceGrad20" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#e91e63;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#9c27b0;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad20)"/>
+  
+  <!-- Mother embracing child -->
+  <g transform="translate(250,300)">
+  <!-- Mother's head -->
+  <circle cx="-15" cy="-40" r="15" fill="#ffdbcb"/>
+  
+  <!-- Mother's body -->
+  <ellipse cx="-15" cy="-10" rx="20" ry="25" fill="#e91e63"/>
+  
+  <!-- Mother's arms wrapping around -->
+  <path d="M-35 -20 Q-50 0 -30 20 Q0 30 30 20 Q50 0 35 -20" 
+      stroke="#e91e63" stroke-width="8" fill="none"/>
+  
+  <!-- Child's head -->
+  <circle cx="10" cy="0" r="10" fill="#ffdbcb"/>
+  
+  <!-- Child's body -->
+  <ellipse cx="10" cy="15" rx="12" ry="15" fill="#42a5f5"/>
+  
+  <!-- Embrace glow -->
+  <ellipse cx="0" cy="0" rx="60" ry="40" fill="url(#embraceGrad20)"/>
+  
+  <!-- Main radical shape 勹 (wrap/embrace) -->
+  <!-- Top horizontal stroke -->
+  <path d="M200 150 L280 150" 
+      stroke="#9c27b0" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Left curved stroke -->
+  <path d="M200 150 Q180 200 200 250" 
+      stroke="#9c27b0" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Wrapping/enclosing curve -->
+  <path d="M280 150 Q320 200 280 250" 
+      stroke="#9c27b0" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Gift wrapping -->
+  <g transform="translate(120,200)" opacity="0.8">
+  <!-- Box -->
+  <rect x="0" y="0" width="40" height="30" rx="3" fill="#4caf50"/>
+  
+  <!-- Ribbon horizontal -->
+  <rect x="-5" y="12" width="50" height="6" rx="3" fill="#f44336"/>
+  
+  <!-- Ribbon vertical -->
+  <rect x="17" y="-5" width="6" height="40" rx="3" fill="#f44336"/>
+  
+  <!-- Bow -->
+  <ellipse cx="20" cy="-8" rx="8" ry="4" fill="#d32f2f"/>
+  <ellipse cx="12" cy="-8" rx="4" ry="3" fill="#f44336"/>
+  <ellipse cx="28" cy="-8" rx="4" ry="3" fill="#f44336"/>
+  
+    <!-- Blanket wrapping -->
+    <g transform="translate(380,350)" opacity="0.7">
+    <!-- Person -->
+    <circle cx="0" cy="-10" r="8" fill="#ffdbcb"/>
+    
+    <!-- Blanket -->
+    <path d="M-20 0 Q-25 -15 -15 -20 Q0 -25 15 -20 Q25 -15 20 0 Q25 20 0 30 Q-25 20 -20 0" 
+          fill="#ff9800" opacity="0.8"/>
+    
+    <!-- Blanket edge -->
+    <path d="M-20 0 Q-15 -10 0 -15 Q15 -10 20 0 Q15 10 0 15 Q-15 10 -20 0" 
+          stroke="#ff6f00" stroke-width="2" fill="none"/>
+    </g>
+  
+    <!-- Bandage wrapping -->
+    <g transform="translate(100,350)" opacity="0.6">
+    <!-- Injured finger -->
+    <ellipse cx="0" cy="0" rx="4" ry="15" fill="#ffdbcb"/>
+    
+    <!-- Bandage wraps -->
+    <g stroke="#ffffff" stroke-width="6" fill="none" opacity="0.8">
+      <line x1="-8" y1="-10" x2="8" y2="-10"/>
+      <line x1="-8" y1="-3" x2="8" y2="-3"/>
+      <line x1="-8" y1="4" x2="8" y2="4"/>
+      <line x1="-8" y1="11" x2="8" y2="11"/>
+    </g>
+    </g>
+  
+    <!-- DNA double helix (wrapping around) -->
+    <g transform="translate(400,200)" opacity="0.5">
+    <g stroke="#2196f3" stroke-width="3" fill="none">
+      <path d="M0 0 Q5 -10 10 0 Q15 10 20 0 Q25 -10 30 0"/>
+      <path d="M0 0 Q-5 10 -10 0 Q-15 -10 -20 0 Q-25 10 -30 0"/>
+    </g>
+    <!-- Base pairs -->
+    <g stroke="#ff9800" stroke-width="2">
+      <line x1="5" y1="-5" x2="-5" y2="5"/>
+      <line x1="15" y1="5" x2="5" y2="-5"/>
+      <line x1="25" y1="-5" x2="15" y2="5"/>
+    </g>
+    </g>
+  
+    <!-- Cocoon -->
+    <g transform="translate(100,120)" opacity="0.7">
+    <!-- Cocoon shell -->
+    <ellipse cx="0" cy="0" rx="15" ry="25" fill="#8d6e63"/>
+    <ellipse cx="0" cy="0" rx="12" ry="22" fill="#a1887f"/>
+    
+    <!-- Caterpillar inside -->
+    <ellipse cx="0" cy="0" rx="8" ry="15" fill="#4caf50" opacity="0.6"/>
+    
+    <!-- Cocoon texture -->
+    <g stroke="#6d4c41" stroke-width="1" opacity="0.5">
+      <line x1="-8" y1="-15" x2="8" y2="-15"/>
+      <line x1="-10" y1="0" x2="10" y2="0"/>
+      <line x1="-8" y1="15" x2="8" y2="15"/>
+    </g>
+    </g>
+  
+    <!-- Arms forming protective circle -->
+    <g transform="translate(380,120)" opacity="0.6">
+    <g stroke="#9c27b0" stroke-width="6" fill="none">
+      <path d="M0 -20 Q-20 -30 -30 -10 Q-35 10 -20 20 Q0 30 20 20 Q35 10 30 -10 Q20 -30 0 -20"/>
+    </g>
+    <!-- Hands -->
+    <circle cx="0" cy="-20" r="4" fill="#ffdbcb"/>
+    <circle cx="-20" cy="20" r="4" fill="#ffdbcb"/>
+    <circle cx="20" cy="20" r="4" fill="#ffdbcb"/>
+    </g>
+  
+    <!-- Scarf wrapping around neck -->
+    <g transform="translate(150,450)" opacity="0.7">
+    <!-- Neck -->
+    <ellipse cx="0" cy="0" rx="8" ry="12" fill="#ffdbcb"/>
+    
+    <!-- Scarf -->
+    <path d="M-15 -8 Q-20 0 -15 8 Q0 12 15 8 Q20 0 15 -8 Q10 -12 0 -10 Q-10 -12 -15 -8" 
+          fill="#f44336" opacity="0.8"/>
+    
+    <!-- Scarf ends -->
+    <rect x="-25" y="5" width="8" height="20" rx="2" fill="#d32f2f"/>
+    <rect x="17" y="5" width="8" height="20" rx="2" fill="#d32f2f"/>
+    </g>
+  
+    <!-- Protective bubble -->
+    <g transform="translate(350,450)" opacity="0.4">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#9c27b0" stroke-width="3" opacity="0.6"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#e1bee7" stroke-width="2" opacity="0.4"/>
+    <!-- Person inside -->
+    <circle cx="0" cy="-5" r="6" fill="#ffdbcb"/>
+    <rect x="-4" y="0" width="8" height="12" fill="#2196f3"/>
+    </g>
+  
+    <!-- Envelope -->
+    <g transform="translate(400,300)" opacity="0.8">
+    <!-- Envelope body -->
+    <rect x="0" y="0" width="30" height="20" rx="2" fill="#fff8e1" stroke="#d7ccc8" stroke-width="1"/>
+    
+    <!-- Envelope flap -->
+    <path d="M0 0 L15 12 L30 0" fill="#ffcc02" stroke="#ffb300" stroke-width="1"/>
+    
+    <!-- Letter inside -->
+    <rect x="3" y="3" width="24" height="14" rx="1" fill="#ffffff"/>
+    </g>
+  
+    <!-- Hug hearts -->
+    <g fill="#f06292" opacity="0.6">
+    <path d="M200 380 Q195 375 190 380 Q195 385 200 380 Q205 375 210 380 Q205 385 200 380" transform="scale(0.8)"/>
+    <path d="M300 120 Q295 115 290 120 Q295 125 300 120 Q305 115 310 120 Q305 125 300 120" transform="scale(0.6)"/>
+    <path d="M150 150 Q145 145 140 150 Q145 155 150 150 Q155 145 160 150 Q155 155 150 150" transform="scale(0.7)"/>
+    </g>
+  
+    <!-- Wrapping motion lines -->
+    <g stroke="#ba68c8" stroke-width="2" opacity="0.4" fill="none">
+    <path d="M50 250 Q100 230 150 250 Q200 270 250 250"/>
+    <path d="M450 250 Q400 230 350 250 Q300 270 250 250"/>
+    </g>
+  
+    <!-- Kanji character 勹 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#9c27b0" opacity="0.8">勹</text>
+    </g>
+  </g>
+</svg> 

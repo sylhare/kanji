@@ -1,0 +1,341 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="50%" stop-color="#4682B4"/>
+      <stop offset="100%" stop-color="#2F4F4F"/>
+    </linearGradient>
+    <linearGradient id="planeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F0F0F0"/>
+      <stop offset="50%" stop-color="#C0C0C0"/>
+      <stop offset="100%" stop-color="#A0A0A0"/>
+    </linearGradient>
+    <linearGradient id="trainGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF4500"/>
+      <stop offset="50%" stop-color="#DC143C"/>
+      <stop offset="100%" stop-color="#8B0000"/>
+    </linearGradient>
+    <radialGradient id="wheelGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#2F2F2F"/>
+      <stop offset="50%" stop-color="#404040"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="roadGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#696969"/>
+      <stop offset="100%" stop-color="#2F2F2F"/>
+    </linearGradient>
+    <radialGradient id="sunGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFF99"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </radialGradient>
+    <linearGradient id="shipGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F0F0F0"/>
+      <stop offset="100%" stop-color="#D3D3D3"/>
+    </linearGradient>
+  </defs>  <!-- Sky background -->
+  <rect width="400" height="280" fill="url(#skyGradient)"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="60" r="20" fill="url(#sunGradient)" stroke="#FF8C00" stroke-width="2"/>
+  
+  <!-- Mountains in background -->
+  <polygon points="0,200 80,120 160,160 240,100 320,140 400,110 400,280 0,280" 
+           fill="#9370DB" opacity="0.6"/>
+  
+  <!-- Airplane -->
+  <g transform="translate(120, 80)">
+    <!-- Fuselage -->
+    <ellipse cx="0" cy="0" rx="30" ry="6" fill="url(#planeGradient)" stroke="#A0A0A0" stroke-width="1"/>
+    <!-- Wings -->
+    <ellipse cx="-5" cy="0" rx="25" ry="3" fill="url(#planeGradient)"/>
+    <ellipse cx="10" cy="0" rx="8" ry="2" fill="url(#planeGradient)"/>
+    <!-- Tail -->
+    <polygon points="-25,-3 -35,-8 -35,8 -25,3" fill="url(#planeGradient)"/>
+    <polygon points="-30,-8 -35,-12 -32,-8" fill="url(#planeGradient)"/>
+    <!-- Windows -->
+    <g fill="#87CEEB">
+      <circle cx="10" cy="0" r="1.5"/>
+      <circle cx="5" cy="0" r="1.5"/>
+      <circle cx="0" cy="0" r="1.5"/>
+      <circle cx="-5" cy="0" r="1.5"/>
+      <circle cx="-10" cy="0" r="1.5"/>
+    </g>
+    <!-- Propeller -->
+    <ellipse cx="25" cy="0" rx="8" ry="1" fill="#C0C0C0" opacity="0.5" transform="rotate(45 25 0)"/>
+    <circle cx="25" cy="0" r="2" fill="#2F2F2F"/>
+    <!-- Contrail -->
+    <path d="M-35 0 Q-50 2 -65 0 Q-80 -2 -95 0" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.6"/>
+  </g>
+  
+  <!-- Helicopter -->
+  <g transform="translate(280, 50)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="15" ry="8" fill="#228B22" stroke="#006400" stroke-width="1"/>
+    <!-- Cockpit -->
+    <ellipse cx="8" cy="0" rx="8" ry="6" fill="#87CEEB" stroke="#4682B4" stroke-width="1"/>
+    <!-- Tail -->
+    <rect x="-15" y="-1" width="20" height="2" fill="#228B22"/>
+    <ellipse cx="-25" cy="0" rx="5" ry="3" fill="#228B22"/>
+    <!-- Main rotor -->
+    <ellipse cx="0" cy="-12" rx="25" ry="2" fill="#C0C0C0" opacity="0.5"/>
+    <circle cx="0" cy="-12" r="2" fill="#2F2F2F"/>
+    <!-- Tail rotor -->
+    <ellipse cx="-25" cy="-6" rx="1" ry="6" fill="#C0C0C0" opacity="0.5"/>
+    <circle cx="-25" cy="-6" r="1" fill="#2F2F2F"/>
+    <!-- Landing skids -->
+    <rect x="-8" y="8" width="16" height="1" fill="#C0C0C0"/>
+    <rect x="-10" y="8" width="2" height="3" fill="#C0C0C0"/>
+    <rect x="8" y="8" width="2" height="3" fill="#C0C0C0"/>
+  </g>
+  
+  <!-- Road -->
+  <rect x="0" y="280" width="400" height="60" fill="url(#roadGradient)"/>
+  
+  <!-- Road markings -->
+  <g fill="#FFFF00">
+    <rect x="0" y="308" width="50" height="4"/>
+    <rect x="70" y="308" width="50" height="4"/>
+    <rect x="140" y="308" width="50" height="4"/>
+    <rect x="210" y="308" width="50" height="4"/>
+    <rect x="280" y="308" width="50" height="4"/>
+    <rect x="350" y="308" width="50" height="4"/>
+  </g>
+  
+  <!-- Cars on road -->
+  <!-- Car 1 -->
+  <g transform="translate(80, 300)">
+    <rect x="0" y="0" width="40" height="15" rx="3" fill="#FF0000"/>
+    <rect x="5" y="-5" width="30" height="5" rx="2" fill="#FF0000"/>
+    <circle cx="8" cy="18" r="6" fill="url(#wheelGradient)"/>
+    <circle cx="32" cy="18" r="6" fill="url(#wheelGradient)"/>
+    <circle cx="8" cy="18" r="3" fill="#C0C0C0"/>
+    <circle cx="32" cy="18" r="3" fill="#C0C0C0"/>
+    <!-- Windows -->
+    <rect x="8" y="-3" width="8" height="3" fill="#87CEEB"/>
+    <rect x="18" y="-3" width="8" height="3" fill="#87CEEB"/>
+    <rect x="28" y="-3" width="6" height="3" fill="#87CEEB"/>
+    <!-- Headlights -->
+    <circle cx="40" cy="3" r="2" fill="#FFFF99"/>
+    <circle cx="40" cy="12" r="2" fill="#FFFF99"/>
+  </g>
+  
+  <!-- Car 2 -->
+  <g transform="translate(200, 295)">
+    <rect x="0" y="0" width="35" height="18" rx="4" fill="#0000FF"/>
+    <rect x="3" y="-6" width="29" height="6" rx="2" fill="#0000FF"/>
+    <circle cx="6" cy="22" r="7" fill="url(#wheelGradient)"/>
+    <circle cx="29" cy="22" r="7" fill="url(#wheelGradient)"/>
+    <circle cx="6" cy="22" r="4" fill="#C0C0C0"/>
+    <circle cx="29" cy="22" r="4" fill="#C0C0C0"/>
+    <!-- Windows -->
+    <rect x="5" y="-4" width="7" height="4" fill="#87CEEB"/>
+    <rect x="14" y="-4" width="8" height="4" fill="#87CEEB"/>
+    <rect x="24" y="-4" width="6" height="4" fill="#87CEEB"/>
+    <!-- Headlights -->
+    <circle cx="35" cy="4" r="2" fill="#FFFF99"/>
+    <circle cx="35" cy="14" r="2" fill="#FFFF99"/>
+  </g>
+  
+  <!-- Motorcycle -->
+  <g transform="translate(320, 305)">
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#FF8C00"/>
+    <circle cx="-6" cy="8" r="5" fill="url(#wheelGradient)"/>
+    <circle cx="6" cy="8" r="5" fill="url(#wheelGradient)"/>
+    <circle cx="-6" cy="8" r="2" fill="#C0C0C0"/>
+    <circle cx="6" cy="8" r="2" fill="#C0C0C0"/>
+    <!-- Rider -->
+    <ellipse cx="0" cy="-8" rx="3" ry="6" fill="#000080"/>
+    <circle cx="0" cy="-15" r="3" fill="#FFDAB9"/>
+    <!-- Helmet -->
+    <circle cx="0" cy="-15" r="4" fill="#FF0000"/>
+    <!-- Handlebars -->
+    <rect x="-4" y="-5" width="8" height="1" fill="#C0C0C0"/>
+  </g>
+  
+  <!-- Train -->
+  <g transform="translate(50, 340)">
+    <!-- Engine -->
+    <rect x="0" y="0" width="60" height="25" rx="3" fill="url(#trainGradient)"/>
+    <rect x="5" y="5" width="50" height="10" fill="#8B0000"/>
+    <!-- Chimney -->
+    <rect x="10" y="-8" width="6" height="8" fill="#2F2F2F"/>
+    <ellipse cx="13" cy="-10" rx="4" ry="2" fill="#696969"/>
+    <!-- Wheels -->
+    <circle cx="12" cy="30" r="6" fill="url(#wheelGradient)"/>
+    <circle cx="25" cy="30" r="6" fill="url(#wheelGradient)"/>
+    <circle cx="38" cy="30" r="6" fill="url(#wheelGradient)"/>
+    <circle cx="51" cy="30" r="6" fill="url(#wheelGradient)"/>
+    <circle cx="12" cy="30" r="3" fill="#C0C0C0"/>
+    <circle cx="25" cy="30" r="3" fill="#C0C0C0"/>
+    <circle cx="38" cy="30" r="3" fill="#C0C0C0"/>
+    <circle cx="51" cy="30" r="3" fill="#C0C0C0"/>
+    <!-- Connecting rods -->
+    <rect x="12" y="28" width="26" height="1" fill="#C0C0C0"/>
+    <rect x="25" y="28" width="26" height="1" fill="#C0C0C0"/>
+    <!-- Windows -->
+    <rect x="35" y="8" width="8" height="6" fill="#87CEEB"/>
+    <rect x="45" y="8" width="8" height="6" fill="#87CEEB"/>
+    <!-- Headlight -->
+    <circle cx="58" cy="12" r="3" fill="#FFFF99"/>
+    
+    <!-- Train car -->
+    <rect x="65" y="5" width="50" height="20" rx="2" fill="#4169E1"/>
+    <circle cx="75" cy="30" r="5" fill="url(#wheelGradient)"/>
+    <circle cx="105" cy="30" r="5" fill="url(#wheelGradient)"/>
+    <circle cx="75" cy="30" r="2.5" fill="#C0C0C0"/>
+    <circle cx="105" cy="30" r="2.5" fill="#C0C0C0"/>
+    <!-- Car windows -->
+    <rect x="70" y="10" width="6" height="5" fill="#87CEEB"/>
+    <rect x="78" y="10" width="6" height="5" fill="#87CEEB"/>
+    <rect x="86" y="10" width="6" height="5" fill="#87CEEB"/>
+    <rect x="94" y="10" width="6" height="5" fill="#87CEEB"/>
+    <rect x="102" y="10" width="6" height="5" fill="#87CEEB"/>
+  </g>
+  
+  <!-- Railway tracks -->
+  <g fill="#8B4513">
+    <rect x="0" y="360" width="400" height="3"/>
+    <rect x="0" y="370" width="400" height="3"/>
+    <!-- Railway ties -->
+    <rect x="10" y="358" width="3" height="17"/>
+    <rect x="25" y="358" width="3" height="17"/>
+    <rect x="40" y="358" width="3" height="17"/>
+    <rect x="55" y="358" width="3" height="17"/>
+    <rect x="70" y="358" width="3" height="17"/>
+    <rect x="85" y="358" width="3" height="17"/>
+    <rect x="100" y="358" width="3" height="17"/>
+    <rect x="115" y="358" width="3" height="17"/>
+    <rect x="130" y="358" width="3" height="17"/>
+    <rect x="145" y="358" width="3" height="17"/>
+    <rect x="160" y="358" width="3" height="17"/>
+    <rect x="175" y="358" width="3" height="17"/>
+    <rect x="190" y="358" width="3" height="17"/>
+    <rect x="205" y="358" width="3" height="17"/>
+    <rect x="220" y="358" width="3" height="17"/>
+    <rect x="235" y="358" width="3" height="17"/>
+    <rect x="250" y="358" width="3" height="17"/>
+    <rect x="265" y="358" width="3" height="17"/>
+    <rect x="280" y="358" width="3" height="17"/>
+    <rect x="295" y="358" width="3" height="17"/>
+    <rect x="310" y="358" width="3" height="17"/>
+    <rect x="325" y="358" width="3" height="17"/>
+    <rect x="340" y="358" width="3" height="17"/>
+    <rect x="355" y="358" width="3" height="17"/>
+    <rect x="370" y="358" width="3" height="17"/>
+    <rect x="385" y="358" width="3" height="17"/>
+  </g>
+  
+  <!-- Ship on horizon -->
+  <g transform="translate(300, 220)">
+    <!-- Hull -->
+    <path d="M0 20 Q50 15 100 20 L90 30 L10 30 Z" fill="url(#shipGradient)"/>
+    <!-- Superstructure -->
+    <rect x="20" y="10" width="25" height="10" fill="#F0F0F0"/>
+    <rect x="50" y="5" width="20" height="15" fill="#F0F0F0"/>
+    <!-- Masts -->
+    <rect x="30" y="-10" width="1" height="20" fill="#8B4513"/>
+    <rect x="60" y="-5" width="1" height="15" fill="#8B4513"/>
+    <!-- Flags -->
+    <polygon points="31,-10 38,-7 31,-4" fill="#FF0000"/>
+    <!-- Smoke -->
+    <g fill="#D3D3D3" opacity="0.6">
+      <ellipse cx="55" cy="-2" rx="3" ry="6"/>
+      <ellipse cx="58" cy="-8" rx="4" ry="5"/>
+      <ellipse cx="62" cy="-14" rx="5" ry="4"/>
+    </g>
+  </g>
+  
+  <!-- Hot air balloon -->
+  <g transform="translate(50, 40)">
+    <!-- Balloon -->
+    <ellipse cx="0" cy="0" rx="20" ry="25" fill="#FF69B4" stroke="#DC143C" stroke-width="1"/>
+    <ellipse cx="0" cy="0" rx="15" ry="20" fill="#FFB6C1" opacity="0.7"/>
+    <g stroke="#DC143C" stroke-width="1" fill="none">
+      <path d="M-15 -10 Q0 -5 15 -10"/>
+      <path d="M-15 0 Q0 5 15 0"/>
+      <path d="M-15 10 Q0 15 15 10"/>
+    </g>
+    <!-- Basket -->
+    <rect x="-4" y="28" width="8" height="6" fill="#8B4513"/>
+    <!-- Ropes -->
+    <g stroke="#8B4513" stroke-width="0.5">
+      <path d="M-15 20 L-4 28"/>
+      <path d="M15 20 L4 28"/>
+      <path d="M-10 22 L-2 28"/>
+      <path d="M10 22 L2 28"/>
+    </g>
+  </g>
+  
+  <!-- Bicycle -->
+  <g transform="translate(150, 320)">
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#2F2F2F" stroke-width="2"/>
+    <circle cx="25" cy="0" r="8" fill="none" stroke="#2F2F2F" stroke-width="2"/>
+    <!-- Frame -->
+    <g stroke="#FF8C00" stroke-width="2" fill="none">
+      <path d="M0 0 L12 -8 L25 0"/>
+      <path d="M12 -8 L12 -15"/>
+      <path d="M8 -15 L16 -15"/>
+      <path d="M12 -8 L20 0"/>
+    </g>
+    <!-- Wheels -->
+    <circle cx="0" cy="0" r="3" fill="#C0C0C0"/>
+    <circle cx="25" cy="0" r="3" fill="#C0C0C0"/>
+    <!-- Pedals -->
+    <circle cx="12" cy="0" r="2" fill="#2F2F2F"/>
+    <!-- Rider -->
+    <ellipse cx="15" cy="-12" rx="3" ry="5" fill="#32CD32"/>
+    <circle cx="15" cy="-18" r="2.5" fill="#FFDAB9"/>
+    <circle cx="15" cy="-18" r="3" fill="none" stroke="#FF0000" stroke-width="1"/>
+  </g>
+  
+  <!-- Bus -->
+  <g transform="translate(10, 290)">
+    <rect x="0" y="0" width="80" height="25" rx="5" fill="#FFD700"/>
+    <circle cx="15" cy="30" r="8" fill="url(#wheelGradient)"/>
+    <circle cx="65" cy="30" r="8" fill="url(#wheelGradient)"/>
+    <circle cx="15" cy="30" r="4" fill="#C0C0C0"/>
+    <circle cx="65" cy="30" r="4" fill="#C0C0C0"/>
+    <!-- Windows -->
+    <rect x="5" y="5" width="8" height="8" fill="#87CEEB"/>
+    <rect x="15" y="5" width="8" height="8" fill="#87CEEB"/>
+    <rect x="25" y="5" width="8" height="8" fill="#87CEEB"/>
+    <rect x="35" y="5" width="8" height="8" fill="#87CEEB"/>
+    <rect x="45" y="5" width="8" height="8" fill="#87CEEB"/>
+    <rect x="55" y="5" width="8" height="8" fill="#87CEEB"/>
+    <rect x="65" y="5" width="8" height="8" fill="#87CEEB"/>
+    <!-- Door -->
+    <rect x="70" y="15" width="8" height="10" fill="#8B4513"/>
+    <!-- Headlights -->
+    <circle cx="78" cy="8" r="2" fill="#FFFF99"/>
+    <circle cx="78" cy="17" r="2" fill="#FFFF99"/>
+  </g>
+  
+  <!-- Traffic lights -->
+  <g transform="translate(380, 250)">
+    <rect x="0" y="0" width="6" height="20" rx="3" fill="#2F2F2F"/>
+    <circle cx="3" cy="4" r="2" fill="#FF0000"/>
+    <circle cx="3" cy="10" r="2" fill="#FFFF00"/>
+    <circle cx="3" cy="16" r="2" fill="#00FF00" opacity="0.8"/>
+    <rect x="2" y="20" width="2" height="15" fill="#8B4513"/>
+  </g>
+  
+  <!-- Clouds -->
+  <g fill="#FFFFFF" opacity="0.8">
+    <ellipse cx="100" cy="30" rx="20" ry="12"/>
+    <ellipse cx="120" cy="25" rx="15" ry="10"/>
+    <ellipse cx="110" cy="20" rx="12" ry="8"/>
+    
+    <ellipse cx="250" cy="45" rx="25" ry="15"/>
+    <ellipse cx="275" cy="40" rx="20" ry="12"/>
+    <ellipse cx="260" cy="35" rx="15" ry="10"/>
+  </g>
+  
+  <!-- Birds flying -->
+  <g stroke="#2F2F2F" stroke-width="1" fill="none">
+    <path d="M180 20 Q185 15 190 20"/>
+    <path d="M200 25 Q205 20 210 25"/>
+    <path d="M220 15 Q225 10 230 15"/>
+  </g>
+</svg> 

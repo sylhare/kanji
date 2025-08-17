@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad12" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="centerGrad12" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e7d32;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad12)"/>
+  
+  <!-- Eight-fold radial pattern background -->
+  <g stroke="#81c784" stroke-width="2" opacity="0.3" fill="none">
+  <circle cx="250" cy="250" r="100"/>
+  <circle cx="250" cy="250" r="150"/>
+  <circle cx="250" cy="250" r="200"/>
+  
+  <!-- Main radical shape 八 (eight) -->
+  <!-- Left stroke of 八 -->
+  <path d="M200 200 L150 350" 
+      stroke="url(#centerGrad12)" stroke-width="16" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right stroke of 八 -->
+  <path d="M300 200 L350 350" 
+      stroke="url(#centerGrad12)" stroke-width="16" fill="none" stroke-linecap="round"/>
+  
+  <!-- Eight decorative elements around the center -->
+  <g fill="#66bb6a" opacity="0.7">
+  <!-- Top -->
+  <circle cx="250" cy="120" r="8"/>
+  <!-- Top-right -->
+  <circle cx="320" cy="150" r="8"/>
+  <!-- Right -->
+  <circle cx="380" cy="250" r="8"/>
+  <!-- Bottom-right -->
+  <circle cx="320" cy="350" r="8"/>
+  <!-- Bottom -->
+  <circle cx="250" cy="380" r="8"/>
+  <!-- Bottom-left -->
+  <circle cx="180" cy="350" r="8"/>
+  <!-- Left -->
+  <circle cx="120" cy="250" r="8"/>
+  <!-- Top-left -->
+  <circle cx="180" cy="150" r="8"/>
+  
+    <!-- Central connecting point -->
+    <circle cx="250" cy="200" r="12" fill="url(#centerGrad12)"/>
+  
+    <!-- Eight radiating lines -->
+    <g stroke="#4caf50" stroke-width="3" opacity="0.4">
+    <line x1="250" y1="250" x2="250" y2="120"/>
+    <line x1="250" y1="250" x2="341" y2="159"/>
+    <line x1="250" y1="250" x2="380" y2="250"/>
+    <line x1="250" y1="250" x2="341" y2="341"/>
+    <line x1="250" y1="250" x2="250" y2="380"/>
+    <line x1="250" y1="250" x2="159" y2="341"/>
+    <line x1="250" y1="250" x2="120" y2="250"/>
+    <line x1="250" y1="250" x2="159" y2="159"/>
+    </g>
+  
+    <!-- Number 8 visual representation -->
+    <g fill="#2e7d32" opacity="0.3">
+    <circle cx="400" cy="100" r="15"/>
+    <circle cx="400" cy="140" r="15"/>
+    </g>
+    <text x="400" y="170" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#2e7d32" opacity="0.6">8</text>
+  
+    <!-- Kanji character 八 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#2e7d32" opacity="0.8">八</text>
+    </g>
+  </g>
+</svg> 

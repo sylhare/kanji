@@ -1,0 +1,182 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="headGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFDAB9"/>
+      <stop offset="50%" stop-color="#DEB887"/>
+      <stop offset="100%" stop-color="#CD853F"/>
+    </radialGradient>
+    <linearGradient id="neckGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFDAB9"/>
+      <stop offset="50%" stop-color="#DEB887"/>
+      <stop offset="100%" stop-color="#D2691E"/>
+    </linearGradient>
+    <radialGradient id="crownGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#DAA520"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#F0F8FF"/>
+  
+  <!-- Main human head and neck -->
+  <ellipse cx="200" cy="180" rx="50" ry="60" fill="url(#headGradient)" stroke="#CD853F" stroke-width="3"/>
+  
+  <!-- Neck -->
+  <rect x="185" y="240" width="30" height="40" fill="url(#neckGradient)" stroke="#D2691E" stroke-width="2"/>
+  
+  <!-- Face features -->
+  <circle cx="185" cy="165" r="8" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <circle cx="215" cy="165" r="8" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <circle cx="185" cy="165" r="4" fill="#4169E1"/>
+  <circle cx="215" cy="165" r="4" fill="#4169E1"/>
+  <circle cx="187" cy="163" r="1.5" fill="#FFF"/>
+  <circle cx="217" cy="163" r="1.5" fill="#FFF"/>
+  
+  <!-- Nose -->
+  <ellipse cx="200" cy="180" rx="3" ry="8" fill="#DEB887" stroke="#CD853F" stroke-width="1"/>
+  
+  <!-- Mouth -->
+  <path d="M190 195 Q200 205 210 195" stroke="#DC143C" stroke-width="3" fill="none"/>
+  
+  <!-- Eyebrows -->
+  <path d="M175 155 Q185 150 195 155" stroke="#8B4513" stroke-width="3" fill="none"/>
+  <path d="M205 155 Q215 150 225 155" stroke="#8B4513" stroke-width="3" fill="none"/>
+  
+  <!-- Hair -->
+  <path d="M160 140 Q180 120 200 130 Q220 120 240 140 Q230 110 200 110 Q170 110 160 140" 
+    fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Chief's crown -->
+  <path d="M170 130 Q180 115 200 120 Q220 115 230 130 L225 140 L205 135 L200 145 L195 135 L175 140 Z" 
+    fill="url(#crownGradient)" stroke="#B8860B" stroke-width="2"/>
+  
+  <!-- Crown jewels -->
+  <circle cx="185" cy="125" r="3" fill="#DC143C"/>
+  <circle cx="200" cy="120" r="4" fill="#4169E1"/>
+  <circle cx="215" cy="125" r="3" fill="#32CD32"/>
+  
+  <!-- Anatomical diagram heads -->
+  <!-- Profile view -->
+  <ellipse cx="80" cy="150" rx="25" ry="30" fill="url(#headGradient)" stroke="#CD853F" stroke-width="2"/>
+  <rect x="70" y="180" width="20" height="25" fill="url(#neckGradient)" stroke="#D2691E" stroke-width="1"/>
+  
+  <!-- Profile features -->
+  <circle cx="75" cy="145" r="3" fill="#000"/>
+  <path d="M65 150 L60 148 L65 155" fill="#DEB887" stroke="#CD853F" stroke-width="1"/>
+  <path d="M70 165 Q75 170 80 165" stroke="#DC143C" stroke-width="2" fill="none"/>
+  
+  <!-- Side view showing neck muscles -->
+  <path d="M72 185 Q78 190 85 185" stroke="#CD853F" stroke-width="1" fill="none"/>
+  <path d="M74 195 Q80 200 86 195" stroke="#CD853F" stroke-width="1" fill="none"/>
+  
+  <!-- Neck with collar -->
+  <ellipse cx="320" cy="200" rx="25" ry="35" fill="url(#headGradient)" stroke="#CD853F" stroke-width="2"/>
+  <rect x="308" y="235" width="24" height="30" fill="url(#neckGradient)" stroke="#D2691E" stroke-width="1"/>
+  
+  <!-- Shirt collar -->
+  <path d="M300 255 Q320 245 340 255 L335 270 L325 265 L315 265 L305 270 Z" 
+    fill="#4169E1" stroke="#191970" stroke-width="2"/>
+  
+  <!-- Tie -->
+  <rect x="317" y="265" width="6" height="25" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+  <path d="M317 290 L320 295 L323 290" fill="#DC143C"/>
+  
+  <!-- Giraffe (long neck) -->
+  <ellipse cx="100" cy="300" rx="15" ry="20" fill="#DEB887" stroke="#CD853F" stroke-width="2"/>
+  <rect x="93" y="320" width="14" height="60" fill="url(#neckGradient)" stroke="#D2691E" stroke-width="2"/>
+  
+  <!-- Giraffe spots -->
+  <g fill="#8B4513">
+  <ellipse cx="95" cy="295" rx="3" ry="4"/>
+  <ellipse cx="105" cy="305" rx="3" ry="4"/>
+  <ellipse cx="96" cy="330" rx="2" ry="3"/>
+  <ellipse cx="104" cy="340" rx="2" ry="3"/>
+  <ellipse cx="98" cy="350" rx="2" ry="3"/>
+  <ellipse cx="102" cy="360" rx="2" ry="3"/>
+  
+  <!-- Swan (elegant neck) -->
+  <ellipse cx="300" cy="320" rx="12" ry="16" fill="#FFF" stroke="#D3D3D3" stroke-width="2"/>
+  <path d="M300 304 Q290 280 285 260 Q288 240 295 235" stroke="#FFF" stroke-width="8" fill="none"/>
+  
+  <!-- Swan head -->
+  <ellipse cx="295" cy="235" rx="8" ry="10" fill="#FFF" stroke="#D3D3D3" stroke-width="1"/>
+  <path d="M287 235 L280 233 L285 240" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+  <circle cx="292" cy="232" r="1.5" fill="#000"/>
+  
+  <!-- Leader figure with raised head -->
+  <ellipse cx="50" cy="50" rx="20" ry="25" fill="url(#headGradient)" stroke="#CD853F" stroke-width="2"/>
+  <rect x="43" y="75" width="14" height="20" fill="url(#neckGradient)" stroke="#D2691E" stroke-width="1"/>
+  
+  <!-- Leader's cap -->
+  <ellipse cx="50" cy="35" rx="22" ry="8" fill="#4B0082" stroke="#2E0854" stroke-width="2"/>
+  <rect x="28" y="30" width="44" height="10" fill="#4B0082"/>
+  
+  <!-- Cap insignia -->
+  <circle cx="50" cy="35" r="4" fill="#FFD700"/>
+  <text x="50" y="38" text-anchor="middle" font-family="serif" font-size="6" fill="#4B0082">★</text>
+  
+  <!-- CEO/Business leader -->
+  <ellipse cx="350" cy="80" rx="20" ry="25" fill="url(#headGradient)" stroke="#CD853F" stroke-width="2"/>
+  <rect x="343" y="105" width="14" height="20" fill="url(#neckGradient)" stroke="#D2691E" stroke-width="1"/>
+  
+  <!-- Business suit collar -->
+  <path d="M335 115 Q350 110 365 115 L360 125 L355 122 L345 122 L340 125 Z" 
+      fill="#2F2F2F" stroke="#000" stroke-width="1"/>
+  
+  <!-- Business tie -->
+  <rect x="347" y="122" width="6" height="20" fill="#8B0000" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Glasses -->
+  <circle cx="345" cy="75" r="6" fill="none" stroke="#000" stroke-width="1"/>
+  <circle cx="355" cy="75" r="6" fill="none" stroke="#000" stroke-width="1"/>
+  <path d="M351 75 L349 75" stroke="#000" stroke-width="1"/>
+  
+  <!-- Neck anatomy diagram -->
+  <g stroke="#DC143C" stroke-width="2" fill="none">
+  <!-- Vertebrae -->
+  <circle cx="200" cy="250" r="3"/>
+  <circle cx="200" cy="260" r="3"/>
+  <circle cx="200" cy="270" r="3"/>
+  
+  <!-- Muscle lines -->
+  <path d="M185 245 Q195 250 185 255"/>
+  <path d="M215 245 Q205 250 215 255"/>
+  <path d="M185 255 Q195 260 185 265"/>
+  <path d="M215 255 Q205 260 215 265"/>
+  
+    <!-- Necklace on neck -->
+    <ellipse cx="200" cy="285" rx="40" ry="15" fill="none" stroke="#DAA520" stroke-width="4"/>
+    <circle cx="200" cy="270" r="6" fill="#4169E1" stroke="#191970" stroke-width="2"/>
+  
+    <!-- Scarf around neck -->
+    <path d="M150 350 Q200 340 250 350 Q250 360 240 365 Q200 355 160 365 Q150 360 150 350" 
+        fill="#FF69B4" stroke="#DC143C" stroke-width="2"/>
+  
+    <!-- Scarf pattern -->
+    <g fill="#FFF">
+    <circle cx="170" cy="355" r="2"/>
+    <circle cx="190" cy="350" r="2"/>
+    <circle cx="210" cy="350" r="2"/>
+    <circle cx="230" cy="355" r="2"/>
+    </g>
+  
+    <!-- Neck stretching exercise -->
+    <ellipse cx="120" cy="200" rx="15" ry="20" fill="url(#headGradient)" stroke="#CD853F" stroke-width="2"/>
+    <rect x="113" y="220" width="14" height="25" fill="url(#neckGradient)" stroke="#D2691E" stroke-width="1" transform="rotate(15 120 232.5)"/>
+  
+    <!-- Arrow showing movement -->
+    <path d="M135 190 L155 185" stroke="#32CD32" stroke-width="3" marker-end="url(#arrowGreen)"/>
+  <defs>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#32CD32"/>
+    </marker>
+  </defs>
+  
+    <!-- Chinese character -->
+    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#4B0082">首</text>
+  
+    <!-- Title -->
+    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2F4F4F">HEAD, NECK &amp; CHIEF</text>
+    </g>
+  </g>
+</svg> 

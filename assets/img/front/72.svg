@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <!-- Background gradient -->
+  <defs>
+    <radialGradient id="skyGrad72" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffcc02;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ff6f00;stop-opacity:0.1" />
+    </radialGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffff8d;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffeb3b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6f00;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="rayGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffeb3b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ff6f00;stop-opacity:0.4" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky Background -->
+  <rect width="500" height="500" fill="url(#skyGrad72)"/>
+  
+  <!-- Sun rays -->
+  <g transform="translate(250,250)">
+  <rect x="-3" y="-120" width="6" height="40" fill="url(#rayGrad)" transform="rotate(0)"/>
+  <rect x="-3" y="-120" width="6" height="40" fill="url(#rayGrad)" transform="rotate(45)"/>
+  <rect x="-3" y="-120" width="6" height="40" fill="url(#rayGrad)" transform="rotate(90)"/>
+  <rect x="-3" y="-120" width="6" height="40" fill="url(#rayGrad)" transform="rotate(135)"/>
+  <rect x="-3" y="-120" width="6" height="40" fill="url(#rayGrad)" transform="rotate(180)"/>
+  <rect x="-3" y="-120" width="6" height="40" fill="url(#rayGrad)" transform="rotate(225)"/>
+  <rect x="-3" y="-120" width="6" height="40" fill="url(#rayGrad)" transform="rotate(270)"/>
+  <rect x="-3" y="-120" width="6" height="40" fill="url(#rayGrad)" transform="rotate(315)"/>
+  
+  <!-- Main sun body (square like 日) -->
+  <rect x="175" y="175" width="150" height="150" rx="20" fill="url(#sunGrad)" stroke="#ff6f00" stroke-width="4"/>
+  
+  <!-- Inner lines like in 日 kanji -->
+  <rect x="190" y="195" width="120" height="4" fill="#ff8f00"/>
+  <rect x="190" y="280" width="120" height="4" fill="#ff8f00"/>
+  <rect x="248" y="195" width="4" height="110" fill="#ff8f00"/>
+  
+  <!-- Sparkles -->
+  <g fill="#fff176" opacity="0.8">
+  <path d="M100 100 L110 90 L120 100 L110 110 Z"/>
+  <path d="M400 120 L410 110 L420 120 L410 130 Z"/>
+  <path d="M380 350 L390 340 L400 350 L390 360 Z"/>
+  <path d="M80 380 L90 370 L100 380 L90 390 Z"/>
+  
+    <!-- Clock elements for "time" meaning -->
+    <g transform="translate(400,400)" opacity="0.6">
+    <circle cx="0" cy="0" r="30" fill="#fff" stroke="#ff6f00" stroke-width="3"/>
+    <path d="M0 -20 L0 0 L15 10" stroke="#ff6f00" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </g>
+  
+    <!-- Kanji character 日 -->
+    <text x="100" y="120" font-family="serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#ff6f00" opacity="0.7">日</text>
+    </g>
+  </g>
+</svg> 

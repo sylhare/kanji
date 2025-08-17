@@ -1,0 +1,150 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="chainGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#C0C0C0"/>
+      <stop offset="50%" stop-color="#A9A9A9"/>
+      <stop offset="100%" stop-color="#696969"/>
+    </radialGradient>
+    <linearGradient id="personGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFDAB9"/>
+      <stop offset="100%" stop-color="#DEB887"/>
+    </linearGradient>
+    <radialGradient id="netGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="50%" stop-color="#CD853F"/>
+      <stop offset="100%" stop-color="#DEB887"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#F5F5DC"/>
+  
+  <!-- Chains -->
+  <!-- Main chain -->
+  <ellipse cx="150" cy="100" rx="12" ry="6" fill="none" stroke="url(#chainGradient)" stroke-width="4"/>
+  <ellipse cx="150" cy="110" rx="6" ry="12" fill="none" stroke="url(#chainGradient)" stroke-width="4"/>
+  <ellipse cx="150" cy="120" rx="12" ry="6" fill="none" stroke="url(#chainGradient)" stroke-width="4"/>
+  <ellipse cx="150" cy="130" rx="6" ry="12" fill="none" stroke="url(#chainGradient)" stroke-width="4"/>
+  <ellipse cx="150" cy="140" rx="12" ry="6" fill="none" stroke="url(#chainGradient)" stroke-width="4"/>
+  <ellipse cx="150" cy="150" rx="6" ry="12" fill="none" stroke="url(#chainGradient)" stroke-width="4"/>
+  <ellipse cx="150" cy="160" rx="12" ry="6" fill="none" stroke="url(#chainGradient)" stroke-width="4"/>
+  
+  <!-- Shackles on wrists -->
+  <circle cx="120" cy="200" r="15" fill="none" stroke="url(#chainGradient)" stroke-width="6"/>
+  <circle cx="180" cy="200" r="15" fill="none" stroke="url(#chainGradient)" stroke-width="6"/>
+  
+  <!-- Shackles on ankles -->
+  <circle cx="130" cy="320" r="12" fill="none" stroke="url(#chainGradient)" stroke-width="5"/>
+  <circle cx="170" cy="320" r="12" fill="none" stroke="url(#chainGradient)" stroke-width="5"/>
+  
+  <!-- Person (servant/captured) -->
+  <!-- Head -->
+  <circle cx="150" cy="120" r="20" fill="url(#personGradient)" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Sad/worried face -->
+  <circle cx="142" cy="115" r="2" fill="#000"/>
+  <circle cx="158" cy="115" r="2" fill="#000"/>
+  <path d="M142 130 Q150 125 158 130" stroke="#8B0000" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <ellipse cx="150" cy="180" rx="25" ry="40" fill="url(#personGradient)" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Arms (chained) -->
+  <ellipse cx="120" cy="170" rx="8" ry="25" fill="url(#personGradient)" stroke="#8B4513" stroke-width="1"/>
+  <ellipse cx="180" cy="170" rx="8" ry="25" fill="url(#personGradient)" stroke="#8B4513" stroke-width="1"/>
+  
+  <!-- Legs -->
+  <ellipse cx="130" cy="250" rx="10" ry="35" fill="url(#personGradient)" stroke="#8B4513" stroke-width="1"/>
+  <ellipse cx="170" cy="250" rx="10" ry="35" fill="url(#personGradient)" stroke="#8B4513" stroke-width="1"/>
+  
+  <!-- Chains connecting shackles -->
+  <path d="M135 200 L165 200" stroke="url(#chainGradient)" stroke-width="4"/>
+  <path d="M142 320 L158 320" stroke="url(#chainGradient)" stroke-width="4"/>
+  
+  <!-- Capture net -->
+  <path d="M250 120 Q280 100 310 120 Q330 150 310 180 Q280 200 250 180 Q230 150 250 120" 
+    fill="none" stroke="url(#netGradient)" stroke-width="3"/>
+  
+  <!-- Net pattern -->
+  <path d="M250 130 L310 130 M250 140 L310 140 M250 150 L310 150 M250 160 L310 160 M250 170 L310 170" 
+    stroke="url(#netGradient)" stroke-width="1"/>
+  <path d="M260 120 L260 180 M270 120 L270 180 M280 120 L280 180 M290 120 L290 180 M300 120 L300 180" 
+    stroke="url(#netGradient)" stroke-width="1"/>
+  
+  <!-- Small captured bird in net -->
+  <ellipse cx="280" cy="150" rx="8" ry="6" fill="#8B4513"/>
+  <circle cx="280" cy="145" r="4" fill="#CD853F"/>
+  <circle cx="278" cy="144" r="1" fill="#000"/>
+  
+  <!-- Hunter/captor -->
+  <circle cx="320" cy="200" r="18" fill="url(#personGradient)" stroke="#8B4513" stroke-width="2"/>
+  <ellipse cx="320" cy="250" rx="20" ry="35" fill="#4169E1" stroke="#191970" stroke-width="2"/>
+  <!-- Arms holding rope -->
+  <ellipse cx="295" cy="230" rx="8" ry="20" fill="url(#personGradient)" stroke="#8B4513" stroke-width="1"/>
+  <ellipse cx="345" cy="230" rx="8" ry="20" fill="url(#personGradient)" stroke="#8B4513" stroke-width="1"/>
+  <!-- Legs -->
+  <ellipse cx="310" cy="300" rx="8" ry="25" fill="url(#personGradient)" stroke="#8B4513" stroke-width="1"/>
+  <ellipse cx="330" cy="300" rx="8" ry="25" fill="url(#personGradient)" stroke="#8B4513" stroke-width="1"/>
+  
+  <!-- Rope/lasso -->
+  <path d="M295 220 Q270 200 250 220 Q230 240 250 260 Q270 280 295 260" 
+    stroke="#8B4513" stroke-width="4" fill="none"/>
+  
+  <!-- Servant carrying items -->
+  <circle cx="80" cy="300" r="15" fill="url(#personGradient)" stroke="#8B4513" stroke-width="2"/>
+  <ellipse cx="80" cy="340" rx="18" ry="30" fill="#9370DB" stroke="#4B0082" stroke-width="2"/>
+  <!-- Bent posture (serving) -->
+  <ellipse cx="60" cy="320" rx="6" ry="20" fill="url(#personGradient)" stroke="#8B4513" stroke-width="1" transform="rotate(-20 60 320)"/>
+  <ellipse cx="100" cy="320" rx="6" ry="20" fill="url(#personGradient)" stroke="#8B4513" stroke-width="1" transform="rotate(20 100 320)"/>
+  <!-- Carrying tray -->
+  <ellipse cx="50" cy="310" rx="20" ry="6" fill="#FFD700" stroke="#B8860B" stroke-width="2"/>
+  <!-- Items on tray -->
+  <circle cx="45" cy="305" r="3" fill="#FF6347"/>
+  <circle cx="55" cy="305" r="3" fill="#32CD32"/>
+  
+  <!-- Prison bars -->
+  <rect x="360" y="150" width="6" height="100" fill="#696969"/>
+  <rect x="375" y="150" width="6" height="100" fill="#696969"/>
+  <rect x="390" y="150" width="6" height="100" fill="#696969"/>
+  <rect x="355" y="155" width="45" height="4" fill="#696969"/>
+  <rect x="355" y="245" width="45" height="4" fill="#696969"/>
+  
+  <!-- Prisoner behind bars -->
+  <circle cx="377" cy="180" r="8" fill="url(#personGradient)"/>
+  <ellipse cx="377" cy="210" rx="12" ry="20" fill="#FF6347"/>
+  <circle cx="375" cy="178" r="1" fill="#000"/>
+  <circle cx="379" cy="178" r="1" fill="#000"/>
+  <path d="M374 185 Q377 183 380 185" stroke="#8B0000" stroke-width="1" fill="none"/>
+  
+  <!-- Ball and chain -->
+  <circle cx="170" cy="350" r="15" fill="#2F2F2F" stroke="#000" stroke-width="2"/>
+  <path d="M170 335 L170 320" stroke="url(#chainGradient)" stroke-width="3"/>
+  
+  <!-- Collar -->
+  <ellipse cx="150" cy="140" rx="25" ry="8" fill="none" stroke="url(#chainGradient)" stroke-width="3"/>
+  
+  <!-- Master/owner figure -->
+  <circle cx="300" cy="350" r="20" fill="url(#personGradient)" stroke="#8B4513" stroke-width="2"/>
+  <ellipse cx="300" cy="390" rx="25" ry="40" fill="#DC143C" stroke="#8B0000" stroke-width="2"/>
+  <!-- Crown indicating authority -->
+  <path d="M285 340 Q295 330 300 340 Q305 330 315 340 L310 355 L290 355 Z" 
+    fill="#FFD700" stroke="#B8860B" stroke-width="2"/>
+  <circle cx="295" cy="335" r="2" fill="#FF0000"/>
+  <circle cx="300" cy="330" r="3" fill="#4169E1"/>
+  <circle cx="305" cy="335" r="2" fill="#32CD32"/>
+  
+  <!-- Pointing gesture -->
+  <ellipse cx="270" cy="370" rx="6" ry="15" fill="url(#personGradient)" stroke="#8B4513" stroke-width="1" transform="rotate(-30 270 370)"/>
+  
+  <!-- Whip -->
+  <path d="M270 360 Q250 340 230 360 Q210 380 190 360" 
+    stroke="#8B4513" stroke-width="3" fill="none"/>
+  
+  <!-- Chinese character for capture/servant -->
+  <text x="200" y="50" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#8B0000" opacity="0.7">隶</text>
+  
+  <!-- Sad expressions/tears -->
+  <ellipse cx="140" cy="125" rx="1" ry="4" fill="#87CEEB"/>
+  <ellipse cx="160" cy="125" rx="1" ry="4" fill="#87CEEB"/>
+  
+  <!-- Ground -->
+  <ellipse cx="200" cy="390" rx="180" ry="15" fill="#DEB887" opacity="0.6"/>
+</svg> 

@@ -1,0 +1,186 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="speakerGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#2F2F2F"/>
+      <stop offset="50%" stop-color="#000"/>
+      <stop offset="100%" stop-color="#696969"/>
+    </radialGradient>
+    <linearGradient id="soundWaveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4169E1"/>
+      <stop offset="25%" stop-color="#32CD32"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="75%" stop-color="#FF6347"/>
+      <stop offset="100%" stop-color="#9370DB"/>
+    </linearGradient>
+    <radialGradient id="drumGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#DEB887"/>
+      <stop offset="50%" stop-color="#D2691E"/>
+      <stop offset="100%" stop-color="#8B4513"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#F0F8FF"/>
+  
+  <!-- Large speaker -->
+  <rect x="80" y="150" width="80" height="120" rx="10" fill="url(#speakerGradient)" stroke="#000" stroke-width="3"/>
+  
+  <!-- Speaker cone -->
+  <circle cx="120" cy="180" r="25" fill="#2F2F2F" stroke="#696969" stroke-width="2"/>
+  <circle cx="120" cy="180" r="15" fill="#000"/>
+  <circle cx="120" cy="180" r="5" fill="#C0C0C0"/>
+  
+  <!-- Woofer -->
+  <circle cx="120" cy="230" r="30" fill="#2F2F2F" stroke="#696969" stroke-width="2"/>
+  <circle cx="120" cy="230" r="20" fill="#000"/>
+  <circle cx="120" cy="230" r="8" fill="#C0C0C0"/>
+  
+  <!-- Sound waves emanating from speaker -->
+  <g stroke="url(#soundWaveGradient)" stroke-width="3" fill="none" opacity="0.8">
+  <path d="M170 180 Q180 170 190 180 Q180 190 170 180"/>
+  <path d="M185 180 Q200 165 215 180 Q200 195 185 180"/>
+  <path d="M200 180 Q220 160 240 180 Q220 200 200 180"/>
+  <path d="M215 180 Q240 155 265 180 Q240 205 215 180"/>
+  <path d="M230 180 Q260 150 290 180 Q260 210 230 180"/>
+  
+  <path d="M170 230 Q180 220 190 230 Q180 240 170 230"/>
+  <path d="M185 230 Q200 215 215 230 Q200 245 185 230"/>
+  <path d="M200 230 Q220 210 240 230 Q220 250 200 230"/>
+  <path d="M215 230 Q240 205 265 230 Q240 255 215 230"/>
+  <path d="M230 230 Q260 200 290 230 Q260 260 230 230"/>
+  
+  <!-- Piano keyboard -->
+  <rect x="50" y="320" width="300" height="60" fill="#FFF" stroke="#000" stroke-width="2"/>
+  
+  <!-- White keys -->
+  <rect x="55" y="325" width="20" height="50" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <rect x="80" y="325" width="20" height="50" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <rect x="105" y="325" width="20" height="50" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <rect x="130" y="325" width="20" height="50" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <rect x="155" y="325" width="20" height="50" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <rect x="180" y="325" width="20" height="50" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <rect x="205" y="325" width="20" height="50" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <rect x="230" y="325" width="20" height="50" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <rect x="255" y="325" width="20" height="50" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <rect x="280" y="325" width="20" height="50" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <rect x="305" y="325" width="20" height="50" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <rect x="330" y="325" width="15" height="50" fill="#FFF" stroke="#000" stroke-width="1"/>
+  
+  <!-- Black keys -->
+  <rect x="68" y="325" width="12" height="30" fill="#000"/>
+  <rect x="93" y="325" width="12" height="30" fill="#000"/>
+  <rect x="143" y="325" width="12" height="30" fill="#000"/>
+  <rect x="168" y="325" width="12" height="30" fill="#000"/>
+  <rect x="193" y="325" width="12" height="30" fill="#000"/>
+  <rect x="243" y="325" width="12" height="30" fill="#000"/>
+  <rect x="268" y="325" width="12" height="30" fill="#000"/>
+  <rect x="318" y="325" width="12" height="30" fill="#000"/>
+  
+  <!-- Drum set -->
+  <!-- Bass drum -->
+  <ellipse cx="300" cy="280" rx="40" ry="25" fill="url(#drumGradient)" stroke="#654321" stroke-width="3"/>
+  <circle cx="300" cy="280" r="15" fill="#F5DEB3" stroke="#D2691E" stroke-width="2"/>
+  
+  <!-- Snare drum -->
+  <ellipse cx="350" cy="250" rx="20" ry="12" fill="url(#drumGradient)" stroke="#654321" stroke-width="2"/>
+  <circle cx="350" cy="250" r="8" fill="#F5DEB3" stroke="#D2691E" stroke-width="1"/>
+  
+  <!-- Tom-tom -->
+  <ellipse cx="250" cy="240" rx="18" ry="10" fill="url(#drumGradient)" stroke="#654321" stroke-width="2"/>
+  <circle cx="250" cy="240" r="7" fill="#F5DEB3" stroke="#D2691E" stroke-width="1"/>
+  
+  <!-- Drum sticks -->
+  <rect x="340" y="220" width="3" height="25" fill="#DEB887" stroke="#8B4513" stroke-width="1" transform="rotate(-15 340 220)"/>
+  <rect x="360" y="225" width="3" height="25" fill="#DEB887" stroke="#8B4513" stroke-width="1" transform="rotate(15 360 225)"/>
+  
+  <!-- Guitar -->
+  <ellipse cx="50" cy="100" rx="25" ry="40" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <rect x="47" y="60" width="6" height="80" fill="#654321"/>
+  
+  <!-- Guitar strings -->
+  <path d="M47 80 L53 80" stroke="#C0C0C0" stroke-width="1"/>
+  <path d="M47 90 L53 90" stroke="#C0C0C0" stroke-width="1"/>
+  <path d="M47 100 L53 100" stroke="#C0C0C0" stroke-width="1"/>
+  <path d="M47 110 L53 110" stroke="#C0C0C0" stroke-width="1"/>
+  <path d="M47 120 L53 120" stroke="#C0C0C0" stroke-width="1"/>
+  <path d="M47 130 L53 130" stroke="#C0C0C0" stroke-width="1"/>
+  
+  <!-- Guitar head -->
+  <rect x="45" y="55" width="10" height="15" rx="5" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Microphone -->
+  <ellipse cx="350" cy="120" rx="8" ry="15" fill="url(#speakerGradient)" stroke="#000" stroke-width="2"/>
+  <rect x="347" y="135" width="6" height="40" fill="#C0C0C0" stroke="#A9A9A9" stroke-width="1"/>
+  <circle cx="350" cy="180" r="8" fill="#2F2F2F"/>
+  
+  <!-- Sound waves from microphone -->
+  <g stroke="#32CD32" stroke-width="2" fill="none" opacity="0.6">
+  <path d="M320 120 Q310 115 300 120"/>
+  <path d="M315 130 Q305 125 295 130"/>
+  <path d="M310 140 Q300 135 290 140"/>
+  
+    <!-- Violin -->
+    <path d="M150 50 Q160 40 170 50 Q175 60 170 80 Q175 100 170 110 Q160 120 150 110 Q145 100 150 80 Q145 60 150 50" 
+        fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  
+    <!-- Violin f-holes -->
+    <path d="M155 70 Q157 75 155 80 Q157 85 155 90" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M165 70 Q167 75 165 80 Q167 85 165 90" stroke="#000" stroke-width="2" fill="none"/>
+  
+    <!-- Violin bow -->
+    <path d="M180 60 L210 90" stroke="#DEB887" stroke-width="2"/>
+    <path d="M180 60 Q185 58 190 60" stroke="#FFF" stroke-width="1"/>
+  
+    <!-- Music notes floating in air -->
+    <g fill="#4169E1">
+    <ellipse cx="200" cy="80" rx="6" ry="8" transform="rotate(-15 200 80)"/>
+    <rect x="206" y="75" width="2" height="15"/>
+    <path d="M208 75 Q215 70 218 75" fill="#4169E1"/>
+    
+    <circle cx="270" cy="60" r="4"/>
+    <rect x="274" y="55" width="1.5" height="12"/>
+    
+    <ellipse cx="320" cy="70" rx="5" ry="7" transform="rotate(20 320 70)"/>
+    <rect x="325" y="67" width="1.5" height="10"/>
+    </g>
+  
+    <!-- Waveform visualization -->
+    <rect x="50" y="20" width="300" height="30" fill="#000" stroke="#696969" stroke-width="1"/>
+    <g stroke="#00FF00" stroke-width="1" fill="none">
+    <path d="M55 35 L65 25 L75 45 L85 20 L95 50 L105 30 L115 40 L125 25 L135 45 L145 30 L155 35 L165 25 L175 45 L185 20 L195 50 L205 30 L215 40 L225 25 L235 45 L245 30 L255 35 L265 25 L275 45 L285 20 L295 50 L305 30 L315 40 L325 25 L335 45 L345 30"/>
+    </g>
+  
+    <!-- Volume control -->
+    <circle cx="380" cy="350" r="15" fill="#2F2F2F" stroke="#000" stroke-width="2"/>
+    <path d="M370 350 L390 350" stroke="#696969" stroke-width="2"/>
+    <path d="M380 340 L380 360" stroke="#696969" stroke-width="2"/>
+    <circle cx="380" cy="350" r="3" fill="#00FF00"/>
+  
+    <!-- Sound level indicators -->
+    <rect x="20" y="340" width="8" height="10" fill="#00FF00"/>
+    <rect x="20" y="325" width="8" height="10" fill="#00FF00"/>
+    <rect x="20" y="310" width="8" height="10" fill="#FFFF00"/>
+    <rect x="20" y="295" width="8" height="10" fill="#FFFF00"/>
+    <rect x="20" y="280" width="8" height="10" fill="#FF6347"/>
+    <rect x="20" y="265" width="8" height="10" fill="#FF0000"/>
+  
+    <!-- Tuning fork -->
+    <rect x="250" y="100" width="3" height="50" fill="#C0C0C0"/>
+    <rect x="245" y="95" width="6" height="3" fill="#C0C0C0"/>
+    <rect x="243" y="80" width="2" height="15" fill="#C0C0C0"/>
+    <rect x="255" y="80" width="2" height="15" fill="#C0C0C0"/>
+  
+    <!-- Vibration lines from tuning fork -->
+    <g stroke="#FFD700" stroke-width="1" opacity="0.6">
+    <path d="M241 85 Q235 80 230 85"/>
+    <path d="M259 85 Q265 80 270 85"/>
+    <path d="M241 90 Q235 85 230 90"/>
+    <path d="M259 90 Q265 85 270 90"/>
+    </g>
+  
+    <!-- Chinese character -->
+    <text x="200" y="20" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#4B0082">音</text>
+  
+    <!-- Title -->
+    <text x="200" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2F4F4F">SOUND &amp; MUSIC</text>
+    </g>
+  </g>
+</svg> 

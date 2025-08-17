@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad61" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4ec;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8bbd9;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="heartGrad61" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" style="stop-color:#f8bbd9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e91e63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ad1457;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="loveGlow61" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#f48fb1;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#f48fb1;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="mindGrad61" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec407a;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#c2185b;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad61)"/>
+  
+  <!-- Love/emotion aura -->
+  <ellipse cx="250" cy="250" rx="180" ry="150" fill="url(#loveGlow61)"/>
+  
+  <!-- Main heart representing 心 -->
+  <!-- Left heart lobe -->
+  <circle cx="210" cy="180" r="50" fill="url(#heartGrad61)" stroke="#880e4f" stroke-width="3"/>
+  
+  <!-- Right heart lobe -->
+  <circle cx="290" cy="180" r="50" fill="url(#heartGrad61)" stroke="#880e4f" stroke-width="3"/>
+  
+  <!-- Heart point -->
+  <path d="M160 180 Q250 320 340 180 Q290 140 250 200 Q210 140 160 180" 
+    fill="url(#heartGrad61)" stroke="#880e4f" stroke-width="3"/>
+  
+  <!-- Heart beat lines -->
+  <g stroke="#c2185b" stroke-width="4" fill="none" opacity="0.7">
+  <path d="M100 150 L120 150 L130 120 L140 180 L150 100 L160 200 L170 150 L190 150"/>
+  <path d="M310 150 L330 150 L340 120 L350 180 L360 100 L370 200 L380 150 L400 150"/>
+  
+  <!-- Pulse emanation -->
+  <g stroke="#e91e63" stroke-width="2" fill="none" opacity="0.5">
+  <circle cx="250" cy="220" r="80"/>
+  <circle cx="250" cy="220" r="100"/>
+  <circle cx="250" cy="220" r="120"/>
+  <circle cx="250" cy="220" r="140"/>
+  
+    <!-- Mind/consciousness rays -->
+    <g stroke="#f06292" stroke-width="2" opacity="0.6">
+    <line x1="250" y1="150" x2="250" y2="80"/>
+    <line x1="220" y1="160" x2="180" y2="120"/>
+    <line x1="280" y1="160" x2="320" y2="120"/>
+    <line x1="200" y1="200" x2="150" y2="180"/>
+    <line x1="300" y1="200" x2="350" y2="180"/>
+    </g>
+  
+    <!-- Thought bubbles -->
+    <g fill="#f48fb1" opacity="0.7">
+    <circle cx="200" cy="100" r="12"/>
+    <circle cx="190" cy="85" r="8"/>
+    <circle cx="185" cy="70" r="5"/>
+    
+    <circle cx="300" cy="100" r="12"/>
+    <circle cx="310" cy="85" r="8"/>
+    <circle cx="315" cy="70" r="5"/>
+    
+    <circle cx="250" cy="60" r="15"/>
+    </g>
+  
+    <!-- Emotion sparkles -->
+    <g fill="#e91e63" opacity="0.8">
+    <path d="M120 200 L130 190 L140 200 L130 210 Z"/>
+    <path d="M360 200 L370 190 L380 200 L370 210 Z"/>
+    <path d="M180 300 L190 290 L200 300 L190 310 Z"/>
+    <path d="M300 300 L310 290 L320 300 L310 310 Z"/>
+    </g>
+  
+    <!-- Heart rhythm pattern -->
+    <g fill="#c2185b" opacity="0.4">
+    <rect x="240" y="350" width="4" height="20"/>
+    <rect x="248" y="340" width="4" height="30"/>
+    <rect x="256" y="345" width="4" height="25"/>
+    <rect x="264" y="355" width="4" height="15"/>
+    </g>
+  
+    <!-- Inner heart details showing chambers -->
+    <g stroke="#ad1457" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M220 190 Q250 210 280 190"/>
+    <path d="M200 220 Q250 240 300 220"/>
+    <line x1="250" y1="160" x2="250" y2="280"/>
+    </g>
+  
+    <!-- Flowing energy -->
+    <g stroke="#f06292" stroke-width="1" fill="none" opacity="0.5">
+    <path d="M150 250 Q200 230 250 250 Q300 270 350 250"/>
+    <path d="M160 280 Q210 260 250 280 Q290 300 340 280"/>
+    <path d="M170 310 Q220 290 250 310 Q280 330 330 310"/>
+    </g>
+  
+    <!-- Love symbols floating -->
+    <g fill="#e91e63" opacity="0.6">
+    <g transform="translate(120,320)">
+      <path d="M-5,-5 Q0,-10 5,-5 Q10,0 0,10 Q-10,0 -5,-5"/>
+    </g>
+    <g transform="translate(380,280)">
+      <path d="M-3,-3 Q0,-6 3,-3 Q6,0 0,6 Q-6,0 -3,-3"/>
+    </g>
+    <g transform="translate(150,380)">
+      <path d="M-4,-4 Q0,-8 4,-4 Q8,0 0,8 Q-8,0 -4,-4"/>
+    </g>
+    </g>
+  
+    <!-- Emotional temperature -->
+    <g transform="translate(400,350)">
+    <rect x="-3" y="-20" width="6" height="30" rx="3" fill="#e91e63"/>
+    <circle cx="0" cy="0" r="6" fill="#e91e63"/>
+    <text x="0" y="-30" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#ad1457">♥</text>
+    </g>
+  
+    <!-- Memory/consciousness networks -->
+    <g stroke="#f48fb1" stroke-width="1" opacity="0.3">
+    <line x1="200" y1="100" x2="180" y2="120"/>
+    <line x1="200" y1="100" x2="220" y2="120"/>
+    <line x1="200" y1="100" x2="250" y2="60"/>
+    <line x1="300" y1="100" x2="280" y2="120"/>
+    <line x1="300" y1="100" x2="320" y2="120"/>
+    <line x1="300" y1="100" x2="250" y2="60"/>
+    </g>
+  
+    <!-- Kanji character 心 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#880e4f" opacity="0.8">心</text>
+    </g>
+  </g>
+</svg> 

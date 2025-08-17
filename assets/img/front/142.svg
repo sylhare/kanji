@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad142" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="beetleGrad142" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#388e3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e7d32;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad142)"/>
+  
+  <!-- Main beetle -->
+  <g transform="translate(250,300)">
+  <!-- Beetle body -->
+  <ellipse cx="0" cy="0" rx="40" ry="25" fill="url(#beetleGrad142)" stroke="#2e7d32" stroke-width="2"/>
+  
+  <!-- Beetle head -->
+  <ellipse cx="35" cy="0" rx="15" ry="12" fill="url(#beetleGrad142)"/>
+  
+  <!-- Beetle antennae -->
+  <path d="M45 -8 Q55 -15 50 -20" stroke="#2e7d32" stroke-width="2" fill="none"/>
+  <path d="M45 8 Q55 15 50 20" stroke="#2e7d32" stroke-width="2" fill="none"/>
+  
+  <!-- Beetle legs -->
+  <g stroke="#2e7d32" stroke-width="3" fill="none">
+  <!-- Left legs -->
+  <path d="M-20 -15 Q-30 -20 -35 -15"/>
+  <path d="M-10 -20 Q-15 -25 -20 -20"/>
+  <path d="M10 -20 Q5 -25 0 -20"/>
+  
+  <!-- Right legs -->
+  <path d="M-20 15 Q-30 20 -35 15"/>
+  <path d="M-10 20 Q-15 25 -20 20"/>
+  <path d="M10 20 Q5 25 0 20"/>
+  
+  <!-- Wing covers -->
+  <ellipse cx="-5" cy="-8" rx="25" ry="8" fill="#66bb6a" opacity="0.7"/>
+  <ellipse cx="-5" cy="8" rx="25" ry="8" fill="#66bb6a" opacity="0.7"/>
+  
+  <!-- Body segments -->
+  <g stroke="#2e7d32" stroke-width="1" opacity="0.6">
+    <line x1="-30" y1="0" x2="30" y2="0"/>
+    <line x1="-25" y1="-10" x2="25" y2="-10"/>
+    <line x1="-25" y1="10" x2="25" y2="10"/>
+    </g>
+  
+    <!-- Main radical shape 虫 (insect) -->
+    <!-- Vertical stroke -->
+    <path d="M250 150 L250 250" 
+        stroke="#2e7d32" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+    <!-- Top horizontal stroke -->
+    <path d="M220 170 L280 170" 
+        stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Middle horizontal stroke -->
+    <path d="M220 200 L280 200" 
+        stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Bottom horizontal stroke -->
+    <path d="M220 230 L280 230" 
+        stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Side dots -->
+    <circle cx="200" cy="180" r="5" fill="#2e7d32"/>
+    <circle cx="300" cy="180" r="5" fill="#2e7d32"/>
+    <circle cx="200" cy="220" r="5" fill="#2e7d32"/>
+    <circle cx="300" cy="220" r="5" fill="#2e7d32"/>
+  
+    <!-- Butterfly -->
+    <g transform="translate(120,200)" opacity="0.8">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="2" ry="20" fill="#8d4e00"/>
+    
+    <!-- Upper wings -->
+    <ellipse cx="-8" cy="-8" rx="12" ry="15" fill="#f44336" opacity="0.8"/>
+    <ellipse cx="8" cy="-8" rx="12" ry="15" fill="#ff9800" opacity="0.8"/>
+    
+    <!-- Lower wings -->
+    <ellipse cx="-6" cy="8" rx="8" ry="10" fill="#ffeb3b" opacity="0.8"/>
+    <ellipse cx="6" cy="8" rx="8" ry="10" fill="#4caf50" opacity="0.8"/>
+    
+    <!-- Wing patterns -->
+    <g fill="#ffffff" opacity="0.6">
+      <circle cx="-8" cy="-12" r="3"/>
+      <circle cx="8" cy="-12" r="3"/>
+      <circle cx="-6" cy="5" r="2"/>
+      <circle cx="6" cy="5" r="2"/>
+    </g>
+    
+    <!-- Antennae -->
+    <path d="M-2 -20 Q-5 -25 -3 -23" stroke="#8d4e00" stroke-width="1" fill="none"/>
+    <path d="M2 -20 Q5 -25 3 -23" stroke="#8d4e00" stroke-width="1" fill="none"/>
+    </g>
+  
+    <!-- Spider -->
+    <g transform="translate(380,180)" opacity="0.7">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="10" ry="6" fill="#424242"/>
+    
+    <!-- Abdomen -->
+    <ellipse cx="-8" cy="0" rx="6" ry="8" fill="#616161"/>
+    
+    <!-- Legs -->
+    <g stroke="#424242" stroke-width="2" fill="none">
+      <!-- Left legs -->
+      <path d="M-5 -5 Q-15 -10 -20 -5"/>
+      <path d="M-8 -3 Q-18 -5 -22 0"/>
+      <path d="M-8 3 Q-18 5 -22 0"/>
+      <path d="M-5 5 Q-15 10 -20 5"/>
+      
+      <!-- Right legs -->
+      <path d="M5 -5 Q15 -10 20 -5"/>
+      <path d="M8 -3 Q18 -5 22 0"/>
+      <path d="M8 3 Q18 5 22 0"/>
+      <path d="M5 5 Q15 10 20 5"/>
+    </g>
+    
+    <!-- Eyes -->
+    <g fill="#ff5722">
+      <circle cx="6" cy="-2" r="1"/>
+      <circle cx="8" cy="0" r="1"/>
+    </g>
+    </g>
+  
+    <!-- Ladybug -->
+    <g transform="translate(100,350)" opacity="0.8">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="12" ry="15" fill="#f44336"/>
+    
+    <!-- Head -->
+    <circle cx="8" cy="0" r="5" fill="#424242"/>
+    
+    <!-- Spots -->
+    <g fill="#424242">
+      <circle cx="-3" cy="-5" r="2"/>
+      <circle cx="3" cy="-8" r="2"/>
+      <circle cx="-5" cy="2" r="2"/>
+      <circle cx="2" cy="5" r="2"/>
+    </g>
+    
+    <!-- Wing division -->
+    <line x1="0" y1="-12" x2="0" y2="12" stroke="#8d4e00" stroke-width="1"/>
+    
+    <!-- Antennae -->
+    <path d="M10 -3 Q15 -8 13 -6" stroke="#424242" stroke-width="1" fill="none"/>
+    <path d="M10 3 Q15 8 13 6" stroke="#424242" stroke-width="1" fill="none"/>
+    </g>
+  
+    <!-- Dragonfly -->
+    <g transform="translate(400,350)" opacity="0.7">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="2" ry="25" fill="#2196f3"/>
+    
+    <!-- Wings -->
+    <ellipse cx="-6" cy="-8" rx="8" ry="15" fill="#e3f2fd" opacity="0.8"/>
+    <ellipse cx="6" cy="-8" rx="8" ry="15" fill="#e3f2fd" opacity="0.8"/>
+    <ellipse cx="-4" cy="8" rx="6" ry="12" fill="#e3f2fd" opacity="0.8"/>
+    <ellipse cx="4" cy="8" rx="6" ry="12" fill="#e3f2fd" opacity="0.8"/>
+    
+    <!-- Wing veins -->
+    <g stroke="#1976d2" stroke-width="0.5" opacity="0.6">
+      <line x1="-10" y1="-12" x2="-2" y2="-4"/>
+      <line x1="10" y1="-12" x2="2" y2="-4"/>
+      <line x1="-8" y1="4" x2="-2" y2="12"/>
+      <line x1="8" y1="4" x2="2" y2="12"/>
+    </g>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-20" r="4" fill="#1976d2"/>
+    
+    <!-- Large eyes -->
+    <circle cx="-2" cy="-22" r="2" fill="#424242"/>
+    <circle cx="2" cy="-22" r="2" fill="#424242"/>
+    </g>
+  
+    <!-- Ant -->
+    <g transform="translate(150,400)" opacity="0.8">
+    <!-- Body segments -->
+    <circle cx="0" cy="0" r="4" fill="#8d4e00"/>
+    <ellipse cx="8" cy="0" rx="5" ry="4" fill="#8d4e00"/>
+    <circle cx="15" cy="0" r="3" fill="#8d4e00"/>
+    
+    <!-- Legs -->
+    <g stroke="#8d4e00" stroke-width="1" fill="none">
+      <path d="M-2 3 L-5 8"/>
+      <path d="M2 3 L5 8"/>
+      <path d="M6 3 L3 8"/>
+      <path d="M10 3 L13 8"/>
+      <path d="M13 3 L10 8"/>
+      <path d="M17 3 L20 8"/>
+    </g>
+    
+    <!-- Antennae -->
+    <path d="M18 -2 Q22 -5 20 -3" stroke="#8d4e00" stroke-width="1" fill="none"/>
+    <path d="M18 2 Q22 5 20 3" stroke="#8d4e00" stroke-width="1" fill="none"/>
+    </g>
+  
+    <!-- Grasshopper -->
+    <g transform="translate(350,400)" opacity="0.7">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="15" ry="5" fill="#4caf50"/>
+    
+    <!-- Head -->
+    <circle cx="12" cy="0" r="4" fill="#66bb6a"/>
+    
+    <!-- Powerful hind legs -->
+    <path d="M-8 3 Q-15 15 -20 8" stroke="#4caf50" stroke-width="3" fill="none"/>
+    <path d="M-8 -3 Q-15 -15 -20 -8" stroke="#4caf50" stroke-width="3" fill="none"/>
+    
+    <!-- Regular legs -->
+    <g stroke="#4caf50" stroke-width="2" fill="none">
+      <path d="M0 3 L-3 8"/>
+      <path d="M0 -3 L-3 -8"/>
+      <path d="M8 3 L5 8"/>
+      <path d="M8 -3 L5 -8"/>
+    </g>
+    
+    <!-- Wings -->
+    <ellipse cx="-3" cy="0" rx="8" ry="3" fill="#81c784" opacity="0.6"/>
+    
+    <!-- Antennae -->
+    <path d="M14 -2 Q18 -6 16 -4" stroke="#4caf50" stroke-width="1" fill="none"/>
+    <path d="M14 2 Q18 6 16 4" stroke="#4caf50" stroke-width="1" fill="none"/>
+    </g>
+  
+    <!-- Bee -->
+    <g transform="translate(80,280)" opacity="0.8">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="8" ry="12" fill="#ffeb3b"/>
+    
+    <!-- Stripes -->
+    <g fill="#424242">
+      <rect x="-6" y="-8" width="12" height="2"/>
+      <rect x="-6" y="-3" width="12" height="2"/>
+      <rect x="-6" y="2" width="12" height="2"/>
+      <rect x="-6" y="7" width="12" height="2"/>
+    </g>
+    
+    <!-- Wings -->
+    <ellipse cx="-4" cy="-5" rx="6" ry="10" fill="#ffffff" opacity="0.8"/>
+    <ellipse cx="4" cy="-5" rx="6" ry="10" fill="#ffffff" opacity="0.8"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="4" fill="#8d4e00"/>
+    
+    <!-- Antennae -->
+    <path d="M-2 -12 Q-5 -16 -3 -14" stroke="#8d4e00" stroke-width="1" fill="none"/>
+    <path d="M2 -12 Q5 -16 3 -14" stroke="#8d4e00" stroke-width="1" fill="none"/>
+    </g>
+  
+    <!-- Spider web -->
+    <g transform="translate(450,150)" opacity="0.5">
+    <!-- Radial lines -->
+    <g stroke="#9e9e9e" stroke-width="1" fill="none">
+      <line x1="0" y1="0" x2="0" y2="-30"/>
+      <line x1="0" y1="0" x2="21" y2="-21"/>
+      <line x1="0" y1="0" x2="30" y2="0"/>
+      <line x1="0" y1="0" x2="21" y2="21"/>
+      <line x1="0" y1="0" x2="0" y2="30"/>
+      <line x1="0" y1="0" x2="-21" y2="21"/>
+      <line x1="0" y1="0" x2="-30" y2="0"/>
+      <line x1="0" y1="0" x2="-21" y2="-21"/>
+    </g>
+    
+    <!-- Concentric circles -->
+    <g stroke="#9e9e9e" stroke-width="1" fill="none">
+      <circle cx="0" cy="0" r="10"/>
+      <circle cx="0" cy="0" r="20"/>
+      <circle cx="0" cy="0" r="30"/>
+    </g>
+    
+    <!-- Caught fly -->
+    <circle cx="15" cy="15" r="2" fill="#424242"/>
+    </g>
+  
+    <!-- Insect swarm -->
+    <g opacity="0.4">
+    <circle cx="450" cy="250" r="1" fill="#424242"/>
+    <circle cx="460" cy="260" r="1" fill="#424242"/>
+    <circle cx="470" cy="240" r="1" fill="#424242"/>
+    <circle cx="440" cy="280" r="1" fill="#424242"/>
+    <circle cx="480" cy="270" r="1" fill="#424242"/>
+    </g>
+  
+    <!-- Kanji character 虫 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#2e7d32" opacity="0.8">虫</text>
+    </g>
+  </g>
+</svg> 

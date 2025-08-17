@@ -1,0 +1,85 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="redGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFB6C1"/>
+      <stop offset="50%" stop-color="#FF0000"/>
+      <stop offset="100%" stop-color="#8B0000"/>
+    </radialGradient>
+    <linearGradient id="flameGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FF4500"/>
+      <stop offset="30%" stop-color="#FF6347"/>
+      <stop offset="60%" stop-color="#FF0000"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#FFF5EE"/>
+  
+  <!-- Red apple -->
+  <circle cx="120" cy="120" r="50" fill="url(#redGradient)" stroke="#8B0000" stroke-width="2"/>
+  <path d="M120 70 Q115 60 125 65 Q130 70 125 75" fill="#228B22"/>
+  <circle cx="110" cy="105" r="8" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- Red rose -->
+  <circle cx="300" cy="120" r="25" fill="url(#redGradient)"/>
+  <path d="M280 120 Q290 110 300 120 Q310 110 320 120 Q310 130 300 120 Q290 130 280 120" fill="#DC143C"/>
+  <path d="M300 145 L300 180" stroke="#228B22" stroke-width="4"/>
+  <path d="M290 160 Q285 155 290 150" fill="#32CD32"/>
+  <path d="M310 165 Q315 160 310 155" fill="#32CD32"/>
+  
+  <!-- Red heart -->
+  <path d="M200 180 Q180 160 160 180 Q180 200 200 220 Q220 200 240 180 Q220 160 200 180" fill="url(#redGradient)" stroke="#8B0000" stroke-width="2"/>
+  <circle cx="190" cy="175" r="4" fill="#FFB6C1" opacity="0.7"/>
+  
+  <!-- Red fire/flame -->
+  <path d="M350 300 Q360 280 370 300 Q375 320 365 340 Q355 350 345 340 Q340 320 350 300" fill="url(#flameGradient)"/>
+  <path d="M355 310 Q362 295 368 310 Q370 325 362 335 Q355 340 350 335 Q348 325 355 310" fill="#FFD700" opacity="0.8"/>
+  
+  <!-- Red strawberry -->
+  <path d="M100 280 Q90 260 110 260 Q130 260 120 280 Q115 300 100 280" fill="url(#redGradient)" stroke="#8B0000" stroke-width="2"/>
+  <path d="M105 260 Q100 250 110 255 Q115 260 110 265" fill="#228B22"/>
+  <!-- Seeds on strawberry -->
+  <ellipse cx="100" cy="270" rx="1.5" ry="2" fill="#FFD700"/>
+  <ellipse cx="110" cy="275" rx="1.5" ry="2" fill="#FFD700"/>
+  <ellipse cx="105" cy="285" rx="1.5" ry="2" fill="#FFD700"/>
+  
+  <!-- Red balloon -->
+  <ellipse cx="280" cy="250" rx="30" ry="40" fill="url(#redGradient)" stroke="#8B0000" stroke-width="2"/>
+  <path d="M280 290 L280 350" stroke="#654321" stroke-width="2"/>
+  <circle cx="275" cy="235" r="5" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- Red cherries -->
+  <circle cx="80" cy="350" r="15" fill="url(#redGradient)" stroke="#8B0000" stroke-width="1"/>
+  <circle cx="110" cy="360" r="15" fill="url(#redGradient)" stroke="#8B0000" stroke-width="1"/>
+  <path d="M80 335 Q70 320 75 310" stroke="#228B22" stroke-width="3"/>
+  <path d="M110 345 Q100 330 105 320" stroke="#228B22" stroke-width="3"/>
+  <circle cx="75" cy="342" r="3" fill="#FFB6C1" opacity="0.6"/>
+  <circle cx="105" cy="352" r="3" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- Red ladybug -->
+  <ellipse cx="200" cy="320" rx="20" ry="25" fill="url(#redGradient)" stroke="#000" stroke-width="2"/>
+  <circle cx="200" cy="300" r="12" fill="#000"/>
+  <circle cx="195" cy="297" r="2" fill="#FFF"/>
+  <circle cx="205" cy="297" r="2" fill="#FFF"/>
+  <!-- Spots -->
+  <circle cx="190" cy="315" r="3" fill="#000"/>
+  <circle cx="210" cy="320" r="3" fill="#000"/>
+  <circle cx="200" cy="335" r="2" fill="#000"/>
+  <!-- Antennae -->
+  <path d="M193 295 L190 285" stroke="#000" stroke-width="2"/>
+  <path d="M207 295 L210 285" stroke="#000" stroke-width="2"/>
+  <circle cx="190" cy="285" r="1" fill="#000"/>
+  <circle cx="210" cy="285" r="1" fill="#000"/>
+  
+  <!-- Red sunset -->
+  <circle cx="350" cy="80" r="35" fill="url(#redGradient)" opacity="0.8"/>
+  <circle cx="350" cy="80" r="25" fill="#FF6347" opacity="0.6"/>
+  
+  <!-- Decorative red elements -->
+  <circle cx="50" cy="200" r="8" fill="#DC143C"/>
+  <circle cx="380" cy="180" r="6" fill="#FF0000"/>
+  <circle cx="30" cy="100" r="5" fill="#8B0000"/>
+  <circle cx="370" cy="350" r="7" fill="#Crimson"/>
+  
+  <!-- Chinese character "赤" in stylized form -->
+  <text x="200" y="80" text-anchor="middle" font-family="serif" font-size="36" font-weight="bold" fill="#8B0000" opacity="0.7">赤</text>
+</svg> 

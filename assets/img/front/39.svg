@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad39" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffecb3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="childGrad39" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffa726;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f57c00;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="playGlow39" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#ffcc02;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#ffcc02;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="faceGrad39" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#ffcc80;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffb74d;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad39)"/>
+  
+  <!-- Playful energy aura -->
+  <ellipse cx="250" cy="250" rx="130" ry="150" fill="url(#playGlow39)"/>
+  
+  <!-- Cute child figure representing 子 -->
+  <!-- Large head (proportionally bigger like children) -->
+  <circle cx="250" cy="150" r="40" fill="url(#faceGrad39)" stroke="#ef6c00" stroke-width="3"/>
+  
+  <!-- Adorable hair -->
+  <path d="M210 125 Q250 100 290 125 Q295 140 290 155 Q250 165 210 155 Q205 140 210 125" 
+    fill="#8d6e63" stroke="#6d4c41" stroke-width="2"/>
+  
+  <!-- Hair tuft -->
+  <ellipse cx="250" cy="115" rx="8" ry="15" fill="#a1887f"/>
+  
+  <!-- Big innocent eyes -->
+  <g fill="#3e2723">
+  <circle cx="235" cy="145" r="6"/>
+  <circle cx="265" cy="145" r="6"/>
+  
+  <!-- Eye highlights -->
+  <g fill="#fff">
+  <circle cx="237" cy="142" r="3"/>
+  <circle cx="267" cy="142" r="3"/>
+  
+    <!-- Small nose -->
+    <ellipse cx="250" cy="155" rx="2" ry="3" fill="#ef6c00" opacity="0.6"/>
+  
+    <!-- Happy smile -->
+    <path d="M240 165 Q250 175 260 165" stroke="#3e2723" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+    <!-- Small body (child proportions) -->
+    <rect x="235" y="190" width="30" height="80" rx="15" fill="url(#childGrad39)"/>
+  
+    <!-- Little arms -->
+    <ellipse cx="210" cy="220" rx="15" ry="25" fill="url(#childGrad39)" transform="rotate(-20 210 220)"/>
+    <ellipse cx="290" cy="220" rx="15" ry="25" fill="url(#childGrad39)" transform="rotate(20 290 220)"/>
+  
+    <!-- Little hands waving -->
+    <circle cx="195" cy="210" r="8" fill="url(#faceGrad39)"/>
+    <circle cx="305" cy="210" r="8" fill="url(#faceGrad39)"/>
+  
+    <!-- Short legs -->
+    <rect x="240" y="270" width="12" height="60" rx="6" fill="url(#childGrad39)"/>
+    <rect x="258" y="270" width="12" height="60" rx="6" fill="url(#childGrad39)"/>
+  
+    <!-- Little feet -->
+    <ellipse cx="246" cy="340" rx="10" ry="6" fill="#8d6e63"/>
+    <ellipse cx="264" cy="340" rx="10" ry="6" fill="#8d6e63"/>
+  
+    <!-- Toys scattered around -->
+    <!-- Ball -->
+    <circle cx="150" cy="350" r="20" fill="#e91e63"/>
+    <circle cx="150" cy="350" r="15" fill="#f48fb1" opacity="0.7"/>
+  
+    <!-- Blocks -->
+    <rect x="320" y="320" width="25" height="25" fill="#2196f3"/>
+    <rect x="350" y="330" width="20" height="20" fill="#4caf50"/>
+    <rect x="340" y="300" width="22" height="22" fill="#ffeb3b"/>
+  
+    <!-- Teddy bear -->
+    <g transform="translate(380,250)">
+    <circle cx="0" cy="0" r="12" fill="#8d6e63"/>
+    <circle cx="-8" cy="-8" r="5" fill="#8d6e63"/>
+    <circle cx="8" cy="-8" r="5" fill="#8d6e63"/>
+    <circle cx="-2" cy="-2" r="1" fill="#000"/>
+    <circle cx="2" cy="-2" r="1" fill="#000"/>
+    </g>
+  
+    <!-- Playful movement lines -->
+    <g stroke="#ffb74d" stroke-width="2" opacity="0.5">
+    <path d="M190 205 Q180 200 175 205"/>
+    <path d="M310 205 Q320 200 325 205"/>
+    <path d="M245 120 Q240 115 235 120"/>
+    </g>
+  
+    <!-- Happy sparkles -->
+    <g fill="#ffb300" opacity="0.7">
+    <path d="M120 180 L125 175 L130 180 L125 185 Z"/>
+    <path d="M370 180 L375 175 L380 180 L375 185 Z"/>
+    <path d="M180 120 L185 115 L190 120 L185 125 Z"/>
+    <path d="M320 120 L325 115 L330 120 L325 125 Z"/>
+    </g>
+  
+    <!-- Baby clothing details -->
+    <g stroke="#f57c00" stroke-width="2" fill="none" opacity="0.6">
+    <line x1="235" y1="210" x2="265" y2="210"/>
+    <line x1="240" y1="230" x2="260" y2="230"/>
+    </g>
+  
+    <!-- Innocent shadow -->
+    <ellipse cx="250" cy="360" rx="40" ry="12" fill="#f57c00" opacity="0.3"/>
+  
+    <!-- Giggles effect -->
+    <g fill="#fff176" opacity="0.6">
+    <circle cx="200" cy="160" r="3"/>
+    <circle cx="300" cy="170" r="4"/>
+    <circle cx="280" cy="140" r="2"/>
+    <circle cx="220" cy="135" r="3"/>
+    </g>
+  
+    <!-- Height measurement lines -->
+    <g stroke="#ffb74d" stroke-width="1" opacity="0.4">
+    <line x1="100" y1="110" x2="120" y2="110"/>
+    <line x1="100" y1="190" x2="120" y2="190"/>
+    <line x1="100" y1="270" x2="120" y2="270"/>
+    <line x1="100" y1="340" x2="120" y2="340"/>
+    <line x1="100" y1="110" x2="100" y2="340"/>
+    </g>
+  
+    <!-- Kanji character 子 -->
+    <text x="100" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#e65100" opacity="0.8">子</text>
+    </g>
+  </g>
+</svg> 

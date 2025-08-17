@@ -1,0 +1,307 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="techBgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000428"/>
+      <stop offset="100%" stop-color="#004e92"/>
+    </linearGradient>
+    <radialGradient id="circuitGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#00FFFF"/>
+      <stop offset="50%" stop-color="#0080FF"/>
+      <stop offset="100%" stop-color="#0040FF"/>
+    </radialGradient>
+    <linearGradient id="screenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#000040"/>
+      <stop offset="50%" stop-color="#000080"/>
+      <stop offset="100%" stop-color="#0000C0"/>
+    </linearGradient>
+    <radialGradient id="hologramGradient" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#00FFFF"/>
+      <stop offset="70%" stop-color="#0080FF"/>
+      <stop offset="100%" stop-color="#004080"/>
+    </radialGradient>
+    <linearGradient id="robotGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C0C0C0"/>
+      <stop offset="50%" stop-color="#A0A0A0"/>
+      <stop offset="100%" stop-color="#808080"/>
+    </linearGradient>
+    <radialGradient id="dataGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#00FF00"/>
+      <stop offset="50%" stop-color="#00C000"/>
+      <stop offset="100%" stop-color="#008000"/>
+    </radialGradient>
+  </defs>  <!-- Tech background -->
+  <rect width="500" height="500" fill="url(#techBgGradient)"/>
+  
+  <!-- Circuit board pattern -->
+  <g stroke="url(#circuitGradient)" stroke-width="1" fill="none" opacity="0.6">
+  <!-- Horizontal circuits -->
+  <path d="M50 80 L150 80 L150 120 L250 120 L250 160"/>
+  <path d="M100 200 L200 200 L200 240 L300 240"/>
+  <path d="M50 300 L120 300 L120 260 L200 260 L200 320 L350 320"/>
+  
+  <!-- Vertical circuits -->
+  <path d="M80 50 L80 150 L120 150 L120 250 L160 250"/>
+  <path d="M200 60 L200 140 L240 140 L240 220 L280 220"/>
+  <path d="M320 100 L320 180 L360 180 L360 280 L390 280"/>
+  
+  <!-- Circuit nodes -->
+  <circle cx="150" cy="80" r="3" fill="url(#circuitGradient)"/>
+  <circle cx="150" cy="120" r="3" fill="url(#circuitGradient)"/>
+  <circle cx="250" cy="120" r="3" fill="url(#circuitGradient)"/>
+  <circle cx="200" cy="200" r="3" fill="url(#circuitGradient)"/>
+  <circle cx="200" cy="240" r="3" fill="url(#circuitGradient)"/>
+  <circle cx="120" cy="300" r="3" fill="url(#circuitGradient)"/>
+  <circle cx="120" cy="260" r="3" fill="url(#circuitGradient)"/>
+  <circle cx="80" cy="150" r="3" fill="url(#circuitGradient)"/>
+  <circle cx="240" cy="140" r="3" fill="url(#circuitGradient)"/>
+  <circle cx="360" cy="180" r="3" fill="url(#circuitGradient)"/>
+  
+  <!-- Holographic displays -->
+  <g transform="translate(80, 100)">
+  <rect x="-20" y="-15" width="40" height="30" fill="url(#screenGradient)" stroke="#00FFFF" stroke-width="2"/>
+  <!-- Hologram content -->
+  <g opacity="0.8">
+    <path d="M-15 -10 L-10 0 L-5 -5 L0 5 L5 -8 L10 2 L15 -6" 
+          stroke="url(#dataGradient)" stroke-width="2" fill="none"/>
+    <circle cx="-8" cy="-3" r="2" fill="#00FF00"/>
+    <circle cx="6" cy="8" r="1.5" fill="#00FFFF"/>
+    <text x="0" y="12" text-anchor="middle" fill="#00FF00" font-size="6">DATA</text>
+    </g>
+  
+    <g transform="translate(300, 120)">
+    <rect x="-25" y="-20" width="50" height="40" fill="url(#screenGradient)" stroke="#00FFFF" stroke-width="2"/>
+    <!-- 3D hologram -->
+    <g opacity="0.7">
+      <polygon points="0,-15 -10,0 0,15 10,0" fill="none" stroke="url(#hologramGradient)" stroke-width="1.5"/>
+      <polygon points="0,-10 -6,0 0,10 6,0" fill="url(#hologramGradient)" opacity="0.5"/>
+      <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+      <text x="0" y="18" text-anchor="middle" fill="#00FFFF" font-size="5">3D MODEL</text>
+    </g>
+    </g>
+  
+    <!-- Humanoid robot -->
+    <g transform="translate(200, 250)">
+    <!-- Body -->
+    <rect x="-15" y="0" width="30" height="40" rx="5" fill="url(#robotGradient)" stroke="#A0A0A0" stroke-width="2"/>
+    <!-- Head -->
+    <rect x="-10" y="-20" width="20" height="20" rx="3" fill="url(#robotGradient)" stroke="#A0A0A0" stroke-width="2"/>
+    <!-- Eyes -->
+    <circle cx="-5" cy="-12" r="2" fill="#00FFFF"/>
+    <circle cx="5" cy="-12" r="2" fill="#00FFFF"/>
+    <!-- Chest panel -->
+    <rect x="-8" y="5" width="16" height="12" fill="#000080"/>
+    <g stroke="#00FF00" stroke-width="0.5">
+      <path d="M-6 8 L6 8"/>
+      <path d="M-6 11 L6 11"/>
+      <path d="M-6 14 L6 14"/>
+    </g>
+    <!-- Arms -->
+    <rect x="-25" y="5" width="8" height="20" rx="4" fill="url(#robotGradient)"/>
+    <rect x="17" y="5" width="8" height="20" rx="4" fill="url(#robotGradient)"/>
+    <!-- Hands -->
+    <circle cx="-21" cy="30" r="4" fill="#A0A0A0"/>
+    <circle cx="21" cy="30" r="4" fill="#A0A0A0"/>
+    <!-- Legs -->
+    <rect x="-12" y="40" width="8" height="25" rx="4" fill="url(#robotGradient)"/>
+    <rect x="4" y="40" width="8" height="25" rx="4" fill="url(#robotGradient)"/>
+    <!-- Feet -->
+    <ellipse cx="-8" cy="70" rx="6" ry="3" fill="#A0A0A0"/>
+    <ellipse cx="8" cy="70" rx="6" ry="3" fill="#A0A0A0"/>
+    
+    <!-- Robot details -->
+    <g fill="#00FFFF">
+      <circle cx="-2" cy="-15" r="1"/>
+      <circle cx="2" cy="-15" r="1"/>
+      <rect x="-3" y="20" width="6" height="2"/>
+    </g>
+    </g>
+  
+    <!-- Drone -->
+    <g transform="translate(350, 80)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="12" ry="6" fill="url(#robotGradient)" stroke="#808080" stroke-width="1"/>
+    <!-- Propellers -->
+    <g fill="#C0C0C0" opacity="0.7">
+      <ellipse cx="-8" cy="-8" rx="6" ry="1" transform="rotate(45 -8 -8)"/>
+      <ellipse cx="8" cy="-8" rx="6" ry="1" transform="rotate(-45 8 -8)"/>
+      <ellipse cx="-8" cy="8" rx="6" ry="1" transform="rotate(-45 -8 8)"/>
+      <ellipse cx="8" cy="8" rx="6" ry="1" transform="rotate(45 8 8)"/>
+    </g>
+    <!-- Propeller motors -->
+    <circle cx="-8" cy="-8" r="2" fill="#404040"/>
+    <circle cx="8" cy="-8" r="2" fill="#404040"/>
+    <circle cx="-8" cy="8" r="2" fill="#404040"/>
+    <circle cx="8" cy="8" r="2" fill="#404040"/>
+    <!-- Camera -->
+    <circle cx="0" cy="0" r="3" fill="#000"/>
+    <circle cx="0" cy="0" r="2" fill="#FF0000"/>
+    <!-- LED lights -->
+    <circle cx="-6" cy="0" r="1" fill="#00FF00"/>
+    <circle cx="6" cy="0" r="1" fill="#FF0000"/>
+    </g>
+  
+    <!-- VR headset user -->
+    <g transform="translate(80, 300)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="10" ry="18" fill="#4169E1"/>
+    <!-- Head -->
+    <circle cx="0" cy="0" r="8" fill="#FFDAB9"/>
+    <!-- VR headset -->
+    <rect x="-10" y="-5" width="20" height="8" rx="4" fill="#2F2F2F"/>
+    <rect x="-8" y="-3" width="16" height="4" fill="url(#screenGradient)"/>
+    <g fill="#00FFFF">
+      <circle cx="-6" cy="-1" r="1"/>
+      <circle cx="6" cy="-1" r="1"/>
+    </g>
+    <!-- Cables -->
+    <path d="M-8 2 Q-15 10 -20 20" stroke="#000" stroke-width="2" fill="none"/>
+    <!-- Arms -->
+    <ellipse cx="-12" cy="15" rx="12" ry="4" fill="#4169E1" transform="rotate(-20 -12 15)"/>
+    <ellipse cx="12" cy="15" rx="12" ry="4" fill="#4169E1" transform="rotate(20 12 15)"/>
+    <!-- VR controllers in hands -->
+    <rect x="-18" y="20" width="6" height="3" rx="1" fill="#C0C0C0"/>
+    <rect x="12" y="20" width="6" height="3" rx="1" fill="#C0C0C0"/>
+    </g>
+  
+    <!-- Smart devices -->
+    <!-- Smartphone -->
+    <g transform="translate(120, 350)">
+    <rect x="-8" y="-15" width="16" height="30" rx="3" fill="#2F2F2F" stroke="#C0C0C0" stroke-width="1"/>
+    <rect x="-6" y="-12" width="12" height="20" fill="url(#screenGradient)"/>
+    <circle cx="0" cy="12" r="2" fill="#404040"/>
+    <!-- Screen content -->
+    <g fill="#00FF00" font-size="2">
+      <text x="0" y="-8" text-anchor="middle">APP</text>
+      <text x="0" y="-4" text-anchor="middle">ICONS</text>
+    </g>
+    <g fill="#FFFFFF">
+      <rect x="-4" y="-2" width="2" height="2"/>
+      <rect x="-1" y="-2" width="2" height="2"/>
+      <rect x="2" y="-2" width="2" height="2"/>
+      <rect x="-4" y="2" width="2" height="2"/>
+      <rect x="-1" y="2" width="2" height="2"/>
+      <rect x="2" y="2" width="2" height="2"/>
+    </g>
+    </g>
+  
+    <!-- Smartwatch -->
+    <g transform="translate(320, 340)">
+    <ellipse cx="0" cy="0" rx="8" ry="6" fill="#2F2F2F" stroke="#C0C0C0" stroke-width="1"/>
+    <ellipse cx="0" cy="0" rx="6" ry="4" fill="url(#screenGradient)"/>
+    <!-- Watch band -->
+    <rect x="-12" y="-2" width="6" height="4" rx="2" fill="#000"/>
+    <rect x="6" y="-2" width="6" height="4" rx="2" fill="#000"/>
+    <!-- Screen display -->
+    <text x="0" y="-1" text-anchor="middle" fill="#00FFFF" font-size="3">12:30</text>
+    <circle cx="0" cy="2" r="1" fill="#00FF00"/>
+    </g>
+  
+    <!-- Data streams -->
+    <g stroke="#00FF00" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M50 50 Q100 30 150 50 Q200 70 250 50 Q300 30 350 50">
+      <animate attributeName="stroke-dasharray" values="0,20;20,0" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M380 100 Q350 120 320 100 Q290 80 260 100 Q230 120 200 100">
+      <animate attributeName="stroke-dasharray" values="0,15;15,0" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M70 380 Q120 360 170 380 Q220 400 270 380 Q320 360 370 380">
+      <animate attributeName="stroke-dasharray" values="0,25;25,0" dur="3s" repeatCount="indefinite"/>
+    </path>
+    </g>
+  
+    <!-- Floating binary code -->
+    <g fill="#00FFFF" opacity="0.7" font-size="8" font-family="monospace">
+    <text x="50" y="150">101010</text>
+    <text x="300" y="200">110011</text>
+    <text x="150" y="320">001101</text>
+    <text x="350" y="250">111000</text>
+    <text x="100" y="220">010101</text>
+    </g>
+  
+    <!-- WiFi signals -->
+    <g transform="translate(150, 80)">
+    <g stroke="#00FFFF" stroke-width="1.5" fill="none">
+      <path d="M0 0 Q-10 -5 -20 0"/>
+      <path d="M0 0 Q-15 -8 -30 0"/>
+      <path d="M0 0 Q-20 -10 -40 0"/>
+    </g>
+    <circle cx="0" cy="0" r="2" fill="#00FFFF"/>
+    </g>
+  
+    <!-- Satellite -->
+    <g transform="translate(50, 60)">
+    <rect x="-4" y="-4" width="8" height="8" fill="url(#robotGradient)"/>
+    <!-- Solar panels -->
+    <rect x="-15" y="-2" width="8" height="4" fill="#000080"/>
+    <rect x="7" y="-2" width="8" height="4" fill="#000080"/>
+    <g stroke="#00FFFF" stroke-width="0.3">
+      <path d="M-13 -1 L-9 -1"/>
+      <path d="M-13 0 L-9 0"/>
+      <path d="M-13 1 L-9 1"/>
+      <path d="M9 -1 L13 -1"/>
+      <path d="M9 0 L13 0"/>
+      <path d="M9 1 L13 1"/>
+    </g>
+    <!-- Antenna -->
+    <rect x="-1" y="-8" width="2" height="4" fill="#C0C0C0"/>
+    <circle cx="0" cy="-10" r="1" fill="#FF0000"/>
+    </g>
+  
+    <!-- AI neural network visualization -->
+    <g transform="translate(250, 300)">
+    <!-- Nodes -->
+    <g fill="url(#dataGradient)">
+      <circle cx="-20" cy="-10" r="3"/>
+      <circle cx="-20" cy="10" r="3"/>
+      <circle cx="0" cy="-15" r="3"/>
+      <circle cx="0" cy="0" r="3"/>
+      <circle cx="0" cy="15" r="3"/>
+      <circle cx="20" cy="-5" r="3"/>
+      <circle cx="20" cy="5" r="3"/>
+    </g>
+    <!-- Connections -->
+    <g stroke="#00FF00" stroke-width="1" opacity="0.6">
+      <path d="M-17 -10 L-3 -15"/>
+      <path d="M-17 -10 L-3 0"/>
+      <path d="M-17 10 L-3 0"/>
+      <path d="M-17 10 L-3 15"/>
+      <path d="M3 -15 L17 -5"/>
+      <path d="M3 0 L17 -5"/>
+      <path d="M3 0 L17 5"/>
+      <path d="M3 15 L17 5"/>
+    </g>
+    <text x="0" y="25" text-anchor="middle" fill="#00FFFF" font-size="6">AI NETWORK</text>
+    </g>
+  
+    <!-- Quantum particles -->
+    <g fill="#FFFFFF" opacity="0.8">
+    <circle cx="380" cy="150" r="1">
+      <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="30" cy="250" r="1">
+      <animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="40" r="1">
+      <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="370" cy="350" r="1">
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+    </g>
+  
+    <!-- Digital particles -->
+    <g fill="#00FFFF" opacity="0.5">
+    <rect x="60" y="180" width="2" height="2">
+      <animateTransform attributeName="transform" type="translate" values="0,0;50,-20;100,0" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="280" y="80" width="2" height="2">
+      <animateTransform attributeName="transform" type="translate" values="0,0;-30,40;-60,0" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="160" y="360" width="2" height="2">
+      <animateTransform attributeName="transform" type="translate" values="0,0;40,-50;80,0" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    </g>
+    </g>
+  </g>
+</svg> 

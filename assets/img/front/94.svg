@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad94" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="dogGrad94" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6d4c41;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="loyaltyGlow94" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#ffcc80;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#ffcc80;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="noseGrad94" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#424242;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#212121;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad94)"/>
+  
+  <!-- Loyalty aura -->
+  <ellipse cx="250" cy="280" rx="180" ry="150" fill="url(#loyaltyGlow94)"/>
+  
+  <!-- Main dog representing 犬 -->
+  <!-- Dog body -->
+  <ellipse cx="250" cy="320" rx="80" ry="60" fill="url(#dogGrad94)" stroke="#5d4037" stroke-width="3"/>
+  
+  <!-- Dog head -->
+  <ellipse cx="250" cy="220" rx="60" ry="50" fill="url(#dogGrad94)" stroke="#5d4037" stroke-width="3"/>
+  
+  <!-- Dog snout -->
+  <ellipse cx="250" cy="250" rx="35" ry="25" fill="url(#dogGrad94)"/>
+  
+  <!-- Dog nose -->
+  <ellipse cx="250" cy="260" rx="8" ry="6" fill="url(#noseGrad94)"/>
+  <ellipse cx="250" cy="258" rx="4" ry="3" fill="#616161"/>
+  
+  <!-- Dog eyes -->
+  <g fill="#3e2723">
+  <ellipse cx="230" cy="210" rx="8" ry="10"/>
+  <ellipse cx="270" cy="210" rx="8" ry="10"/>
+  
+  <!-- Eye highlights -->
+  <g fill="#fff">
+  <ellipse cx="232" cy="207" rx="3" ry="4"/>
+  <ellipse cx="272" cy="207" rx="3" ry="4"/>
+  
+    <!-- Dog ears (floppy) -->
+    <ellipse cx="210" cy="190" rx="20" ry="35" fill="url(#dogGrad94)" transform="rotate(-30 210 190)"/>
+    <ellipse cx="290" cy="190" rx="20" ry="35" fill="url(#dogGrad94)" transform="rotate(30 290 190)"/>
+  
+    <!-- Inner ear -->
+    <ellipse cx="210" cy="190" rx="12" ry="20" fill="#a1887f" transform="rotate(-30 210 190)"/>
+    <ellipse cx="290" cy="190" rx="12" ry="20" fill="#a1887f" transform="rotate(30 290 190)"/>
+  
+    <!-- Dog mouth -->
+    <path d="M235 270 Q250 280 265 270" stroke="#3e2723" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+    <!-- Dog tongue (panting) -->
+    <ellipse cx="250" cy="285" rx="12" ry="8" fill="#e91e63"/>
+  
+    <!-- Dog legs -->
+    <g fill="url(#dogGrad94)">
+    <!-- Front legs -->
+    <rect x="200" y="360" width="15" height="60" rx="7" fill="url(#dogGrad94)"/>
+    <rect x="230" y="360" width="15" height="60" rx="7" fill="url(#dogGrad94)"/>
+    
+    <!-- Back legs -->
+    <rect x="270" y="360" width="15" height="60" rx="7" fill="url(#dogGrad94)"/>
+    <rect x="300" y="360" width="15" height="60" rx="7" fill="url(#dogGrad94)"/>
+    </g>
+  
+    <!-- Dog paws -->
+    <g fill="#5d4037">
+    <ellipse cx="207" cy="430" rx="10" ry="8"/>
+    <ellipse cx="237" cy="430" rx="10" ry="8"/>
+    <ellipse cx="277" cy="430" rx="10" ry="8"/>
+    <ellipse cx="307" cy="430" rx="10" ry="8"/>
+    </g>
+  
+    <!-- Paw pads -->
+    <g fill="#3e2723">
+    <circle cx="207" cy="428" r="3"/>
+    <circle cx="237" cy="428" r="3"/>
+    <circle cx="277" cy="428" r="3"/>
+    <circle cx="307" cy="428" r="3"/>
+    </g>
+  
+    <!-- Dog tail (wagging) -->
+    <path d="M330 320 Q370 300 380 280 Q385 270 380 260" 
+        stroke="url(#dogGrad94)" stroke-width="20" fill="none" stroke-linecap="round"/>
+  
+    <!-- Tail motion lines -->
+    <g stroke="#ffb74d" stroke-width="2" opacity="0.6">
+    <path d="M360 290 Q370 280 380 270"/>
+    <path d="M370 300 Q380 290 390 280"/>
+    <path d="M365 305 Q375 295 385 285"/>
+    </g>
+  
+    <!-- Dog collar -->
+    <ellipse cx="250" cy="270" rx="70" ry="15" fill="#f44336"/>
+    <rect x="240" y="265" width="20" height="10" rx="5" fill="#ffeb3b"/>
+    <circle cx="250" cy="270" r="3" fill="#3e2723"/>
+  
+    <!-- Collar studs -->
+    <g fill="#ff5722">
+    <circle cx="220" cy="270" r="2"/>
+    <circle cx="280" cy="270" r="2"/>
+    <circle cx="200" cy="275" r="2"/>
+    <circle cx="300" cy="275" r="2"/>
+    </g>
+  
+    <!-- Dog house (background) -->
+    <g transform="translate(100,350)" opacity="0.6">
+    <path d="M0,50 L25,20 L50,50 L50,80 L0,80 Z" fill="#8d6e63"/>
+    <rect x="5" y="65" width="40" height="15" fill="#6d4c41"/>
+    <circle cx="35" cy="45" r="8" fill="#424242"/>
+    </g>
+  
+    <!-- Bone toy -->
+    <g transform="translate(380,380)" opacity="0.7">
+    <ellipse cx="-10" cy="0" rx="8" ry="12" fill="#f5f5f5"/>
+    <ellipse cx="10" cy="0" rx="8" ry="12" fill="#f5f5f5"/>
+    <rect x="-10" y="-4" width="20" height="8" fill="#f5f5f5"/>
+    </g>
+  
+    <!-- Food bowl -->
+    <g transform="translate(150,420)" opacity="0.7">
+    <ellipse cx="0" cy="0" rx="25" ry="15" fill="#2196f3"/>
+    <ellipse cx="0" cy="-5" rx="20" ry="10" fill="#1976d2"/>
+    <text x="0" y="3" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#fff">DOG</text>
+    </g>
+  
+    <!-- Heart symbols showing love -->
+    <g fill="#e91e63" opacity="0.7">
+    <g transform="translate(180,150)">
+      <path d="M-5,-5 Q0,-10 5,-5 Q10,0 0,10 Q-10,0 -5,-5"/>
+    </g>
+    <g transform="translate(320,160)">
+      <path d="M-4,-4 Q0,-8 4,-4 Q8,0 0,8 Q-8,0 -4,-4"/>
+    </g>
+    <g transform="translate(350,120)">
+      <path d="M-3,-3 Q0,-6 3,-3 Q6,0 0,6 Q-6,0 -3,-3"/>
+    </g>
+    </g>
+  
+    <!-- Loyal companion sparkles -->
+    <g fill="#ffb74d" opacity="0.7">
+    <path d="M120 200 L130 190 L140 200 L130 210 Z"/>
+    <path d="M370 220 L380 210 L390 220 L380 230 Z"/>
+    <path d="M160 320 L170 310 L180 320 L170 330 Z"/>
+    <path d="M340 350 L350 340 L360 350 L350 360 Z"/>
+    </g>
+  
+    <!-- Playful energy -->
+    <g stroke="#ff9800" stroke-width="2" opacity="0.5">
+    <path d="M140 250 Q160 240 180 250"/>
+    <path d="M320 240 Q340 230 360 240"/>
+    <path d="M130 350 Q150 340 170 350"/>
+    </g>
+  
+    <!-- Sniffing lines -->
+    <g stroke="#a1887f" stroke-width="1" opacity="0.4">
+    <path d="M230 260 Q220 250 210 255"/>
+    <path d="M270 260 Q280 250 290 255"/>
+    <path d="M250 270 Q240 280 230 275"/>
+    <path d="M250 270 Q260 280 270 275"/>
+    </g>
+  
+    <!-- Kanji character 犬 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#5d4037" opacity="0.8">犬</text>
+    </g>
+  </g>
+</svg> 

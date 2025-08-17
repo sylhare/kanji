@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad121" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffecb3;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="jarGrad121" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#d7ccc8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#bcaaa4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8d6e63;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad121)"/>
+  
+  <!-- Potter's wheel base -->
+  <ellipse cx="250" cy="480" rx="100" ry="15" fill="#8d6e63" opacity="0.4"/>
+  
+  <!-- Main earthen jar -->
+  <g transform="translate(250,300)">
+  <!-- Jar body -->
+  <ellipse cx="0" cy="0" rx="60" ry="80" fill="url(#jarGrad121)" stroke="#6d4c41" stroke-width="2"/>
+  <!-- Jar rim -->
+  <ellipse cx="0" cy="-70" rx="35" ry="12" fill="#bcaaa4" stroke="#8d6e63" stroke-width="2"/>
+  <!-- Jar neck -->
+  <rect x="-30" y="-70" width="60" height="20" fill="url(#jarGrad121)"/>
+  
+  <!-- Main radical shape 缶 (earthen jar) -->
+  <!-- Top horizontal stroke -->
+  <path d="M180 150 L320 150" 
+      stroke="#6d4c41" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Left vertical stroke -->
+  <path d="M200 150 L200 230" 
+      stroke="#6d4c41" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right vertical stroke -->
+  <path d="M300 150 L300 230" 
+      stroke="#6d4c41" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Middle strokes -->
+  <path d="M220 180 L280 180" 
+      stroke="#6d4c41" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M220 210 L280 210" 
+      stroke="#6d4c41" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom stroke -->
+  <path d="M180 230 L320 230" 
+      stroke="#6d4c41" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <!-- Smaller pottery -->
+  <g opacity="0.7">
+  <!-- Left small jar -->
+  <g transform="translate(120,350)">
+    <ellipse cx="0" cy="0" rx="25" ry="35" fill="url(#jarGrad121)" stroke="#6d4c41" stroke-width="1"/>
+    <ellipse cx="0" cy="-30" rx="15" ry="6" fill="#bcaaa4"/>
+    
+    <!-- Right small jar -->
+    <g transform="translate(380,360)">
+      <ellipse cx="0" cy="0" rx="20" ry="30" fill="url(#jarGrad121)" stroke="#6d4c41" stroke-width="1"/>
+      <ellipse cx="0" cy="-25" rx="12" ry="5" fill="#bcaaa4"/>
+    </g>
+    </g>
+  
+    <!-- Potter's tools -->
+    <g transform="translate(400,200)" opacity="0.6">
+    <!-- Clay molding tool -->
+    <rect x="0" y="0" width="3" height="30" fill="#8d6e63"/>
+    <ellipse cx="1.5" cy="0" rx="6" ry="3" fill="#6d4c41"/>
+    </g>
+  
+    <!-- Water for pottery -->
+    <ellipse cx="150" cy="450" rx="30" ry="8" fill="#2196f3" opacity="0.3"/>
+  
+    <!-- Clay texture -->
+    <g fill="#a1887f" opacity="0.3">
+    <circle cx="100" cy="400" r="3"/>
+    <circle cx="400" cy="420" r="2"/>
+    <circle cx="180" cy="480" r="2"/>
+    <circle cx="320" cy="470" r="3"/>
+    </g>
+  
+    <!-- Kiln/fire -->
+    <g transform="translate(380,380)" opacity="0.5">
+    <!-- Fire -->
+    <ellipse cx="0" cy="0" rx="15" ry="20" fill="#ff5722"/>
+    <ellipse cx="-5" cy="-5" rx="8" ry="12" fill="#ff9800"/>
+    <ellipse cx="5" cy="-5" rx="6" ry="10" fill="#ffc107"/>
+    <!-- Smoke -->
+    <g stroke="#9e9e9e" stroke-width="2" opacity="0.6" fill="none">
+      <path d="M0 -20 Q5 -30 0 -40"/>
+      <path d="M5 -25 Q10 -35 5 -45"/>
+    </g>
+    </g>
+  
+    <!-- Pottery decorative patterns -->
+    <g transform="translate(250,300)" stroke="#5d4037" stroke-width="2" opacity="0.4" fill="none">
+    <ellipse cx="0" cy="-20" rx="40" ry="8"/>
+    <ellipse cx="0" cy="0" rx="45" ry="8"/>
+    <ellipse cx="0" cy="20" rx="40" ry="8"/>
+    </g>
+  
+    <!-- Clay lumps -->
+    <g fill="#8d6e63" opacity="0.5">
+    <ellipse cx="80" cy="450" rx="8" ry="5"/>
+    <ellipse cx="420" cy="460" rx="6" ry="4"/>
+    </g>
+  
+    <!-- Kanji character 缶 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#6d4c41" opacity="0.8">缶</text>
+    </g>
+  </g>
+</svg> 

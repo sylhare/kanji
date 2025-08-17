@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad109" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="eyeGrad109" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#81c784;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4caf50;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="pupilGrad109" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#1b5e20;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="visionGlow109" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#a5d6a7;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#a5d6a7;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad109)"/>
+  
+  <!-- Vision aura -->
+  <ellipse cx="250" cy="250" rx="180" ry="120" fill="url(#visionGlow109)"/>
+  
+  <!-- Main eye structure representing 目 -->
+  <!-- Outer eye shape -->
+  <ellipse cx="250" cy="250" rx="120" ry="80" fill="#ffffff" stroke="#2e7d32" stroke-width="4"/>
+  
+  <!-- Upper eyelid -->
+  <path d="M130 220 Q250 180 370 220" stroke="#1b5e20" stroke-width="6" fill="none"/>
+  
+  <!-- Lower eyelid -->
+  <path d="M130 280 Q250 320 370 280" stroke="#1b5e20" stroke-width="6" fill="none"/>
+  
+  <!-- Iris -->
+  <circle cx="250" cy="250" r="50" fill="url(#eyeGrad109)" stroke="#2e7d32" stroke-width="2"/>
+  
+  <!-- Pupil -->
+  <circle cx="250" cy="250" r="25" fill="url(#pupilGrad109)"/>
+  
+  <!-- Light reflection -->
+  <circle cx="235" cy="235" r="12" fill="#ffffff" opacity="0.9"/>
+  <circle cx="260" cy="240" r="6" fill="#ffffff" opacity="0.7"/>
+  
+  <!-- Iris texture patterns -->
+  <g stroke="#388e3c" stroke-width="1" fill="none" opacity="0.6">
+  <circle cx="250" cy="250" r="35"/>
+  <circle cx="250" cy="250" r="42"/>
+  <line x1="220" y1="230" x2="280" y2="270"/>
+  <line x1="220" y1="270" x2="280" y2="230"/>
+  <line x1="210" y1="250" x2="290" y2="250"/>
+  <line x1="250" y1="210" x2="250" y2="290"/>
+  
+  <!-- Eyelashes -->
+  <g stroke="#1b5e20" stroke-width="2" opacity="0.7">
+  <!-- Upper lashes -->
+  <line x1="180" y1="205" x2="175" y2="190"/>
+  <line x1="200" y1="195" x2="195" y2="180"/>
+  <line x1="220" y1="190" x2="218" y2="175"/>
+  <line x1="250" y1="185" x2="250" y2="170"/>
+  <line x1="280" y1="190" x2="282" y2="175"/>
+  <line x1="300" y1="195" x2="305" y2="180"/>
+  <line x1="320" y1="205" x2="325" y2="190"/>
+  
+  <!-- Lower lashes -->
+  <line x1="180" y1="295" x2="175" y2="310"/>
+  <line x1="200" y1="305" x2="195" y2="320"/>
+  <line x1="220" y1="310" x2="218" y2="325"/>
+  <line x1="280" y1="310" x2="282" y2="325"/>
+  <line x1="300" y1="305" x2="305" y2="320"/>
+  <line x1="320" y1="295" x2="325" y2="310"/>
+  
+    <!-- Eyebrow -->
+    <path d="M140 180 Q250 150 360 180" stroke="#2e7d32" stroke-width="8" stroke-linecap="round" fill="none"/>
+  
+    <!-- Vision rays emanating -->
+    <g stroke="#66bb6a" stroke-width="3" opacity="0.5">
+    <line x1="250" y1="250" x2="400" y2="150"/>
+    <line x1="250" y1="250" x2="450" y2="200"/>
+    <line x1="250" y1="250" x2="450" y2="250"/>
+    <line x1="250" y1="250" x2="450" y2="300"/>
+    <line x1="250" y1="250" x2="400" y2="350"/>
+    </g>
+  
+    <!-- Things being seen -->
+    <g fill="#4caf50" opacity="0.6">
+    <circle cx="420" cy="150" r="8"/>
+    <rect x="440" y="190" width="15" height="15"/>
+    <path d="M450 240 L460 250 L450 260 L440 250 Z"/>
+    <circle cx="430" cy="300" r="6"/>
+    <rect x="415" y="340" width="12" height="12"/>
+    </g>
+  
+    <!-- Tear duct -->
+    <ellipse cx="160" cy="250" rx="8" ry="12" fill="#ffab91"/>
+  
+    <!-- Corner details -->
+    <path d="M130 250 Q140 240 150 250 Q140 260 130 250" fill="#c8e6c8"/>
+    <path d="M370 250 Q360 240 350 250 Q360 260 370 250" fill="#c8e6c8"/>
+  
+    <!-- Depth lines for 目 structure -->
+    <g stroke="#2e7d32" stroke-width="2" opacity="0.4">
+    <line x1="140" y1="220" x2="360" y2="220"/>
+    <line x1="140" y1="280" x2="360" y2="280"/>
+    <line x1="200" y1="190" x2="200" y2="310"/>
+    <line x1="300" y1="190" x2="300" y2="310"/>
+    </g>
+  
+    <!-- Surrounding sparkles indicating clarity of vision -->
+    <g fill="#81c784" opacity="0.7">
+    <path d="M100 100 L110 90 L120 100 L110 110 Z"/>
+    <path d="M380 120 L390 110 L400 120 L390 130 Z"/>
+    <path d="M420 380 L430 370 L440 380 L430 390 Z"/>
+    <path d="M80 380 L90 370 L100 380 L90 390 Z"/>
+    </g>
+  
+    <!-- Kanji character 目 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1b5e20" opacity="0.8">目</text>
+    </g>
+  </g>
+</svg> 

@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad132" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="mirrorGrad132" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad132)"/>
+  
+  <!-- Main mirror -->
+  <g transform="translate(250,250)">
+  <!-- Mirror frame -->
+  <circle cx="0" cy="0" r="80" fill="#8d6e63" stroke="#6d4c41" stroke-width="3"/>
+  
+  <!-- Mirror surface -->
+  <circle cx="0" cy="0" r="70" fill="url(#mirrorGrad132)" stroke="#bdbdbd" stroke-width="1"/>
+  
+  <!-- Reflection -->
+  <g opacity="0.7">
+  <!-- Reflected face -->
+  <circle cx="0" cy="-10" r="25" fill="#ffdbcb"/>
+  <circle cx="-8" cy="-18" r="2" fill="#424242"/>
+  <circle cx="8" cy="-18" r="2" fill="#424242"/>
+  <path d="M-5 -5 Q0 0 5 -5" stroke="#d7ccc8" stroke-width="2" fill="none"/>
+  <path d="M-8 5 Q0 10 8 5" stroke="#d7ccc8" stroke-width="2" fill="none"/>
+  
+  <!-- Handle -->
+  <rect x="-8" y="80" width="16" height="40" rx="8" fill="#8d6e63"/>
+  
+    <!-- Main radical shape 自 (self) -->
+    <!-- Top horizontal stroke -->
+    <path d="M200 150 L300 150" 
+        stroke="#7b1fa2" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+    <!-- Top vertical stroke -->
+    <path d="M230 150 L230 190" 
+        stroke="#7b1fa2" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+    <!-- Middle section -->
+    <path d="M200 190 L300 190" 
+        stroke="#7b1fa2" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M200 220 L300 220" 
+        stroke="#7b1fa2" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Bottom vertical stroke -->
+    <path d="M250 220 L250 270" 
+        stroke="#7b1fa2" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Bottom horizontal stroke -->
+    <path d="M220 270 L280 270" 
+        stroke="#7b1fa2" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+    <!-- Person looking at self in mirror -->
+    <g transform="translate(120,300)" opacity="0.8">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="15" fill="#ffdbcb"/>
+    <circle cx="-5" cy="-5" r="2" fill="#424242"/>
+    <circle cx="5" cy="-5" r="2" fill="#424242"/>
+    <!-- Body -->
+    <rect x="-8" y="15" width="16" height="30" fill="#9c27b0"/>
+    <!-- Arms -->
+    <ellipse cx="-12" cy="25" rx="4" ry="12" fill="#ffdbcb" transform="rotate(-20)"/>
+    <ellipse cx="12" cy="25" rx="4" ry="12" fill="#ffdbcb" transform="rotate(20)"/>
+    </g>
+  
+    <!-- Self-reflection thought bubble -->
+    <g transform="translate(380,150)" opacity="0.6">
+    <circle cx="0" cy="0" r="30" fill="#ffffff" stroke="#e1bee7" stroke-width="2"/>
+    <circle cx="-15" cy="25" r="8" fill="#ffffff" stroke="#e1bee7" stroke-width="1"/>
+    <circle cx="-8" cy="35" r="4" fill="#ffffff" stroke="#e1bee7" stroke-width="1"/>
+    <!-- Thought content -->
+    <text x="0" y="5" font-family="serif" font-size="12" text-anchor="middle" fill="#7b1fa2">自分</text>
+    </g>
+  
+    <!-- Meditation pose -->
+    <g transform="translate(100,380)" opacity="0.7">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="12" fill="#ffdbcb"/>
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="15" ry="20" fill="#7b1fa2"/>
+    <!-- Crossed legs -->
+    <ellipse cx="-8" cy="35" rx="8" ry="12" fill="#7b1fa2" transform="rotate(-30)"/>
+    <ellipse cx="8" cy="35" rx="8" ry="12" fill="#7b1fa2" transform="rotate(30)"/>
+    <!-- Hands in meditation -->
+    <circle cx="-8" cy="15" r="4" fill="#ffdbcb"/>
+    <circle cx="8" cy="15" r="4" fill="#ffdbcb"/>
+    </g>
+  
+    <!-- Water reflection -->
+    <g transform="translate(380,350)" opacity="0.5">
+    <ellipse cx="0" cy="0" rx="40" ry="15" fill="#2196f3" opacity="0.3"/>
+    <!-- Reflected figure -->
+    <g transform="scale(1,-0.5)" opacity="0.6">
+      <circle cx="0" cy="-20" r="8" fill="#ffdbcb"/>
+      <rect x="-5" y="-10" width="10" height="15" fill="#9c27b0"/>
+    </g>
+    </g>
+  
+    <!-- Identity card -->
+    <g transform="translate(400,250)" opacity="0.8">
+    <rect x="0" y="0" width="30" height="40" rx="3" fill="#ffffff" stroke="#bdbdbd" stroke-width="1"/>
+    <!-- Photo -->
+    <rect x="5" y="5" width="20" height="15" fill="#ffdbcb"/>
+    <circle cx="12" cy="10" r="2" fill="#424242"/>
+    <circle cx="18" cy="10" r="2" fill="#424242"/>
+    <!-- Text lines -->
+    <g stroke="#424242" stroke-width="1">
+      <line x1="5" y1="25" x2="25" y2="25"/>
+      <line x1="5" y1="30" x2="25" y2="30"/>
+      <line x1="5" y1="35" x2="25" y2="35"/>
+    </g>
+    </g>
+  
+    <!-- Shadow -->
+    <g transform="translate(250,400)" opacity="0.4">
+    <ellipse cx="0" cy="0" rx="60" ry="20" fill="#424242"/>
+    <!-- Shadow figure -->
+    <g fill="#424242">
+      <circle cx="0" cy="-30" r="12"/>
+      <rect x="-8" y="-15" width="16" height="25"/>
+    </g>
+    </g>
+  
+    <!-- Fingerprint -->
+    <g transform="translate(100,150)" opacity="0.6">
+    <g stroke="#9c27b0" stroke-width="1" fill="none">
+      <ellipse cx="0" cy="0" rx="8" ry="12"/>
+      <ellipse cx="0" cy="0" rx="6" ry="9"/>
+      <ellipse cx="0" cy="0" rx="4" ry="6"/>
+      <ellipse cx="0" cy="0" rx="2" ry="3"/>
+    </g>
+    </g>
+  
+    <!-- Inner self symbol -->
+    <g transform="translate(380,100)" stroke="#7b1fa2" stroke-width="2" opacity="0.5" fill="none">
+    <circle cx="0" cy="0" r="15"/>
+    <circle cx="0" cy="0" r="8"/>
+    <circle cx="0" cy="0" r="3" fill="#7b1fa2"/>
+    </g>
+  
+    <!-- Mirror reflections -->
+    <g stroke="#e1bee7" stroke-width="2" opacity="0.3" fill="none">
+    <path d="M150 250 Q200 230 250 250"/>
+    <path d="M250 250 Q300 230 350 250"/>
+    </g>
+  
+    <!-- Consciousness waves -->
+    <g stroke="#ba68c8" stroke-width="2" opacity="0.4" fill="none">
+    <ellipse cx="250" cy="150" rx="80" ry="20"/>
+    <ellipse cx="250" cy="150" rx="120" ry="30"/>
+    <ellipse cx="250" cy="150" rx="160" ry="40"/>
+    </g>
+  
+    <!-- Kanji character 自 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#7b1fa2" opacity="0.8">自</text>
+    </g>
+  </g>
+</svg> 

@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad97" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="starGrad97" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd54f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffb300;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8f00;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="celestialGlow97" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff59d;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#fff59d;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="rayGrad97" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffecb3;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#ffd54f;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffc107;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad97)"/>
+  
+  <!-- Nine celestial stars plus seven cosmic rays representing 97 -->
+  <!-- Central master star -->
+  <g transform="translate(250,250)">
+  <circle cx="0" cy="0" r="100" fill="url(#celestialGlow97)" opacity="0.4"/>
+  
+  <!-- Main star points -->
+  <g fill="url(#starGrad97)" opacity="0.9">
+  <polygon points="0,-50 12,-15 50,-15 20,5 30,40 0,20 -30,40 -20,5 -50,-15 -12,-15"/>
+  
+  <!-- Inner star -->
+  <g fill="url(#rayGrad97)" opacity="0.7">
+    <polygon points="0,-35 8,-10 35,-10 14,3 21,28 0,14 -21,28 -14,3 -35,-10 -8,-10"/>
+    
+    <!-- Star core -->
+    <circle cx="0" cy="0" r="15" fill="#ff8f00"/>
+    <circle cx="0" cy="0" r="8" fill="#fff59d"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+    </g>
+  
+    <!-- Nine surrounding stars -->
+    <!-- Star 1: North -->
+    <g transform="translate(250,120)">
+    <g fill="url(#starGrad97)" opacity="0.8">
+      <polygon points="0,-25 6,-7 25,-7 10,2 15,20 0,10 -15,20 -10,2 -25,-7 -6,-7"/>
+    </g>
+    <circle cx="0" cy="0" r="8" fill="#ffb300"/>
+    <circle cx="0" cy="0" r="4" fill="#fff59d"/>
+    </g>
+  
+    <!-- Star 2: Northeast -->
+    <g transform="translate(380,150)">
+    <g fill="url(#starGrad97)" opacity="0.7">
+      <polygon points="0,-20 5,-6 20,-6 8,2 12,16 0,8 -12,16 -8,2 -20,-6 -5,-6"/>
+    </g>
+    <circle cx="0" cy="0" r="6" fill="#ffb300"/>
+    <circle cx="0" cy="0" r="3" fill="#fff59d"/>
+    </g>
+  
+    <!-- Star 3: East -->
+    <g transform="translate(420,250)">
+    <g fill="url(#starGrad97)" opacity="0.8">
+      <polygon points="0,-23 5,-7 23,-7 9,2 14,18 0,9 -14,18 -9,2 -23,-7 -5,-7"/>
+    </g>
+    <circle cx="0" cy="0" r="7" fill="#ffb300"/>
+    <circle cx="0" cy="0" r="3" fill="#fff59d"/>
+    </g>
+  
+    <!-- Star 4: Southeast -->
+    <g transform="translate(380,350)">
+    <g fill="url(#starGrad97)" opacity="0.7">
+      <polygon points="0,-20 5,-6 20,-6 8,2 12,16 0,8 -12,16 -8,2 -20,-6 -5,-6"/>
+    </g>
+    <circle cx="0" cy="0" r="6" fill="#ffb300"/>
+    <circle cx="0" cy="0" r="3" fill="#fff59d"/>
+    </g>
+  
+    <!-- Star 5: South -->
+    <g transform="translate(250,380)">
+    <g fill="url(#starGrad97)" opacity="0.8">
+      <polygon points="0,-25 6,-7 25,-7 10,2 15,20 0,10 -15,20 -10,2 -25,-7 -6,-7"/>
+    </g>
+    <circle cx="0" cy="0" r="8" fill="#ffb300"/>
+    <circle cx="0" cy="0" r="4" fill="#fff59d"/>
+    </g>
+  
+    <!-- Star 6: Southwest -->
+    <g transform="translate(120,350)">
+    <g fill="url(#starGrad97)" opacity="0.7">
+      <polygon points="0,-20 5,-6 20,-6 8,2 12,16 0,8 -12,16 -8,2 -20,-6 -5,-6"/>
+    </g>
+    <circle cx="0" cy="0" r="6" fill="#ffb300"/>
+    <circle cx="0" cy="0" r="3" fill="#fff59d"/>
+    </g>
+  
+    <!-- Star 7: West -->
+    <g transform="translate(80,250)">
+    <g fill="url(#starGrad97)" opacity="0.8">
+      <polygon points="0,-23 5,-7 23,-7 9,2 14,18 0,9 -14,18 -9,2 -23,-7 -5,-7"/>
+    </g>
+    <circle cx="0" cy="0" r="7" fill="#ffb300"/>
+    <circle cx="0" cy="0" r="3" fill="#fff59d"/>
+    </g>
+  
+    <!-- Star 8: Northwest -->
+    <g transform="translate(120,150)">
+    <g fill="url(#starGrad97)" opacity="0.7">
+      <polygon points="0,-20 5,-6 20,-6 8,2 12,16 0,8 -12,16 -8,2 -20,-6 -5,-6"/>
+    </g>
+    <circle cx="0" cy="0" r="6" fill="#ffb300"/>
+    <circle cx="0" cy="0" r="3" fill="#fff59d"/>
+    </g>
+  
+    <!-- Star 9: Upper center -->
+    <g transform="translate(250,180)">
+    <g fill="url(#starGrad97)" opacity="0.7">
+      <polygon points="0,-15 4,-4 15,-4 6,1 9,12 0,6 -9,12 -6,1 -15,-4 -4,-4"/>
+    </g>
+    <circle cx="0" cy="0" r="5" fill="#ffb300"/>
+    <circle cx="0" cy="0" r="2" fill="#fff59d"/>
+    </g>
+  
+    <!-- Seven cosmic rays emanating from central star -->
+    <!-- Ray 1: North -->
+    <g stroke="url(#rayGrad97)" stroke-width="4" fill="none" opacity="0.6">
+    <line x1="250" y1="200" x2="250" y2="80"/>
+    </g>
+  
+    <!-- Ray 2: Northeast -->
+    <g stroke="url(#rayGrad97)" stroke-width="4" fill="none" opacity="0.6">
+    <line x1="285" y1="215" x2="360" y2="140"/>
+    </g>
+  
+    <!-- Ray 3: East -->
+    <g stroke="url(#rayGrad97)" stroke-width="4" fill="none" opacity="0.6">
+    <line x1="300" y1="250" x2="420" y2="250"/>
+    </g>
+  
+    <!-- Ray 4: Southeast -->
+    <g stroke="url(#rayGrad97)" stroke-width="4" fill="none" opacity="0.6">
+    <line x1="285" y1="285" x2="360" y2="360"/>
+    </g>
+  
+    <!-- Ray 5: South -->
+    <g stroke="url(#rayGrad97)" stroke-width="4" fill="none" opacity="0.6">
+    <line x1="250" y1="300" x2="250" y2="420"/>
+    </g>
+  
+    <!-- Ray 6: Southwest -->
+    <g stroke="url(#rayGrad97)" stroke-width="4" fill="none" opacity="0.6">
+    <line x1="215" y1="285" x2="140" y2="360"/>
+    </g>
+  
+    <!-- Ray 7: West -->
+    <g stroke="url(#rayGrad97)" stroke-width="4" fill="none" opacity="0.6">
+    <line x1="200" y1="250" x2="80" y2="250"/>
+    </g>
+  
+    <!-- Stellar wind patterns -->
+    <g stroke="#ffd54f" stroke-width="2" fill="none" opacity="0.4">
+    <circle cx="250" cy="250" r="120"/>
+    <circle cx="250" cy="250" r="160"/>
+    <circle cx="250" cy="250" r="200"/>
+    </g>
+  
+    <!-- Cosmic dust particles -->
+    <g fill="#ffecb3" opacity="0.6">
+    <circle cx="150" cy="100" r="2"/>
+    <circle cx="350" cy="120" r="3"/>
+    <circle cx="150" cy="400" r="2"/>
+    <circle cx="350" cy="380" r="3"/>
+    <circle cx="50" cy="200" r="2"/>
+    <circle cx="450" cy="300" r="3"/>
+    <circle cx="300" cy="50" r="2"/>
+    <circle cx="200" cy="450" r="3"/>
+    <circle cx="100" cy="300" r="2"/>
+    <circle cx="400" cy="200" r="3"/>
+    </g>
+  
+    <!-- Stellar background nebula -->
+    <g stroke="#ffcc80" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M50 100 Q150 80 250 100"/>
+    <path d="M250 100 Q350 80 450 100"/>
+    <path d="M450 200 Q430 300 450 400"/>
+    <path d="M400 450 Q300 430 200 450"/>
+    <path d="M50 400 Q70 300 50 200"/>
+    </g>
+  
+    <!-- Solar flares -->
+    <g stroke="#ff8f00" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M250 200 Q230 150 250 100"/>
+    <path d="M300 250 Q350 230 400 250"/>
+    <path d="M250 300 Q270 350 250 400"/>
+    <path d="M200 250 Q150 270 100 250"/>
+    </g>
+  
+    <!-- Celestial sparkles -->
+    <g fill="#ffffff" opacity="0.8">
+    <path d="M90 90 L95 85 L100 90 L95 95 Z"/>
+    <path d="M410 90 L415 85 L420 90 L415 95 Z"/>
+    <path d="M90 410 L95 405 L100 410 L95 415 Z"/>
+    <path d="M410 410 L415 405 L420 410 L415 415 Z"/>
+    <path d="M250 60 L253 57 L256 60 L253 63 Z"/>
+    <path d="M250 440 L253 437 L256 440 L253 443 Z"/>
+    <path d="M60 250 L63 247 L66 250 L63 253 Z"/>
+    <path d="M440 250 L443 247 L446 250 L443 253 Z"/>
+    </g>
+  
+    <!-- Number "97" integrated -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#e65100" opacity="0.5">97</text>
+  
+    <!-- Kanji character 九十七 -->
+    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#e65100" opacity="0.9">九十七</text>
+    </g>
+  </g>
+</svg> 

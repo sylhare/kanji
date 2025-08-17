@@ -1,0 +1,246 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="flowerGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFB6C1"/>
+      <stop offset="50%" stop-color="#FF69B4"/>
+      <stop offset="100%" stop-color="#DC143C"/>
+    </radialGradient>
+    <linearGradient id="incenseGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#DEB887"/>
+      <stop offset="50%" stop-color="#CD853F"/>
+      <stop offset="100%" stop-color="#8B4513"/>
+    </linearGradient>
+    <radialGradient id="smokeGradient" cx="0.5" cy="1" r="0.8">
+      <stop offset="0%" stop-color="#E6E6FA"/>
+      <stop offset="50%" stop-color="#D3D3D3"/>
+      <stop offset="100%" stop-color="#A9A9A9"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#F0F8FF"/>
+  
+  <!-- Large rose -->
+  <circle cx="150" cy="200" r="30" fill="url(#flowerGradient)" stroke="#8B0000" stroke-width="2"/>
+  
+  <!-- Rose petals -->
+  <g fill="#FF69B4" stroke="#DC143C" stroke-width="1">
+  <ellipse cx="135" cy="185" rx="8" ry="12" transform="rotate(-30 135 185)"/>
+  <ellipse cx="165" cy="185" rx="8" ry="12" transform="rotate(30 165 185)"/>
+  <ellipse cx="135" cy="215" rx="8" ry="12" transform="rotate(30 135 215)"/>
+  <ellipse cx="165" cy="215" rx="8" ry="12" transform="rotate(-30 165 215)"/>
+  <ellipse cx="150" cy="170" rx="8" ry="12"/>
+  <ellipse cx="150" cy="230" rx="8" ry="12"/>
+  <ellipse cx="120" cy="200" rx="8" ry="12" transform="rotate(90 120 200)"/>
+  <ellipse cx="180" cy="200" rx="8" ry="12" transform="rotate(90 180 200)"/>
+  
+  <!-- Rose center -->
+  <circle cx="150" cy="200" r="15" fill="#FFB6C1"/>
+  <circle cx="150" cy="200" r="8" fill="#DC143C"/>
+  
+  <!-- Rose stem -->
+  <rect x="147" y="230" width="6" height="40" fill="#228B22"/>
+  
+  <!-- Rose leaves -->
+  <ellipse cx="140" cy="250" rx="8" ry="15" fill="#32CD32" stroke="#228B22" stroke-width="1" transform="rotate(-30 140 250)"/>
+  <ellipse cx="160" cy="255" rx="8" ry="15" fill="#32CD32" stroke="#228B22" stroke-width="1" transform="rotate(30 160 255)"/>
+  
+  <!-- Fragrance lines emanating from rose -->
+  <g stroke="#FF69B4" stroke-width="2" fill="none" opacity="0.6">
+  <path d="M120 180 Q110 170 100 180"/>
+  <path d="M180 180 Q190 170 200 180"/>
+  <path d="M130 160 Q125 145 130 130"/>
+  <path d="M170 160 Q175 145 170 130"/>
+  <path d="M110 200 Q95 195 80 200"/>
+  <path d="M190 200 Q205 195 220 200"/>
+  
+    <!-- Incense sticks -->
+    <rect x="300" y="150" width="3" height="80" fill="url(#incenseGradient)"/>
+    <rect x="308" y="145" width="3" height="85" fill="url(#incenseGradient)"/>
+    <rect x="316" y="150" width="3" height="80" fill="url(#incenseGradient)"/>
+  
+    <!-- Incense tips glowing -->
+    <circle cx="301.5" cy="148" r="2" fill="#FF4500"/>
+    <circle cx="309.5" cy="143" r="2" fill="#FF4500"/>
+    <circle cx="317.5" cy="148" r="2" fill="#FF4500"/>
+  
+    <!-- Incense smoke -->
+    <g stroke="url(#smokeGradient)" stroke-width="3" fill="none" opacity="0.8">
+    <path d="M301.5 148 Q295 135 300 125 Q305 115 300 105 Q295 95 300 85"/>
+    <path d="M309.5 143 Q315 130 310 120 Q305 110 310 100 Q315 90 310 80"/>
+    <path d="M317.5 148 Q323 135 318 125 Q313 115 318 105 Q323 95 318 85"/>
+    </g>
+  
+    <!-- Incense holder -->
+    <ellipse cx="312" cy="240" rx="20" ry="8" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+    <rect x="292" y="235" width="40" height="5" fill="#CD853F"/>
+  
+    <!-- Ash on holder -->
+    <g fill="#A9A9A9" opacity="0.6">
+    <ellipse cx="300" cy="235" rx="2" ry="1"/>
+    <ellipse cx="310" cy="237" rx="3" ry="1"/>
+    <ellipse cx="320" cy="236" rx="2" ry="1"/>
+    </g>
+  
+    <!-- Perfume bottle -->
+    <rect x="50" y="320" width="30" height="40" rx="5" fill="#E6E6FA" stroke="#9370DB" stroke-width="2"/>
+    <ellipse cx="65" cy="315" rx="12" ry="8" fill="#E6E6FA" stroke="#9370DB" stroke-width="2"/>
+    <rect x="62" y="305" width="6" height="15" fill="#E6E6FA"/>
+  
+    <!-- Perfume liquid -->
+    <rect x="55" y="340" width="20" height="15" fill="#FFD700" opacity="0.7"/>
+  
+    <!-- Perfume spray -->
+    <circle cx="68" cy="300" r="2" fill="#A9A9A9"/>
+  
+    <!-- Perfume mist -->
+    <g fill="#FFD700" opacity="0.5">
+    <circle cx="75" cy="290" r="1"/>
+    <circle cx="80" cy="285" r="1.5"/>
+    <circle cx="85" cy="280" r="1"/>
+    <circle cx="90" cy="275" r="1.5"/>
+    <circle cx="95" cy="270" r="1"/>
+    </g>
+  
+    <!-- Lavender plant -->
+    <rect x="250" y="280" width="4" height="60" fill="#228B22"/>
+  
+    <!-- Lavender flowers -->
+    <g fill="#9370DB" stroke="#4B0082" stroke-width="1">
+    <ellipse cx="252" cy="270" rx="3" ry="8"/>
+    <ellipse cx="250" cy="260" rx="2" ry="6"/>
+    <ellipse cx="254" cy="250" rx="2" ry="6"/>
+    <ellipse cx="251" cy="240" rx="3" ry="8"/>
+    </g>
+  
+    <!-- Lavender scent lines -->
+    <g stroke="#9370DB" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M260 250 Q270 245 280 250"/>
+    <path d="M240 260 Q230 255 220 260"/>
+    <path d="M255 230 Q265 220 270 210"/>
+    </g>
+  
+    <!-- Essential oil bottle -->
+    <ellipse cx="380" cy="350" rx="8" ry="20" fill="#228B22" stroke="#006400" stroke-width="2"/>
+    <circle cx="380" cy="330" r="6" fill="#8B4513"/>
+  
+    <!-- Oil drop -->
+    <ellipse cx="385" cy="325" rx="2" ry="3" fill="#32CD32"/>
+  
+    <!-- Jasmine flowers -->
+    <g fill="#FFFAF0" stroke="#F0E68C" stroke-width="1">
+    <circle cx="100" cy="100" r="8"/>
+    <circle cx="120" cy="95" r="6"/>
+    <circle cx="140" cy="100" r="7"/>
+    </g>
+  
+    <!-- Jasmine petals -->
+    <g fill="#FFF">
+    <ellipse cx="95" cy="95" rx="3" ry="5" transform="rotate(0 95 95)"/>
+    <ellipse cx="105" cy="95" rx="3" ry="5" transform="rotate(60 105 95)"/>
+    <ellipse cx="105" cy="105" rx="3" ry="5" transform="rotate(120 105 105)"/>
+    <ellipse cx="95" cy="105" rx="3" ry="5" transform="rotate(180 95 105)"/>
+    <ellipse cx="85" cy="105" rx="3" ry="5" transform="rotate(240 85 105)"/>
+    <ellipse cx="85" cy="95" rx="3" ry="5" transform="rotate(300 85 95)"/>
+    </g>
+  
+    <!-- Jasmine center -->
+    <circle cx="100" cy="100" r="2" fill="#FFD700"/>
+  
+    <!-- Candle with aromatic scent -->
+    <rect x="350" y="200" width="15" height="30" fill="#FFFAF0" stroke="#F5DEB3" stroke-width="2"/>
+  
+    <!-- Candle flame -->
+    <ellipse cx="357.5" cy="195" rx="3" ry="8" fill="#FFD700"/>
+    <ellipse cx="357.5" cy="190" rx="2" ry="5" fill="#FF4500"/>
+  
+    <!-- Candle wax drip -->
+    <ellipse cx="360" cy="225" rx="2" ry="8" fill="#F5DEB3"/>
+  
+    <!-- Aromatic smoke from candle -->
+    <g stroke="#E6E6FA" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M357.5 185 Q355 175 360 165 Q365 155 360 145"/>
+    </g>
+  
+    <!-- Vanilla pods -->
+    <rect x="180" y="300" width="3" height="25" fill="#8B4513" rx="1.5" transform="rotate(15 181.5 312.5)"/>
+    <rect x="190" y="305" width="3" height="25" fill="#654321" rx="1.5" transform="rotate(-10 191.5 317.5)"/>
+  
+    <!-- Vanilla seeds visible -->
+    <g fill="#000" opacity="0.6">
+    <circle cx="180" cy="310" r="0.5"/>
+    <circle cx="181" cy="315" r="0.5"/>
+    <circle cx="180" cy="320" r="0.5"/>
+    
+    <circle cx="192" cy="315" r="0.5"/>
+    <circle cx="191" cy="320" r="0.5"/>
+    <circle cx="192" cy="325" r="0.5"/>
+    </g>
+  
+    <!-- Orange with citrus scent -->
+    <circle cx="300" cy="300" r="20" fill="#FFA500" stroke="#FF8C00" stroke-width="2"/>
+  
+    <!-- Orange peel texture -->
+    <g fill="#FF8C00" opacity="0.6">
+    <circle cx="295" cy="295" r="1"/>
+    <circle cx="305" cy="295" r="1"/>
+    <circle cx="290" cy="305" r="1"/>
+    <circle cx="310" cy="305" r="1"/>
+    <circle cx="300" cy="290" r="1"/>
+    <circle cx="300" cy="310" r="1"/>
+    </g>
+  
+    <!-- Citrus scent -->
+    <g stroke="#FFA500" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M280 290 Q270 285 260 290"/>
+    <path d="M320 290 Q330 285 340 290"/>
+    <path d="M300 270 Q305 260 310 250"/>
+    </g>
+  
+    <!-- Potpourri bowl -->
+    <ellipse cx="200" cy="350" rx="40" ry="20" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+    <ellipse cx="200" cy="345" rx="35" ry="15" fill="#DEB887"/>
+  
+    <!-- Potpourri ingredients -->
+    <g fill="#DC143C">
+    <ellipse cx="190" cy="340" rx="2" ry="3"/>
+    <ellipse cx="210" cy="342" rx="2" ry="3"/>
+    <ellipse cx="185" cy="350" rx="2" ry="3"/>
+    <ellipse cx="215" cy="348" rx="2" ry="3"/>
+    </g>
+  
+    <g fill="#9370DB">
+    <circle cx="195" cy="345" r="2"/>
+    <circle cx="205" cy="340" r="2"/>
+    <circle cx="200" cy="350" r="2"/>
+    </g>
+  
+    <g fill="#32CD32">
+    <ellipse cx="180" cy="345" rx="3" ry="1"/>
+    <ellipse cx="220" cy="345" rx="3" ry="1"/>
+    <ellipse cx="200" cy="338" rx="3" ry="1"/>
+    </g>
+  
+    <!-- Fragrance molecules floating -->
+    <g fill="#FF69B4" opacity="0.4">
+    <circle cx="120" cy="150" r="2"/>
+    <circle cx="280" cy="180" r="2"/>
+    <circle cx="80" cy="250" r="2"/>
+    <circle cx="320" cy="120" r="2"/>
+    <circle cx="150" cy="80" r="2"/>
+    <circle cx="350" cy="280" r="2"/>
+    </g>
+  
+    <!-- Aroma swirls -->
+    <g stroke="#FFB6C1" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M50 150 Q60 140 70 150 Q80 160 90 150"/>
+    <path d="M310 50 Q320 40 330 50 Q340 60 350 50"/>
+    <path d="M250 100 Q260 90 270 100 Q280 110 290 100"/>
+    </g>
+  
+    <!-- Chinese character -->
+    <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#9370DB">香</text>
+  
+    <!-- Title -->
+    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4B0082">FRAGRANCE &amp; AROMA</text>
+    </g>
+  </g>
+</svg> 

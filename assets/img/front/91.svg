@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad91" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phoenixGrad91" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6f00;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff8f00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffb300;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="rebirthGlow91" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff176;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#fff176;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="featherGrad91" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffecb3;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffd54f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffc107;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad91)"/>
+  
+  <!-- Nine ascending phoenix feathers plus one divine flame representing 91 -->
+  <!-- Central divine flame -->
+  <g transform="translate(250,200)">
+  <circle cx="0" cy="0" r="80" fill="url(#rebirthGlow91)" opacity="0.4"/>
+  
+  <!-- Sacred flame -->
+  <ellipse cx="0" cy="20" rx="30" ry="90" fill="url(#phoenixGrad91)" opacity="0.9"/>
+  <ellipse cx="0" cy="10" rx="22" ry="70" fill="url(#featherGrad91)" opacity="0.8"/>
+  <ellipse cx="0" cy="0" rx="15" ry="50" fill="#fff59d" opacity="0.7"/>
+  
+  <!-- Divine core -->
+  <ellipse cx="0" cy="-15" rx="10" ry="30" fill="#ffffff" opacity="0.6"/>
+  <circle cx="0" cy="-25" r="8" fill="#ffeb3b"/>
+  
+  <!-- Nine ascending phoenix feathers -->
+  <!-- Feather 1: Bottom left -->
+  <g transform="translate(120,380) rotate(-30)">
+  <ellipse cx="0" cy="0" rx="15" ry="50" fill="url(#phoenixGrad91)" opacity="0.8"/>
+  <ellipse cx="0" cy="0" rx="10" ry="35" fill="url(#featherGrad91)" opacity="0.6"/>
+  <ellipse cx="0" cy="-12" rx="5" ry="20" fill="#fff59d" opacity="0.5"/>
+  
+    <!-- Feather 2: Bottom -->
+    <g transform="translate(200,400) rotate(0)">
+    <ellipse cx="0" cy="0" rx="15" ry="50" fill="url(#phoenixGrad91)" opacity="0.8"/>
+    <ellipse cx="0" cy="0" rx="10" ry="35" fill="url(#featherGrad91)" opacity="0.6"/>
+    <ellipse cx="0" cy="-12" rx="5" ry="20" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Feather 3: Bottom right -->
+    <g transform="translate(300,400) rotate(0)">
+    <ellipse cx="0" cy="0" rx="15" ry="50" fill="url(#phoenixGrad91)" opacity="0.8"/>
+    <ellipse cx="0" cy="0" rx="10" ry="35" fill="url(#featherGrad91)" opacity="0.6"/>
+    <ellipse cx="0" cy="-12" rx="5" ry="20" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Feather 4: Right bottom -->
+    <g transform="translate(380,380) rotate(30)">
+    <ellipse cx="0" cy="0" rx="15" ry="50" fill="url(#phoenixGrad91)" opacity="0.8"/>
+    <ellipse cx="0" cy="0" rx="10" ry="35" fill="url(#featherGrad91)" opacity="0.6"/>
+    <ellipse cx="0" cy="-12" rx="5" ry="20" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Feather 5: Left middle -->
+    <g transform="translate(100,280) rotate(-20)">
+    <ellipse cx="0" cy="0" rx="13" ry="45" fill="url(#phoenixGrad91)" opacity="0.8"/>
+    <ellipse cx="0" cy="0" rx="9" ry="32" fill="url(#featherGrad91)" opacity="0.6"/>
+    <ellipse cx="0" cy="-10" rx="4" ry="18" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Feather 6: Right middle -->
+    <g transform="translate(400,280) rotate(20)">
+    <ellipse cx="0" cy="0" rx="13" ry="45" fill="url(#phoenixGrad91)" opacity="0.8"/>
+    <ellipse cx="0" cy="0" rx="9" ry="32" fill="url(#featherGrad91)" opacity="0.6"/>
+    <ellipse cx="0" cy="-10" rx="4" ry="18" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Feather 7: Left upper -->
+    <g transform="translate(120,180) rotate(-15)">
+    <ellipse cx="0" cy="0" rx="12" ry="40" fill="url(#phoenixGrad91)" opacity="0.8"/>
+    <ellipse cx="0" cy="0" rx="8" ry="28" fill="url(#featherGrad91)" opacity="0.6"/>
+    <ellipse cx="0" cy="-8" rx="4" ry="15" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Feather 8: Right upper -->
+    <g transform="translate(380,180) rotate(15)">
+    <ellipse cx="0" cy="0" rx="12" ry="40" fill="url(#phoenixGrad91)" opacity="0.8"/>
+    <ellipse cx="0" cy="0" rx="8" ry="28" fill="url(#featherGrad91)" opacity="0.6"/>
+    <ellipse cx="0" cy="-8" rx="4" ry="15" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Feather 9: Top center -->
+    <g transform="translate(250,100) rotate(0)">
+    <ellipse cx="0" cy="0" rx="10" ry="35" fill="url(#phoenixGrad91)" opacity="0.8"/>
+    <ellipse cx="0" cy="0" rx="7" ry="25" fill="url(#featherGrad91)" opacity="0.6"/>
+    <ellipse cx="0" cy="-6" rx="3" ry="12" fill="#fff59d" opacity="0.5"/>
+    </g>
+  
+    <!-- Rising thermal currents -->
+    <g stroke="url(#featherGrad91)" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M120 420 Q140 350 160 280"/>
+    <path d="M200 440 Q220 370 240 300"/>
+    <path d="M300 440 Q280 370 260 300"/>
+    <path d="M380 420 Q360 350 340 280"/>
+    <path d="M100 320 Q130 250 160 180"/>
+    <path d="M400 320 Q370 250 340 180"/>
+    <path d="M120 220 Q160 150 200 100"/>
+    <path d="M380 220 Q340 150 300 100"/>
+    <path d="M250 140 Q250 110 250 80"/>
+    </g>
+  
+    <!-- Rebirth energy waves -->
+    <g stroke="#ffb300" stroke-width="2" fill="none" opacity="0.4">
+    <circle cx="250" cy="250" r="120"/>
+    <circle cx="250" cy="250" r="160"/>
+    <circle cx="250" cy="250" r="200"/>
+    </g>
+  
+    <!-- Phoenix essence particles -->
+    <g fill="#ffc107" opacity="0.6">
+    <circle cx="150" cy="150" r="3"/>
+    <circle cx="350" cy="150" r="2"/>
+    <circle cx="150" cy="350" r="3"/>
+    <circle cx="350" cy="350" r="2"/>
+    <circle cx="80" cy="250" r="2"/>
+    <circle cx="420" cy="250" r="3"/>
+    <circle cx="250" cy="60" r="2"/>
+    <circle cx="250" cy="440" r="3"/>
+    <circle cx="180" cy="100" r="2"/>
+    <circle cx="320" cy="100" r="3"/>
+    <circle cx="180" cy="400" r="3"/>
+    <circle cx="320" cy="400" r="2"/>
+    </g>
+  
+    <!-- Ethereal smoke trails -->
+    <g stroke="#ffcc80" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M50 100 Q100 80 150 100"/>
+    <path d="M350 100 Q400 80 450 100"/>
+    <path d="M450 200 Q430 250 450 300"/>
+    <path d="M400 450 Q350 430 300 450"/>
+    <path d="M50 400 Q100 420 150 400"/>
+    <path d="M50 300 Q70 250 50 200"/>
+    </g>
+  
+    <!-- Transformation sparkles -->
+    <g fill="#ffffff" opacity="0.8">
+    <path d="M90 90 L95 85 L100 90 L95 95 Z"/>
+    <path d="M410 90 L415 85 L420 90 L415 95 Z"/>
+    <path d="M90 410 L95 405 L100 410 L95 415 Z"/>
+    <path d="M410 410 L415 405 L420 410 L415 415 Z"/>
+    <path d="M250 40 L253 37 L256 40 L253 43 Z"/>
+    <path d="M250 460 L253 457 L256 460 L253 463 Z"/>
+    </g>
+  
+    <!-- Number "91" integrated -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="300" text-anchor="middle" fill="#e65100" opacity="0.5">91</text>
+  
+    <!-- Kanji character 九十一 -->
+    <text x="80" y="50" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#e65100" opacity="0.9">九十一</text>
+    </g>
+  </g>
+</svg> 

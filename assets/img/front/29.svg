@@ -1,0 +1,306 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad29" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4ec;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8bbd9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="handGrad29" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec407a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e91e63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ad1457;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="gestureGrad29" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#f06292;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec407a;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="cyclicalGrad29" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f48fb1;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#f06292;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#ec407a;stop-opacity:0.8" />
+    </linearGradient>
+    <radialGradient id="glowGrad29" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#f8bbd9;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#f8bbd9;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="movementGrad29" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4ec;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f8bbd9;stop-opacity:0.7" />
+    </linearGradient>
+    <filter id="motion29">
+      <feMotionBlur in="SourceGraphic" dx="2" dy="0" stdDeviation="1"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad29)"/>
+  
+  <!-- Graceful movement aura -->
+  <ellipse cx="250" cy="250" rx="200" ry="160" fill="url(#glowGrad29)"/>
+  
+  <!-- Main right hand representing 又 -->
+  <g transform="translate(250,200)" opacity="0.95">
+  <!-- Palm -->
+  <ellipse cx="0" cy="0" rx="20" ry="30" fill="url(#handGrad29)" stroke="#ad1457" stroke-width="2"/>
+  
+  <!-- Palm interior -->
+  <ellipse cx="0" cy="0" rx="15" ry="25" fill="url(#gestureGrad29)" opacity="0.8"/>
+  
+  <!-- Palm lines -->
+  <g stroke="#ad1457" stroke-width="1" fill="none" opacity="0.7">
+  <path d="M-8,-15 Q0,-10 8,-12"/>
+  <path d="M-6,-5 Q2,0 10,-2"/>
+  <path d="M-10,5 Q0,8 8,5"/>
+  
+  <!-- Fingers -->
+  <!-- Thumb -->
+  <ellipse cx="-18" cy="-5" rx="5" ry="15" fill="url(#handGrad29)" stroke="#ad1457" stroke-width="1" transform="rotate(-30 -18 -5)"/>
+  
+  <!-- Index finger -->
+  <ellipse cx="8" cy="-25" rx="4" ry="12" fill="url(#handGrad29)" stroke="#ad1457" stroke-width="1"/>
+  
+  <!-- Middle finger (extended upward) -->
+  <ellipse cx="2" cy="-30" rx="4" ry="15" fill="url(#handGrad29)" stroke="#ad1457" stroke-width="1"/>
+  
+  <!-- Ring finger -->
+  <ellipse cx="-4" cy="-28" rx="4" ry="13" fill="url(#handGrad29)" stroke="#ad1457" stroke-width="1"/>
+  
+  <!-- Pinky -->
+  <ellipse cx="-10" cy="-25" rx="3" ry="10" fill="url(#handGrad29)" stroke="#ad1457" stroke-width="1"/>
+  
+  <!-- Hand highlights -->
+  <g fill="#f48fb1" opacity="0.8">
+    <ellipse cx="-3" cy="-8" rx="6" ry="10"/>
+    <ellipse cx="3" cy="-25" rx="2" ry="8"/>
+    <ellipse cx="-2" cy="-25" rx="2" ry="7"/>
+    
+    <!-- Motion lines showing "again" movement -->
+    <g stroke="#f06292" stroke-width="2" fill="none" opacity="0.6">
+      <path d="M25,0 Q35,-10 45,0" stroke-dasharray="3,3"/>
+      <path d="M25,5 Q35,-5 45,5" stroke-dasharray="3,3"/>
+      <path d="M25,10 Q35,0 45,10" stroke-dasharray="3,3"/>
+    </g>
+    </g>
+  
+    <!-- Repetitive hand gestures showing "again" -->
+    <g transform="translate(120,150)" opacity="0.8">
+    <!-- First gesture -->
+    <g>
+      <ellipse cx="0" cy="0" rx="15" ry="20" fill="url(#gestureGrad29)" opacity="0.7"/>
+      <!-- Fingers in greeting -->
+      <g fill="#f06292" opacity="0.9">
+        <ellipse cx="5" cy="-15" rx="2" ry="8"/>
+        <ellipse cx="1" cy="-17" rx="2" ry="9"/>
+        <ellipse cx="-3" cy="-16" rx="2" ry="8"/>
+        <ellipse cx="-7" cy="-14" rx="2" ry="7"/>
+      </g>
+    </g>
+    
+    <!-- Arrow showing repetition -->
+    <g stroke="#ec407a" stroke-width="2" fill="none" opacity="0.7">
+      <path d="M20,0 Q30,-5 40,0"/>
+      <path d="M35,-3 L40,0 L35,3"/>
+    </g>
+    
+    <!-- Second identical gesture (showing "again") -->
+    <g transform="translate(50,0)" opacity="0.6">
+      <ellipse cx="0" cy="0" rx="15" ry="20" fill="url(#gestureGrad29)" opacity="0.7"/>
+      <g fill="#f06292" opacity="0.9">
+        <ellipse cx="5" cy="-15" rx="2" ry="8"/>
+        <ellipse cx="1" cy="-17" rx="2" ry="9"/>
+        <ellipse cx="-3" cy="-16" rx="2" ry="8"/>
+        <ellipse cx="-7" cy="-14" rx="2" ry="7"/>
+      </g>
+    </g>
+    </g>
+  
+    <!-- Cyclical movement pattern -->
+    <g transform="translate(350,180)" opacity="0.7">
+    <!-- Circular motion path -->
+    <circle cx="0" cy="0" r="25" fill="none" stroke="url(#cyclicalGrad29)" stroke-width="4" stroke-dasharray="8,4"/>
+    
+    <!-- Hand positions around circle -->
+    <g fill="#f06292" opacity="0.8">
+      <!-- Top -->
+      <ellipse cx="0" cy="-25" rx="6" ry="10"/>
+      <!-- Right -->
+      <ellipse cx="25" cy="0" rx="6" ry="10" transform="rotate(90 25 0)"/>
+      <!-- Bottom -->
+      <ellipse cx="0" cy="25" rx="6" ry="10" transform="rotate(180 0 25)"/>
+      <!-- Left -->
+      <ellipse cx="-25" cy="0" rx="6" ry="10" transform="rotate(270 -25 0)"/>
+    </g>
+    
+    <!-- Directional arrows -->
+    <g stroke="#ad1457" stroke-width="2" fill="#ad1457" opacity="0.7">
+      <path d="M15,-20 L18,-18 L15,-15" transform="rotate(45 15 -20)"/>
+      <path d="M20,15 L18,18 L15,15" transform="rotate(135 20 15)"/>
+      <path d="M-15,20 L-18,18 L-15,15" transform="rotate(225 -15 20)"/>
+      <path d="M-20,-15 L-18,-18 L-15,-15" transform="rotate(315 -20 -15)"/>
+    </g>
+    </g>
+  
+    <!-- Repetitive action sequence -->
+    <g transform="translate(150,320)" opacity="0.8">
+    <!-- Action 1: Reaching -->
+    <g>
+      <ellipse cx="0" cy="0" rx="12" ry="18" fill="url(#handGrad29)" opacity="0.8"/>
+      <ellipse cx="8" cy="-12" rx="3" ry="8" fill="#f06292"/>
+      <ellipse cx="4" cy="-14" rx="3" ry="9" fill="#f06292"/>
+      <ellipse cx="0" cy="-13" rx="3" ry="8" fill="#f06292"/>
+    </g>
+    
+    <!-- Pause symbol -->
+    <g transform="translate(25,0)" fill="#ec407a" opacity="0.6">
+      <rect x="0" y="-5" width="2" height="10" rx="1"/>
+      <rect x="4" y="-5" width="2" height="10" rx="1"/>
+    </g>
+    
+    <!-- Action 2: Same reaching (again) -->
+    <g transform="translate(40,0)" opacity="0.7">
+      <ellipse cx="0" cy="0" rx="12" ry="18" fill="url(#handGrad29)" opacity="0.8"/>
+      <ellipse cx="8" cy="-12" rx="3" ry="8" fill="#f06292"/>
+      <ellipse cx="4" cy="-14" rx="3" ry="9" fill="#f06292"/>
+      <ellipse cx="0" cy="-13" rx="3" ry="8" fill="#f06292"/>
+    </g>
+    
+    <!-- Pause symbol -->
+    <g transform="translate(65,0)" fill="#ec407a" opacity="0.6">
+      <rect x="0" y="-5" width="2" height="10" rx="1"/>
+      <rect x="4" y="-5" width="2" height="10" rx="1"/>
+    </g>
+    
+    <!-- Action 3: Again -->
+    <g transform="translate(80,0)" opacity="0.6">
+      <ellipse cx="0" cy="0" rx="12" ry="18" fill="url(#handGrad29)" opacity="0.8"/>
+      <ellipse cx="8" cy="-12" rx="3" ry="8" fill="#f06292"/>
+      <ellipse cx="4" cy="-14" rx="3" ry="9" fill="#f06292"/>
+      <ellipse cx="0" cy="-13" rx="3" ry="8" fill="#f06292"/>
+    </g>
+    </g>
+  
+    <!-- Hand writing/calligraphy showing repetition -->
+    <g transform="translate(80,250)" opacity="0.7">
+    <!-- Writing surface -->
+    <rect x="0" y="0" width="100" height="60" rx="5" fill="#fce4ec" stroke="#ec407a" stroke-width="1" opacity="0.6"/>
+    
+    <!-- Hand holding brush -->
+    <g transform="translate(80,15)">
+      <ellipse cx="0" cy="0" rx="8" ry="12" fill="url(#handGrad29)"/>
+      <!-- Fingers gripping -->
+      <ellipse cx="3" cy="-8" rx="2" ry="5" fill="#f06292"/>
+      <ellipse cx="0" cy="-9" rx="2" ry="6" fill="#f06292"/>
+      <ellipse cx="-3" cy="-8" rx="2" ry="5" fill="#f06292"/>
+      
+      <!-- Brush -->
+      <rect x="-1" y="-15" width="2" height="20" rx="1" fill="#8d6e63"/>
+      <ellipse cx="0" cy="-25" rx="3" ry="8" fill="#424242"/>
+    </g>
+    
+    <!-- Repeated characters being written -->
+    <g fill="#ad1457" opacity="0.8">
+      <text x="15" y="30" font-family="serif" font-size="16">又</text>
+      <text x="35" y="30" font-family="serif" font-size="16" opacity="0.7">又</text>
+      <text x="55" y="30" font-family="serif" font-size="16" opacity="0.5">又</text>
+    </g>
+    </g>
+  
+    <!-- Rhythmic clapping hands -->
+    <g transform="translate(380,320)" opacity="0.8">
+    <!-- Left hand -->
+    <ellipse cx="-10" cy="0" rx="8" ry="15" fill="url(#gestureGrad29)" transform="rotate(-15 -10 0)"/>
+    <g fill="#f48fb1" opacity="0.9">
+      <ellipse cx="-15" cy="-10" rx="2" ry="6" transform="rotate(-15 -15 -10)"/>
+      <ellipse cx="-12" cy="-12" rx="2" ry="7" transform="rotate(-15 -12 -12)"/>
+      <ellipse cx="-9" cy="-11" rx="2" ry="6" transform="rotate(-15 -9 -11)"/>
+      <ellipse cx="-6" cy="-9" rx="2" ry="5" transform="rotate(-15 -6 -9)"/>
+    </g>
+    
+    <!-- Right hand -->
+    <ellipse cx="10" cy="0" rx="8" ry="15" fill="url(#gestureGrad29)" transform="rotate(15 10 0)"/>
+    <g fill="#f48fb1" opacity="0.9">
+      <ellipse cx="15" cy="-10" rx="2" ry="6" transform="rotate(15 15 -10)"/>
+      <ellipse cx="12" cy="-12" rx="2" ry="7" transform="rotate(15 12 -12)"/>
+      <ellipse cx="9" cy="-11" rx="2" ry="6" transform="rotate(15 9 -11)"/>
+      <ellipse cx="6" cy="-9" rx="2" ry="5" transform="rotate(15 6 -9)"/>
+    </g>
+    
+    <!-- Sound waves from clapping -->
+    <g stroke="#f06292" stroke-width="2" fill="none" opacity="0.5">
+      <circle cx="0" cy="0" r="20"/>
+      <circle cx="0" cy="0" r="30" opacity="0.7"/>
+      <circle cx="0" cy="0" r="40" opacity="0.4"/>
+    </g>
+    </g>
+  
+    <!-- Body movement sequence -->
+    <g transform="translate(50,120)" opacity="0.6">
+    <!-- Figure 1 -->
+    <g>
+      <circle cx="0" cy="-20" r="8" fill="#f06292"/>
+      <rect x="-3" y="-12" width="6" height="25" rx="3" fill="url(#handGrad29)"/>
+      <!-- Arms -->
+      <rect x="-15" y="-5" width="12" height="4" rx="2" fill="url(#handGrad29)" transform="rotate(-20 -9 -3)"/>
+      <rect x="3" y="-5" width="12" height="4" rx="2" fill="url(#handGrad29)" transform="rotate(20 9 -3)"/>
+    </g>
+    
+    <!-- Arrow -->
+    <g stroke="#ec407a" stroke-width="2" fill="none" opacity="0.7" transform="translate(25,0)">
+      <path d="M0,0 L15,0"/>
+      <path d="M12,-3 L15,0 L12,3"/>
+    </g>
+    
+    <!-- Figure 2 (repeated motion) -->
+    <g transform="translate(50,0)" opacity="0.8">
+      <circle cx="0" cy="-20" r="8" fill="#f06292"/>
+      <rect x="-3" y="-12" width="6" height="25" rx="3" fill="url(#handGrad29)"/>
+      <!-- Arms in different position -->
+      <rect x="-15" y="-8" width="12" height="4" rx="2" fill="url(#handGrad29)" transform="rotate(-40 -9 -6)"/>
+      <rect x="3" y="-8" width="12" height="4" rx="2" fill="url(#handGrad29)" transform="rotate(40 9 -6)"/>
+    </g>
+    </g>
+  
+    <!-- Repetition sparkles -->
+    <g fill="#f48fb1" opacity="0.7">
+    <path d="M180 100 L190 90 L200 100 L190 110 Z"/>
+    <path d="M320 140 L330 130 L340 140 L330 150 Z"/>
+    <path d="M160 380 L165 375 L170 380 L165 385 Z"/>
+    <path d="M380 200 L385 195 L390 200 L385 205 Z"/>
+    <path d="M120 280 L125 275 L130 280 L125 285 Z"/>
+    </g>
+  
+    <!-- Motion trails -->
+    <g stroke="#f48fb1" stroke-width="3" fill="none" opacity="0.4">
+    <path d="M100 200 Q150 180 200 200" stroke-dasharray="5,10"/>
+    <path d="M300 350 Q350 330 400 350" stroke-dasharray="5,10"/>
+    <path d="M200 100 Q220 150 240 200" stroke-dasharray="5,10"/>
+    </g>
+  
+    <!-- Repetitive pattern elements -->
+    <g fill="#ec407a" opacity="0.3">
+    <circle cx="100" cy="100" r="3"/>
+    <circle cx="120" cy="100" r="3"/>
+    <circle cx="140" cy="100" r="3"/>
+    
+    <circle cx="300" cy="450" r="3"/>
+    <circle cx="320" cy="450" r="3"/>
+    <circle cx="340" cy="450" r="3"/>
+    
+    <circle cx="450" cy="200" r="3"/>
+    <circle cx="450" cy="220" r="3"/>
+    <circle cx="450" cy="240" r="3"/>
+    </g>
+  
+    <!-- Gesture flow lines -->
+    <g stroke="#f06292" stroke-width="2" fill="none" opacity="0.5" stroke-dasharray="8,4">
+    <path d="M150 250 Q200 230 250 250 Q300 270 350 250"/>
+    <path d="M250 150 Q270 200 250 250"/>
+    </g>
+  
+    <!-- Number indicator -->
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#ad1457" opacity="0.4">29</text>
+  
+    <!-- Kanji character 又 -->
+    <text x="80" y="450" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#ad1457" opacity="0.8">又</text>
+    </g>
+  </g>
+</svg> 

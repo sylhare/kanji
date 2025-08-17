@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad13" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8eaf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c5cae9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="frameGrad13" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5c6bc0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3f51b5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#283593;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="innerGlow13" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#9fa8da;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#9fa8da;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="metalGrad13" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7986cb;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9fa8da;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7986cb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad13)"/>
+  
+  <!-- Inner glow effect -->
+  <rect x="150" y="150" width="200" height="200" fill="url(#innerGlow13)"/>
+  
+  <!-- Main enclosing frame (冂 shape) -->
+  <!-- Left border -->
+  <rect x="150" y="150" width="25" height="250" fill="url(#frameGrad13)" stroke="#1a237e" stroke-width="2"/>
+  
+  <!-- Right border -->
+  <rect x="325" y="150" width="25" height="250" fill="url(#frameGrad13)" stroke="#1a237e" stroke-width="2"/>
+  
+  <!-- Top connecting piece -->
+  <rect x="150" y="150" width="200" height="25" fill="url(#frameGrad13)" stroke="#1a237e" stroke-width="2"/>
+  
+  <!-- Metallic shine on borders -->
+  <rect x="155" y="150" width="8" height="250" fill="url(#metalGrad13)" opacity="0.7"/>
+  <rect x="337" y="150" width="8" height="250" fill="url(#metalGrad13)" opacity="0.7"/>
+  <rect x="150" y="155" width="200" height="8" fill="url(#metalGrad13)" opacity="0.7"/>
+  
+  <!-- Corner reinforcements -->
+  <circle cx="162" cy="162" r="10" fill="#1a237e"/>
+  <circle cx="337" cy="162" r="10" fill="#1a237e"/>
+  
+  <!-- Protected/enclosed content -->
+  <g fill="#7986cb" opacity="0.4">
+  <circle cx="220" cy="220" r="15"/>
+  <circle cx="280" cy="250" r="12"/>
+  <circle cx="250" cy="300" r="18"/>
+  <rect x="200" y="280" width="100" height="8" rx="4"/>
+  
+  <!-- Decorative bolts/studs -->
+  <g fill="#283593">
+  <circle cx="162" cy="200" r="4"/>
+  <circle cx="162" cy="250" r="4"/>
+  <circle cx="162" cy="300" r="4"/>
+  <circle cx="162" cy="350" r="4"/>
+  <circle cx="337" cy="200" r="4"/>
+  <circle cx="337" cy="250" r="4"/>
+  <circle cx="337" cy="300" r="4"/>
+  <circle cx="337" cy="350" r="4"/>
+  
+    <!-- Shadow effect -->
+    <g fill="#1a237e" opacity="0.3">
+    <rect x="175" y="420" width="25" height="15"/>
+    <rect x="325" y="420" width="25" height="15"/>
+    <ellipse cx="250" cy="430" rx="100" ry="8"/>
+    </g>
+  
+    <!-- Protective barrier lines -->
+    <g stroke="#7986cb" stroke-width="2" opacity="0.4">
+    <line x1="175" y1="175" x2="325" y2="175"/>
+    <line x1="175" y1="200" x2="325" y2="200"/>
+    <line x1="175" y1="325" x2="325" y2="325"/>
+    <line x1="175" y1="350" x2="325" y2="350"/>
+    </g>
+  
+    <!-- Lock symbol showing security -->
+    <g transform="translate(380,120)">
+    <rect x="-10" y="0" width="20" height="15" rx="3" fill="#3f51b5"/>
+    <path d="M-5,-10 Q0,-20 5,-10 L5,0 L-5,0 Z" stroke="#3f51b5" stroke-width="3" fill="none"/>
+    </g>
+  
+    <!-- Kanji character 冂 -->
+    <text x="100" y="120" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#1a237e" opacity="0.8">冂</text>
+    </g>
+  </g>
+</svg> 

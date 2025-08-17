@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient id="bgGrad25" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#fff9c4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff59d;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="oracleGrad25" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffee58;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffeb3b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f9a825;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="mysticGrad25" cx="30%" cy="30%" r="80%">
+      <stop offset="0%" style="stop-color:#fff176;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#ffee58;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#ffab00;stop-opacity:0.5" />
+    </radialGradient>
+    <linearGradient id="crystalGrad25" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e1f5fe;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#b3e5fc;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#4fc3f7;stop-opacity:0.7" />
+    </linearGradient>
+    <radialGradient id="glowGrad25" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#fff176;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#fff176;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="candleGrad25" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff3c4;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow25">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad25)"/>
+  
+  <!-- Mystical aura -->
+  <ellipse cx="250" cy="250" rx="200" ry="160" fill="url(#glowGrad25)"/>
+  
+  <!-- Main divination crack representing 卜 -->
+  <g transform="translate(250,200)" opacity="0.95">
+  <!-- Oracle bone crack -->
+  <path d="M-2,-40 Q0,-20 2,0 Q-1,20 -3,40 Q-5,60 -2,80" 
+      stroke="url(#oracleGrad25)" 
+      stroke-width="6" 
+      fill="none" 
+      stroke-linecap="round" 
+      filter="url(#glow25)"/>
+  
+  <!-- Secondary crack lines -->
+  <path d="M-15,-20 Q-8,-15 -5,-10" 
+      stroke="#ffab00" 
+      stroke-width="3" 
+      fill="none" 
+      stroke-linecap="round" 
+      opacity="0.8"/>
+  
+  <path d="M15,-10 Q8,-5 5,0" 
+      stroke="#ffab00" 
+      stroke-width="3" 
+      fill="none" 
+      stroke-linecap="round" 
+      opacity="0.8"/>
+  
+  <path d="M-10,30 Q-5,35 0,40" 
+      stroke="#ffab00" 
+      stroke-width="2" 
+      fill="none" 
+      stroke-linecap="round" 
+      opacity="0.7"/>
+  
+  <!-- Mystical glow around crack -->
+  <path d="M-2,-40 Q0,-20 2,0 Q-1,20 -3,40 Q-5,60 -2,80" 
+      stroke="#fff176" 
+      stroke-width="12" 
+      fill="none" 
+      stroke-linecap="round" 
+      opacity="0.3"/>
+  
+  <!-- Crystal ball for divination -->
+  <g transform="translate(150,150)" opacity="0.9">
+  <circle cx="0" cy="0" r="35" fill="url(#crystalGrad25)" stroke="#0288d1" stroke-width="2"/>
+  
+  <!-- Inner reflections -->
+  <circle cx="0" cy="0" r="30" fill="#e1f5fe" opacity="0.6"/>
+  <ellipse cx="-10" cy="-10" rx="12" ry="8" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="8" cy="5" rx="6" ry="4" fill="#ffffff" opacity="0.5"/>
+  
+  <!-- Mystical vision inside -->
+  <g opacity="0.4">
+    <circle cx="5" cy="-5" r="3" fill="#ffeb3b"/>
+    <path d="M-8,8 Q0,5 8,8" stroke="#ff9800" stroke-width="1" fill="none"/>
+    
+    <!-- Crystal base -->
+    <ellipse cx="0" cy="35" rx="25" ry="8" fill="#1976d2" opacity="0.8"/>
+    <rect x="-20" y="35" width="40" height="15" rx="5" fill="#1565c0"/>
+    </g>
+  
+    <!-- Tarot cards -->
+    <g transform="translate(350,180)" opacity="0.8">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="30" height="45" rx="3" fill="#ffffff" stroke="#9c27b0" stroke-width="2"/>
+    <rect x="2" y="2" width="26" height="41" rx="2" fill="#f3e5f5"/>
+    
+    <!-- Mystical symbols on card -->
+    <circle cx="15" cy="15" r="6" fill="none" stroke="#7b1fa2" stroke-width="2"/>
+    <path d="M15,9 L15,21 M9,15 L21,15" stroke="#7b1fa2" stroke-width="2"/>
+    
+    <!-- Card 2 (partially hidden) -->
+    <rect x="20" y="5" width="30" height="45" rx="3" fill="#ffffff" stroke="#9c27b0" stroke-width="2" opacity="0.7"/>
+    <rect x="22" y="7" width="26" height="41" rx="2" fill="#f3e5f5" opacity="0.7"/>
+    
+    <!-- Card 3 (face down) -->
+    <rect x="40" y="10" width="30" height="45" rx="3" fill="#6a1b9a" stroke="#4a148c" stroke-width="2" opacity="0.6"/>
+    <g stroke="#e1bee7" stroke-width="1" opacity="0.8">
+      <circle cx="55" cy="32" r="8" fill="none"/>
+      <path d="M47,25 L63,25 M47,39 L63,39"/>
+    </g>
+    </g>
+  
+    <!-- Ancient oracle bones -->
+    <g transform="translate(100,300)" opacity="0.7">
+    <!-- Bone fragment -->
+    <path d="M0,0 Q15,-5 30,0 Q45,5 60,0 Q50,15 45,30 Q40,45 30,50 Q15,45 0,40 Q-5,25 0,15 Q5,5 0,0" 
+          fill="#fff8e1" 
+          stroke="#f57c00" 
+          stroke-width="2"/>
+    
+    <!-- Crack patterns for divination -->
+    <g stroke="#ffab00" stroke-width="2" fill="none" opacity="0.8">
+      <path d="M15,10 Q20,15 25,20"/>
+      <path d="M35,15 Q30,25 25,35"/>
+      <path d="M10,25 Q15,30 20,35"/>
+    </g>
+    
+    <!-- Ancient text -->
+    <g fill="#f57c00" opacity="0.6">
+      <rect x="8" y="8" width="2" height="8" rx="1"/>
+      <rect x="12" y="6" width="6" height="2" rx="1"/>
+      <rect x="25" y="12" width="8" height="2" rx="1"/>
+      <rect x="40" y="20" width="2" height="6" rx="1"/>
+    </g>
+    </g>
+  
+    <!-- Ceremonial candles -->
+    <g transform="translate(400,300)" opacity="0.8">
+    <!-- Tall candle -->
+    <rect x="0" y="0" width="8" height="60" rx="4" fill="url(#candleGrad25)" stroke="#f57c00" stroke-width="1"/>
+    
+    <!-- Flame -->
+    <ellipse cx="4" cy="-8" rx="6" ry="12" fill="#ffb300" opacity="0.9"/>
+    <ellipse cx="4" cy="-8" rx="4" ry="8" fill="#ffc107" opacity="0.8"/>
+    <ellipse cx="4" cy="-8" rx="2" ry="4" fill="#fff176" opacity="0.9"/>
+    
+    <!-- Wax drips -->
+    <g fill="#fff3c4" opacity="0.7">
+      <ellipse cx="2" cy="15" rx="3" ry="8"/>
+      <ellipse cx="6" cy="25" rx="2" ry="6"/>
+    </g>
+    
+    <!-- Shorter candle -->
+    <rect x="15" y="20" width="6" height="40" rx="3" fill="url(#candleGrad25)" stroke="#f57c00" stroke-width="1"/>
+    <ellipse cx="18" cy="12" rx="5" ry="10" fill="#ffb300" opacity="0.9"/>
+    <ellipse cx="18" cy="12" rx="3" ry="6" fill="#ffc107" opacity="0.8"/>
+    </g>
+  
+    <!-- I Ching hexagram -->
+    <g transform="translate(120,120)" opacity="0.7">
+    <!-- Hexagram lines -->
+    <g stroke="#f57c00" stroke-width="4" stroke-linecap="round">
+      <line x1="0" y1="0" x2="30" y2="0"/>
+      <line x1="0" y1="8" x2="14" y2="8"/>
+      <line x1="16" y1="8" x2="30" y2="8"/>
+      <line x1="0" y1="16" x2="30" y2="16"/>
+      <line x1="0" y1="24" x2="14" y2="24"/>
+      <line x1="16" y1="24" x2="30" y2="24"/>
+      <line x1="0" y1="32" x2="30" y2="32"/>
+      <line x1="0" y1="40" x2="30" y2="40"/>
+    </g>
+    
+    <!-- Mystical circle around hexagram -->
+    <circle cx="15" cy="20" r="30" fill="none" stroke="#ffab00" stroke-width="2" opacity="0.5"/>
+    </g>
+  
+    <!-- Ceremonial altar -->
+    <g transform="translate(200,380)" opacity="0.6">
+    <!-- Altar table -->
+    <rect x="0" y="0" width="100" height="15" rx="7" fill="#8d6e63"/>
+    <rect x="0" y="0" width="100" height="5" rx="2" fill="#a1887f" opacity="0.8"/>
+    
+    <!-- Ritual items on altar -->
+    <g opacity="0.9">
+      <!-- Incense burner -->
+      <rect x="20" y="-8" width="12" height="8" rx="6" fill="#6d4c41"/>
+      
+      <!-- Incense smoke -->
+      <g stroke="#e0e0e0" stroke-width="2" fill="none" opacity="0.5">
+        <path d="M26,-8 Q28,-15 26,-22 Q24,-29 26,-36"/>
+        <path d="M26,-8 Q24,-15 26,-22 Q28,-29 26,-36"/>
+      </g>
+      
+      <!-- Sacred vessel -->
+      <ellipse cx="70" cy="-5" rx="8" ry="5" fill="#ffb300"/>
+      <ellipse cx="70" cy="-10" rx="6" ry="3" fill="#ffc107"/>
+    </g>
+    </g>
+  
+    <!-- Fortune telling coins -->
+    <g transform="translate(350,350)" opacity="0.8">
+    <g fill="#ffb300" stroke="#f57c00" stroke-width="1">
+      <circle cx="0" cy="0" r="8"/>
+      <circle cx="18" cy="-5" r="8" opacity="0.8"/>
+      <circle cx="8" cy="15" r="8" opacity="0.9"/>
+    </g>
+    
+    <!-- Ancient symbols on coins -->
+    <g fill="#f57c00" opacity="0.8">
+      <rect x="-2" y="-8" width="4" height="16" rx="2"/>
+      <rect x="-8" y="-2" width="16" height="4" rx="2"/>
+    </g>
+    </g>
+  
+    <!-- Mystical stars and sparkles -->
+    <g fill="#fff176" opacity="0.7">
+    <path d="M180 100 L185 90 L190 100 L200 95 L190 105 L185 115 L180 105 L170 95 Z"/>
+    <path d="M320 120 L325 115 L330 120 L325 125 Z"/>
+    <path d="M160 350 L165 345 L170 350 L165 355 Z"/>
+    <path d="M380 250 L382 248 L384 250 L382 252 Z"/>
+    <path d="M120 200 L122 198 L124 200 L122 202 Z"/>
+    </g>
+  
+    <!-- Sacred geometry -->
+    <g transform="translate(450,150)" opacity="0.4">
+    <polygon points="0,-15 13,-5 8,12 -8,12 -13,-5" 
+             fill="none" 
+             stroke="#ffab00" 
+             stroke-width="2"/>
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#ffc107" stroke-width="1"/>
+    </g>
+  
+    <!-- Divination energy lines -->
+    <g stroke="#fff176" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M100 200 Q150 180 200 200 Q250 220 300 200"/>
+    <path d="M200 100 Q220 150 240 200"/>
+    <path d="M300 350 Q280 300 260 250"/>
+    </g>
+  
+    <!-- Ceremonial smoke -->
+    <g opacity="0.3">
+    <ellipse cx="200" cy="150" rx="30" ry="15" fill="#e0e0e0" opacity="0.4"/>
+    <ellipse cx="300" cy="180" rx="25" ry="12" fill="#e0e0e0" opacity="0.3"/>
+    <ellipse cx="150" cy="250" rx="20" ry="10" fill="#e0e0e0" opacity="0.5"/>
+    </g>
+  
+    <!-- Number indicator -->
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#f57c00" opacity="0.4">25</text>
+  
+    <!-- Kanji character 卜 -->
+    <text x="450" y="450" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#f9a825" opacity="0.8">卜</text>
+    </g>
+  </g>
+</svg> 

@@ -1,0 +1,75 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="podGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#90EE90"/>
+      <stop offset="50%" stop-color="#32CD32"/>
+      <stop offset="100%" stop-color="#228B22"/>
+    </linearGradient>
+    <radialGradient id="bean1Gradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFB6C1"/>
+      <stop offset="70%" stop-color="#FF69B4"/>
+      <stop offset="100%" stop-color="#DC143C"/>
+    </radialGradient>
+    <radialGradient id="bean2Gradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFE4B5"/>
+      <stop offset="70%" stop-color="#DEB887"/>
+      <stop offset="100%" stop-color="#8B7355"/>
+    </radialGradient>
+    <radialGradient id="bean3Gradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#E6E6FA"/>
+      <stop offset="70%" stop-color="#9370DB"/>
+      <stop offset="100%" stop-color="#4B0082"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#F0FFF0"/>
+  
+  <!-- Main bean pod -->
+  <path d="M120 100 Q140 80 180 85 Q220 90 260 100 Q300 120 320 160 Q330 200 320 240 Q300 280 260 300 Q220 310 180 315 Q140 320 120 300 Q100 280 95 240 Q90 200 100 160 Q110 120 120 100 Z" 
+    fill="url(#podGradient)" stroke="#228B22" stroke-width="3"/>
+  
+  <!-- Pod opening -->
+  <path d="M120 150 Q160 140 200 145 Q240 150 280 160 Q300 170 320 190" 
+    stroke="#98FB98" stroke-width="4" fill="none"/>
+  
+  <!-- Beans inside the pod -->
+  <ellipse cx="160" cy="180" rx="18" ry="25" fill="url(#bean1Gradient)" stroke="#DC143C" stroke-width="1"/>
+  <ellipse cx="200" cy="185" rx="16" ry="23" fill="url(#bean2Gradient)" stroke="#8B7355" stroke-width="1"/>
+  <ellipse cx="240" cy="190" rx="17" ry="24" fill="url(#bean3Gradient)" stroke="#4B0082" stroke-width="1"/>
+  <ellipse cx="270" cy="200" rx="15" ry="22" fill="url(#bean1Gradient)" stroke="#DC143C" stroke-width="1"/>
+  
+  <!-- Bean highlights -->
+  <ellipse cx="155" cy="175" rx="5" ry="8" fill="#FFF" opacity="0.6"/>
+  <ellipse cx="195" cy="180" rx="4" ry="7" fill="#FFF" opacity="0.6"/>
+  <ellipse cx="235" cy="185" rx="5" ry="7" fill="#FFF" opacity="0.6"/>
+  <ellipse cx="265" cy="195" rx="4" ry="6" fill="#FFF" opacity="0.6"/>
+  
+  <!-- Scattered individual beans -->
+  <ellipse cx="80" cy="300" rx="12" ry="16" fill="url(#bean1Gradient)" stroke="#DC143C" stroke-width="1"/>
+  <ellipse cx="75" cy="295" rx="3" ry="5" fill="#FFF" opacity="0.6"/>
+  
+  <ellipse cx="350" cy="320" rx="14" ry="18" fill="url(#bean2Gradient)" stroke="#8B7355" stroke-width="1"/>
+  <ellipse cx="345" cy="315" rx="4" ry="6" fill="#FFF" opacity="0.6"/>
+  
+  <ellipse cx="60" cy="120" rx="10" ry="14" fill="url(#bean3Gradient)" stroke="#4B0082" stroke-width="1"/>
+  <ellipse cx="56" cy="116" rx="3" ry="4" fill="#FFF" opacity="0.6"/>
+  
+  <ellipse cx="360" cy="150" rx="13" ry="17" fill="url(#bean1Gradient)" stroke="#DC143C" stroke-width="1"/>
+  <ellipse cx="355" cy="145" rx="4" ry="5" fill="#FFF" opacity="0.6"/>
+  
+  <!-- Bean plant leaves -->
+  <path d="M50 250 Q30 230 40 210 Q60 220 70 240 Q60 260 50 250" fill="#32CD32" stroke="#228B22" stroke-width="2"/>
+  <path d="M380 200 Q360 180 370 160 Q390 170 400 190 Q390 210 380 200" fill="#32CD32" stroke="#228B22" stroke-width="2"/>
+  
+  <!-- Small decorative elements -->
+  <circle cx="150" cy="50" r="4" fill="#FFD700"/>
+  <circle cx="250" cy="60" r="3" fill="#FF69B4"/>
+  <circle cx="100" cy="380" r="5" fill="#00CED1"/>
+  <circle cx="300" cy="370" r="4" fill="#FF6347"/>
+  
+  <!-- Stem -->
+  <path d="M210 100 Q220 80 225 60 Q230 40 235 20" stroke="#228B22" stroke-width="4" fill="none"/>
+  
+  <!-- Small leaves on stem -->
+  <path d="M215 70 Q200 65 205 55 Q220 60 220 70" fill="#90EE90"/>
+  <path d="M225 50 Q240 45 235 35 Q220 40 220 50" fill="#90EE90"/>
+</svg> 

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient id="bgGrad3" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#fff9c4;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#fff176;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ffee58;stop-opacity:0.1" />
+    </radialGradient>
+    <radialGradient id="dotGrad3" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#fff59d;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#ffeb3b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8f00;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="highlight3" cx="30%" cy="30%" r="40%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="glow3" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#fff176;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#fff176;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad3)"/>
+  
+  <!-- Outer glow -->
+  <circle cx="250" cy="250" r="100" fill="url(#glow3)"/>
+  
+  <!-- Main dot (jewel-like) -->
+  <circle cx="250" cy="250" r="70" fill="url(#dotGrad3)" stroke="#f57c00" stroke-width="4"/>
+  
+  <!-- Inner highlight -->
+  <circle cx="250" cy="250" r="70" fill="url(#highlight3)"/>
+  
+  <!-- Sparkle reflections -->
+  <g fill="#ffffff" opacity="0.8">
+  <circle cx="230" cy="230" r="8"/>
+  <circle cx="270" cy="240" r="4"/>
+  <circle cx="240" cy="270" r="6"/>
+  
+  <!-- Decorative sparkles around -->
+  <g fill="#ffb300" opacity="0.7">
+  <path d="M150 180 L160 170 L170 180 L160 190 Z"/>
+  <path d="M350 320 L360 310 L370 320 L360 330 Z"/>
+  <path d="M120 320 L125 315 L130 320 L125 325 Z"/>
+  <path d="M380 150 L390 140 L400 150 L390 160 Z"/>
+  <path d="M100 250 L110 240 L120 250 L110 260 Z"/>
+  <path d="M380 280 L390 270 L400 280 L390 290 Z"/>
+  
+    <!-- Radiating light rays -->
+    <g stroke="#fff176" stroke-width="2" opacity="0.4">
+    <line x1="250" y1="120" x2="250" y2="140"/>
+    <line x1="250" y1="360" x2="250" y2="380"/>
+    <line x1="120" y1="250" x2="140" y2="250"/>
+    <line x1="360" y1="250" x2="380" y2="250"/>
+    <line x1="180" y1="180" x2="190" y2="190"/>
+    <line x1="310" y1="310" x2="320" y2="320"/>
+    <line x1="180" y1="320" x2="190" y2="310"/>
+    <line x1="310" y1="190" x2="320" y2="180"/>
+    </g>
+  
+    <!-- Kanji character 丶 -->
+    <text x="120" y="130" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#e65100" opacity="0.8">丶</text>
+    </g>
+  </g>
+</svg> 

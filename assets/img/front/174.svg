@@ -1,0 +1,188 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="50%" stop-color="#4169E1"/>
+      <stop offset="100%" stop-color="#191970"/>
+    </linearGradient>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#90EE90"/>
+      <stop offset="50%" stop-color="#32CD32"/>
+      <stop offset="100%" stop-color="#228B22"/>
+    </linearGradient>
+    <radialGradient id="oceanGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#E0F6FF"/>
+      <stop offset="50%" stop-color="#4682B4"/>
+      <stop offset="100%" stop-color="#191970"/>
+    </radialGradient>
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#90EE90"/>
+      <stop offset="50%" stop-color="#32CD32"/>
+      <stop offset="100%" stop-color="#006400"/>
+    </linearGradient>
+  </defs>  <!-- Blue sky background -->
+  <rect width="400" height="300" fill="url(#skyGradient)"/>
+  
+  <!-- Green ground -->
+  <rect x="0" y="300" width="400" height="100" fill="url(#greenGradient)"/>
+  
+  <!-- Ocean/water -->
+  <ellipse cx="100" cy="250" rx="80" ry="40" fill="url(#oceanGradient)" stroke="#4682B4" stroke-width="2"/>
+  
+  <!-- Water waves -->
+  <path d="M20 250 Q40 245 60 250 Q80 255 100 250 Q120 245 140 250 Q160 255 180 250" 
+        stroke="#87CEEB" stroke-width="3" fill="none"/>
+  <path d="M25 255 Q45 250 65 255 Q85 260 105 255 Q125 250 145 255 Q165 260 175 255" 
+        stroke="#B0E0E6" stroke-width="2" fill="none"/>
+  
+  <!-- Blue mountains in distance -->
+  <path d="M200 200 L250 150 L300 180 L350 140 L400 160 L400 300 L200 300 Z" 
+        fill="#6495ED" stroke="#4169E1" stroke-width="1"/>
+  
+  <!-- Green trees -->
+  <circle cx="50" cy="280" r="25" fill="url(#leafGradient)" stroke="#228B22" stroke-width="2"/>
+  <rect x="47" y="280" width="6" height="30" fill="#8B4513"/>
+  
+  <circle cx="150" cy="270" r="30" fill="url(#leafGradient)" stroke="#228B22" stroke-width="2"/>
+  <rect x="147" y="270" width="6" height="35" fill="#8B4513"/>
+  
+  <circle cx="320" cy="275" r="35" fill="url(#leafGradient)" stroke="#228B22" stroke-width="2"/>
+  <rect x="317" y="275" width="6" height="40" fill="#8B4513"/>
+  
+  <circle cx="380" cy="285" r="20" fill="url(#leafGradient)" stroke="#228B22" stroke-width="2"/>
+  <rect x="377" y="285" width="6" height="25" fill="#8B4513"/>
+  
+  <!-- Blue flowers -->
+  <g fill="#4169E1" stroke="#191970" stroke-width="1">
+    <circle cx="80" cy="330" r="4"/>
+    <circle cx="75" cy="325" r="2"/>
+    <circle cx="85" cy="325" r="2"/>
+    <circle cx="75" cy="335" r="2"/>
+    <circle cx="85" cy="335" r="2"/>
+    
+    <circle cx="200" cy="340" r="5"/>
+    <circle cx="195" cy="335" r="2.5"/>
+    <circle cx="205" cy="335" r="2.5"/>
+    <circle cx="195" cy="345" r="2.5"/>
+    <circle cx="205" cy="345" r="2.5"/>
+    
+    <circle cx="300" cy="335" r="4"/>
+    <circle cx="295" cy="330" r="2"/>
+    <circle cx="305" cy="330" r="2"/>
+    <circle cx="295" cy="340" r="2"/>
+    <circle cx="305" cy="340" r="2"/>
+  </g>
+  
+  <!-- Green grass -->
+  <g stroke="url(#leafGradient)" stroke-width="2" fill="none">
+    <path d="M30 350 Q32 340 34 350"/>
+    <path d="M40 355 Q42 345 44 355"/>
+    <path d="M50 350 Q52 340 54 350"/>
+    <path d="M60 355 Q62 345 64 355"/>
+    
+    <path d="M130 350 Q132 340 134 350"/>
+    <path d="M140 355 Q142 345 144 355"/>
+    <path d="M150 350 Q152 340 154 350"/>
+    <path d="M160 355 Q162 345 164 355"/>
+    
+    <path d="M250 350 Q252 340 254 350"/>
+    <path d="M260 355 Q262 345 264 355"/>
+    <path d="M270 350 Q272 340 274 350"/>
+    <path d="M280 355 Q282 345 284 355"/>
+    
+    <path d="M350 355 Q352 345 354 355"/>
+    <path d="M360 350 Q362 340 364 350"/>
+    <path d="M370 355 Q372 345 374 355"/>
+    <path d="M380 350 Q382 340 384 350"/>
+  </g>
+  
+  <!-- Blue butterflies -->
+  <g fill="#4169E1" stroke="#191970" stroke-width="0.5">
+    <ellipse cx="120" cy="200" rx="6" ry="3" transform="rotate(20 120 200)"/>
+    <ellipse cx="130" cy="195" rx="6" ry="3" transform="rotate(20 130 195)"/>
+    <circle cx="125" cy="197" r="1" fill="#000"/>
+    
+    <ellipse cx="250" cy="180" rx="5" ry="2.5" transform="rotate(-15 250 180)"/>
+    <ellipse cx="258" cy="175" rx="5" ry="2.5" transform="rotate(-15 258 175)"/>
+    <circle cx="254" cy="177" r="0.8" fill="#000"/>
+  </g>
+  
+  <!-- Green leaves floating -->
+  <g fill="url(#leafGradient)" stroke="#228B22" stroke-width="0.5">
+    <ellipse cx="180" cy="120" rx="8" ry="4" transform="rotate(45 180 120)"/>
+    <path d="M180 120 L185 125" stroke="#006400" stroke-width="0.5"/>
+    
+    <ellipse cx="300" cy="100" rx="6" ry="3" transform="rotate(-30 300 100)"/>
+    <path d="M300 100 L305 103" stroke="#006400" stroke-width="0.5"/>
+    
+    <ellipse cx="350" cy="110" rx="7" ry="3.5" transform="rotate(60 350 110)"/>
+    <path d="M350 110 L355 115" stroke="#006400" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Blue bird -->
+  <ellipse cx="220" cy="120" rx="12" ry="8" fill="#4169E1" stroke="#191970" stroke-width="1"/>
+  <circle cx="215" cy="117" r="6" fill="#4169E1" stroke="#191970" stroke-width="1"/>
+  <circle cx="213" cy="115" r="1.5" fill="#000"/>
+  <path d="M208 117 Q205 116 205 119" fill="#FFD700" stroke="#FFA500" stroke-width="0.5"/>
+  <ellipse cx="225" cy="118" rx="8" ry="6" fill="#6495ED" stroke="#191970" stroke-width="0.5"/>
+  <ellipse cx="232" cy="122" rx="6" ry="3" fill="#483D8B" stroke="#191970" stroke-width="0.5"/>
+  
+  <!-- Blue and green crystals -->
+  <path d="M70 150 L80 140 L90 150 L80 170 Z" fill="#00CED1" stroke="#008B8B" stroke-width="2"/>
+  <path d="M75 150 L80 145 L85 150 L80 160 Z" fill="#E0F6FF"/>
+  
+  <path d="M330 220 L345 210 L360 220 L345 240 Z" fill="#32CD32" stroke="#228B22" stroke-width="2"/>
+  <path d="M338 220 L345 215 L352 220 L345 230 Z" fill="#90EE90"/>
+  
+  <!-- Peacock feather -->
+  <ellipse cx="50" cy="100" rx="15" ry="30" fill="#006400" stroke="#228B22" stroke-width="1"/>
+  <circle cx="50" cy="85" r="8" fill="#4169E1" stroke="#191970" stroke-width="1"/>
+  <circle cx="50" cy="85" r="5" fill="#32CD32"/>
+  <circle cx="50" cy="85" r="2" fill="#000"/>
+  
+  <!-- Blue and green geometric pattern -->
+  <rect x="300" y="50" width="20" height="20" fill="#4169E1" stroke="#191970" stroke-width="1"/>
+  <rect x="320" y="50" width="20" height="20" fill="#32CD32" stroke="#228B22" stroke-width="1"/>
+  <rect x="300" y="70" width="20" height="20" fill="#32CD32" stroke="#228B22" stroke-width="1"/>
+  <rect x="320" y="70" width="20" height="20" fill="#4169E1" stroke="#191970" stroke-width="1"/>
+  
+  <!-- Color spectrum showing blue to green transition -->
+  <rect x="10" y="50" width="15" height="120" fill="#191970"/>
+  <rect x="10" y="60" width="15" height="100" fill="#4169E1"/>
+  <rect x="10" y="70" width="15" height="80" fill="#6495ED"/>
+  <rect x="10" y="80" width="15" height="60" fill="#87CEEB"/>
+  <rect x="10" y="90" width="15" height="40" fill="#00CED1"/>
+  <rect x="10" y="100" width="15" height="20" fill="#32CD32"/>
+  
+  <!-- Chinese character for blue/green -->
+  <text x="200" y="40" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#191970">青</text>
+  
+  <!-- Labels -->
+  <text x="50" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#191970">BLUE</text>
+  <text x="350" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#228B22">GREEN</text>
+  
+  <!-- Blue fish in water -->
+  <ellipse cx="90" cy="250" rx="8" ry="5" fill="#4169E1" stroke="#191970" stroke-width="1"/>
+  <path d="M82 250 L78 245 L78 255 Z" fill="#6495ED"/>
+  <circle cx="88" cy="248" r="1" fill="#000"/>
+  
+  <ellipse cx="110" cy="260" rx="6" ry="4" fill="#6495ED" stroke="#4169E1" stroke-width="1"/>
+  <path d="M104 260 L100 256 L100 264 Z" fill="#87CEEB"/>
+  <circle cx="108" cy="259" r="0.8" fill="#000"/>
+  
+  <!-- Green algae in water -->
+  <g stroke="#32CD32" stroke-width="2" fill="none">
+    <path d="M50 270 Q55 265 60 270 Q65 275 70 270"/>
+    <path d="M120 275 Q125 270 130 275 Q135 280 140 275"/>
+  </g>
+  
+  <!-- Blue bubbles -->
+  <circle cx="75" cy="235" r="3" fill="#87CEEB" opacity="0.7"/>
+  <circle cx="105" cy="240" r="2" fill="#B0E0E6" opacity="0.7"/>
+  <circle cx="125" cy="235" r="2.5" fill="#87CEEB" opacity="0.7"/>
+  
+  <!-- Blue sky clouds -->
+  <circle cx="150" cy="80" r="20" fill="#E0F6FF" opacity="0.8"/>
+  <circle cx="170" cy="75" r="25" fill="#E0F6FF" opacity="0.8"/>
+  <circle cx="190" cy="80" r="18" fill="#E0F6FF" opacity="0.8"/>
+</svg> 

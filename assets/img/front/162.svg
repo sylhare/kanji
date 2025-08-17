@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad162" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffe0b2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffcc02;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="roosterGrad162" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#ff9800;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f57c00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e65100;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="dawnGlow162" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" style="stop-color:#ffb74d;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffb74d;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="featherGrad162" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff8f00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bf360c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Dawn sky background -->
+  <rect width="500" height="500" fill="url(#bgGrad162)"/>
+  
+  <!-- Dawn energy aura -->
+  <ellipse cx="250" cy="200" rx="200" ry="180" fill="url(#dawnGlow162)"/>
+  
+  <!-- Rising sun -->
+  <circle cx="400" cy="100" r="40" fill="#ffeb3b" opacity="0.8"/>
+  <g stroke="#fff176" stroke-width="3" opacity="0.6">
+  <line x1="400" y1="40" x2="400" y2="20"/>
+  <line x1="440" y1="100" x2="460" y2="100"/>
+  <line x1="400" y1="160" x2="400" y2="180"/>
+  <line x1="360" y1="100" x2="340" y2="100"/>
+  <line x1="428" y1="72" x2="442" y2="58"/>
+  <line x1="428" y1="128" x2="442" y2="142"/>
+  <line x1="372" y1="128" x2="358" y2="142"/>
+  <line x1="372" y1="72" x2="358" y2="58"/>
+  
+  <!-- Main rooster representing 酉 -->
+  <!-- Rooster body -->
+  <ellipse cx="250" cy="280" rx="60" ry="80" fill="url(#roosterGrad162)" stroke="#bf360c" stroke-width="3"/>
+  
+  <!-- Rooster head -->
+  <ellipse cx="250" cy="180" rx="35" ry="40" fill="url(#roosterGrad162)" stroke="#bf360c" stroke-width="3"/>
+  
+  <!-- Comb (red crown) -->
+  <g fill="#f44336">
+  <path d="M230 150 Q235 140 240 150 Q245 135 250 150 Q255 135 260 150 Q265 140 270 150"/>
+  <ellipse cx="235" cy="145" rx="3" ry="8"/>
+  <ellipse cx="245" cy="140" rx="4" ry="10"/>
+  <ellipse cx="255" cy="140" rx="4" ry="10"/>
+  <ellipse cx="265" cy="145" rx="3" ry="8"/>
+  
+    <!-- Beak -->
+    <path d="M215 185 L190 180 L215 195 Z" fill="#ffb300"/>
+  
+    <!-- Eye -->
+    <circle cx="235" cy="175" r="8" fill="#fff"/>
+    <circle cx="235" cy="175" r="5" fill="#000"/>
+    <circle cx="237" cy="173" r="2" fill="#fff"/>
+  
+    <!-- Wattles -->
+    <ellipse cx="220" cy="200" rx="6" ry="12" fill="#f44336"/>
+    <ellipse cx="210" cy="210" rx="4" ry="8" fill="#f44336"/>
+  
+    <!-- Tail feathers -->
+    <g fill="url(#featherGrad162)">
+    <!-- Long tail feathers -->
+    <path d="M310 250 Q380 200 420 220 Q400 240 380 250 Q340 270 310 280"/>
+    <path d="M315 270 Q385 230 425 250 Q405 270 385 280 Q345 300 315 300"/>
+    <path d="M310 300 Q380 260 420 280 Q400 300 380 310 Q340 330 310 320"/>
+    
+    <!-- Shorter tail feathers -->
+    <path d="M305 240 Q350 210 370 220 Q355 235 345 240 Q325 250 305 260"/>
+    <path d="M305 320 Q350 290 370 300 Q355 315 345 320 Q325 330 305 340"/>
+    </g>
+  
+    <!-- Wing -->
+    <ellipse cx="220" cy="260" rx="25" ry="40" fill="url(#roosterGrad162)" transform="rotate(-20 220 260)"/>
+    <g stroke="#e65100" stroke-width="1" opacity="0.6">
+    <line x1="200" y1="240" x2="210" y2="250"/>
+    <line x1="205" y1="250" x2="215" y2="260"/>
+    <line x1="210" y1="260" x2="220" y2="270"/>
+    <line x1="215" y1="270" x2="225" y2="280"/>
+    </g>
+  
+    <!-- Legs -->
+    <g fill="#ffb300" stroke="#f57c00" stroke-width="2">
+    <rect x="230" y="350" width="8" height="60" rx="4"/>
+    <rect x="260" y="350" width="8" height="60" rx="4"/>
+    </g>
+  
+    <!-- Feet with spurs -->
+    <g fill="#ffb300" stroke="#f57c00" stroke-width="1">
+    <!-- Left foot -->
+    <path d="M230 410 L220 420 M234 410 L244 420 M238 410 L248 420"/>
+    <path d="M225 400 L215 395"/>  <!-- Spur -->
+    
+    <!-- Right foot -->
+    <path d="M260 410 L250 420 M264 410 L274 420 M268 410 L278 420"/>
+    <path d="M265 400 L275 395"/>  <!-- Spur -->
+    </g>
+  
+    <!-- Dawn crowing pose -->
+    <g transform="translate(250,150)" opacity="0.7">
+    <path d="M-20,-10 Q-30,-20 -25,-30" stroke="url(#roosterGrad162)" stroke-width="3" fill="none"/>
+    <ellipse cx="-25" cy="-25" rx="8" ry="5" fill="#ffccbc" opacity="0.6"/>
+    <text x="-15" y="-35" font-family="Arial, sans-serif" font-size="12" fill="#bf360c">♪♪</text>
+    </g>
+  
+    <!-- Sound waves -->
+    <g stroke="#ff9800" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M200 140 Q180 130 160 140"/>
+    <path d="M190 150 Q170 140 150 150"/>
+    <path d="M180 160 Q160 150 140 160"/>
+    </g>
+  
+    <!-- Feather details -->
+    <g fill="url(#featherGrad162)" opacity="0.8">
+    <ellipse cx="240" cy="240" rx="8" ry="15" transform="rotate(30 240 240)"/>
+    <ellipse cx="260" cy="250" rx="6" ry="12" transform="rotate(-20 260 250)"/>
+    <ellipse cx="245" cy="300" rx="7" ry="14" transform="rotate(10 245 300)"/>
+    </g>
+  
+    <!-- Henhouse in background -->
+    <g transform="translate(80,300)" opacity="0.6">
+    <rect x="0" y="0" width="60" height="40" fill="#8d6e63"/>
+    <path d="M-5,0 L30,-15 L65,0 Z" fill="#d32f2f"/>
+    <rect x="15" y="20" width="12" height="20" fill="#6d4c41"/>
+    <circle cx="45" cy="15" r="3" fill="#ffeb3b"/>
+    </g>
+  
+    <!-- Grain scattered on ground -->
+    <g fill="#ffb300" opacity="0.7">
+    <circle cx="150" cy="380" r="2"/>
+    <circle cx="170" cy="385" r="1"/>
+    <circle cx="160" cy="390" r="1"/>
+    <circle cx="180" cy="375" r="2"/>
+    <circle cx="190" cy="390" r="1"/>
+    <circle cx="140" cy="395" r="1"/>
+    </g>
+  
+    <!-- Fence posts -->
+    <g transform="translate(400,320)" opacity="0.7">
+    <rect x="0" y="0" width="6" height="80" fill="#8d6e63"/>
+    <rect x="15" y="0" width="6" height="80" fill="#8d6e63"/>
+    <rect x="30" y="0" width="6" height="80" fill="#8d6e63"/>
+    <rect x="-5" y="20" width="50" height="4" fill="#8d6e63"/>
+    <rect x="-5" y="40" width="50" height="4" fill="#8d6e63"/>
+    </g>
+  
+    <!-- Morning energy sparkles -->
+    <g fill="#ffab00" opacity="0.8">
+    <path d="M120 150 L130 140 L140 150 L130 160 Z"/>
+    <path d="M350 120 L360 110 L370 120 L360 130 Z"/>
+    <path d="M100 250 L110 240 L120 250 L110 260 Z"/>
+    <path d="M380 250 L390 240 L400 250 L390 260 Z"/>
+    </g>
+  
+    <!-- Vigilance indicators -->
+    <g fill="#f57c00" opacity="0.6">
+    <circle cx="150" cy="200" r="3"/>
+    <circle cx="350" cy="180" r="4"/>
+    <circle cx="120" cy="300" r="2"/>
+    <circle cx="380" cy="300" r="3"/>
+    </g>
+  
+    <!-- Time indicator -->
+    <g transform="translate(100,100)" opacity="0.7">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#ff9800" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="-10" stroke="#ff9800" stroke-width="2"/>
+    <line x1="0" y1="0" x2="7" y2="0" stroke="#ff9800" stroke-width="2"/>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#e65100">5:30 AM</text>
+    </g>
+  
+    <!-- Territorial marks -->
+    <g stroke="#ff6f00" stroke-width="2" fill="none" opacity="0.4">
+    <circle cx="250" cy="350" r="80"/>
+    <circle cx="250" cy="350" r="100"/>
+    </g>
+  
+    <!-- Proud stance -->
+    <g fill="#bf360c" opacity="0.5">
+    <ellipse cx="250" cy="420" rx="60" ry="20"/>
+    </g>
+  
+    <!-- Kanji character 酉 -->
+    <text x="50" y="80" font-family="serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#bf360c" opacity="0.8">酉</text>
+    </g>
+  </g>
+</svg> 

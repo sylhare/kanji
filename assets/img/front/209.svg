@@ -1,0 +1,321 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stageGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#800080"/>
+      <stop offset="50%" stop-color="#4B0082"/>
+      <stop offset="100%" stop-color="#191970"/>
+    </linearGradient>
+    <radialGradient id="spotlightGradient" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#FFFF99"/>
+      <stop offset="70%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </radialGradient>
+    <linearGradient id="guitarGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="50%" stop-color="#CD853F"/>
+      <stop offset="100%" stop-color="#DEB887"/>
+    </linearGradient>
+    <radialGradient id="drumGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#C0C0C0"/>
+      <stop offset="50%" stop-color="#A9A9A9"/>
+      <stop offset="100%" stop-color="#696969"/>
+    </radialGradient>
+    <linearGradient id="crowdGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2F2F2F"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <radialGradient id="noteGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FF8C00"/>
+      <stop offset="100%" stop-color="#FF4500"/>
+    </radialGradient>
+  </defs>  <!-- Stage background -->
+  <rect width="400" height="250" fill="url(#stageGradient)"/>
+  
+  <!-- Concert floor -->
+  <rect x="0" y="250" width="400" height="150" fill="url(#crowdGradient)"/>
+  
+  <!-- Main spotlight beams -->
+  <g opacity="0.6">
+    <polygon points="150,0 120,250 180,250" fill="url(#spotlightGradient)"/>
+    <polygon points="250,0 220,250 280,250" fill="url(#spotlightGradient)"/>
+    <polygon points="350,0 320,250 380,250" fill="url(#spotlightGradient)"/>
+  </g>
+  
+  <!-- Stage platform -->
+  <rect x="0" y="200" width="400" height="50" fill="#2F2F2F" stroke="#1C1C1C" stroke-width="2"/>
+  
+  <!-- Drum kit -->
+  <g transform="translate(100, 160)">
+    <!-- Bass drum -->
+    <circle cx="0" cy="20" r="25" fill="url(#drumGradient)" stroke="#696969" stroke-width="2"/>
+    <circle cx="0" cy="20" r="20" fill="#FFFFFF"/>
+    <text x="0" y="25" text-anchor="middle" fill="#FF0000" font-size="8" font-weight="bold">ROCK</text>
+    
+    <!-- Tom drums -->
+    <ellipse cx="-15" cy="5" rx="8" ry="12" fill="url(#drumGradient)"/>
+    <ellipse cx="15" cy="5" rx="8" ry="12" fill="url(#drumGradient)"/>
+    
+    <!-- Snare drum -->
+    <circle cx="0" cy="0" r="10" fill="url(#drumGradient)" stroke="#696969" stroke-width="1"/>
+    
+    <!-- Hi-hat -->
+    <g transform="translate(-25, -10)">
+      <ellipse cx="0" cy="0" rx="6" ry="2" fill="#FFD700"/>
+      <ellipse cx="0" cy="-2" rx="6" ry="2" fill="#DAA520"/>
+      <rect x="-1" y="-15" width="2" height="15" fill="#C0C0C0"/>
+    </g>
+    
+    <!-- Cymbals -->
+    <g transform="translate(25, -5)">
+      <ellipse cx="0" cy="0" rx="8" ry="2" fill="#FFD700" transform="rotate(15)"/>
+      <rect x="-1" y="-20" width="2" height="20" fill="#C0C0C0"/>
+    </g>
+    
+    <!-- Drumsticks -->
+    <rect x="5" y="-5" width="1" height="12" fill="#DEB887" transform="rotate(30 5 -5)"/>
+    <rect x="-5" y="-5" width="1" height="12" fill="#DEB887" transform="rotate(-30 -5 -5)"/>
+  </g>
+  
+  <!-- Lead guitarist -->
+  <g transform="translate(200, 150)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="12" ry="25" fill="#000080"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="8" fill="#FFDAB9"/>
+    <!-- Hair -->
+    <path d="M-8 -10 Q0 -15 8 -10 Q5 -8 0 -12 Q-5 -8 -8 -10" fill="#8B4513"/>
+    <!-- Arms -->
+    <ellipse cx="-15" cy="10" rx="18" ry="6" fill="#000080" transform="rotate(-20 -15 10)"/>
+    <ellipse cx="15" cy="15" rx="18" ry="6" fill="#000080" transform="rotate(30 15 15)"/>
+    <!-- Legs -->
+    <ellipse cx="-5" cy="50" rx="6" ry="20" fill="#000"/>
+    <ellipse cx="5" cy="50" rx="6" ry="20" fill="#000"/>
+    
+    <!-- Electric guitar -->
+    <g transform="translate(8, 20)">
+      <ellipse cx="0" cy="0" rx="6" ry="20" fill="url(#guitarGradient)"/>
+      <rect x="-1" y="-25" width="2" height="15" fill="#8B4513"/>
+      <circle cx="0" cy="-30" r="3" fill="#8B4513"/>
+      <!-- Guitar strings -->
+      <g stroke="#C0C0C0" stroke-width="0.3">
+        <path d="M-2 -20 L-2 15"/>
+        <path d="M-1 -20 L-1 15"/>
+        <path d="M0 -20 L0 15"/>
+        <path d="M1 -20 L1 15"/>
+        <path d="M2 -20 L2 15"/>
+      </g>
+      <!-- Pickups -->
+      <rect x="-3" y="-5" width="6" height="2" fill="#000"/>
+      <rect x="-3" y="5" width="6" height="2" fill="#000"/>
+    </g>
+  </g>
+  
+  <!-- Bass guitarist -->
+  <g transform="translate(320, 160)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="10" ry="22" fill="#8B0000"/>
+    <!-- Head -->
+    <circle cx="0" cy="0" r="7" fill="#FFDAB9"/>
+    <!-- Hair -->
+    <path d="M-7 -5 Q0 -10 7 -5 Q3 -3 0 -7 Q-3 -3 -7 -5" fill="#000"/>
+    <!-- Arms -->
+    <ellipse cx="-12" cy="12" rx="15" ry="5" fill="#8B0000" transform="rotate(-25 -12 12)"/>
+    <ellipse cx="12" cy="18" rx="15" ry="5" fill="#8B0000" transform="rotate(35 12 18)"/>
+    <!-- Legs -->
+    <ellipse cx="-4" cy="45" rx="5" ry="18" fill="#000"/>
+    <ellipse cx="4" cy="45" rx="5" ry="18" fill="#000"/>
+    
+    <!-- Bass guitar -->
+    <g transform="translate(6, 25)">
+      <ellipse cx="0" cy="0" rx="5" ry="18" fill="#4B0082"/>
+      <rect x="-1" y="-22" width="2" height="12" fill="#654321"/>
+      <circle cx="0" cy="-26" r="2.5" fill="#654321"/>
+      <!-- Bass strings -->
+      <g stroke="#C0C0C0" stroke-width="0.5">
+        <path d="M-1.5 -18 L-1.5 12"/>
+        <path d="M-0.5 -18 L-0.5 12"/>
+        <path d="M0.5 -18 L0.5 12"/>
+        <path d="M1.5 -18 L1.5 12"/>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Keyboardist -->
+  <g transform="translate(50, 170)">
+    <!-- Body -->
+    <ellipse cx="0" cy="15" rx="8" ry="20" fill="#228B22"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="6" fill="#FFDAB9"/>
+    <!-- Hair -->
+    <path d="M-6 -8 Q0 -12 6 -8 Q2 -6 0 -10 Q-2 -6 -6 -8" fill="#FFD700"/>
+    <!-- Arms -->
+    <ellipse cx="-10" cy="8" rx="12" ry="4" fill="#228B22" transform="rotate(-10 -10 8)"/>
+    <ellipse cx="10" cy="8" rx="12" ry="4" fill="#228B22" transform="rotate(10 10 8)"/>
+    
+    <!-- Keyboard -->
+    <rect x="-15" y="25" width="30" height="8" fill="#000"/>
+    <!-- White keys -->
+    <g fill="#FFFFFF" stroke="#000" stroke-width="0.5">
+      <rect x="-14" y="26" width="3" height="6"/>
+      <rect x="-10" y="26" width="3" height="6"/>
+      <rect x="-6" y="26" width="3" height="6"/>
+      <rect x="-2" y="26" width="3" height="6"/>
+      <rect x="2" y="26" width="3" height="6"/>
+      <rect x="6" y="26" width="3" height="6"/>
+      <rect x="10" y="26" width="3" height="6"/>
+    </g>
+    <!-- Black keys -->
+    <g fill="#000">
+      <rect x="-12" y="26" width="2" height="4"/>
+      <rect x="-8" y="26" width="2" height="4"/>
+      <rect x="0" y="26" width="2" height="4"/>
+      <rect x="4" y="26" width="2" height="4"/>
+      <rect x="8" y="26" width="2" height="4"/>
+    </g>
+  </g>
+  
+  <!-- Amplifiers -->
+  <rect x="10" y="220" width="20" height="25" fill="#2F2F2F" stroke="#000" stroke-width="1"/>
+  <circle cx="20" cy="232" r="3" fill="#000"/>
+  <rect x="15" y="240" width="10" height="2" fill="#C0C0C0"/>
+  
+  <rect x="350" y="215" width="25" height="30" fill="#2F2F2F" stroke="#000" stroke-width="1"/>
+  <circle cx="362" cy="230" r="4" fill="#000"/>
+  <rect x="355" y="240" width="15" height="2" fill="#C0C0C0"/>
+  
+  <!-- Stage lights -->
+  <g>
+    <rect x="75" y="40" width="8" height="12" fill="#FFD700" transform="rotate(30 75 40)"/>
+    <rect x="175" y="35" width="8" height="12" fill="#FF69B4" transform="rotate(-20 175 35)"/>
+    <rect x="275" y="42" width="8" height="12" fill="#00FF00" transform="rotate(25 275 42)"/>
+    <rect x="325" y="38" width="8" height="12" fill="#4169E1" transform="rotate(-15 325 38)"/>
+  </g>
+  
+  <!-- Musical notes floating in air -->
+  <g fill="url(#noteGradient)">
+    <!-- Quarter notes -->
+    <g transform="translate(120, 80)">
+      <circle cx="0" cy="0" r="3"/>
+      <rect x="3" y="-12" width="1" height="12"/>
+    </g>
+    
+    <g transform="translate(180, 60)">
+      <circle cx="0" cy="0" r="2.5"/>
+      <rect x="2.5" y="-10" width="1" height="10"/>
+    </g>
+    
+    <g transform="translate(280, 90)">
+      <circle cx="0" cy="0" r="3"/>
+      <rect x="3" y="-12" width="1" height="12"/>
+      <path d="M4 -12 Q8 -10 6 -8" stroke="url(#noteGradient)" stroke-width="1" fill="none"/>
+    </g>
+    
+    <!-- Eighth notes -->
+    <g transform="translate(220, 45)">
+      <circle cx="0" cy="0" r="2"/>
+      <rect x="2" y="-8" width="0.8" height="8"/>
+      <circle cx="6" cy="2" r="2"/>
+      <rect x="8" y="-6" width="0.8" height="8"/>
+      <path d="M2.8 -8 Q6 -6 8.8 -6" stroke="url(#noteGradient)" stroke-width="1.5" fill="none"/>
+    </g>
+    
+    <!-- Treble clef -->
+    <g transform="translate(340, 70)">
+      <path d="M0 5 Q5 0 3 10 Q1 20 5 15 Q10 10 7 25 Q4 35 0 25 Q-4 15 0 5" 
+            fill="url(#noteGradient)" stroke="#FF4500" stroke-width="0.5"/>
+    </g>
+  </g>
+  
+  <!-- Crowd silhouettes -->
+  <g fill="#1C1C1C">
+    <!-- Front row -->
+    <ellipse cx="50" cy="320" rx="8" ry="15"/>
+    <circle cx="50" cy="305" r="5"/>
+    <rect x="46" y="295" width="8" height="4" fill="none" stroke="#FFD700" stroke-width="1"/>
+    
+    <ellipse cx="90" cy="325" rx="6" ry="12"/>
+    <circle cx="90" cy="313" r="4"/>
+    <ellipse cx="85" cy="300" rx="3" ry="8" fill="none" stroke="#FFD700" stroke-width="1" transform="rotate(45 85 300)"/>
+    <ellipse cx="95" cy="300" rx="3" ry="8" fill="none" stroke="#FFD700" stroke-width="1" transform="rotate(-45 95 300)"/>
+    
+    <ellipse cx="130" cy="330" rx="7" ry="14"/>
+    <circle cx="130" cy="316" r="4.5"/>
+    <circle cx="130" cy="305" r="1" fill="#FFD700"/>
+    
+    <ellipse cx="170" cy="325" rx="8" ry="13"/>
+    <circle cx="170" cy="312" r="5"/>
+    <rect x="166" y="300" width="8" height="4" fill="none" stroke="#FFD700" stroke-width="1"/>
+    
+    <ellipse cx="210" cy="330" rx="6" ry="15"/>
+    <circle cx="210" cy="315" r="4"/>
+    <ellipse cx="205" cy="302" rx="3" ry="8" fill="none" stroke="#FFD700" stroke-width="1" transform="rotate(45 205 302)"/>
+    <ellipse cx="215" cy="302" rx="3" ry="8" fill="none" stroke="#FFD700" stroke-width="1" transform="rotate(-45 215 302)"/>
+    
+    <ellipse cx="250" cy="325" rx="7" ry="12"/>
+    <circle cx="250" cy="313" r="4.5"/>
+    <circle cx="250" cy="302" r="1" fill="#FFD700"/>
+    
+    <ellipse cx="290" cy="330" rx="8" ry="14"/>
+    <circle cx="290" cy="316" r="5"/>
+    <rect x="286" y="305" width="8" height="3" fill="none" stroke="#FFD700" stroke-width="1"/>
+    
+    <ellipse cx="330" cy="325" rx="6" ry="13"/>
+    <circle cx="330" cy="312" r="4"/>
+    <ellipse cx="325" cy="300" rx="3" ry="8" fill="none" stroke="#FFD700" stroke-width="1" transform="rotate(45 325 300)"/>
+    <ellipse cx="335" cy="300" rx="3" ry="8" fill="none" stroke="#FFD700" stroke-width="1" transform="rotate(-45 335 300)"/>
+    
+    <ellipse cx="370" cy="330" rx="7" ry="15"/>
+    <circle cx="370" cy="315" r="4.5"/>
+    <circle cx="370" cy="305" r="1" fill="#FFD700"/>
+  </g>
+  
+  <!-- Back row crowd (smaller) -->
+  <g fill="#2F2F2F" opacity="0.8">
+    <ellipse cx="30" cy="350" rx="5" ry="10"/>
+    <circle cx="30" cy="340" r="3"/>
+    
+    <ellipse cx="70" cy="355" rx="4" ry="8"/>
+    <circle cx="70" cy="347" r="2.5"/>
+    
+    <ellipse cx="110" cy="350" rx="5" ry="9"/>
+    <circle cx="110" cy="341" r="3"/>
+    
+    <ellipse cx="150" cy="355" rx="4" ry="8"/>
+    <circle cx="150" cy="347" r="2.5"/>
+    
+    <ellipse cx="190" cy="350" rx="5" ry="9"/>
+    <circle cx="190" cy="341" r="3"/>
+    
+    <ellipse cx="230" cy="355" rx="4" ry="8"/>
+    <circle cx="230" cy="347" r="2.5"/>
+    
+    <ellipse cx="270" cy="350" rx="5" ry="9"/>
+    <circle cx="270" cy="341" r="3"/>
+    
+    <ellipse cx="310" cy="355" rx="4" ry="8"/>
+    <circle cx="310" cy="347" r="2.5"/>
+    
+    <ellipse cx="350" cy="350" rx="5" ry="9"/>
+    <circle cx="350" cy="341" r="3"/>
+    
+    <ellipse cx="390" cy="355" rx="4" ry="8"/>
+    <circle cx="390" cy="347" r="2.5"/>
+  </g>
+  
+  <!-- Sound waves/vibrations -->
+  <g stroke="#FFD700" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M100 140 Q120 135 140 140 Q160 145 180 140"/>
+    <path d="M200 130 Q220 125 240 130 Q260 135 280 130"/>
+    <path d="M320 145 Q340 140 360 145 Q380 150 400 145"/>
+  </g>
+  
+  <!-- Stage smoke effects -->
+  <g fill="#FFFFFF" opacity="0.3">
+    <ellipse cx="80" cy="240" rx="20" ry="8"/>
+    <ellipse cx="150" cy="245" rx="25" ry="10"/>
+    <ellipse cx="250" cy="240" rx="22" ry="9"/>
+    <ellipse cx="320" cy="245" rx="18" ry="7"/>
+  </g>
+</svg> 
