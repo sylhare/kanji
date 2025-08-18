@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#e6f3ff"/>
+  
+  <!-- Main human eye -->
+  <ellipse cx="250" cy="200" rx="60" ry="30" fill="#FFFFFF"/>
+  <ellipse cx="250" cy="200" rx="55" ry="25" fill="#F0F8FF"/>
+  
+  <!-- Iris -->
+  <circle cx="250" cy="200" r="25" fill="#4169E1"/>
+  <circle cx="250" cy="200" r="20" fill="#6495ED"/>
+  <circle cx="250" cy="200" r="15" fill="#87CEEB"/>
+  
+  <!-- Pupil -->
+  <circle cx="250" cy="200" r="8" fill="#000000"/>
+  
+  <!-- Light reflection -->
+  <circle cx="245" cy="195" r="3" fill="#FFFFFF"/>
+  <circle cx="252" cy="192" r="2" fill="#E6E6FA"/>
+  
+  <!-- Eyelashes -->
+  <path d="M 200 185 Q 195 180 200 175" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 220 180 Q 215 175 220 170" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 240 178 Q 235 173 240 168" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 260 178 Q 265 173 260 168" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 280 180 Q 285 175 280 170" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 300 185 Q 305 180 300 175" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 200 170 Q 250 160 300 170" stroke="#8B4513" stroke-width="4" fill="none"/>
+  <path d="M 205 168 Q 250 158 295 168" stroke="#A0522D" stroke-width="2" fill="none"/>
+  
+  <!-- Different colored eyes -->
+  <!-- Green eye -->
+  <ellipse cx="100" cy="100" rx="40" ry="20" fill="#FFFFFF"/>
+  <circle cx="100" cy="100" r="15" fill="#228B22"/>
+  <circle cx="100" cy="100" r="12" fill="#32CD32"/>
+  <circle cx="100" cy="100" r="5" fill="#000000"/>
+  <circle cx="98" cy="98" r="2" fill="#FFFFFF"/>
+  
+  <!-- Brown eye -->
+  <ellipse cx="400" cy="100" rx="40" ry="20" fill="#FFFFFF"/>
+  <circle cx="400" cy="100" r="15" fill="#8B4513"/>
+  <circle cx="400" cy="100" r="12" fill="#A0522D"/>
+  <circle cx="400" cy="100" r="5" fill="#000000"/>
+  <circle cx="398" cy="98" r="2" fill="#FFFFFF"/>
+  
+  <!-- Animal eyes -->
+  <!-- Cat eye -->
+  <ellipse cx="150" cy="300" rx="30" ry="15" fill="#FFD700"/>
+  <ellipse cx="150" cy="300" rx="25" ry="12" fill="#FFA500"/>
+  <ellipse cx="150" cy="300" rx="8" ry="12" fill="#000000"/>
+  <ellipse cx="148" cy="298" rx="2" ry="3" fill="#FFFFFF"/>
+  
+  <!-- Owl eye -->
+  <circle cx="350" cy="300" r="35" fill="#8B4513"/>
+  <circle cx="350" cy="300" r="30" fill="#A0522D"/>
+  <circle cx="350" cy="300" r="25" fill="#FFD700"/>
+  <circle cx="350" cy="300" r="20" fill="#000000"/>
+  <circle cx="345" cy="295" r="3" fill="#FFFFFF"/>
+  
+  <!-- Compound eye (insect) -->
+  <circle cx="100" cy="400" r="30" fill="#000000"/>
+  <circle cx="95" cy="395" r="4" fill="#FF0000"/>
+  <circle cx="105" cy="395" r="4" fill="#FF0000"/>
+  <circle cx="90" cy="405" r="4" fill="#FF0000"/>
+  <circle cx="100" cy="405" r="4" fill="#FF0000"/>
+  <circle cx="110" cy="405" r="4" fill="#FF0000"/>
+  <circle cx="95" cy="415" r="4" fill="#FF0000"/>
+  <circle cx="105" cy="415" r="4" fill="#FF0000"/>
+  
+  <!-- Eye examination chart -->
+  <rect x="400" y="350" width="80" height="100" fill="#FFFFFF"/>
+  <rect x="402" y="352" width="76" height="96" fill="#F5F5F5"/>
+  <text x="440" y="370" text-anchor="middle" font-family="Arial" font-size="20" fill="#000">E</text>
+  <text x="440" y="390" text-anchor="middle" font-family="Arial" font-size="15" fill="#000">F P</text>
+  <text x="440" y="405" text-anchor="middle" font-family="Arial" font-size="12" fill="#000">T O Z</text>
+  <text x="440" y="420" text-anchor="middle" font-family="Arial" font-size="10" fill="#000">L P E D</text>
+  <text x="440" y="435" text-anchor="middle" font-family="Arial" font-size="8" fill="#000">P E C F D</text>
+  
+  <!-- Magnifying glass -->
+  <circle cx="250" cy="350" r="40" fill="none" stroke="#C0C0C0" stroke-width="4"/>
+  <circle cx="250" cy="350" r="35" fill="#E6F3FF" opacity="0.5"/>
+  <rect x="280" y="380" width="6" height="40" fill="#8B4513"/>
+  
+  <!-- Magnified eye -->
+  <ellipse cx="250" cy="350" rx="25" ry="12" fill="#FFFFFF"/>
+  <circle cx="250" cy="350" r="10" fill="#4169E1"/>
+  <circle cx="250" cy="350" r="4" fill="#000000"/>
+  <circle cx="248" cy="348" r="1" fill="#FFFFFF"/>
+  
+  <!-- Telescope/vision -->
+  <rect x="50" y="250" width="80" height="20" fill="#696969"/>
+  <rect x="52" y="252" width="76" height="16" fill="#778899"/>
+  <circle cx="45" cy="260" r="8" fill="#000000"/>
+  <circle cx="45" cy="260" r="6" fill="#4169E1"/>
+  <circle cx="135" cy="260" r="12" fill="#FFD700"/>
+  <circle cx="135" cy="260" r="8" fill="#FFA500"/>
+  
+  <!-- Vision lines -->
+  <line x1="140" y1="250" x2="200" y2="200" stroke="#FFD700" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="140" y1="260" x2="250" y2="200" stroke="#FFD700" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="140" y1="270" x2="300" y2="200" stroke="#FFD700" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Glasses -->
+  <circle cx="200" cy="150" r="25" fill="none" stroke="#000000" stroke-width="3"/>
+  <circle cx="300" cy="150" r="25" fill="none" stroke="#000000" stroke-width="3"/>
+  <line x1="225" y1="150" x2="275" y2="150" stroke="#000000" stroke-width="3"/>
+  <line x1="175" y1="155" x2="165" y2="160" stroke="#000000" stroke-width="3"/>
+  <line x1="325" y1="155" x2="335" y2="160" stroke="#000000" stroke-width="3"/>
+  
+  <!-- Eyes behind glasses -->
+  <ellipse cx="200" cy="150" rx="15" ry="8" fill="#FFFFFF"/>
+  <circle cx="200" cy="150" r="6" fill="#228B22"/>
+  <circle cx="200" cy="150" r="3" fill="#000000"/>
+  
+  <ellipse cx="300" cy="150" rx="15" ry="8" fill="#FFFFFF"/>
+  <circle cx="300" cy="150" r="6" fill="#8B4513"/>
+  <circle cx="300" cy="150" r="3" fill="#000000"/>
+  
+  <!-- Winking eye -->
+  <path d="M 450 200 Q 460 190 470 200" stroke="#FF69B4" stroke-width="3" fill="none"/>
+  <path d="M 450 205 Q 460 215 470 205" stroke="#FF69B4" stroke-width="3" fill="none"/>
+  <text x="460" y="230" text-anchor="middle" font-family="Arial" font-size="12" fill="#FF69B4">Wink!</text>
+  
+  <!-- Night vision -->
+  <circle cx="400" cy="400" r="30" fill="#000000"/>
+  <circle cx="400" cy="400" r="25" fill="#1a1a1a"/>
+  <circle cx="400" cy="400" r="20" fill="#32CD32"/>
+  <circle cx="400" cy="400" r="15" fill="#7FFF00"/>
+  <circle cx="400" cy="400" r="6" fill="#000000"/>
+  <circle cx="398" cy="398" r="2" fill="#FFFFFF"/>
+  
+  <!-- Laser vision beams -->
+  <line x1="240" y1="195" x2="50" y2="50" stroke="#FF0000" stroke-width="4"/>
+  <line x1="260" y1="195" x2="450" y2="50" stroke="#FF0000" stroke-width="4"/>
+  <line x1="245" y1="200" x2="100" y2="80" stroke="#FFFF00" stroke-width="2"/>
+  <line x1="255" y1="200" x2="400" y2="80" stroke="#FFFF00" stroke-width="2"/>
+  
+  <!-- Traditional eye symbol -->
+  <circle cx="50" cy="50" r="25" fill="none" stroke="#4169E1" stroke-width="3"/>
+  <ellipse cx="50" cy="50" rx="15" ry="8" fill="#FFFFFF"/>
+  <circle cx="50" cy="50" r="6" fill="#4169E1"/>
+  <circle cx="50" cy="50" r="3" fill="#000000"/>
+  <circle cx="48" cy="48" r="1" fill="#FFFFFF"/>
+</svg> 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f0f8ff"/>
+  
+  <!-- Blue sky -->
+  <rect x="0" y="0" width="500" height="250" fill="#87ceeb" opacity="0.5"/>
+  
+  <!-- Central circle -->
+  <circle cx="250" cy="250" r="60" fill="#2196f3"/>
+  <circle cx="250" cy="250" r="40" fill="#4caf50"/>
+  
+  <!-- Blue water -->
+  <ellipse cx="250" cy="400" rx="200" ry="30" fill="#2196f3"/>
+  
+  <!-- Green tree -->
+  <rect x="245" y="300" width="10" height="40" fill="#8d6e63"/>
+  <circle cx="250" cy="280" r="25" fill="#4caf50"/>
+  
+  <!-- Blue bird -->
+  <g transform="translate(150,100)">
+    <ellipse cx="0" cy="0" rx="10" ry="5" fill="#2196f3"/>
+    <circle cx="-6" cy="-2" r="4" fill="#1976d2"/>
+    <polygon points="-10,-2 -12,-1 -10,0" fill="#ffeb3b"/>
+  </g>
+  
+  <!-- Green grass -->
+  <path d="M 0,450 Q 50,430 100,450 Q 150,430 200,450 Q 250,430 300,450 Q 350,430 400,450 Q 450,430 500,450" 
+        stroke="#4caf50" stroke-width="5" fill="none"/>
+  
+  <!-- Text -->
+  <text x="250" y="480" text-anchor="middle" font-family="Arial" font-size="18" fill="#333">BLUE • GREEN</text>
+</svg> 

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#f0f8ff"/>
+  
+  <!-- Large house -->
+  <rect x="150" y="200" width="200" height="200" fill="#8B4513"/>
+  <rect x="155" y="205" width="190" height="190" fill="#A0522D"/>
+  <polygon points="150,200 250,100 350,200" fill="#DC143C"/>
+  <polygon points="155,200 250,110 345,200" fill="#FF6347"/>
+  
+  <!-- Large windows -->
+  <rect x="180" y="240" width="40" height="50" fill="#87CEEB"/>
+  <rect x="280" y="240" width="40" height="50" fill="#87CEEB"/>
+  <line x1="200" y1="240" x2="200" y2="290" stroke="#4169E1" stroke-width="2"/>
+  <line x1="180" y1="265" x2="220" y2="265" stroke="#4169E1" stroke-width="2"/>
+  <line x1="300" y1="240" x2="300" y2="290" stroke="#4169E1" stroke-width="2"/>
+  <line x1="280" y1="265" x2="320" y2="265" stroke="#4169E1" stroke-width="2"/>
+  
+  <!-- Large door -->
+  <rect x="230" y="320" width="40" height="80" fill="#8B4513"/>
+  <rect x="232" y="322" width="36" height="76" fill="#A0522D"/>
+  <circle cx="260" cy="360" r="3" fill="#FFD700"/>
+  
+  <!-- Small house for comparison -->
+  <rect x="380" y="320" width="80" height="80" fill="#8B4513"/>
+  <rect x="382" y="322" width="76" height="76" fill="#A0522D"/>
+  <polygon points="380,320 420,280 460,320" fill="#DC143C"/>
+  
+  <!-- Small windows -->
+  <rect x="390" y="340" width="15" height="20" fill="#87CEEB"/>
+  <rect x="435" y="340" width="15" height="20" fill="#87CEEB"/>
+  
+  <!-- Small door -->
+  <rect x="410" y="370" width="15" height="30" fill="#654321"/>
+  
+  <!-- Size comparison arrows -->
+  <line x1="250" y1="450" x2="420" y2="450" stroke="#FF6B35" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <polygon points="410,445 420,450 410,455" fill="#FF6B35"/>
+  <polygon points="260,445 250,450 260,455" fill="#FF6B35"/>
+  <text x="335" y="470" text-anchor="middle" font-family="Arial" font-size="16" fill="#FF6B35">BIG vs small</text>
+  
+  <!-- Large tree -->
+  <rect x="80" y="250" width="20" height="150" fill="#8B4513"/>
+  <circle cx="90" cy="200" r="50" fill="#228B22"/>
+  <circle cx="90" cy="190" r="40" fill="#32CD32"/>
+  <circle cx="90" cy="180" r="30" fill="#7FFF00"/>
+  
+  <!-- Small tree for comparison -->
+  <rect x="450" y="350" width="6" height="50" fill="#8B4513"/>
+  <circle cx="453" cy="335" r="15" fill="#228B22"/>
+  <circle cx="453" cy="330" r="12" fill="#32CD32"/>
+  
+  <!-- Large mountain -->
+  <polygon points="50,450 150,150 250,450" fill="#696969"/>
+  <polygon points="60,450 150,170 240,450" fill="#778899"/>
+  <polygon points="150,150 130,180 170,180" fill="#FFFFFF"/>
+  
+  <!-- Small hill for comparison -->
+  <polygon points="400,450 450,380 500,450" fill="#696969"/>
+  <polygon points="405,450 450,390 495,450" fill="#778899"/>
+  
+  <!-- Large elephant -->
+  <ellipse cx="300" cy="120" rx="40" ry="25" fill="#808080"/>
+  <ellipse cx="300" cy="115" rx="35" ry="20" fill="#A9A9A9"/>
+  <circle cx="290" cy="105" r="8" fill="#808080"/>
+  <rect x="285" y="95" width="4" height="15" fill="#696969"/>
+  <ellipse cx="325" cy="135" rx="8" ry="20" fill="#696969"/>
+  
+  <!-- Small mouse for comparison -->
+  <ellipse cx="350" cy="130" rx="6" ry="4" fill="#808080"/>
+  <circle cx="355" cy="128" r="2" fill="#A9A9A9"/>
+  <circle cx="357" cy="127" r="1" fill="#000000"/>
+  
+  <!-- Large skyscraper -->
+  <rect x="20" y="50" width="30" height="350" fill="#4682B4"/>
+  <rect x="22" y="52" width="26" height="346" fill="#6495ED"/>
+  
+  <!-- Building windows -->
+  <rect x="25" y="70" width="5" height="8" fill="#FFFF00"/>
+  <rect x="35" y="70" width="5" height="8" fill="#FFFF00"/>
+  <rect x="25" y="90" width="5" height="8" fill="#FFFF00"/>
+  <rect x="35" y="90" width="5" height="8" fill="#FFFF00"/>
+  <rect x="25" y="110" width="5" height="8" fill="#FFFF00"/>
+  <rect x="35" y="110" width="5" height="8" fill="#FFFF00"/>
+  
+  <!-- Small cabin -->
+  <rect x="470" y="380" width="25" height="20" fill="#8B4513"/>
+  <polygon points="470,380 482,370 495,380" fill="#DC143C"/>
+  
+  <!-- Large vs small labels -->
+  <text x="90" y="30" text-anchor="middle" font-family="Arial Black" font-size="20" fill="#FF0000">LARGE</text>
+  <text x="450" y="30" text-anchor="middle" font-family="Arial Black" font-size="12" fill="#0000FF">small</text>
+  
+  <!-- Magnification symbols -->
+  <circle cx="150" cy="80" r="25" fill="none" stroke="#FFD700" stroke-width="4"/>
+  <circle cx="150" cy="80" r="18" fill="none" stroke="#FFD700" stroke-width="2"/>
+  <line x1="170" y1="100" x2="185" y2="115" stroke="#FFD700" stroke-width="4"/>
+  <text x="150" y="87" text-anchor="middle" font-family="Arial Black" font-size="16" fill="#FFD700">+</text>
+  
+  <!-- Traditional big symbol -->
+  <circle cx="450" cy="50" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <rect x="440" y="40" width="20" height="20" fill="none" stroke="#8B0000" stroke-width="2"/>
+  <circle cx="450" cy="50" r="8" fill="#8B0000"/>
+</svg> 

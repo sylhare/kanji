@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#fff0f5"/>
+  
+  <!-- Main X mark for "wrong" -->
+  <line x1="150" y1="150" x2="350" y2="350" stroke="#DC143C" stroke-width="20"/>
+  <line x1="350" y1="150" x2="150" y2="350" stroke="#DC143C" stroke-width="20"/>
+  <line x1="155" y1="155" x2="345" y2="345" stroke="#FF6347" stroke-width="15"/>
+  <line x1="345" y1="155" x2="155" y2="345" stroke="#FF6347" stroke-width="15"/>
+  
+  <!-- Red circle around X -->
+  <circle cx="250" cy="250" r="120" fill="none" stroke="#FF0000" stroke-width="8"/>
+  <circle cx="250" cy="250" r="140" fill="none" stroke="#FF4500" stroke-width="4" opacity="0.7"/>
+  
+  <!-- "FALSE" indicators -->
+  <text x="100" y="100" font-family="Arial Black" font-size="24" fill="#8B0000">FALSE</text>
+  <text x="320" y="400" font-family="Arial Black" font-size="24" fill="#8B0000">ERROR</text>
+  
+  <!-- Wrong arrows pointing away -->
+  <polygon points="50,250 70,240 70,260" fill="#FF0000"/>
+  <polygon points="450,250 430,240 430,260" fill="#FF0000"/>
+  <polygon points="240,50 250,70 260,50" fill="#FF0000"/>
+  <polygon points="240,450 250,430 260,450" fill="#FF0000"/>
+  
+  <!-- Broken/incorrect symbols -->
+  <path d="M 80 80 L 100 60 L 120 80 L 100 100 Z" stroke="#FF0000" stroke-width="4" fill="none"/>
+  <line x1="90" y1="70" x2="110" y2="90" stroke="#FF0000" stroke-width="3"/>
+  
+  <path d="M 380 80 L 400 60 L 420 80 L 400 100 Z" stroke="#FF0000" stroke-width="4" fill="none"/>
+  <line x1="390" y1="70" x2="410" y2="90" stroke="#FF0000" stroke-width="3"/>
+  
+  <path d="M 80 420 L 100 400 L 120 420 L 100 440 Z" stroke="#FF0000" stroke-width="4" fill="none"/>
+  <line x1="90" y1="410" x2="110" y2="430" stroke="#FF0000" stroke-width="3"/>
+  
+  <path d="M 380 420 L 400 400 L 420 420 L 400 440 Z" stroke="#FF0000" stroke-width="4" fill="none"/>
+  <line x1="390" y1="410" x2="410" y2="430" stroke="#FF0000" stroke-width="3"/>
+  
+  <!-- Negation symbols -->
+  <circle cx="150" cy="80" r="20" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <line x1="135" y1="65" x2="165" y2="95" stroke="#8B0000" stroke-width="4"/>
+  
+  <circle cx="350" cy="80" r="20" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <line x1="335" y1="65" x2="365" y2="95" stroke="#8B0000" stroke-width="4"/>
+  
+  <circle cx="150" cy="420" r="20" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <line x1="135" y1="405" x2="165" y2="435" stroke="#8B0000" stroke-width="4"/>
+  
+  <circle cx="350" cy="420" r="20" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <line x1="335" y1="405" x2="365" y2="435" stroke="#8B0000" stroke-width="4"/>
+  
+  <!-- Incorrect/invalid stamps -->
+  <rect x="40" y="200" width="60" height="30" fill="#FF0000" opacity="0.8" transform="rotate(-15 70 215)"/>
+  <text x="70" y="220" text-anchor="middle" font-family="Arial Black" font-size="16" fill="white" transform="rotate(-15 70 220)">WRONG</text>
+  
+  <rect x="400" y="270" width="60" height="30" fill="#DC143C" opacity="0.8" transform="rotate(15 430 285)"/>
+  <text x="430" y="290" text-anchor="middle" font-family="Arial Black" font-size="16" fill="white" transform="rotate(15 430 290)">INVALID</text>
+  
+  <!-- Broken chains/incorrect connections -->
+  <ellipse cx="120" cy="200" rx="12" ry="20" fill="none" stroke="#696969" stroke-width="4"/>
+  <ellipse cx="140" cy="180" rx="12" ry="20" fill="none" stroke="#696969" stroke-width="4"/>
+  <line x1="135" y1="185" x2="145" y2="175" stroke="#FF0000" stroke-width="6"/>
+  
+  <ellipse cx="360" cy="200" rx="12" ry="20" fill="none" stroke="#696969" stroke-width="4"/>
+  <ellipse cx="380" cy="180" rx="12" ry="20" fill="none" stroke="#696969" stroke-width="4"/>
+  <line x1="375" y1="185" x2="385" y2="175" stroke="#FF0000" stroke-width="6"/>
+  
+  <!-- Alert triangles -->
+  <polygon points="200,30 180,70 220,70" fill="#FFD700"/>
+  <polygon points="200,40 190,60 210,60" fill="#FFA500"/>
+  <rect x="198" y="45" width="4" height="10" fill="#FF0000"/>
+  <circle cx="200" cy="60" r="2" fill="#FF0000"/>
+  
+  <polygon points="300,30 280,70 320,70" fill="#FFD700"/>
+  <polygon points="300,40 290,60 310,60" fill="#FFA500"/>
+  <rect x="298" y="45" width="4" height="10" fill="#FF0000"/>
+  <circle cx="300" cy="60" r="2" fill="#FF0000"/>
+  
+  <!-- Distorted/incorrect patterns -->
+  <path d="M 50 300 Q 80 280 110 300 Q 80 320 50 300" stroke="#FF69B4" stroke-width="4" fill="none"/>
+  <line x1="70" y1="290" x2="90" y2="310" stroke="#FF0000" stroke-width="3"/>
+  
+  <path d="M 390 300 Q 420 280 450 300 Q 420 320 390 300" stroke="#FF69B4" stroke-width="4" fill="none"/>
+  <line x1="410" y1="290" x2="430" y2="310" stroke="#FF0000" stroke-width="3"/>
+  
+  <!-- Rejection symbols -->
+  <polygon points="250,100 260,120 280,120 266,132 271,152 250,142 229,152 234,132 220,120 240,120" fill="#8B0000"/>
+  <line x1="235" y1="115" x2="265" y2="145" stroke="#FF0000" stroke-width="3"/>
+  
+  <!-- Error sparks -->
+  <polygon points="120,120 125,130 135,130 127,137 130,147 120,142 110,147 113,137 105,130 115,130" fill="#FF4500"/>
+  <polygon points="380,120 385,130 395,130 387,137 390,147 380,142 370,147 373,137 365,130 375,130" fill="#FF4500"/>
+  <polygon points="120,380 125,390 135,390 127,397 130,407 120,402 110,407 113,397 105,390 115,390" fill="#FF4500"/>
+  <polygon points="380,380 385,390 395,390 387,397 390,407 380,402 370,407 373,397 365,390 375,390" fill="#FF4500"/>
+  
+  <!-- Void/null indicators -->
+  <circle cx="250" cy="250" r="30" fill="none" stroke="#A9A9A9" stroke-width="2" stroke-dasharray="8,4" opacity="0.6"/>
+  <text x="250" y="258" text-anchor="middle" font-family="Arial" font-size="14" fill="#696969">NULL</text>
+  
+  <!-- Traditional "wrong" symbol -->
+  <circle cx="50" cy="50" r="20" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <line x1="40" y1="40" x2="60" y2="60" stroke="#8B0000" stroke-width="4"/>
+  <line x1="60" y1="40" x2="40" y2="60" stroke="#8B0000" stroke-width="4"/>
+</svg> 

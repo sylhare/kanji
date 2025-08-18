@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#fef5e7"/>
+  
+  <!-- Central lance shaft -->
+  <g transform="translate(250,250)">
+    <!-- Main shaft -->
+    <rect x="-6" y="-150" width="12" height="300" fill="#8d6e63"/>
+    <rect x="-4" y="-150" width="8" height="300" fill="#a1887f"/>
+    
+    <!-- Shaft details/grain -->
+    <line x1="-3" y1="-150" x2="-3" y2="150" stroke="#6d4c41" stroke-width="1"/>
+    <line x1="3" y1="-150" x2="3" y2="150" stroke="#6d4c41" stroke-width="1"/>
+    
+    <!-- Lance head -->
+    <polygon points="0,-150 -8,-130 8,-130" fill="#c0c0c0"/>
+    <polygon points="0,-150 -6,-135 6,-135" fill="#e0e0e0"/>
+    <polygon points="0,-150 -3,-140 3,-140" fill="#f0f0f0"/>
+    
+    <!-- Lance point -->
+    <polygon points="0,-150 -2,-155 2,-155" fill="#b0b0b0"/>
+    
+    <!-- Hand grip area -->
+    <rect x="-8" y="50" width="16" height="40" fill="#795548" rx="8"/>
+    <rect x="-6" y="55" width="12" height="30" fill="#8d6e63" rx="6"/>
+    
+    <!-- Grip wrapping -->
+    <line x1="-6" y1="60" x2="6" y2="60" stroke="#6d4c41" stroke-width="1"/>
+    <line x1="-6" y1="70" x2="6" y2="70" stroke="#6d4c41" stroke-width="1"/>
+    <line x1="-6" y1="80" x2="6" y2="80" stroke="#6d4c41" stroke-width="1"/>
+    
+    <!-- Lance butt -->
+    <rect x="-5" y="150" width="10" height="8" fill="#6d4c41" rx="5"/>
+  </g>
+  
+  <!-- Action scene - warrior with lance -->
+  <g transform="translate(120,200)">
+    <!-- Warrior figure -->
+    <circle cx="0" cy="-30" r="12" fill="#ffdbcb"/>
+    <rect x="-8" y="-18" width="16" height="25" fill="#ff5722"/>
+    <rect x="-6" y="7" width="12" height="20" fill="#d84315"/>
+    
+    <!-- Helmet -->
+    <ellipse cx="0" cy="-35" rx="15" ry="8" fill="#757575"/>
+    <ellipse cx="0" cy="-35" rx="12" ry="6" fill="#9e9e9e"/>
+    
+    <!-- Shield -->
+    <g transform="translate(-25,-10)">
+      <ellipse cx="0" cy="0" rx="15" ry="20" fill="#1976d2"/>
+      <ellipse cx="0" cy="0" rx="12" ry="16" fill="#2196f3"/>
+      <path d="M -8,-12 L 8,-12 L 8,12 L -8,12 Z" stroke="#1565c0" stroke-width="2" fill="none"/>
+      <line x1="0" y1="-16" x2="0" y2="16" stroke="#1565c0" stroke-width="2"/>
+    </g>
+    
+    <!-- Lance in action -->
+    <g transform="rotate(30)">
+      <rect x="-3" y="-60" width="6" height="120" fill="#8d6e63"/>
+      <polygon points="0,-60 -5,-45 5,-45" fill="#c0c0c0"/>
+      <polygon points="0,-60 -3,-50 3,-50" fill="#e0e0e0"/>
+    </g>
+    
+    <!-- Motion lines -->
+    <g opacity="0.6">
+      <path d="M 30,-20 Q 50,-15 70,-20" stroke="#ff5722" stroke-width="3" fill="none"/>
+      <path d="M 35,-10 Q 55,-5 75,-10" stroke="#ff5722" stroke-width="3" fill="none"/>
+      <path d="M 40,0 Q 60,5 80,0" stroke="#ff5722" stroke-width="3" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Different lance types -->
+  <!-- Jousting lance -->
+  <g transform="translate(400,150) rotate(15)">
+    <rect x="-4" y="-80" width="8" height="160" fill="#ffeb3b"/>
+    <rect x="-2" y="-80" width="4" height="160" fill="#ffc107"/>
+    
+    <!-- Lance rest/guard -->
+    <circle cx="0" cy="20" r="12" fill="#ff8f00"/>
+    <circle cx="0" cy="20" r="8" fill="#ffc107"/>
+    
+    <!-- Blunt tip for jousting -->
+    <ellipse cx="0" cy="-80" rx="6" ry="10" fill="#ff8f00"/>
+    <ellipse cx="0" cy="-80" rx="4" ry="8" fill="#ffc107"/>
+  </g>
+  
+  <!-- Pike/spear -->
+  <g transform="translate(80,350) rotate(-30)">
+    <rect x="-3" y="-60" width="6" height="120" fill="#795548"/>
+    <rect x="-2" y="-60" width="4" height="120" fill="#8d6e63"/>
+    
+    <!-- Pike head -->
+    <polygon points="0,-60 -4,-45 4,-45" fill="#9e9e9e"/>
+    <polygon points="0,-60 -2,-50 2,-50" fill="#b0b0b0"/>
+    
+    <!-- Cross guard -->
+    <rect x="-15" y="-45" width="30" height="3" fill="#757575"/>
+  </g>
+  
+  <!-- Training dummy -->
+  <g transform="translate(380,350)">
+    <!-- Post -->
+    <rect x="-5" y="0" width="10" height="80" fill="#8d6e63"/>
+    <rect x="-3" y="5" width="6" height="70" fill="#a1887f"/>
+    
+    <!-- Dummy body -->
+    <ellipse cx="0" cy="-20" rx="20" ry="25" fill="#d7ccc8"/>
+    <ellipse cx="0" cy="-20" rx="15" ry="20" fill="#efebe9"/>
+    
+    <!-- Target rings -->
+    <circle cx="0" cy="-20" r="15" fill="none" stroke="#f44336" stroke-width="2"/>
+    <circle cx="0" cy="-20" r="10" fill="none" stroke="#f44336" stroke-width="2"/>
+    <circle cx="0" cy="-20" r="5" fill="#f44336"/>
+    
+    <!-- Lance strikes -->
+    <circle cx="-8" cy="-25" r="2" fill="#d32f2f"/>
+    <circle cx="5" cy="-15" r="2" fill="#d32f2f"/>
+    <circle cx="-3" cy="-10" r="2" fill="#d32f2f"/>
+  </g>
+  
+  <!-- Weapon rack -->
+  <g transform="translate(50,100)">
+    <!-- Rack frame -->
+    <rect x="0" y="0" width="60" height="8" fill="#6d4c41"/>
+    <rect x="5" y="8" width="8" height="40" fill="#6d4c41"/>
+    <rect x="47" y="8" width="8" height="40" fill="#6d4c41"/>
+    
+    <!-- Lance shafts in rack -->
+    <rect x="15" y="-30" width="4" height="70" fill="#8d6e63"/>
+    <polygon points="17,-30 15,-20 19,-20" fill="#c0c0c0"/>
+    
+    <rect x="25" y="-35" width="4" height="75" fill="#795548"/>
+    <polygon points="27,-35 25,-25 29,-25" fill="#9e9e9e"/>
+    
+    <rect x="35" y="-32" width="4" height="72" fill="#ffeb3b"/>
+    <ellipse cx="37" cy="-32" rx="3" ry="5" fill="#ff8f00"/>
+  </g>
+  
+  <!-- Lance making/crafting -->
+  <g transform="translate(150,450)">
+    <!-- Workbench -->
+    <rect x="0" y="20" width="80" height="15" fill="#8d6e63"/>
+    <rect x="5" y="25" width="70" height="5" fill="#a1887f"/>
+    
+    <!-- Workbench legs -->
+    <rect x="10" y="35" width="6" height="25" fill="#6d4c41"/>
+    <rect x="64" y="35" width="6" height="25" fill="#6d4c41"/>
+    
+    <!-- Lance shaft in progress -->
+    <rect x="10" y="15" width="60" height="4" fill="#d7ccc8"/>
+    <rect x="12" y="16" width="56" height="2" fill="#efebe9"/>
+    
+    <!-- Tools -->
+    <!-- Plane -->
+    <rect x="20" y="5" width="15" height="4" fill="#8d6e63"/>
+    <rect x="22" y="6" width="11" height="2" fill="#c0c0c0"/>
+    
+    <!-- Chisel -->
+    <rect x="45" y="8" width="2" height="12" fill="#6d4c41"/>
+    <polygon points="46,8 45,6 47,6" fill="#c0c0c0"/>
+    
+    <!-- Wood shavings -->
+    <ellipse cx="15" cy="35" rx="3" ry="1" fill="#d7ccc8"/>
+    <ellipse cx="25" cy="38" rx="2" ry="0.8" fill="#d7ccc8"/>
+    <ellipse cx="35" cy="36" rx="2.5" ry="1" fill="#d7ccc8"/>
+  </g>
+  
+  <!-- Battle formation -->
+  <g transform="translate(350,80)">
+    <!-- Multiple lance tips -->
+    <polygon points="0,0 -2,8 2,8" fill="#c0c0c0"/>
+    <polygon points="10,5 8,13 12,13" fill="#c0c0c0"/>
+    <polygon points="20,2 18,10 22,10" fill="#c0c0c0"/>
+    <polygon points="30,7 28,15 32,15" fill="#c0c0c0"/>
+    
+    <!-- Lance shafts -->
+    <rect x="-1" y="8" width="2" height="30" fill="#8d6e63"/>
+    <rect x="9" y="13" width="2" height="25" fill="#8d6e63"/>
+    <rect x="19" y="10" width="2" height="28" fill="#8d6e63"/>
+    <rect x="29" y="15" width="2" height="23" fill="#8d6e63"/>
+    
+    <!-- Formation label -->
+    <text x="15" y="50" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">PHALANX</text>
+  </g>
+  
+  <!-- Action impact effect -->
+  <g transform="translate(320,280)">
+    <!-- Impact burst -->
+    <circle cx="0" cy="0" r="15" fill="#ffeb3b" opacity="0.7"/>
+    <circle cx="0" cy="0" r="10" fill="#ffc107" opacity="0.8"/>
+    <circle cx="0" cy="0" r="5" fill="#ff8f00"/>
+    
+    <!-- Radiating impact lines -->
+    <g stroke="#ff5722" stroke-width="3" opacity="0.6">
+      <line x1="-20" y1="0" x2="-25" y2="0"/>
+      <line x1="20" y1="0" x2="25" y2="0"/>
+      <line x1="0" y1="-20" x2="0" y2="-25"/>
+      <line x1="0" y1="20" x2="0" y2="25"/>
+      <line x1="-14" y1="-14" x2="-18" y2="-18"/>
+      <line x1="14" y1="14" x2="18" y2="18"/>
+      <line x1="14" y1="-14" x2="18" y2="-18"/>
+      <line x1="-14" y1="14" x2="-18" y2="18"/>
+    </g>
+  </g>
+  
+  <!-- Ground/arena -->
+  <ellipse cx="250" cy="480" rx="200" ry="20" fill="#8d6e63" opacity="0.3"/>
+</svg> 

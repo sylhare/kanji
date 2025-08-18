@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#faf0e6"/>
+  
+  <!-- Spear shaft -->
+  <rect x="245" y="150" width="10" height="300" fill="#8B4513"/>
+  <rect x="247" y="150" width="6" height="300" fill="#A0522D"/>
+  
+  <!-- Spear head -->
+  <polygon points="250,50 270,150 230,150" fill="#C0C0C0"/>
+  <polygon points="250,50 265,150 235,150" fill="#E5E5E5"/>
+  <polygon points="250,50 260,150 240,150" fill="#DCDCDC"/>
+  
+  <!-- Spear head edge shine -->
+  <polygon points="250,50 255,120 245,120" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Cross guard -->
+  <rect x="220" y="145" width="60" height="10" fill="#654321"/>
+  <rect x="225" y="147" width="50" height="6" fill="#8B4513"/>
+  
+  <!-- Decorative spear bands -->
+  <rect x="240" y="200" width="20" height="8" fill="#FFD700"/>
+  <rect x="240" y="220" width="20" height="8" fill="#FF6B35"/>
+  <rect x="240" y="240" width="20" height="8" fill="#4ECDC4"/>
+  
+  <!-- Grip wrapping -->
+  <rect x="245" y="280" width="10" height="80" fill="#2F4F4F"/>
+  <rect x="245" y="285" width="10" height="3" fill="#708090"/>
+  <rect x="245" y="295" width="10" height="3" fill="#708090"/>
+  <rect x="245" y="305" width="10" height="3" fill="#708090"/>
+  <rect x="245" y="315" width="10" height="3" fill="#708090"/>
+  <rect x="245" y="325" width="10" height="3" fill="#708090"/>
+  <rect x="245" y="335" width="10" height="3" fill="#708090"/>
+  <rect x="245" y="345" width="10" height="3" fill="#708090"/>
+  <rect x="245" y="355" width="10" height="3" fill="#708090"/>
+  
+  <!-- Spear butt/counterweight -->
+  <polygon points="250,450 240,470 260,470" fill="#654321"/>
+  <circle cx="250" cy="470" r="8" fill="#8B4513"/>
+  
+  <!-- Battle ready stance effect -->
+  <circle cx="250" cy="250" r="80" fill="none" stroke="#FFD700" stroke-width="3" opacity="0.6"/>
+  <circle cx="250" cy="250" r="120" fill="none" stroke="#FFA500" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Warrior symbols -->
+  <polygon points="100,100 110,120 130,120 116,132 121,152 100,142 79,152 84,132 70,120 90,120" fill="#8B0000"/>
+  <polygon points="400,100 410,120 430,120 416,132 421,152 400,142 379,152 384,132 370,120 390,120" fill="#8B0000"/>
+  
+  <!-- Combat motion lines -->
+  <path d="M 150 200 Q 200 180 250 200" stroke="#FF6B35" stroke-width="4" fill="none" opacity="0.7"/>
+  <path d="M 350 200 Q 300 180 250 200" stroke="#FF6B35" stroke-width="4" fill="none" opacity="0.7"/>
+  
+  <path d="M 150 300 Q 200 320 250 300" stroke="#4ECDC4" stroke-width="4" fill="none" opacity="0.7"/>
+  <path d="M 350 300 Q 300 320 250 300" stroke="#4ECDC4" stroke-width="4" fill="none" opacity="0.7"/>
+  
+  <!-- Sparks from spear tip -->
+  <polygon points="280,80 285,90 295,90 287,97 290,107 280,102 270,107 273,97 265,90 275,90" fill="#FFFF00"/>
+  <polygon points="220,80 225,90 235,90 227,97 230,107 220,102 210,107 213,97 205,90 215,90" fill="#FFFF00"/>
+  <polygon points="250,30 255,40 265,40 257,47 260,57 250,52 240,57 243,47 235,40 245,40" fill="#FFD700"/>
+  
+  <!-- Ancient runes/symbols on shaft -->
+  <circle cx="230" cy="380" r="5" fill="#8B0000"/>
+  <circle cx="270" cy="390" r="5" fill="#8B0000"/>
+  <circle cx="230" cy="410" r="5" fill="#8B0000"/>
+  <circle cx="270" cy="420" r="5" fill="#8B0000"/>
+  
+  <!-- Power emanation -->
+  <line x1="200" y1="150" x2="180" y2="130" stroke="#FFD700" stroke-width="2"/>
+  <line x1="300" y1="150" x2="320" y2="130" stroke="#FFD700" stroke-width="2"/>
+  <line x1="180" y1="250" x2="160" y2="250" stroke="#FF6B35" stroke-width="2"/>
+  <line x1="320" y1="250" x2="340" y2="250" stroke="#FF6B35" stroke-width="2"/>
+</svg> 

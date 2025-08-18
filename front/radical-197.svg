@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F0F8FF"/>
+  
+  <!-- Salt crystals (main cluster) -->
+  <polygon points="200,200 220,180 240,200 220,220" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  <polygon points="240,200 260,180 280,200 260,220" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  <polygon points="220,220 240,200 260,220 240,240" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  <polygon points="260,220 280,200 300,220 280,240" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  <polygon points="240,240 260,220 280,240 260,260" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Individual salt crystals scattered -->
+  <polygon points="120,150 130,140 140,150 130,160" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <polygon points="350,180 360,170 370,180 360,190" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <polygon points="100,300 110,290 120,300 110,310" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <polygon points="380,320 390,310 400,320 390,330" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Crystal formation structure -->
+  <path d="M 180 180 L 320 180 L 300 240 L 200 240 Z" 
+        stroke="#F8F8FF" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 200 160 L 280 160 L 320 220 L 180 220 Z" 
+        stroke="#F8F8FF" stroke-width="2" fill="none" opacity="0.3"/>
+  
+  <!-- Preserved food items -->
+  <ellipse cx="150" cy="350" rx="30" ry="20" fill="#FF6347"/> <!-- Preserved tomato -->
+  <ellipse cx="350" cy="370" rx="25" ry="15" fill="#32CD32"/> <!-- Preserved cucumber -->
+  <ellipse cx="200" cy="380" rx="20" ry="12" fill="#8B0000"/> <!-- Preserved meat -->
+  
+  <!-- Salt crystals on preserved foods -->
+  <circle cx="145" cy="345" r="2" fill="#FFFFFF"/>
+  <circle cx="155" cy="355" r="2" fill="#FFFFFF"/>
+  <circle cx="345" cy="365" r="2" fill="#FFFFFF"/>
+  <circle cx="355" cy="375" r="2" fill="#FFFFFF"/>
+  
+  <!-- Brine solution -->
+  <ellipse cx="250" cy="420" rx="80" ry="30" fill="#87CEEB" opacity="0.6"/>
+  <ellipse cx="250" cy="415" rx="70" ry="25" fill="#B0E0E6" opacity="0.4"/>
+  
+  <!-- Salt in brine -->
+  <circle cx="230" cy="420" r="1" fill="#FFFFFF"/>
+  <circle cx="270" cy="425" r="1" fill="#FFFFFF"/>
+  <circle cx="250" cy="415" r="1" fill="#FFFFFF"/>
+  <circle cx="260" cy="430" r="1" fill="#FFFFFF"/>
+  
+  <!-- Evaporation lines -->
+  <path d="M 200 400 Q 205 390 210 400" stroke="#E0E0E0" stroke-width="1" fill="none"/>
+  <path d="M 250 395 Q 255 385 260 395" stroke="#E0E0E0" stroke-width="1" fill="none"/>
+  <path d="M 300 400 Q 305 390 310 400" stroke="#E0E0E0" stroke-width="1" fill="none"/>
+  <path d="M 220 380 Q 225 370 230 380" stroke="#E0E0E0" stroke-width="1" fill="none"/>
+  <path d="M 280 385 Q 285 375 290 385" stroke="#E0E0E0" stroke-width="1" fill="none"/>
+  
+  <!-- Salt container/shaker -->
+  <rect x="400" y="150" width="30" height="50" fill="#FFFFFF" stroke="#C0C0C0" stroke-width="2" rx="5"/>
+  <circle cx="415" cy="140" r="8" fill="#C0C0C0"/>
+  <circle cx="412" cy="138" r="1" fill="#000000"/>
+  <circle cx="418" cy="138" r="1" fill="#000000"/>
+  <circle cx="415" cy="142" r="1" fill="#000000"/>
+  
+  <!-- Salt pouring from shaker -->
+  <circle cx="415" cy="210" r="1" fill="#FFFFFF"/>
+  <circle cx="413" cy="215" r="1" fill="#FFFFFF"/>
+  <circle cx="417" cy="218" r="1" fill="#FFFFFF"/>
+  <circle cx="415" cy="222" r="1" fill="#FFFFFF"/>
+  
+  <!-- Sea/ocean reference -->
+  <path d="M 50 100 Q 100 90 150 100 Q 200 110 250 100 Q 300 90 350 100 Q 400 110 450 100" 
+        stroke="#4682B4" stroke-width="4" fill="none"/>
+  <path d="M 60 120 Q 110 110 160 120 Q 210 130 260 120 Q 310 110 360 120 Q 410 130 450 120" 
+        stroke="#4682B4" stroke-width="3" fill="none" opacity="0.7"/>
+</svg>

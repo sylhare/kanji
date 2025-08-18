@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#e3f2fd"/>
+  
+  <!-- Water -->
+  <path d="M 0,300 Q 100,290 200,300 Q 300,310 400,300 Q 450,295 500,300 L 500,500 L 0,500 Z" 
+        fill="#2196f3" opacity="0.8"/>
+  
+  <!-- Water waves -->
+  <path d="M 0,320 Q 50,310 100,320 Q 150,330 200,320 Q 250,310 300,320 Q 350,330 400,320 Q 450,310 500,320" 
+        stroke="#1976d2" stroke-width="3" fill="none"/>
+  <path d="M 0,340 Q 50,330 100,340 Q 150,350 200,340 Q 250,330 300,340 Q 350,350 400,340 Q 450,330 500,340" 
+        stroke="#1565c0" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Main fishing boat -->
+  <g transform="translate(250,250)">
+    <!-- Hull -->
+    <path d="M -80,20 Q -90,40 -80,50 L 80,50 Q 90,40 80,20 L 70,10 L -70,10 Z" 
+          fill="#8d6e63"/>
+    <path d="M -70,10 Q 0,5 70,10 L 70,20 Q 0,15 -70,20 Z" 
+          fill="#a1887f"/>
+    
+    <!-- Boat cabin -->
+    <rect x="-20" y="-10" width="40" height="20" fill="#795548" rx="3"/>
+    <rect x="-15" y="-5" width="30" height="10" fill="#8d6e63"/>
+    
+    <!-- Windows -->
+    <rect x="-10" y="-5" width="8" height="6" fill="#81d4fa" rx="1"/>
+    <rect x="2" y="-5" width="8" height="6" fill="#81d4fa" rx="1"/>
+    
+    <!-- Mast -->
+    <rect x="-2" y="-50" width="4" height="60" fill="#6d4c41"/>
+    
+    <!-- Fishing equipment on deck -->
+    <!-- Net reel -->
+    <circle cx="30" cy="15" r="8" fill="#4caf50" opacity="0.7"/>
+    <circle cx="30" cy="15" r="5" fill="#388e3c"/>
+    
+    <!-- Fishing rods -->
+    <rect x="-50" y="10" width="2" height="15" fill="#8d6e63"/>
+    <rect x="-45" y="10" width="2" height="15" fill="#8d6e63"/>
+    <rect x="-40" y="10" width="2" height="15" fill="#8d6e63"/>
+    
+    <!-- Fishing lines -->
+    <line x1="-49" y1="25" x2="-49" y2="45" stroke="#4fc3f7" stroke-width="1"/>
+    <line x1="-44" y1="25" x2="-44" y2="45" stroke="#4fc3f7" stroke-width="1"/>
+    <line x1="-39" y1="25" x2="-39" y2="45" stroke="#4fc3f7" stroke-width="1"/>
+    
+    <!-- Anchor -->
+    <g transform="translate(60,25)">
+      <rect x="-1" y="-8" width="2" height="16" fill="#666"/>
+      <path d="M -1,8 Q -6,12 -6,16 Q -6,18 -4,18 Q -2,18 -2,16 Q -2,12 -1,8" fill="#666"/>
+      <path d="M 1,8 Q 6,12 6,16 Q 6,18 4,18 Q 2,18 2,16 Q 2,12 1,8" fill="#666"/>
+      <line x1="-8" y1="0" x2="8" y2="0" stroke="#666" stroke-width="2"/>
+    </g>
+  </g>
+  
+  <!-- Small fishing boats -->
+  <g transform="translate(120,200)">
+    <!-- Small boat 1 -->
+    <path d="M -30,15 Q -35,25 -30,30 L 30,30 Q 35,25 30,15 L 25,10 L -25,10 Z" 
+          fill="#a1887f"/>
+    
+    <!-- Fisherman -->
+    <circle cx="0" cy="0" r="5" fill="#ffdbcb"/>
+    <rect x="-3" y="5" width="6" height="10" fill="#2196f3"/>
+    
+    <!-- Fishing rod -->
+    <line x1="10" y1="5" x2="25" y2="-10" stroke="#8d6e63" stroke-width="2"/>
+    <line x1="25" y1="-10" x2="35" y2="20" stroke="#4fc3f7" stroke-width="1"/>
+  </g>
+  
+  <g transform="translate(380,220)">
+    <!-- Small boat 2 -->
+    <path d="M -25,12 Q -28,20 -25,25 L 25,25 Q 28,20 25,12 L 20,8 L -20,8 Z" 
+          fill="#795548"/>
+    
+    <!-- Net -->
+    <g stroke="#4caf50" stroke-width="1" fill="none">
+      <line x1="-15" y1="20" x2="15" y2="20"/>
+      <line x1="-15" y1="25" x2="15" y2="25"/>
+      <line x1="-10" y1="20" x2="-10" y2="30"/>
+      <line x1="0" y1="20" x2="0" y2="30"/>
+      <line x1="10" y1="20" x2="10" y2="30"/>
+    </g>
+  </g>
+  
+  <!-- Large cargo/fishing vessel -->
+  <g transform="translate(100,350)">
+    <!-- Hull -->
+    <path d="M -60,20 Q -70,35 -60,45 L 60,45 Q 70,35 60,20 L 50,5 L -50,5 Z" 
+          fill="#607d8b"/>
+    <path d="M -50,5 Q 0,0 50,5 L 50,15 Q 0,10 -50,15 Z" 
+          fill="#78909c"/>
+    
+    <!-- Superstructure -->
+    <rect x="-30" y="-15" width="60" height="20" fill="#546e7a" rx="2"/>
+    <rect x="-25" y="-10" width="50" height="10" fill="#607d8b"/>
+    
+    <!-- Bridge -->
+    <rect x="-15" y="-25" width="30" height="15" fill="#455a64" rx="2"/>
+    <rect x="-10" y="-20" width="20" height="8" fill="#546e7a"/>
+    
+    <!-- Windows -->
+    <rect x="-8" y="-18" width="5" height="4" fill="#81d4fa"/>
+    <rect x="-1" y="-18" width="5" height="4" fill="#81d4fa"/>
+    <rect x="6" y="-18" width="5" height="4" fill="#81d4fa"/>
+    
+    <!-- Smokestacks -->
+    <rect x="-20" y="-35" width="6" height="20" fill="#37474f" rx="3"/>
+    <rect x="14" y="-35" width="6" height="20" fill="#37474f" rx="3"/>
+    
+    <!-- Smoke -->
+    <ellipse cx="-17" cy="-40" rx="3" ry="5" fill="#90a4ae" opacity="0.6"/>
+    <ellipse cx="17" cy="-40" rx="3" ry="5" fill="#90a4ae" opacity="0.6"/>
+  </g>
+  
+  <!-- Sailboat -->
+  <g transform="translate(400,180)">
+    <!-- Hull -->
+    <path d="M -20,15 Q -25,25 -20,30 L 20,30 Q 25,25 20,15 L 15,10 L -15,10 Z" 
+          fill="#8d6e63"/>
+    
+    <!-- Mast -->
+    <rect x="-1" y="-40" width="2" height="50" fill="#6d4c41"/>
+    
+    <!-- Main sail -->
+    <path d="M 1,-35 Q 25,-30 25,5 L 1,10 Z" fill="#f5f5f5"/>
+    
+    <!-- Jib sail -->
+    <path d="M -1,-30 Q -15,-25 -15,0 L -1,5 Z" fill="#e8f5e9"/>
+    
+    <!-- Flag -->
+    <rect x="1" y="-40" width="8" height="5" fill="#f44336"/>
+  </g>
+  
+  <!-- Harbor/dock -->
+  <rect x="450" y="250" width="50" height="100" fill="#8d6e63"/>
+  <rect x="455" y="255" width="40" height="90" fill="#a1887f"/>
+  
+  <!-- Dock posts -->
+  <rect x="465" y="200" width="4" height="50" fill="#6d4c41"/>
+  <rect x="475" y="200" width="4" height="50" fill="#6d4c41"/>
+  <rect x="485" y="200" width="4" height="50" fill="#6d4c41"/>
+  
+  <!-- Seagulls -->
+  <g transform="translate(150,100)">
+    <path d="M -8,0 Q 0,-5 8,0" stroke="#757575" stroke-width="2" fill="none"/>
+    <path d="M -5,3 Q 0,-2 5,3" stroke="#757575" stroke-width="2" fill="none"/>
+  </g>
+  
+  <g transform="translate(350,80)">
+    <path d="M -6,0 Q 0,-4 6,0" stroke="#757575" stroke-width="2" fill="none"/>
+    <path d="M -4,2 Q 0,-1 4,2" stroke="#757575" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Lighthouse -->
+  <g transform="translate(50,150)">
+    <!-- Tower -->
+    <rect x="-8" y="0" width="16" height="80" fill="#f5f5f5"/>
+    <rect x="-6" y="5" width="12" height="70" fill="#ffffff"/>
+    
+    <!-- Light housing -->
+    <rect x="-10" y="-10" width="20" height="15" fill="#ffeb3b" rx="2"/>
+    <rect x="-8" y="-5" width="16" height="8" fill="#ffc107"/>
+    
+    <!-- Light beam -->
+    <path d="M 10,-5 Q 30,-10 50,-5 Q 30,0 10,5 Z" fill="#ffeb3b" opacity="0.3"/>
+    
+    <!-- Base -->
+    <rect x="-12" y="75" width="24" height="10" fill="#e0e0e0"/>
+  </g>
+  
+  <!-- Compass rose -->
+  <g transform="translate(450,100)">
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#666" stroke-width="2"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">N</text>
+    <text x="15" y="3" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">E</text>
+    <text x="0" y="18" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">S</text>
+    <text x="-15" y="3" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">W</text>
+    
+    <!-- Compass needle -->
+    <polygon points="0,-12 3,0 0,12 -3,0" fill="#f44336"/>
+  </g>
+  
+  <!-- Ship wake -->
+  <g transform="translate(250,300)">
+    <path d="M -80,50 Q -60,60 -40,50 Q -20,40 0,50 Q 20,60 40,50 Q 60,40 80,50" 
+          stroke="#e3f2fd" stroke-width="3" fill="none" opacity="0.7"/>
+    <path d="M -70,55 Q -50,65 -30,55 Q -10,45 10,55 Q 30,65 50,55 Q 70,45 90,55" 
+          stroke="#e3f2fd" stroke-width="2" fill="none" opacity="0.5"/>
+  </g>
+</svg> 

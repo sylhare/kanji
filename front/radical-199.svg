@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F0FFF0"/>
+  
+  <!-- Main wheat stalks -->
+  <rect x="200" y="200" width="8" height="200" fill="#DAA520" rx="4"/>
+  <rect x="250" y="180" width="10" height="220" fill="#DAA520" rx="5"/>
+  <rect x="300" y="190" width="8" height="210" fill="#DAA520" rx="4"/>
+  
+  <!-- Secondary wheat stalks -->
+  <rect x="150" y="220" width="6" height="180" fill="#DAA520" rx="3"/>
+  <rect x="350" y="210" width="6" height="190" fill="#DAA520" rx="3"/>
+  <rect x="120" y="240" width="5" height="160" fill="#DAA520" rx="2"/>
+  <rect x="380" y="230" width="5" height="170" fill="#DAA520" rx="2"/>
+  
+  <!-- Wheat grain heads -->
+  <ellipse cx="204" cy="180" rx="15" ry="25" fill="#F5DEB3"/>
+  <ellipse cx="255" cy="160" rx="18" ry="30" fill="#F5DEB3"/>
+  <ellipse cx="304" cy="170" rx="15" ry="25" fill="#F5DEB3"/>
+  <ellipse cx="153" cy="200" rx="12" ry="20" fill="#F5DEB3"/>
+  <ellipse cx="353" cy="190" rx="12" ry="20" fill="#F5DEB3"/>
+  <ellipse cx="122" cy="220" rx="10" ry="18" fill="#F5DEB3"/>
+  <ellipse cx="382" cy="210" rx="10" ry="18" fill="#F5DEB3"/>
+  
+  <!-- Individual grain details -->
+  <ellipse cx="198" cy="175" rx="3" ry="5" fill="#DEB887"/>
+  <ellipse cx="204" cy="170" rx="3" ry="5" fill="#DEB887"/>
+  <ellipse cx="210" cy="175" rx="3" ry="5" fill="#DEB887"/>
+  <ellipse cx="204" cy="185" rx="3" ry="5" fill="#DEB887"/>
+  
+  <ellipse cx="248" cy="155" rx="4" ry="6" fill="#DEB887"/>
+  <ellipse cx="255" cy="150" rx="4" ry="6" fill="#DEB887"/>
+  <ellipse cx="262" cy="155" rx="4" ry="6" fill="#DEB887"/>
+  <ellipse cx="255" cy="165" rx="4" ry="6" fill="#DEB887"/>
+  <ellipse cx="248" cy="170" rx="4" ry="6" fill="#DEB887"/>
+  <ellipse cx="262" cy="170" rx="4" ry="6" fill="#DEB887"/>
+  
+  <!-- Wheat beards (awns) -->
+  <path d="M 192 170 L 185 160" stroke="#B8860B" stroke-width="1"/>
+  <path d="M 204 165 L 197 155" stroke="#B8860B" stroke-width="1"/>
+  <path d="M 216 170 L 223 160" stroke="#B8860B" stroke-width="1"/>
+  
+  <path d="M 242 150 L 235 140" stroke="#B8860B" stroke-width="1"/>
+  <path d="M 255 145 L 248 135" stroke="#B8860B" stroke-width="1"/>
+  <path d="M 268 150 L 275 140" stroke="#B8860B" stroke-width="1"/>
+  <path d="M 255 160 L 262 150" stroke="#B8860B" stroke-width="1"/>
+  
+  <path d="M 298 165 L 291 155" stroke="#B8860B" stroke-width="1"/>
+  <path d="M 304 160 L 297 150" stroke="#B8860B" stroke-width="1"/>
+  <path d="M 310 165 L 317 155" stroke="#B8860B" stroke-width="1"/>
+  
+  <!-- Field pattern rows -->
+  <path d="M 50 400 L 450 400" stroke="#F4A460" stroke-width="6"/>
+  <path d="M 60 350 L 440 350" stroke="#F4A460" stroke-width="4" opacity="0.7"/>
+  <path d="M 70 450 L 430 450" stroke="#F4A460" stroke-width="4" opacity="0.7"/>
+  
+  <!-- Ground/soil -->
+  <rect x="0" y="480" width="500" height="20" fill="#8B4513"/>
+  <rect x="0" y="470" width="500" height="10" fill="#A0522D" opacity="0.7"/>
+  
+  <!-- Scattered wheat grains on ground -->
+  <ellipse cx="80" cy="470" rx="3" ry="2" fill="#DEB887"/>
+  <ellipse cx="420" cy="475" rx="3" ry="2" fill="#DEB887"/>
+  <ellipse cx="150" cy="480" rx="3" ry="2" fill="#DEB887"/>
+  <ellipse cx="350" cy="470" rx="3" ry="2" fill="#DEB887"/>
+  <ellipse cx="200" cy="475" rx="3" ry="2" fill="#DEB887"/>
+  <ellipse cx="300" cy="480" rx="3" ry="2" fill="#DEB887"/>
+  
+  <!-- Wind effect -->
+  <path d="M 50 100 Q 100 90 150 100 Q 200 110 250 100 Q 300 90 350 100 Q 400 110 450 100" 
+        stroke="#B0E0E6" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 60 120 Q 110 110 160 120 Q 210 130 260 120 Q 310 110 360 120 Q 410 130 450 120" 
+        stroke="#B0E0E6" stroke-width="2" fill="none" opacity="0.3"/>
+  
+  <!-- Harvest basket -->
+  <ellipse cx="400" cy="350" rx="40" ry="25" fill="#8B4513"/>
+  <ellipse cx="400" cy="345" rx="35" ry="20" fill="#D2B48C"/>
+  <!-- Wheat in basket -->
+  <ellipse cx="390" cy="340" rx="8" ry="5" fill="#F5DEB3"/>
+  <ellipse cx="405" cy="338" rx="8" ry="5" fill="#F5DEB3"/>
+  <ellipse cx="410" cy="345" rx="6" ry="4" fill="#F5DEB3"/>
+</svg>

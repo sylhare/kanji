@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#FDF5E6"/>
+  
+  <!-- Main cauldron bowl -->
+  <ellipse cx="250" cy="200" rx="80" ry="50" fill="#2F2F2F" stroke="#000000" stroke-width="4"/>
+  <ellipse cx="250" cy="195" rx="70" ry="40" fill="#696969"/>
+  <ellipse cx="250" cy="190" rx="60" ry="30" fill="#A9A9A9"/>
+  
+  <!-- Tripod legs -->
+  <rect x="180" y="240" width="8" height="80" fill="#696969" stroke="#2F2F2F" stroke-width="2" rx="4"/>
+  <rect x="250" y="240" width="8" height="80" fill="#696969" stroke="#2F2F2F" stroke-width="2" rx="4"/>
+  <rect x="320" y="240" width="8" height="80" fill="#696969" stroke="#2F2F2F" stroke-width="2" rx="4"/>
+  
+  <!-- Leg feet for stability -->
+  <ellipse cx="184" cy="320" rx="12" ry="6" fill="#2F2F2F"/>
+  <ellipse cx="254" cy="320" rx="12" ry="6" fill="#2F2F2F"/>
+  <ellipse cx="324" cy="320" rx="12" ry="6" fill="#2F2F2F"/>
+  
+  <!-- Cooking fire underneath -->
+  <path d="M 200 330 Q 210 320 220 330 Q 230 315 240 330 Q 250 320 260 330 Q 270 315 280 330 Q 290 320 300 330" 
+        stroke="#FF4500" stroke-width="6" fill="none"/>
+  <path d="M 210 340 Q 220 330 230 340 Q 240 325 250 340 Q 260 330 270 340 Q 280 325 290 340" 
+        stroke="#FF6347" stroke-width="4" fill="none"/>
+  
+  <!-- Fire flames -->
+  <path d="M 190 350 Q 200 340 210 350 Q 220 335 230 350" 
+        stroke="#FF4500" stroke-width="4" fill="none"/>
+  <path d="M 270 350 Q 280 335 290 350 Q 300 340 310 350" 
+        stroke="#FF4500" stroke-width="4" fill="none"/>
+  
+  <!-- Hot coals -->
+  <ellipse cx="210" cy="360" rx="8" ry="4" fill="#DC143C"/>
+  <ellipse cx="230" cy="365" rx="6" ry="3" fill="#DC143C"/>
+  <ellipse cx="250" cy="360" rx="8" ry="4" fill="#DC143C"/>
+  <ellipse cx="270" cy="365" rx="6" ry="3" fill="#DC143C"/>
+  <ellipse cx="290" cy="360" rx="8" ry="4" fill="#DC143C"/>
+  
+  <!-- Steam rising from cauldron -->
+  <path d="M 230 170 Q 235 160 240 170 Q 245 160 250 170 Q 255 160 260 170" 
+        stroke="#E0E0E0" stroke-width="4" fill="none"/>
+  <path d="M 220 150 Q 225 140 230 150" stroke="#E0E0E0" stroke-width="3" fill="none"/>
+  <path d="M 270 150 Q 275 140 280 150" stroke="#E0E0E0" stroke-width="3" fill="none"/>
+  <path d="M 245 130 Q 250 120 255 130" stroke="#E0E0E0" stroke-width="3" fill="none"/>
+  
+  <!-- Food contents in cauldron -->
+  <circle cx="230" cy="190" r="6" fill="#8B4513"/>
+  <circle cx="250" cy="195" r="7" fill="#DEB887"/>
+  <circle cx="270" cy="190" r="6" fill="#FF6347"/>
+  <circle cx="240" cy="205" r="5" fill="#32CD32"/>
+  <circle cx="260" cy="205" r="5" fill="#FFD700"/>
+  
+  <!-- Broth/liquid -->
+  <ellipse cx="250" cy="195" rx="55" ry="25" fill="#8B4513" opacity="0.4"/>
+  
+  <!-- Cauldron handles -->
+  <ellipse cx="170" cy="180" rx="6" ry="12" fill="none" stroke="#2F2F2F" stroke-width="4"/>
+  <ellipse cx="330" cy="180" rx="6" ry="12" fill="none" stroke="#2F2F2F" stroke-width="4"/>
+  
+  <!-- Smaller tripod cauldrons -->
+  <ellipse cx="120" cy="300" rx="30" ry="20" fill="#2F2F2F" stroke="#000000" stroke-width="2"/>
+  <ellipse cx="120" cy="295" rx="25" ry="15" fill="#696969"/>
+  
+  <!-- Small tripod legs -->
+  <rect x="105" y="315" width="4" height="30" fill="#696969" rx="2"/>
+  <rect x="120" y="315" width="4" height="30" fill="#696969" rx="2"/>
+  <rect x="135" y="315" width="4" height="30" fill="#696969" rx="2"/>
+  
+  <!-- Small fire -->
+  <path d="M 110 350 Q 115 345 120 350 Q 125 345 130 350" 
+        stroke="#FF4500" stroke-width="3" fill="none"/>
+  
+  <!-- Another small cauldron -->
+  <ellipse cx="380" cy="280" rx="25" ry="18" fill="#2F2F2F" stroke="#000000" stroke-width="2"/>
+  <ellipse cx="380" cy="275" rx="20" ry="13" fill="#696969"/>
+  
+  <!-- Small tripod legs -->
+  <rect x="368" y="295" width="4" height="25" fill="#696969" rx="2"/>
+  <rect x="380" y="295" width="4" height="25" fill="#696969" rx="2"/>
+  <rect x="392" y="295" width="4" height="25" fill="#696969" rx="2"/>
+  
+  <!-- Cooking utensils -->
+  <rect x="100" y="250" width="4" height="60" fill="#8B4513"/>
+  <ellipse cx="102" cy="245" rx="8" ry="5" fill="#C0C0C0"/>
+  
+  <rect x="400" y="260" width="4" height="50" fill="#8B4513"/>
+  <ellipse cx="402" cy="255" rx="6" ry="4" fill="#C0C0C0"/>
+  
+  <!-- Ground/hearth -->
+  <rect x="0" y="470" width="500" height="30" fill="#8B4513"/>
+  
+  <!-- Stone hearth -->
+  <ellipse cx="250" cy="380" rx="120" ry="20" fill="#696969"/>
+  <ellipse cx="250" cy="375" rx="110" ry="15" fill="#A9A9A9"/>
+  
+  <!-- Firewood -->
+  <rect x="150" y="390" width="40" height="6" fill="#8B4513" rx="3"/>
+  <rect x="160" y="400" width="35" height="6" fill="#8B4513" rx="3"/>
+  <rect x="310" y="395" width="38" height="6" fill="#8B4513" rx="3"/>
+  <rect x="320" y="405" width="30" height="6" fill="#8B4513" rx="3"/>
+  
+  <!-- Ancient cooking scene elements -->
+  <circle cx="50" cy="200" r="15" fill="#DEB887"/> <!-- Clay pot -->
+  <rect x="48" y="185" width="4" height="15" fill="#8B4513"/>
+  
+  <ellipse cx="450" cy="180" rx="20" ry="12" fill="#8B4513"/> <!-- Wooden bowl -->
+  <ellipse cx="450" cy="175" rx="15" ry="8" fill="#DEB887"/>
+</svg>

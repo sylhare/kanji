@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#fffaf0"/>
+  
+  <!-- Striking fist -->
+  <circle cx="200" cy="200" r="40" fill="#DDBEA9"/>
+  <circle cx="205" cy="195" r="35" fill="#E9C46A"/>
+  
+  <!-- Knuckles -->
+  <circle cx="180" cy="185" r="8" fill="#CB997E"/>
+  <circle cx="195" cy="175" r="8" fill="#CB997E"/>
+  <circle cx="210" cy="175" r="8" fill="#CB997E"/>
+  <circle cx="225" cy="185" r="8" fill="#CB997E"/>
+  
+  <!-- Forearm -->
+  <ellipse cx="120" cy="220" rx="60" ry="25" fill="#DDBEA9"/>
+  <ellipse cx="125" cy="218" rx="55" ry="20" fill="#E9C46A"/>
+  
+  <!-- Impact point -->
+  <circle cx="350" cy="200" r="30" fill="#FF6B35"/>
+  <circle cx="350" cy="200" r="20" fill="#FF8C00"/>
+  <circle cx="350" cy="200" r="10" fill="#FFD700"/>
+  
+  <!-- Impact explosion effect -->
+  <circle cx="350" cy="200" r="50" fill="none" stroke="#FFFF00" stroke-width="6" opacity="0.8"/>
+  <circle cx="350" cy="200" r="70" fill="none" stroke="#FFA500" stroke-width="4" opacity="0.6"/>
+  <circle cx="350" cy="200" r="90" fill="none" stroke="#FF6B35" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Impact sparks -->
+  <polygon points="400,150 405,160 415,160 407,167 410,177 400,172 390,177 393,167 385,160 395,160" fill="#FFFF00"/>
+  <polygon points="420,180 425,190 435,190 427,197 430,207 420,202 410,207 413,197 405,190 415,190" fill="#FF6B35"/>
+  <polygon points="390,240 395,250 405,250 397,257 400,267 390,262 380,267 383,257 375,250 385,250" fill="#FFA500"/>
+  <polygon points="430,220 435,230 445,230 437,237 440,247 430,242 420,247 423,237 415,230 425,230" fill="#FFD700"/>
+  
+  <!-- Motion blur lines -->
+  <line x1="150" y1="180" x2="300" y2="180" stroke="#FF6B35" stroke-width="8" opacity="0.7"/>
+  <line x1="160" y1="200" x2="310" y2="200" stroke="#FFA500" stroke-width="6" opacity="0.6"/>
+  <line x1="170" y1="220" x2="320" y2="220" stroke="#FFD700" stroke-width="4" opacity="0.5"/>
+  
+  <!-- Speed lines -->
+  <line x1="80" y1="150" x2="180" y2="170" stroke="#32CD32" stroke-width="3"/>
+  <line x1="70" y1="180" x2="170" y2="190" stroke="#32CD32" stroke-width="3"/>
+  <line x1="60" y1="210" x2="160" y2="210" stroke="#32CD32" stroke-width="3"/>
+  <line x1="50" y1="240" x2="150" y2="230" stroke="#32CD32" stroke-width="3"/>
+  
+  <!-- Breaking/shattering effect -->
+  <polygon points="380,160 385,170 390,165 395,175 400,170 405,180 395,185 390,175 385,180 380,170 375,175 370,165" fill="#87CEEB" opacity="0.7"/>
+  <polygon points="370,240 375,250 380,245 385,255 390,250 395,260 385,265 380,255 375,260 370,250 365,255 360,245" fill="#87CEEB" opacity="0.7"/>
+  
+  <!-- Traditional martial arts "KI" energy -->
+  <circle cx="100" cy="100" r="35" fill="none" stroke="#8B0000" stroke-width="4"/>
+  <circle cx="100" cy="100" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <path d="M 85 100 L 115 100 M 100 85 L 100 115" stroke="#8B0000" stroke-width="4"/>
+  
+  <!-- Power emanation from fist -->
+  <path d="M 240 200 Q 270 180 300 200" stroke="#FFD700" stroke-width="5" fill="none" opacity="0.8"/>
+  <path d="M 240 190 Q 270 170 300 190" stroke="#FFA500" stroke-width="4" fill="none" opacity="0.7"/>
+  <path d="M 240 210 Q 270 190 300 210" stroke="#FF6B35" stroke-width="3" fill="none" opacity="0.6"/>
+  
+  <!-- Strike trajectory -->
+  <path d="M 50 250 Q 200 100 350 200" stroke="#FF0000" stroke-width="3" fill="none" opacity="0.5" stroke-dasharray="10,5"/>
+  
+  <!-- Sound wave effect -->
+  <ellipse cx="275" cy="200" rx="40" ry="20" fill="none" stroke="#00BFFF" stroke-width="3" opacity="0.6"/>
+  <ellipse cx="275" cy="200" rx="60" ry="30" fill="none" stroke="#87CEEB" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Activity symbols -->
+  <polygon points="450,50 460,70 480,70 466,82 471,102 450,92 429,102 434,82 420,70 440,70" fill="#FF6B35"/>
+  <polygon points="450,350 460,370 480,370 466,382 471,402 450,392 429,402 434,382 420,370 440,370" fill="#4ECDC4"/>
+  
+  <!-- Training dummy/target -->
+  <rect x="330" y="150" width="40" height="100" fill="#8B4513" rx="20"/>
+  <circle cx="350" cy="160" r="12" fill="#654321"/>
+  <circle cx="350" cy="190" r="15" fill="#A0522D"/>
+</svg> 

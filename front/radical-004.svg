@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#fff8dc"/>
+  
+  <!-- Main curved stroke -->
+  <path d="M 100 150 Q 200 100 300 200 Q 400 300 350 400" stroke="#2E8B57" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <path d="M 100 150 Q 200 100 300 200 Q 400 300 350 400" stroke="#3CB371" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <path d="M 100 150 Q 200 100 300 200 Q 400 300 350 400" stroke="#90EE90" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Flow direction indicators -->
+  <polygon points="180,125 190,115 200,125 190,135" fill="#228B22"/>
+  <polygon points="280,160 290,150 300,160 290,170" fill="#228B22"/>
+  <polygon points="360,280 370,270 380,280 370,290" fill="#228B22"/>
+  
+  <!-- Bend points highlighted -->
+  <circle cx="200" cy="120" r="15" fill="#FFD700"/>
+  <circle cx="200" cy="120" r="10" fill="#FFA500"/>
+  
+  <circle cx="320" cy="220" r="15" fill="#FF6B35"/>
+  <circle cx="320" cy="220" r="10" fill="#FF8C00"/>
+  
+  <!-- Motion blur effect -->
+  <path d="M 105 155 Q 205 105 305 205 Q 405 305 355 405" stroke="#2E8B57" stroke-width="15" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 95 145 Q 195 95 295 195 Q 395 295 345 395" stroke="#2E8B57" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.3"/>
+  
+  <!-- Supporting curved elements -->
+  <path d="M 50 200 Q 150 180 250 220" stroke="#4ECDC4" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 200 50 Q 220 150 240 250" stroke="#95E1D3" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 300 450 Q 320 350 340 250" stroke="#F38BA8" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 450 300 Q 350 320 250 340" stroke="#A8DADC" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Energy spirals at bend points -->
+  <path d="M 200 120 Q 210 110 220 120 Q 210 130 200 120" stroke="#FFD700" stroke-width="3" fill="none"/>
+  <path d="M 320 220 Q 330 210 340 220 Q 330 230 320 220" stroke="#FF6B35" stroke-width="3" fill="none"/>
+  
+  <!-- Calligraphy brush effect -->
+  <ellipse cx="90" cy="140" rx="20" ry="10" fill="#8B4513" transform="rotate(30 90 140)"/>
+  <ellipse cx="95" cy="145" rx="15" ry="8" fill="#A0522D" transform="rotate(30 95 145)"/>
+  
+  <!-- Ink droplets -->
+  <circle cx="150" cy="110" r="5" fill="#2E8B57"/>
+  <circle cx="250" cy="180" r="4" fill="#3CB371"/>
+  <circle cx="380" cy="290" r="6" fill="#228B22"/>
+  <circle cx="340" cy="380" r="5" fill="#2E8B57"/>
+  
+  <!-- Dynamic flow lines -->
+  <path d="M 80 120 Q 120 80 160 120" stroke="#87CEEB" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 240 170 Q 280 130 320 170" stroke="#87CEEB" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 340 260 Q 380 220 420 260" stroke="#87CEEB" stroke-width="3" fill="none" opacity="0.6"/>
+  
+  <!-- Artistic flourishes -->
+  <circle cx="120" cy="80" r="25" fill="none" stroke="#FF69B4" stroke-width="2" opacity="0.5"/>
+  <circle cx="380" cy="420" r="30" fill="none" stroke="#FF1493" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Traditional art symbol -->
+  <circle cx="450" cy="100" r="30" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <path d="M 435 85 Q 450 70 465 85 Q 450 100 435 85" stroke="#8B0000" stroke-width="2" fill="none"/>
+  <path d="M 435 115 Q 450 130 465 115 Q 450 100 435 115" stroke="#8B0000" stroke-width="2" fill="none"/>
+  
+  <!-- Wind effects showing fluidity -->
+  <path d="M 150 250 Q 180 240 210 250" stroke="#B0E0E6" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 270 300 Q 300 290 330 300" stroke="#B0E0E6" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 200 350 Q 230 340 260 350" stroke="#B0E0E6" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Zen circle representing perfect stroke -->
+  <circle cx="450" cy="450" r="40" fill="none" stroke="#2E8B57" stroke-width="5" opacity="0.8"/>
+</svg> 

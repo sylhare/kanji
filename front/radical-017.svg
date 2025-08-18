@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#f0f8ff"/>
+  
+  <!-- Box base -->
+  <rect x="150" y="350" width="200" height="100" fill="#8B4513"/>
+  <rect x="155" y="355" width="190" height="90" fill="#A0522D"/>
+  
+  <!-- Box front panel -->
+  <rect x="150" y="250" width="200" height="100" fill="#CD853F"/>
+  <rect x="155" y="255" width="190" height="90" fill="#DEB887"/>
+  
+  <!-- Box sides -->
+  <polygon points="150,250 130,230 130,330 150,350" fill="#654321"/>
+  <polygon points="350,250 370,230 370,330 350,350" fill="#654321"/>
+  
+  <!-- Box back -->
+  <rect x="130" y="230" width="240" height="100" fill="#8B4513"/>
+  <rect x="135" y="235" width="230" height="90" fill="#A0522D"/>
+  
+  <!-- Open box interior -->
+  <ellipse cx="250" cy="240" rx="110" ry="30" fill="#F5DEB3"/>
+  <ellipse cx="250" cy="235" rx="105" ry="25" fill="#FAEBD7"/>
+  
+  <!-- Items inside the box -->
+  <!-- Ball/sphere -->
+  <circle cx="200" cy="280" r="20" fill="#FF6B6B"/>
+  <circle cx="200" cy="275" r="15" fill="#FF8E8E"/>
+  
+  <!-- Book -->
+  <rect x="280" y="270" width="25" height="30" fill="#4ECDC4"/>
+  <rect x="282" y="272" width="21" height="26" fill="#7FDEDB"/>
+  <rect x="284" y="274" width="17" height="22" fill="#B2F2EF"/>
+  
+  <!-- Small bottle -->
+  <rect x="220" y="290" width="10" height="20" fill="#95E1D3"/>
+  <circle cx="225" cy="285" r="6" fill="#F38BA8"/>
+  
+  <!-- Toy block -->
+  <rect x="320" y="285" width="15" height="15" fill="#FFD700"/>
+  <rect x="322" y="287" width="11" height="11" fill="#FFA500"/>
+  
+  <!-- Box handles -->
+  <ellipse cx="180" cy="300" rx="8" ry="15" fill="none" stroke="#654321" stroke-width="4"/>
+  <ellipse cx="320" cy="300" rx="8" ry="15" fill="none" stroke="#654321" stroke-width="4"/>
+  
+  <!-- Box label -->
+  <rect x="200" y="310" width="100" height="20" fill="#FFFFFF"/>
+  <rect x="202" y="312" width="96" height="16" fill="#F5F5F5"/>
+  <text x="250" y="325" text-anchor="middle" font-family="Arial" font-size="12" fill="#000">STORAGE</text>
+  
+  <!-- Multiple containers around -->
+  <!-- Small box -->
+  <rect x="80" y="380" width="50" height="40" fill="#8B4513"/>
+  <rect x="82" y="382" width="46" height="36" fill="#A0522D"/>
+  <ellipse cx="105" cy="375" rx="20" ry="8" fill="#F5DEB3"/>
+  
+  <!-- Basket -->
+  <path d="M 400 380 Q 420 360 440 380 Q 440 420 420 440 Q 400 420 380 440 Q 380 380 400 380" fill="#D2691E"/>
+  <path d="M 405 380 Q 420 370 435 380 Q 435 415 420 430 Q 405 415 385 430 Q 385 380 405 380" fill="#DEB887"/>
+  
+  <!-- Items in basket -->
+  <circle cx="410" cy="390" r="8" fill="#32CD32"/>
+  <circle cx="420" cy="395" r="6" fill="#FF6347"/>
+  <circle cx="405" cy="405" r="7" fill="#FFD700"/>
+  
+  <!-- Chest -->
+  <rect x="50" y="150" width="80" height="50" fill="#654321"/>
+  <rect x="52" y="152" width="76" height="46" fill="#8B4513"/>
+  <ellipse cx="90" cy="145" rx="35" ry="12" fill="#A0522D"/>
+  
+  <!-- Chest lock -->
+  <rect x="85" y="170" width="10" height="8" fill="#FFD700"/>
+  <circle cx="90" cy="174" r="3" fill="#FFA500"/>
+  
+  <!-- Jar containers -->
+  <ellipse cx="420" cy="200" rx="20" ry="25" fill="#87CEEB"/>
+  <ellipse cx="420" cy="195" rx="18" ry="20" fill="#B0E0E6"/>
+  <circle cx="420" cy="170" r="12" fill="#4169E1"/>
+  
+  <ellipse cx="460" cy="180" rx="15" ry="20" fill="#F0E68C"/>
+  <ellipse cx="460" cy="176" rx="13" ry="16" fill="#FFFFE0"/>
+  <circle cx="460" cy="155" r="8" fill="#DAA520"/>
+  
+  <!-- Packaging boxes -->
+  <rect x="100" y="50" width="40" height="60" fill="#DDD"/>
+  <rect x="102" y="52" width="36" height="56" fill="#E5E5E5"/>
+  <rect x="105" y="70" width="30" height="3" fill="#FF0000"/>
+  
+  <rect x="360" y="80" width="50" height="40" fill="#DDD"/>
+  <rect x="362" y="82" width="46" height="36" fill="#E5E5E5"/>
+  <rect x="365" y="95" width="40" height="3" fill="#0000FF"/>
+  
+  <!-- Container symbols -->
+  <circle cx="250" cy="100" r="30" fill="#F5DEB3"/>
+  <circle cx="250" cy="100" r="25" fill="#FAEBD7"/>
+  <text x="250" y="110" text-anchor="middle" font-family="Arial Black" font-size="16" fill="#8B4513">📦</text>
+  
+  <!-- Storage shelves -->
+  <rect x="20" y="250" width="60" height="5" fill="#8B4513"/>
+  <rect x="20" y="300" width="60" height="5" fill="#8B4513"/>
+  <rect x="20" y="350" width="60" height="5" fill="#8B4513"/>
+  
+  <!-- Items on shelves -->
+  <circle cx="35" cy="245" r="8" fill="#FF69B4"/>
+  <circle cx="50" cy="245" r="6" fill="#9370DB"/>
+  <circle cx="65" cy="245" r="7" fill="#32CD32"/>
+  
+  <rect x="30" y="290" width="8" height="12" fill="#4ECDC4"/>
+  <rect x="45" y="288" width="10" height="14" fill="#95E1D3"/>
+  <rect x="60" y="292" width="6" height="10" fill="#F38BA8"/>
+  
+  <!-- Traditional container symbol -->
+  <circle cx="450" cy="450" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <rect x="440" y="440" width="20" height="15" fill="none" stroke="#8B0000" stroke-width="2"/>
+  <ellipse cx="450" cy="435" rx="8" ry="3" fill="#8B0000"/>
+</svg> 

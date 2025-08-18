@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#ffe4e1"/>
+  
+  <!-- Muscular arm -->
+  <!-- Upper arm -->
+  <ellipse cx="200" cy="250" rx="60" ry="100" fill="#DDBEA9" transform="rotate(-30 200 250)"/>
+  <ellipse cx="195" cy="245" rx="50" ry="85" fill="#E9C46A" transform="rotate(-30 195 245)"/>
+  
+  <!-- Bicep muscle definition -->
+  <ellipse cx="180" cy="230" rx="25" ry="40" fill="#CB997E" transform="rotate(-30 180 230)"/>
+  
+  <!-- Forearm -->
+  <ellipse cx="300" cy="200" rx="40" ry="80" fill="#DDBEA9" transform="rotate(30 300 200)"/>
+  <ellipse cx="305" cy="195" rx="35" ry="70" fill="#E9C46A" transform="rotate(30 305 195)"/>
+  
+  <!-- Hand/fist -->
+  <circle cx="370" cy="150" r="35" fill="#DDBEA9"/>
+  <circle cx="375" cy="145" r="30" fill="#E9C46A"/>
+  
+  <!-- Fingers -->
+  <ellipse cx="390" cy="130" rx="8" ry="20" fill="#DDBEA9"/>
+  <ellipse cx="400" cy="135" rx="8" ry="18" fill="#DDBEA9"/>
+  <ellipse cx="405" cy="150" rx="8" ry="16" fill="#DDBEA9"/>
+  <ellipse cx="400" cy="165" rx="8" ry="14" fill="#DDBEA9"/>
+  
+  <!-- Power energy emanating from fist -->
+  <circle cx="370" cy="150" r="50" fill="none" stroke="#FFD700" stroke-width="4" opacity="0.7"/>
+  <circle cx="370" cy="150" r="70" fill="none" stroke="#FFA500" stroke-width="3" opacity="0.5"/>
+  <circle cx="370" cy="150" r="90" fill="none" stroke="#FF8C00" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Energy sparks -->
+  <polygon points="450,100 455,110 465,110 457,117 460,127 450,122 440,127 443,117 435,110 445,110" fill="#FFD700"/>
+  <polygon points="420,80 425,90 435,90 427,97 430,107 420,102 410,107 413,97 405,90 415,90" fill="#FF6B35"/>
+  <polygon points="470,130 475,140 485,140 477,147 480,157 470,152 460,157 463,147 455,140 465,140" fill="#FF4500"/>
+  
+  <!-- Lightning bolts showing power -->
+  <path d="M 430 50 L 420 80 L 435 75 L 425 100" stroke="#FFFF00" stroke-width="6" fill="none"/>
+  <path d="M 450 70 L 440 100 L 455 95 L 445 120" stroke="#FFD700" stroke-width="4" fill="none"/>
+  
+  <!-- Power waves -->
+  <path d="M 400 200 Q 450 180 480 200" stroke="#FF6B35" stroke-width="5" fill="none" opacity="0.6"/>
+  <path d="M 410 220 Q 460 200 490 220" stroke="#FF8C00" stroke-width="4" fill="none" opacity="0.5"/>
+  <path d="M 420 240 Q 470 220 500 240" stroke="#FFA500" stroke-width="3" fill="none" opacity="0.4"/>
+  
+  <!-- Muscle tension lines -->
+  <path d="M 160 200 Q 180 190 200 200" stroke="#CB997E" stroke-width="3" fill="none"/>
+  <path d="M 170 280 Q 190 270 210 280" stroke="#CB997E" stroke-width="3" fill="none"/>
+  
+  <!-- Power symbol -->
+  <circle cx="100" cy="100" r="40" fill="#FF6B35"/>
+  <circle cx="100" cy="100" r="30" fill="#FF8C00"/>
+  <polygon points="100,80 110,100 100,120 90,100" fill="#FFFF00"/>
+  
+  <!-- Strength radiating lines -->
+  <line x1="50" y1="50" x2="80" y2="80" stroke="#FFD700" stroke-width="3"/>
+  <line x1="50" y1="150" x2="80" y2="120" stroke="#FFD700" stroke-width="3"/>
+  <line x1="150" y1="50" x2="120" y2="80" stroke="#FFD700" stroke-width="3"/>
+  <line x1="150" y1="150" x2="120" y2="120" stroke="#FFD700" stroke-width="3"/>
+</svg> 

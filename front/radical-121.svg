@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#FDF5E6"/>
+  
+  <!-- Main earthen jar -->
+  <path d="M 200 150 Q 180 170 180 200 Q 180 280 200 320 Q 220 360 250 370 Q 280 360 300 320 Q 320 280 320 200 Q 320 170 300 150 Z" 
+        fill="#D2691E" stroke="#8B4513" stroke-width="4"/>
+  
+  <!-- Jar neck -->
+  <rect x="230" y="120" width="40" height="40" fill="#8B4513" stroke="#654321" stroke-width="3" rx="5"/>
+  <ellipse cx="250" cy="120" rx="20" ry="8" fill="#A0522D"/>
+  
+  <!-- Clay texture lines -->
+  <path d="M 190 180 Q 220 175 250 180 Q 280 175 310 180" 
+        stroke="#CD853F" stroke-width="2" fill="none"/>
+  <path d="M 185 210 Q 215 205 250 210 Q 285 205 315 210" 
+        stroke="#CD853F" stroke-width="2" fill="none"/>
+  <path d="M 185 240 Q 215 235 250 240 Q 285 235 315 240" 
+        stroke="#CD853F" stroke-width="2" fill="none"/>
+  <path d="M 190 270 Q 220 265 250 270 Q 280 265 310 270" 
+        stroke="#CD853F" stroke-width="2" fill="none"/>
+  <path d="M 195 300 Q 225 295 250 300 Q 275 295 305 300" 
+        stroke="#CD853F" stroke-width="2" fill="none"/>
+  <path d="M 200 330 Q 225 325 250 330 Q 275 325 300 330" 
+        stroke="#CD853F" stroke-width="2" fill="none"/>
+  
+  <!-- Firing marks from kiln -->
+  <path d="M 210 200 Q 215 190 220 200" stroke="#A0522D" stroke-width="1" fill="none"/>
+  <path d="M 280 220 Q 285 210 290 220" stroke="#A0522D" stroke-width="1" fill="none"/>
+  <path d="M 200 260 Q 205 250 210 260" stroke="#A0522D" stroke-width="1" fill="none"/>
+  <path d="M 290 280 Q 295 270 300 280" stroke="#A0522D" stroke-width="1" fill="none"/>
+  
+  <!-- Contents in jar -->
+  <ellipse cx="250" cy="200" rx="40" ry="25" fill="#8B4513" opacity="0.6"/>
+  <ellipse cx="250" cy="230" rx="35" ry="20" fill="#654321" opacity="0.5"/>
+  
+  <!-- Smaller jars -->
+  <path d="M 120 300 Q 110 310 110 330 Q 110 370 120 390 Q 130 400 140 395 Q 150 390 160 370 Q 160 330 160 310 Q 160 300 150 295 Q 135 290 120 300 Z" 
+        fill="#D2691E" stroke="#8B4513" stroke-width="3"/>
+  <rect x="130" y="285" width="20" height="20" fill="#8B4513" rx="3"/>
+  
+  <path d="M 370 280 Q 360 290 360 310 Q 360 350 370 370 Q 380 380 390 375 Q 400 370 410 350 Q 410 310 410 290 Q 410 280 400 275 Q 385 270 370 280 Z" 
+        fill="#D2691E" stroke="#8B4513" stroke-width="3"/>
+  <rect x="380" y="265" width="20" height="20" fill="#8B4513" rx="3"/>
+  
+  <!-- Potter's wheel -->
+  <ellipse cx="400" cy="150" rx="40" ry="15" fill="#8B4513"/>
+  <ellipse cx="400" cy="145" rx="35" ry="10" fill="#A0522D"/>
+  <!-- Clay being shaped -->
+  <path d="M 385 145 Q 400 135 415 145 Q 410 150 400 155 Q 390 150 385 145 Z" fill="#CD853F"/>
+  
+  <!-- Potter's tools -->
+  <rect x="350" y="170" width="3" height="30" fill="#8B4513"/>
+  <ellipse cx="351" cy="165" rx="5" ry="3" fill="#C0C0C0"/>
+  
+  <rect x="450" y="180" width="20" height="3" fill="#8B4513"/>
+  <ellipse cx="465" cy="181" rx="3" ry="4" fill="#654321"/>
+  
+  <!-- Storage area -->
+  <rect x="50" y="400" width="150" height="60" fill="#DEB887" stroke="#CD853F" stroke-width="3" rx="5"/>
+  <ellipse cx="125" cy="400" rx="70" ry="12" fill="#8B4513"/>
+  
+  <!-- Various stored jars -->
+  <ellipse cx="80" cy="420" rx="12" ry="18" fill="#D2691E"/>
+  <ellipse cx="110" cy="425" rx="10" ry="15" fill="#D2691E"/>
+  <ellipse cx="140" cy="420" rx="12" ry="18" fill="#D2691E"/>
+  <ellipse cx="170" cy="425" rx="10" ry="15" fill="#D2691E"/>
+  
+  <!-- Handles on main jar -->
+  <ellipse cx="180" cy="220" rx="8" ry="12" fill="none" stroke="#8B4513" stroke-width="4"/>
+  <ellipse cx="320" cy="220" rx="8" ry="12" fill="none" stroke="#8B4513" stroke-width="4"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="470" width="500" height="30" fill="#8B4513"/>
+  
+  <!-- Water/liquid dripping -->
+  <path d="M 245 380 Q 248 390 251 400" stroke="#4169E1" stroke-width="2" fill="none" opacity="0.5"/>
+  <circle cx="252" cy="405" r="2" fill="#4169E1" opacity="0.5"/>
+</svg>

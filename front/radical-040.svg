@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F5DEB3"/>
+  
+  <!-- Main roof structure -->
+  <path d="M 100 200 Q 150 150 200 160 Q 250 140 300 160 Q 350 150 400 200 L 380 220 Q 330 170 300 180 Q 250 160 200 180 Q 170 170 120 220 Z" 
+        fill="#8B4513" stroke="#654321" stroke-width="3"/>
+  
+  <!-- Secondary roof layer -->
+  <path d="M 110 210 Q 160 160 210 170 Q 250 150 290 170 Q 340 160 390 210 L 370 230 Q 320 180 290 190 Q 250 170 210 190 Q 180 180 130 230 Z" 
+        fill="#A0522D" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Roof tiles pattern -->
+  <path d="M 140 190 Q 180 170 220 190" stroke="#A0522D" stroke-width="3" fill="none"/>
+  <path d="M 160 200 Q 200 180 240 200" stroke="#A0522D" stroke-width="3" fill="none"/>
+  <path d="M 180 210 Q 220 190 260 210" stroke="#A0522D" stroke-width="3" fill="none"/>
+  <path d="M 200 220 Q 240 200 280 220" stroke="#A0522D" stroke-width="3" fill="none"/>
+  <path d="M 220 230 Q 260 210 300 230" stroke="#A0522D" stroke-width="3" fill="none"/>
+  <path d="M 240 240 Q 280 220 320 240" stroke="#A0522D" stroke-width="3" fill="none"/>
+  <path d="M 260 250 Q 300 230 340 250" stroke="#A0522D" stroke-width="3" fill="none"/>
+  <path d="M 280 260 Q 320 240 360 260" stroke="#A0522D" stroke-width="3" fill="none"/>
+  
+  <!-- Rain gutters -->
+  <path d="M 120 220 Q 200 210 250 220 Q 300 210 380 220" 
+        stroke="#696969" stroke-width="6" fill="none"/>
+  <ellipse cx="110" cy="230" rx="8" ry="4" fill="#696969"/>
+  <ellipse cx="390" cy="230" rx="8" ry="4" fill="#696969"/>
+  
+  <!-- House walls beneath -->
+  <rect x="150" y="240" width="200" height="180" fill="#DEB887" stroke="#CD853F" stroke-width="3"/>
+  
+  <!-- Windows -->
+  <rect x="180" y="280" width="40" height="40" fill="#87CEEB" stroke="#4682B4" stroke-width="2"/>
+  <rect x="280" y="280" width="40" height="40" fill="#87CEEB" stroke="#4682B4" stroke-width="2"/>
+  <line x1="200" y1="280" x2="200" y2="320" stroke="#4682B4" stroke-width="2"/>
+  <line x1="180" y1="300" x2="220" y2="300" stroke="#4682B4" stroke-width="2"/>
+  <line x1="300" y1="280" x2="300" y2="320" stroke="#4682B4" stroke-width="2"/>
+  <line x1="280" y1="300" x2="320" y2="300" stroke="#4682B4" stroke-width="2"/>
+  
+  <!-- Door -->
+  <rect x="220" y="340" width="60" height="80" fill="#8B4513" stroke="#654321" stroke-width="3" rx="5"/>
+  <circle cx="270" cy="380" r="3" fill="#FFD700"/>
+  
+  <!-- Chimney -->
+  <rect x="320" y="120" width="30" height="60" fill="#A0522D" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Smoke from chimney -->
+  <path d="M 335 110 Q 340 100 345 110 Q 350 100 355 110 Q 360 100 365 110" 
+        stroke="#D3D3D3" stroke-width="3" fill="none"/>
+  
+  <!-- Foundation -->
+  <rect x="140" y="420" width="220" height="15" fill="#696969"/>
+  
+  <!-- Garden elements -->
+  <circle cx="120" cy="350" r="15" fill="#32CD32"/>
+  <rect x="118" y="365" width="4" height="20" fill="#8B4513"/>
+  
+  <circle cx="380" cy="360" r="18" fill="#32CD32"/>
+  <rect x="378" y="378" width="4" height="25" fill="#8B4513"/>
+  
+  <!-- Path to house -->
+  <ellipse cx="250" cy="450" rx="40" ry="10" fill="#D2B48C"/>
+  <ellipse cx="250" cy="460" rx="35" ry="8" fill="#DEB887"/>
+  
+  <!-- Welcome mat -->
+  <rect x="210" y="430" width="80" height="15" fill="#B22222" rx="3"/>
+</svg>

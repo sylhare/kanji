@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#f0fff0"/>
+  
+  <!-- Bow main curve -->
+  <path d="M 150 100 Q 200 250 150 400" stroke="#8B4513" stroke-width="12" fill="none"/>
+  <path d="M 152 100 Q 200 250 152 400" stroke="#A0522D" stroke-width="8" fill="none"/>
+  
+  <!-- Bow string -->
+  <line x1="150" y1="100" x2="150" y2="400" stroke="#F5DEB3" stroke-width="3"/>
+  
+  <!-- Arrow nocked on string -->
+  <!-- Arrow shaft -->
+  <line x1="150" y1="250" x2="350" y2="250" stroke="#8B4513" stroke-width="6"/>
+  <line x1="150" y1="250" x2="345" y2="250" stroke="#A0522D" stroke-width="4"/>
+  
+  <!-- Arrow head -->
+  <polygon points="350,250 380,240 380,260" fill="#C0C0C0"/>
+  <polygon points="350,250 375,243 375,257" fill="#E5E5E5"/>
+  
+  <!-- Arrow fletching -->
+  <polygon points="150,250 130,240 130,260" fill="#FF6B6B"/>
+  <polygon points="150,250 135,245 135,255" fill="#FF8E8E"/>
+  
+  <!-- Bow grip area -->
+  <ellipse cx="200" cy="250" rx="15" ry="40" fill="#654321"/>
+  <ellipse cx="198" cy="250" rx="12" ry="35" fill="#8B4513"/>
+  
+  <!-- Tension effect on string -->
+  <path d="M 150 100 Q 120 250 150 400" stroke="#F5DEB3" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Target in distance -->
+  <circle cx="450" cy="200" r="40" fill="#FF0000"/>
+  <circle cx="450" cy="200" r="30" fill="#FFFFFF"/>
+  <circle cx="450" cy="200" r="20" fill="#FF0000"/>
+  <circle cx="450" cy="200" r="10" fill="#FFFFFF"/>
+  <circle cx="450" cy="200" r="5" fill="#FF0000"/>
+  
+  <!-- Aiming sight lines -->
+  <line x1="380" y1="250" x2="440" y2="200" stroke="#FFD700" stroke-width="2" opacity="0.6" stroke-dasharray="5,5"/>
+  
+  <!-- Motion effect showing draw -->
+  <circle cx="150" cy="250" r="20" fill="none" stroke="#32CD32" stroke-width="2" opacity="0.6"/>
+  <circle cx="150" cy="250" r="35" fill="none" stroke="#32CD32" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Archer's hand representation -->
+  <ellipse cx="120" cy="250" rx="20" ry="30" fill="#DDBEA9" opacity="0.7"/>
+  <ellipse cx="122" cy="250" rx="15" ry="25" fill="#E9C46A" opacity="0.7"/>
+  
+  <!-- Wind indicators -->
+  <path d="M 50 150 Q 80 140 110 150" stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 60 170 Q 90 160 120 170" stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Traditional archery symbols -->
+  <circle cx="80" cy="80" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <polygon points="80,65 85,75 95,75 87,82 90,92 80,87 70,92 73,82 65,75 75,75" fill="#8B0000"/>
+  
+  <!-- Quiver with arrows -->
+  <rect x="50" y="300" width="30" height="100" fill="#654321" rx="15"/>
+  <line x1="55" y1="310" x2="55" y2="280" stroke="#8B4513" stroke-width="3"/>
+  <line x1="65" y1="315" x2="65" y2="285" stroke="#A0522D" stroke-width="3"/>
+  <line x1="75" y1="310" x2="75" y2="280" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Power/energy lines -->
+  <line x1="100" y1="200" x2="130" y2="220" stroke="#32CD32" stroke-width="2" opacity="0.7"/>
+  <line x1="100" y1="300" x2="130" y2="280" stroke="#32CD32" stroke-width="2" opacity="0.7"/>
+</svg> 

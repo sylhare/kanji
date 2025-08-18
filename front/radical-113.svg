@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#fef7ff"/>
+  
+  <!-- Central altar -->
+  <g transform="translate(250,300)">
+    <!-- Altar table -->
+    <rect x="-60" y="0" width="120" height="20" fill="#8d6e63"/>
+    <rect x="-55" y="3" width="110" height="14" fill="#a1887f"/>
+    
+    <!-- Altar legs -->
+    <rect x="-50" y="20" width="8" height="40" fill="#6d4c41"/>
+    <rect x="42" y="20" width="8" height="40" fill="#6d4c41"/>
+    <rect x="-4" y="20" width="8" height="40" fill="#6d4c41"/>
+    
+    <!-- Altar cloth -->
+    <rect x="-60" y="0" width="120" height="8" fill="#9c27b0" opacity="0.8"/>
+    <rect x="-55" y="2" width="110" height="4" fill="#ba68c8" opacity="0.9"/>
+    
+    <!-- Sacred items on altar -->
+    <!-- Incense burner -->
+    <g transform="translate(-30,-15)">
+      <ellipse cx="0" cy="0" rx="8" ry="5" fill="#616161"/>
+      <ellipse cx="0" cy="-2" rx="6" ry="3" fill="#757575"/>
+      
+      <!-- Incense sticks -->
+      <rect x="-3" y="-8" width="1" height="8" fill="#8d6e63"/>
+      <rect x="0" y="-8" width="1" height="8" fill="#8d6e63"/>
+      <rect x="3" y="-8" width="1" height="8" fill="#8d6e63"/>
+      
+      <!-- Smoke -->
+      <g opacity="0.6">
+        <path d="M -2.5,-8 Q -4,-15 -2.5,-22 Q -1,-18 -2.5,-8" stroke="#9e9e9e" stroke-width="1" fill="none"/>
+        <path d="M 0.5,-8 Q 2,-15 0.5,-22 Q -1,-18 0.5,-8" stroke="#9e9e9e" stroke-width="1" fill="none"/>
+        <path d="M 3.5,-8 Q 5,-15 3.5,-22 Q 2,-18 3.5,-8" stroke="#9e9e9e" stroke-width="1" fill="none"/>
+      </g>
+    </g>
+    
+    <!-- Sacred candles -->
+    <g transform="translate(-10,-12)">
+      <rect x="0" y="0" width="4" height="12" fill="#fff3e0"/>
+      <ellipse cx="2" cy="0" rx="2" ry="3" fill="#ff8f00"/>
+    </g>
+    
+    <g transform="translate(10,-12)">
+      <rect x="0" y="0" width="4" height="12" fill="#fff3e0"/>
+      <ellipse cx="2" cy="0" rx="2" ry="3" fill="#ff8f00"/>
+    </g>
+    
+    <!-- Offering bowl -->
+    <g transform="translate(0,-8)">
+      <ellipse cx="0" cy="0" rx="12" ry="8" fill="#424242"/>
+      <ellipse cx="0" cy="-2" rx="10" ry="6" fill="#616161"/>
+      
+      <!-- Offerings (fruits) -->
+      <circle cx="-5" cy="-4" r="2" fill="#ff8f00"/>
+      <circle cx="3" cy="-3" r="2" fill="#f44336"/>
+      <circle cx="-2" cy="-2" r="2" fill="#ffeb3b"/>
+      <circle cx="6" cy="-4" r="2" fill="#4caf50"/>
+    </g>
+    
+    <!-- Sacred scroll -->
+    <g transform="translate(35,-10)">
+      <rect x="-8" y="-5" width="16" height="10" fill="#fff3e0"/>
+      <rect x="-6" y="-3" width="12" height="6" fill="#ffffff"/>
+      <circle cx="-8" cy="0" r="2" fill="#8d6e63"/>
+      <circle cx="8" cy="0" r="2" fill="#8d6e63"/>
+      
+      <!-- Sacred text -->
+      <line x1="-4" y1="-2" x2="4" y2="-2" stroke="#333" stroke-width="0.5"/>
+      <line x1="-4" y1="0" x2="4" y2="0" stroke="#333" stroke-width="0.5"/>
+      <line x1="-4" y1="2" x2="4" y2="2" stroke="#333" stroke-width="0.5"/>
+    </g>
+    
+    <!-- Prayer beads -->
+    <g transform="translate(-40,-5)">
+      <circle cx="0" cy="0" r="2" fill="#8d6e63"/>
+      <circle cx="4" cy="2" r="2" fill="#6d4c41"/>
+      <circle cx="2" cy="6" r="2" fill="#8d6e63"/>
+      <circle cx="-2" cy="6" r="2" fill="#6d4c41"/>
+      <circle cx="-4" cy="2" r="2" fill="#8d6e63"/>
+      
+      <!-- String connecting beads -->
+      <g stroke="#8d6e63" stroke-width="1" fill="none">
+        <path d="M 0,0 Q 2,1 4,2 Q 3,4 2,6 Q 0,6 -2,6 Q -3,4 -4,2 Q -2,1 0,0"/>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Festival celebration -->
+  <g transform="translate(100,200)">
+    <!-- Festival participants -->
+    <!-- Priest/Monk -->
+    <g transform="translate(0,0)">
+      <circle cx="0" cy="-20" r="10" fill="#ffdbcb"/>
+      <rect x="-8" y="-10" width="16" height="25" fill="#ff6f00"/>
+      <rect x="-6" y="15" width="12" height="20" fill="#e65100"/>
+      
+      <!-- Ceremonial hat -->
+      <rect x="-8" y="-25" width="16" height="8" fill="#8d6e63"/>
+      <rect x="-6" y="-23" width="12" height="4" fill="#a1887f"/>
+      
+      <!-- Holding sacred items -->
+      <g transform="translate(-15,-5)">
+        <rect x="0" y="0" width="2" height="12" fill="#8d6e63"/>
+        <circle cx="1" cy="-2" r="3" fill="#ffeb3b"/>
+      </g>
+      
+      <g transform="translate(15,-5)">
+        <ellipse cx="0" cy="0" rx="3" ry="8" fill="#616161"/>
+      </g>
+    </g>
+    
+    <!-- Festival participants -->
+    <g transform="translate(30,10)">
+      <circle cx="0" cy="-15" r="8" fill="#ffdbcb"/>
+      <rect x="-6" y="-7" width="12" height="18" fill="#2196f3"/>
+      <rect x="-5" y="11" width="10" height="15" fill="#1976d2"/>
+      
+      <!-- Clapping hands -->
+      <ellipse cx="-10" cy="-2" rx="4" ry="2" fill="#ffdbcb" transform="rotate(-20)"/>
+      <ellipse cx="10" cy="-2" rx="4" ry="2" fill="#ffdbcb" transform="rotate(20)"/>
+    </g>
+    
+    <g transform="translate(60,5)">
+      <circle cx="0" cy="-15" r="8" fill="#ffdbcb"/>
+      <rect x="-6" y="-7" width="12" height="18" fill="#e91e63"/>
+      <rect x="-5" y="11" width="10" height="15" fill="#ad1457"/>
+      
+      <!-- Dancing pose -->
+      <rect x="-12" y="-5" width="6" height="15" fill="#ffdbcb" transform="rotate(-30)"/>
+      <rect x="6" y="-5" width="6" height="15" fill="#ffdbcb" transform="rotate(45)"/>
+    </g>
+  </g>
+  
+  <!-- Temple/shrine building -->
+  <g transform="translate(400,250)">
+    <!-- Building base -->
+    <rect x="-40" y="20" width="80" height="40" fill="#8d6e63"/>
+    <rect x="-35" y="25" width="70" height="30" fill="#a1887f"/>
+    
+    <!-- Columns -->
+    <rect x="-30" y="0" width="6" height="20" fill="#e0e0e0"/>
+    <rect x="-15" y="0" width="6" height="20" fill="#e0e0e0"/>
+    <rect x="0" y="0" width="6" height="20" fill="#e0e0e0"/>
+    <rect x="15" y="0" width="6" height="20" fill="#e0e0e0"/>
+    <rect x="30" y="0" width="6" height="20" fill="#e0e0e0"/>
+    
+    <!-- Roof -->
+    <polygon points="-50,0 0,-25 50,0" fill="#f44336"/>
+    <polygon points="-45,2 0,-20 45,2" fill="#ff5722"/>
+    
+    <!-- Entrance -->
+    <rect x="-8" y="35" width="16" height="25" fill="#424242"/>
+    <rect x="-6" y="37" width="12" height="21" fill="#616161"/>
+    
+    <!-- Sacred symbol above entrance -->
+    <g transform="translate(0,30)">
+      <circle cx="0" cy="0" r="6" fill="#ffeb3b"/>
+      <g stroke="#ff8f00" stroke-width="1">
+        <line x1="0" y1="-4" x2="0" y2="-8"/>
+        <line x1="4" y1="0" x2="8" y2="0"/>
+        <line x1="0" y1="4" x2="0" y2="8"/>
+        <line x1="-4" y1="0" x2="-8" y2="0"/>
+      </g>
+    </g>
+    
+    <!-- Steps -->
+    <rect x="-25" y="60" width="50" height="5" fill="#90a4ae"/>
+    <rect x="-20" y="65" width="40" height="5" fill="#90a4ae"/>
+    <rect x="-15" y="70" width="30" height="5" fill="#90a4ae"/>
+  </g>
+  
+  <!-- Ceremonial procession -->
+  <g transform="translate(50,400)">
+    <!-- Procession banner -->
+    <g transform="translate(0,0)">
+      <rect x="0" y="-30" width="3" height="50" fill="#8d6e63"/>
+      <rect x="3" y="-30" width="25" height="15" fill="#9c27b0"/>
+      <rect x="5" y="-28" width="21" height="11" fill="#ba68c8"/>
+      
+      <!-- Banner symbol -->
+      <g transform="translate(15,-22)">
+        <circle cx="0" cy="0" r="3" fill="#ffeb3b"/>
+        <g stroke="#ff8f00" stroke-width="0.5">
+          <line x1="0" y1="-2" x2="0" y2="-4"/>
+          <line x1="2" y1="0" x2="4" y2="0"/>
+          <line x1="0" y1="2" x2="0" y2="4"/>
+          <line x1="-2" y1="0" x2="-4" y2="0"/>
+        </g>
+      </g>
+    </g>
+    
+    <!-- Procession participants -->
+    <g transform="translate(40,0)">
+      <!-- Participant 1 -->
+      <circle cx="0" cy="-15" r="6" fill="#ffdbcb"/>
+      <rect x="-4" y="-9" width="8" height="15" fill="#ff6f00"/>
+      <rect x="-3" y="6" width="6" height="12" fill="#e65100"/>
+      
+      <!-- Ceremonial robe details -->
+      <rect x="-4" y="-5" width="8" height="2" fill="#ffeb3b"/>
+    </g>
+    
+    <g transform="translate(60,0)">
+      <!-- Participant 2 -->
+      <circle cx="0" cy="-15" r="6" fill="#ffdbcb"/>
+      <rect x="-4" y="-9" width="8" height="15" fill="#2196f3"/>
+      <rect x="-3" y="6" width="6" height="12" fill="#1976d2"/>
+      
+      <!-- Carrying offering -->
+      <g transform="translate(0,-8)">
+        <ellipse cx="0" cy="0" rx="6" ry="4" fill="#616161"/>
+        <circle cx="-2" cy="-2" r="1.5" fill="#ff8f00"/>
+        <circle cx="2" cy="-2" r="1.5" fill="#f44336"/>
+      </g>
+    </g>
+    
+    <g transform="translate(80,0)">
+      <!-- Participant 3 -->
+      <circle cx="0" cy="-15" r="6" fill="#ffdbcb"/>
+      <rect x="-4" y="-9" width="8" height="15" fill="#4caf50"/>
+      <rect x="-3" y="6" width="6" height="12" fill="#388e3c"/>
+    </g>
+  </g>
+  
+  <!-- Sacred fire/brazier -->
+  <g transform="translate(150,350)">
+    <!-- Brazier -->
+    <ellipse cx="0" cy="0" rx="20" ry="8" fill="#424242"/>
+    <ellipse cx="0" cy="-3" rx="18" ry="6" fill="#616161"/>
+    
+    <!-- Brazier legs -->
+    <rect x="-15" y="8" width="4" height="15" fill="#424242"/>
+    <rect x="11" y="8" width="4" height="15" fill="#424242"/>
+    <rect x="-2" y="8" width="4" height="15" fill="#424242"/>
+    
+    <!-- Fire -->
+    <ellipse cx="0" cy="-8" rx="12" ry="15" fill="#ff5722" opacity="0.8"/>
+    <ellipse cx="0" cy="-8" rx="8" ry="12" fill="#ff8f00" opacity="0.9"/>
+    <ellipse cx="0" cy="-8" rx="5" ry="8" fill="#ffeb3b"/>
+    
+    <!-- Flame details -->
+    <ellipse cx="-3" cy="-15" rx="2" ry="6" fill="#ff5722" opacity="0.7"/>
+    <ellipse cx="4" cy="-18" rx="2" ry="7" fill="#ff8f00" opacity="0.8"/>
+    <ellipse cx="-1" cy="-20" rx="1.5" ry="5" fill="#ffeb3b"/>
+    
+    <!-- Sparks -->
+    <circle cx="-8" cy="-20" r="1" fill="#ff8f00"/>
+    <circle cx="6" cy="-25" r="0.8" fill="#ffeb3b"/>
+    <circle cx="-2" cy="-28" r="0.6" fill="#ff5722"/>
+    <circle cx="10" cy="-18" r="0.8" fill="#ffeb3b"/>
+  </g>
+  
+  <!-- Ritual drums -->
+  <g transform="translate(350,400)">
+    <!-- Large drum -->
+    <ellipse cx="0" cy="0" rx="25" ry="12" fill="#8d6e63"/>
+    <ellipse cx="0" cy="-5" rx="23" ry="10" fill="#a1887f"/>
+    
+    <!-- Drum rim -->
+    <ellipse cx="0" cy="-5" rx="25" ry="3" fill="#6d4c41"/>
+    
+    <!-- Drum pattern -->
+    <g stroke="#6d4c41" stroke-width="1" fill="none">
+      <circle cx="0" cy="-5" r="15"/>
+      <circle cx="0" cy="-5" r="10"/>
+      <circle cx="0" cy="-5" r="5"/>
+    </g>
+    
+    <!-- Drumsticks -->
+    <g transform="translate(-10,-15)">
+      <rect x="0" y="0" width="2" height="20" fill="#8d6e63" transform="rotate(30)"/>
+      <ellipse cx="1" cy="0" rx="2" ry="3" fill="#a1887f" transform="rotate(30)"/>
+    </g>
+    
+    <g transform="translate(12,-18)">
+      <rect x="0" y="0" width="2" height="20" fill="#8d6e63" transform="rotate(-45)"/>
+      <ellipse cx="1" cy="0" rx="2" ry="3" fill="#a1887f" transform="rotate(-45)"/>
+    </g>
+    
+    <!-- Sound waves -->
+    <g stroke="#ffeb3b" stroke-width="2" fill="none" opacity="0.5">
+      <circle cx="0" cy="-5" r="30"/>
+      <circle cx="0" cy="-5" r="35"/>
+      <circle cx="0" cy="-5" r="40"/>
+    </g>
+  </g>
+  
+  <!-- Prayer flags -->
+  <g transform="translate(200,50)">
+    <!-- Flag line -->
+    <line x1="0" y1="0" x2="200" y2="0" stroke="#8d6e63" stroke-width="2"/>
+    
+    <!-- Individual flags -->
+    <g transform="translate(20,0)">
+      <rect x="0" y="0" width="15" height="20" fill="#f44336"/>
+      <rect x="2" y="2" width="11" height="16" fill="#ff5722"/>
+      <text x="7.5" y="12" text-anchor="middle" font-family="serif" font-size="8" fill="#fff">祈</text>
+    </g>
+    
+    <g transform="translate(50,0)">
+      <rect x="0" y="0" width="15" height="20" fill="#2196f3"/>
+      <rect x="2" y="2" width="11" height="16" fill="#42a5f5"/>
+      <text x="7.5" y="12" text-anchor="middle" font-family="serif" font-size="8" fill="#fff">福</text>
+    </g>
+    
+    <g transform="translate(80,0)">
+      <rect x="0" y="0" width="15" height="20" fill="#4caf50"/>
+      <rect x="2" y="2" width="11" height="16" fill="#66bb6a"/>
+      <text x="7.5" y="12" text-anchor="middle" font-family="serif" font-size="8" fill="#fff">平</text>
+    </g>
+    
+    <g transform="translate(110,0)">
+      <rect x="0" y="0" width="15" height="20" fill="#ffeb3b"/>
+      <rect x="2" y="2" width="11" height="16" fill="#fff176"/>
+      <text x="7.5" y="12" text-anchor="middle" font-family="serif" font-size="8" fill="#333">安</text>
+    </g>
+    
+    <g transform="translate(140,0)">
+      <rect x="0" y="0" width="15" height="20" fill="#9c27b0"/>
+      <rect x="2" y="2" width="11" height="16" fill="#ba68c8"/>
+      <text x="7.5" y="12" text-anchor="middle" font-family="serif" font-size="8" fill="#fff">和</text>
+    </g>
+  </g>
+  
+  <!-- Ceremonial bells -->
+  <g transform="translate(80,100)">
+    <!-- Bell 1 -->
+    <g transform="translate(0,0)">
+      <path d="M 0,-10 Q -8,-5 -8,5 Q -6,8 0,8 Q 6,8 8,5 Q 8,-5 0,-10" fill="#ffd700"/>
+      <path d="M 0,-8 Q -6,-3 -6,5 Q -4,6 0,6 Q 4,6 6,5 Q 6,-3 0,-8" fill="#ffeb3b"/>
+      
+      <!-- Bell clapper -->
+      <circle cx="0" cy="3" r="2" fill="#8d6e63"/>
+      <line x1="0" y1="-8" x2="0" y2="1" stroke="#8d6e63" stroke-width="1"/>
+      
+      <!-- Sound waves -->
+      <g stroke="#ffeb3b" stroke-width="1" fill="none" opacity="0.6">
+        <circle cx="0" cy="0" r="15"/>
+        <circle cx="0" cy="0" r="20"/>
+      </g>
+    </g>
+    
+    <!-- Bell 2 -->
+    <g transform="translate(30,5)">
+      <path d="M 0,-8 Q -6,-3 -6,3 Q -4,6 0,6 Q 4,6 6,3 Q 6,-3 0,-8" fill="#c0c0c0"/>
+      <path d="M 0,-6 Q -4,-1 -4,3 Q -2,4 0,4 Q 2,4 4,3 Q 4,-1 0,-6" fill="#e0e0e0"/>
+      
+      <!-- Bell clapper -->
+      <circle cx="0" cy="1" r="1.5" fill="#8d6e63"/>
+      <line x1="0" y1="-6" x2="0" y2="-1" stroke="#8d6e63" stroke-width="1"/>
+    </g>
+    
+    <!-- Bell 3 -->
+    <g transform="translate(60,2)">
+      <path d="M 0,-9 Q -7,-4 -7,4 Q -5,7 0,7 Q 5,7 7,4 Q 7,-4 0,-9" fill="#ff8f00"/>
+      <path d="M 0,-7 Q -5,-2 -5,4 Q -3,5 0,5 Q 3,5 5,4 Q 5,-2 0,-7" fill="#ffb300"/>
+      
+      <!-- Bell clapper -->
+      <circle cx="0" cy="2" r="1.8" fill="#8d6e63"/>
+      <line x1="0" y1="-7" x2="0" y2="0" stroke="#8d6e63" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- Sacred geometry patterns -->
+  <g transform="translate(450,100)" opacity="0.4">
+    <!-- Mandala pattern -->
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#9c27b0" stroke-width="2"/>
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#ba68c8" stroke-width="1"/>
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#e1bee7" stroke-width="1"/>
+    <circle cx="0" cy="0" r="5" fill="none" stroke="#f3e5f5" stroke-width="1"/>
+    
+    <!-- Geometric divisions -->
+    <g stroke="#9c27b0" stroke-width="1" opacity="0.6">
+      <line x1="0" y1="-20" x2="0" y2="20"/>
+      <line x1="-20" y1="0" x2="20" y2="0"/>
+      <line x1="-14" y1="-14" x2="14" y2="14"/>
+      <line x1="14" y1="-14" x2="-14" y2="14"/>
+    </g>
+  </g>
+</svg> 

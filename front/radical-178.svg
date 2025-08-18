@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f4f1e8"/>
+  
+  <!-- Main leather hide -->
+  <path d="M 150 150 Q 200 120 300 140 Q 350 160 370 200 Q 380 240 360 280 Q 340 320 300 340 Q 250 360 200 350 Q 150 340 130 300 Q 120 260 130 220 Q 140 180 150 150" 
+        fill="#8d6e63" stroke="#5d4037" stroke-width="3"/>
+  
+  <!-- Leather texture and grain -->
+  <g opacity="0.4">
+    <!-- Natural grain pattern -->
+    <circle cx="200" cy="180" r="3" fill="#6d4c41"/>
+    <circle cx="220" cy="200" r="2" fill="#6d4c41"/>
+    <circle cx="240" cy="170" r="2.5" fill="#6d4c41"/>
+    <circle cx="260" cy="190" r="2" fill="#6d4c41"/>
+    <circle cx="280" cy="210" r="3" fill="#6d4c41"/>
+    <circle cx="300" cy="180" r="2" fill="#6d4c41"/>
+    <circle cx="320" cy="200" r="2.5" fill="#6d4c41"/>
+    <circle cx="190" cy="220" r="2" fill="#6d4c41"/>
+    <circle cx="210" cy="240" r="3" fill="#6d4c41"/>
+    <circle cx="230" cy="260" r="2" fill="#6d4c41"/>
+    <circle cx="250" cy="280" r="2.5" fill="#6d4c41"/>
+    <circle cx="270" cy="250" r="2" fill="#6d4c41"/>
+    <circle cx="290" cy="270" r="3" fill="#6d4c41"/>
+    <circle cx="310" cy="250" r="2" fill="#6d4c41"/>
+    <circle cx="330" cy="230" r="2.5" fill="#6d4c41"/>
+  </g>
+  
+  <!-- Leather processing marks -->
+  <g opacity="0.6">
+    <!-- Stretch marks -->
+    <path d="M 160 180 Q 180 175 200 180" stroke="#5d4037" stroke-width="2" fill="none"/>
+    <path d="M 170 220 Q 190 215 210 220" stroke="#5d4037" stroke-width="2" fill="none"/>
+    <path d="M 180 260 Q 200 255 220 260" stroke="#5d4037" stroke-width="2" fill="none"/>
+    
+    <!-- Tanning marks -->
+    <path d="M 280 160 Q 300 165 320 160" stroke="#795548" stroke-width="2" fill="none"/>
+    <path d="M 290 200 Q 310 205 330 200" stroke="#795548" stroke-width="2" fill="none"/>
+    <path d="M 300 240 Q 320 245 340 240" stroke="#795548" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Tanning tools -->
+  <!-- Scraping tool -->
+  <g transform="translate(80,100) rotate(30)">
+    <rect x="0" y="-3" width="60" height="6" fill="#8d6e63"/>
+    <rect x="55" y="-8" width="15" height="16" fill="#a1887f"/>
+    <polygon points="70,-8 85,-3 85,3 70,8" fill="#c0c0c0"/>
+  </g>
+  
+  <!-- Tanning solution vat -->
+  <rect x="50" y="350" width="80" height="60" fill="#5d4037" stroke="#3e2723" stroke-width="2"/>
+  <ellipse cx="90" cy="350" rx="40" ry="8" fill="#6d4c41"/>
+  <ellipse cx="90" cy="355" rx="35" ry="6" fill="#8d6e63"/>
+  
+  <!-- Drying rack -->
+  <g transform="translate(400,200)">
+    <!-- Frame -->
+    <rect x="0" y="0" width="8" height="150" fill="#8d6e63"/>
+    <rect x="40" y="0" width="8" height="150" fill="#8d6e63"/>
+    <rect x="0" y="30" width="48" height="6" fill="#8d6e63"/>
+    <rect x="0" y="80" width="48" height="6" fill="#8d6e63"/>
+    <rect x="0" y="130" width="48" height="6" fill="#8d6e63"/>
+    
+    <!-- Drying leather piece -->
+    <path d="M 10 35 Q 24 30 38 35 L 38 75 Q 24 80 10 75 Z" 
+          fill="#a1887f" stroke="#8d6e63" stroke-width="1"/>
+  </g>
+  
+  <!-- Finished leather products -->
+  <!-- Leather belt -->
+  <rect x="200" y="450" width="150" height="20" fill="#6d4c41" rx="10"/>
+  <rect x="205" y="455" width="140" height="10" fill="#8d6e63" rx="5"/>
+  <!-- Belt buckle -->
+  <rect x="320" y="445" width="20" height="30" fill="#c0c0c0" rx="3"/>
+  <rect x="322" y="447" width="16" height="26" fill="#e0e0e0" rx="2"/>
+  <circle cx="330" cy="460" r="3" fill="#999"/>
+  
+  <!-- Leather purse/bag -->
+  <g transform="translate(100,420)">
+    <path d="M 0 20 Q 0 0 20 0 L 60 0 Q 80 0 80 20 L 80 50 Q 80 70 60 70 L 20 70 Q 0 70 0 50 Z" 
+          fill="#8d6e63" stroke="#5d4037" stroke-width="2"/>
+    <rect x="10" y="15" width="60" height="3" fill="#5d4037"/>
+    <!-- Handle -->
+    <path d="M 20 0 Q 40 -15 60 0" stroke="#5d4037" stroke-width="4" fill="none"/>
+    <!-- Clasp -->
+    <rect x="35" y="10" width="10" height="6" fill="#c0c0c0"/>
+  </g>
+  
+  <!-- Leather working surface -->
+  <rect x="180" y="380" width="200" height="20" fill="#8d6e63"/>
+  <rect x="185" y="385" width="190" height="10" fill="#a1887f"/>
+  
+  <!-- Working tools on surface -->
+  <!-- Leather punch -->
+  <g transform="translate(220,375)">
+    <rect x="0" y="0" width="4" height="15" fill="#666"/>
+    <rect x="-2" y="12" width="8" height="8" fill="#888"/>
+    <polygon points="0,0 2,0 1,-5" fill="#c0c0c0"/>
+  </g>
+  
+  <!-- Stitching awl -->
+  <g transform="translate(260,375) rotate(15)">
+    <rect x="0" y="0" width="2" height="20" fill="#8d6e63"/>
+    <polygon points="0,0 1,-8 2,0" fill="#c0c0c0"/>
+  </g>
+  
+  <!-- Edge burnisher -->
+  <g transform="translate(300,375)">
+    <rect x="0" y="0" width="3" height="12" fill="#8d6e63"/>
+    <ellipse cx="1.5" cy="0" rx="4" ry="2" fill="#c0c0c0"/>
+  </g>
+  
+  <!-- Leather dye bottles -->
+  <g transform="translate(50,250)">
+    <!-- Brown dye -->
+    <rect x="0" y="20" width="15" height="30" fill="#5d4037"/>
+    <ellipse cx="7.5" cy="20" rx="7.5" ry="3" fill="#3e2723"/>
+    <rect x="5" y="15" width="5" height="8" fill="#666"/>
+    
+    <!-- Black dye -->
+    <rect x="25" y="25" width="15" height="25" fill="#212121"/>
+    <ellipse cx="32.5" cy="25" rx="7.5" ry="3" fill="#000"/>
+    <rect x="30" y="20" width="5" height="8" fill="#666"/>
+  </g>
+  
+  <!-- Quality stamps -->
+  <g transform="translate(350,120)">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#5d4037" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="10" fill="#5d4037">GENUINE</text>
+  </g>
+  
+  <!-- Leather grade label -->
+  <rect x="420" y="350" width="60" height="40" fill="#fff" stroke="#333" stroke-width="1"/>
+  <text x="450" y="365" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">GRADE A</text>
+  <text x="450" y="375" text-anchor="middle" font-family="Arial" font-size="8" fill="#666">FULL GRAIN</text>
+  <text x="450" y="385" text-anchor="middle" font-family="Arial" font-size="8" fill="#666">LEATHER</text>
+</svg> 

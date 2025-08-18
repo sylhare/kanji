@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f3e5f5"/>
+  
+  <!-- Central oracle figure -->
+  <g transform="translate(250,200)">
+    <!-- Oracle/diviner -->
+    <circle cx="0" cy="-30" r="15" fill="#ffdbcb"/>
+    <rect x="-12" y="-15" width="24" height="35" fill="#7b1fa2"/>
+    <rect x="-10" y="20" width="20" height="25" fill="#4a148c"/>
+    
+    <!-- Oracle hood/veil -->
+    <path d="M -18,-35 Q 0,-50 18,-35 Q 15,-30 0,-30 Q -15,-30 -18,-35" fill="#9c27b0"/>
+    <path d="M -15,-32 Q 0,-40 15,-32 Q 12,-28 0,-28 Q -12,-28 -15,-32" fill="#ba68c8"/>
+    
+    <!-- Oracle eyes -->
+    <circle cx="-5" cy="-35" r="2" fill="#ffffff"/>
+    <circle cx="5" cy="-35" r="2" fill="#ffffff"/>
+    <circle cx="-5" cy="-35" r="1" fill="#333"/>
+    <circle cx="5" cy="-35" r="1" fill="#333"/>
+    
+    <!-- Oracle arms raised -->
+    <rect x="-25" y="-10" width="8" height="20" fill="#ffdbcb" transform="rotate(-30)"/>
+    <rect x="17" y="-10" width="8" height="20" fill="#ffdbcb" transform="rotate(30)"/>
+    
+    <!-- Glowing aura -->
+    <circle cx="0" cy="-10" r="40" fill="#e1bee7" opacity="0.3"/>
+    <circle cx="0" cy="-10" r="30" fill="#f3e5f5" opacity="0.4"/>
+  </g>
+  
+  <!-- Divination tools -->
+  <!-- I Ching sticks -->
+  <g transform="translate(120,300)">
+    <rect x="0" y="0" width="3" height="40" fill="#8d6e63"/>
+    <rect x="5" y="-2" width="3" height="42" fill="#8d6e63"/>
+    <rect x="10" y="1" width="3" height="39" fill="#8d6e63"/>
+    <rect x="15" y="-1" width="3" height="41" fill="#8d6e63"/>
+    <rect x="20" y="2" width="3" height="38" fill="#8d6e63"/>
+    <rect x="25" y="0" width="3" height="40" fill="#8d6e63"/>
+    
+    <!-- Scattered pattern -->
+    <rect x="35" y="5" width="3" height="35" fill="#6d4c41" transform="rotate(15)"/>
+    <rect x="40" y="8" width="3" height="35" fill="#6d4c41" transform="rotate(-10)"/>
+    <rect x="45" y="3" width="3" height="35" fill="#6d4c41" transform="rotate(25)"/>
+    
+    <!-- Container -->
+    <ellipse cx="15" cy="50" rx="25" ry="8" fill="#795548"/>
+    <ellipse cx="15" cy="48" rx="20" ry="6" fill="#8d6e63"/>
+  </g>
+  
+  <!-- Oracle bones -->
+  <g transform="translate(380,320)">
+    <!-- Turtle shell -->
+    <ellipse cx="0" cy="0" rx="30" ry="20" fill="#efebe9"/>
+    <ellipse cx="0" cy="0" rx="25" ry="16" fill="#f5f5f5"/>
+    
+    <!-- Crack patterns for divination -->
+    <g stroke="#8d6e63" stroke-width="2" fill="none">
+      <path d="M -15,-10 L 15,10"/>
+      <path d="M -10,-15 L 10,15"/>
+      <path d="M 0,-20 L 0,20"/>
+      <path d="M -20,0 L 20,0"/>
+      <path d="M -12,8 L 12,-8"/>
+    </g>
+    
+    <!-- Ancient characters -->
+    <g fill="#8d6e63" font-family="serif" font-size="8">
+      <text x="-8" y="-5">吉</text>
+      <text x="8" y="5">凶</text>
+    </g>
+  </g>
+  
+  <!-- Crystal ball -->
+  <g transform="translate(100,150)">
+    <!-- Crystal sphere -->
+    <circle cx="0" cy="0" r="25" fill="#e8eaf6" opacity="0.8"/>
+    <circle cx="0" cy="0" r="20" fill="#f3e5f5" opacity="0.6"/>
+    <circle cx="0" cy="0" r="15" fill="#ffffff" opacity="0.4"/>
+    
+    <!-- Crystal base -->
+    <ellipse cx="0" cy="25" rx="20" ry="6" fill="#9e9e9e"/>
+    <ellipse cx="0" cy="23" rx="18" ry="4" fill="#b0b0b0"/>
+    
+    <!-- Mystical visions -->
+    <g opacity="0.5">
+      <circle cx="-8" cy="-5" r="3" fill="#9c27b0"/>
+      <circle cx="5" cy="8" r="2" fill="#673ab7"/>
+      <circle cx="0" cy="-8" r="2" fill="#3f51b5"/>
+    </g>
+    
+    <!-- Highlight -->
+    <ellipse cx="-8" cy="-12" rx="6" ry="8" fill="#ffffff" opacity="0.6"/>
+  </g>
+  
+  <!-- Tarot cards -->
+  <g transform="translate(400,150)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="20" height="30" fill="#ffffff" stroke="#8d6e63" stroke-width="2"/>
+    <rect x="2" y="2" width="16" height="26" fill="#e1f5fe"/>
+    
+    <!-- The Sun card -->
+    <circle cx="10" cy="10" r="6" fill="#ffeb3b"/>
+    <g stroke="#ffc107" stroke-width="1">
+      <line x1="10" y1="2" x2="10" y2="0"/>
+      <line x1="18" y1="10" x2="20" y2="10"/>
+      <line x1="10" y1="18" x2="10" y2="20"/>
+      <line x1="2" y1="10" x2="0" y2="10"/>
+      <line x1="16" y1="4" x2="17" y2="3"/>
+      <line x1="16" y1="16" x2="17" y2="17"/>
+      <line x1="4" y1="16" x2="3" y2="17"/>
+      <line x1="4" y1="4" x2="3" y2="3"/>
+    </g>
+    <text x="10" y="25" text-anchor="middle" font-family="serif" font-size="6" fill="#333">SUN</text>
+    
+    <!-- Card 2 (partial) -->
+    <rect x="12" y="5" width="20" height="30" fill="#ffffff" stroke="#8d6e63" stroke-width="2"/>
+    <rect x="14" y="7" width="16" height="26" fill="#fce4ec"/>
+    <circle cx="22" cy="15" r="4" fill="#e91e63"/>
+    
+    <!-- Card 3 (partial) -->
+    <rect x="24" y="10" width="20" height="30" fill="#ffffff" stroke="#8d6e63" stroke-width="2"/>
+    <rect x="26" y="12" width="16" height="26" fill="#e8f5e9"/>
+  </g>
+  
+  <!-- Runes -->
+  <g transform="translate(150,400)">
+    <!-- Rune stones -->
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#90a4ae"/>
+    <ellipse cx="0" cy="0" rx="10" ry="6" fill="#b0bec5"/>
+    <g stroke="#37474f" stroke-width="2" fill="none">
+      <line x1="-6" y1="-4" x2="6" y2="4"/>
+      <line x1="0" y1="-6" x2="0" y2="6"/>
+      <line x1="-3" y1="0" x2="3" y2="0"/>
+    </g>
+    
+    <ellipse cx="30" cy="5" rx="12" ry="8" fill="#8d6e63"/>
+    <ellipse cx="30" cy="5" rx="10" ry="6" fill="#a1887f"/>
+    <g stroke="#3e2723" stroke-width="2" fill="none">
+      <line x1="24" y1="1" x2="36" y2="1"/>
+      <line x1="24" y1="9" x2="36" y2="9"/>
+      <line x1="30" y1="-1" x2="30" y2="11"/>
+    </g>
+    
+    <ellipse cx="60" cy="-3" rx="12" ry="8" fill="#795548"/>
+    <ellipse cx="60" cy="-3" rx="10" ry="6" fill="#8d6e63"/>
+    <g stroke="#3e2723" stroke-width="2" fill="none">
+      <line x1="54" y1="-7" x2="66" y2="1"/>
+      <line x1="54" y1="1" x2="66" y2="-7"/>
+    </g>
+    
+    <!-- Rune bag -->
+    <ellipse cx="30" cy="25" rx="40" ry="15" fill="#6d4c41"/>
+    <ellipse cx="30" cy="22" rx="35" ry="12" fill="#795548"/>
+    <rect x="25" y="15" width="10" height="8" fill="#8d6e63"/>
+  </g>
+  
+  <!-- Pendulum -->
+  <g transform="translate(350,250)">
+    <!-- Pendulum chain -->
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#c0c0c0" stroke-width="2"/>
+    
+    <!-- Pendulum weight -->
+    <ellipse cx="0" cy="60" rx="8" ry="12" fill="#9c27b0"/>
+    <ellipse cx="0" cy="60" rx="6" ry="10" fill="#ba68c8"/>
+    
+    <!-- Hand holding chain -->
+    <circle cx="0" cy="-5" r="8" fill="#ffdbcb"/>
+    <rect x="-3" y="-8" width="6" height="8" fill="#ffdbcb"/>
+    
+    <!-- Pendulum motion arc -->
+    <path d="M -15,50 Q 0,45 15,50" stroke="#e1bee7" stroke-width="3" fill="none" opacity="0.5"/>
+  </g>
+  
+  <!-- Mystical symbols -->
+  <g transform="translate(80,80)">
+    <!-- Pentagram -->
+    <g stroke="#7b1fa2" stroke-width="3" fill="none">
+      <polygon points="0,-15 -14,11 14,11 -9,-4 9,-4"/>
+    </g>
+    <circle cx="0" cy="0" r="18" stroke="#9c27b0" stroke-width="2" fill="none"/>
+    
+    <!-- Eye of providence -->
+    <g transform="translate(60,0)">
+      <polygon points="0,-15 -12,12 12,12" stroke="#673ab7" stroke-width="2" fill="#e1bee7" opacity="0.3"/>
+      <circle cx="0" cy="0" r="6" fill="#ffffff"/>
+      <circle cx="0" cy="0" r="4" fill="#333"/>
+      <circle cx="-1" cy="-1" r="1" fill="#ffffff"/>
+    </g>
+  </g>
+  
+  <!-- Altar/sacred space -->
+  <g transform="translate(250,400)">
+    <!-- Altar table -->
+    <rect x="-40" y="0" width="80" height="12" fill="#8d6e63"/>
+    <rect x="-35" y="2" width="70" height="8" fill="#a1887f"/>
+    
+    <!-- Altar legs -->
+    <rect x="-35" y="12" width="8" height="25" fill="#6d4c41"/>
+    <rect x="27" y="12" width="8" height="25" fill="#6d4c41"/>
+    
+    <!-- Candles -->
+    <rect x="-25" y="-15" width="4" height="15" fill="#fff3e0"/>
+    <ellipse cx="-23" cy="-15" rx="2" ry="3" fill="#ff8f00"/>
+    
+    <rect x="21" y="-15" width="4" height="15" fill="#fff3e0"/>
+    <ellipse cx="23" cy="-15" rx="2" ry="3" fill="#ff8f00"/>
+    
+    <!-- Sacred bowl -->
+    <ellipse cx="0" cy="-5" rx="15" ry="8" fill="#424242"/>
+    <ellipse cx="0" cy="-8" rx="12" ry="6" fill="#616161"/>
+    
+    <!-- Incense -->
+    <rect x="10" y="-8" width="2" height="8" fill="#8d6e63"/>
+    <g opacity="0.6">
+      <path d="M 11,-8 Q 9,-15 11,-20 Q 13,-15 11,-8" stroke="#9e9e9e" stroke-width="1" fill="none"/>
+    </g>
+    
+    <!-- Sacred cloth -->
+    <rect x="-40" y="0" width="80" height="4" fill="#7b1fa2" opacity="0.7"/>
+  </g>
+  
+  <!-- Fortune telling spread -->
+  <g transform="translate(450,400)">
+    <!-- Three card spread -->
+    <rect x="-15" y="0" width="12" height="18" fill="#ffffff" stroke="#8d6e63" stroke-width="1"/>
+    <rect x="-1" y="0" width="12" height="18" fill="#ffffff" stroke="#8d6e63" stroke-width="1"/>
+    <rect x="13" y="0" width="12" height="18" fill="#ffffff" stroke="#8d6e63" stroke-width="1"/>
+    
+    <!-- Card meanings -->
+    <text x="-9" y="25" text-anchor="middle" font-family="serif" font-size="6" fill="#333">PAST</text>
+    <text x="5" y="25" text-anchor="middle" font-family="serif" font-size="6" fill="#333">PRESENT</text>
+    <text x="19" y="25" text-anchor="middle" font-family="serif" font-size="6" fill="#333">FUTURE</text>
+  </g>
+  
+  <!-- Cosmic elements -->
+  <g opacity="0.3">
+    <circle cx="80" cy="50" r="3" fill="#ffeb3b"/>
+    <circle cx="420" cy="70" r="2" fill="#ffffff"/>
+    <circle cx="150" cy="30" r="2" fill="#e3f2fd"/>
+    <circle cx="380" cy="40" r="1.5" fill="#fff3e0"/>
+    <circle cx="50" cy="450" r="2" fill="#f3e5f5"/>
+  </g>
+</svg> 

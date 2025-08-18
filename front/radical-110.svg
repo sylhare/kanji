@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f3e5f5"/>
+  
+  <!-- Central halberd -->
+  <g transform="translate(250,250)">
+    <!-- Main pole -->
+    <rect x="-8" y="-150" width="16" height="300" fill="#8d6e63"/>
+    <rect x="-5" y="-150" width="10" height="300" fill="#a1887f"/>
+    
+    <!-- Pole reinforcement rings -->
+    <rect x="-10" y="-120" width="20" height="4" fill="#757575"/>
+    <rect x="-10" y="-80" width="20" height="4" fill="#757575"/>
+    <rect x="-10" y="-40" width="20" height="4" fill="#757575"/>
+    <rect x="-10" y="40" width="20" height="4" fill="#757575"/>
+    <rect x="-10" y="80" width="20" height="4" fill="#757575"/>
+    
+    <!-- Halberd head assembly -->
+    <g transform="translate(0,-150)">
+      <!-- Central spear point -->
+      <polygon points="0,-40 -8,-15 8,-15" fill="#e0e0e0"/>
+      <polygon points="0,-40 -5,-20 5,-20" fill="#f0f0f0"/>
+      <polygon points="0,-40 -2,-25 2,-25" fill="#ffffff"/>
+      
+      <!-- Axe blade (left side) -->
+      <path d="M -8,-15 Q -35,-10 -45,5 Q -40,15 -30,20 Q -20,15 -8,0" fill="#d0d0d0"/>
+      <path d="M -8,-12 Q -30,-8 -38,5 Q -35,12 -25,16 Q -18,12 -8,-2" fill="#e0e0e0"/>
+      
+      <!-- Hook/spike (right side) -->
+      <path d="M 8,-15 Q 20,-12 25,-5 Q 30,0 25,8 Q 20,12 8,0" fill="#d0d0d0"/>
+      <path d="M 8,-12 Q 18,-10 22,-5 Q 25,0 22,6 Q 18,8 8,-2" fill="#e0e0e0"/>
+      
+      <!-- Axe blade detail -->
+      <path d="M -15,-5 Q -25,0 -30,8 Q -25,12 -15,8" stroke="#c0c0c0" stroke-width="1" fill="none"/>
+      
+      <!-- Socket/mounting -->
+      <rect x="-6" y="-15" width="12" height="20" fill="#9e9e9e"/>
+      <rect x="-4" y="-12" width="8" height="14" fill="#757575"/>
+    </g>
+    
+    <!-- Grip wrapping -->
+    <g stroke="#6d4c41" stroke-width="2" fill="none">
+      <path d="M -8,60 Q 0,65 8,60"/>
+      <path d="M -8,80 Q 0,85 8,80"/>
+      <path d="M -8,100 Q 0,105 8,100"/>
+    </g>
+    
+    <!-- Halberd butt spike -->
+    <polygon points="0,150 -6,140 6,140" fill="#9e9e9e"/>
+    <polygon points="0,150 -3,143 3,143" fill="#b0b0b0"/>
+  </g>
+  
+  <!-- Guard with halberd -->
+  <g transform="translate(120,180)">
+    <!-- Guard figure -->
+    <circle cx="0" cy="-40" r="15" fill="#ffdbcb"/>
+    <rect x="-10" y="-25" width="20" height="30" fill="#424242"/>
+    <rect x="-8" y="5" width="16" height="25" fill="#212121"/>
+    
+    <!-- Armor details -->
+    <rect x="-12" y="-20" width="24" height="8" fill="#616161"/>
+    <rect x="-10" y="-15" width="20" height="4" fill="#757575"/>
+    
+    <!-- Helmet -->
+    <ellipse cx="0" cy="-45" rx="18" ry="10" fill="#424242"/>
+    <ellipse cx="0" cy="-45" rx="15" ry="8" fill="#616161"/>
+    <rect x="-2" y="-50" width="4" height="8" fill="#757575"/>
+    
+    <!-- Halberd in guard position -->
+    <g transform="rotate(-15)">
+      <rect x="-4" y="-80" width="8" height="160" fill="#8d6e63"/>
+      
+      <!-- Halberd head -->
+      <g transform="translate(0,-80)">
+        <polygon points="0,-25 -5,-10 5,-10" fill="#e0e0e0"/>
+        <path d="M -5,-10 Q -20,-8 -25,0 Q -20,8 -15,10 Q -10,8 -5,0" fill="#d0d0d0"/>
+        <path d="M 5,-10 Q 12,-8 15,-2 Q 18,2 15,6 Q 12,8 5,0" fill="#d0d0d0"/>
+      </g>
+    </g>
+    
+    <!-- Motion trail -->
+    <g opacity="0.5">
+      <path d="M -30,-60 Q -20,-55 -10,-60" stroke="#9c27b0" stroke-width="3" fill="none"/>
+      <path d="M -35,-50 Q -25,-45 -15,-50" stroke="#9c27b0" stroke-width="3" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Different halberd types -->
+  <!-- Swiss halberd -->
+  <g transform="translate(380,200) rotate(20)">
+    <rect x="-3" y="-60" width="6" height="120" fill="#795548"/>
+    
+    <!-- Elaborate halberd head -->
+    <g transform="translate(0,-60)">
+      <!-- Spear point -->
+      <polygon points="0,-30 -6,-10 6,-10" fill="#f0f0f0"/>
+      
+      <!-- Large axe blade -->
+      <path d="M -6,-10 Q -30,-5 -40,10 Q -35,20 -25,25 Q -15,20 -6,5" fill="#e0e0e0"/>
+      <path d="M -6,-8 Q -25,-3 -32,8 Q -28,16 -20,20 Q -12,16 -6,3" fill="#f0f0f0"/>
+      
+      <!-- Beak/hook -->
+      <path d="M 6,-10 Q 18,-8 25,0 Q 30,8 25,15 Q 18,18 6,5" fill="#e0e0e0"/>
+      
+      <!-- Decorative elements -->
+      <circle cx="-18" cy="8" r="3" fill="#ffd700"/>
+      <circle cx="15" cy="5" r="2" fill="#ffd700"/>
+    </g>
+  </g>
+  
+  <!-- Poleaxe variant -->
+  <g transform="translate(80,350) rotate(-25)">
+    <rect x="-4" y="-50" width="8" height="100" fill="#8d6e63"/>
+    
+    <!-- Poleaxe head -->
+    <g transform="translate(0,-50)">
+      <!-- Hammer head -->
+      <rect x="-15" y="-8" width="30" height="16" fill="#9e9e9e"/>
+      <rect x="-12" y="-5" width="24" height="10" fill="#b0b0b0"/>
+      
+      <!-- Spike -->
+      <polygon points="0,-25 -4,-8 4,-8" fill="#e0e0e0"/>
+      
+      <!-- Axe blade -->
+      <path d="M -4,8 Q -20,12 -25,25 Q -20,30 -10,28 Q -4,25 -4,15" fill="#d0d0d0"/>
+    </g>
+  </g>
+  
+  <!-- Training session -->
+  <g transform="translate(350,350)">
+    <!-- Training post -->
+    <rect x="-8" y="0" width="16" height="100" fill="#8d6e63"/>
+    <rect x="-6" y="5" width="12" height="90" fill="#a1887f"/>
+    
+    <!-- Straw/padding -->
+    <ellipse cx="0" cy="-30" rx="25" ry="35" fill="#ffeb3b"/>
+    <ellipse cx="0" cy="-30" rx="20" ry="30" fill="#ffc107"/>
+    
+    <!-- Halberd cuts -->
+    <path d="M -15,-40 L 15,-20" stroke="#f44336" stroke-width="3"/>
+    <path d="M -10,-15 L 10,-5" stroke="#f44336" stroke-width="3"/>
+    <circle cx="-8" cy="-25" r="3" fill="#d32f2f"/>
+    <circle cx="5" cy="-35" r="2" fill="#d32f2f"/>
+    
+    <!-- Scattered straw -->
+    <g opacity="0.7">
+      <line x1="20" y1="-10" x2="30" y2="-15" stroke="#ffc107" stroke-width="2"/>
+      <line x1="25" y1="0" x2="35" y2="-5" stroke="#ffc107" stroke-width="2"/>
+      <line x1="-25" y1="-5" x2="-35" y2="-10" stroke="#ffc107" stroke-width="2"/>
+    </g>
+  </g>
+  
+  <!-- Halberd rack/armory -->
+  <g transform="translate(50,120)">
+    <!-- Wall rack -->
+    <rect x="0" y="0" width="80" height="12" fill="#6d4c41"/>
+    <rect x="5" y="12" width="10" height="60" fill="#6d4c41"/>
+    <rect x="65" y="12" width="10" height="60" fill="#6d4c41"/>
+    
+    <!-- Multiple halberds -->
+    <g transform="translate(20,0)">
+      <rect x="-2" y="-40" width="4" height="80" fill="#8d6e63"/>
+      <polygon points="0,-40 -4,-30 4,-30" fill="#e0e0e0"/>
+      <path d="M -4,-30 Q -12,-28 -15,-20 Q -12,-15 -8,-12 Q -4,-15 -4,-25" fill="#d0d0d0"/>
+    </g>
+    
+    <g transform="translate(40,0)">
+      <rect x="-2" y="-45" width="4" height="85" fill="#795548"/>
+      <polygon points="0,-45 -4,-35 4,-35" fill="#f0f0f0"/>
+      <path d="M -4,-35 Q -10,-33 -12,-28 Q -10,-23 -6,-20 Q -4,-23 -4,-30" fill="#e0e0e0"/>
+    </g>
+    
+    <g transform="translate(60,0)">
+      <rect x="-2" y="-42" width="4" height="82" fill="#a1887f"/>
+      <polygon points="0,-42 -4,-32 4,-32" fill="#e0e0e0"/>
+      <path d="M 4,-32 Q 10,-30 12,-25 Q 10,-20 6,-17 Q 4,-20 4,-27" fill="#d0d0d0"/>
+    </g>
+  </g>
+  
+  <!-- Medieval battlefield scene -->
+  <g transform="translate(200,100)">
+    <!-- Multiple halberd points -->
+    <polygon points="0,0 -2,10 2,10" fill="#e0e0e0"/>
+    <polygon points="15,5 13,15 17,15" fill="#e0e0e0"/>
+    <polygon points="30,2 28,12 32,12" fill="#e0e0e0"/>
+    <polygon points="45,8 43,18 47,18" fill="#e0e0e0"/>
+    <polygon points="60,4 58,14 62,14" fill="#e0e0e0"/>
+    
+    <!-- Halberd shafts -->
+    <rect x="-1" y="10" width="2" height="25" fill="#8d6e63"/>
+    <rect x="14" y="15" width="2" height="20" fill="#8d6e63"/>
+    <rect x="29" y="12" width="2" height="23" fill="#8d6e63"/>
+    <rect x="44" y="18" width="2" height="17" fill="#8d6e63"/>
+    <rect x="59" y="14" width="2" height="21" fill="#8d6e63"/>
+    
+    <!-- Battle formation label -->
+    <text x="30" y="50" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">INFANTRY FORMATION</text>
+  </g>
+  
+  <!-- Crafting scene -->
+  <g transform="translate(300,450)">
+    <!-- Anvil -->
+    <rect x="0" y="20" width="40" height="15" fill="#424242"/>
+    <rect x="-5" y="35" width="50" height="8" fill="#424242"/>
+    <rect x="15" y="43" width="10" height="20" fill="#212121"/>
+    
+    <!-- Halberd head being forged -->
+    <g transform="translate(20,15)">
+      <polygon points="0,-8 -4,0 4,0" fill="#ff5722"/>
+      <path d="M -4,0 Q -10,2 -12,8 Q -10,12 -6,10 Q -4,8 -4,4" fill="#ff8f00"/>
+      
+      <!-- Glowing effect -->
+      <circle cx="0" cy="0" r="8" fill="#ffeb3b" opacity="0.3"/>
+    </g>
+    
+    <!-- Hammer -->
+    <g transform="translate(35,5)">
+      <rect x="0" y="0" width="3" height="20" fill="#8d6e63"/>
+      <rect x="-5" y="-3" width="13" height="6" fill="#757575"/>
+    </g>
+    
+    <!-- Sparks -->
+    <g opacity="0.8">
+      <circle cx="25" cy="10" r="1" fill="#ffeb3b"/>
+      <circle cx="30" cy="8" r="0.8" fill="#ffc107"/>
+      <circle cx="18" cy="12" r="1.2" fill="#ff8f00"/>
+      <circle cx="32" cy="15" r="0.6" fill="#ffeb3b"/>
+    </g>
+  </g>
+  
+  <!-- Ground/battlefield -->
+  <ellipse cx="250" cy="490" rx="220" ry="10" fill="#8d6e63" opacity="0.4"/>
+</svg> 

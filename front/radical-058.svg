@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#fff3e0"/>
+  
+  <!-- Pig head outline -->
+  <ellipse cx="250" cy="280" rx="120" ry="100" fill="#ffb74d"/>
+  <ellipse cx="250" cy="280" rx="110" ry="90" fill="#ffcc02"/>
+  
+  <!-- Pig ears -->
+  <!-- Left ear -->
+  <ellipse cx="190" cy="220" rx="25" ry="35" fill="#ff9800" transform="rotate(-30 190 220)"/>
+  <ellipse cx="190" cy="220" rx="15" ry="25" fill="#ffb74d" transform="rotate(-30 190 220)"/>
+  
+  <!-- Right ear -->
+  <ellipse cx="310" cy="220" rx="25" ry="35" fill="#ff9800" transform="rotate(30 310 220)"/>
+  <ellipse cx="310" cy="220" rx="15" ry="25" fill="#ffb74d" transform="rotate(30 310 220)"/>
+  
+  <!-- Pig snout -->
+  <ellipse cx="250" cy="320" rx="40" ry="30" fill="#ff8f00"/>
+  <ellipse cx="250" cy="320" rx="35" ry="25" fill="#ffa726"/>
+  
+  <!-- Nostrils -->
+  <ellipse cx="240" cy="320" rx="5" ry="8" fill="#e65100"/>
+  <ellipse cx="260" cy="320" rx="5" ry="8" fill="#e65100"/>
+  
+  <!-- Eyes -->
+  <!-- Left eye -->
+  <ellipse cx="220" cy="260" rx="15" ry="18" fill="#ffffff"/>
+  <circle cx="222" cy="262" r="8" fill="#333333"/>
+  <circle cx="225" cy="259" r="3" fill="#ffffff"/>
+  
+  <!-- Right eye -->
+  <ellipse cx="280" cy="260" rx="15" ry="18" fill="#ffffff"/>
+  <circle cx="278" cy="262" r="8" fill="#333333"/>
+  <circle cx="275" cy="259" r="3" fill="#ffffff"/>
+  
+  <!-- Eyebrows/forehead wrinkles -->
+  <path d="M 205 245 Q 220 240 235 245" stroke="#ff8f00" stroke-width="3" fill="none"/>
+  <path d="M 265 245 Q 280 240 295 245" stroke="#ff8f00" stroke-width="3" fill="none"/>
+  
+  <!-- Mouth -->
+  <path d="M 230 350 Q 250 360 270 350" stroke="#e65100" stroke-width="3" fill="none"/>
+  
+  <!-- Cheeks -->
+  <ellipse cx="180" cy="300" rx="20" ry="15" fill="#ffb74d" opacity="0.7"/>
+  <ellipse cx="320" cy="300" rx="20" ry="15" fill="#ffb74d" opacity="0.7"/>
+  
+  <!-- Pig body suggestion (partial) -->
+  <ellipse cx="250" cy="420" rx="80" ry="50" fill="#ffcc02" opacity="0.6"/>
+  <ellipse cx="250" cy="410" rx="70" ry="40" fill="#ffb74d" opacity="0.7"/>
+  
+  <!-- Legs/hooves -->
+  <!-- Front left leg -->
+  <rect x="200" y="450" width="15" height="30" fill="#ff8f00"/>
+  <ellipse cx="207" cy="485" rx="10" ry="5" fill="#5d4037"/>
+  
+  <!-- Front right leg -->
+  <rect x="285" y="450" width="15" height="30" fill="#ff8f00"/>
+  <ellipse cx="292" cy="485" rx="10" ry="5" fill="#5d4037"/>
+  
+  <!-- Tail (curly) -->
+  <path d="M 350 380 Q 370 370 375 390 Q 380 410 360 415 Q 340 420 345 400" 
+        stroke="#ff8f00" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Decorative farm elements -->
+  <!-- Hay/straw -->
+  <g opacity="0.6">
+    <line x1="100" y1="450" x2="120" y2="480" stroke="#ffc107" stroke-width="3"/>
+    <line x1="105" y1="450" x2="125" y2="480" stroke="#ffc107" stroke-width="3"/>
+    <line x1="110" y1="450" x2="130" y2="480" stroke="#ffc107" stroke-width="3"/>
+    
+    <line x1="380" y1="450" x2="400" y2="480" stroke="#ffc107" stroke-width="3"/>
+    <line x1="385" y1="450" x2="405" y2="480" stroke="#ffc107" stroke-width="3"/>
+    <line x1="375" y1="450" x2="395" y2="480" stroke="#ffc107" stroke-width="3"/>
+  </g>
+  
+  <!-- Mud splashes -->
+  <ellipse cx="150" cy="470" rx="12" ry="8" fill="#8d6e63" opacity="0.5"/>
+  <ellipse cx="350" cy="475" rx="10" ry="6" fill="#8d6e63" opacity="0.5"/>
+  <ellipse cx="180" cy="480" rx="8" ry="5" fill="#8d6e63" opacity="0.5"/>
+  
+  <!-- Flies buzzing around -->
+  <circle cx="120" cy="200" r="2" fill="#333333"/>
+  <circle cx="380" cy="180" r="2" fill="#333333"/>
+  <circle cx="400" cy="220" r="2" fill="#333333"/>
+  
+  <!-- Motion lines for flies -->
+  <path d="M 115 195 Q 125 190 135 200" stroke="#333333" stroke-width="1" fill="none"/>
+  <path d="M 375 175 Q 385 170 395 180" stroke="#333333" stroke-width="1" fill="none"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="490" rx="200" ry="10" fill="#8d6e63" opacity="0.3"/>
+</svg> 

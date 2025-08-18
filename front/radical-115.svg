@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F0FFF0"/>
+  
+  <!-- Main grain stalks -->
+  <rect x="200" y="200" width="6" height="200" fill="#228B22" rx="3"/>
+  <rect x="250" y="180" width="8" height="220" fill="#228B22" rx="4"/>
+  <rect x="300" y="190" width="6" height="210" fill="#228B22" rx="3"/>
+  
+  <!-- Secondary grain stalks -->
+  <rect x="150" y="220" width="5" height="180" fill="#228B22" rx="2"/>
+  <rect x="350" y="210" width="5" height="190" fill="#228B22" rx="2"/>
+  <rect x="120" y="240" width="4" height="160" fill="#228B22" rx="2"/>
+  <rect x="380" y="230" width="4" height="170" fill="#228B22" rx="2"/>
+  
+  <!-- Grain heads -->
+  <ellipse cx="203" cy="180" rx="12" ry="25" fill="#DAA520"/>
+  <ellipse cx="254" cy="160" rx="15" ry="30" fill="#DAA520"/>
+  <ellipse cx="303" cy="170" rx="12" ry="25" fill="#DAA520"/>
+  <ellipse cx="152" cy="200" rx="10" ry="20" fill="#DAA520"/>
+  <ellipse cx="352" cy="190" rx="10" ry="20" fill="#DAA520"/>
+  <ellipse cx="122" cy="220" rx="8" ry="18" fill="#DAA520"/>
+  <ellipse cx="382" cy="210" rx="8" ry="18" fill="#DAA520"/>
+  
+  <!-- Individual grain details -->
+  <ellipse cx="197" cy="175" rx="2" ry="4" fill="#F5DEB3"/>
+  <ellipse cx="203" cy="170" rx="2" ry="4" fill="#F5DEB3"/>
+  <ellipse cx="209" cy="175" rx="2" ry="4" fill="#F5DEB3"/>
+  <ellipse cx="203" cy="185" rx="2" ry="4" fill="#F5DEB3"/>
+  <ellipse cx="197" cy="190" rx="2" ry="4" fill="#F5DEB3"/>
+  <ellipse cx="209" cy="190" rx="2" ry="4" fill="#F5DEB3"/>
+  
+  <ellipse cx="247" cy="155" rx="3" ry="5" fill="#F5DEB3"/>
+  <ellipse cx="254" cy="150" rx="3" ry="5" fill="#F5DEB3"/>
+  <ellipse cx="261" cy="155" rx="3" ry="5" fill="#F5DEB3"/>
+  <ellipse cx="254" cy="165" rx="3" ry="5" fill="#F5DEB3"/>
+  <ellipse cx="247" cy="170" rx="3" ry="5" fill="#F5DEB3"/>
+  <ellipse cx="261" cy="170" rx="3" ry="5" fill="#F5DEB3"/>
+  <ellipse cx="254" cy="180" rx="3" ry="5" fill="#F5DEB3"/>
+  
+  <!-- Plant leaves -->
+  <ellipse cx="180" cy="280" rx="15" ry="40" fill="#32CD32" transform="rotate(-30 180 280)"/>
+  <ellipse cx="220" cy="260" rx="12" ry="35" fill="#32CD32" transform="rotate(20 220 260)"/>
+  <ellipse cx="280" cy="270" rx="12" ry="35" fill="#32CD32" transform="rotate(-25 280 270)"/>
+  <ellipse cx="320" cy="250" rx="10" ry="30" fill="#32CD32" transform="rotate(30 320 250)"/>
+  
+  <!-- Ground level -->
+  <rect x="0" y="450" width="500" height="50" fill="#8B4513"/>
+  <rect x="0" y="440" width="500" height="10" fill="#A0522D" opacity="0.7"/>
+  
+  <!-- Scattered grains on ground -->
+  <ellipse cx="100" cy="440" rx="2" ry="3" fill="#F5DEB3"/>
+  <ellipse cx="180" cy="445" rx="2" ry="3" fill="#F5DEB3"/>
+  <ellipse cx="320" cy="442" rx="2" ry="3" fill="#F5DEB3"/>
+  <ellipse cx="400" cy="447" rx="2" ry="3" fill="#F5DEB3"/>
+  <ellipse cx="140" cy="448" rx="2" ry="3" fill="#F5DEB3"/>
+  <ellipse cx="360" cy="441" rx="2" ry="3" fill="#F5DEB3"/>
+  
+  <!-- Harvest bundle -->
+  <ellipse cx="80" cy="350" rx="25" ry="50" fill="#DAA520"/>
+  <rect x="78" y="380" width="4" height="60" fill="#228B22"/>
+  <path d="M 60 385 Q 80 380 100 385" stroke="#8B4513" stroke-width="4" fill="none"/>
+  
+  <!-- Wind effect -->
+  <path d="M 50 100 Q 100 90 150 100 Q 200 110 250 100 Q 300 90 350 100 Q 400 110 450 100" 
+        stroke="#B0E0E6" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 60 120 Q 110 110 160 120 Q 210 130 260 120 Q 310 110 360 120 Q 410 130 450 120" 
+        stroke="#B0E0E6" stroke-width="2" fill="none" opacity="0.3"/>
+</svg>

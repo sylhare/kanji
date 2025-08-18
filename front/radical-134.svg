@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#FDF5E6"/>
+  
+  <!-- Main mortar bowl -->
+  <ellipse cx="250" cy="280" rx="80" ry="60" fill="#696969" stroke="#2F2F2F" stroke-width="4"/>
+  <ellipse cx="250" cy="275" rx="70" ry="50" fill="#A9A9A9"/>
+  <ellipse cx="250" cy="270" rx="60" ry="40" fill="#D3D3D3"/>
+  
+  <!-- Stone texture on mortar -->
+  <path d="M 190 250 Q 220 240 250 250 Q 280 240 310 250" 
+        stroke="#D3D3D3" stroke-width="2" fill="none"/>
+  <path d="M 200 280 Q 230 270 250 280 Q 270 270 300 280" 
+        stroke="#D3D3D3" stroke-width="1" fill="none"/>
+  <path d="M 210 310 Q 240 300 250 310 Q 260 300 290 310" 
+        stroke="#D3D3D3" stroke-width="1" fill="none"/>
+  
+  <!-- Pestle -->
+  <rect x="150" y="200" width="12" height="80" fill="#A9A9A9" stroke="#696969" stroke-width="2" rx="6"/>
+  <ellipse cx="156" cy="195" rx="8" ry="12" fill="#A9A9A9"/>
+  
+  <!-- Ground material in mortar -->
+  <circle cx="230" cy="275" r="5" fill="#F5DEB3"/>
+  <circle cx="250" cy="270" r="6" fill="#F5DEB3"/>
+  <circle cx="270" cy="275" r="5" fill="#F5DEB3"/>
+  <circle cx="240" cy="285" r="4" fill="#F5DEB3"/>
+  <circle cx="260" cy="285" r="4" fill="#F5DEB3"/>
+  <circle cx="245" cy="295" r="3" fill="#F5DEB3"/>
+  <circle cx="255" cy="295" r="3" fill="#F5DEB3"/>
+  
+  <!-- Spices/herbs being ground -->
+  <circle cx="235" cy="265" r="2" fill="#228B22"/>
+  <circle cx="265" cy="270" r="2" fill="#FF6347"/>
+  <circle cx="245" cy="280" r="2" fill="#8B4513"/>
+  <circle cx="255" cy="280" r="2" fill="#FFD700"/>
+  
+  <!-- Secondary mortar and pestle -->
+  <ellipse cx="120" cy="350" rx="40" ry="30" fill="#696969" stroke="#2F2F2F" stroke-width="2"/>
+  <ellipse cx="120" cy="345" rx="35" ry="25" fill="#A9A9A9"/>
+  <rect x="100" y="320" width="6" height="40" fill="#A9A9A9" stroke="#696969" stroke-width="1" rx="3"/>
+  
+  <!-- Small mortar contents -->
+  <circle cx="115" cy="345" r="3" fill="#FF6347"/>
+  <circle cx="125" cy="350" r="3" fill="#FF6347"/>
+  <circle cx="120" cy="355" r="3" fill="#FF6347"/>
+  
+  <!-- Large grinding stone (quern) -->
+  <ellipse cx="380" cy="300" rx="60" ry="40" fill="#2F2F2F" stroke="#000000" stroke-width="3"/>
+  <ellipse cx="380" cy="295" rx="50" ry="30" fill="#696969"/>
+  <circle cx="380" cy="295" r="8" fill="#2F2F2F"/> <!-- Center hole -->
+  
+  <!-- Grain around quern -->
+  <circle cx="350" cy="280" r="2" fill="#F5DEB3"/>
+  <circle cx="410" cy="275" r="2" fill="#F5DEB3"/>
+  <circle cx="340" cy="320" r="2" fill="#F5DEB3"/>
+  <circle cx="420" cy="325" r="2" fill="#F5DEB3"/>
+  <circle cx="365" cy="340" r="2" fill="#F5DEB3"/>
+  <circle cx="395" cy="340" r="2" fill="#F5DEB3"/>
+  
+  <!-- Kitchen workspace -->
+  <rect x="50" y="430" width="400" height="40" fill="#DEB887"/>
+  <rect x="50" y="425" width="400" height="5" fill="#CD853F"/>
+  
+  <!-- Spice jars -->
+  <rect x="80" y="380" width="20" height="40" fill="#8B4513" rx="3"/>
+  <ellipse cx="90" cy="380" rx="10" ry="4" fill="#654321"/>
+  <circle cx="85" cy="390" r="1" fill="#FF6347"/>
+  <circle cx="95" cy="395" r="1" fill="#228B22"/>
+  
+  <rect x="450" y="370" width="20" height="40" fill="#8B4513" rx="3"/>
+  <ellipse cx="460" cy="370" rx="10" ry="4" fill="#654321"/>
+  <circle cx="455" cy="380" r="1" fill="#FFD700"/>
+  <circle cx="465" cy="385" r="1" fill="#8B4513"/>
+  
+  <!-- Traditional grinding tools -->
+  <ellipse cx="200" cy="400" rx="30" ry="10" fill="#8B4513"/>
+  <ellipse cx="200" cy="395" rx="25" ry="7" fill="#A0522D"/>
+  
+  <!-- Flour/powder dusting -->
+  <circle cx="280" cy="320" r="1" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="290" cy="325" r="1" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="270" cy="330" r="1" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="285" cy="335" r="1" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Stone texture detail -->
+  <path d="M 170 270 Q 175 265 180 270" stroke="#808080" stroke-width="1" fill="none"/>
+  <path d="M 320 285 Q 325 280 330 285" stroke="#808080" stroke-width="1" fill="none"/>
+  <path d="M 190 300 Q 195 295 200 300" stroke="#808080" stroke-width="1" fill="none"/>
+  
+  <!-- Handles on main mortar -->
+  <ellipse cx="170" cy="270" rx="6" ry="10" fill="none" stroke="#696969" stroke-width="3"/>
+  <ellipse cx="330" cy="270" rx="6" ry="10" fill="none" stroke="#696969" stroke-width="3"/>
+</svg>

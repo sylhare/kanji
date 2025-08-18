@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F0FFF0"/>
+  
+  <!-- Main millet stalks -->
+  <rect x="200" y="150" width="6" height="300" fill="#228B22" rx="3"/>
+  <rect x="250" y="140" width="8" height="310" fill="#228B22" rx="4"/>
+  <rect x="300" y="155" width="6" height="295" fill="#228B22" rx="3"/>
+  
+  <!-- Secondary millet stalks -->
+  <rect x="150" y="170" width="5" height="280" fill="#228B22" rx="2"/>
+  <rect x="350" y="160" width="5" height="290" fill="#228B22" rx="2"/>
+  <rect x="120" y="190" width="4" height="260" fill="#228B22" rx="2"/>
+  <rect x="380" y="180" width="4" height="270" fill="#228B22" rx="2"/>
+  <rect x="100" y="210" width="3" height="240" fill="#228B22" rx="1"/>
+  <rect x="400" y="200" width="3" height="250" fill="#228B22" rx="1"/>
+  
+  <!-- Millet seed heads (clustered formation) -->
+  <ellipse cx="203" cy="140" rx="8" ry="15" fill="#DAA520"/>
+  <ellipse cx="254" cy="130" rx="10" ry="18" fill="#DAA520"/>
+  <ellipse cx="303" cy="145" rx="8" ry="15" fill="#DAA520"/>
+  <ellipse cx="152" cy="160" rx="6" ry="12" fill="#DAA520"/>
+  <ellipse cx="352" cy="150" rx="6" ry="12" fill="#DAA520"/>
+  <ellipse cx="122" cy="180" rx="5" ry="10" fill="#DAA520"/>
+  <ellipse cx="382" cy="170" rx="5" ry="10" fill="#DAA520"/>
+  <ellipse cx="102" cy="200" rx="4" ry="8" fill="#DAA520"/>
+  <ellipse cx="402" cy="190" rx="4" ry="8" fill="#DAA520"/>
+  
+  <!-- Tiny millet seeds (characteristic small size) -->
+  <circle cx="200" cy="135" r="1" fill="#F5DEB3"/>
+  <circle cx="203" cy="132" r="1" fill="#F5DEB3"/>
+  <circle cx="206" cy="135" r="1" fill="#F5DEB3"/>
+  <circle cx="200" cy="140" r="1" fill="#F5DEB3"/>
+  <circle cx="206" cy="140" r="1" fill="#F5DEB3"/>
+  <circle cx="203" cy="145" r="1" fill="#F5DEB3"/>
+  <circle cx="197" cy="138" r="1" fill="#F5DEB3"/>
+  <circle cx="209" cy="138" r="1" fill="#F5DEB3"/>
+  
+  <circle cx="250" cy="125" r="1" fill="#F5DEB3"/>
+  <circle cx="254" cy="122" r="1" fill="#F5DEB3"/>
+  <circle cx="258" cy="125" r="1" fill="#F5DEB3"/>
+  <circle cx="250" cy="130" r="1" fill="#F5DEB3"/>
+  <circle cx="258" cy="130" r="1" fill="#F5DEB3"/>
+  <circle cx="254" cy="135" r="1" fill="#F5DEB3"/>
+  <circle cx="246" cy="128" r="1" fill="#F5DEB3"/>
+  <circle cx="262" cy="128" r="1" fill="#F5DEB3"/>
+  <circle cx="254" cy="140" r="1" fill="#F5DEB3"/>
+  <circle cx="246" cy="133" r="1" fill="#F5DEB3"/>
+  <circle cx="262" cy="133" r="1" fill="#F5DEB3"/>
+  
+  <circle cx="300" cy="140" r="1" fill="#F5DEB3"/>
+  <circle cx="303" cy="137" r="1" fill="#F5DEB3"/>
+  <circle cx="306" cy="140" r="1" fill="#F5DEB3"/>
+  <circle cx="300" cy="145" r="1" fill="#F5DEB3"/>
+  <circle cx="306" cy="145" r="1" fill="#F5DEB3"/>
+  <circle cx="303" cy="150" r="1" fill="#F5DEB3"/>
+  
+  <!-- Narrow grass-like leaves -->
+  <ellipse cx="180" cy="250" rx="3" ry="30" fill="#32CD32" transform="rotate(-20 180 250)"/>
+  <ellipse cx="210" cy="230" rx="3" ry="25" fill="#32CD32" transform="rotate(15 210 230)"/>
+  <ellipse cx="190" cy="300" rx="3" ry="28" fill="#32CD32" transform="rotate(-35 190 300)"/>
+  
+  <ellipse cx="240" cy="220" rx="4" ry="35" fill="#32CD32" transform="rotate(-15 240 220)"/>
+  <ellipse cx="260" cy="200" rx="3" ry="30" fill="#32CD32" transform="rotate(20 260 200)"/>
+  <ellipse cx="270" cy="280" rx="4" ry="32" fill="#32CD32" transform="rotate(-25 270 280)"/>
+  
+  <ellipse cx="320" cy="240" rx="3" ry="30" fill="#32CD32" transform="rotate(18 320 240)"/>
+  <ellipse cx="290" cy="260" rx="3" ry="25" fill="#32CD32" transform="rotate(-30 290 260)"/>
+  <ellipse cx="330" cy="300" rx="3" ry="28" fill="#32CD32" transform="rotate(25 330 300)"/>
+  
+  <!-- Root systems -->
+  <path d="M 195 450 Q 190 460 185 465" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 203 450 Q 208 460 213 465" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 200 455 Q 195 465 190 470" stroke="#8B4513" stroke-width="1" fill="none"/>
+  <path d="M 205 455 Q 210 465 215 470" stroke="#8B4513" stroke-width="1" fill="none"/>
+  
+  <path d="M 245 450 Q 240 460 235 465" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 253 450 Q 258 460 263 465" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 250 455 Q 245 465 240 470" stroke="#8B4513" stroke-width="1" fill="none"/>
+  <path d="M 255 455 Q 260 465 265 470" stroke="#8B4513" stroke-width="1" fill="none"/>
+  
+  <!-- Scattered seeds on ground -->
+  <circle cx="80" cy="440" r="1" fill="#F5DEB3"/>
+  <circle cx="120" cy="445" r="1" fill="#F5DEB3"/>
+  <circle cx="160" cy="442" r="1" fill="#F5DEB3"/>
+  <circle cx="200" cy="447" r="1" fill="#F5DEB3"/>
+  <circle cx="240" cy="444" r="1" fill="#F5DEB3"/>
+  <circle cx="280" cy="449" r="1" fill="#F5DEB3"/>
+  <circle cx="320" cy="446" r="1" fill="#F5DEB3"/>
+  <circle cx="360" cy="441" r="1" fill="#F5DEB3"/>
+  <circle cx="400" cy="448" r="1" fill="#F5DEB3"/>
+  <circle cx="420" cy="443" r="1" fill="#F5DEB3"/>
+  
+  <!-- Traditional millet processing -->
+  <rect x="50" y="350" width="40" height="20" fill="#8B4513" rx="5"/> <!-- Grinding stone -->
+  <ellipse cx="70" cy="350" rx="15" ry="5" fill="#A0522D"/>
+  <!-- Ground millet -->
+  <circle cx="65" cy="345" r="1" fill="#F5DEB3"/>
+  <circle cx="75" cy="347" r="1" fill="#F5DEB3"/>
+  <circle cx="70" cy="342" r="1" fill="#F5DEB3"/>
+  
+  <!-- Millet porridge bowl -->
+  <ellipse cx="150" cy="380" rx="25" ry="15" fill="#8B4513"/>
+  <ellipse cx="150" cy="375" rx="20" ry="10" fill="#F5DEB3"/>
+  <!-- Steam -->
+  <path d="M 140 365 Q 145 355 150 365 Q 155 355 160 365" 
+        stroke="#E0E0E0" stroke-width="2" fill="none"/>
+  
+  <!-- Storage container -->
+  <rect x="400" y="350" width="50" height="60" fill="#DEB887" rx="5"/>
+  <ellipse cx="425" cy="350" rx="25" ry="8" fill="#CD853F"/>
+  <!-- Millet in container -->
+  <circle cx="415" cy="370" r="1" fill="#F5DEB3"/>
+  <circle cx="425" cy="375" r="1" fill="#F5DEB3"/>
+  <circle cx="435" cy="370" r="1" fill="#F5DEB3"/>
+  <circle cx="420" cy="385" r="1" fill="#F5DEB3"/>
+  <circle cx="430" cy="380" r="1" fill="#F5DEB3"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="470" width="500" height="30" fill="#8B4513"/>
+  <rect x="0" y="460" width="500" height="10" fill="#A0522D" opacity="0.7"/>
+  
+  <!-- Field rows -->
+  <path d="M 50 460 L 450 460" stroke="#654321" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 60 400 L 440 400" stroke="#654321" stroke-width="2" fill="none" opacity="0.3"/>
+  
+  <!-- Bird eating millet -->
+  <ellipse cx="450" cy="120" rx="8" ry="5" fill="#8B4513"/>
+  <circle cx="455" cy="118" r="2" fill="#8B4513"/>
+  <circle cx="457" cy="117" r="1" fill="#000000"/>
+  <path d="M 459 118 L 464 118" stroke="#FF8C00" stroke-width="1"/>
+  <!-- Bird feet -->
+  <path d="M 448 125 L 445 130" stroke="#FF8C00" stroke-width="1"/>
+  <path d="M 452 125 L 455 130" stroke="#FF8C00" stroke-width="1"/>
+</svg>

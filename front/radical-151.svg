@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F0FFF0"/>
+  
+  <!-- Main bean pod -->
+  <ellipse cx="250" cy="250" rx="120" ry="35" fill="#228B22" stroke="#006400" stroke-width="3"/>
+  
+  <!-- Bean seeds inside pod -->
+  <circle cx="200" cy="250" r="12" fill="#8B4513"/>
+  <circle cx="230" cy="245" r="12" fill="#8B4513"/>
+  <circle cx="260" cy="250" r="12" fill="#8B4513"/>
+  <circle cx="290" cy="245" r="12" fill="#8B4513"/>
+  <circle cx="320" cy="250" r="12" fill="#8B4513"/>
+  
+  <!-- Secondary bean pods -->
+  <ellipse cx="150" cy="180" rx="80" ry="25" fill="#228B22" stroke="#006400" stroke-width="2"/>
+  <circle cx="120" cy="180" r="8" fill="#8B4513"/>
+  <circle cx="145" cy="178" r="8" fill="#8B4513"/>
+  <circle cx="170" cy="180" r="8" fill="#8B4513"/>
+  
+  <ellipse cx="350" cy="320" rx="70" ry="22" fill="#228B22" stroke="#006400" stroke-width="2"/>
+  <circle cx="330" cy="320" r="7" fill="#8B4513"/>
+  <circle cx="350" cy="318" r="7" fill="#8B4513"/>
+  <circle cx="370" cy="320" r="7" fill="#8B4513"/>
+  
+  <!-- Plant stems -->
+  <path d="M 130 250 Q 120 230 110 200 Q 100 170 105 140" 
+        stroke="#32CD32" stroke-width="6" fill="none"/>
+  <path d="M 250 220 Q 240 200 230 170 Q 220 140 225 110" 
+        stroke="#32CD32" stroke-width="8" fill="none"/>
+  <path d="M 370 250 Q 380 230 390 200 Q 400 170 395 140" 
+        stroke="#32CD32" stroke-width="6" fill="none"/>
+  
+  <!-- Bean leaves -->
+  <ellipse cx="120" cy="160" rx="25" ry="15" fill="#90EE90" transform="rotate(-30 120 160)"/>
+  <ellipse cx="140" cy="140" rx="20" ry="12" fill="#90EE90" transform="rotate(20 140 140)"/>
+  <ellipse cx="240" cy="130" rx="30" ry="18" fill="#90EE90" transform="rotate(-20 240 130)"/>
+  <ellipse cx="260" cy="110" rx="25" ry="15" fill="#90EE90" transform="rotate(40 260 110)"/>
+  <ellipse cx="380" cy="160" rx="22" ry="14" fill="#90EE90" transform="rotate(30 380 160)"/>
+  <ellipse cx="400" cy="140" rx="18" ry="11" fill="#90EE90" transform="rotate(-40 400 140)"/>
+  
+  <!-- Scattered loose beans -->
+  <circle cx="100" cy="350" r="6" fill="#8B4513"/>
+  <circle cx="120" cy="370" r="6" fill="#8B4513"/>
+  <circle cx="380" cy="380" r="6" fill="#8B4513"/>
+  <circle cx="400" cy="400" r="6" fill="#8B4513"/>
+  <circle cx="80" cy="400" r="6" fill="#8B4513"/>
+  
+  <!-- Pod opening lines -->
+  <path d="M 130 250 L 370 250" stroke="#006400" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M 110 180 L 190 180" stroke="#006400" stroke-width="1" stroke-dasharray="3,3"/>
+  <path d="M 320 320 L 380 320" stroke="#006400" stroke-width="1" stroke-dasharray="3,3"/>
+</svg>

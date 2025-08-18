@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#f0f8ff"/>
+  <path d="M 250 50 Q 350 80 380 200 Q 380 320 250 450 Q 120 320 120 200 Q 150 80 250 50 Z" fill="#8B4513"/>
+  <path d="M 250 60 Q 340 85 365 200 Q 365 310 250 430 Q 135 310 135 200 Q 160 85 250 60 Z" fill="#A0522D"/>
+  <circle cx="250" cy="250" r="60" fill="#C0C0C0"/>
+  <circle cx="250" cy="250" r="50" fill="#E5E5E5"/>
+  <polygon points="250,190 270,230 250,270 230,230" fill="#FFD700"/>
+  <circle cx="250" cy="230" r="15" fill="#FF6B35"/>
+  <circle cx="250" cy="80" r="8" fill="#C0C0C0"/>
+  <circle cx="300" cy="120" r="8" fill="#C0C0C0"/>
+  <circle cx="340" cy="180" r="8" fill="#C0C0C0"/>
+  <circle cx="360" cy="250" r="8" fill="#C0C0C0"/>
+  <circle cx="340" cy="320" r="8" fill="#C0C0C0"/>
+  <circle cx="300" cy="380" r="8" fill="#C0C0C0"/>
+  <circle cx="250" cy="420" r="8" fill="#C0C0C0"/>
+  <circle cx="200" cy="380" r="8" fill="#C0C0C0"/>
+  <circle cx="160" cy="320" r="8" fill="#C0C0C0"/>
+  <circle cx="140" cy="250" r="8" fill="#C0C0C0"/>
+  <circle cx="160" cy="180" r="8" fill="#C0C0C0"/>
+  <circle cx="200" cy="120" r="8" fill="#C0C0C0"/>
+</svg> 

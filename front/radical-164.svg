@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#FDF5E6"/>
+  
+  <!-- Traditional sake jar -->
+  <path d="M 200 200 Q 180 220 180 280 Q 180 350 200 380 Q 250 400 300 380 Q 320 350 320 280 Q 320 220 300 200 Z" 
+        fill="#D2691E" stroke="#8B4513" stroke-width="4"/>
+  
+  <!-- Jar lid -->
+  <ellipse cx="250" cy="200" rx="70" ry="15" fill="#8B4513" stroke="#654321" stroke-width="3"/>
+  <ellipse cx="250" cy="195" rx="60" ry="12" fill="#A0522D"/>
+  
+  <!-- Sake liquid -->
+  <path d="M 190 240 Q 200 250 220 255 Q 250 260 280 255 Q 300 250 310 240 Q 315 280 310 320 Q 300 350 280 360 Q 250 365 220 360 Q 200 350 190 320 Q 185 280 190 240 Z" 
+        fill="#F5DEB3" opacity="0.7"/>
+  
+  <!-- Ceremonial steam -->
+  <path d="M 230 180 Q 235 170 240 180 Q 245 170 250 180 Q 255 170 260 180 Q 265 170 270 180" 
+        stroke="#E0E0E0" stroke-width="3" fill="none"/>
+  <path d="M 220 160 Q 225 150 230 160" stroke="#E0E0E0" stroke-width="2" fill="none"/>
+  <path d="M 270 160 Q 275 150 280 160" stroke="#E0E0E0" stroke-width="2" fill="none"/>
+  
+  <!-- Sacred symbols -->
+  <circle cx="220" cy="280" r="3" fill="#FFD700"/>
+  <circle cx="280" cy="300" r="3" fill="#FFD700"/>
+  <circle cx="250" cy="320" r="4" fill="#FFD700"/>
+  
+  <!-- Traditional pattern on jar -->
+  <path d="M 200 250 Q 230 240 250 250 Q 270 240 300 250" 
+        stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M 200 300 Q 230 290 250 300 Q 270 290 300 300" 
+        stroke="#654321" stroke-width="2" fill="none"/>
+  
+  <!-- Ceremonial cups -->
+  <ellipse cx="120" cy="320" rx="25" ry="15" fill="#D2691E"/>
+  <ellipse cx="120" cy="315" rx="20" ry="10" fill="#F5DEB3" opacity="0.7"/>
+  
+  <ellipse cx="380" cy="340" rx="25" ry="15" fill="#D2691E"/>
+  <ellipse cx="380" cy="335" rx="20" ry="10" fill="#F5DEB3" opacity="0.7"/>
+  
+  <!-- Rice decorations -->
+  <circle cx="150" cy="150" r="3" fill="#FFFFFF"/>
+  <circle cx="160" cy="145" r="3" fill="#FFFFFF"/>
+  <circle cx="170" cy="150" r="3" fill="#FFFFFF"/>
+  <circle cx="350" cy="160" r="3" fill="#FFFFFF"/>
+  <circle cx="360" cy="155" r="3" fill="#FFFFFF"/>
+  <circle cx="370" cy="160" r="3" fill="#FFFFFF"/>
+  
+  <!-- Altar/ceremonial base -->
+  <rect x="180" y="400" width="140" height="20" fill="#8B4513" rx="10"/>
+  <rect x="170" y="420" width="160" height="15" fill="#654321" rx="7"/>
+  
+  <!-- Offering elements -->
+  <ellipse cx="100" cy="400" rx="15" ry="8" fill="#FF6347"/>
+  <ellipse cx="400" cy="410" rx="15" ry="8" fill="#FF6347"/>
+</svg>

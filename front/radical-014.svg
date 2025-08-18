@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#fff8dc"/>
+  
+  <!-- Crown base band -->
+  <ellipse cx="250" cy="300" rx="120" ry="25" fill="#FFD700"/>
+  <ellipse cx="250" cy="295" rx="115" ry="20" fill="#FFA500"/>
+  <ellipse cx="250" cy="290" rx="110" ry="15" fill="#FFE55C"/>
+  
+  <!-- Crown points/spikes -->
+  <!-- Center spike (highest) -->
+  <polygon points="250,200 280,280 220,280" fill="#FFD700"/>
+  <polygon points="250,210 270,280 230,280" fill="#FFA500"/>
+  <polygon points="250,220 260,280 240,280" fill="#FFE55C"/>
+  
+  <!-- Left spikes -->
+  <polygon points="180,220 200,280 160,280" fill="#FFD700"/>
+  <polygon points="180,230 190,280 170,280" fill="#FFA500"/>
+  
+  <polygon points="110,240 130,280 90,280" fill="#FFD700"/>
+  <polygon points="110,250 120,280 100,280" fill="#FFA500"/>
+  
+  <!-- Right spikes -->
+  <polygon points="320,220 340,280 300,280" fill="#FFD700"/>
+  <polygon points="320,230 330,280 310,280" fill="#FFA500"/>
+  
+  <polygon points="390,240 410,280 370,280" fill="#FFD700"/>
+  <polygon points="390,250 400,280 380,280" fill="#FFA500"/>
+  
+  <!-- Crown jewels -->
+  <circle cx="250" cy="240" r="12" fill="#FF0000"/>
+  <circle cx="250" cy="240" r="8" fill="#DC143C"/>
+  
+  <circle cx="180" cy="250" r="8" fill="#0000FF"/>
+  <circle cx="180" cy="250" r="5" fill="#4169E1"/>
+  
+  <circle cx="320" cy="250" r="8" fill="#32CD32"/>
+  <circle cx="320" cy="250" r="5" fill="#228B22"/>
+  
+  <circle cx="110" cy="260" r="6" fill="#8A2BE2"/>
+  <circle cx="390" cy="260" r="6" fill="#FF1493"/>
+  
+  <!-- Crown velvet interior -->
+  <ellipse cx="250" cy="280" rx="100" ry="15" fill="#8B008B"/>
+  <ellipse cx="250" cy="278" rx="95" ry="12" fill="#9932CC"/>
+  
+  <!-- Royal symbols on crown -->
+  <polygon points="200,260 210,280 230,280 216,292 221,312 200,302 179,312 184,292 170,280 190,280" fill="#FFD700"/>
+  <polygon points="300,260 310,280 330,280 316,292 321,312 300,302 279,312 284,292 270,280 290,280" fill="#FFD700"/>
+  
+  <!-- Covering/protection arch -->
+  <path d="M 100 250 Q 250 150 400 250" stroke="#C0C0C0" stroke-width="8" fill="none" opacity="0.7"/>
+  <path d="M 100 250 Q 250 150 400 250" stroke="#E5E5E5" stroke-width="5" fill="none" opacity="0.8"/>
+  
+  <!-- Royal canopy/covering -->
+  <path d="M 80 200 Q 250 100 420 200" stroke="#800080" stroke-width="6" fill="none"/>
+  <path d="M 85 205 Q 250 110 415 205" stroke="#9370DB" stroke-width="4" fill="none"/>
+  
+  <!-- Crown cushion/pillow -->
+  <ellipse cx="250" cy="380" rx="80" ry="30" fill="#8B0000"/>
+  <ellipse cx="250" cy="375" rx="75" ry="25" fill="#DC143C"/>
+  <ellipse cx="250" cy="370" rx="70" ry="20" fill="#FF6347"/>
+  
+  <!-- Tassels -->
+  <line x1="180" y1="360" x2="170" y2="420" stroke="#FFD700" stroke-width="4"/>
+  <line x1="320" y1="360" x2="330" y2="420" stroke="#FFD700" stroke-width="4"/>
+  <circle cx="170" cy="425" r="8" fill="#FFA500"/>
+  <circle cx="330" cy="425" r="8" fill="#FFA500"/>
+  
+  <!-- Royal scepter symbols -->
+  <circle cx="80" cy="100" r="20" fill="#FFD700"/>
+  <circle cx="80" cy="100" r="15" fill="#FFA500"/>
+  <rect x="75" y="120" width="10" height="60" fill="#8B4513"/>
+  <polygon points="80,85 85,95 95,95 87,102 90,112 80,107 70,112 73,102 65,95 75,95" fill="#FF0000"/>
+  
+  <circle cx="420" cy="100" r="20" fill="#FFD700"/>
+  <circle cx="420" cy="100" r="15" fill="#FFA500"/>
+  <rect x="415" y="120" width="10" height="60" fill="#8B4513"/>
+  <polygon points="420,85 425,95 435,95 427,102 430,112 420,107 410,112 413,102 405,95 415,95" fill="#0000FF"/>
+  
+  <!-- Royal banners -->
+  <rect x="50" y="350" width="6" height="100" fill="#8B4513"/>
+  <polygon points="56,350 56,370 90,360" fill="#FF6B6B"/>
+  <polygon points="56,375 56,395 85,385" fill="#4ECDC4"/>
+  
+  <rect x="444" y="350" width="6" height="100" fill="#8B4513"/>
+  <polygon points="444,350 444,370 410,360" fill="#95E1D3"/>
+  <polygon points="444,375 444,395 415,385" fill="#F38BA8"/>
+  
+  <!-- Crown rays/divine light -->
+  <line x1="250" y1="180" x2="250" y2="120" stroke="#FFFF00" stroke-width="4"/>
+  <line x1="220" y1="190" x2="210" y2="130" stroke="#FFFF00" stroke-width="3"/>
+  <line x1="280" y1="190" x2="290" y2="130" stroke="#FFFF00" stroke-width="3"/>
+  <line x1="190" y1="210" x2="170" y2="150" stroke="#FFFF00" stroke-width="2"/>
+  <line x1="310" y1="210" x2="330" y2="150" stroke="#FFFF00" stroke-width="2"/>
+  
+  <!-- Royal shield emblem -->
+  <path d="M 250 350 Q 270 340 280 355 Q 280 375 250 380 Q 220 375 220 355 Q 230 340 250 350 Z" fill="#4169E1"/>
+  <path d="M 250 355 Q 265 348 272 360 Q 272 372 250 375 Q 228 372 228 360 Q 235 348 250 355 Z" fill="#6495ED"/>
+  <polygon points="250,360 255,370 265,370 257,377 260,387 250,382 240,387 243,377 235,370 245,370" fill="#FFD700"/>
+  
+  <!-- Traditional crown symbol -->
+  <circle cx="50" cy="50" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <polygon points="50,30 55,40 65,40 57,47 60,57 50,52 40,57 43,47 35,40 45,40" fill="#8B0000"/>
+  <line x1="35" y1="50" x2="65" y2="50" stroke="#8B0000" stroke-width="2"/>
+</svg> 

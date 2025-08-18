@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#e3f2fd"/>
+  
+  <!-- Central territorial boundary -->
+  <g transform="translate(250,250)">
+    <!-- Main border outline -->
+    <rect x="-80" y="-60" width="160" height="120" fill="none" stroke="#1976d2" stroke-width="6"/>
+    <rect x="-75" y="-55" width="150" height="110" fill="none" stroke="#2196f3" stroke-width="3"/>
+    
+    <!-- Territory interior -->
+    <rect x="-70" y="-50" width="140" height="100" fill="#bbdefb" opacity="0.3"/>
+    
+    <!-- Border checkpoints -->
+    <g transform="translate(-80,0)">
+      <!-- West checkpoint -->
+      <rect x="-8" y="-8" width="16" height="16" fill="#1976d2"/>
+      <rect x="-6" y="-6" width="12" height="12" fill="#2196f3"/>
+      <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+      <text x="0" y="2" text-anchor="middle" font-family="serif" font-size="3" fill="#333">西</text>
+    </g>
+    
+    <g transform="translate(80,0)">
+      <!-- East checkpoint -->
+      <rect x="-8" y="-8" width="16" height="16" fill="#1976d2"/>
+      <rect x="-6" y="-6" width="12" height="12" fill="#2196f3"/>
+      <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+      <text x="0" y="2" text-anchor="middle" font-family="serif" font-size="3" fill="#333">東</text>
+    </g>
+    
+    <g transform="translate(0,-60)">
+      <!-- North checkpoint -->
+      <rect x="-8" y="-8" width="16" height="16" fill="#1976d2"/>
+      <rect x="-6" y="-6" width="12" height="12" fill="#2196f3"/>
+      <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+      <text x="0" y="2" text-anchor="middle" font-family="serif" font-size="3" fill="#333">北</text>
+    </g>
+    
+    <g transform="translate(0,60)">
+      <!-- South checkpoint -->
+      <rect x="-8" y="-8" width="16" height="16" fill="#1976d2"/>
+      <rect x="-6" y="-6" width="12" height="12" fill="#2196f3"/>
+      <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+      <text x="0" y="2" text-anchor="middle" font-family="serif" font-size="3" fill="#333">南</text>
+    </g>
+    
+    <!-- Central territory marker -->
+    <circle cx="0" cy="0" r="12" fill="#1976d2"/>
+    <circle cx="0" cy="0" r="8" fill="#2196f3"/>
+    <text x="0" y="3" text-anchor="middle" font-family="serif" font-size="8" fill="#ffffff">国</text>
+  </g>
+  
+  <!-- Map with territorial divisions -->
+  <g transform="translate(100,100)">
+    <!-- Map background -->
+    <rect x="0" y="0" width="120" height="80" fill="#ffffff"/>
+    <rect x="2" y="2" width="116" height="76" fill="#f5f5f5"/>
+    
+    <!-- Territory A -->
+    <rect x="5" y="5" width="50" height="35" fill="#ffcdd2" stroke="#f44336" stroke-width="2"/>
+    <text x="30" y="25" text-anchor="middle" font-family="serif" font-size="8" fill="#333">領土A</text>
+    
+    <!-- Territory B -->
+    <rect x="65" y="5" width="50" height="35" fill="#c8e6c9" stroke="#4caf50" stroke-width="2"/>
+    <text x="90" y="25" text-anchor="middle" font-family="serif" font-size="8" fill="#333">領土B</text>
+    
+    <!-- Territory C -->
+    <rect x="5" y="42" width="50" height="33" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+    <text x="30" y="60" text-anchor="middle" font-family="serif" font-size="8" fill="#333">領土C</text>
+    
+    <!-- Territory D -->
+    <rect x="65" y="42" width="50" height="33" fill="#e1bee7" stroke="#9c27b0" stroke-width="2"/>
+    <text x="90" y="60" text-anchor="middle" font-family="serif" font-size="8" fill="#333">領土D</text>
+    
+    <!-- Border lines -->
+    <line x1="57.5" y1="5" x2="57.5" y2="75" stroke="#333" stroke-width="2" stroke-dasharray="3,3"/>
+    <line x1="5" y1="40" x2="115" y2="40" stroke="#333" stroke-width="2" stroke-dasharray="3,3"/>
+    
+    <text x="60" y="95" text-anchor="middle" font-family="serif" font-size="8" fill="#333">境界地図</text>
+  </g>
+  
+  <!-- Border guard station -->
+  <g transform="translate(400,200)">
+    <!-- Guard tower -->
+    <rect x="-10" y="0" width="20" height="40" fill="#90a4ae"/>
+    <rect x="-8" y="2" width="16" height="36" fill="#b0bec5"/>
+    
+    <!-- Tower roof -->
+    <polygon points="-12,0 0,-15 12,0" fill="#757575"/>
+    <polygon points="-10,2 0,-10 10,2" fill="#9e9e9e"/>
+    
+    <!-- Watch windows -->
+    <rect x="-6" y="8" width="4" height="6" fill="#424242"/>
+    <rect x="2" y="8" width="4" height="6" fill="#424242"/>
+    <rect x="-2" y="20" width="4" height="6" fill="#424242"/>
+    
+    <!-- Guard -->
+    <g transform="translate(0,30)">
+      <circle cx="0" cy="-15" r="6" fill="#ffdbcb"/>
+      <rect x="-4" y="-9" width="8" height="12" fill="#1976d2"/>
+      <rect x="-3" y="3" width="6" height="10" fill="#0d47a1"/>
+      
+      <!-- Uniform details -->
+      <rect x="-4" y="-5" width="8" height="1" fill="#ffeb3b"/>
+      
+      <!-- Binoculars -->
+      <g transform="translate(0,-18)">
+        <rect x="-3" y="0" width="6" height="3" fill="#424242"/>
+        <circle cx="-1.5" cy="1.5" r="1" fill="#616161"/>
+        <circle cx="1.5" cy="1.5" r="1" fill="#616161"/>
+      </g>
+    </g>
+    
+    <!-- Flag -->
+    <g transform="translate(15,-10)">
+      <rect x="0" y="0" width="2" height="30" fill="#8d6e63"/>
+      <rect x="2" y="0" width="15" height="10" fill="#f44336"/>
+      <rect x="3" y="1" width="13" height="8" fill="#ff5722"/>
+    </g>
+    
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="8" fill="#333">国境警備</text>
+  </g>
+  
+  <!-- International boundary -->
+  <g transform="translate(50,300)">
+    <!-- Country 1 -->
+    <rect x="0" y="0" width="80" height="50" fill="#ffcdd2" opacity="0.7"/>
+    <rect x="0" y="0" width="80" height="50" fill="none" stroke="#f44336" stroke-width="3"/>
+    <text x="40" y="28" text-anchor="middle" font-family="serif" font-size="10" fill="#333">国A</text>
+    
+    <!-- Country 2 -->
+    <rect x="80" y="0" width="80" height="50" fill="#c8e6c9" opacity="0.7"/>
+    <rect x="80" y="0" width="80" height="50" fill="none" stroke="#4caf50" stroke-width="3"/>
+    <text x="120" y="28" text-anchor="middle" font-family="serif" font-size="10" fill="#333">国B</text>
+    
+    <!-- Border fence -->
+    <g stroke="#757575" stroke-width="2">
+      <line x1="80" y1="5" x2="80" y2="45"/>
+      <!-- Fence segments -->
+      <line x1="78" y1="10" x2="82" y2="10"/>
+      <line x1="78" y1="15" x2="82" y2="15"/>
+      <line x1="78" y1="20" x2="82" y2="20"/>
+      <line x1="78" y1="25" x2="82" y2="25"/>
+      <line x1="78" y1="30" x2="82" y2="30"/>
+      <line x1="78" y1="35" x2="82" y2="35"/>
+      <line x1="78" y1="40" x2="82" y2="40"/>
+    </g>
+    
+    <!-- Border crossing -->
+    <g transform="translate(80,25)">
+      <rect x="-8" y="-8" width="16" height="16" fill="#ffffff"/>
+      <rect x="-6" y="-6" width="12" height="12" fill="#f5f5f5"/>
+      <text x="0" y="2" text-anchor="middle" font-family="serif" font-size="4" fill="#333">検問</text>
+    </g>
+    
+    <text x="80" y="65" text-anchor="middle" font-family="serif" font-size="8" fill="#333">国境線</text>
+  </g>
+  
+  <!-- City boundaries -->
+  <g transform="translate(300,400)">
+    <!-- City limits circle -->
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#ff9800" stroke-width="4"/>
+    <circle cx="0" cy="0" r="55" fill="#fff3e0" opacity="0.5"/>
+    
+    <!-- City center -->
+    <rect x="-15" y="-15" width="30" height="30" fill="#ff9800"/>
+    <rect x="-12" y="-12" width="24" height="24" fill="#ffb300"/>
+    <text x="0" y="3" text-anchor="middle" font-family="serif" font-size="8" fill="#ffffff">市</text>
+    
+    <!-- City districts -->
+    <g stroke="#ff9800" stroke-width="2" fill="none">
+      <line x1="-42" y1="-42" x2="42" y2="42"/>
+      <line x1="42" y1="-42" x2="-42" y2="42"/>
+      <circle cx="0" cy="0" r="30"/>
+    </g>
+    
+    <!-- District labels -->
+    <g fill="#333" font-family="serif" font-size="6">
+      <text x="0" y="-35" text-anchor="middle">北区</text>
+      <text x="35" y="5" text-anchor="middle">東区</text>
+      <text x="0" y="45" text-anchor="middle">南区</text>
+      <text x="-35" y="5" text-anchor="middle">西区</text>
+    </g>
+    
+    <!-- City limit signs -->
+    <g transform="translate(50,30)">
+      <rect x="-8" y="-5" width="16" height="10" fill="#ffffff"/>
+      <text x="0" y="1" text-anchor="middle" font-family="serif" font-size="4" fill="#333">市境</text>
+    </g>
+    
+    <text x="0" y="85" text-anchor="middle" font-family="serif" font-size="8" fill="#333">都市境界</text>
+  </g>
+  
+  <!-- Property boundaries -->
+  <g transform="translate(450,400)">
+    <!-- Property plots -->
+    <rect x="0" y="0" width="25" height="30" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+    <rect x="25" y="0" width="25" height="30" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+    <rect x="0" y="30" width="25" height="25" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+    <rect x="25" y="30" width="25" height="25" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+    
+    <!-- Property markers -->
+    <g fill="#333" font-family="serif" font-size="4">
+      <text x="12.5" y="17" text-anchor="middle">地A</text>
+      <text x="37.5" y="17" text-anchor="middle">地B</text>
+      <text x="12.5" y="44" text-anchor="middle">地C</text>
+      <text x="37.5" y="44" text-anchor="middle">地D</text>
+    </g>
+    
+    <!-- Boundary stones -->
+    <circle cx="25" cy="0" r="2" fill="#757575"/>
+    <circle cx="0" cy="30" r="2" fill="#757575"/>
+    <circle cx="25" cy="30" r="2" fill="#757575"/>
+    <circle cx="50" cy="30" r="2" fill="#757575"/>
+    <circle cx="25" cy="55" r="2" fill="#757575"/>
+    
+    <text x="25" y="70" text-anchor="middle" font-family="serif" font-size="8" fill="#333">地境</text>
+  </g>
+  
+  <!-- Ancient boundary markers -->
+  <g transform="translate(100,400)">
+    <!-- Stone monument -->
+    <rect x="0" y="10" width="15" height="30" fill="#90a4ae"/>
+    <rect x="2" y="12" width="11" height="26" fill="#b0bec5"/>
+    
+    <!-- Monument top -->
+    <polygon points="0,10 7.5,0 15,10" fill="#757575"/>
+    <polygon points="2,10 7.5,3 13,10" fill="#9e9e9e"/>
+    
+    <!-- Inscription -->
+    <g fill="#333" font-family="serif" font-size="4">
+      <text x="7.5" y="20" text-anchor="middle">境</text>
+      <text x="7.5" y="26" text-anchor="middle">界</text>
+      <text x="7.5" y="32" text-anchor="middle">標</text>
+    </g>
+    
+    <!-- Stone 2 -->
+    <g transform="translate(30,0)">
+      <rect x="0" y="15" width="12" height="25" fill="#8d6e63"/>
+      <rect x="1" y="16" width="10" height="23" fill="#a1887f"/>
+      
+      <!-- Wood inscription -->
+      <g fill="#ffffff" font-family="serif" font-size="3">
+        <text x="6" y="23" text-anchor="middle">境</text>
+        <text x="6" y="28" text-anchor="middle">目</text>
+      </g>
+    </g>
+    
+    <text x="20" y="55" text-anchor="middle" font-family="serif" font-size="8" fill="#333">境界標</text>
+  </g>
+  
+  <!-- Electronic border monitoring -->
+  <g transform="translate(350,100)">
+    <!-- Surveillance equipment -->
+    <rect x="0" y="20" width="8" height="25" fill="#424242"/>
+    <rect x="1" y="21" width="6" height="23" fill="#616161"/>
+    
+    <!-- Camera -->
+    <ellipse cx="4" cy="15" rx="5" ry="3" fill="#757575"/>
+    <circle cx="4" cy="15" r="3" fill="#424242"/>
+    <circle cx="4" cy="15" r="2" fill="#f44336"/>
+    
+    <!-- Detection beams -->
+    <g stroke="#f44336" stroke-width="2" opacity="0.6">
+      <line x1="4" y1="15" x2="40" y2="15"/>
+      <line x1="4" y1="15" x2="35" y2="0"/>
+      <line x1="4" y1="15" x2="35" y2="30"/>
+    </g>
+    
+    <!-- Alert signal -->
+    <g transform="translate(50,15)">
+      <circle cx="0" cy="0" r="8" fill="#ffeb3b" opacity="0.7"/>
+      <text x="0" y="2" text-anchor="middle" font-family="serif" font-size="4" fill="#333">警報</text>
+    </g>
+    
+    <!-- Control panel -->
+    <g transform="translate(15,30)">
+      <rect x="0" y="0" width="20" height="15" fill="#e0e0e0"/>
+      <rect x="1" y="1" width="18" height="13" fill="#f5f5f5"/>
+      
+      <!-- Indicators -->
+      <circle cx="5" cy="5" r="1.5" fill="#4caf50"/>
+      <circle cx="10" cy="5" r="1.5" fill="#ff9800"/>
+      <circle cx="15" cy="5" r="1.5" fill="#f44336"/>
+      
+      <text x="10" y="12" text-anchor="middle" font-family="serif" font-size="3" fill="#333">監視</text>
+    </g>
+    
+    <text x="20" y="60" text-anchor="middle" font-family="serif" font-size="8" fill="#333">電子境界</text>
+  </g>
+  
+  <!-- Border dispute area -->
+  <g transform="translate(200,350)">
+    <!-- Contested zone -->
+    <rect x="0" y="0" width="60" height="40" fill="#ffecb3" stroke="#ff9800" stroke-width="3" stroke-dasharray="5,5"/>
+    
+    <!-- Overlapping claims -->
+    <rect x="0" y="0" width="30" height="40" fill="#ffcdd2" opacity="0.5"/>
+    <rect x="30" y="0" width="30" height="40" fill="#c8e6c9" opacity="0.5"/>
+    
+    <!-- Dispute markers -->
+    <g transform="translate(15,20)">
+      <circle cx="0" cy="0" r="6" fill="#f44336"/>
+      <text x="0" y="2" text-anchor="middle" font-family="serif" font-size="4" fill="#fff">争</text>
+    </g>
+    
+    <g transform="translate(45,20)">
+      <circle cx="0" cy="0" r="6" fill="#4caf50"/>
+      <text x="0" y="2" text-anchor="middle" font-family="serif" font-size="4" fill="#fff">係</text>
+    </g>
+    
+    <!-- UN peacekeeping symbol -->
+    <g transform="translate(30,30)">
+      <circle cx="0" cy="0" r="4" fill="#2196f3"/>
+      <text x="0" y="1" text-anchor="middle" font-family="serif" font-size="2" fill="#fff">UN</text>
+    </g>
+    
+    <text x="30" y="55" text-anchor="middle" font-family="serif" font-size="8" fill="#333">境界紛争</text>
+  </g>
+  
+  <!-- Historical border changes -->
+  <g transform="translate(50,150)">
+    <!-- Timeline -->
+    <line x1="0" y1="20" x2="120" y2="20" stroke="#333" stroke-width="2"/>
+    
+    <!-- Historical periods -->
+    <g transform="translate(20,20)">
+      <circle cx="0" cy="0" r="3" fill="#f44336"/>
+      <rect x="-10" y="-15" width="20" height="10" fill="#ffcdd2"/>
+      <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="4" fill="#333">古代</text>
+    </g>
+    
+    <g transform="translate(60,20)">
+      <circle cx="0" cy="0" r="3" fill="#ff9800"/>
+      <rect x="-10" y="-15" width="20" height="10" fill="#fff3e0"/>
+      <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="4" fill="#333">中世</text>
+    </g>
+    
+    <g transform="translate(100,20)">
+      <circle cx="0" cy="0" r="3" fill="#4caf50"/>
+      <rect x="-10" y="-15" width="20" height="10" fill="#c8e6c9"/>
+      <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="4" fill="#333">現代</text>
+    </g>
+    
+    <!-- Border evolution arrows -->
+    <g stroke="#666" stroke-width="1" fill="none">
+      <path d="M 25,25 Q 35,35 45,25"/>
+      <path d="M 65,25 Q 75,35 85,25"/>
+    </g>
+    
+    <text x="60" y="50" text-anchor="middle" font-family="serif" font-size="8" fill="#333">境界変遷</text>
+  </g>
+</svg> 

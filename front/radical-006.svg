@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#e3f2fd"/>
+  
+  <!-- Central fishing hook -->
+  <g transform="translate(250,250)">
+    <!-- Main hook shaft -->
+    <rect x="-3" y="-80" width="6" height="120" fill="#c0c0c0"/>
+    
+    <!-- Hook curve -->
+    <path d="M 3,40 Q 25,50 25,70 Q 25,85 10,85 Q 0,85 0,75" 
+          stroke="#c0c0c0" stroke-width="6" fill="none" stroke-linecap="round"/>
+    
+    <!-- Hook point -->
+    <polygon points="0,75 5,80 0,85" fill="#a0a0a0"/>
+    
+    <!-- Hook eye -->
+    <circle cx="0" cy="-80" r="8" fill="none" stroke="#c0c0c0" stroke-width="4"/>
+    
+    <!-- Barb -->
+    <polygon points="15,75 20,70 25,75" fill="#a0a0a0"/>
+  </g>
+  
+  <!-- Fishing line -->
+  <line x1="250" y1="90" x2="250" y2="170" stroke="#4fc3f7" stroke-width="2"/>
+  
+  <!-- Additional hooks around the scene -->
+  <!-- Small hook 1 -->
+  <g transform="translate(120,150) scale(0.6)">
+    <rect x="-2" y="-40" width="4" height="60" fill="#e0e0e0"/>
+    <path d="M 2,20 Q 15,25 15,35 Q 15,45 5,45 Q 0,45 0,40" 
+          stroke="#e0e0e0" stroke-width="4" fill="none"/>
+    <circle cx="0" cy="-40" r="5" fill="none" stroke="#e0e0e0" stroke-width="3"/>
+  </g>
+  
+  <!-- Small hook 2 -->
+  <g transform="translate(380,200) scale(0.7)">
+    <rect x="-2" y="-40" width="4" height="60" fill="#d0d0d0"/>
+    <path d="M 2,20 Q 15,25 15,35 Q 15,45 5,45 Q 0,45 0,40" 
+          stroke="#d0d0d0" stroke-width="4" fill="none"/>
+    <circle cx="0" cy="-40" r="5" fill="none" stroke="#d0d0d0" stroke-width="3"/>
+  </g>
+  
+  <!-- Fishing rod -->
+  <g transform="translate(100,400) rotate(-15)">
+    <!-- Rod shaft -->
+    <rect x="0" y="-3" width="150" height="6" fill="#8d6e63"/>
+    <rect x="140" y="-2" width="15" height="4" fill="#a1887f"/>
+    
+    <!-- Rod tip -->
+    <polygon points="150,-2 160,0 150,2" fill="#6d4c41"/>
+    
+    <!-- Fishing line from rod -->
+    <line x1="155" y1="0" x2="180" y2="30" stroke="#4fc3f7" stroke-width="1"/>
+  </g>
+  
+  <!-- Hook box/tackle box -->
+  <g transform="translate(350,350)">
+    <rect x="0" y="0" width="80" height="50" fill="#8d6e63" stroke="#6d4c41" stroke-width="2"/>
+    <rect x="5" y="5" width="70" height="40" fill="#a1887f"/>
+    
+    <!-- Compartments -->
+    <line x1="25" y1="5" x2="25" y2="45" stroke="#6d4c41" stroke-width="1"/>
+    <line x1="50" y1="5" x2="50" y2="45" stroke="#6d4c41" stroke-width="1"/>
+    <line x1="5" y1="25" x2="75" y2="25" stroke="#6d4c41" stroke-width="1"/>
+    
+    <!-- Hooks in compartments -->
+    <g transform="translate(15,15) scale(0.3)">
+      <rect x="-2" y="-15" width="4" height="25" fill="#c0c0c0"/>
+      <path d="M 2,10 Q 8,12 8,18 Q 8,22 4,22 Q 0,22 0,18" 
+            stroke="#c0c0c0" stroke-width="2" fill="none"/>
+    </g>
+    
+    <g transform="translate(35,15) scale(0.3)">
+      <rect x="-2" y="-15" width="4" height="25" fill="#c0c0c0"/>
+      <path d="M 2,10 Q 8,12 8,18 Q 8,22 4,22 Q 0,22 0,18" 
+            stroke="#c0c0c0" stroke-width="2" fill="none"/>
+    </g>
+    
+    <g transform="translate(60,15) scale(0.3)">
+      <rect x="-2" y="-15" width="4" height="25" fill="#c0c0c0"/>
+      <path d="M 2,10 Q 8,12 8,18 Q 8,22 4,22 Q 0,22 0,18" 
+            stroke="#c0c0c0" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Bait worm -->
+  <g transform="translate(280,320)">
+    <path d="M 0,0 Q 5,-5 10,0 Q 15,5 20,0 Q 25,-5 30,0 Q 35,5 40,0" 
+          stroke="#8bc34a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    
+    <!-- Worm segments -->
+    <circle cx="8" cy="0" r="1.5" fill="#689f38"/>
+    <circle cx="16" cy="0" r="1.5" fill="#689f38"/>
+    <circle cx="24" cy="0" r="1.5" fill="#689f38"/>
+    <circle cx="32" cy="0" r="1.5" fill="#689f38"/>
+  </g>
+  
+  <!-- Fish (as bait or catch) -->
+  <g transform="translate(180,380)">
+    <!-- Fish body -->
+    <ellipse cx="0" cy="0" rx="20" ry="8" fill="#81c784"/>
+    
+    <!-- Fish tail -->
+    <polygon points="20,0 30,-6 30,6" fill="#66bb6a"/>
+    
+    <!-- Fish eye -->
+    <circle cx="-10" cy="-2" r="3" fill="#ffffff"/>
+    <circle cx="-10" cy="-2" r="1.5" fill="#333"/>
+    
+    <!-- Fish fins -->
+    <ellipse cx="-5" cy="8" rx="6" ry="3" fill="#66bb6a"/>
+    <ellipse cx="5" cy="-8" rx="6" ry="3" fill="#66bb6a"/>
+  </g>
+  
+  <!-- Water surface -->
+  <g transform="translate(0,400)">
+    <path d="M 0,0 Q 50,-10 100,0 Q 150,10 200,0 Q 250,-10 300,0 Q 350,10 400,0 Q 450,-10 500,0" 
+          stroke="#2196f3" stroke-width="4" fill="none"/>
+    <path d="M 0,10 Q 50,0 100,10 Q 150,20 200,10 Q 250,0 300,10 Q 350,20 400,10 Q 450,0 500,10" 
+          stroke="#42a5f5" stroke-width="3" fill="none" opacity="0.7"/>
+  </g>
+  
+  <!-- Fishing sinker/weight -->
+  <g transform="translate(220,400)">
+    <ellipse cx="0" cy="0" rx="4" ry="8" fill="#616161"/>
+    <ellipse cx="0" cy="0" rx="2" ry="6" fill="#757575"/>
+    
+    <!-- Attachment ring -->
+    <circle cx="0" cy="-8" r="2" fill="none" stroke="#424242" stroke-width="1"/>
+  </g>
+  
+  <!-- Hook sizes indicator -->
+  <g transform="translate(50,100)">
+    <text x="0" y="0" font-family="Arial" font-size="12" fill="#333">HOOK SIZES</text>
+    
+    <!-- Size indicators -->
+    <g transform="translate(0,20) scale(0.4)">
+      <rect x="-1" y="-20" width="2" height="30" fill="#c0c0c0"/>
+      <path d="M 1,10 Q 8,12 8,18 Q 8,22 4,22 Q 0,22 0,18" 
+            stroke="#c0c0c0" stroke-width="2" fill="none"/>
+      <text x="15" y="0" font-family="Arial" font-size="20" fill="#666">#2</text>
+    </g>
+    
+    <g transform="translate(0,50) scale(0.6)">
+      <rect x="-1" y="-20" width="2" height="30" fill="#c0c0c0"/>
+      <path d="M 1,10 Q 8,12 8,18 Q 8,22 4,22 Q 0,22 0,18" 
+            stroke="#c0c0c0" stroke-width="2" fill="none"/>
+      <text x="15" y="0" font-family="Arial" font-size="15" fill="#666">#4</text>
+    </g>
+    
+    <g transform="translate(0,80) scale(0.8)">
+      <rect x="-1" y="-20" width="2" height="30" fill="#c0c0c0"/>
+      <path d="M 1,10 Q 8,12 8,18 Q 8,22 4,22 Q 0,22 0,18" 
+            stroke="#c0c0c0" stroke-width="2" fill="none"/>
+      <text x="15" y="0" font-family="Arial" font-size="12" fill="#666">#6</text>
+    </g>
+  </g>
+  
+  <!-- Fishing bobber/float -->
+  <g transform="translate(450,150)">
+    <ellipse cx="0" cy="0" rx="8" ry="15" fill="#ff5722"/>
+    <ellipse cx="0" cy="0" rx="6" ry="12" fill="#ff8a65"/>
+    <rect x="-1" y="-20" width="2" height="10" fill="#333"/>
+    <rect x="-1" y="15" width="2" height="10" fill="#333"/>
+  </g>
+</svg> 

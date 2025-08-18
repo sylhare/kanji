@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#fafafa"/>
+  
+  <!-- Rainbow spectrum -->
+  <defs>
+    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff0000"/>
+      <stop offset="16.66%" style="stop-color:#ff9900"/>
+      <stop offset="33.33%" style="stop-color:#ffff00"/>
+      <stop offset="50%" style="stop-color:#00ff00"/>
+      <stop offset="66.66%" style="stop-color:#0099ff"/>
+      <stop offset="83.33%" style="stop-color:#6600ff"/>
+      <stop offset="100%" style="stop-color:#ff00ff"/>
+    </linearGradient>
+    
+    <linearGradient id="rainbow-vertical" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff0000"/>
+      <stop offset="16.66%" style="stop-color:#ff9900"/>
+      <stop offset="33.33%" style="stop-color:#ffff00"/>
+      <stop offset="50%" style="stop-color:#00ff00"/>
+      <stop offset="66.66%" style="stop-color:#0099ff"/>
+      <stop offset="83.33%" style="stop-color:#6600ff"/>
+      <stop offset="100%" style="stop-color:#ff00ff"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main rainbow arc -->
+  <path d="M 100 350 Q 250 150 400 350" stroke="url(#rainbow)" stroke-width="20" fill="none"/>
+  <path d="M 110 360 Q 250 180 390 360" stroke="url(#rainbow)" stroke-width="15" fill="none" opacity="0.7"/>
+  
+  <!-- Color wheel -->
+  <g transform="translate(250,250)">
+    <circle cx="0" cy="0" r="80" fill="url(#rainbow)" opacity="0.8"/>
+    <circle cx="0" cy="0" r="70" fill="#ffffff"/>
+    
+    <!-- Color segments -->
+    <g opacity="0.9">
+      <!-- Red -->
+      <path d="M 0,0 L 0,-60 A 60,60 0 0,1 52,-30 Z" fill="#ff0000"/>
+      <!-- Orange -->
+      <path d="M 0,0 L 52,-30 A 60,60 0 0,1 52,30 Z" fill="#ff9900"/>
+      <!-- Yellow -->
+      <path d="M 0,0 L 52,30 A 60,60 0 0,1 0,60 Z" fill="#ffff00"/>
+      <!-- Green -->
+      <path d="M 0,0 L 0,60 A 60,60 0 0,1 -52,30 Z" fill="#00ff00"/>
+      <!-- Blue -->
+      <path d="M 0,0 L -52,30 A 60,60 0 0,1 -52,-30 Z" fill="#0099ff"/>
+      <!-- Purple -->
+      <path d="M 0,0 L -52,-30 A 60,60 0 0,1 0,-60 Z" fill="#6600ff"/>
+    </g>
+    
+    <!-- Center white circle -->
+    <circle cx="0" cy="0" r="20" fill="#ffffff" stroke="#ddd" stroke-width="2"/>
+  </g>
+  
+  <!-- Paint palette -->
+  <g transform="translate(100,100)">
+    <!-- Palette shape -->
+    <path d="M 0 20 Q 0 0 20 0 L 60 0 Q 80 0 80 20 L 80 40 Q 80 60 60 60 L 40 60 L 30 70 L 20 60 L 20 60 Q 0 60 0 40 Z" 
+          fill="#f5f5f5" stroke="#ddd" stroke-width="2"/>
+    
+    <!-- Paint dabs -->
+    <circle cx="20" cy="20" r="6" fill="#ff0000"/>
+    <circle cx="40" cy="15" r="6" fill="#ffff00"/>
+    <circle cx="60" cy="20" r="6" fill="#0099ff"/>
+    <circle cx="30" cy="35" r="5" fill="#00ff00"/>
+    <circle cx="50" cy="40" r="5" fill="#ff9900"/>
+    <circle cx="65" cy="45" r="4" fill="#6600ff"/>
+  </g>
+  
+  <!-- Paint brush -->
+  <g transform="translate(150,80) rotate(30)">
+    <!-- Handle -->
+    <rect x="0" y="-3" width="60" height="6" fill="#8d6e63"/>
+    <rect x="55" y="-2" width="10" height="4" fill="#a1887f"/>
+    
+    <!-- Bristles -->
+    <rect x="65" y="-4" width="15" height="8" fill="#666"/>
+    <rect x="68" y="-3" width="9" height="6" fill="#888"/>
+    
+    <!-- Paint on brush -->
+    <ellipse cx="75" cy="0" rx="3" ry="6" fill="#ff0000"/>
+  </g>
+  
+  <!-- Color swatches -->
+  <g transform="translate(50,300)">
+    <rect x="0" y="0" width="30" height="20" fill="#ff0000"/>
+    <text x="15" y="35" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">RED</text>
+    
+    <rect x="35" y="0" width="30" height="20" fill="#ff9900"/>
+    <text x="50" y="35" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">ORANGE</text>
+    
+    <rect x="70" y="0" width="30" height="20" fill="#ffff00"/>
+    <text x="85" y="35" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">YELLOW</text>
+    
+    <rect x="105" y="0" width="30" height="20" fill="#00ff00"/>
+    <text x="120" y="35" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">GREEN</text>
+    
+    <rect x="140" y="0" width="30" height="20" fill="#0099ff"/>
+    <text x="155" y="35" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">BLUE</text>
+    
+    <rect x="175" y="0" width="30" height="20" fill="#6600ff"/>
+    <text x="190" y="35" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">PURPLE</text>
+  </g>
+  
+  <!-- Colored pencils -->
+  <g transform="translate(350,100)">
+    <!-- Red pencil -->
+    <rect x="0" y="0" width="8" height="60" fill="#ff0000"/>
+    <polygon points="0,0 4,-8 8,0" fill="#ffb3b3"/>
+    <rect x="2" y="50" width="4" height="15" fill="#8d6e63"/>
+    
+    <!-- Yellow pencil -->
+    <rect x="12" y="5" width="8" height="60" fill="#ffff00"/>
+    <polygon points="12,5 16,-3 20,5" fill="#ffffb3"/>
+    <rect x="14" y="55" width="4" height="15" fill="#8d6e63"/>
+    
+    <!-- Blue pencil -->
+    <rect x="24" y="10" width="8" height="60" fill="#0099ff"/>
+    <polygon points="24,10 28,2 32,10" fill="#b3d9ff"/>
+    <rect x="26" y="60" width="4" height="15" fill="#8d6e63"/>
+  </g>
+  
+  <!-- Color mixing -->
+  <g transform="translate(350,350)">
+    <!-- Mixing circles -->
+    <circle cx="0" cy="0" r="15" fill="#ff0000" opacity="0.7"/>
+    <circle cx="20" cy="0" r="15" fill="#ffff00" opacity="0.7"/>
+    <circle cx="10" cy="17" r="15" fill="#0099ff" opacity="0.7"/>
+    
+    <!-- Mixed colors -->
+    <circle cx="10" cy="-5" r="8" fill="#ff9900" opacity="0.8"/>
+    <circle cx="17" cy="8" r="8" fill="#00ff00" opacity="0.8"/>
+    <circle cx="3" cy="8" r="8" fill="#6600ff" opacity="0.8"/>
+    
+    <text x="10" y="45" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">MIX</text>
+  </g>
+  
+  <!-- Prism effect -->
+  <g transform="translate(120,200)">
+    <!-- Prism -->
+    <polygon points="0,30 20,0 40,30 20,40" fill="#e0e0e0" stroke="#ccc" stroke-width="2"/>
+    
+    <!-- Light ray entering -->
+    <line x1="-30" y1="15" x2="5" y2="15" stroke="#ffffff" stroke-width="3"/>
+    
+    <!-- Spectrum exiting -->
+    <line x1="35" y1="25" x2="70" y2="20" stroke="#ff0000" stroke-width="2"/>
+    <line x1="35" y1="27" x2="70" y2="23" stroke="#ff9900" stroke-width="2"/>
+    <line x1="35" y1="29" x2="70" y2="26" stroke="#ffff00" stroke-width="2"/>
+    <line x1="35" y1="31" x2="70" y2="29" stroke="#00ff00" stroke-width="2"/>
+    <line x1="35" y1="33" x2="70" y2="32" stroke="#0099ff" stroke-width="2"/>
+    <line x1="35" y1="35" x2="70" y2="35" stroke="#6600ff" stroke-width="2"/>
+  </g>
+  
+  <!-- Colored glass -->
+  <g transform="translate(400,200)">
+    <rect x="0" y="0" width="15" height="80" fill="#ff0000" opacity="0.6" stroke="#fff" stroke-width="1"/>
+    <rect x="20" y="10" width="15" height="80" fill="#00ff00" opacity="0.6" stroke="#fff" stroke-width="1"/>
+    <rect x="40" y="5" width="15" height="80" fill="#0099ff" opacity="0.6" stroke="#fff" stroke-width="1"/>
+  </g>
+  
+  <!-- Color theory labels -->
+  <text x="250" y="50" text-anchor="middle" font-family="Arial" font-size="20" fill="#333">COLOR SPECTRUM</text>
+  <text x="250" y="470" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Primary • Secondary • Tertiary</text>
+</svg> 

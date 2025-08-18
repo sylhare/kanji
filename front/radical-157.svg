@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#f0f8ff"/>
+  
+  <!-- Main foot (side view) -->
+  <ellipse cx="250" cy="300" rx="80" ry="25" fill="#FDBCB4"/>
+  <ellipse cx="250" cy="295" rx="75" ry="20" fill="#F5B2A8"/>
+  
+  <!-- Toes -->
+  <ellipse cx="180" cy="285" rx="12" ry="8" fill="#F5B2A8"/>
+  <ellipse cx="200" cy="280" rx="15" ry="10" fill="#F5B2A8"/>
+  <ellipse cx="220" cy="278" rx="18" ry="12" fill="#F5B2A8"/>
+  <ellipse cx="240" cy="280" rx="16" ry="10" fill="#F5B2A8"/>
+  <ellipse cx="260" cy="285" rx="12" ry="8" fill="#F5B2A8"/>
+  
+  <!-- Toenails -->
+  <ellipse cx="175" cy="282" rx="6" ry="3" fill="#FFB6C1"/>
+  <ellipse cx="195" cy="277" rx="7" ry="4" fill="#FFB6C1"/>
+  <ellipse cx="216" cy="275" rx="8" ry="5" fill="#FFB6C1"/>
+  <ellipse cx="236" cy="277" rx="7" ry="4" fill="#FFB6C1"/>
+  <ellipse cx="255" cy="282" rx="6" ry="3" fill="#FFB6C1"/>
+  
+  <!-- Heel -->
+  <ellipse cx="320" cy="300" rx="25" ry="20" fill="#F5B2A8"/>
+  <ellipse cx="320" cy="295" rx="20" ry="15" fill="#FDBCB4"/>
+  
+  <!-- Ankle -->
+  <ellipse cx="350" cy="270" rx="20" ry="35" fill="#FDBCB4"/>
+  <ellipse cx="350" cy="265" rx="15" ry="30" fill="#F5B2A8"/>
+  
+  <!-- Leg (lower part) -->
+  <ellipse cx="380" cy="200" rx="25" ry="60" fill="#FDBCB4"/>
+  <ellipse cx="380" cy="195" rx="20" ry="55" fill="#F5B2A8"/>
+  
+  <!-- Walking sequence -->
+  <!-- Step 1 (heel strike) -->
+  <ellipse cx="100" cy="400" rx="50" ry="15" fill="#FDBCB4" transform="rotate(-10 100 400)"/>
+  <ellipse cx="80" cy="395" rx="15" ry="10" fill="#F5B2A8" transform="rotate(-10 80 395)"/>
+  <text x="100" y="440" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Heel Strike</text>
+  
+  <!-- Step 2 (mid-stance) -->
+  <ellipse cx="200" cy="420" rx="60" ry="20" fill="#FDBCB4"/>
+  <ellipse cx="200" cy="418" rx="55" ry="18" fill="#F5B2A8"/>
+  <text x="200" y="450" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Mid-Stance</text>
+  
+  <!-- Step 3 (toe-off) -->
+  <ellipse cx="300" cy="400" rx="50" ry="15" fill="#FDBCB4" transform="rotate(15 300 400)"/>
+  <ellipse cx="320" cy="395" rx="15" ry="10" fill="#F5B2A8" transform="rotate(15 320 395)"/>
+  <text x="300" y="440" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Toe-Off</text>
+  
+  <!-- Different foot types -->
+  <!-- Bare foot (top view) -->
+  <ellipse cx="80" cy="200" rx="25" ry="50" fill="#FDBCB4"/>
+  <ellipse cx="80" cy="195" rx="20" ry="45" fill="#F5B2A8"/>
+  <circle cx="80" cy="160" r="6" fill="#F5B2A8"/>
+  <circle cx="75" cy="170" r="5" fill="#F5B2A8"/>
+  <circle cx="85" cy="170" r="5" fill="#F5B2A8"/>
+  <circle cx="75" cy="180" r="4" fill="#F5B2A8"/>
+  <circle cx="85" cy="180" r="4" fill="#F5B2A8"/>
+  
+  <!-- Foot in shoe -->
+  <ellipse cx="450" cy="350" rx="60" ry="20" fill="#8B4513"/>
+  <ellipse cx="450" cy="345" rx="55" ry="15" fill="#A0522D"/>
+  <ellipse cx="420" cy="340" rx="8" ry="6" fill="#FFD700"/>
+  <rect x="445" y="330" width="20" height="3" fill="#654321"/>
+  <rect x="445" y="335" width="20" height="3" fill="#654321"/>
+  
+  <!-- High heel -->
+  <ellipse cx="400" cy="100" rx="40" ry="15" fill="#FF69B4"/>
+  <ellipse cx="400" cy="98" rx="35" ry="12" fill="#FFB6C1"/>
+  <rect x="420" y="100" width="5" height="30" fill="#8B4513"/>
+  <ellipse cx="422" cy="130" rx="8" ry="5" fill="#A0522D"/>
+  
+  <!-- Boot -->
+  <ellipse cx="150" cy="100" rx="35" ry="18" fill="#654321"/>
+  <ellipse cx="150" cy="98" rx="30" ry="15" fill="#8B4513"/>
+  <rect x="120" y="85" width="60" height="25" fill="#654321"/>
+  <rect x="122" y="87" width="56" height="21" fill="#8B4513"/>
+  <circle cx="130" cy="95" r="2" fill="#C0C0C0"/>
+  <circle cx="140" cy="95" r="2" fill="#C0C0C0"/>
+  <circle cx="150" cy="95" r="2" fill="#C0C0C0"/>
+  <circle cx="160" cy="95" r="2" fill="#C0C0C0"/>
+  <circle cx="170" cy="95" r="2" fill="#C0C0C0"/>
+  
+  <!-- Footprints -->
+  <ellipse cx="50" cy="50" rx="15" ry="30" fill="#8B4513" opacity="0.6"/>
+  <ellipse cx="100" cy="70" rx="15" ry="30" fill="#8B4513" opacity="0.6"/>
+  <ellipse cx="150" cy="50" rx="15" ry="30" fill="#8B4513" opacity="0.6"/>
+  <ellipse cx="200" cy="70" rx="15" ry="30" fill="#8B4513" opacity="0.6"/>
+  
+  <!-- Toe prints -->
+  <circle cx="45" cy="25" r="2" fill="#654321"/>
+  <circle cx="50" cy="22" r="2" fill="#654321"/>
+  <circle cx="55" cy="25" r="2" fill="#654321"/>
+  
+  <!-- Running motion -->
+  <ellipse cx="350" cy="450" rx="45" ry="18" fill="#FDBCB4" transform="rotate(-20 350 450)"/>
+  <ellipse cx="380" cy="430" rx="40" ry="15" fill="#FDBCB4" transform="rotate(30 380 430)"/>
+  
+  <!-- Motion lines -->
+  <line x1="320" y1="460" x2="300" y2="470" stroke="#FFD700" stroke-width="3"/>
+  <line x1="325" y1="470" x2="305" y2="480" stroke="#FFD700" stroke-width="2"/>
+  <line x1="330" y1="480" x2="310" y2="490" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Foot massage -->
+  <ellipse cx="450" cy="200" rx="50" ry="20" fill="#FDBCB4"/>
+  <circle cx="430" cy="195" r="8" fill="#32CD32"/>
+  <circle cx="450" cy="200" r="8" fill="#32CD32"/>
+  <circle cx="470" cy="195" r="8" fill="#32CD32"/>
+  <text x="450" y="240" text-anchor="middle" font-family="Arial" font-size="10" fill="#32CD32">Massage</text>
+  
+  <!-- Pressure points -->
+  <circle cx="440" cy="205" r="3" fill="#FF0000"/>
+  <circle cx="460" cy="205" r="3" fill="#FF0000"/>
+  
+  <!-- Medical foot examination -->
+  <ellipse cx="250" cy="100" rx="60" ry="20" fill="#FDBCB4"/>
+  <rect x="200" y="90" width="100" height="5" fill="#C0C0C0"/>
+  <text x="250" y="80" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Medical Exam</text>
+  
+  <!-- Arch support -->
+  <path d="M 210 105 Q 250 95 290 105" stroke="#4169E1" stroke-width="3" fill="none"/>
+  
+  <!-- Reflexology chart -->
+  <ellipse cx="80" cy="350" rx="30" ry="50" fill="#F5B2A8"/>
+  <circle cx="70" cy="330" r="4" fill="#FF0000"/>
+  <circle cx="80" cy="340" r="4" fill="#00FF00"/>
+  <circle cx="90" cy="350" r="4" fill="#0000FF"/>
+  <circle cx="80" cy="370" r="4" fill="#FFFF00"/>
+  <text x="80" y="420" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Reflexology</text>
+  
+  <!-- Traditional foot symbol -->
+  <circle cx="50" cy="300" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <ellipse cx="50" cy="305" rx="15" ry="10" fill="#8B0000"/>
+  <circle cx="45" cy="295" r="2" fill="#8B0000"/>
+  <circle cx="50" cy="292" r="2" fill="#8B0000"/>
+  <circle cx="55" cy="295" r="2" fill="#8B0000"/>
+</svg> 

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#f0f8ff"/>
+  
+  <!-- Main enclosure structure -->
+  <rect x="150" y="150" width="200" height="200" fill="none" stroke="#4169E1" stroke-width="8"/>
+  <rect x="155" y="155" width="190" height="190" fill="none" stroke="#6495ED" stroke-width="4"/>
+  
+  <!-- Objects inside the enclosure -->
+  <circle cx="200" cy="200" r="15" fill="#FF6B6B"/>
+  <circle cx="250" cy="220" r="18" fill="#4ECDC4"/>
+  <circle cx="300" cy="200" r="12" fill="#95E1D3"/>
+  <rect x="220" y="280" width="30" height="30" fill="#F38BA8"/>
+  <polygon points="280,280 290,260 300,280" fill="#A8DADC"/>
+  
+  <!-- Fence enclosure -->
+  <rect x="50" y="50" width="4" height="80" fill="#8B4513"/>
+  <rect x="70" y="50" width="4" height="80" fill="#8B4513"/>
+  <rect x="90" y="50" width="4" height="80" fill="#8B4513"/>
+  <rect x="110" y="50" width="4" height="80" fill="#8B4513"/>
+  <rect x="130" y="50" width="4" height="80" fill="#8B4513"/>
+  <rect x="150" y="50" width="4" height="80" fill="#8B4513"/>
+  
+  <!-- Horizontal fence rails -->
+  <rect x="50" y="70" width="104" height="4" fill="#A0522D"/>
+  <rect x="50" y="100" width="104" height="4" fill="#A0522D"/>
+  
+  <!-- Animals inside fence -->
+  <ellipse cx="80" cy="110" rx="8" ry="6" fill="#FFFFFF"/>
+  <circle cx="80" cy="105" r="4" fill="#FFFFFF"/>
+  <circle cx="78" cy="103" r="1" fill="#000000"/>
+  <circle cx="82" cy="103" r="1" fill="#000000"/>
+  
+  <ellipse cx="120" cy="115" rx="10" ry="8" fill="#8B4513"/>
+  <circle cx="120" cy="108" r="5" fill="#8B4513"/>
+  <circle cx="118" cy="106" r="1" fill="#000000"/>
+  <circle cx="122" cy="106" r="1" fill="#000000"/>
+  
+  <!-- Garden enclosure -->
+  <ellipse cx="400" cy="100" rx="60" ry="40" fill="none" stroke="#228B22" stroke-width="6"/>
+  <ellipse cx="400" cy="100" rx="55" ry="35" fill="none" stroke="#32CD32" stroke-width="3"/>
+  
+  <!-- Plants inside garden -->
+  <rect x="395" y="90" width="3" height="20" fill="#228B22"/>
+  <circle cx="396" cy="85" r="5" fill="#32CD32"/>
+  
+  <rect x="405" y="95" width="3" height="15" fill="#228B22"/>
+  <circle cx="406" cy="90" r="4" fill="#7FFF00"/>
+  
+  <rect x="385" y="105" width="3" height="18" fill="#228B22"/>
+  <circle cx="386" cy="100" r="6" fill="#ADFF2F"/>
+  
+  <!-- Wall enclosure -->
+  <rect x="350" y="200" width="8" height="150" fill="#696969"/>
+  <rect x="450" y="200" width="8" height="150" fill="#696969"/>
+  <rect x="350" y="200" width="108" height="8" fill="#696969"/>
+  <rect x="350" y="342" width="108" height="8" fill="#696969"/>
+  
+  <!-- Entrance gate in wall -->
+  <rect x="395" y="342" width="18" height="8" fill="#f0f8ff"/>
+  <rect x="397" y="340" width="14" height="4" fill="#8B4513"/>
+  
+  <!-- Protected items inside wall -->
+  <rect x="380" y="230" width="60" height="40" fill="#FFD700"/>
+  <rect x="382" y="232" width="56" height="36" fill="#FFA500"/>
+  <text x="410" y="252" text-anchor="middle" font-family="Arial" font-size="10" fill="#8B4513">SAFE</text>
+  
+  <!-- Circular enclosure (moat) -->
+  <circle cx="100" cy="400" r="50" fill="none" stroke="#4169E1" stroke-width="10"/>
+  <circle cx="100" cy="400" r="40" fill="none" stroke="#6495ED" stroke-width="6"/>
+  
+  <!-- Castle in center of moat -->
+  <rect x="85" y="380" width="30" height="40" fill="#696969"/>
+  <rect x="90" y="370" width="20" height="15" fill="#778899"/>
+  <polygon points="100,360 90,370 110,370" fill="#8B0000"/>
+  
+  <!-- Bridge across moat -->
+  <rect x="150" y="395" width="40" height="10" fill="#8B4513"/>
+  <rect x="152" y="397" width="36" height="6" fill="#A0522D"/>
+  
+  <!-- Prison/cage enclosure -->
+  <rect x="250" y="400" width="4" height="80" fill="#696969"/>
+  <rect x="260" y="400" width="4" height="80" fill="#696969"/>
+  <rect x="270" y="400" width="4" height="80" fill="#696969"/>
+  <rect x="280" y="400" width="4" height="80" fill="#696969"/>
+  <rect x="290" y="400" width="4" height="80" fill="#696969"/>
+  <rect x="300" y="400" width="4" height="80" fill="#696969"/>
+  <rect x="250" y="400" width="54" height="4" fill="#696969"/>
+  <rect x="250" y="476" width="54" height="4" fill="#696969"/>
+  
+  <!-- Person behind bars -->
+  <circle cx="275" cy="430" r="8" fill="#FDBCB4"/>
+  <ellipse cx="275" cy="450" rx="6" ry="15" fill="#FF6347"/>
+  <ellipse cx="270" cy="440" rx="4" ry="10" fill="#FDBCB4"/>
+  <ellipse cx="280" cy="440" rx="4" ry="10" fill="#FDBCB4"/>
+  
+  <!-- Magnetic field enclosure -->
+  <circle cx="400" cy="400" r="60" fill="none" stroke="#FF6B35" stroke-width="3" stroke-dasharray="10,5"/>
+  <circle cx="400" cy="400" r="45" fill="none" stroke="#FFD700" stroke-width="2" stroke-dasharray="8,4"/>
+  <circle cx="400" cy="400" r="30" fill="none" stroke="#32CD32" stroke-width="2" stroke-dasharray="6,3"/>
+  
+  <!-- Electromagnetic waves -->
+  <path d="M 370 370 Q 385 355 400 370 Q 415 385 430 370" stroke="#FF6B35" stroke-width="2" fill="none"/>
+  <path d="M 370 430 Q 385 445 400 430 Q 415 415 430 430" stroke="#FF6B35" stroke-width="2" fill="none"/>
+  
+  <!-- Central protected object -->
+  <circle cx="400" cy="400" r="12" fill="#FFFF00"/>
+  <circle cx="400" cy="400" r="8" fill="#FFD700"/>
+  <text x="400" y="450" text-anchor="middle" font-family="Arial" font-size="10" fill="#FF6B35">Protected</text>
+  
+  <!-- Boundary markers -->
+  <rect x="480" y="50" width="6" height="30" fill="#FF0000"/>
+  <rect x="477" y="80" width="12" height="6" fill="#FF0000"/>
+  <text x="486" y="100" font-family="Arial" font-size="8" fill="#FF0000">Boundary</text>
+  
+  <rect x="480" y="150" width="6" height="30" fill="#FF0000"/>
+  <rect x="477" y="180" width="12" height="6" fill="#FF0000"/>
+  
+  <!-- Enclosed area with label -->
+  <rect x="50" y="200" width="80" height="60" fill="none" stroke="#32CD32" stroke-width="4" stroke-dasharray="15,5"/>
+  <text x="90" y="235" text-anchor="middle" font-family="Arial" font-size="12" fill="#32CD32">ENCLOSED</text>
+  <text x="90" y="250" text-anchor="middle" font-family="Arial" font-size="12" fill="#32CD32">AREA</text>
+  
+  <!-- Containment vessel -->
+  <ellipse cx="200" cy="50" rx="40" ry="20" fill="#C0C0C0"/>
+  <ellipse cx="200" cy="55" rx="35" ry="15" fill="#E5E5E5"/>
+  <rect x="165" y="50" width="70" height="30" fill="#C0C0C0"/>
+  <ellipse cx="200" cy="80" rx="40" ry="20" fill="#C0C0C0"/>
+  
+  <!-- Vapor/gas inside vessel -->
+  <ellipse cx="195" cy="65" rx="20" ry="10" fill="#87CEEB" opacity="0.5"/>
+  <ellipse cx="205" cy="70" rx="15" ry="8" fill="#B0E0E6" opacity="0.5"/>
+  
+  <!-- Traditional enclosure symbol -->
+  <circle cx="50" cy="350" r="25" fill="none" stroke="#4169E1" stroke-width="3"/>
+  <rect x="35" y="340" width="30" height="20" fill="none" stroke="#4169E1" stroke-width="2"/>
+  <circle cx="50" cy="350" r="8" fill="#6495ED"/>
+</svg> 

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#87CEEB"/>
+  
+  <!-- Main sun -->
+  <circle cx="250" cy="200" r="80" fill="#FFD700"/>
+  <circle cx="250" cy="200" r="70" fill="#FFA500"/>
+  <circle cx="250" cy="200" r="60" fill="#FFFF00"/>
+  
+  <!-- Sun face -->
+  <circle cx="230" cy="180" r="8" fill="#FF6B35"/>
+  <circle cx="270" cy="180" r="8" fill="#FF6B35"/>
+  <path d="M 220 220 Q 250 240 280 220" stroke="#FF6B35" stroke-width="4" fill="none"/>
+  
+  <!-- Sun rays -->
+  <line x1="250" y1="50" x2="250" y2="120" stroke="#FFD700" stroke-width="6"/>
+  <line x1="250" y1="280" x2="250" y2="350" stroke="#FFD700" stroke-width="6"/>
+  <line x1="100" y1="200" x2="170" y2="200" stroke="#FFD700" stroke-width="6"/>
+  <line x1="330" y1="200" x2="400" y2="200" stroke="#FFD700" stroke-width="6"/>
+  
+  <!-- Diagonal rays -->
+  <line x1="150" y1="100" x2="200" y2="150" stroke="#FFD700" stroke-width="5"/>
+  <line x1="350" y1="100" x2="300" y2="150" stroke="#FFD700" stroke-width="5"/>
+  <line x1="150" y1="300" x2="200" y2="250" stroke="#FFD700" stroke-width="5"/>
+  <line x1="350" y1="300" x2="300" y2="250" stroke="#FFD700" stroke-width="5"/>
+  
+  <!-- Additional sun rays -->
+  <line x1="180" y1="70" x2="215" y2="125" stroke="#FFA500" stroke-width="4"/>
+  <line x1="320" y1="70" x2="285" y2="125" stroke="#FFA500" stroke-width="4"/>
+  <line x1="180" y1="330" x2="215" y2="275" stroke="#FFA500" stroke-width="4"/>
+  <line x1="320" y1="330" x2="285" y2="275" stroke="#FFA500" stroke-width="4"/>
+  <line x1="70" y1="130" x2="125" y2="165" stroke="#FFA500" stroke-width="4"/>
+  <line x1="430" y1="130" x2="375" y2="165" stroke="#FFA500" stroke-width="4"/>
+  <line x1="70" y1="270" x2="125" y2="235" stroke="#FFA500" stroke-width="4"/>
+  <line x1="430" y1="270" x2="375" y2="235" stroke="#FFA500" stroke-width="4"/>
+  
+  <!-- Day progression - sunrise -->
+  <circle cx="80" cy="400" r="25" fill="#FF6B35"/>
+  <circle cx="80" cy="400" r="20" fill="#FFA500"/>
+  <text x="80" y="440" text-anchor="middle" font-family="Arial" font-size="12" fill="#000">Sunrise</text>
+  
+  <!-- Noon -->
+  <circle cx="250" cy="350" r="25" fill="#FFFF00"/>
+  <circle cx="250" cy="350" r="20" fill="#FFD700"/>
+  <text x="250" y="390" text-anchor="middle" font-family="Arial" font-size="12" fill="#000">Noon</text>
+  
+  <!-- Sunset -->
+  <circle cx="420" cy="400" r="25" fill="#FF4500"/>
+  <circle cx="420" cy="400" r="20" fill="#FF6B35"/>
+  <text x="420" y="440" text-anchor="middle" font-family="Arial" font-size="12" fill="#000">Sunset</text>
+  
+  <!-- Clock showing time -->
+  <circle cx="450" cy="100" r="40" fill="#FFFFFF"/>
+  <circle cx="450" cy="100" r="35" fill="#F5F5F5"/>
+  
+  <!-- Clock numbers -->
+  <text x="450" y="70" text-anchor="middle" font-family="Arial" font-size="12" fill="#000">12</text>
+  <text x="480" y="105" text-anchor="middle" font-family="Arial" font-size="12" fill="#000">3</text>
+  <text x="450" y="135" text-anchor="middle" font-family="Arial" font-size="12" fill="#000">6</text>
+  <text x="420" y="105" text-anchor="middle" font-family="Arial" font-size="12" fill="#000">9</text>
+  
+  <!-- Clock hands -->
+  <line x1="450" y1="100" x2="450" y2="80" stroke="#000000" stroke-width="3"/>
+  <line x1="450" y1="100" x2="465" y2="100" stroke="#000000" stroke-width="2"/>
+  <circle cx="450" cy="100" r="3" fill="#FF0000"/>
+  
+  <!-- Calendar -->
+  <rect x="50" y="50" width="120" height="100" fill="#FFFFFF"/>
+  <rect x="52" y="52" width="116" height="96" fill="#F5F5F5"/>
+  <rect x="50" y="50" width="120" height="20" fill="#FF6B35"/>
+  <text x="110" y="63" text-anchor="middle" font-family="Arial" font-size="12" fill="#FFFFFF">JULY 2024</text>
+  
+  <!-- Calendar dates -->
+  <text x="70" y="85" text-anchor="middle" font-family="Arial" font-size="10" fill="#000">S M T W T F S</text>
+  <text x="60" y="100" text-anchor="middle" font-family="Arial" font-size="8" fill="#000">1 2 3 4 5 6 7</text>
+  <text x="60" y="115" text-anchor="middle" font-family="Arial" font-size="8" fill="#000">8 9 10 11 12 13 14</text>
+  <text x="60" y="130" text-anchor="middle" font-family="Arial" font-size="8" fill="#000">15 16 17 18 19 20 21</text>
+  <circle cx="75" cy="125" r="6" fill="#FFD700"/>
+  <text x="75" y="129" text-anchor="middle" font-family="Arial" font-size="8" fill="#000">15</text>
+  
+  <!-- Sundial -->
+  <circle cx="100" cy="300" r="50" fill="#DEB887"/>
+  <circle cx="100" cy="300" r="45" fill="#F5DEB3"/>
+  
+  <!-- Sundial markings -->
+  <line x1="100" y1="255" x2="100" y2="265" stroke="#8B4513" stroke-width="2"/>
+  <line x1="145" y1="300" x2="135" y2="300" stroke="#8B4513" stroke-width="2"/>
+  <line x1="100" y1="345" x2="100" y2="335" stroke="#8B4513" stroke-width="2"/>
+  <line x1="55" y1="300" x2="65" y2="300" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Sundial shadow -->
+  <line x1="100" y1="300" x2="125" y2="285" stroke="#696969" stroke-width="4"/>
+  
+  <!-- Day/night cycle -->
+  <ellipse cx="350" cy="450" rx="80" ry="30" fill="#4169E1" opacity="0.5"/>
+  <text x="350" y="470" text-anchor="middle" font-family="Arial" font-size="12" fill="#FFFFFF">Day/Night</text>
+  
+  <!-- Stars (night) -->
+  <circle cx="320" cy="430" r="2" fill="#FFFFFF"/>
+  <circle cx="350" cy="425" r="1" fill="#FFFFFF"/>
+  <circle cx="380" cy="435" r="2" fill="#FFFFFF"/>
+  
+  <!-- Moon (night) -->
+  <circle cx="370" cy="420" r="12" fill="#C0C0C0"/>
+  <circle cx="375" cy="415" r="10" fill="#DCDCDC"/>
+  
+  <!-- Weather symbols -->
+  <ellipse cx="450" cy="300" rx="25" ry="15" fill="#FFFFFF"/>
+  <ellipse cx="440" cy="305" rx="20" ry="12" fill="#F0F8FF"/>
+  <ellipse cx="460" cy="305" rx="20" ry="12" fill="#F0F8FF"/>
+  <text x="450" y="330" text-anchor="middle" font-family="Arial" font-size="10" fill="#000">Cloudy</text>
+  
+  <!-- Temperature -->
+  <rect x="20" y="380" width="8" height="50" fill="#C0C0C0"/>
+  <circle cx="24" cy="435" r="8" fill="#FF0000"/>
+  <circle cx="24" cy="435" r="6" fill="#FF4500"/>
+  <rect x="22" y="390" width="4" height="35" fill="#FF6B35"/>
+  <text x="40" y="415" font-family="Arial" font-size="12" fill="#000">25°C</text>
+  
+  <!-- Light spectrum -->
+  <rect x="300" y="50" width="50" height="10" fill="#FF0000"/>
+  <rect x="300" y="60" width="50" height="10" fill="#FF6B35"/>
+  <rect x="300" y="70" width="50" height="10" fill="#FFD700"/>
+  <rect x="300" y="80" width="50" height="10" fill="#32CD32"/>
+  <rect x="300" y="90" width="50" height="10" fill="#4169E1"/>
+  <rect x="300" y="100" width="50" height="10" fill="#8A2BE2"/>
+  <text x="325" y="125" text-anchor="middle" font-family="Arial" font-size="10" fill="#000">Sunlight</text>
+  
+  <!-- Traditional sun symbol -->
+  <circle cx="50" cy="200" r="25" fill="none" stroke="#FF6B35" stroke-width="3"/>
+  <circle cx="50" cy="200" r="15" fill="#FFD700"/>
+  <line x1="50" y1="170" x2="50" y2="175" stroke="#FF6B35" stroke-width="2"/>
+  <line x1="50" y1="225" x2="50" y2="230" stroke="#FF6B35" stroke-width="2"/>
+  <line x1="20" y1="200" x2="25" y2="200" stroke="#FF6B35" stroke-width="2"/>
+  <line x1="75" y1="200" x2="80" y2="200" stroke="#FF6B35" stroke-width="2"/>
+</svg> 

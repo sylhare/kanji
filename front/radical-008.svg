@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#faf0e6"/>
+  
+  <!-- Pot base -->
+  <ellipse cx="250" cy="400" rx="100" ry="30" fill="#8B4513"/>
+  <ellipse cx="250" cy="395" rx="95" ry="25" fill="#A0522D"/>
+  
+  <!-- Pot sides -->
+  <path d="M 150 400 Q 140 300 160 200 Q 180 150 250 150 Q 320 150 340 200 Q 360 300 350 400" fill="#CD853F"/>
+  <path d="M 155 395 Q 145 305 165 205 Q 185 160 250 160 Q 315 160 335 205 Q 355 305 345 395" fill="#DEB887"/>
+  
+  <!-- Pot rim -->
+  <ellipse cx="250" cy="200" rx="80" ry="20" fill="#8B4513"/>
+  <ellipse cx="250" cy="195" rx="75" ry="15" fill="#A0522D"/>
+  
+  <!-- Lid (main element) -->
+  <ellipse cx="250" cy="180" rx="90" ry="25" fill="#C0C0C0"/>
+  <ellipse cx="250" cy="175" rx="85" ry="20" fill="#E5E5E5"/>
+  <ellipse cx="250" cy="170" rx="80" ry="15" fill="#DCDCDC"/>
+  
+  <!-- Lid handle/knob -->
+  <ellipse cx="250" cy="150" rx="15" ry="8" fill="#FFD700"/>
+  <ellipse cx="250" cy="148" rx="12" ry="6" fill="#FFA500"/>
+  <rect x="245" y="155" width="10" height="15" fill="#8B4513"/>
+  
+  <!-- Steam coming from pot -->
+  <path d="M 220 140 Q 215 120 220 100 Q 225 80 220 60" stroke="#87CEEB" stroke-width="4" fill="none" opacity="0.7"/>
+  <path d="M 250 140 Q 245 120 250 100 Q 255 80 250 60" stroke="#87CEEB" stroke-width="4" fill="none" opacity="0.7"/>
+  <path d="M 280 140 Q 275 120 280 100 Q 285 80 280 60" stroke="#87CEEB" stroke-width="4" fill="none" opacity="0.7"/>
+  
+  <!-- Steam swirls -->
+  <path d="M 210 80 Q 220 70 230 80 Q 220 90 210 80" stroke="#B0E0E6" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 270 80 Q 280 70 290 80 Q 280 90 270 80" stroke="#B0E0E6" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Pot handles -->
+  <ellipse cx="180" cy="280" rx="12" ry="25" fill="none" stroke="#654321" stroke-width="8"/>
+  <ellipse cx="320" cy="280" rx="12" ry="25" fill="none" stroke="#654321" stroke-width="8"/>
+  
+  <!-- Lid reflection -->
+  <ellipse cx="230" cy="165" rx="30" ry="8" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Kitchen counter/surface -->
+  <rect x="100" y="420" width="300" height="20" fill="#DDD"/>
+  <rect x="100" y="440" width="300" height="10" fill="#CCC"/>
+  
+  <!-- Other kitchen lids around -->
+  <ellipse cx="100" cy="100" rx="40" ry="12" fill="#C0C0C0"/>
+  <ellipse cx="100" cy="95" rx="35" ry="8" fill="#E5E5E5"/>
+  <circle cx="100" cy="85" r="8" fill="#FFD700"/>
+  
+  <ellipse cx="400" cy="120" rx="35" ry="10" fill="#C0C0C0"/>
+  <ellipse cx="400" cy="116" rx="30" ry="7" fill="#E5E5E5"/>
+  <circle cx="400" cy="108" r="6" fill="#FFD700"/>
+  
+  <!-- Lid covers on shelf -->
+  <rect x="50" y="350" width="120" height="8" fill="#8B4513"/>
+  <ellipse cx="80" cy="340" rx="25" ry="8" fill="#C0C0C0"/>
+  <ellipse cx="130" cy="340" rx="20" ry="6" fill="#C0C0C0"/>
+  
+  <rect x="330" y="350" width="120" height="8" fill="#8B4513"/>
+  <ellipse cx="360" cy="340" rx="25" ry="8" fill="#C0C0C0"/>
+  <ellipse cx="410" cy="340" rx="20" ry="6" fill="#C0C0C0"/>
+  
+  <!-- Kitchen utensils with tops/covers -->
+  <rect x="450" y="200" width="8" height="100" fill="#8B4513"/>
+  <ellipse cx="454" cy="190" rx="12" ry="6" fill="#C0C0C0"/>
+  
+  <rect x="40" y="200" width="8" height="100" fill="#8B4513"/>
+  <ellipse cx="44" cy="190" rx="12" ry="6" fill="#C0C0C0"/>
+  
+  <!-- Traditional pot symbol -->
+  <circle cx="450" cy="450" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <ellipse cx="450" cy="440" rx="15" ry="5" fill="#8B0000"/>
+  <circle cx="450" cy="435" r="3" fill="#FFD700"/>
+  
+  <!-- Heat/cooking indicators -->
+  <polygon points="200,450 205,460 215,460 207,467 210,477 200,472 190,477 193,467 185,460 195,460" fill="#FF6B35"/>
+  <polygon points="250,450 255,460 265,460 257,467 260,477 250,472 240,477 243,467 235,460 245,460" fill="#FF8C00"/>
+  <polygon points="300,450 305,460 315,460 307,467 310,477 300,472 290,477 293,467 285,460 295,460" fill="#FFD700"/>
+  
+  <!-- Covering/protection symbols -->
+  <path d="M 150 50 Q 200 30 250 50 Q 300 30 350 50" stroke="#4169E1" stroke-width="4" fill="none" opacity="0.6"/>
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="14" fill="#4169E1">TOP</text>
+</svg> 

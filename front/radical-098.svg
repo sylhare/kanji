@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F0F0F0"/>
+  
+  <!-- Main roof tiles -->
+  <path d="M 80 200 Q 120 180 160 200 Q 200 180 240 200 Q 280 180 320 200 Q 360 180 400 200 Q 420 190 440 200" 
+        stroke="none" fill="#CD853F"/>
+  <path d="M 80 220 Q 120 200 160 220 Q 200 200 240 220 Q 280 200 320 220 Q 360 200 400 220 Q 420 210 440 220" 
+        stroke="none" fill="#A0522D"/>
+  <path d="M 80 240 Q 120 220 160 240 Q 200 220 240 240 Q 280 220 320 240 Q 360 220 400 240 Q 420 230 440 240" 
+        stroke="none" fill="#CD853F"/>
+  <path d="M 80 260 Q 120 240 160 260 Q 200 240 240 260 Q 280 240 320 260 Q 360 240 400 260 Q 420 250 440 260" 
+        stroke="none" fill="#A0522D"/>
+  
+  <!-- Individual tile details -->
+  <rect x="100" y="190" width="40" height="20" fill="#D2691E" stroke="#8B4513" stroke-width="1" rx="3"/>
+  <rect x="150" y="190" width="40" height="20" fill="#D2691E" stroke="#8B4513" stroke-width="1" rx="3"/>
+  <rect x="200" y="190" width="40" height="20" fill="#D2691E" stroke="#8B4513" stroke-width="1" rx="3"/>
+  <rect x="250" y="190" width="40" height="20" fill="#D2691E" stroke="#8B4513" stroke-width="1" rx="3"/>
+  <rect x="300" y="190" width="40" height="20" fill="#D2691E" stroke="#8B4513" stroke-width="1" rx="3"/>
+  <rect x="350" y="190" width="40" height="20" fill="#D2691E" stroke="#8B4513" stroke-width="1" rx="3"/>
+  
+  <rect x="120" y="210" width="40" height="20" fill="#B8860B" stroke="#8B4513" stroke-width="1" rx="3"/>
+  <rect x="170" y="210" width="40" height="20" fill="#B8860B" stroke="#8B4513" stroke-width="1" rx="3"/>
+  <rect x="220" y="210" width="40" height="20" fill="#B8860B" stroke="#8B4513" stroke-width="1" rx="3"/>
+  <rect x="270" y="210" width="40" height="20" fill="#B8860B" stroke="#8B4513" stroke-width="1" rx="3"/>
+  <rect x="320" y="210" width="40" height="20" fill="#B8860B" stroke="#8B4513" stroke-width="1" rx="3"/>
+  
+  <!-- Clay tile texture -->
+  <path d="M 105 195 L 135 195" stroke="#A0522D" stroke-width="1" opacity="0.7"/>
+  <path d="M 155 195 L 185 195" stroke="#A0522D" stroke-width="1" opacity="0.7"/>
+  <path d="M 205 195 L 235 195" stroke="#A0522D" stroke-width="1" opacity="0.7"/>
+  <path d="M 255 195 L 285 195" stroke="#A0522D" stroke-width="1" opacity="0.7"/>
+  <path d="M 305 195 L 335 195" stroke="#A0522D" stroke-width="1" opacity="0.7"/>
+  <path d="M 355 195 L 385 195" stroke="#A0522D" stroke-width="1" opacity="0.7"/>
+  
+  <!-- Traditional tile manufacturing -->
+  <ellipse cx="150" cy="350" rx="80" ry="50" fill="#8B4513"/>
+  <ellipse cx="150" cy="345" rx="70" ry="40" fill="#CD853F"/>
+  
+  <!-- Clay being shaped -->
+  <ellipse cx="150" cy="340" rx="50" ry="25" fill="#D2691E"/>
+  <rect x="130" y="330" width="40" height="8" fill="#A0522D"/>
+  
+  <!-- Potter's tools -->
+  <rect x="100" y="380" width="3" height="40" fill="#8B4513"/>
+  <ellipse cx="101" cy="375" rx="6" ry="3" fill="#C0C0C0"/>
+  
+  <rect x="200" y="385" width="25" height="3" fill="#8B4513"/>
+  <ellipse cx="220" cy="386" rx="3" ry="4" fill="#A0522D"/>
+  
+  <!-- Kiln for firing tiles -->
+  <rect x="350" y="300" width="100" height="80" fill="#696969" stroke="#2F2F2F" stroke-width="3" rx="10"/>
+  <rect x="370" y="310" width="60" height="15" fill="#FF4500"/>
+  
+  <!-- Fired tiles -->
+  <rect x="360" y="340" width="15" height="8" fill="#D2691E"/>
+  <rect x="380" y="340" width="15" height="8" fill="#D2691E"/>
+  <rect x="400" y="340" width="15" height="8" fill="#D2691E"/>
+  <rect x="420" y="340" width="15" height="8" fill="#D2691E"/>
+  
+  <rect x="370" y="355" width="15" height="8" fill="#D2691E"/>
+  <rect x="390" y="355" width="15" height="8" fill="#D2691E"/>
+  <rect x="410" y="355" width="15" height="8" fill="#D2691E"/>
+  
+  <!-- Smoke from kiln -->
+  <path d="M 400 290 Q 405 280 410 290 Q 415 280 420 290 Q 425 280 430 290" 
+        stroke="#696969" stroke-width="3" fill="none"/>
+  
+  <!-- Ground/base -->
+  <rect x="0" y="470" width="500" height="30" fill="#8B4513"/>
+  
+  <!-- Decorative tile patterns -->
+  <path d="M 110 200 Q 115 195 120 200" stroke="#654321" stroke-width="1" fill="none"/>
+  <path d="M 160 200 Q 165 195 170 200" stroke="#654321" stroke-width="1" fill="none"/>
+  <path d="M 210 200 Q 215 195 220 200" stroke="#654321" stroke-width="1" fill="none"/>
+  
+  <!-- Traditional Chinese roof style -->
+  <path d="M 50 280 Q 100 260 150 280 Q 200 260 250 280 Q 300 260 350 280 Q 400 260 450 280" 
+        stroke="#8B4513" stroke-width="4" fill="none"/>
+  
+  <!-- Rain running off tiles -->
+  <path d="M 120 230 Q 125 240 130 250" stroke="#4169E1" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 170 230 Q 175 240 180 250" stroke="#4169E1" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 220 230 Q 225 240 230 250" stroke="#4169E1" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 270 230 Q 275 240 280 250" stroke="#4169E1" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>

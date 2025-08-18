@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#e6f7ff"/>
+  
+  <!-- Main ice crystal formation -->
+  <g transform="translate(250,250)">
+    <!-- Central hexagon -->
+    <polygon points="-40,0 -20,-35 20,-35 40,0 20,35 -20,35" fill="#b3e5fc" stroke="#0277bd" stroke-width="3"/>
+    
+    <!-- Six main branches -->
+    <!-- Top -->
+    <line x1="0" y1="-35" x2="0" y2="-120" stroke="#0288d1" stroke-width="6"/>
+    <polygon points="-15,-120 0,-140 15,-120" fill="#03a9f4"/>
+    
+    <!-- Top-right -->
+    <line x1="30" y1="-17" x2="100" y2="-60" stroke="#0288d1" stroke-width="6"/>
+    <polygon points="85,-45 105,-55 100,-75" fill="#03a9f4"/>
+    
+    <!-- Bottom-right -->
+    <line x1="30" y1="17" x2="100" y2="60" stroke="#0288d1" stroke-width="6"/>
+    <polygon points="85,45 105,55 100,75" fill="#03a9f4"/>
+    
+    <!-- Bottom -->
+    <line x1="0" y1="35" x2="0" y2="120" stroke="#0288d1" stroke-width="6"/>
+    <polygon points="-15,120 0,140 15,120" fill="#03a9f4"/>
+    
+    <!-- Bottom-left -->
+    <line x1="-30" y1="17" x2="-100" y2="60" stroke="#0288d1" stroke-width="6"/>
+    <polygon points="-85,45 -105,55 -100,75" fill="#03a9f4"/>
+    
+    <!-- Top-left -->
+    <line x1="-30" y1="-17" x2="-100" y2="-60" stroke="#0288d1" stroke-width="6"/>
+    <polygon points="-85,-45 -105,-55 -100,-75" fill="#03a9f4"/>
+    
+    <!-- Secondary branches -->
+    <!-- Top branch details -->
+    <line x1="-8" y1="-60" x2="-20" y2="-75" stroke="#29b6f6" stroke-width="3"/>
+    <line x1="8" y1="-60" x2="20" y2="-75" stroke="#29b6f6" stroke-width="3"/>
+    <line x1="-8" y1="-80" x2="-20" y2="-95" stroke="#29b6f6" stroke-width="3"/>
+    <line x1="8" y1="-80" x2="20" y2="-95" stroke="#29b6f6" stroke-width="3"/>
+    
+    <!-- Add smaller crystalline details -->
+    <circle cx="0" cy="0" r="8" fill="#4fc3f7"/>
+    <circle cx="0" cy="0" r="4" fill="#81d4fa"/>
+    
+    <!-- Ice sparkle effects -->
+    <polygon points="-15,-15 -10,-20 -5,-15 -10,-10" fill="#ffffff" opacity="0.8"/>
+    <polygon points="15,15 20,10 25,15 20,20" fill="#ffffff" opacity="0.8"/>
+    <polygon points="-20,20 -15,15 -10,20 -15,25" fill="#ffffff" opacity="0.8"/>
+    <polygon points="20,-20 25,-15 30,-20 25,-25" fill="#ffffff" opacity="0.8"/>
+  </g>
+  
+  <!-- Floating ice crystals -->
+  <g opacity="0.7">
+    <polygon points="100,100 105,90 115,95 110,105" fill="#4fc3f7"/>
+    <polygon points="380,120 385,110 395,115 390,125" fill="#4fc3f7"/>
+    <polygon points="120,380 125,370 135,375 130,385" fill="#4fc3f7"/>
+    <polygon points="370,350 375,340 385,345 380,355" fill="#4fc3f7"/>
+  </g>
+  
+  <!-- Cold mist effect -->
+  <ellipse cx="250" cy="450" rx="150" ry="30" fill="#b3e5fc" opacity="0.3"/>
+  <ellipse cx="250" cy="440" rx="120" ry="20" fill="#81d4fa" opacity="0.4"/>
+  
+  <!-- Icicles hanging from top -->
+  <polygon points="50,0 60,0 55,40" fill="#4fc3f7"/>
+  <polygon points="150,0 160,0 155,35" fill="#4fc3f7"/>
+  <polygon points="340,0 350,0 345,42" fill="#4fc3f7"/>
+  <polygon points="430,0 440,0 435,38" fill="#4fc3f7"/>
+</svg> 

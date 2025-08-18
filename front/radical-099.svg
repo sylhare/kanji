@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#FFF8DC"/>
+  
+  <!-- Sweet honey drops -->
+  <ellipse cx="200" cy="150" rx="25" ry="35" fill="#FFB347" opacity="0.8"/>
+  <ellipse cx="300" cy="120" rx="20" ry="30" fill="#FFA500" opacity="0.8"/>
+  <ellipse cx="250" cy="100" rx="15" ry="25" fill="#FF8C00" opacity="0.8"/>
+  
+  <!-- Main 甘 character structure -->
+  <rect x="180" y="200" width="140" height="12" fill="#8B4513" rx="6"/>
+  <rect x="180" y="280" width="140" height="12" fill="#8B4513" rx="6"/>
+  <rect x="240" y="180" width="12" height="140" fill="#8B4513" rx="6"/>
+  
+  <!-- Sugar crystals -->
+  <polygon points="120,350 130,340 140,350 130,360" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  <polygon points="140,380 150,370 160,380 150,390" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  <polygon points="350,340 360,330 370,340 360,350" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  <polygon points="370,370 380,360 390,370 380,380" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Sweet fruits (strawberry, cherry) -->
+  <ellipse cx="120" cy="280" rx="18" ry="20" fill="#DC143C"/>
+  <path d="M 115 268 Q 120 265 125 268" stroke="#32CD32" stroke-width="3" fill="none"/>
+  
+  <circle cx="380" cy="260" r="12" fill="#FF1493"/>
+  <path d="M 385 248 Q 388 245 392 248" stroke="#32CD32" stroke-width="2" fill="none"/>
+  
+  <!-- Candy elements -->
+  <rect x="100" y="400" width="30" height="20" fill="#FF69B4" rx="10"/>
+  <rect x="370" y="410" width="25" height="15" fill="#00CED1" rx="7"/>
+  
+  <!-- Sweet aroma lines -->
+  <path d="M 200 140 Q 210 130 220 140" stroke="#FFD700" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 280 110 Q 290 100 300 110" stroke="#FFD700" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 240 90 Q 250 80 260 90" stroke="#FFD700" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="180" r="3" fill="#FFD700"/>
+  <circle cx="350" cy="200" r="3" fill="#FFD700"/>
+  <circle cx="180" cy="400" r="3" fill="#FFD700"/>
+  <circle cx="320" cy="420" r="3" fill="#FFD700"/>
+</svg>

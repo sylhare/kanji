@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#e6f2ff"/>
+  
+  <!-- Main cliff face -->
+  <polygon points="100,450 100,100 200,80 300,120 350,200 380,450" fill="#696969"/>
+  <polygon points="105,450 105,110 195,90 295,130 345,210 375,450" fill="#778899"/>
+  <polygon points="110,450 110,120 190,100 290,140 340,220 370,450" fill="#A9A9A9"/>
+  
+  <!-- Cliff rock layers -->
+  <line x1="100" y1="150" x2="380" y2="180" stroke="#2F4F4F" stroke-width="3"/>
+  <line x1="100" y1="200" x2="380" y2="230" stroke="#2F4F4F" stroke-width="3"/>
+  <line x1="100" y1="250" x2="380" y2="280" stroke="#2F4F4F" stroke-width="3"/>
+  <line x1="100" y1="300" x2="380" y2="330" stroke="#2F4F4F" stroke-width="3"/>
+  <line x1="100" y1="350" x2="380" y2="380" stroke="#2F4F4F" stroke-width="3"/>
+  
+  <!-- Rock cracks and fissures -->
+  <path d="M 150 120 Q 160 200 140 280 Q 155 350 160 420" stroke="#2F4F4F" stroke-width="2" fill="none"/>
+  <path d="M 250 130 Q 240 220 260 310 Q 245 380 250 440" stroke="#2F4F4F" stroke-width="2" fill="none"/>
+  <path d="M 320 160 Q 310 240 330 320 Q 315 390 320 450" stroke="#2F4F4F" stroke-width="2" fill="none"/>
+  
+  <!-- Rocky outcroppings -->
+  <polygon points="180,200 200,180 220,200 210,220" fill="#8B4513"/>
+  <polygon points="270,250 290,230 310,250 300,270" fill="#8B4513"/>
+  <polygon points="320,300 340,280 360,300 350,320" fill="#8B4513"/>
+  
+  <!-- Cliff overhang -->
+  <path d="M 350 200 Q 380 180 420 200 Q 450 220 480 200 L 480 250 Q 450 260 420 250 Q 380 240 350 250 Z" fill="#696969"/>
+  <path d="M 355 205 Q 380 190 415 205 Q 445 225 475 205 L 475 245 Q 445 255 415 245 Q 380 235 355 245 Z" fill="#778899"/>
+  
+  <!-- Sea/water at cliff base -->
+  <ellipse cx="250" cy="480" rx="300" ry="30" fill="#4169E1"/>
+  <ellipse cx="250" cy="475" rx="290" ry="25" fill="#6495ED"/>
+  <ellipse cx="250" cy="470" rx="280" ry="20" fill="#87CEEB"/>
+  
+  <!-- Waves crashing against cliff -->
+  <path d="M 80 460 Q 90 450 100 460 Q 110 470 120 460" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+  <path d="M 70 470 Q 80 460 90 470 Q 100 480 110 470" stroke="#FFFFFF" stroke-width="3" fill="none"/>
+  <circle cx="85" cy="465" r="3" fill="#FFFFFF"/>
+  <circle cx="105" cy="475" r="2" fill="#F0F8FF"/>
+  
+  <!-- Seabirds around cliff -->
+  <path d="M 200 150 Q 205 145 210 150" stroke="#000000" stroke-width="2" fill="none"/>
+  <path d="M 195 150 Q 200 145 205 150" stroke="#000000" stroke-width="2" fill="none"/>
+  
+  <path d="M 350 120 Q 355 115 360 120" stroke="#000000" stroke-width="2" fill="none"/>
+  <path d="M 345 120 Q 350 115 355 120" stroke="#000000" stroke-width="2" fill="none"/>
+  
+  <path d="M 450 250 Q 455 245 460 250" stroke="#000000" stroke-width="2" fill="none"/>
+  <path d="M 445 250 Q 450 245 455 250" stroke="#000000" stroke-width="2" fill="none"/>
+  
+  <!-- Vegetation on cliff -->
+  <circle cx="140" cy="180" r="8" fill="#228B22"/>
+  <circle cx="140" cy="178" r="6" fill="#32CD32"/>
+  
+  <circle cx="230" cy="200" r="6" fill="#228B22"/>
+  <circle cx="230" cy="198" r="4" fill="#32CD32"/>
+  
+  <circle cx="310" cy="250" r="10" fill="#228B22"/>
+  <circle cx="310" cy="248" r="8" fill="#32CD32"/>
+  
+  <!-- Rock fall/scree -->
+  <circle cx="130" cy="400" r="4" fill="#8B4513"/>
+  <circle cx="145" cy="420" r="3" fill="#A0522D"/>
+  <circle cx="160" cy="435" r="5" fill="#8B4513"/>
+  <circle cx="175" cy="440" r="2" fill="#A0522D"/>
+  
+  <!-- Lighthouse on cliff top -->
+  <rect x="350" y="80" width="15" height="60" fill="#DC143C"/>
+  <rect x="352" y="82" width="11" height="56" fill="#FF6347"/>
+  <ellipse cx="357" cy="80" rx="10" ry="5" fill="#FFD700"/>
+  
+  <!-- Light beam from lighthouse -->
+  <polygon points="357,75 320,150 394,150" fill="#FFFF99" opacity="0.5"/>
+  <polygon points="357,75 300,180 414,180" fill="#FFFFE0" opacity="0.3"/>
+  
+  <!-- Cliff climber -->
+  <circle cx="280" cy="300" r="5" fill="#FDBCB4"/>
+  <ellipse cx="280" cy="315" rx="3" ry="8" fill="#FF6B6B"/>
+  <line x1="277" y1="305" x2="290" y2="295" stroke="#8B4513" stroke-width="2"/>
+  <line x1="283" y1="310" x2="295" y2="300" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Climbing rope -->
+  <path d="M 290 100 Q 285 200 280 300" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <!-- Steep angle indicators -->
+  <line x1="50" y1="450" x2="100" y2="100" stroke="#FF0000" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="60" y="280" font-family="Arial" font-size="12" fill="#FF0000" transform="rotate(-75 60 280)">STEEP</text>
+  
+  <!-- Weathering effects -->
+  <polygon points="170,150 175,155 180,150 175,145" fill="#DDD"/>
+  <polygon points="260,180 265,185 270,180 265,175" fill="#DDD"/>
+  <polygon points="340,230 345,235 350,230 345,225" fill="#DDD"/>
+  
+  <!-- Mountain/cliff background -->
+  <polygon points="400,450 450,300 500,450" fill="#8B8682" opacity="0.6"/>
+  <polygon points="420,450 470,250 500,350" fill="#A9A9A9" opacity="0.4"/>
+  
+  <!-- Clouds around cliff peaks -->
+  <ellipse cx="200" cy="90" rx="30" ry="15" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="220" cy="95" rx="25" ry="12" fill="#F0F8FF" opacity="0.7"/>
+  <ellipse cx="350" cy="80" rx="35" ry="18" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Traditional cliff symbol -->
+  <circle cx="50" cy="50" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <polygon points="35,60 50,30 65,60" fill="#8B0000"/>
+  <line x1="35" y1="60" x2="65" y2="60" stroke="#8B0000" stroke-width="3"/>
+</svg> 

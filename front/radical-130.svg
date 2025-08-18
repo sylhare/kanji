@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#FDF5E6"/>
+  
+  <!-- Main meat cut -->
+  <path d="M 150 200 Q 200 180 280 200 Q 350 220 320 280 Q 300 350 250 360 Q 200 350 180 320 Q 150 280 150 200 Z" 
+        fill="#DC143C" stroke="#B22222" stroke-width="3"/>
+  
+  <!-- Fat marbling -->
+  <path d="M 180 220 Q 220 210 260 220 Q 280 230 270 250 Q 250 260 220 250 Q 200 240 180 220 Z" 
+        fill="#F5F5DC" opacity="0.8"/>
+  <path d="M 200 300 Q 230 290 270 300 Q 290 310 280 330 Q 260 340 230 330 Q 210 320 200 300 Z" 
+        fill="#F5F5DC" opacity="0.8"/>
+  
+  <!-- Muscle fibers -->
+  <path d="M 170 240 L 290 260" stroke="#B22222" stroke-width="2" opacity="0.7"/>
+  <path d="M 180 270 L 300 290" stroke="#B22222" stroke-width="2" opacity="0.7"/>
+  <path d="M 190 300 L 310 320" stroke="#B22222" stroke-width="2" opacity="0.7"/>
+  <path d="M 200 330 L 300 340" stroke="#B22222" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Secondary meat pieces -->
+  <ellipse cx="120" cy="320" rx="35" ry="25" fill="#DC143C"/>
+  <ellipse cx="380" cy="280" rx="30" ry="20" fill="#DC143C"/>
+  
+  <!-- Meat juices -->
+  <circle cx="210" cy="340" r="3" fill="#8B0000"/>
+  <circle cx="280" cy="320" r="2" fill="#8B0000"/>
+  <circle cx="240" cy="360" r="2" fill="#8B0000"/>
+  <circle cx="190" cy="380" r="2" fill="#8B0000"/>
+  
+  <!-- Additional texture -->
+  <path d="M 160 350 Q 180 360 200 350" stroke="#8B0000" stroke-width="1" fill="none"/>
+  <path d="M 280 350 Q 300 360 320 350" stroke="#8B0000" stroke-width="1" fill="none"/>
+  
+  <!-- Butcher elements -->
+  <rect x="50" y="150" width="80" height="8" fill="#8B4513" rx="4"/>
+  <rect x="86" y="140" width="8" height="30" fill="#A0522D"/>
+  
+  <!-- Cutting board -->
+  <rect x="350" y="400" width="120" height="15" fill="#DEB887" rx="7"/>
+  <rect x="350" y="380" width="120" height="15" fill="#D2B48C" rx="7"/>
+</svg>

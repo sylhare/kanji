@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#87CEEB"/>
+  
+  <!-- Main mountain -->
+  <polygon points="250,50 150,450 350,450" fill="#696969"/>
+  <polygon points="250,60 160,450 340,450" fill="#778899"/>
+  <polygon points="250,70 170,450 330,450" fill="#A9A9A9"/>
+  
+  <!-- Snow cap on main peak -->
+  <polygon points="250,50 200,200 300,200" fill="#FFFFFF"/>
+  <polygon points="250,60 210,200 290,200" fill="#F0F8FF"/>
+  <polygon points="250,70 220,200 280,200" fill="#FFFAFA"/>
+  
+  <!-- Left mountain -->
+  <polygon points="100,150 50,450 200,450" fill="#696969"/>
+  <polygon points="100,160 60,450 190,450" fill="#778899"/>
+  
+  <!-- Snow on left peak -->
+  <polygon points="100,150 80,250 120,250" fill="#FFFFFF"/>
+  <polygon points="100,160 85,250 115,250" fill="#F0F8FF"/>
+  
+  <!-- Right mountain -->
+  <polygon points="400,120 300,450 500,450" fill="#696969"/>
+  <polygon points="400,130 310,450 490,450" fill="#778899"/>
+  
+  <!-- Snow on right peak -->
+  <polygon points="400,120 370,220 430,220" fill="#FFFFFF"/>
+  <polygon points="400,130 375,220 425,220" fill="#F0F8FF"/>
+  
+  <!-- Mountain ridges and textures -->
+  <path d="M 150 300 Q 200 280 250 300 Q 300 320 350 300" stroke="#2F4F4F" stroke-width="3" fill="none"/>
+  <path d="M 50 350 Q 100 330 150 350 Q 200 370 250 350" stroke="#2F4F4F" stroke-width="3" fill="none"/>
+  <path d="M 250 350 Q 300 330 350 350 Q 400 370 450 350" stroke="#2F4F4F" stroke-width="3" fill="none"/>
+  
+  <!-- Rock faces and cliffs -->
+  <polygon points="180,350 200,300 220,350" fill="#8B4513"/>
+  <polygon points="280,380 300,330 320,380" fill="#8B4513"/>
+  <polygon points="380,400 400,350 420,400" fill="#8B4513"/>
+  
+  <!-- Forest at mountain base -->
+  <rect x="80" y="400" width="6" height="50" fill="#8B4513"/>
+  <circle cx="83" cy="395" r="12" fill="#228B22"/>
+  <circle cx="83" cy="390" r="10" fill="#32CD32"/>
+  
+  <rect x="120" y="410" width="8" height="40" fill="#8B4513"/>
+  <circle cx="124" cy="405" r="15" fill="#228B22"/>
+  <circle cx="124" cy="400" r="12" fill="#32CD32"/>
+  
+  <rect x="160" y="405" width="6" height="45" fill="#8B4513"/>
+  <circle cx="163" cy="400" r="10" fill="#228B22"/>
+  <circle cx="163" cy="395" r="8" fill="#32CD32"/>
+  
+  <rect x="340" y="410" width="8" height="40" fill="#8B4513"/>
+  <circle cx="344" cy="405" r="14" fill="#228B22"/>
+  <circle cx="344" cy="400" r="11" fill="#32CD32"/>
+  
+  <rect x="380" y="415" width="6" height="35" fill="#8B4513"/>
+  <circle cx="383" cy="410" r="12" fill="#228B22"/>
+  <circle cx="383" cy="405" r="9" fill="#32CD32"/>
+  
+  <rect x="420" y="420" width="7" height="30" fill="#8B4513"/>
+  <circle cx="423" cy="415" r="10" fill="#228B22"/>
+  <circle cx="423" cy="410" r="7" fill="#32CD32"/>
+  
+  <!-- Alpine lake -->
+  <ellipse cx="200" cy="380" rx="40" ry="20" fill="#4169E1"/>
+  <ellipse cx="200" cy="375" rx="35" ry="15" fill="#6495ED"/>
+  <ellipse cx="200" cy="370" rx="30" ry="10" fill="#87CEEB"/>
+  
+  <!-- Lake reflection -->
+  <polygon points="150,380 250,350 250,400 150,400" fill="#4169E1" opacity="0.3"/>
+  
+  <!-- Mountain eagles -->
+  <path d="M 180 120 Q 185 115 190 120" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 175 120 Q 180 115 185 120" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <path d="M 350 100 Q 355 95 360 100" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 345 100 Q 350 95 355 100" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <!-- Clouds around peaks -->
+  <ellipse cx="120" cy="180" rx="30" ry="15" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="140" cy="185" rx="25" ry="12" fill="#F0F8FF" opacity="0.7"/>
+  
+  <ellipse cx="320" cy="160" rx="35" ry="18" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="340" cy="165" rx="28" ry="15" fill="#F0F8FF" opacity="0.7"/>
+  
+  <!-- Mountain climber -->
+  <circle cx="280" cy="250" r="4" fill="#FDBCB4"/>
+  <ellipse cx="280" cy="260" rx="3" ry="6" fill="#FF6B6B"/>
+  <line x1="275" y1="255" x2="285" y2="245" stroke="#8B4513" stroke-width="1"/>
+  
+  <!-- Climbing rope -->
+  <path d="M 285 200 Q 282 225 280 250" stroke="#8B4513" stroke-width="1" fill="none"/>
+  
+  <!-- Avalanche warning -->
+  <polygon points="300,180 320,170 320,190" fill="#FFFF00"/>
+  <text x="325" y="185" font-family="Arial" font-size="8" fill="#000">!</text>
+  
+  <!-- Mountain elevation marker -->
+  <rect x="245" y="45" width="10" height="20" fill="#8B4513"/>
+  <text x="250" y="40" text-anchor="middle" font-family="Arial" font-size="10" fill="#000">2847m</text>
+  
+  <!-- Mountain paths/trails -->
+  <path d="M 100 400 Q 150 350 200 380 Q 250 360 300 390 Q 350 370 400 400" stroke="#8B4513" stroke-width="3" fill="none" opacity="0.7"/>
+  
+  <!-- Rocky scree -->
+  <circle cx="120" cy="350" r="3" fill="#A9A9A9"/>
+  <circle cx="140" cy="360" r="4" fill="#8B4513"/>
+  <circle cx="160" cy="340" r="2" fill="#A9A9A9"/>
+  <circle cx="320" cy="370" r="5" fill="#8B4513"/>
+  <circle cx="340" cy="380" r="3" fill="#A9A9A9"/>
+  <circle cx="360" cy="360" r="4" fill="#8B4513"/>
+  
+  <!-- Sunset/sunrise behind mountains -->
+  <circle cx="450" cy="80" r="30" fill="#FFD700"/>
+  <circle cx="450" cy="80" r="25" fill="#FFA500"/>
+  <circle cx="450" cy="80" r="20" fill="#FF6B35"/>
+  
+  <!-- Sun rays -->
+  <line x1="420" y1="60" x2="405" y2="45" stroke="#FFD700" stroke-width="2"/>
+  <line x1="430" y1="50" x2="425" y2="30" stroke="#FFD700" stroke-width="2"/>
+  <line x1="470" y1="50" x2="475" y2="30" stroke="#FFD700" stroke-width="2"/>
+  <line x1="480" y1="60" x2="495" y2="45" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Traditional mountain symbol -->
+  <circle cx="50" cy="50" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <polygon points="50,35 40,55 60,55" fill="#8B0000"/>
+  <polygon points="50,35 45,50 55,50" fill="#FFFFFF"/>
+</svg> 

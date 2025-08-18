@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#FFE4E1"/>
+  <rect x="200" y="200" width="100" height="15" fill="#DC143C"/><rect x="245" y="180" width="10" height="60" fill="#DC143C"/><polygon points="150,250 350,250 340,270 160,270" fill="#8B0000"/><ellipse cx="180" cy="300" rx="20" ry="30" fill="#DEB887"/><ellipse cx="320" cy="300" rx="20" ry="30" fill="#DEB887"/>
+</svg>
