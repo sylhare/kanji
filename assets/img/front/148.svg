@@ -1,0 +1,50 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hornGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5DEB3"/>
+      <stop offset="30%" stop-color="#DEB887"/>
+      <stop offset="60%" stop-color="#D2691E"/>
+      <stop offset="100%" stop-color="#8B4513"/>
+    </linearGradient>
+    <radialGradient id="baseGradient" cx="0.5" cy="0.8" r="0.6">
+      <stop offset="0%" stop-color="#CD853F"/>
+      <stop offset="60%" stop-color="#A0522D"/>
+      <stop offset="100%" stop-color="#654321"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#E6F3FF"/>
+  
+  <!-- Horn base -->
+  <ellipse cx="200" cy="350" rx="60" ry="25" fill="url(#baseGradient)"/>
+  
+  <!-- Main horn -->
+  <path d="M140 350 Q180 280 190 200 Q195 120 200 50 Q205 120 210 200 Q220 280 260 350 Z" 
+    fill="url(#hornGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Horn ridges -->
+  <path d="M155 320 Q185 290 195 260" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M160 300 Q185 275 192 250" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M165 280 Q185 260 190 240" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M170 260 Q185 245 188 230" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <path d="M245 320 Q215 290 205 260" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M240 300 Q215 275 208 250" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M235 280 Q215 260 210 240" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M230 260 Q215 245 212 230" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <!-- Horn tip glow -->
+  <circle cx="200" cy="50" r="8" fill="#FFD700" opacity="0.8"/>
+  <circle cx="200" cy="50" r="4" fill="#FFF" opacity="0.6"/>
+  
+  <!-- Corner angle lines -->
+  <path d="M100 100 L150 50 L200 100" stroke="#FF6347" stroke-width="4" fill="none"/>
+  <path d="M300 300 L350 250 L400 300" stroke="#FF6347" stroke-width="4" fill="none"/>
+  
+  <!-- Decorative spiral -->
+  <path d="M320 120 Q340 100 360 120 Q340 140 320 120" stroke="#32CD32" stroke-width="3" fill="none"/>
+  <path d="M80 280 Q60 260 40 280 Q60 300 80 280" stroke="#32CD32" stroke-width="3" fill="none"/>
+  
+  <!-- Small stars around horn tip -->
+  <path d="M180 40 L185 30 L190 40 L185 50 Z" fill="#FFD700"/>
+  <path d="M220 40 L225 30 L230 40 L225 50 Z" fill="#FFD700"/>
+</svg> 

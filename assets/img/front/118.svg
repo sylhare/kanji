@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad118" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bambooGrad118" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#81c784;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#66bb6a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4caf50;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad118)"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="450" width="500" height="50" fill="#8d6e63" opacity="0.3"/>
+  
+  <!-- Main bamboo stalks -->
+  <!-- Left bamboo -->
+  <rect x="180" y="150" width="20" height="350" fill="url(#bambooGrad118)"/>
+  
+  <!-- Center bamboo -->
+  <rect x="240" y="120" width="20" height="380" fill="url(#bambooGrad118)"/>
+  
+  <!-- Right bamboo -->
+  <rect x="300" y="140" width="20" height="360" fill="url(#bambooGrad118)"/>
+  
+  <!-- Bamboo segments (nodes) -->
+  <g fill="#2e7d32">
+  <!-- Left bamboo nodes -->
+  <rect x="175" y="200" width="30" height="6" rx="3"/>
+  <rect x="175" y="280" width="30" height="6" rx="3"/>
+  <rect x="175" y="360" width="30" height="6" rx="3"/>
+  
+  <!-- Center bamboo nodes -->
+  <rect x="235" y="180" width="30" height="6" rx="3"/>
+  <rect x="235" y="260" width="30" height="6" rx="3"/>
+  <rect x="235" y="340" width="30" height="6" rx="3"/>
+  <rect x="235" y="420" width="30" height="6" rx="3"/>
+  
+  <!-- Right bamboo nodes -->
+  <rect x="295" y="190" width="30" height="6" rx="3"/>
+  <rect x="295" y="270" width="30" height="6" rx="3"/>
+  <rect x="295" y="350" width="30" height="6" rx="3"/>
+  <rect x="295" y="430" width="30" height="6" rx="3"/>
+  
+  <!-- Main radical shape 竹 (bamboo) -->
+  <!-- Left bamboo representation -->
+  <path d="M160 160 L160 200" 
+      stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M160 220 L160 260" 
+      stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right bamboo representation -->
+  <path d="M340 160 L340 200" 
+      stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M340 220 L340 260" 
+      stroke="#2e7d32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bamboo leaves -->
+  <g fill="#4caf50" opacity="0.8">
+  <!-- Left leaves -->
+  <ellipse cx="150" cy="170" rx="20" ry="8" transform="rotate(-30 150 170)"/>
+  <ellipse cx="130" cy="190" rx="18" ry="6" transform="rotate(-45 130 190)"/>
+  
+  <!-- Center leaves -->
+  <ellipse cx="250" cy="130" rx="22" ry="10" transform="rotate(0 250 130)"/>
+  <ellipse cx="270" cy="150" rx="20" ry="8" transform="rotate(30 270 150)"/>
+  
+  <!-- Right leaves -->
+  <ellipse cx="350" cy="160" rx="20" ry="8" transform="rotate(30 350 160)"/>
+  <ellipse cx="370" cy="180" rx="18" ry="6" transform="rotate(45 370 180)"/>
+  
+    <!-- Wind effect on bamboo -->
+    <g stroke="#81c784" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M160 150 Q170 140 180 150"/>
+    <path d="M320 140 Q330 130 340 140"/>
+    <path d="M180 170 Q190 160 200 170"/>
+    </g>
+  
+    <!-- Bamboo shoots emerging -->
+    <g fill="#66bb6a" opacity="0.7">
+    <ellipse cx="120" cy="460" rx="8" ry="15"/>
+    <ellipse cx="380" cy="470" rx="6" ry="12"/>
+    </g>
+  
+    <!-- Traditional bamboo fence -->
+    <g transform="translate(400,300)" opacity="0.4">
+    <rect x="0" y="0" width="8" height="100" fill="#8d6e63"/>
+    <rect x="15" y="0" width="8" height="100" fill="#8d6e63"/>
+    <rect x="30" y="0" width="8" height="100" fill="#8d6e63"/>
+    <!-- Horizontal ties -->
+    <rect x="-5" y="20" width="50" height="3" fill="#6d4c41"/>
+    <rect x="-5" y="50" width="50" height="3" fill="#6d4c41"/>
+    <rect x="-5" y="80" width="50" height="3" fill="#6d4c41"/>
+    </g>
+  
+    <!-- Bamboo texture lines -->
+    <g stroke="#388e3c" stroke-width="1" opacity="0.3">
+    <line x1="185" y1="160" x2="185" y2="490"/>
+    <line x1="195" y1="160" x2="195" y2="490"/>
+    <line x1="245" y1="130" x2="245" y2="490"/>
+    <line x1="255" y1="130" x2="255" y2="490"/>
+    <line x1="305" y1="150" x2="305" y2="490"/>
+    <line x1="315" y1="150" x2="315" y2="490"/>
+    </g>
+  
+    <!-- Kanji character 竹 -->
+    
+    </g>
+  </g>
+</svg> 

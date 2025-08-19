@@ -1,0 +1,118 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="carGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FF6347"/>
+      <stop offset="50%" stop-color="#DC143C"/>
+      <stop offset="100%" stop-color="#8B0000"/>
+    </radialGradient>
+    <radialGradient id="wheelGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#2F2F2F"/>
+      <stop offset="70%" stop-color="#000"/>
+      <stop offset="100%" stop-color="#696969"/>
+    </radialGradient>
+    <radialGradient id="rimGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#C0C0C0"/>
+      <stop offset="50%" stop-color="#A9A9A9"/>
+      <stop offset="100%" stop-color="#696969"/>
+    </radialGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="#87CEEB"/>
+  
+  <!-- Road -->
+  <ellipse cx="200" cy="380" rx="200" ry="30" fill="#2F2F2F"/>
+  <path d="M0 380 Q100 375 200 380 Q300 385 400 380" stroke="#FFD700" stroke-width="4" stroke-dasharray="20,10"/>
+  
+  <!-- Car body -->
+  <ellipse cx="200" cy="250" rx="120" ry="40" fill="url(#carGradient)" stroke="#8B0000" stroke-width="3"/>
+  
+  <!-- Car roof -->
+  <ellipse cx="200" cy="200" rx="80" ry="30" fill="url(#carGradient)" stroke="#8B0000" stroke-width="3"/>
+  
+  <!-- Windshield -->
+  <ellipse cx="200" cy="190" rx="70" ry="25" fill="#87CEEB" stroke="#4169E1" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Side windows -->
+  <ellipse cx="160" cy="200" rx="25" ry="20" fill="#87CEEB" stroke="#4169E1" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="240" cy="200" rx="25" ry="20" fill="#87CEEB" stroke="#4169E1" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Front and rear windows -->
+  <ellipse cx="120" cy="250" rx="15" ry="25" fill="#87CEEB" stroke="#4169E1" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="280" cy="250" rx="15" ry="25" fill="#87CEEB" stroke="#4169E1" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Headlights -->
+  <circle cx="100" cy="240" r="12" fill="#FFFF00" stroke="#FFD700" stroke-width="2"/>
+  <circle cx="100" cy="260" r="12" fill="#FFFF00" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Taillights -->
+  <circle cx="300" cy="240" r="10" fill="#FF0000" stroke="#8B0000" stroke-width="2"/>
+  <circle cx="300" cy="260" r="10" fill="#FF0000" stroke="#8B0000" stroke-width="2"/>
+  
+  <!-- Wheels -->
+  <!-- Front wheel -->
+  <circle cx="130" cy="320" r="45" fill="url(#wheelGradient)" stroke="#000" stroke-width="3"/>
+  <circle cx="130" cy="320" r="35" fill="url(#rimGradient)" stroke="#A9A9A9" stroke-width="2"/>
+  <circle cx="130" cy="320" r="15" fill="#2F2F2F"/>
+  
+  <!-- Wheel spokes -->
+  <path d="M130 285 L130 355" stroke="#A9A9A9" stroke-width="3"/>
+  <path d="M95 320 L165 320" stroke="#A9A9A9" stroke-width="3"/>
+  <path d="M105 295 L155 345" stroke="#A9A9A9" stroke-width="3"/>
+  <path d="M155 295 L105 345" stroke="#A9A9A9" stroke-width="3"/>
+  
+  <!-- Rear wheel -->
+  <circle cx="270" cy="320" r="45" fill="url(#wheelGradient)" stroke="#000" stroke-width="3"/>
+  <circle cx="270" cy="320" r="35" fill="url(#rimGradient)" stroke="#A9A9A9" stroke-width="2"/>
+  <circle cx="270" cy="320" r="15" fill="#2F2F2F"/>
+  
+  <!-- Wheel spokes -->
+  <path d="M270 285 L270 355" stroke="#A9A9A9" stroke-width="3"/>
+  <path d="M235 320 L305 320" stroke="#A9A9A9" stroke-width="3"/>
+  <path d="M245 295 L295 345" stroke="#A9A9A9" stroke-width="3"/>
+  <path d="M295 295 L245 345" stroke="#A9A9A9" stroke-width="3"/>
+  
+  <!-- Car details -->
+  <!-- Door handles -->
+  <circle cx="180" cy="240" r="3" fill="#FFD700"/>
+  <circle cx="220" cy="240" r="3" fill="#FFD700"/>
+  
+  <!-- Grille -->
+  <rect x="95" y="235" width="10" height="30" fill="#2F2F2F" stroke="#000" stroke-width="1"/>
+  <path d="M100 240 L100 260 M102 242 L102 258 M104 244 L104 256" stroke="#C0C0C0" stroke-width="1"/>
+  
+  <!-- Bumper -->
+  <ellipse cx="200" cy="280" rx="100" ry="8" fill="#C0C0C0" stroke="#A9A9A9" stroke-width="2"/>
+  
+  <!-- Side mirrors -->
+  <ellipse cx="140" cy="210" rx="8" ry="5" fill="#C0C0C0" stroke="#A9A9A9" stroke-width="1"/>
+  <ellipse cx="260" cy="210" rx="8" ry="5" fill="#C0C0C0" stroke="#A9A9A9" stroke-width="1"/>
+  
+  <!-- Antenna -->
+  <path d="M220 170 L225 150" stroke="#2F2F2F" stroke-width="2"/>
+  <circle cx="225" cy="150" r="2" fill="#FF0000"/>
+  
+  <!-- Motion lines -->
+  <path d="M50 200 L90 195" stroke="#FFD700" stroke-width="3" opacity="0.6"/>
+  <path d="M40 230 L80 225" stroke="#FFD700" stroke-width="3" opacity="0.6"/>
+  <path d="M45 260 L85 255" stroke="#FFD700" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Exhaust smoke -->
+  <circle cx="320" cy="290" r="8" fill="#696969" opacity="0.4"/>
+  <circle cx="330" cy="285" r="6" fill="#696969" opacity="0.3"/>
+  <circle cx="340" cy="280" r="10" fill="#696969" opacity="0.2"/>
+  
+  <!-- Background elements -->
+  <!-- Sun -->
+  <circle cx="350" cy="70" r="30" fill="#FFD700" opacity="0.8"/>
+  
+  <!-- Clouds -->
+  <circle cx="100" cy="60" r="20" fill="#FFF" opacity="0.7"/>
+  <circle cx="120" cy="55" r="25" fill="#FFF" opacity="0.7"/>
+  <circle cx="140" cy="60" r="18" fill="#FFF" opacity="0.7"/>
+  
+  <!-- Trees in background -->
+  <circle cx="50" cy="150" r="25" fill="#228B22" opacity="0.5"/>
+  <rect x="47" y="150" width="6" height="40" fill="#8B4513" opacity="0.5"/>
+  
+  <circle cx="370" cy="140" r="20" fill="#32CD32" opacity="0.4"/>
+  <rect x="367" y="140" width="6" height="35" fill="#8B4513" opacity="0.4"/>
+</svg> 

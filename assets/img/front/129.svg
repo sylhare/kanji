@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad129" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fafafa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f5f5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brushGrad129" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#424242;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad129)"/>
+  
+  <!-- Rice paper/scroll -->
+  <rect x="50" y="100" width="400" height="350" rx="10" fill="#fff8e1" stroke="#d7ccc8" stroke-width="2" opacity="0.9"/>
+  
+  <!-- Large calligraphy brush -->
+  <g transform="translate(250,300)">
+  <!-- Brush handle -->
+  <rect x="-6" y="-100" width="12" height="120" fill="url(#brushGrad129)" rx="6"/>
+  
+  <!-- Metal ferrule -->
+  <rect x="-8" y="20" width="16" height="15" fill="#9e9e9e"/>
+  
+  <!-- Brush hair -->
+  <path d="M-8 35 Q0 60 0 80 Q0 60 8 35" fill="#424242"/>
+  <path d="M-6 35 Q0 55 0 75 Q0 55 6 35" fill="#212121"/>
+  
+  <!-- Brush tip -->
+  <ellipse cx="0" cy="80" rx="2" ry="5" fill="#212121"/>
+  
+  <!-- Main radical shape 聿 (brush) -->
+  <!-- Top horizontal stroke -->
+  <path d="M200 150 L300 150" 
+      stroke="#424242" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Vertical strokes -->
+  <path d="M220 150 L220 220" 
+      stroke="#424242" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M250 150 L250 240" 
+      stroke="#424242" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M280 150 L280 220" 
+      stroke="#424242" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Middle horizontal stroke -->
+  <path d="M210 190 L290 190" 
+      stroke="#424242" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom strokes -->
+  <path d="M220 220 L240 240" 
+      stroke="#424242" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M260 240 L280 220" 
+      stroke="#424242" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Ink strokes on paper -->
+  <g stroke="#212121" stroke-width="3" fill="none" opacity="0.7">
+  <!-- Character strokes -->
+  <path d="M120 200 L180 200"/>
+  <path d="M150 180 L150 220"/>
+  <path d="M130 220 L170 220"/>
+  
+  <!-- Another character -->
+  <path d="M320 250 Q340 230 360 250"/>
+  <path d="M330 230 L330 270"/>
+  <path d="M350 230 L350 270"/>
+  
+    <!-- Ink droplets -->
+    <g fill="#212121" opacity="0.6">
+    <circle cx="200" cy="350" r="3"/>
+    <circle cx="280" cy="380" r="2"/>
+    <circle cx="320" cy="360" r="2"/>
+    </g>
+  
+    <!-- Ink stone -->
+    <g transform="translate(120,400)" opacity="0.8">
+    <ellipse cx="0" cy="0" rx="30" ry="20" fill="#424242"/>
+    <ellipse cx="0" cy="-5" rx="25" ry="15" fill="#616161"/>
+    <!-- Ink well -->
+    <ellipse cx="0" cy="-5" rx="10" ry="8" fill="#212121"/>
+    </g>
+  
+    <!-- Ink stick -->
+    <g transform="translate(80,350)" opacity="0.7">
+    <rect x="0" y="0" width="30" height="8" rx="4" fill="#212121"/>
+    <rect x="2" y="1" width="26" height="6" rx="3" fill="#424242"/>
+    </g>
+  
+    <!-- Scroll with writing -->
+    <g transform="translate(380,350)" opacity="0.8">
+    <ellipse cx="0" cy="0" rx="15" ry="40" fill="#fff8e1" stroke="#d7ccc8" stroke-width="1"/>
+    <!-- Text lines -->
+    <g stroke="#424242" stroke-width="1">
+      <line x1="-8" y1="-20" x2="8" y2="-20"/>
+      <line x1="-8" y1="-10" x2="8" y2="-10"/>
+      <line x1="-8" y1="0" x2="8" y2="0"/>
+      <line x1="-8" y1="10" x2="8" y2="10"/>
+      <line x1="-8" y1="20" x2="8" y2="20"/>
+    </g>
+    </g>
+  
+    <!-- Calligrapher -->
+    <g transform="translate(100,250)" opacity="0.6">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="12" fill="#ffdbcb"/>
+    <!-- Body -->
+    <rect x="-8" y="12" width="16" height="30" fill="#5d4037"/>
+    <!-- Arm holding brush -->
+    <ellipse cx="15" cy="20" rx="5" ry="12" fill="#ffdbcb" transform="rotate(30)"/>
+    <!-- Small brush -->
+    <rect x="22" y="15" width="2" height="15" fill="#8d6e63"/>
+    <ellipse cx="23" cy="32" rx="1" ry="3" fill="#424242"/>
+    </g>
+  
+    <!-- Paint palette -->
+    <g transform="translate(400,180)" opacity="0.7">
+    <ellipse cx="0" cy="0" rx="25" ry="15" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1"/>
+    <!-- Paint dabs -->
+    <circle cx="-10" cy="-5" r="3" fill="#f44336"/>
+    <circle cx="0" cy="-8" r="3" fill="#2196f3"/>
+    <circle cx="10" cy="-5" r="3" fill="#ffeb3b"/>
+    <circle cx="-5" cy="5" r="3" fill="#4caf50"/>
+    <circle cx="5" cy="5" r="3" fill="#9c27b0"/>
+    </g>
+  
+    <!-- Bamboo brush holder -->
+    <g transform="translate(80,200)" opacity="0.5">
+    <rect x="0" y="0" width="15" height="60" fill="#8bc34a" stroke="#689f38" stroke-width="1"/>
+    <!-- Bamboo segments -->
+    <line x1="0" y1="20" x2="15" y2="20" stroke="#689f38" stroke-width="1"/>
+    <line x1="0" y1="40" x2="15" y2="40" stroke="#689f38" stroke-width="1"/>
+    <!-- Brushes inside -->
+    <rect x="3" y="5" width="2" height="50" fill="#8d6e63"/>
+    <rect x="7" y="8" width="2" height="47" fill="#8d6e63"/>
+    <rect x="11" y="6" width="2" height="49" fill="#8d6e63"/>
+    </g>
+  
+    <!-- Ink flowing -->
+    <path d="M250 380 Q270 390 290 380 Q310 370 330 380" 
+        stroke="#212121" stroke-width="2" opacity="0.4" fill="none"/>
+  
+    <!-- Seal stamp -->
+    <g transform="translate(400,300)" opacity="0.6">
+    <rect x="0" y="0" width="20" height="20" fill="#d32f2f"/>
+    <rect x="2" y="2" width="16" height="16" fill="#f44336"/>
+    <!-- Seal characters -->
+    
+    </g>
+  
+    <!-- Kanji character 聿 -->
+    
+    </g>
+  </g>
+</svg> 

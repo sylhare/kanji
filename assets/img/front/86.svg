@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient id="fireBg" cx="50%" cy="80%" r="60%">
+      <stop offset="0%" style="stop-color:#ffecb3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8a65;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#fireBg)"/>
+  
+  <!-- Main strokes of 火 (fire) -->
+  <!-- Central vertical stroke -->
+  <rect x="243" y="120" width="14" height="200" rx="7" fill="#d84315"/>
+  
+  <!-- Left diagonal stroke -->
+  <rect x="190" y="180" width="14" height="120" rx="7" fill="#d84315" transform="rotate(-25 197 240)"/>
+  
+  <!-- Right diagonal stroke -->
+  <rect x="296" y="180" width="14" height="120" rx="7" fill="#d84315" transform="rotate(25 303 240)"/>
+  
+  <!-- Bottom dot -->
+  <circle cx="250" cy="340" r="8" fill="#d84315"/>
+</svg> 
