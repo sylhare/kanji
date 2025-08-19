@@ -3,14 +3,13 @@ name: Cypress Tests
 on: [push]
 
 jobs:
-  build:
-
+  cypress-run:
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [ 20.x ]
-        ruby: [ '3.1' ]
+        node-version: [22.x]
+        ruby: ['3.3']
 
     steps:
       - name: Checkout code
@@ -20,21 +19,69 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
+          bundler-cache: true
 
-      - name: Run Kanji blog
+      - name: Install Jekyll dependencies
         run: |
           sudo apt-get -yqq install libpq-dev
           gem install bundler
           bundle install --jobs 4 --retry 3
-          bundle exec jekyll serve &
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Start Jekyll server
+        run: |
+          bundle exec jekyll serve --port 4000 --host 0.0.0.0 &
+          echo "JEKYLL_PID=$!" >> $GITHUB_ENV
+        env:
+          JEKYLL_ENV: production
+
+      - name: Wait for Jekyll server to be ready
+        run: |
+          timeout 60 bash -c 'until curl -f http://localhost:4000/kanji/; do sleep 2; done'
+          echo "Jekyll server is ready!"
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+          cache-dependency-path: ./assets/js/gulp/package-lock.json
 
-      - name: Run Cypress tests
+      - name: Install Cypress dependencies
         run: |
           cd ./assets/js/gulp/
-          npm install
-          npm run test
+          npm ci
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+        with:
+          working-directory: ./assets/js/gulp/
+          wait-on: 'http://localhost:4000/kanji/'
+          wait-on-timeout: 120
+          browser: chrome
+          record: false
+
+      - name: Upload screenshots on failure
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: ./assets/js/gulp/cypress/screenshots
+          retention-days: 7
+
+      - name: Upload videos on failure
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: cypress-videos
+          path: ./assets/js/gulp/cypress/videos
+          retention-days: 7
+
+      - name: Stop Jekyll server
+        if: always()
+        run: |
+          if [ ! -z "$JEKYLL_PID" ]; then
+            kill $JEKYLL_PID || true
+          fi
