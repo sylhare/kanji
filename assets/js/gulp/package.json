@@ -23,7 +23,7 @@
   "homepage": "https://github.com/sylhare/kanji#readme",
   "devDependencies": {
     "chai-colors": "^1.0.1",
-    "cypress": "^5.2.0",
+    "cypress": "^14.5.4",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
