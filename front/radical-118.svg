@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F0FFF0"/>
+  
+  <!-- Main bamboo stalks -->
+  <rect x="200" y="50" width="12" height="400" fill="#228B22" rx="6"/>
+  <rect x="250" y="40" width="15" height="420" fill="#228B22" rx="7"/>
+  <rect x="300" y="55" width="12" height="405" fill="#228B22" rx="6"/>
+  
+  <!-- Secondary bamboo stalks -->
+  <rect x="150" y="80" width="10" height="370" fill="#228B22" rx="5"/>
+  <rect x="350" y="70" width="10" height="380" fill="#228B22" rx="5"/>
+  <rect x="120" y="100" width="8" height="350" fill="#228B22" rx="4"/>
+  <rect x="380" y="90" width="8" height="360" fill="#228B22" rx="4"/>
+  
+  <!-- Bamboo joints -->
+  <ellipse cx="206" cy="120" rx="8" ry="4" fill="#32CD32"/>
+  <ellipse cx="206" cy="180" rx="8" ry="4" fill="#32CD32"/>
+  <ellipse cx="206" cy="240" rx="8" ry="4" fill="#32CD32"/>
+  <ellipse cx="206" cy="300" rx="8" ry="4" fill="#32CD32"/>
+  <ellipse cx="206" cy="360" rx="8" ry="4" fill="#32CD32"/>
+  <ellipse cx="206" cy="420" rx="8" ry="4" fill="#32CD32"/>
+  
+  <ellipse cx="257" cy="110" rx="10" ry="5" fill="#32CD32"/>
+  <ellipse cx="257" cy="170" rx="10" ry="5" fill="#32CD32"/>
+  <ellipse cx="257" cy="230" rx="10" ry="5" fill="#32CD32"/>
+  <ellipse cx="257" cy="290" rx="10" ry="5" fill="#32CD32"/>
+  <ellipse cx="257" cy="350" rx="10" ry="5" fill="#32CD32"/>
+  <ellipse cx="257" cy="410" rx="10" ry="5" fill="#32CD32"/>
+  
+  <ellipse cx="306" cy="125" rx="8" ry="4" fill="#32CD32"/>
+  <ellipse cx="306" cy="185" rx="8" ry="4" fill="#32CD32"/>
+  <ellipse cx="306" cy="245" rx="8" ry="4" fill="#32CD32"/>
+  <ellipse cx="306" cy="305" rx="8" ry="4" fill="#32CD32"/>
+  <ellipse cx="306" cy="365" rx="8" ry="4" fill="#32CD32"/>
+  <ellipse cx="306" cy="425" rx="8" ry="4" fill="#32CD32"/>
+  
+  <!-- Secondary stalks joints -->
+  <ellipse cx="155" cy="150" rx="6" ry="3" fill="#32CD32"/>
+  <ellipse cx="155" cy="220" rx="6" ry="3" fill="#32CD32"/>
+  <ellipse cx="155" cy="290" rx="6" ry="3" fill="#32CD32"/>
+  <ellipse cx="155" cy="360" rx="6" ry="3" fill="#32CD32"/>
+  
+  <ellipse cx="355" cy="140" rx="6" ry="3" fill="#32CD32"/>
+  <ellipse cx="355" cy="210" rx="6" ry="3" fill="#32CD32"/>
+  <ellipse cx="355" cy="280" rx="6" ry="3" fill="#32CD32"/>
+  <ellipse cx="355" cy="350" rx="6" ry="3" fill="#32CD32"/>
+  
+  <!-- Bamboo leaves -->
+  <ellipse cx="170" cy="150" rx="8" ry="25" fill="#90EE90" transform="rotate(-45 170 150)"/>
+  <ellipse cx="190" cy="200" rx="6" ry="20" fill="#90EE90" transform="rotate(30 190 200)"/>
+  <ellipse cx="160" cy="250" rx="7" ry="22" fill="#90EE90" transform="rotate(-60 160 250)"/>
+  
+  <ellipse cx="330" cy="160" rx="8" ry="25" fill="#90EE90" transform="rotate(45 330 160)"/>
+  <ellipse cx="320" cy="210" rx="6" ry="20" fill="#90EE90" transform="rotate(-30 320 210)"/>
+  <ellipse cx="340" cy="260" rx="7" ry="22" fill="#90EE90" transform="rotate(60 340 260)"/>
+  
+  <ellipse cx="220" cy="120" rx="5" ry="18" fill="#90EE90" transform="rotate(-20 220 120)"/>
+  <ellipse cx="240" cy="140" rx="5" ry="18" fill="#90EE90" transform="rotate(35 240 140)"/>
+  <ellipse cx="270" cy="130" rx="5" ry="18" fill="#90EE90" transform="rotate(-40 270 130)"/>
+  <ellipse cx="290" cy="150" rx="5" ry="18" fill="#90EE90" transform="rotate(25 290 150)"/>
+  
+  <!-- Growth rings (texture) -->
+  <path d="M 195 160 Q 206 158 217 160" stroke="#006400" stroke-width="1" fill="none"/>
+  <path d="M 195 220 Q 206 218 217 220" stroke="#006400" stroke-width="1" fill="none"/>
+  <path d="M 195 280 Q 206 278 217 280" stroke="#006400" stroke-width="1" fill="none"/>
+  
+  <path d="M 245 150 Q 257 148 269 150" stroke="#006400" stroke-width="1" fill="none"/>
+  <path d="M 245 210 Q 257 208 269 210" stroke="#006400" stroke-width="1" fill="none"/>
+  <path d="M 245 270 Q 257 268 269 270" stroke="#006400" stroke-width="1" fill="none"/>
+  
+  <!-- Bamboo shoots -->
+  <path d="M 100 430 Q 105 410 110 390 Q 115 370 112 350" 
+        stroke="#32CD32" stroke-width="8" fill="none"/>
+  <path d="M 420 440 Q 425 420 430 400 Q 435 380 432 360" 
+        stroke="#32CD32" stroke-width="6" fill="none"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="470" width="500" height="30" fill="#8B4513"/>
+  
+  <!-- Traditional bamboo products -->
+  <rect x="50" y="300" width="40" height="4" fill="#D2B48C" rx="2"/> <!-- Bamboo mat -->
+  <rect x="50" y="308" width="40" height="4" fill="#D2B48C" rx="2"/>
+  <rect x="50" y="316" width="40" height="4" fill="#D2B48C" rx="2"/>
+  
+  <!-- Bamboo container -->
+  <rect x="450" y="350" width="30" height="80" fill="#DEB887" rx="15"/>
+  <ellipse cx="465" cy="350" rx="15" ry="5" fill="#CD853F"/>
+</svg>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f8f6f0"/>
+  
+  <!-- Main bolt cylinder -->
+  <ellipse cx="250" cy="350" rx="120" ry="30" fill="#8d6e63"/>
+  <rect x="130" y="200" width="240" height="150" fill="#a1887f"/>
+  <ellipse cx="250" cy="200" rx="120" ry="30" fill="#bcaaa4"/>
+  
+  <!-- Bolt layers/rings showing rolled fabric -->
+  <ellipse cx="250" cy="210" rx="110" ry="25" fill="none" stroke="#8d6e63" stroke-width="2"/>
+  <ellipse cx="250" cy="220" rx="100" ry="22" fill="none" stroke="#8d6e63" stroke-width="2"/>
+  <ellipse cx="250" cy="230" rx="90" ry="20" fill="none" stroke="#8d6e63" stroke-width="2"/>
+  <ellipse cx="250" cy="240" rx="80" ry="18" fill="none" stroke="#8d6e63" stroke-width="2"/>
+  <ellipse cx="250" cy="250" rx="70" ry="16" fill="none" stroke="#8d6e63" stroke-width="2"/>
+  
+  <!-- Fabric texture on bolt -->
+  <g opacity="0.4">
+    <line x1="130" y1="220" x2="370" y2="220" stroke="#6d4c41" stroke-width="1"/>
+    <line x1="130" y1="240" x2="370" y2="240" stroke="#6d4c41" stroke-width="1"/>
+    <line x1="130" y1="260" x2="370" y2="260" stroke="#6d4c41" stroke-width="1"/>
+    <line x1="130" y1="280" x2="370" y2="280" stroke="#6d4c41" stroke-width="1"/>
+    <line x1="130" y1="300" x2="370" y2="300" stroke="#6d4c41" stroke-width="1"/>
+    <line x1="130" y1="320" x2="370" y2="320" stroke="#6d4c41" stroke-width="1"/>
+    <line x1="130" y1="340" x2="370" y2="340" stroke="#6d4c41" stroke-width="1"/>
+  </g>
+  
+  <!-- Unrolled fabric hanging down -->
+  <path d="M 250 200 Q 280 150 310 120 Q 330 100 350 120 Q 370 140 340 160 Q 310 180 280 200" 
+        fill="#e8dcc6" stroke="#d7cdb3" stroke-width="2"/>
+  
+  <!-- Fabric pattern on unrolled section -->
+  <g opacity="0.6">
+    <!-- Floral pattern -->
+    <circle cx="290" cy="140" r="6" fill="#ff8a65"/>
+    <circle cx="285" cy="135" r="3" fill="#ffab91"/>
+    <circle cx="295" cy="135" r="3" fill="#ffab91"/>
+    <circle cx="285" cy="145" r="3" fill="#ffab91"/>
+    <circle cx="295" cy="145" r="3" fill="#ffab91"/>
+    
+    <circle cx="320" cy="160" r="6" fill="#81c784"/>
+    <circle cx="315" cy="155" r="3" fill="#a5d6a7"/>
+    <circle cx="325" cy="155" r="3" fill="#a5d6a7"/>
+    <circle cx="315" cy="165" r="3" fill="#a5d6a7"/>
+    <circle cx="325" cy="165" r="3" fill="#a5d6a7"/>
+  </g>
+  
+  <!-- Fabric edge detail -->
+  <path d="M 250 200 Q 280 150 310 120" stroke="#f2eee5" stroke-width="3" fill="none"/>
+  
+  <!-- Measuring stick/ruler -->
+  <rect x="80" y="180" width="10" height="200" fill="#ffc107"/>
+  <g opacity="0.8">
+    <line x1="85" y1="190" x2="85" y2="370" stroke="#ff8f00" stroke-width="1"/>
+    <!-- Measurement marks -->
+    <line x1="80" y1="200" x2="90" y2="200" stroke="#333" stroke-width="1"/>
+    <line x1="80" y1="220" x2="90" y2="220" stroke="#333" stroke-width="1"/>
+    <line x1="80" y1="240" x2="90" y2="240" stroke="#333" stroke-width="1"/>
+    <line x1="80" y1="260" x2="90" y2="260" stroke="#333" stroke-width="1"/>
+    <line x1="80" y1="280" x2="90" y2="280" stroke="#333" stroke-width="1"/>
+    <line x1="80" y1="300" x2="90" y2="300" stroke="#333" stroke-width="1"/>
+    <line x1="80" y1="320" x2="90" y2="320" stroke="#333" stroke-width="1"/>
+    <line x1="80" y1="340" x2="90" y2="340" stroke="#333" stroke-width="1"/>
+    <line x1="80" y1="360" x2="90" y2="360" stroke="#333" stroke-width="1"/>
+  </g>
+  
+  <!-- Fabric samples -->
+  <g transform="translate(400,150)">
+    <!-- Sample 1 -->
+    <rect x="0" y="0" width="30" height="40" fill="#ff8a65" rx="2"/>
+    <g opacity="0.6">
+      <line x1="5" y1="0" x2="5" y2="40" stroke="#d84315" stroke-width="1"/>
+      <line x1="15" y1="0" x2="15" y2="40" stroke="#d84315" stroke-width="1"/>
+      <line x1="25" y1="0" x2="25" y2="40" stroke="#d84315" stroke-width="1"/>
+    </g>
+    
+    <!-- Sample 2 -->
+    <rect x="35" y="5" width="30" height="40" fill="#81c784" rx="2"/>
+    <g opacity="0.6">
+      <circle cx="45" cy="15" r="2" fill="#388e3c"/>
+      <circle cx="55" cy="25" r="2" fill="#388e3c"/>
+      <circle cx="45" cy="35" r="2" fill="#388e3c"/>
+      <circle cx="55" cy="15" r="2" fill="#388e3c"/>
+      <circle cx="45" cy="25" r="2" fill="#388e3c"/>
+      <circle cx="55" cy="35" r="2" fill="#388e3c"/>
+    </g>
+    
+    <!-- Sample 3 -->
+    <rect x="70" y="10" width="30" height="40" fill="#64b5f6" rx="2"/>
+    <g opacity="0.6">
+      <path d="M 75 20 Q 85 15 95 20" stroke="#1976d2" stroke-width="1" fill="none"/>
+      <path d="M 75 30 Q 85 25 95 30" stroke="#1976d2" stroke-width="1" fill="none"/>
+      <path d="M 75 40 Q 85 35 95 40" stroke="#1976d2" stroke-width="1" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Bolt label/brand -->
+  <rect x="200" y="420" width="100" height="40" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="250" y="435" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">SILK BOLT</text>
+  <text x="250" y="450" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Premium Quality</text>
+  
+  <!-- Price tag -->
+  <g transform="translate(120,120)">
+    <path d="M 0 0 L 40 0 L 45 10 L 40 20 L 0 20 Z" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <circle cx="8" cy="10" r="3" fill="none" stroke="#ddd" stroke-width="1"/>
+    <text x="25" y="8" font-family="Arial" font-size="8" fill="#333">$45</text>
+    <text x="25" y="16" font-family="Arial" font-size="6" fill="#666">/yard</text>
+  </g>
+  
+  <!-- Store shelf -->
+  <rect x="50" y="400" width="400" height="15" fill="#8d6e63"/>
+  <rect x="50" y="405" width="400" height="5" fill="#6d4c41"/>
+  
+  <!-- Additional bolts on shelf -->
+  <ellipse cx="100" cy="390" rx="40" ry="10" fill="#9c27b0" opacity="0.7"/>
+  <ellipse cx="400" cy="395" rx="35" ry="8" fill="#ff5722" opacity="0.7"/>
+</svg> 

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#e6f3ff"/>
+  
+  <!-- Chariot body -->
+  <path d="M 150 300 Q 200 250 350 250 Q 400 270 400 320 Q 380 350 150 350 Z" fill="#8B4513"/>
+  <path d="M 160 310 Q 200 270 340 270 Q 380 285 380 320 Q 365 340 160 340 Z" fill="#A0522D"/>
+  
+  <!-- Chariot sides -->
+  <rect x="150" y="300" width="250" height="50" fill="#654321" opacity="0.8"/>
+  
+  <!-- Chariot front decoration -->
+  <circle cx="380" cy="310" r="20" fill="#FFD700"/>
+  <circle cx="380" cy="310" r="15" fill="#FFA500"/>
+  <polygon points="380,295 385,305 395,305 387,312 390,322 380,317 370,322 373,312 365,305 375,305" fill="#FF6B35"/>
+  
+  <!-- Left wheel -->
+  <circle cx="200" cy="400" r="50" fill="#654321"/>
+  <circle cx="200" cy="400" r="45" fill="#8B4513"/>
+  <circle cx="200" cy="400" r="40" fill="#A0522D"/>
+  
+  <!-- Left wheel spokes -->
+  <line x1="200" y1="350" x2="200" y2="450" stroke="#654321" stroke-width="6"/>
+  <line x1="150" y1="400" x2="250" y2="400" stroke="#654321" stroke-width="6"/>
+  <line x1="165" y1="365" x2="235" y2="435" stroke="#654321" stroke-width="6"/>
+  <line x1="235" y1="365" x2="165" y2="435" stroke="#654321" stroke-width="6"/>
+  
+  <!-- Right wheel -->
+  <circle cx="350" cy="400" r="50" fill="#654321"/>
+  <circle cx="350" cy="400" r="45" fill="#8B4513"/>
+  <circle cx="350" cy="400" r="40" fill="#A0522D"/>
+  
+  <!-- Right wheel spokes -->
+  <line x1="350" y1="350" x2="350" y2="450" stroke="#654321" stroke-width="6"/>
+  <line x1="300" y1="400" x2="400" y2="400" stroke="#654321" stroke-width="6"/>
+  <line x1="315" y1="365" x2="385" y2="435" stroke="#654321" stroke-width="6"/>
+  <line x1="385" y1="365" x2="315" y2="435" stroke="#654321" stroke-width="6"/>
+  
+  <!-- Wheel hubs -->
+  <circle cx="200" cy="400" r="15" fill="#C0C0C0"/>
+  <circle cx="200" cy="400" r="10" fill="#E5E5E5"/>
+  <circle cx="350" cy="400" r="15" fill="#C0C0C0"/>
+  <circle cx="350" cy="400" r="10" fill="#E5E5E5"/>
+  
+  <!-- Axle -->
+  <rect x="190" y="395" width="170" height="10" fill="#696969"/>
+  <rect x="192" y="397" width="166" height="6" fill="#778899"/>
+  
+  <!-- Motion blur for spinning wheels -->
+  <circle cx="200" cy="400" r="55" fill="none" stroke="#8B4513" stroke-width="3" opacity="0.4"/>
+  <circle cx="350" cy="400" r="55" fill="none" stroke="#8B4513" stroke-width="3" opacity="0.4"/>
+  
+  <!-- Speed lines -->
+  <line x1="100" y1="380" x2="150" y2="390" stroke="#87CEEB" stroke-width="4" opacity="0.7"/>
+  <line x1="90" y1="400" x2="140" y2="400" stroke="#87CEEB" stroke-width="4" opacity="0.7"/>
+  <line x1="100" y1="420" x2="150" y2="410" stroke="#87CEEB" stroke-width="4" opacity="0.7"/>
+  
+  <line x1="400" y1="380" x2="450" y2="390" stroke="#87CEEB" stroke-width="4" opacity="0.7"/>
+  <line x1="410" y1="400" x2="460" y2="400" stroke="#87CEEB" stroke-width="4" opacity="0.7"/>
+  <line x1="400" y1="420" x2="450" y2="410" stroke="#87CEEB" stroke-width="4" opacity="0.7"/>
+  
+  <!-- Driver/warrior -->
+  <circle cx="280" cy="250" r="25" fill="#DDBEA9"/>
+  <circle cx="285" cy="245" r="20" fill="#E9C46A"/>
+  
+  <!-- Driver's body -->
+  <ellipse cx="280" cy="290" rx="20" ry="30" fill="#8B0000"/>
+  <ellipse cx="282" cy="288" rx="15" ry="25" fill="#CD5C5C"/>
+  
+  <!-- Reins -->
+  <line x1="260" y1="260" x2="100" y2="200" stroke="#8B4513" stroke-width="3"/>
+  <line x1="300" y1="260" x2="100" y2="220" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Horse (simplified) -->
+  <ellipse cx="80" cy="220" rx="30" ry="20" fill="#8B4513"/>
+  <ellipse cx="85" cy="215" rx="25" ry="15" fill="#A0522D"/>
+  <circle cx="60" cy="210" r="12" fill="#8B4513"/>
+  <circle cx="62" cy="208" r="10" fill="#A0522D"/>
+  
+  <!-- Horse legs -->
+  <rect x="70" y="235" width="6" height="30" fill="#8B4513"/>
+  <rect x="85" y="235" width="6" height="30" fill="#8B4513"/>
+  <rect x="100" y="235" width="6" height="30" fill="#8B4513"/>
+  <rect x="115" y="235" width="6" height="30" fill="#8B4513"/>
+  
+  <!-- Dust clouds -->
+  <ellipse cx="130" cy="450" rx="40" ry="15" fill="#DEB887" opacity="0.6"/>
+  <ellipse cx="280" cy="460" rx="50" ry="18" fill="#DEB887" opacity="0.6"/>
+  <ellipse cx="420" cy="450" rx="35" ry="12" fill="#DEB887" opacity="0.6"/>
+  
+  <!-- Victory banner -->
+  <rect x="320" y="180" width="4" height="80" fill="#8B4513"/>
+  <polygon points="324,180 324,200 350,190" fill="#FF6B35"/>
+  
+  <!-- Ancient symbols -->
+  <circle cx="450" cy="150" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <polygon points="450,130 455,140 465,140 457,147 460,157 450,152 440,157 443,147 435,140 445,140" fill="#8B0000"/>
+  
+  <!-- Wheel tracks -->
+  <line x1="50" y1="430" x2="500" y2="430" stroke="#8B4513" stroke-width="2" opacity="0.5" stroke-dasharray="10,5"/>
+  <line x1="50" y1="445" x2="500" y2="445" stroke="#8B4513" stroke-width="2" opacity="0.5" stroke-dasharray="10,5"/>
+</svg> 

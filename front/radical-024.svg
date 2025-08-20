@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f0f8ff"/>
+  
+  <!-- Ten stars arranged in two hands pattern -->
+  <!-- Left hand - 5 stars -->
+  <polygon points="100,150 105,165 120,165 108,175 113,190 100,180 87,190 92,175 80,165 95,165" fill="#FF6B6B"/>
+  <polygon points="150,120 155,135 170,135 158,145 163,160 150,150 137,160 142,145 130,135 145,135" fill="#4ECDC4"/>
+  <polygon points="200,110 205,125 220,125 208,135 213,150 200,140 187,150 192,135 180,125 195,125" fill="#95E1D3"/>
+  <polygon points="250,120 255,135 270,135 258,145 263,160 250,150 237,160 242,145 230,135 245,135" fill="#F38BA8"/>
+  <polygon points="300,150 305,165 320,165 308,175 313,190 300,180 287,190 292,175 280,165 295,165" fill="#A8DADC"/>
+  
+  <!-- Right hand - 5 stars -->
+  <polygon points="100,350 105,365 120,365 108,375 113,390 100,380 87,390 92,375 80,365 95,365" fill="#457B9D"/>
+  <polygon points="150,320 155,335 170,335 158,345 163,360 150,350 137,360 142,345 130,335 145,335" fill="#1D3557"/>
+  <polygon points="200,310 205,325 220,325 208,335 213,350 200,340 187,350 192,335 180,325 195,325" fill="#F1FAEE"/>
+  <polygon points="250,320 255,335 270,335 258,345 263,360 250,350 237,360 242,345 230,335 245,335" fill="#FFE66D"/>
+  <polygon points="300,350 305,365 320,365 308,375 313,390 300,380 287,390 292,375 280,365 295,365" fill="#FF6B35"/>
+  
+  <!-- Central "10" representation -->
+  <circle cx="200" cy="250" r="40" fill="#FFD700"/>
+  <circle cx="200" cy="250" r="30" fill="#FFA500"/>
+  <text x="200" y="260" text-anchor="middle" font-family="Arial Black" font-size="30" fill="white">10</text>
+  
+  <!-- Connecting lines showing completion -->
+  <path d="M 100 180 Q 200 200 300 180" stroke="#32CD32" stroke-width="4" fill="none"/>
+  <path d="M 100 380 Q 200 360 300 380" stroke="#32CD32" stroke-width="4" fill="none"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="400" cy="150" r="15" fill="#FFD700" opacity="0.6"/>
+  <circle cx="400" cy="200" r="12" fill="#FF6B6B" opacity="0.6"/>
+  <circle cx="400" cy="250" r="18" fill="#4ECDC4" opacity="0.6"/>
+  <circle cx="400" cy="300" r="12" fill="#95E1D3" opacity="0.6"/>
+  <circle cx="400" cy="350" r="15" fill="#F38BA8" opacity="0.6"/>
+  
+  <!-- Perfect ten celebration -->
+  <polygon points="450,100 460,120 480,120 465,135 470,155 450,145 430,155 435,135 420,120 440,120" fill="#32CD32"/>
+</svg> 

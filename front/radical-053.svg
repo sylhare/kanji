@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#e6f7ff"/>
+  
+  <!-- Main house with slanted roof -->
+  <rect x="150" y="300" width="200" height="150" fill="#DEB887"/>
+  <rect x="155" y="305" width="190" height="140" fill="#F5DEB3"/>
+  
+  <!-- Slanted roof (main feature) -->
+  <polygon points="130,300 250,150 370,300" fill="#8B4513"/>
+  <polygon points="135,300 250,160 365,300" fill="#A0522D"/>
+  <polygon points="140,300 250,170 360,300" fill="#CD853F"/>
+  
+  <!-- Roof tiles pattern -->
+  <path d="M 140 300 Q 160 290 180 300" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M 160 280 Q 180 270 200 280" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M 180 260 Q 200 250 220 260" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M 200 240 Q 220 230 240 240" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M 220 220 Q 240 210 260 220" stroke="#654321" stroke-width="2" fill="none"/>
+  
+  <path d="M 280 220 Q 300 210 320 220" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M 300 240 Q 320 230 340 240" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M 320 260 Q 340 250 360 260" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M 340 280 Q 360 270 380 280" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M 360 300 Q 380 290 400 300" stroke="#654321" stroke-width="2" fill="none"/>
+  
+  <!-- Roof ridge -->
+  <line x1="240" y1="155" x2="260" y2="155" stroke="#8B4513" stroke-width="6"/>
+  
+  <!-- Chimney -->
+  <rect x="300" y="180" width="20" height="50" fill="#696969"/>
+  <rect x="295" y="175" width="30" height="8" fill="#778899"/>
+  
+  <!-- Smoke from chimney -->
+  <path d="M 310 170 Q 305 150 310 130 Q 315 110 310 90" stroke="#DCDCDC" stroke-width="4" fill="none" opacity="0.7"/>
+  <path d="M 305 160 Q 300 140 305 120 Q 310 100 305 80" stroke="#C0C0C0" stroke-width="3" fill="none" opacity="0.6"/>
+  
+  <!-- Windows -->
+  <rect x="180" y="340" width="30" height="40" fill="#87CEEB"/>
+  <rect x="290" y="340" width="30" height="40" fill="#87CEEB"/>
+  <line x1="195" y1="340" x2="195" y2="380" stroke="#4169E1" stroke-width="2"/>
+  <line x1="180" y1="360" x2="210" y2="360" stroke="#4169E1" stroke-width="2"/>
+  <line x1="305" y1="340" x2="305" y2="380" stroke="#4169E1" stroke-width="2"/>
+  <line x1="290" y1="360" x2="320" y2="360" stroke="#4169E1" stroke-width="2"/>
+  
+  <!-- Front door -->
+  <rect x="230" y="390" width="40" height="60" fill="#8B4513"/>
+  <rect x="232" y="392" width="36" height="56" fill="#A0522D"/>
+  <circle cx="260" cy="420" r="3" fill="#FFD700"/>
+  
+  <!-- Slanted roof house variations -->
+  <!-- Small cottage -->
+  <rect x="50" y="380" width="80" height="70" fill="#DEB887"/>
+  <polygon points="40,380 90,330 140,380" fill="#8B4513"/>
+  <rect x="70" y="400" width="15" height="20" fill="#87CEEB"/>
+  <rect x="80" y="430" width="15" height="20" fill="#654321"/>
+  
+  <!-- Modern slanted roof -->
+  <rect x="380" y="320" width="100" height="130" fill="#F5F5F5"/>
+  <polygon points="370,320 430,250 490,320" fill="#2F4F4F"/>
+  <polygon points="375,320 430,260 485,320" fill="#708090"/>
+  
+  <!-- Solar panels on slanted roof -->
+  <rect x="400" y="270" width="20" height="15" fill="#191970"/>
+  <rect x="425" y="275" width="20" height="15" fill="#191970"/>
+  <rect x="450" y="280" width="20" height="15" fill="#191970"/>
+  
+  <!-- Traditional Asian slanted roof -->
+  <rect x="200" y="50" width="100" height="60" fill="#CD853F"/>
+  <path d="M 180 110 Q 250 80 320 110" stroke="#8B0000" stroke-width="8" fill="none"/>
+  <path d="M 185 110 Q 250 85 315 110" stroke="#A52A2A" stroke-width="6" fill="none"/>
+  
+  <!-- Roof decorative ends -->
+  <circle cx="185" cy="110" r="8" fill="#FFD700"/>
+  <circle cx="315" cy="110" r="8" fill="#FFD700"/>
+  
+  <!-- Alpine chalet style -->
+  <rect x="80" y="200" width="60" height="80" fill="#DEB887"/>
+  <polygon points="70,200 110,160 150,200" fill="#654321"/>
+  <polygon points="75,200 110,170 145,200" fill="#8B4513"/>
+  
+  <!-- Overhanging eaves -->
+  <line x1="65" y1="205" x2="155" y2="205" stroke="#654321" stroke-width="6"/>
+  
+  <!-- Rain gutters -->
+  <path d="M 130 300 Q 250 290 370 300" stroke="#C0C0C0" stroke-width="4" fill="none"/>
+  
+  <!-- Roof weathervane -->
+  <rect x="248" y="140" width="4" height="20" fill="#8B4513"/>
+  <polygon points="245,140 255,135 255,145" fill="#C0C0C0"/>
+  <circle cx="250" cy="135" r="3" fill="#FFD700"/>
+  
+  <!-- Rain falling on slanted roof -->
+  <line x1="160" y1="100" x2="155" y2="130" stroke="#4169E1" stroke-width="2" opacity="0.6"/>
+  <line x1="180" y1="80" x2="175" y2="110" stroke="#4169E1" stroke-width="2" opacity="0.6"/>
+  <line x1="200" y1="90" x2="195" y2="120" stroke="#4169E1" stroke-width="2" opacity="0.6"/>
+  <line x1="220" y1="70" x2="215" y2="100" stroke="#4169E1" stroke-width="2" opacity="0.6"/>
+  <line x1="280" y1="70" x2="285" y2="100" stroke="#4169E1" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="90" x2="305" y2="120" stroke="#4169E1" stroke-width="2" opacity="0.6"/>
+  <line x1="320" y1="80" x2="325" y2="110" stroke="#4169E1" stroke-width="2" opacity="0.6"/>
+  <line x1="340" y1="100" x2="345" y2="130" stroke="#4169E1" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Traditional roof symbol -->
+  <circle cx="450" cy="450" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <polygon points="435,450 450,430 465,450" fill="#8B0000"/>
+  <rect x="440" y="450" width="20" height="15" fill="none" stroke="#8B0000" stroke-width="2"/>
+</svg> 

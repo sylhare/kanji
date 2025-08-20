@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F0FFF0"/>
+  
+  <!-- Main leek plants -->
+  <path d="M 200 400 Q 195 350 190 300 Q 185 250 180 200 Q 175 150 170 100" 
+        stroke="#228B22" stroke-width="8" fill="none"/>
+  <path d="M 220 400 Q 225 350 230 300 Q 235 250 240 200 Q 245 150 250 100" 
+        stroke="#228B22" stroke-width="8" fill="none"/>
+  <path d="M 240 400 Q 245 350 250 300 Q 255 250 260 200 Q 265 150 270 100" 
+        stroke="#228B22" stroke-width="8" fill="none"/>
+  <path d="M 260 400 Q 265 350 270 300 Q 275 250 280 200 Q 285 150 290 100" 
+        stroke="#228B22" stroke-width="8" fill="none"/>
+  <path d="M 280 400 Q 285 350 290 300 Q 295 250 300 200 Q 305 150 310 100" 
+        stroke="#228B22" stroke-width="8" fill="none"/>
+  
+  <!-- Additional leek stalks -->
+  <path d="M 150 400 Q 145 350 140 300 Q 135 250 130 200 Q 125 150 120 100" 
+        stroke="#228B22" stroke-width="6" fill="none"/>
+  <path d="M 350 400 Q 355 350 360 300 Q 365 250 370 200 Q 375 150 380 100" 
+        stroke="#228B22" stroke-width="6" fill="none"/>
+  
+  <!-- Leek leaves (flat and long) -->
+  <ellipse cx="175" cy="200" rx="8" ry="60" fill="#228B22" transform="rotate(-15 175 200)"/>
+  <ellipse cx="185" cy="250" rx="6" ry="50" fill="#228B22" transform="rotate(10 185 250)"/>
+  <ellipse cx="195" cy="180" rx="7" ry="55" fill="#228B22" transform="rotate(-20 195 180)"/>
+  
+  <ellipse cx="235" cy="220" rx="8" ry="60" fill="#228B22" transform="rotate(-10 235 220)"/>
+  <ellipse cx="245" cy="180" rx="6" ry="50" fill="#228B22" transform="rotate(15 245 180)"/>
+  <ellipse cx="255" cy="240" rx="7" ry="55" fill="#228B22" transform="rotate(-25 255 240)"/>
+  
+  <ellipse cx="275" cy="200" rx="8" ry="60" fill="#228B22" transform="rotate(12 275 200)"/>
+  <ellipse cx="285" cy="160" rx="6" ry="50" fill="#228B22" transform="rotate(-18 285 160)"/>
+  <ellipse cx="295" cy="220" rx="7" ry="55" fill="#228B22" transform="rotate(22 295 220)"/>
+  
+  <!-- White bulb base -->
+  <ellipse cx="200" cy="420" rx="8" ry="15" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  <ellipse cx="220" cy="425" rx="8" ry="15" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  <ellipse cx="240" cy="420" rx="8" ry="15" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  <ellipse cx="260" cy="425" rx="8" ry="15" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  <ellipse cx="280" cy="420" rx="8" ry="15" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Root systems -->
+  <path d="M 195 435 Q 190 445 185 450" stroke="#8B4513" stroke-width="3" fill="none"/>
+  <path d="M 200 440 Q 195 450 190 455" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 205 435 Q 210 445 215 450" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <path d="M 235 440 Q 230 450 225 455" stroke="#8B4513" stroke-width="3" fill="none"/>
+  <path d="M 240 445 Q 235 455 230 460" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 245 440 Q 250 450 255 455" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <path d="M 275 435 Q 270 445 265 450" stroke="#8B4513" stroke-width="3" fill="none"/>
+  <path d="M 280 440 Q 275 450 270 455" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 285 435 Q 290 445 295 450" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <!-- Leaf texture lines -->
+  <path d="M 170 160 L 175 240" stroke="#32CD32" stroke-width="1" fill="none" opacity="0.7"/>
+  <path d="M 175 165 L 180 245" stroke="#32CD32" stroke-width="1" fill="none" opacity="0.7"/>
+  <path d="M 180 160 L 185 240" stroke="#32CD32" stroke-width="1" fill="none" opacity="0.7"/>
+  
+  <path d="M 230 180 L 235 260" stroke="#32CD32" stroke-width="1" fill="none" opacity="0.7"/>
+  <path d="M 240 175 L 245 255" stroke="#32CD32" stroke-width="1" fill="none" opacity="0.7"/>
+  <path d="M 250 180 L 255 260" stroke="#32CD32" stroke-width="1" fill="none" opacity="0.7"/>
+  
+  <!-- Growth nodes -->
+  <circle cx="180" cy="250" r="2" fill="#90EE90"/>
+  <circle cx="240" cy="230" r="2" fill="#90EE90"/>
+  <circle cx="290" cy="240" r="2" fill="#90EE90"/>
+  <circle cx="170" cy="180" r="2" fill="#90EE90"/>
+  <circle cx="280" cy="190" r="2" fill="#90EE90"/>
+  
+  <!-- Garden bed -->
+  <rect x="100" y="450" width="300" height="30" fill="#8B4513"/>
+  <rect x="90" y="445" width="320" height="5" fill="#A0522D"/>
+  
+  <!-- Harvested leeks -->
+  <ellipse cx="80" cy="350" rx="15" ry="40" fill="#228B22"/>
+  <ellipse cx="78" cy="390" rx="6" ry="12" fill="#FFFFFF"/>
+  <ellipse cx="100" cy="360" rx="15" ry="40" fill="#228B22"/>
+  <ellipse cx="98" cy="400" rx="6" ry="12" fill="#FFFFFF"/>
+  
+  <ellipse cx="420" cy="340" rx="15" ry="40" fill="#228B22"/>
+  <ellipse cx="418" cy="380" rx="6" ry="12" fill="#FFFFFF"/>
+  <ellipse cx="440" cy="350" rx="15" ry="40" fill="#228B22"/>
+  <ellipse cx="438" cy="390" rx="6" ry="12" fill="#FFFFFF"/>
+  
+  <!-- Cutting knife -->
+  <rect x="60" y="300" width="30" height="3" fill="#C0C0C0" rx="1"/>
+  <rect x="55" y="297" width="10" height="9" fill="#8B4513" rx="2"/>
+  
+  <!-- Basket for harvest -->
+  <ellipse cx="450" cy="400" rx="30" ry="15" fill="#D2B48C"/>
+  <ellipse cx="450" cy="395" rx="25" ry="10" fill="#DEB887"/>
+  <!-- Leeks in basket -->
+  <rect x="440" y="385" width="3" height="20" fill="#228B22"/>
+  <rect x="450" y="383" width="3" height="22" fill="#228B22"/>
+  <rect x="460" y="385" width="3" height="20" fill="#228B22"/>
+</svg>

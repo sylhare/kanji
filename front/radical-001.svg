@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f8f4e6"/>
+  
+  <!-- Trophy base -->
+  <rect x="175" y="400" width="150" height="80" rx="10" fill="#8B4513"/>
+  <rect x="200" y="370" width="100" height="30" rx="5" fill="#654321"/>
+  
+  <!-- Trophy cup -->
+  <ellipse cx="250" cy="320" rx="80" ry="60" fill="#FFD700"/>
+  <ellipse cx="250" cy="310" rx="70" ry="50" fill="#FFA500"/>
+  <ellipse cx="250" cy="300" rx="60" ry="40" fill="#FFD700"/>
+  
+  <!-- Trophy handles -->
+  <ellipse cx="170" cy="300" rx="15" ry="25" fill="none" stroke="#FFD700" stroke-width="8"/>
+  <ellipse cx="330" cy="300" rx="15" ry="25" fill="none" stroke="#FFD700" stroke-width="8"/>
+  
+  <!-- Number 1 engraved on trophy -->
+  <rect x="235" y="250" width="30" height="100" fill="#FF6B35"/>
+  <polygon points="235,250 235,270 215,270 215,250 235,250" fill="#FF6B35"/>
+  
+  <!-- Shine effect -->
+  <ellipse cx="220" cy="280" rx="15" ry="30" fill="#FFFF99" opacity="0.6"/>
+  
+  <!-- Stars around trophy -->
+  <polygon points="100,150 105,165 120,165 108,175 113,190 100,180 87,190 92,175 80,165 95,165" fill="#FFD700"/>
+  <polygon points="400,150 405,165 420,165 408,175 413,190 400,180 387,190 392,175 380,165 395,165" fill="#FFD700"/>
+  <polygon points="250,100 255,115 270,115 258,125 263,140 250,130 237,140 242,125 230,115 245,115" fill="#FFD700"/>
+</svg> 

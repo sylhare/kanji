@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#f5f5f5"/>
+  
+  <!-- Twin/matching elements -->
+  <!-- Left twin -->
+  <circle cx="180" cy="200" r="60" fill="#4ECDC4"/>
+  <circle cx="180" cy="200" r="50" fill="#7FDEDB"/>
+  <circle cx="180" cy="200" r="40" fill="#B2F2EF"/>
+  
+  <!-- Right twin -->
+  <circle cx="320" cy="200" r="60" fill="#4ECDC4"/>
+  <circle cx="320" cy="200" r="50" fill="#7FDEDB"/>
+  <circle cx="320" cy="200" r="40" fill="#B2F2EF"/>
+  
+  <!-- Equals sign in center -->
+  <rect x="220" y="180" width="60" height="10" fill="#32CD32"/>
+  <rect x="220" y="210" width="60" height="10" fill="#32CD32"/>
+  <rect x="222" y="182" width="56" height="6" fill="#98FB98"/>
+  <rect x="222" y="212" width="56" height="6" fill="#98FB98"/>
+  
+  <!-- Mirror reflection line -->
+  <line x1="250" y1="50" x2="250" y2="450" stroke="#FFD700" stroke-width="4" stroke-dasharray="10,5"/>
+  
+  <!-- Matching patterns -->
+  <polygon points="180,150 190,170 210,170 196,182 201,202 180,192 159,202 164,182 150,170 170,170" fill="#FF6B6B"/>
+  <polygon points="320,150 330,170 350,170 336,182 341,202 320,192 299,202 304,182 290,170 310,170" fill="#FF6B6B"/>
+  
+  <!-- Similar triangles -->
+  <polygon points="120,300 140,260 160,300" fill="#95E1D3"/>
+  <polygon points="340,300 360,260 380,300" fill="#95E1D3"/>
+  
+  <!-- Matching squares -->
+  <rect x="160" y="320" width="40" height="40" fill="#F38BA8"/>
+  <rect x="300" y="320" width="40" height="40" fill="#F38BA8"/>
+  
+  <!-- Identical decorative elements -->
+  <circle cx="160" cy="120" r="8" fill="#FFD700"/>
+  <circle cx="340" cy="120" r="8" fill="#FFD700"/>
+  
+  <circle cx="200" cy="120" r="8" fill="#FFA500"/>
+  <circle cx="280" cy="120" r="8" fill="#FFA500"/>
+  
+  <!-- Symmetry indicators -->
+  <polygon points="100,100 110,90 120,100 110,110" fill="#9370DB"/>
+  <polygon points="400,100 390,90 380,100 390,110" fill="#9370DB"/>
+  
+  <polygon points="100,400 110,390 120,400 110,410" fill="#9370DB"/>
+  <polygon points="400,400 390,390 380,400 390,410" fill="#9370DB"/>
+  
+  <!-- Connecting similarity lines -->
+  <line x1="140" y1="200" x2="240" y2="200" stroke="#87CEEB" stroke-width="3" opacity="0.7"/>
+  <line x1="260" y1="200" x2="360" y2="200" stroke="#87CEEB" stroke-width="3" opacity="0.7"/>
+  
+  <!-- Matching arrows -->
+  <polygon points="200,250 220,240 220,260" fill="#32CD32"/>
+  <polygon points="300,250 280,240 280,260" fill="#32CD32"/>
+  
+  <!-- Same/identical labels -->
+  <text x="180" y="280" text-anchor="middle" font-family="Arial" font-size="16" fill="#4B0082">SAME</text>
+  <text x="320" y="280" text-anchor="middle" font-family="Arial" font-size="16" fill="#4B0082">SAME</text>
+  
+  <!-- Parallel lines showing similarity -->
+  <line x1="80" y1="150" x2="120" y2="150" stroke="#FF69B4" stroke-width="4"/>
+  <line x1="80" y1="170" x2="120" y2="170" stroke="#FF69B4" stroke-width="4"/>
+  <line x1="80" y1="190" x2="120" y2="190" stroke="#FF69B4" stroke-width="4"/>
+  
+  <line x1="380" y1="150" x2="420" y2="150" stroke="#FF69B4" stroke-width="4"/>
+  <line x1="380" y1="170" x2="420" y2="170" stroke="#FF69B4" stroke-width="4"/>
+  <line x1="380" y1="190" x2="420" y2="190" stroke="#FF69B4" stroke-width="4"/>
+  
+  <!-- Congruent symbols -->
+  <path d="M 150 380 Q 170 360 190 380" stroke="#8A2BE2" stroke-width="5" fill="none"/>
+  <line x1="160" y1="375" x2="180" y2="375" stroke="#8A2BE2" stroke-width="3"/>
+  
+  <path d="M 310 380 Q 330 360 350 380" stroke="#8A2BE2" stroke-width="5" fill="none"/>
+  <line x1="320" y1="375" x2="340" y2="375" stroke="#8A2BE2" stroke-width="3"/>
+  
+  <!-- Twin/duplicate indicators -->
+  <text x="50" y="250" font-family="Arial Black" font-size="20" fill="#8B008B">2x</text>
+  <text x="430" y="250" font-family="Arial Black" font-size="20" fill="#8B008B">2x</text>
+  
+  <!-- Mirror frames -->
+  <rect x="50" y="50" width="80" height="120" fill="none" stroke="#C0C0C0" stroke-width="6"/>
+  <rect x="55" y="55" width="70" height="110" fill="none" stroke="#E5E5E5" stroke-width="3"/>
+  
+  <rect x="370" y="50" width="80" height="120" fill="none" stroke="#C0C0C0" stroke-width="6"/>
+  <rect x="375" y="55" width="70" height="110" fill="none" stroke="#E5E5E5" stroke-width="3"/>
+  
+  <!-- Identical patterns inside frames -->
+  <polygon points="90,80 100,100 120,100 106,112 111,132 90,122 69,132 74,112 60,100 80,100" fill="#FFD700"/>
+  <polygon points="410,80 420,100 440,100 426,112 431,132 410,122 389,132 394,112 380,100 400,100" fill="#FFD700"/>
+  
+  <!-- Copy/duplicate symbols -->
+  <rect x="60" y="430" width="40" height="30" fill="#E6E6FA" stroke="#9370DB" stroke-width="2"/>
+  <text x="80" y="450" text-anchor="middle" font-family="Arial" font-size="12" fill="#4B0082">COPY</text>
+  
+  <rect x="400" y="430" width="40" height="30" fill="#E6E6FA" stroke="#9370DB" stroke-width="2"/>
+  <text x="420" y="450" text-anchor="middle" font-family="Arial" font-size="12" fill="#4B0082">COPY</text>
+  
+  <!-- Mathematical similarity symbol -->
+  <path d="M 200 400 Q 220 380 240 400" stroke="#FF1493" stroke-width="4" fill="none"/>
+  <path d="M 205 410 Q 225 390 245 410" stroke="#FF1493" stroke-width="4" fill="none"/>
+  <path d="M 255 400 Q 275 380 295 400" stroke="#FF1493" stroke-width="4" fill="none"/>
+  <path d="M 260 410 Q 280 390 300 410" stroke="#FF1493" stroke-width="4" fill="none"/>
+  
+  <!-- Unity/oneness symbol -->
+  <circle cx="250" cy="350" r="30" fill="#FFE4E1"/>
+  <circle cx="250" cy="350" r="25" fill="#FFC0CB"/>
+  <text x="250" y="360" text-anchor="middle" font-family="Arial Black" font-size="20" fill="#8B008B">≡</text>
+  
+  <!-- Traditional balance symbol -->
+  <circle cx="450" cy="450" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <line x1="435" y1="450" x2="465" y2="450" stroke="#8B0000" stroke-width="3"/>
+  <circle cx="445" cy="440" r="5" fill="#8B0000"/>
+  <circle cx="455" cy="440" r="5" fill="#8B0000"/>
+</svg> 

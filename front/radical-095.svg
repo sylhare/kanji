@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - dark night -->
+  <rect width="500" height="500" fill="#1a1a1a"/>
+  
+  <!-- Night sky gradient -->
+  <defs>
+    <radialGradient id="nightSky" cx="50%" cy="30%">
+      <stop offset="0%" stop-color="#2d3748"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#nightSky)"/>
+  
+  <!-- Stars -->
+  <g opacity="0.8">
+    <circle cx="80" cy="50" r="1.5" fill="#ffffff"/>
+    <circle cx="150" cy="30" r="1" fill="#e3f2fd"/>
+    <circle cx="220" cy="70" r="2" fill="#ffffff"/>
+    <circle cx="350" cy="40" r="1" fill="#f3e5f5"/>
+    <circle cx="420" cy="60" r="1.5" fill="#ffffff"/>
+    <circle cx="480" cy="90" r="1" fill="#e8f5e9"/>
+    <circle cx="50" cy="120" r="1" fill="#ffffff"/>
+    <circle cx="180" cy="100" r="1.5" fill="#fff3e0"/>
+    <circle cx="320" cy="110" r="1" fill="#ffffff"/>
+    <circle cx="450" cy="120" r="2" fill="#e3f2fd"/>
+  </g>
+  
+  <!-- Moon -->
+  <g transform="translate(400,100)">
+    <!-- Full moon with craters -->
+    <circle cx="0" cy="0" r="30" fill="#f5f5f5"/>
+    <circle cx="0" cy="0" r="28" fill="#ffffff"/>
+    
+    <!-- Craters -->
+    <circle cx="-8" cy="-5" r="4" fill="#e0e0e0"/>
+    <circle cx="10" cy="8" r="3" fill="#e0e0e0"/>
+    <circle cx="-5" cy="12" r="2" fill="#e0e0e0"/>
+    <circle cx="12" cy="-8" r="2.5" fill="#e0e0e0"/>
+    
+    <!-- Moon glow -->
+    <circle cx="0" cy="0" r="35" fill="#ffffff" opacity="0.2"/>
+    <circle cx="0" cy="0" r="40" fill="#ffffff" opacity="0.1"/>
+  </g>
+  
+  <!-- Central darkness symbol -->
+  <g transform="translate(250,250)">
+    <!-- Dark void/portal -->
+    <circle cx="0" cy="0" r="40" fill="#000000"/>
+    <circle cx="0" cy="0" r="35" fill="#0d1117"/>
+    <circle cx="0" cy="0" r="30" fill="#161b22"/>
+    <circle cx="0" cy="0" r="25" fill="#21262d"/>
+    
+    <!-- Swirling darkness -->
+    <g stroke="#424242" stroke-width="2" fill="none" opacity="0.5">
+      <path d="M -20,0 Q 0,-20 20,0 Q 0,20 -20,0"/>
+      <path d="M -15,0 Q 0,-15 15,0 Q 0,15 -15,0"/>
+      <path d="M -10,0 Q 0,-10 10,0 Q 0,10 -10,0"/>
+    </g>
+    
+    <!-- Mysterious runes around the void -->
+    <g fill="#666666" font-family="serif" font-size="12">
+      <text x="0" y="-55" text-anchor="middle">玄</text>
+      <text x="45" y="5" text-anchor="middle">闇</text>
+      <text x="0" y="65" text-anchor="middle">暗</text>
+      <text x="-45" y="5" text-anchor="middle">陰</text>
+    </g>
+  </g>
+  
+  <!-- Shadow figures -->
+  <g transform="translate(120,350)" opacity="0.6">
+    <!-- Shadow person 1 -->
+    <circle cx="0" cy="-20" r="8" fill="#1a1a1a"/>
+    <rect x="-6" y="-12" width="12" height="20" fill="#1a1a1a"/>
+    <rect x="-4" y="8" width="8" height="15" fill="#1a1a1a"/>
+    
+    <!-- Shadow extending -->
+    <ellipse cx="15" cy="25" rx="20" ry="5" fill="#0d1117" opacity="0.8"/>
+  </g>
+  
+  <g transform="translate(380,380)" opacity="0.5">
+    <!-- Shadow person 2 -->
+    <circle cx="0" cy="-15" r="6" fill="#161b22"/>
+    <rect x="-4" y="-9" width="8" height="15" fill="#161b22"/>
+    <rect x="-3" y="6" width="6" height="12" fill="#161b22"/>
+    
+    <!-- Shadow extending -->
+    <ellipse cx="-12" cy="20" rx="18" ry="4" fill="#0d1117" opacity="0.7"/>
+  </g>
+  
+  <!-- Dark forest silhouettes -->
+  <g transform="translate(50,400)" opacity="0.8">
+    <!-- Tree silhouettes -->
+    <polygon points="0,0 -10,-40 -8,-45 -5,-50 0,-55 5,-50 8,-45 10,-40" fill="#0d1117"/>
+    <rect x="-2" y="0" width="4" height="20" fill="#0d1117"/>
+    
+    <polygon points="30,0 20,-35 22,-40 25,-45 30,-50 35,-45 38,-40 40,-35" fill="#161b22"/>
+    <rect x="28" y="0" width="4" height="20" fill="#161b22"/>
+    
+    <polygon points="60,0 50,-30 52,-35 55,-40 60,-45 65,-40 68,-35 70,-30" fill="#0d1117"/>
+    <rect x="58" y="0" width="4" height="20" fill="#0d1117"/>
+  </g>
+  
+  <!-- Mysterious cave entrance -->
+  <g transform="translate(150,450)">
+    <!-- Cave opening -->
+    <ellipse cx="0" cy="0" rx="40" ry="20" fill="#000000"/>
+    <ellipse cx="0" cy="0" rx="35" ry="15" fill="#0d1117"/>
+    
+    <!-- Cave stalactites -->
+    <polygon points="-30,-20 -25,-10 -20,-20" fill="#21262d"/>
+    <polygon points="-10,-20 -5,-5 0,-20" fill="#21262d"/>
+    <polygon points="10,-20 15,-8 20,-20" fill="#21262d"/>
+    <polygon points="30,-20 25,-12 35,-20" fill="#21262d"/>
+    
+    <!-- Mysterious glow from inside -->
+    <ellipse cx="0" cy="5" rx="15" ry="8" fill="#4a148c" opacity="0.3"/>
+  </g>
+  
+  <!-- Lantern providing small light -->
+  <g transform="translate(350,300)">
+    <!-- Lantern post -->
+    <rect x="-2" y="20" width="4" height="60" fill="#424242"/>
+    
+    <!-- Lantern body -->
+    <rect x="-8" y="0" width="16" height="25" fill="#616161" rx="2"/>
+    <rect x="-6" y="2" width="12" height="21" fill="#37474f"/>
+    
+    <!-- Lantern glass -->
+    <rect x="-5" y="4" width="10" height="17" fill="#fff3e0" opacity="0.8"/>
+    
+    <!-- Flame -->
+    <ellipse cx="0" cy="12" rx="3" ry="6" fill="#ff8f00"/>
+    <ellipse cx="0" cy="12" rx="2" ry="4" fill="#ffb300"/>
+    
+    <!-- Light radius -->
+    <circle cx="0" cy="12" r="30" fill="#fff3e0" opacity="0.1"/>
+    <circle cx="0" cy="12" r="20" fill="#fff3e0" opacity="0.15"/>
+    
+    <!-- Lantern chain -->
+    <rect x="-1" y="-5" width="2" height="5" fill="#757575"/>
+    
+    <!-- Light rays -->
+    <g stroke="#ffb300" stroke-width="1" opacity="0.3">
+      <line x1="-15" y1="12" x2="-20" y2="12"/>
+      <line x1="15" y1="12" x2="20" y2="12"/>
+      <line x1="0" y1="-3" x2="0" y2="-8"/>
+      <line x1="0" y1="27" x2="0" y2="32"/>
+      <line x1="-11" y1="1" x2="-14" y2="-2"/>
+      <line x1="11" y1="23" x2="14" y2="26"/>
+    </g>
+  </g>
+  
+  <!-- Eclipse -->
+  <g transform="translate(100,120)">
+    <!-- Sun being eclipsed -->
+    <circle cx="0" cy="0" r="25" fill="#ffeb3b"/>
+    <circle cx="0" cy="0" r="23" fill="#ffc107"/>
+    
+    <!-- Moon covering sun -->
+    <circle cx="10" cy="-5" r="25" fill="#1a1a1a"/>
+    
+    <!-- Corona visible around eclipse -->
+    <g stroke="#ffeb3b" stroke-width="2" opacity="0.5">
+      <line x1="-30" y1="0" x2="-35" y2="0"/>
+      <line x1="35" y1="5" x2="40" y2="5"/>
+      <line x1="0" y1="-30" x2="0" y2="-35"/>
+      <line x1="5" y1="35" x2="5" y2="40"/>
+      <line x1="-21" y1="-21" x2="-25" y2="-25"/>
+      <line x1="25" y1="25" x2="29" y2="29"/>
+    </g>
+  </g>
+  
+  <!-- Night animals -->
+  <!-- Owl -->
+  <g transform="translate(450,250)">
+    <!-- Owl body -->
+    <ellipse cx="0" cy="0" rx="8" ry="12" fill="#424242"/>
+    <ellipse cx="0" cy="0" rx="6" ry="10" fill="#616161"/>
+    
+    <!-- Owl head -->
+    <circle cx="0" cy="-8" r="8" fill="#424242"/>
+    <circle cx="0" cy="-8" r="6" fill="#616161"/>
+    
+    <!-- Owl eyes -->
+    <circle cx="-3" cy="-10" r="3" fill="#ffeb3b"/>
+    <circle cx="3" cy="-10" r="3" fill="#ffeb3b"/>
+    <circle cx="-3" cy="-10" r="2" fill="#333"/>
+    <circle cx="3" cy="-10" r="2" fill="#333"/>
+    
+    <!-- Owl beak -->
+    <polygon points="0,-6 -1,-4 1,-4" fill="#ff8f00"/>
+    
+    <!-- Owl ears -->
+    <polygon points="-6,-12 -4,-16 -2,-12" fill="#424242"/>
+    <polygon points="6,-12 4,-16 2,-12" fill="#424242"/>
+  </g>
+  
+  <!-- Bat -->
+  <g transform="translate(200,150)">
+    <!-- Bat body -->
+    <ellipse cx="0" cy="0" rx="3" ry="6" fill="#212121"/>
+    
+    <!-- Bat wings -->
+    <path d="M -3,0 Q -10,-5 -15,0 Q -10,5 -3,3" fill="#212121"/>
+    <path d="M 3,0 Q 10,-5 15,0 Q 10,5 3,3" fill="#212121"/>
+    
+    <!-- Bat head -->
+    <circle cx="0" cy="-4" r="2" fill="#212121"/>
+    
+    <!-- Bat ears -->
+    <polygon points="-1,-6 0,-8 1,-6" fill="#212121"/>
+  </g>
+  
+  <!-- Deep water reflecting darkness -->
+  <g transform="translate(300,450)">
+    <!-- Water surface -->
+    <ellipse cx="0" cy="0" rx="80" ry="20" fill="#0d1117"/>
+    <ellipse cx="0" cy="0" rx="75" ry="15" fill="#161b22"/>
+    
+    <!-- Ripples -->
+    <ellipse cx="0" cy="0" rx="60" ry="12" fill="none" stroke="#21262d" stroke-width="1"/>
+    <ellipse cx="0" cy="0" rx="40" ry="8" fill="none" stroke="#21262d" stroke-width="1"/>
+    <ellipse cx="0" cy="0" rx="20" ry="4" fill="none" stroke="#21262d" stroke-width="1"/>
+    
+    <!-- Reflection of moon -->
+    <ellipse cx="20" cy="0" rx="8" ry="15" fill="#f5f5f5" opacity="0.3"/>
+    <ellipse cx="20" cy="0" rx="6" ry="12" fill="#ffffff" opacity="0.2"/>
+  </g>
+  
+  <!-- Ancient darkness symbols -->
+  <g transform="translate(80,200)" opacity="0.4">
+    <!-- Yin yang in darkness -->
+    <circle cx="0" cy="0" r="15" fill="#ffffff"/>
+    <path d="M 0,-15 Q 15,0 0,15 Q 0,0 0,-15" fill="#1a1a1a"/>
+    <circle cx="0" cy="-7.5" r="3" fill="#1a1a1a"/>
+    <circle cx="0" cy="7.5" r="3" fill="#ffffff"/>
+  </g>
+  
+  <!-- Mysterious fog/mist -->
+  <g opacity="0.3">
+    <ellipse cx="150" cy="380" rx="60" ry="20" fill="#616161"/>
+    <ellipse cx="300" cy="400" rx="80" ry="15" fill="#424242"/>
+    <ellipse cx="450" cy="420" rx="50" ry="18" fill="#616161"/>
+    <ellipse cx="80" cy="450" rx="40" ry="12" fill="#424242"/>
+  </g>
+  
+  <!-- Dark mountain silhouettes -->
+  <g transform="translate(0,350)" opacity="0.7">
+    <polygon points="0,150 50,100 100,120 150,80 200,100 250,60 300,90 350,50 400,80 450,40 500,70 500,150" fill="#0d1117"/>
+  </g>
+  
+  <!-- Candle flame in darkness -->
+  <g transform="translate(50,300)">
+    <!-- Candle -->
+    <rect x="-3" y="10" width="6" height="30" fill="#fff3e0"/>
+    <rect x="-2" y="12" width="4" height="26" fill="#ffffff"/>
+    
+    <!-- Flame -->
+    <ellipse cx="0" cy="8" rx="2" ry="5" fill="#ff8f00"/>
+    <ellipse cx="0" cy="8" rx="1.5" ry="3" fill="#ffb300"/>
+    
+    <!-- Small light circle -->
+    <circle cx="0" cy="8" r="15" fill="#fff3e0" opacity="0.08"/>
+    
+    <!-- Wax drips -->
+    <ellipse cx="-2" cy="35" rx="1" ry="3" fill="#fff3e0"/>
+    <ellipse cx="2" cy="32" rx="1" ry="2" fill="#fff3e0"/>
+  </g>
+</svg> 

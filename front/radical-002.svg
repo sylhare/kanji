@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f5f5dc"/>
+  
+  <!-- Main staff -->
+  <rect x="235" y="50" width="30" height="400" fill="#8B4513" rx="15"/>
+  <rect x="240" y="50" width="20" height="400" fill="#A0522D" rx="10"/>
+  
+  <!-- Wood grain effect -->
+  <line x1="245" y1="60" x2="245" y2="440" stroke="#654321" stroke-width="2"/>
+  <line x1="255" y1="60" x2="255" y2="440" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Staff caps -->
+  <ellipse cx="250" cy="50" rx="20" ry="10" fill="#654321"/>
+  <ellipse cx="250" cy="450" rx="20" ry="10" fill="#654321"/>
+  
+  <!-- Grip wrapping in middle -->
+  <rect x="235" y="200" width="30" height="100" fill="#2F4F4F"/>
+  <rect x="235" y="205" width="30" height="5" fill="#708090"/>
+  <rect x="235" y="215" width="30" height="5" fill="#708090"/>
+  <rect x="235" y="225" width="30" height="5" fill="#708090"/>
+  <rect x="235" y="235" width="30" height="5" fill="#708090"/>
+  <rect x="235" y="245" width="30" height="5" fill="#708090"/>
+  <rect x="235" y="255" width="30" height="5" fill="#708090"/>
+  <rect x="235" y="265" width="30" height="5" fill="#708090"/>
+  <rect x="235" y="275" width="30" height="5" fill="#708090"/>
+  <rect x="235" y="285" width="30" height="5" fill="#708090"/>
+  <rect x="235" y="295" width="30" height="5" fill="#708090"/>
+  
+  <!-- Motion lines showing power -->
+  <path d="M 300 150 Q 350 150 400 120" stroke="#FFD700" stroke-width="4" fill="none" opacity="0.7"/>
+  <path d="M 300 180 Q 360 180 420 150" stroke="#FFA500" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 300 210 Q 370 210 440 180" stroke="#FF8C00" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <path d="M 200 320 Q 150 320 100 350" stroke="#FFD700" stroke-width="4" fill="none" opacity="0.7"/>
+  <path d="M 200 350 Q 140 350 80 380" stroke="#FFA500" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 200 380 Q 130 380 60 410" stroke="#FF8C00" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Sparks/impact effects -->
+  <polygon points="380,100 385,110 395,110 387,117 390,127 380,122 370,127 373,117 365,110 375,110" fill="#FFD700"/>
+  <polygon points="120,400 125,410 135,410 127,417 130,427 120,422 110,427 113,417 105,410 115,410" fill="#FF4500"/>
+  
+  <!-- Traditional martial arts symbols -->
+  <circle cx="100" cy="100" r="30" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <circle cx="100" cy="100" r="20" fill="none" stroke="#8B0000" stroke-width="2"/>
+  <path d="M 85 100 L 115 100 M 100 85 L 100 115" stroke="#8B0000" stroke-width="3"/>
+</svg> 

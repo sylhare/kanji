@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#faf9f7"/>
+  
+  <!-- Embroidery hoop -->
+  <circle cx="250" cy="250" r="120" fill="none" stroke="#8d6e63" stroke-width="8"/>
+  <circle cx="250" cy="250" r="115" fill="none" stroke="#a1887f" stroke-width="4"/>
+  
+  <!-- Fabric in hoop -->
+  <circle cx="250" cy="250" r="110" fill="#f5f5f5"/>
+  
+  <!-- Embroidery pattern - decorative flower -->
+  <g transform="translate(250,250)">
+    <!-- Center flower -->
+    <circle cx="0" cy="0" r="15" fill="#ff6b9d"/>
+    <circle cx="0" cy="0" r="10" fill="#ff8fab"/>
+    <circle cx="0" cy="0" r="5" fill="#ffb3c6"/>
+    
+    <!-- Flower petals -->
+    <ellipse cx="0" cy="-25" rx="8" ry="20" fill="#ff6b9d"/>
+    <ellipse cx="18" cy="-18" rx="8" ry="20" fill="#ff6b9d" transform="rotate(45)"/>
+    <ellipse cx="25" cy="0" rx="8" ry="20" fill="#ff6b9d" transform="rotate(90)"/>
+    <ellipse cx="18" cy="18" rx="8" ry="20" fill="#ff6b9d" transform="rotate(135)"/>
+    <ellipse cx="0" cy="25" rx="8" ry="20" fill="#ff6b9d" transform="rotate(180)"/>
+    <ellipse cx="-18" cy="18" rx="8" ry="20" fill="#ff6b9d" transform="rotate(225)"/>
+    <ellipse cx="-25" cy="0" rx="8" ry="20" fill="#ff6b9d" transform="rotate(270)"/>
+    <ellipse cx="-18" cy="-18" rx="8" ry="20" fill="#ff6b9d" transform="rotate(315)"/>
+    
+    <!-- Leaves -->
+    <ellipse cx="-45" cy="-10" rx="12" ry="6" fill="#4caf50" transform="rotate(-30)"/>
+    <ellipse cx="45" cy="-10" rx="12" ry="6" fill="#4caf50" transform="rotate(30)"/>
+    <ellipse cx="-45" cy="10" rx="12" ry="6" fill="#4caf50" transform="rotate(-150)"/>
+    <ellipse cx="45" cy="10" rx="12" ry="6" fill="#4caf50" transform="rotate(150)"/>
+    
+    <!-- Stem -->
+    <rect x="-2" y="25" width="4" height="40" fill="#4caf50"/>
+    
+    <!-- Small decorative elements -->
+    <circle cx="-60" cy="-60" r="5" fill="#2196f3"/>
+    <circle cx="60" cy="-60" r="5" fill="#2196f3"/>
+    <circle cx="-60" cy="60" r="5" fill="#2196f3"/>
+    <circle cx="60" cy="60" r="5" fill="#2196f3"/>
+    
+    <!-- Connecting vines -->
+    <path d="M -35 -35 Q -50 -50 -60 -60" stroke="#4caf50" stroke-width="2" fill="none"/>
+    <path d="M 35 -35 Q 50 -50 60 -60" stroke="#4caf50" stroke-width="2" fill="none"/>
+    <path d="M -35 35 Q -50 50 -60 60" stroke="#4caf50" stroke-width="2" fill="none"/>
+    <path d="M 35 35 Q 50 50 60 60" stroke="#4caf50" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Embroidery stitches -->
+  <g opacity="0.8">
+    <!-- French knots -->
+    <circle cx="200" cy="180" r="2" fill="#ff9800"/>
+    <circle cx="300" cy="180" r="2" fill="#ff9800"/>
+    <circle cx="200" cy="320" r="2" fill="#ff9800"/>
+    <circle cx="300" cy="320" r="2" fill="#ff9800"/>
+    
+    <!-- Chain stitches -->
+    <path d="M 170 250 Q 175 245 180 250 Q 185 255 190 250" 
+          stroke="#9c27b0" stroke-width="2" fill="none"/>
+    <path d="M 310 250 Q 315 245 320 250 Q 325 255 330 250" 
+          stroke="#9c27b0" stroke-width="2" fill="none"/>
+    
+    <!-- Satin stitches -->
+    <rect x="240" y="150" width="20" height="3" fill="#f44336"/>
+    <rect x="240" y="347" width="20" height="3" fill="#f44336"/>
+  </g>
+  
+  <!-- Embroidery needle -->
+  <g transform="translate(150,150) rotate(45)">
+    <rect x="0" y="-1" width="80" height="2" fill="#c0c0c0"/>
+    <circle cx="75" cy="0" r="4" fill="#999"/>
+    <circle cx="75" cy="0" r="2" fill="#333"/>
+    <polygon points="0,-2 12,0 0,2" fill="#e0e0e0"/>
+  </g>
+  
+  <!-- Thread through needle -->
+  <path d="M 200 105 Q 180 95 160 85" stroke="#ff6b9d" stroke-width="2" fill="none"/>
+  
+  <!-- Thread spools -->
+  <!-- Pink thread -->
+  <g transform="translate(80,80)">
+    <rect x="-8" y="-25" width="16" height="50" fill="#8d6e63" rx="3"/>
+    <ellipse cx="0" cy="-25" rx="12" ry="4" fill="#a1887f"/>
+    <ellipse cx="0" cy="25" rx="12" ry="4" fill="#6d4c41"/>
+    <ellipse cx="0" cy="-15" rx="10" ry="3" fill="#ff6b9d"/>
+    <ellipse cx="0" cy="-5" rx="12" ry="4" fill="#ff8fab"/>
+    <ellipse cx="0" cy="5" rx="14" ry="5" fill="#ff6b9d"/>
+    <ellipse cx="0" cy="15" rx="12" ry="4" fill="#ff8fab"/>
+  </g>
+  
+  <!-- Blue thread -->
+  <g transform="translate(420,80)">
+    <rect x="-8" y="-25" width="16" height="50" fill="#8d6e63" rx="3"/>
+    <ellipse cx="0" cy="-25" rx="12" ry="4" fill="#a1887f"/>
+    <ellipse cx="0" cy="25" rx="12" ry="4" fill="#6d4c41"/>
+    <ellipse cx="0" cy="-15" rx="10" ry="3" fill="#2196f3"/>
+    <ellipse cx="0" cy="-5" rx="12" ry="4" fill="#42a5f5"/>
+    <ellipse cx="0" cy="5" rx="14" ry="5" fill="#2196f3"/>
+    <ellipse cx="0" cy="15" rx="12" ry="4" fill="#42a5f5"/>
+  </g>
+  
+  <!-- Green thread -->
+  <g transform="translate(80,420)">
+    <rect x="-8" y="-25" width="16" height="50" fill="#8d6e63" rx="3"/>
+    <ellipse cx="0" cy="-25" rx="12" ry="4" fill="#a1887f"/>
+    <ellipse cx="0" cy="25" rx="12" ry="4" fill="#6d4c41"/>
+    <ellipse cx="0" cy="-15" rx="10" ry="3" fill="#4caf50"/>
+    <ellipse cx="0" cy="-5" rx="12" ry="4" fill="#66bb6a"/>
+    <ellipse cx="0" cy="5" rx="14" ry="5" fill="#4caf50"/>
+    <ellipse cx="0" cy="15" rx="12" ry="4" fill="#66bb6a"/>
+  </g>
+  
+  <!-- Purple thread -->
+  <g transform="translate(420,420)">
+    <rect x="-8" y="-25" width="16" height="50" fill="#8d6e63" rx="3"/>
+    <ellipse cx="0" cy="-25" rx="12" ry="4" fill="#a1887f"/>
+    <ellipse cx="0" cy="25" rx="12" ry="4" fill="#6d4c41"/>
+    <ellipse cx="0" cy="-15" rx="10" ry="3" fill="#9c27b0"/>
+    <ellipse cx="0" cy="-5" rx="12" ry="4" fill="#ba68c8"/>
+    <ellipse cx="0" cy="5" rx="14" ry="5" fill="#9c27b0"/>
+    <ellipse cx="0" cy="15" rx="12" ry="4" fill="#ba68c8"/>
+  </g>
+  
+  <!-- Scissors -->
+  <g transform="translate(50,250) rotate(-30)">
+    <ellipse cx="0" cy="-8" rx="6" ry="2" fill="#c0c0c0"/>
+    <ellipse cx="0" cy="8" rx="6" ry="2" fill="#c0c0c0"/>
+    <line x1="-10" y1="-8" x2="-18" y2="-12" stroke="#666" stroke-width="2"/>
+    <line x1="-10" y1="8" x2="-18" y2="12" stroke="#666" stroke-width="2"/>
+    <circle cx="0" cy="0" r="2" fill="#888"/>
+  </g>
+  
+  <!-- Thimble -->
+  <g transform="translate(450,250)">
+    <path d="M 0 20 Q 0 0 20 0 Q 25 5 25 20 Z" fill="#c0c0c0"/>
+    <g opacity="0.6">
+      <circle cx="8" cy="8" r="1" fill="#999"/>
+      <circle cx="15" cy="6" r="1" fill="#999"/>
+      <circle cx="12" cy="12" r="1" fill="#999"/>
+      <circle cx="18" cy="10" r="1" fill="#999"/>
+      <circle cx="6" cy="15" r="1" fill="#999"/>
+      <circle cx="12" cy="18" r="1" fill="#999"/>
+      <circle cx="18" cy="16" r="1" fill="#999"/>
+    </g>
+  </g>
+  
+  <!-- Pattern book -->
+  <rect x="350" y="50" width="80" height="100" fill="#fff" stroke="#ddd" stroke-width="2"/>
+  <text x="390" y="70" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">PATTERNS</text>
+  
+  <!-- Pattern sketches -->
+  <circle cx="370" cy="90" r="8" fill="none" stroke="#ff6b9d" stroke-width="1"/>
+  <circle cx="410" cy="90" r="8" fill="none" stroke="#2196f3" stroke-width="1"/>
+  <rect x="365" y="110" width="10" height="10" fill="none" stroke="#4caf50" stroke-width="1"/>
+  <polygon points="405,110 415,110 410,120" fill="none" stroke="#9c27b0" stroke-width="1"/>
+  
+  <!-- Work surface -->
+  <rect x="100" y="480" width="300" height="20" fill="#8d6e63"/>
+  <rect x="105" y="485" width="290" height="10" fill="#a1887f"/>
+</svg> 

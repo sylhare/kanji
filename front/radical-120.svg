@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#fefefe"/>
+  
+  <!-- Main thread spool -->
+  <g transform="translate(250,250)">
+    <!-- Spool body -->
+    <rect x="-15" y="-80" width="30" height="160" fill="#8d6e63" rx="5"/>
+    
+    <!-- Top rim -->
+    <ellipse cx="0" cy="-80" rx="25" ry="8" fill="#a1887f"/>
+    <ellipse cx="0" cy="-75" rx="25" ry="8" fill="#bcaaa4"/>
+    
+    <!-- Bottom rim -->
+    <ellipse cx="0" cy="80" rx="25" ry="8" fill="#6d4c41"/>
+    <ellipse cx="0" cy="75" rx="25" ry="8" fill="#8d6e63"/>
+    
+    <!-- Thread wound around spool -->
+    <ellipse cx="0" cy="-60" rx="20" ry="6" fill="#ff5722"/>
+    <ellipse cx="0" cy="-50" rx="22" ry="7" fill="#f44336"/>
+    <ellipse cx="0" cy="-40" rx="24" ry="8" fill="#ff5722"/>
+    <ellipse cx="0" cy="-30" rx="26" ry="9" fill="#f44336"/>
+    <ellipse cx="0" cy="-20" rx="28" ry="10" fill="#ff5722"/>
+    <ellipse cx="0" cy="-10" rx="30" ry="11" fill="#f44336"/>
+    <ellipse cx="0" cy="0" rx="32" ry="12" fill="#ff5722"/>
+    <ellipse cx="0" cy="10" rx="30" ry="11" fill="#f44336"/>
+    <ellipse cx="0" cy="20" rx="28" ry="10" fill="#ff5722"/>
+    <ellipse cx="0" cy="30" rx="26" ry="9" fill="#f44336"/>
+    <ellipse cx="0" cy="40" rx="24" ry="8" fill="#ff5722"/>
+    <ellipse cx="0" cy="50" rx="22" ry="7" fill="#f44336"/>
+    <ellipse cx="0" cy="60" rx="20" ry="6" fill="#ff5722"/>
+    
+    <!-- Loose thread end -->
+    <path d="M 32 0 Q 60 -20 80 0 Q 100 20 120 0 Q 140 -20 160 0" 
+          stroke="#ff5722" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Additional thread spools -->
+  <!-- Left spool (blue thread) -->
+  <g transform="translate(120,180)">
+    <rect x="-8" y="-40" width="16" height="80" fill="#8d6e63" rx="3"/>
+    <ellipse cx="0" cy="-40" rx="15" ry="5" fill="#a1887f"/>
+    <ellipse cx="0" cy="40" rx="15" ry="5" fill="#6d4c41"/>
+    
+    <ellipse cx="0" cy="-20" rx="12" ry="4" fill="#2196f3"/>
+    <ellipse cx="0" cy="-10" rx="14" ry="5" fill="#1976d2"/>
+    <ellipse cx="0" cy="0" rx="16" ry="6" fill="#2196f3"/>
+    <ellipse cx="0" cy="10" rx="14" ry="5" fill="#1976d2"/>
+    <ellipse cx="0" cy="20" rx="12" ry="4" fill="#2196f3"/>
+  </g>
+  
+  <!-- Right spool (green thread) -->
+  <g transform="translate(380,320)">
+    <rect x="-8" y="-40" width="16" height="80" fill="#8d6e63" rx="3"/>
+    <ellipse cx="0" cy="-40" rx="15" ry="5" fill="#a1887f"/>
+    <ellipse cx="0" cy="40" rx="15" ry="5" fill="#6d4c41"/>
+    
+    <ellipse cx="0" cy="-20" rx="12" ry="4" fill="#4caf50"/>
+    <ellipse cx="0" cy="-10" rx="14" ry="5" fill="#388e3c"/>
+    <ellipse cx="0" cy="0" rx="16" ry="6" fill="#4caf50"/>
+    <ellipse cx="0" cy="10" rx="14" ry="5" fill="#388e3c"/>
+    <ellipse cx="0" cy="20" rx="12" ry="4" fill="#4caf50"/>
+  </g>
+  
+  <!-- Thread strands -->
+  <!-- Red thread from main spool -->
+  <path d="M 410 250 Q 450 200 480 180" stroke="#ff5722" stroke-width="2" fill="none"/>
+  
+  <!-- Blue thread -->
+  <path d="M 120 140 Q 150 100 200 80 Q 250 60 300 80" stroke="#2196f3" stroke-width="2" fill="none"/>
+  
+  <!-- Green thread -->
+  <path d="M 380 280 Q 350 240 320 220 Q 280 200 240 220" stroke="#4caf50" stroke-width="2" fill="none"/>
+  
+  <!-- Needle -->
+  <g transform="translate(100,350) rotate(-30)">
+    <rect x="0" y="-1" width="60" height="2" fill="#c0c0c0"/>
+    <circle cx="55" cy="0" r="3" fill="#999"/>
+    <circle cx="55" cy="0" r="1.5" fill="#333"/>
+    <polygon points="0,-2 10,0 0,2" fill="#e0e0e0"/>
+  </g>
+  
+  <!-- Thread through needle -->
+  <path d="M 140 335 Q 120 325 100 315" stroke="#ff5722" stroke-width="1.5" fill="none"/>
+  
+  <!-- Sewing thimble -->
+  <g transform="translate(50,200)">
+    <path d="M 0 20 Q 0 0 20 0 Q 25 5 25 20 Z" fill="#c0c0c0"/>
+    <g opacity="0.6">
+      <circle cx="8" cy="8" r="1" fill="#999"/>
+      <circle cx="15" cy="6" r="1" fill="#999"/>
+      <circle cx="12" cy="12" r="1" fill="#999"/>
+      <circle cx="18" cy="10" r="1" fill="#999"/>
+      <circle cx="6" cy="15" r="1" fill="#999"/>
+      <circle cx="12" cy="18" r="1" fill="#999"/>
+      <circle cx="18" cy="16" r="1" fill="#999"/>
+    </g>
+  </g>
+  
+  <!-- Measuring tape -->
+  <g transform="translate(350,100)">
+    <rect x="0" y="0" width="80" height="8" fill="#ffc107" rx="4"/>
+    <line x1="5" y1="4" x2="75" y2="4" stroke="#ff8f00" stroke-width="1"/>
+    <text x="10" y="20" font-family="Arial" font-size="8" fill="#333">0</text>
+    <text x="30" y="20" font-family="Arial" font-size="8" fill="#333">5</text>
+    <text x="50" y="20" font-family="Arial" font-size="8" fill="#333">10</text>
+    <text x="70" y="20" font-family="Arial" font-size="8" fill="#333">15</text>
+  </g>
+  
+  <!-- Scissors -->
+  <g transform="translate(450,350) rotate(45)">
+    <ellipse cx="0" cy="-8" rx="6" ry="2" fill="#c0c0c0"/>
+    <ellipse cx="0" cy="8" rx="6" ry="2" fill="#c0c0c0"/>
+    <line x1="-10" y1="-8" x2="-18" y2="-12" stroke="#666" stroke-width="2"/>
+    <line x1="-10" y1="8" x2="-18" y2="12" stroke="#666" stroke-width="2"/>
+    <circle cx="0" cy="0" r="2" fill="#888"/>
+  </g>
+  
+  <!-- Thread organizer box -->
+  <rect x="50" y="420" width="120" height="60" fill="#8d6e63" stroke="#6d4c41" stroke-width="2"/>
+  <rect x="55" y="425" width="110" height="50" fill="#a1887f"/>
+  
+  <!-- Compartments in box -->
+  <line x1="85" y1="425" x2="85" y2="475" stroke="#6d4c41" stroke-width="1"/>
+  <line x1="120" y1="425" x2="120" y2="475" stroke="#6d4c41" stroke-width="1"/>
+  <line x1="55" y1="450" x2="165" y2="450" stroke="#6d4c41" stroke-width="1"/>
+  
+  <!-- Small thread spools in compartments -->
+  <circle cx="70" cy="437" r="6" fill="#ff5722"/>
+  <circle cx="102" cy="437" r="6" fill="#2196f3"/>
+  <circle cx="135" cy="437" r="6" fill="#4caf50"/>
+  <circle cx="70" cy="462" r="6" fill="#9c27b0"/>
+  <circle cx="102" cy="462" r="6" fill="#ff9800"/>
+  <circle cx="135" cy="462" r="6" fill="#795548"/>
+  
+  <!-- Thread quality label -->
+  <rect x="300" y="420" width="80" height="30" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="340" y="435" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">SILK THREAD</text>
+  <text x="340" y="445" text-anchor="middle" font-family="Arial" font-size="8" fill="#666">Premium</text>
+</svg> 

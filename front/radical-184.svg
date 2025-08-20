@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#FFF8DC"/>
+  
+  <!-- Main plate -->
+  <ellipse cx="250" cy="280" rx="150" ry="80" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="4"/>
+  <ellipse cx="250" cy="275" rx="140" ry="75" fill="#FAFAFA"/>
+  
+  <!-- Various food items on plate -->
+  <!-- Rice -->
+  <ellipse cx="200" cy="260" rx="30" ry="20" fill="#F5F5DC"/>
+  <circle cx="195" cy="255" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="205" cy="258" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="200" cy="265" r="2" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Vegetables -->
+  <circle cx="280" cy="250" r="15" fill="#FF6347"/> <!-- Tomato -->
+  <ellipse cx="320" cy="270" rx="20" ry="12" fill="#32CD32"/> <!-- Green vegetable -->
+  <circle cx="180" cy="300" r="12" fill="#FF4500"/> <!-- Carrot -->
+  
+  <!-- Protein -->
+  <ellipse cx="260" cy="300" rx="25" ry="18" fill="#D2691E"/> <!-- Meat -->
+  <circle cx="300" cy="290" r="10" fill="#FFE4B5"/> <!-- Fish -->
+  
+  <!-- Chopsticks -->
+  <rect x="350" y="200" width="80" height="4" fill="#8B4513" rx="2" transform="rotate(15 350 200)"/>
+  <rect x="350" y="210" width="80" height="4" fill="#8B4513" rx="2" transform="rotate(15 350 210)"/>
+  
+  <!-- Steam from hot food -->
+  <path d="M 200 230 Q 205 220 210 230 Q 215 220 220 230" 
+        stroke="#E0E0E0" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M 260 270 Q 265 260 270 270 Q 275 260 280 270" 
+        stroke="#E0E0E0" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M 300 260 Q 305 250 310 260" 
+        stroke="#E0E0E0" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Bowl of soup -->
+  <ellipse cx="120" cy="200" rx="40" ry="25" fill="#8B4513"/>
+  <ellipse cx="120" cy="195" rx="35" ry="20" fill="#FFE4B5"/>
+  <path d="M 110 185 Q 115 175 120 185 Q 125 175 130 185" 
+        stroke="#E0E0E0" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Drinking cup -->
+  <ellipse cx="400" cy="250" rx="25" ry="20" fill="#87CEEB"/>
+  <ellipse cx="400" cy="245" rx="20" ry="15" fill="#B0E0E6"/>
+  
+  <!-- Table surface -->
+  <rect x="0" y="380" width="500" height="120" fill="#DEB887" rx="10"/>
+  <rect x="0" y="385" width="500" height="5" fill="#D2B48C"/>
+  
+  <!-- Additional food items around -->
+  <!-- Bread -->
+  <ellipse cx="80" cy="350" rx="25" ry="15" fill="#DEB887"/>
+  <path d="M 65 345 Q 80 340 95 345" stroke="#CD853F" stroke-width="2" fill="none"/>
+  
+  <!-- Fruit -->
+  <circle cx="420" cy="180" r="18" fill="#FF69B4"/> <!-- Apple -->
+  <path d="M 415 165 Q 420 160 425 165" stroke="#228B22" stroke-width="3" fill="none"/>
+  
+  <!-- Salt and pepper -->
+  <rect x="450" y="320" width="12" height="25" fill="#FFFFFF" rx="6"/>
+  <rect x="470" y="320" width="12" height="25" fill="#000000" rx="6"/>
+  
+  <!-- Tablecloth pattern -->
+  <circle cx="50" cy="420" r="3" fill="#FF1493" opacity="0.3"/>
+  <circle cx="150" cy="450" r="3" fill="#FF1493" opacity="0.3"/>
+  <circle cx="350" cy="430" r="3" fill="#FF1493" opacity="0.3"/>
+  <circle cx="450" cy="460" r="3" fill="#FF1493" opacity="0.3"/>
+</svg>

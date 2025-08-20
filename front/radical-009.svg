@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#f0f8ff"/>
+  
+  <!-- Main person figure -->
+  <circle cx="250" cy="120" r="40" fill="#FDBCB4"/>
+  <circle cx="250" cy="120" r="35" fill="#F5B2A8"/>
+  
+  <!-- Hair -->
+  <circle cx="250" cy="105" r="45" fill="#8B4513"/>
+  <circle cx="250" cy="100" r="40" fill="#A0522D"/>
+  
+  <!-- Face features -->
+  <circle cx="235" cy="115" r="3" fill="#000000"/>
+  <circle cx="265" cy="115" r="3" fill="#000000"/>
+  <path d="M 240 130 Q 250 140 260 130" stroke="#FF6B6B" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <ellipse cx="250" cy="220" rx="50" ry="80" fill="#4169E1"/>
+  <ellipse cx="250" cy="220" rx="45" ry="75" fill="#6495ED"/>
+  
+  <!-- Arms -->
+  <ellipse cx="190" cy="200" rx="20" ry="60" fill="#FDBCB4" transform="rotate(-20 190 200)"/>
+  <ellipse cx="310" cy="200" rx="20" ry="60" fill="#FDBCB4" transform="rotate(20 310 200)"/>
+  
+  <!-- Hands -->
+  <circle cx="175" cy="250" r="12" fill="#F5B2A8"/>
+  <circle cx="325" cy="250" r="12" fill="#F5B2A8"/>
+  
+  <!-- Legs -->
+  <ellipse cx="225" cy="350" rx="25" ry="70" fill="#FDBCB4"/>
+  <ellipse cx="275" cy="350" rx="25" ry="70" fill="#FDBCB4"/>
+  
+  <!-- Feet -->
+  <ellipse cx="225" cy="420" rx="15" ry="8" fill="#8B4513"/>
+  <ellipse cx="275" cy="420" rx="15" ry="8" fill="#8B4513"/>
+  
+  <!-- Different people around -->
+  <!-- Child -->
+  <circle cx="100" cy="300" r="20" fill="#FDBCB4"/>
+  <circle cx="100" cy="295" r="22" fill="#FFD700"/>
+  <ellipse cx="100" cy="340" rx="25" ry="40" fill="#FF69B4"/>
+  <ellipse cx="85" cy="360" rx="12" ry="30" fill="#FDBCB4"/>
+  <ellipse cx="115" cy="360" rx="12" ry="30" fill="#FDBCB4"/>
+  <circle cx="95" cy="295" r="2" fill="#000000"/>
+  <circle cx="105" cy="295" r="2" fill="#000000"/>
+  
+  <!-- Elderly person with cane -->
+  <circle cx="400" cy="150" r="25" fill="#FDBCB4"/>
+  <circle cx="400" cy="145" r="27" fill="#D3D3D3"/>
+  <ellipse cx="400" cy="210" rx="35" ry="50" fill="#8B008B"/>
+  <ellipse cx="370" cy="230" rx="15" ry="40" fill="#FDBCB4"/>
+  <ellipse cx="430" cy="230" rx="15" ry="40" fill="#FDBCB4"/>
+  <ellipse cx="385" cy="300" rx="15" ry="45" fill="#FDBCB4"/>
+  <ellipse cx="415" cy="300" rx="15" ry="45" fill="#FDBCB4"/>
+  <rect x="445" y="200" width="4" height="80" fill="#8B4513"/>
+  
+  <!-- Person running -->
+  <circle cx="350" cy="350" r="18" fill="#FDBCB4"/>
+  <ellipse cx="350" cy="385" rx="20" ry="30" fill="#32CD32"/>
+  <ellipse cx="320" cy="380" rx="12" ry="25" fill="#FDBCB4" transform="rotate(-30 320 380)"/>
+  <ellipse cx="380" cy="375" rx="12" ry="25" fill="#FDBCB4" transform="rotate(30 380 375)"/>
+  <ellipse cx="335" cy="430" rx="12" ry="30" fill="#FDBCB4" transform="rotate(-15 335 430)"/>
+  <ellipse cx="365" cy="425" rx="12" ry="30" fill="#FDBCB4" transform="rotate(15 365 425)"/>
+  
+  <!-- Motion lines -->
+  <line x1="300" y1="370" x2="330" y2="375" stroke="#FFD700" stroke-width="2"/>
+  <line x1="305" y1="385" x2="335" y2="390" stroke="#FFD700" stroke-width="2"/>
+  <line x1="310" y1="400" x2="340" y2="405" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Person sitting -->
+  <circle cx="80" cy="100" r="20" fill="#FDBCB4"/>
+  <ellipse cx="80" cy="140" rx="25" ry="30" fill="#8B0000"/>
+  <ellipse cx="60" cy="130" rx="12" ry="20" fill="#FDBCB4"/>
+  <ellipse cx="100" cy="130" rx="12" ry="20" fill="#FDBCB4"/>
+  <ellipse cx="65" cy="180" rx="15" ry="25" fill="#FDBCB4"/>
+  <ellipse cx="95" cy="180" rx="15" ry="25" fill="#FDBCB4"/>
+  
+  <!-- Chair -->
+  <rect x="50" y="170" width="60" height="5" fill="#8B4513"/>
+  <rect x="60" y="175" width="5" height="30" fill="#8B4513"/>
+  <rect x="95" y="175" width="5" height="30" fill="#8B4513"/>
+  <rect x="60" y="140" width="5" height="40" fill="#8B4513"/>
+  <rect x="95" y="140" width="5" height="40" fill="#8B4513"/>
+  
+  <!-- Person waving -->
+  <circle cx="450" cy="350" r="22" fill="#FDBCB4"/>
+  <ellipse cx="450" cy="390" rx="30" ry="40" fill="#FF6347"/>
+  <ellipse cx="410" cy="370" rx="15" ry="35" fill="#FDBCB4" transform="rotate(-45 410 370)"/>
+  <ellipse cx="490" cy="365" rx="15" ry="35" fill="#FDBCB4" transform="rotate(45 490 365)"/>
+  <circle cx="395" cy="345" r="10" fill="#F5B2A8"/>
+  <circle cx="505" cy="340" r="10" fill="#F5B2A8"/>
+  
+  <!-- Wave gesture lines -->
+  <path d="M 500 335 Q 510 330 520 335" stroke="#FFD700" stroke-width="2" fill="none"/>
+  <path d="M 505 345 Q 515 340 525 345" stroke="#FFD700" stroke-width="2" fill="none"/>
+  
+  <!-- Group of people silhouettes -->
+  <ellipse cx="150" cy="450" rx="30" ry="50" fill="#4169E1" opacity="0.6"/>
+  <ellipse cx="200" cy="450" rx="25" ry="45" fill="#FF6347" opacity="0.6"/>
+  <ellipse cx="250" cy="450" rx="35" ry="55" fill="#32CD32" opacity="0.6"/>
+  <ellipse cx="300" cy="450" rx="28" ry="48" fill="#FF69B4" opacity="0.6"/>
+  <ellipse cx="350" cy="450" rx="32" ry="52" fill="#FFD700" opacity="0.6"/>
+  
+  <!-- People symbols -->
+  <circle cx="50" cy="50" r="25" fill="none" stroke="#4169E1" stroke-width="3"/>
+  <circle cx="50" cy="40" r="8" fill="#4169E1"/>
+  <ellipse cx="50" cy="58" rx="12" ry="18" fill="none" stroke="#4169E1" stroke-width="2"/>
+  <line x1="42" y1="55" x2="38" y2="70" stroke="#4169E1" stroke-width="2"/>
+  <line x1="58" y1="55" x2="62" y2="70" stroke="#4169E1" stroke-width="2"/>
+  <line x1="45" y1="70" x2="42" y2="85" stroke="#4169E1" stroke-width="2"/>
+  <line x1="55" y1="70" x2="58" y2="85" stroke="#4169E1" stroke-width="2"/>
+  
+  <!-- Diversity representation -->
+  <!-- Different skin tones -->
+  <circle cx="150" cy="50" r="15" fill="#8B4513"/>
+  <circle cx="180" cy="50" r="15" fill="#FDBCB4"/>
+  <circle cx="210" cy="50" r="15" fill="#DEB887"/>
+  <circle cx="240" cy="50" r="15" fill="#F5DEB3"/>
+  
+  <!-- Age indicators -->
+  <text x="120" y="330" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Child</text>
+  <text x="420" y="330" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Elder</text>
+  <text x="370" y="480" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Runner</text>
+  
+  <!-- Community symbol -->
+  <circle cx="450" cy="50" r="25" fill="none" stroke="#32CD32" stroke-width="3"/>
+  <circle cx="440" cy="45" r="4" fill="#32CD32"/>
+  <circle cx="450" cy="45" r="4" fill="#32CD32"/>
+  <circle cx="460" cy="45" r="4" fill="#32CD32"/>
+  <ellipse cx="450" cy="60" rx="15" ry="8" fill="none" stroke="#32CD32" stroke-width="2"/>
+</svg> 

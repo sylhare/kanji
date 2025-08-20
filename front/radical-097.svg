@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F0FFF0"/>
+  
+  <!-- Main melon -->
+  <ellipse cx="250" cy="280" rx="80" ry="60" fill="#90EE90" stroke="#228B22" stroke-width="4"/>
+  
+  <!-- Melon stripes -->
+  <path d="M 180 260 Q 250 240 320 260" stroke="#006400" stroke-width="3" fill="none"/>
+  <path d="M 185 280 Q 250 260 315 280" stroke="#006400" stroke-width="3" fill="none"/>
+  <path d="M 185 300 Q 250 320 315 300" stroke="#006400" stroke-width="3" fill="none"/>
+  <path d="M 190 320 Q 250 340 310 320" stroke="#006400" stroke-width="3" fill="none"/>
+  
+  <!-- Smaller melons -->
+  <ellipse cx="150" cy="200" rx="35" ry="25" fill="#90EE90" stroke="#228B22" stroke-width="2"/>
+  <path d="M 125 190 Q 150 185 175 190" stroke="#006400" stroke-width="2" fill="none"/>
+  <path d="M 130 210 Q 150 215 170 210" stroke="#006400" stroke-width="2" fill="none"/>
+  
+  <ellipse cx="370" cy="180" rx="30" ry="20" fill="#90EE90" stroke="#228B22" stroke-width="2"/>
+  <path d="M 350 170 Q 370 165 390 170" stroke="#006400" stroke-width="2" fill="none"/>
+  <path d="M 355 190 Q 370 195 385 190" stroke="#006400" stroke-width="2" fill="none"/>
+  
+  <!-- Melon stems -->
+  <rect x="248" y="210" width="4" height="25" fill="#8B4513" rx="2"/>
+  <rect x="148" y="170" width="3" height="15" fill="#8B4513" rx="1"/>
+  <rect x="368" y="155" width="3" height="12" fill="#8B4513" rx="1"/>
+  
+  <!-- Vine -->
+  <path d="M 200 160 Q 180 140 150 130 Q 120 125 100 140 Q 80 155 90 180" 
+        stroke="#228B22" stroke-width="6" fill="none"/>
+  <path d="M 300 150 Q 320 130 350 125 Q 380 120 400 135 Q 420 150 410 175" 
+        stroke="#228B22" stroke-width="6" fill="none"/>
+  
+  <!-- Vine leaves -->
+  <path d="M 130 140 Q 120 125 105 130 Q 95 140 105 155 Q 120 160 135 155 Q 140 145 130 140 Z" 
+        fill="#32CD32"/>
+  <path d="M 170 120 Q 160 105 145 110 Q 135 120 145 135 Q 160 140 175 135 Q 180 125 170 120 Z" 
+        fill="#32CD32"/>
+  <path d="M 380 135 Q 370 120 355 125 Q 345 135 355 150 Q 370 155 385 150 Q 390 140 380 135 Z" 
+        fill="#32CD32"/>
+  <path d="M 420 155 Q 410 140 395 145 Q 385 155 395 170 Q 410 175 425 170 Q 430 160 420 155 Z" 
+        fill="#32CD32"/>
+  
+  <!-- Seeds inside melon (showing through) -->
+  <ellipse cx="230" cy="270" rx="3" ry="2" fill="#F5DEB3" opacity="0.8"/>
+  <ellipse cx="270" cy="275" rx="3" ry="2" fill="#F5DEB3" opacity="0.8"/>
+  <ellipse cx="250" cy="290" rx="3" ry="2" fill="#F5DEB3" opacity="0.8"/>
+  <ellipse cx="240" cy="305" rx="3" ry="2" fill="#F5DEB3" opacity="0.8"/>
+  <ellipse cx="260" cy="300" rx="3" ry="2" fill="#F5DEB3" opacity="0.8"/>
+  
+  <!-- Cross-section view -->
+  <ellipse cx="120" cy="350" rx="40" ry="30" fill="#FFE4E1" stroke="#228B22" stroke-width="3"/>
+  <ellipse cx="120" cy="350" rx="30" ry="20" fill="#F0FFF0"/>
+  <!-- Seeds in cross-section -->
+  <ellipse cx="110" cy="345" rx="3" ry="2" fill="#F5DEB3"/>
+  <ellipse cx="125" cy="350" rx="3" ry="2" fill="#F5DEB3"/>
+  <ellipse cx="115" cy="360" rx="3" ry="2" fill="#F5DEB3"/>
+  <ellipse cx="130" cy="355" rx="3" ry="2" fill="#F5DEB3"/>
+  
+  <!-- Ground/soil -->
+  <rect x="0" y="450" width="500" height="50" fill="#8B4513"/>
+  <rect x="0" y="440" width="500" height="10" fill="#A0522D" opacity="0.7"/>
+  
+  <!-- Farm tools -->
+  <ellipse cx="400" cy="380" rx="30" ry="15" fill="#8B4513"/> <!-- Basket -->
+  <ellipse cx="400" cy="375" rx="25" ry="10" fill="#D2B48C"/>
+  <!-- Melons in basket -->
+  <ellipse cx="390" cy="370" rx="8" ry="6" fill="#90EE90"/>
+  <ellipse cx="405" cy="372" rx="8" ry="6" fill="#90EE90"/>
+  <ellipse cx="410" cy="378" rx="6" ry="4" fill="#90EE90"/>
+</svg>

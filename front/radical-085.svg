@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#e6f7ff"/>
+  
+  <!-- Water drops -->
+  <path d="M 200 100 Q 190 80 200 60 Q 210 80 200 100 Z" fill="#4169E1"/>
+  <path d="M 200 95 Q 195 80 200 65 Q 205 80 200 95 Z" fill="#6495ED"/>
+  <path d="M 200 90 Q 197 80 200 70 Q 203 80 200 90 Z" fill="#87CEEB"/>
+  
+  <path d="M 300 120 Q 290 100 300 80 Q 310 100 300 120 Z" fill="#4169E1"/>
+  <path d="M 300 115 Q 295 100 300 85 Q 305 100 300 115 Z" fill="#6495ED"/>
+  
+  <path d="M 150 80 Q 145 65 150 50 Q 155 65 150 80 Z" fill="#4169E1"/>
+  <path d="M 150 76 Q 147 65 150 54 Q 153 65 150 76 Z" fill="#6495ED"/>
+  
+  <!-- Ocean waves -->
+  <path d="M 0 300 Q 50 280 100 300 Q 150 320 200 300 Q 250 280 300 300 Q 350 320 400 300 Q 450 280 500 300 L 500 500 L 0 500 Z" fill="#4169E1"/>
+  <path d="M 0 310 Q 50 290 100 310 Q 150 330 200 310 Q 250 290 300 310 Q 350 330 400 310 Q 450 290 500 310 L 500 500 L 0 500 Z" fill="#6495ED"/>
+  <path d="M 0 320 Q 50 300 100 320 Q 150 340 200 320 Q 250 300 300 320 Q 350 340 400 320 Q 450 300 500 320 L 500 500 L 0 500 Z" fill="#87CEEB"/>
+  
+  <!-- Wave crests -->
+  <path d="M 50 280 Q 60 270 70 280" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+  <path d="M 150 320 Q 160 310 170 320" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+  <path d="M 250 280 Q 260 270 270 280" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+  <path d="M 350 320 Q 360 310 370 320" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+  <path d="M 450 280 Q 460 270 470 280" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+  
+  <!-- Water bubbles -->
+  <circle cx="80" cy="350" r="5" fill="#B0E0E6" opacity="0.7"/>
+  <circle cx="120" cy="380" r="3" fill="#E0F6FF" opacity="0.8"/>
+  <circle cx="180" cy="360" r="4" fill="#B0E0E6" opacity="0.6"/>
+  <circle cx="220" cy="390" r="6" fill="#E0F6FF" opacity="0.7"/>
+  <circle cx="280" cy="370" r="3" fill="#B0E0E6" opacity="0.8"/>
+  <circle cx="320" cy="400" r="5" fill="#E0F6FF" opacity="0.6"/>
+  <circle cx="380" cy="350" r="4" fill="#B0E0E6" opacity="0.7"/>
+  <circle cx="420" cy="380" r="3" fill="#E0F6FF" opacity="0.8"/>
+  
+  <!-- River/stream -->
+  <path d="M 450 50 Q 400 100 350 80 Q 300 60 250 100 Q 200 140 150 120 Q 100 100 50 140 Q 0 180 -20 200" stroke="#4169E1" stroke-width="20" fill="none"/>
+  <path d="M 450 50 Q 400 100 350 80 Q 300 60 250 100 Q 200 140 150 120 Q 100 100 50 140 Q 0 180 -20 200" stroke="#6495ED" stroke-width="15" fill="none"/>
+  <path d="M 450 50 Q 400 100 350 80 Q 300 60 250 100 Q 200 140 150 120 Q 100 100 50 140 Q 0 180 -20 200" stroke="#87CEEB" stroke-width="10" fill="none"/>
+  
+  <!-- Waterfall -->
+  <rect x="80" y="150" width="30" height="150" fill="#E0F6FF"/>
+  <rect x="85" y="150" width="20" height="150" fill="#F0F8FF"/>
+  <rect x="90" y="150" width="10" height="150" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Waterfall mist -->
+  <ellipse cx="95" cy="280" rx="40" ry="20" fill="#F0F8FF" opacity="0.5"/>
+  <ellipse cx="95" cy="290" rx="35" ry="15" fill="#E0F6FF" opacity="0.4"/>
+  
+  <!-- Rain -->
+  <line x1="350" y1="150" x2="345" y2="180" stroke="#6495ED" stroke-width="2"/>
+  <line x1="370" y1="140" x2="365" y2="170" stroke="#6495ED" stroke-width="2"/>
+  <line x1="390" y1="160" x2="385" y2="190" stroke="#6495ED" stroke-width="2"/>
+  <line x1="410" y1="150" x2="405" y2="180" stroke="#6495ED" stroke-width="2"/>
+  <line x1="430" y1="170" x2="425" y2="200" stroke="#6495ED" stroke-width="2"/>
+  
+  <!-- Rain cloud -->
+  <ellipse cx="390" cy="120" rx="40" ry="20" fill="#696969"/>
+  <ellipse cx="370" cy="125" rx="30" ry="15" fill="#778899"/>
+  <ellipse cx="410" cy="125" rx="35" ry="18" fill="#778899"/>
+  <ellipse cx="390" cy="135" rx="50" ry="12" fill="#A9A9A9"/>
+  
+  <!-- Ice/snow -->
+  <polygon points="470,60 465,70 475,70" fill="#B0E0E6"/>
+  <polygon points="470,60 468,68 472,68" fill="#E0F6FF"/>
+  
+  <polygon points="480,80 475,90 485,90" fill="#B0E0E6"/>
+  <polygon points="480,80 478,88 482,88" fill="#E0F6FF"/>
+  
+  <!-- Water cycle arrows -->
+  <path d="M 380 200 Q 350 220 320 200" stroke="#32CD32" stroke-width="3" fill="none"/>
+  <polygon points="315,195 320,200 315,205" fill="#32CD32"/>
+  <text x="350" y="240" text-anchor="middle" font-family="Arial" font-size="10" fill="#32CD32">Evaporation</text>
+  
+  <!-- Steam/vapor -->
+  <path d="M 250 200 Q 255 180 260 200 Q 265 180 270 200" stroke="#E0F6FF" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M 280 190 Q 285 170 290 190 Q 295 170 300 190" stroke="#E0F6FF" stroke-width="3" fill="none" opacity="0.7"/>
+  
+  <!-- Pond/lake -->
+  <ellipse cx="400" cy="250" rx="60" ry="30" fill="#4169E1"/>
+  <ellipse cx="400" cy="245" rx="55" ry="25" fill="#6495ED"/>
+  <ellipse cx="400" cy="240" rx="50" ry="20" fill="#87CEEB"/>
+  
+  <!-- Fish in water -->
+  <ellipse cx="390" cy="245" rx="12" ry="6" fill="#FF6347"/>
+  <polygon points="378,245 385,240 385,250" fill="#FF6347"/>
+  <circle cx="395" cy="243" r="1" fill="#000000"/>
+  
+  <!-- Water lily -->
+  <ellipse cx="410" cy="240" rx="8" ry="8" fill="#32CD32"/>
+  <circle cx="410" cy="240" r="3" fill="#FFD700"/>
+  
+  <!-- Traditional water symbol -->
+  <circle cx="50" cy="250" r="25" fill="none" stroke="#4169E1" stroke-width="3"/>
+  <path d="M 30 250 Q 40 240 50 250 Q 60 260 70 250" stroke="#4169E1" stroke-width="3" fill="none"/>
+  <path d="M 35 260 Q 45 250 55 260 Q 65 270 75 260" stroke="#4169E1" stroke-width="3" fill="none"/>
+  
+  <!-- H2O molecular structure -->
+  <circle cx="450" cy="350" r="12" fill="#FF0000"/>
+  <circle cx="430" cy="370" r="8" fill="#FFFFFF"/>
+  <circle cx="470" cy="370" r="8" fill="#FFFFFF"/>
+  <line x1="444" y1="362" x2="436" y2="370" stroke="#000000" stroke-width="2"/>
+  <line x1="456" y1="362" x2="464" y2="370" stroke="#000000" stroke-width="2"/>
+  <text x="450" y="400" text-anchor="middle" font-family="Arial" font-size="12" fill="#000">H₂O</text>
+  
+  <!-- Water conservation symbol -->
+  <circle cx="150" cy="450" r="20" fill="none" stroke="#32CD32" stroke-width="3"/>
+  <path d="M 150 435 Q 145 425 150 415 Q 155 425 150 435 Z" fill="#4169E1"/>
+  <text x="150" y="480" text-anchor="middle" font-family="Arial" font-size="10" fill="#32CD32">Save Water</text>
+</svg> 

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#FFF8DC"/>
+  
+  <!-- Main dinner plate -->
+  <ellipse cx="250" cy="250" rx="100" ry="80" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="4"/>
+  <ellipse cx="250" cy="245" rx="90" ry="70" fill="#F8F8FF"/>
+  
+  <!-- Decorative plate pattern -->
+  <path d="M 180 220 Q 220 200 260 220 Q 300 200 340 220" 
+        stroke="#4169E1" stroke-width="3" fill="none"/>
+  <path d="M 190 270 Q 230 290 270 270 Q 310 290 330 270" 
+        stroke="#4169E1" stroke-width="3" fill="none"/>
+  
+  <!-- Blue floral pattern -->
+  <circle cx="200" cy="230" r="3" fill="#4169E1"/>
+  <circle cx="250" cy="210" r="3" fill="#4169E1"/>
+  <circle cx="300" cy="230" r="3" fill="#4169E1"/>
+  <circle cx="220" cy="280" r="3" fill="#4169E1"/>
+  <circle cx="280" cy="280" r="3" fill="#4169E1"/>
+  
+  <!-- Food items on plate -->
+  <circle cx="220" cy="240" r="8" fill="#FF6347"/> <!-- Tomato -->
+  <ellipse cx="280" cy="250" rx="12" ry="8" fill="#32CD32"/> <!-- Green vegetable -->
+  <ellipse cx="250" cy="270" rx="15" ry="10" fill="#DEB887"/> <!-- Bread/protein -->
+  <circle cx="200" cy="260" r="6" fill="#FF4500"/> <!-- Carrot -->
+  <ellipse cx="290" cy="230" rx="10" ry="6" fill="#FFD700"/> <!-- Corn -->
+  
+  <!-- Secondary plates/bowls -->
+  <ellipse cx="120" cy="180" rx="40" ry="30" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  <ellipse cx="120" cy="175" rx="35" ry="25" fill="#F8F8FF"/>
+  <!-- Soup in bowl -->
+  <ellipse cx="120" cy="175" rx="30" ry="20" fill="#FF6347" opacity="0.6"/>
+  
+  <ellipse cx="380" cy="320" rx="45" ry="35" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  <ellipse cx="380" cy="315" rx="40" ry="30" fill="#F8F8FF"/>
+  <!-- Salad in bowl -->
+  <circle cx="370" cy="310" r="4" fill="#32CD32"/>
+  <circle cx="385" cy="315" r="4" fill="#FF6347"/>
+  <circle cx="390" cy="305" r="4" fill="#32CD32"/>
+  
+  <!-- Utensils -->
+  <!-- Fork -->
+  <rect x="150" y="320" width="3" height="60" fill="#C0C0C0"/>
+  <rect x="149" y="315" width="5" height="8" fill="#C0C0C0"/>
+  <path d="M 150 315 L 150 305" stroke="#C0C0C0" stroke-width="1"/>
+  <path d="M 152 315 L 152 305" stroke="#C0C0C0" stroke-width="1"/>
+  <path d="M 154 315 L 154 305" stroke="#C0C0C0" stroke-width="1"/>
+  
+  <!-- Knife -->
+  <rect x="330" y="320" width="3" height="60" fill="#C0C0C0"/>
+  <path d="M 329 315 L 334 315 L 332 305 L 330 305 Z" fill="#C0C0C0"/>
+  
+  <!-- Spoon -->
+  <rect x="400" y="400" width="3" height="50" fill="#C0C0C0"/>
+  <ellipse cx="401" cy="395" rx="6" ry="4" fill="#C0C0C0"/>
+  
+  <!-- Dining table -->
+  <rect x="50" y="450" width="400" height="40" fill="#DEB887"/>
+  <rect x="50" y="445" width="400" height="5" fill="#CD853F"/>
+  
+  <!-- Tablecloth pattern -->
+  <circle cx="100" cy="420" r="3" fill="#FF69B4" opacity="0.3"/>
+  <circle cx="200" cy="430" r="3" fill="#FF69B4" opacity="0.3"/>
+  <circle cx="300" cy="420" r="3" fill="#FF69B4" opacity="0.3"/>
+  <circle cx="400" cy="430" r="3" fill="#FF69B4" opacity="0.3"/>
+  
+  <!-- Drinking glasses -->
+  <rect x="80" y="350" width="20" height="40" fill="#87CEEB" stroke="#4682B4" stroke-width="2" rx="2"/>
+  <ellipse cx="90" cy="350" rx="10" ry="3" fill="#B0E0E6"/>
+  
+  <rect x="420" y="360" width="20" height="40" fill="#87CEEB" stroke="#4682B4" stroke-width="2" rx="2"/>
+  <ellipse cx="430" cy="360" rx="10" ry="3" fill="#B0E0E6"/>
+  
+  <!-- Napkins -->
+  <rect x="180" y="380" width="25" height="25" fill="#FFFAF0" stroke="#E0E0E0" stroke-width="1" rx="2"/>
+  <rect x="295" y="380" width="25" height="25" fill="#FFFAF0" stroke="#E0E0E0" stroke-width="1" rx="2"/>
+  
+  <!-- Serving tray -->
+  <ellipse cx="250" cy="400" rx="80" ry="15" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Salt and pepper shakers -->
+  <rect x="450" y="300" width="8" height="20" fill="#FFFFFF" rx="4"/>
+  <rect x="450" y="330" width="8" height="20" fill="#000000" rx="4"/>
+  <circle cx="454" cy="295" r="1" fill="#000000"/>
+  <circle cx="454" cy="325" r="1" fill="#FFFFFF"/>
+  
+  <!-- Place setting elements -->
+  <ellipse cx="250" cy="150" rx="60" ry="8" fill="#E0E0E0" opacity="0.5"/> <!-- Placemat -->
+  
+  <!-- Steam from hot food -->
+  <path d="M 275 225 Q 280 215 285 225" stroke="#E0E0E0" stroke-width="2" fill="none"/>
+  <path d="M 245 250 Q 250 240 255 250" stroke="#E0E0E0" stroke-width="2" fill="none"/>
+</svg>

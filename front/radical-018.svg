@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f0f0f0"/>
+  
+  <!-- Sword blade -->
+  <polygon points="250,50 270,350 230,350" fill="#C0C0C0"/>
+  <polygon points="250,50 265,350 235,350" fill="#E5E5E5"/>
+  
+  <!-- Blade center line -->
+  <line x1="250" y1="50" x2="250" y2="350" stroke="#A9A9A9" stroke-width="3"/>
+  
+  <!-- Blade shine effect -->
+  <polygon points="250,50 255,300 245,300" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Cross guard -->
+  <rect x="200" y="340" width="100" height="20" fill="#8B4513" rx="10"/>
+  <rect x="205" y="342" width="90" height="16" fill="#A0522D" rx="8"/>
+  
+  <!-- Handle -->
+  <rect x="235" y="360" width="30" height="80" fill="#654321" rx="15"/>
+  <rect x="237" y="362" width="26" height="76" fill="#8B4513" rx="13"/>
+  
+  <!-- Handle grip -->
+  <rect x="235" y="370" width="30" height="5" fill="#4A4A4A"/>
+  <rect x="235" y="380" width="30" height="5" fill="#4A4A4A"/>
+  <rect x="235" y="390" width="30" height="5" fill="#4A4A4A"/>
+  <rect x="235" y="400" width="30" height="5" fill="#4A4A4A"/>
+  <rect x="235" y="410" width="30" height="5" fill="#4A4A4A"/>
+  <rect x="235" y="420" width="30" height="5" fill="#4A4A4A"/>
+  <rect x="235" y="430" width="30" height="5" fill="#4A4A4A"/>
+  
+  <!-- Pommel -->
+  <circle cx="250" cy="460" r="25" fill="#8B4513"/>
+  <circle cx="250" cy="460" r="20" fill="#A0522D"/>
+  <circle cx="250" cy="460" r="15" fill="#654321"/>
+  
+  <!-- Decorative gems on cross guard -->
+  <circle cx="220" cy="350" r="8" fill="#FF0000"/>
+  <circle cx="280" cy="350" r="8" fill="#0000FF"/>
+  
+  <!-- Light reflection on blade -->
+  <path d="M 245 60 Q 248 180 245 320" stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.8"/>
+  
+  <!-- Sparkling effects -->
+  <polygon points="180,120 185,130 195,130 187,137 190,147 180,142 170,147 173,137 165,130 175,130" fill="#FFD700"/>
+  <polygon points="320,200 325,210 335,210 327,217 330,227 320,222 310,227 313,217 305,210 315,210" fill="#FFFF00"/>
+  <polygon points="150,280 155,290 165,290 157,297 160,307 150,302 140,307 143,297 135,290 145,290" fill="#87CEEB"/>
+  
+  <!-- Motion blur lines -->
+  <path d="M 300 100 L 380 80" stroke="#FFD700" stroke-width="3" opacity="0.6"/>
+  <path d="M 310 130 L 390 110" stroke="#FFA500" stroke-width="2" opacity="0.5"/>
+  <path d="M 320 160 L 400 140" stroke="#FF8C00" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Traditional sword symbol -->
+  <circle cx="400" cy="400" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <path d="M 385 400 L 415 400 M 400 385 L 400 415" stroke="#8B0000" stroke-width="2"/>
+</svg> 

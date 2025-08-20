@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#faf8f5"/>
+  
+  <!-- Main cloth piece -->
+  <path d="M 150 100 Q 250 80 350 100 L 350 300 Q 250 320 150 300 Z" 
+        fill="#e8dcc6" stroke="#d7cdb3" stroke-width="2"/>
+  
+  <!-- Cloth folds and creases -->
+  <path d="M 150 140 Q 200 135 250 140 Q 300 145 350 140" 
+        stroke="#d0c5aa" stroke-width="2" fill="none"/>
+  <path d="M 150 180 Q 200 175 250 180 Q 300 185 350 180" 
+        stroke="#d0c5aa" stroke-width="2" fill="none"/>
+  <path d="M 150 220 Q 200 215 250 220 Q 300 225 350 220" 
+        stroke="#d0c5aa" stroke-width="2" fill="none"/>
+  <path d="M 150 260 Q 200 255 250 260 Q 300 265 350 260" 
+        stroke="#d0c5aa" stroke-width="2" fill="none"/>
+  
+  <!-- Fabric texture pattern -->
+  <g opacity="0.3">
+    <!-- Vertical threads -->
+    <line x1="170" y1="100" x2="170" y2="300" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="190" y1="100" x2="190" y2="300" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="210" y1="100" x2="210" y2="300" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="230" y1="100" x2="230" y2="300" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="250" y1="100" x2="250" y2="300" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="270" y1="100" x2="270" y2="300" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="290" y1="100" x2="290" y2="300" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="310" y1="100" x2="310" y2="300" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="330" y1="100" x2="330" y2="300" stroke="#c9be9f" stroke-width="1"/>
+    
+    <!-- Horizontal threads -->
+    <line x1="150" y1="120" x2="350" y2="120" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="150" y1="140" x2="350" y2="140" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="150" y1="160" x2="350" y2="160" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="150" y1="180" x2="350" y2="180" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="150" y1="200" x2="350" y2="200" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="150" y1="220" x2="350" y2="220" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="150" y1="240" x2="350" y2="240" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="150" y1="260" x2="350" y2="260" stroke="#c9be9f" stroke-width="1"/>
+    <line x1="150" y1="280" x2="350" y2="280" stroke="#c9be9f" stroke-width="1"/>
+  </g>
+  
+  <!-- Draping cloth effect -->
+  <path d="M 350 300 Q 380 350 350 400 Q 320 430 280 400 Q 250 380 220 400 Q 190 420 150 400 Q 120 350 150 300" 
+        fill="#ddd1b8" stroke="#d0c5aa" stroke-width="2"/>
+  
+  <!-- Shadow under draped cloth -->
+  <ellipse cx="250" cy="450" rx="120" ry="20" fill="#beb3a0" opacity="0.4"/>
+  
+  <!-- Cloth edge highlights -->
+  <path d="M 150 100 Q 250 80 350 100" stroke="#f2eee5" stroke-width="3" fill="none"/>
+  <path d="M 150 100 L 150 300" stroke="#f2eee5" stroke-width="2" fill="none"/>
+  
+  <!-- Small fabric details -->
+  <!-- Loose threads -->
+  <line x1="350" y1="150" x2="365" y2="155" stroke="#c9be9f" stroke-width="1"/>
+  <line x1="350" y1="200" x2="368" y2="208" stroke="#c9be9f" stroke-width="1"/>
+  <line x1="150" y1="180" x2="135" y2="185" stroke="#c9be9f" stroke-width="1"/>
+  
+  <!-- Textile tools around the cloth -->
+  <!-- Measuring tape -->
+  <rect x="50" y="150" width="80" height="8" fill="#ffc107" rx="4"/>
+  <g opacity="0.8">
+    <line x1="55" y1="154" x2="125" y2="154" stroke="#ff8f00" stroke-width="1"/>
+    <text x="60" y="165" font-family="Arial" font-size="8" fill="#333">0</text>
+    <text x="80" y="165" font-family="Arial" font-size="8" fill="#333">5</text>
+    <text x="100" y="165" font-family="Arial" font-size="8" fill="#333">10</text>
+    <text x="120" y="165" font-family="Arial" font-size="8" fill="#333">15</text>
+  </g>
+  
+  <!-- Pins -->
+  <circle cx="180" cy="120" r="2" fill="#c0c0c0"/>
+  <line x1="180" y1="115" x2="180" y2="125" stroke="#666" stroke-width="1"/>
+  <circle cx="320" cy="140" r="2" fill="#c0c0c0"/>
+  <line x1="320" y1="135" x2="320" y2="145" stroke="#666" stroke-width="1"/>
+  
+  <!-- Scissors -->
+  <g transform="translate(400,200) rotate(30)">
+    <ellipse cx="0" cy="-10" rx="8" ry="3" fill="#c0c0c0"/>
+    <ellipse cx="0" cy="10" rx="8" ry="3" fill="#c0c0c0"/>
+    <line x1="-15" y1="-10" x2="-25" y2="-15" stroke="#666" stroke-width="2"/>
+    <line x1="-15" y1="10" x2="-25" y2="15" stroke="#666" stroke-width="2"/>
+    <circle cx="0" cy="0" r="3" fill="#888"/>
+  </g>
+  
+  <!-- Sewing pattern lines -->
+  <g opacity="0.4">
+    <path d="M 50 350 Q 100 340 150 350" stroke="#ff5722" stroke-width="2" stroke-dasharray="5,5"/>
+    <path d="M 350 350 Q 400 340 450 350" stroke="#ff5722" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- Fabric label/tag -->
+  <rect x="180" y="350" width="60" height="30" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="210" y="365" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">COTTON</text>
+  <text x="210" y="375" text-anchor="middle" font-family="Arial" font-size="8" fill="#999">100%</text>
+</svg> 

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#1a0000"/>
+  
+  <!-- Main flame -->
+  <path d="M 250 450 Q 220 400 230 350 Q 240 300 220 250 Q 200 200 240 150 Q 280 100 260 50 Q 300 80 320 120 Q 340 160 320 200 Q 300 240 280 280 Q 260 320 270 360 Q 280 400 250 450 Z" fill="#FF4500"/>
+  <path d="M 250 440 Q 225 395 235 350 Q 245 305 225 260 Q 205 215 240 170 Q 275 125 260 80 Q 295 105 315 140 Q 335 175 315 210 Q 295 245 275 275 Q 255 305 265 340 Q 275 375 250 440 Z" fill="#FF6B35"/>
+  <path d="M 250 430 Q 230 390 240 350 Q 250 310 230 270 Q 210 230 245 190 Q 280 150 265 110 Q 290 130 310 160 Q 330 190 310 220 Q 290 250 270 270 Q 250 290 260 320 Q 270 350 250 430 Z" fill="#FFD700"/>
+  <path d="M 250 420 Q 235 385 245 350 Q 255 315 235 280 Q 215 245 250 210 Q 285 175 270 140 Q 285 155 305 180 Q 325 205 305 230 Q 285 255 265 275 Q 245 295 255 320 Q 265 345 250 420 Z" fill="#FFA500"/>
+  <path d="M 250 410 Q 240 380 250 350 Q 260 320 240 290 Q 220 260 255 230 Q 290 200 275 170 Q 280 180 300 200 Q 320 220 300 240 Q 280 260 260 280 Q 240 300 250 330 Q 260 360 250 410 Z" fill="#FFFF00"/>
+  
+  <!-- Secondary flames -->
+  <path d="M 150 450 Q 130 420 140 390 Q 150 360 130 330 Q 110 300 140 270 Q 170 240 160 210 Q 180 230 190 260 Q 200 290 180 320 Q 160 350 170 380 Q 180 410 150 450 Z" fill="#FF4500"/>
+  <path d="M 150 440 Q 135 415 145 390 Q 155 365 135 340 Q 115 315 145 290 Q 175 265 165 240 Q 175 255 185 280 Q 195 305 175 330 Q 155 355 165 380 Q 175 405 150 440 Z" fill="#FF6B35"/>
+  
+  <path d="M 350 450 Q 370 420 360 390 Q 350 360 370 330 Q 390 300 360 270 Q 330 240 340 210 Q 320 230 310 260 Q 300 290 320 320 Q 340 350 330 380 Q 320 410 350 450 Z" fill="#FF4500"/>
+  <path d="M 350 440 Q 365 415 355 390 Q 345 365 365 340 Q 385 315 355 290 Q 325 265 335 240 Q 325 255 315 280 Q 305 305 325 330 Q 345 355 335 380 Q 325 405 350 440 Z" fill="#FF6B35"/>
+  
+  <!-- Sparks -->
+  <circle cx="200" cy="150" r="3" fill="#FFFF00"/>
+  <circle cx="320" cy="180" r="2" fill="#FFA500"/>
+  <circle cx="180" cy="200" r="4" fill="#FF6B35"/>
+  <circle cx="350" cy="140" r="3" fill="#FFD700"/>
+  <circle cx="120" cy="220" r="2" fill="#FF4500"/>
+  <circle cx="380" cy="200" r="3" fill="#FFFF00"/>
+  <circle cx="160" cy="120" r="2" fill="#FFA500"/>
+  <circle cx="340" cy="240" r="4" fill="#FF6B35"/>
+  
+  <!-- Campfire base -->
+  <ellipse cx="250" cy="450" rx="100" ry="30" fill="#654321"/>
+  <ellipse cx="250" cy="445" rx="95" ry="25" fill="#8B4513"/>
+  
+  <!-- Logs -->
+  <rect x="180" y="440" width="60" height="15" fill="#8B4513" rx="7"/>
+  <rect x="220" y="455" width="80" height="12" fill="#A0522D" rx="6"/>
+  <rect x="200" y="470" width="70" height="10" fill="#654321" rx="5"/>
+  <rect x="260" y="440" width="50" height="15" fill="#8B4513" rx="7"/>
+  
+  <!-- Smoke -->
+  <path d="M 250 50 Q 230 30 250 10 Q 270 30 250 -10 Q 230 10 250 -30" stroke="#696969" stroke-width="6" fill="none" opacity="0.7"/>
+  <path d="M 260 40 Q 240 20 260 0 Q 280 20 260 -20 Q 240 0 260 -40" stroke="#778899" stroke-width="4" fill="none" opacity="0.6"/>
+  <path d="M 240 60 Q 220 40 240 20 Q 260 40 240 0 Q 220 20 240 -20" stroke="#A9A9A9" stroke-width="3" fill="none" opacity="0.5"/>
+  
+  <!-- Embers floating up -->
+  <circle cx="220" cy="100" r="2" fill="#FF4500" opacity="0.8"/>
+  <circle cx="280" cy="80" r="3" fill="#FFD700" opacity="0.7"/>
+  <circle cx="190" cy="130" r="1" fill="#FFA500" opacity="0.9"/>
+  <circle cx="310" cy="120" r="2" fill="#FF6B35" opacity="0.6"/>
+  <circle cx="260" cy="60" r="1" fill="#FFFF00" opacity="0.8"/>
+  
+  <!-- Heat waves -->
+  <path d="M 100 350 Q 110 340 120 350 Q 130 360 140 350" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 120 370 Q 130 360 140 370 Q 150 380 160 370" stroke="#FFA500" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 340 370 Q 350 360 360 370 Q 370 380 380 370" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 360 350 Q 370 340 380 350 Q 390 360 400 350" stroke="#FFA500" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <!-- Torch -->
+  <rect x="50" y="300" width="8" height="100" fill="#8B4513"/>
+  <path d="M 54 300 Q 44 280 54 260 Q 64 280 54 300 Z" fill="#FF4500"/>
+  <path d="M 54 295 Q 49 280 54 265 Q 59 280 54 295 Z" fill="#FFD700"/>
+  
+  <!-- Candle -->
+  <rect x="450" y="350" width="15" height="80" fill="#F5DEB3"/>
+  <rect x="452" y="352" width="11" height="76" fill="#FAEBD7"/>
+  <ellipse cx="457" cy="345" rx="8" ry="5" fill="#FFD700"/>
+  <path d="M 457 345 Q 452 335 457 325 Q 462 335 457 345 Z" fill="#FF4500"/>
+  <path d="M 457 342 Q 454 335 457 328 Q 460 335 457 342 Z" fill="#FFD700"/>
+  
+  <!-- Candle flame -->
+  <rect x="456" y="340" width="2" height="10" fill="#000000"/>
+  
+  <!-- Fireplace -->
+  <rect x="400" y="420" width="80" height="80" fill="#8B4513"/>
+  <rect x="405" y="425" width="70" height="70" fill="#A0522D"/>
+  <path d="M 440 470 Q 430 450 440 430 Q 450 450 440 470 Z" fill="#FF4500"/>
+  <path d="M 440 465 Q 435 450 440 435 Q 445 450 440 465 Z" fill="#FFD700"/>
+  
+  <!-- Temperature indicator -->
+  <rect x="20" y="200" width="8" height="50" fill="#C0C0C0"/>
+  <circle cx="24" cy="255" r="8" fill="#FF0000"/>
+  <circle cx="24" cy="255" r="6" fill="#FF4500"/>
+  <rect x="22" y="210" width="4" height="35" fill="#FF6B35"/>
+  <text x="40" y="235" font-family="Arial" font-size="12" fill="#FFD700">HOT</text>
+  
+  <!-- Fire hazard symbol -->
+  <polygon points="100,100 110,120 130,120 116,132 121,152 100,142 79,152 84,132 70,120 90,120" fill="#FF0000"/>
+  <text x="100" y="175" text-anchor="middle" font-family="Arial" font-size="10" fill="#FF0000">FIRE</text>
+  
+  <!-- Traditional fire symbol -->
+  <circle cx="50" cy="50" r="25" fill="none" stroke="#FF4500" stroke-width="3"/>
+  <path d="M 50 70 Q 40 50 50 30 Q 60 50 50 70 Z" fill="#FF6B35"/>
+  <path d="M 50 65 Q 45 50 50 35 Q 55 50 50 65 Z" fill="#FFD700"/>
+</svg> 
