@@ -1,12 +1,12 @@
-const { defineConfig } = require('cypress')
+import { defineConfig } from 'cypress'
 
-module.exports = defineConfig({
+export default defineConfig({
   e2e: {
     video: !!process.env.CI, // Enable video only in CI
     screenshotOnRunFailure: true,
     // Specify the integration folder to maintain compatibility with existing tests
-    specPattern: 'cypress/integration/**/*.spec.{js,jsx,ts,tsx}',
-    supportFile: 'cypress/support/index.js',
+    specPattern: 'integration/**/*.spec.{js,jsx,ts,tsx}',
+    supportFile: 'support/index.js',
     setupNodeEvents(on, config) {
       // Migrated from plugins/index.js
       on('task', {
