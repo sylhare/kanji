@@ -1,6 +1,6 @@
 context(' ---------------- Tiles tests ---------------- ', () => {
   beforeEach(() => {
-    cy.visit('http://127.0.0.1:4000/kanji/');
+    cy.visit('/kanji/');
   });
 
   describe('Check FRONT of the tile', function () {

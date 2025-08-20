@@ -1,6 +1,6 @@
 context(' ---------------- Filter test ---------------- ', () => {
   beforeEach(() => {
-    cy.visit('http://127.0.0.1:4000/kanji/');
+    cy.visit('/kanji/');
     cy.get('#filter').click({force: true});
   });
 
@@ -67,7 +67,7 @@ context(' ---------------- Filter test ---------------- ', () => {
   describe('Footer visibility on FILTER actions', function () {
 
     it('Footer disappear on when FILTER is ON', () => {
-      cy.visit('http://127.0.0.1:4000/kanji/');
+      cy.visit('/kanji/');
       cy.get(".footer").should('be.visible');
       cy.get('#filter').click({force: true});
       cy.get(".footer").should('be.hidden');

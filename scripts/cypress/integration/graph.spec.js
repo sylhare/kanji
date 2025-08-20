@@ -1,7 +1,7 @@
 context(' ---------------- Graph tests ---------------- ', () => {
 
   beforeEach(() => {
-    cy.visit('http://127.0.0.1:4000/kanji/');
+    cy.visit('/kanji/');
     cy.get('#graph').click({force: true});
     cy.wait(300);
   });

@@ -1,6 +1,6 @@
 context(' ---------------- Sort test ---------------- ', () => {
   beforeEach(() => {
-    cy.visit('http://127.0.0.1:4000/kanji/');
+    cy.visit('/kanji/');
   });
 
   describe('SORT submenu actions', function () {

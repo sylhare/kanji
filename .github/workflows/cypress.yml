@@ -55,7 +55,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          config-file: ./scripts/cypress/cypress.config.js
+          config-file: scripts/cypress/cypress.config.js
           wait-on: 'http://localhost:4000/kanji/'
           wait-on-timeout: 120
           browser: chrome
@@ -67,7 +67,7 @@ jobs:
         if: failure()
         with:
           name: cypress-screenshots
-          path: ./scripts/cypress/screenshots
+          path: scripts/cypress/screenshots
           retention-days: 7
 
       - name: Upload videos on failure
@@ -75,7 +75,7 @@ jobs:
         if: failure()
         with:
           name: cypress-videos
-          path: ./scripts/cypress/videos
+          path: scripts/cypress/videos
           retention-days: 7
 
       - name: Stop Jekyll server
