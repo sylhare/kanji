@@ -11,8 +11,8 @@ import './visualization.js';
 
 // Export a namespace for potential future use
 export const KanjiApp = {
-  version: '2.0.0',
-  initialized: true
+    version: '2.0.0',
+    initialized: true
 };
 
 // Log successful initialization
@@ -20,5 +20,6 @@ console.log('🎌 Kanji app modules loaded');
 
 // Make KanjiApp available globally if needed
 if (typeof window !== 'undefined') {
-  window.KanjiApp = KanjiApp;
+    window.KanjiApp = KanjiApp;
 }
+

@@ -4,21 +4,21 @@
 
 // String formatting and manipulation
 export function createKanjiLabel(kanjiData) {
-  const { name, reading, meaning } = kanjiData;
-  return `${name} - ${reading} - ${meaning}`;
+    const {name, reading, meaning} = kanjiData;
+    return `${name} - ${reading} - ${meaning}`;
 }
 
 export function formatKanjiTooltip(d) {
-  return d.name.concat(" - ", d.reading, " - ", d.meaning);
+    return d.name.concat(" - ", d.reading, " - ", d.meaning);
 }
 
 export function createLabel(items, separator = " - ") {
-  return items.filter(item => item != null && item !== "").join(separator);
+    return items.filter(item => item != null && item !== "").join(separator);
 }
 
 export function formatDisplayName(name, additionalInfo = []) {
-  const parts = [name, ...additionalInfo].filter(Boolean);
-  return createLabel(parts);
+    const parts = [name, ...additionalInfo].filter(Boolean);
+    return createLabel(parts);
 }
 
 // ========================================
@@ -35,19 +35,19 @@ export const readingAsc = (a, b) => a.dataset.reading.localeCompare(b.dataset.re
 export const readingDsc = (a, b) => b.dataset.reading.localeCompare(a.dataset.reading);
 
 export const setOrder = function (order, asc, dec) {
-  return order === dec ? asc : dec;
+    return order === dec ? asc : dec;
 };
 
 export const createNumericComparator = (property, ascending = true) => {
-  return ascending 
-    ? (a, b) => a.dataset[property] - b.dataset[property]
-    : (a, b) => b.dataset[property] - a.dataset[property];
+    return ascending
+        ? (a, b) => a.dataset[property] - b.dataset[property]
+        : (a, b) => b.dataset[property] - a.dataset[property];
 };
 
 export const createStringComparator = (property, ascending = true) => {
-  return ascending
-    ? (a, b) => a.dataset[property].localeCompare(b.dataset[property])
-    : (a, b) => b.dataset[property].localeCompare(a.dataset[property]);
+    return ascending
+        ? (a, b) => a.dataset[property].localeCompare(b.dataset[property])
+        : (a, b) => b.dataset[property].localeCompare(a.dataset[property]);
 };
 
 // ========================================
@@ -55,17 +55,17 @@ export const createStringComparator = (property, ascending = true) => {
 // ========================================
 
 export function createThrottledFunction(fn, delay = 200) {
-  let isActive = false;
-  
-  return function(...args) {
-    if (!isActive) {
-      isActive = true;
-      setTimeout(() => {
-        fn.apply(this, args);
-        isActive = false;
-      }, delay);
-    }
-  };
+    let isActive = false;
+
+    return function (...args) {
+        if (!isActive) {
+            isActive = true;
+            setTimeout(() => {
+                fn.apply(this, args);
+                isActive = false;
+            }, delay);
+        }
+    };
 }
 
 // ========================================
@@ -73,27 +73,28 @@ export function createThrottledFunction(fn, delay = 200) {
 // ========================================
 
 export function isElementInViewport(rect, windowHeight = window.innerHeight) {
-  return rect.top <= windowHeight && rect.bottom >= 0;
+    return rect.top <= windowHeight && rect.bottom >= 0;
 }
 
 export function shouldLoadImage(element, windowHeight = window.innerHeight) {
-  const rect = element.getBoundingClientRect();
-  const isInViewport = isElementInViewport(rect, windowHeight);
-  const isVisible = getComputedStyle(element).display !== "none";
-  return isInViewport && isVisible;
+    const rect = element.getBoundingClientRect();
+    const isInViewport = isElementInViewport(rect, windowHeight);
+    const isVisible = getComputedStyle(element).display !== "none";
+    return isInViewport && isVisible;
 }
 
 export function getUpdatedImageAttributes(element) {
-  return {
-    src: element.dataset.src,
-    srcset: element.dataset.srcset
-  };
+    return {
+        src: element.dataset.src,
+        srcset: element.dataset.srcset
+    };
 }
 
 export function removeLoadedImage(images, loadedImage) {
-  return images.filter(image => image !== loadedImage);
+    return images.filter(image => image !== loadedImage);
 }
 
 export function isLazyLoadingComplete(remainingImages) {
-  return remainingImages.length === 0;
+    return remainingImages.length === 0;
 }
+

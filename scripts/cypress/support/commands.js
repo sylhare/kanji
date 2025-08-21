@@ -29,48 +29,48 @@ import chaiColors from 'chai-colors'
 chai.use(chaiColors);
 
 Cypress.Commands.add('kanjiLog', (arg1) => {
-  Cypress.log({
-    consoleProps: () => {
-      return arg1
-    }
-  })
+    Cypress.log({
+        consoleProps: () => {
+            return arg1
+        }
+    })
 });
 
 Cypress.Commands.add('clickOnSort', (label) => {
-  cy.get('#sort').click({force: true});
-  cy.get('.menu').contains(label).should('be.visible');
-  cy.get('#sort').click({force: true});
-  cy.get('.menu').contains(label).should('be.hidden');
-  cy.get('#sort').click({force: true});
-  cy.get('.menu').contains(label).should('be.visible');
+    cy.get('#sort').click({force: true});
+    cy.get('.menu').contains(label).should('be.visible');
+    cy.get('#sort').click({force: true});
+    cy.get('.menu').contains(label).should('be.hidden');
+    cy.get('#sort').click({force: true});
+    cy.get('.menu').contains(label).should('be.visible');
 });
 
 Cypress.Commands.add('checkOrder', (first, last) => {
-  cy.get('#card-'.concat(first)).should(($el) => {
-    expect($el).to.have.css('order', '0')
-  });
-  cy.get('#card-'.concat(last)).should(($el) => {
-    expect($el).to.have.css('order', '213')
-  })
+    cy.get('#card-'.concat(first)).should(($el) => {
+        expect($el).to.have.css('order', '0')
+    });
+    cy.get('#card-'.concat(last)).should(($el) => {
+        expect($el).to.have.css('order', '213')
+    })
 });
 
 Cypress.Commands.add('checkTileFilter', (category, elem) => {
-  cy.get('#menu-category').contains(category.toUpperCase()).should('be.visible');
-  cy.get('#'.concat(category, '-filter')).click({force: true});
-  cy.get('#card-'.concat(elem)).should('be.visible');
-  cy.get('#'.concat(category, '-filter')).click({force: true});
-  cy.get('#card-'.concat(elem)).should('be.hidden');
+    cy.get('#menu-category').contains(category.toUpperCase()).should('be.visible');
+    cy.get('#'.concat(category, '-filter')).click({force: true});
+    cy.get('#card-'.concat(elem)).should('be.visible');
+    cy.get('#'.concat(category, '-filter')).click({force: true});
+    cy.get('#card-'.concat(elem)).should('be.hidden');
 });
 
 Cypress.Commands.add('checkNodeFilter', (category, nbr) => {
-  cy.get('#menu-category').contains(category.toUpperCase()).should('be.visible');
-  cy.get('#'.concat(category, '-filter')).click({force: true});
-  cy.get('g.nodes').find('g.node').should('have.length', nbr)
+    cy.get('#menu-category').contains(category.toUpperCase()).should('be.visible');
+    cy.get('#'.concat(category, '-filter')).click({force: true});
+    cy.get('g.nodes').find('g.node').should('have.length', nbr)
 });
 
 Cypress.Commands.add('bodyFilterIsUnchecked', () => {
-  cy.get('#Body-label span')
-    .should('have.css', 'background-color')
-    .and('be.colored', '#d79b7d')
+    cy.get('#Body-label span')
+        .should('have.css', 'background-color')
+        .and('be.colored', '#d79b7d')
 
 });

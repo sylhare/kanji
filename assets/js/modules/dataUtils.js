@@ -19,11 +19,11 @@ export const categorySizeDsc = (d) => 10;
 // ========================================
 
 export function createSizeFunction(sizeCalculator) {
-  return function (baseSize) {
-    return function (d) {
-      return baseSize + sizeCalculator(d);
+    return function (baseSize) {
+        return function (d) {
+            return baseSize + sizeCalculator(d);
+        };
     };
-  };
 }
 
 // ========================================
@@ -31,34 +31,34 @@ export function createSizeFunction(sizeCalculator) {
 // ========================================
 
 export function filterNodesByCategories(nodes, filterList) {
-  return nodes.map(node => ({
-    ...node,
-    isFilteredOut: filterList.includes(node.group)
-  })).filter(node => !node.isFilteredOut);
+    return nodes.map(node => ({
+        ...node,
+        isFilteredOut: filterList.includes(node.group)
+    })).filter(node => !node.isFilteredOut);
 }
 
 export function toggleCategoryInFilter(category, filterList) {
-  if (filterList.includes(category)) {
-    return filterList.filter(item => item !== category);
-  } else {
-    return [...filterList, category];
-  }
+    if (filterList.includes(category)) {
+        return filterList.filter(item => item !== category);
+    } else {
+        return [...filterList, category];
+    }
 }
 
 export function restoreFilteredNodes(originalNodes, currentNodes, filterList) {
-  const restoredNodes = [...currentNodes];
-  
-  originalNodes.forEach(function(n) {
-    // Add back filtered items to the graph
-    if (n.isFilteredOut && !filterList.includes(n.group)) {
-      n.isFilteredOut = false;
-      restoredNodes.push(Object.assign({}, {}, n));
-    }
-    // mark filtered items
-    n.isFilteredOut = filterList.includes(n.group);
-  });
+    const restoredNodes = [...currentNodes];
 
-  return originalNodes.filter((n) => !n.isFilteredOut);
+    originalNodes.forEach(function (n) {
+        // Add back filtered items to the graph
+        if (n.isFilteredOut && !filterList.includes(n.group)) {
+            n.isFilteredOut = false;
+            restoredNodes.push(Object.assign({}, {}, n));
+        }
+        // mark filtered items
+        n.isFilteredOut = filterList.includes(n.group);
+    });
+
+    return originalNodes.filter((n) => !n.isFilteredOut);
 }
 
 // ========================================
@@ -66,18 +66,18 @@ export function restoreFilteredNodes(originalNodes, currentNodes, filterList) {
 // ========================================
 
 export function deepClone(obj) {
-  return Object.assign({}, {}, obj);
+    return Object.assign({}, {}, obj);
 }
 
 export function markFilteredItems(nodes, filterList) {
-  return nodes.map(node => ({
-    ...node,
-    isFilteredOut: filterList.includes(node.group)
-  }));
+    return nodes.map(node => ({
+        ...node,
+        isFilteredOut: filterList.includes(node.group)
+    }));
 }
 
 export function getVisibleNodes(nodes) {
-  return nodes.filter(node => !node.isFilteredOut);
+    return nodes.filter(node => !node.isFilteredOut);
 }
 
 // ========================================
@@ -85,24 +85,24 @@ export function getVisibleNodes(nodes) {
 // ========================================
 
 export function prepareGraphData(rawData) {
-  if (!rawData || typeof rawData !== 'object') {
+    if (!rawData || typeof rawData !== 'object') {
+        return {
+            nodes: [],
+            links: []
+        };
+    }
+
     return {
-      nodes: [],
-      links: []
+        nodes: rawData.nodes || [],
+        links: rawData.links || []
     };
-  }
-  
-  return {
-    nodes: rawData.nodes || [],
-    links: rawData.links || []
-  };
 }
 
 export function updateNodeVisibility(nodes, category, shouldShow) {
-  return nodes.map(node => {
-    if (node.group === category) {
-      return { ...node, isFilteredOut: !shouldShow };
-    }
-    return node;
-  });
+    return nodes.map(node => {
+        if (node.group === category) {
+            return {...node, isFilteredOut: !shouldShow};
+        }
+        return node;
+    });
 }
