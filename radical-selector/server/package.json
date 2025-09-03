@@ -1,0 +1,12 @@
+{
+  "name": "radical-selector-server",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "fs-extra": "^11.3.1",
+    "js-yaml": "^4.1.0"
+  }
+}

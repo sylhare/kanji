@@ -1,0 +1,114 @@
+/* Radical Selector Styles */
+.radical-selector {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.radical-info {
+  max-width: 100%;
+}
+
+.radical-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.radical-number {
+  background: #4c51bf;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.radical-character {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #2d3748;
+  line-height: 1;
+  min-width: 80px;
+  text-align: center;
+}
+
+.progress {
+  background: #e2e8f0;
+  color: #4a5568;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 500;
+  margin-left: auto;
+}
+
+.radical-details {
+  display: grid;
+  gap: 1rem;
+}
+
+.meaning, .composition, .visual-elements {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.meaning strong, .composition strong, .visual-elements strong {
+  color: #4c51bf;
+  font-weight: 600;
+}
+
+.meta-info {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.meta-info span {
+  background: #f7fafc;
+  color: #4a5568;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  border: 1px solid #e2e8f0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .radical-selector {
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .radical-header {
+    gap: 1rem;
+  }
+  
+  .radical-character {
+    font-size: 3rem;
+    min-width: 60px;
+  }
+  
+  .progress {
+    margin-left: 0;
+    order: 3;
+    flex-basis: 100%;
+    text-align: center;
+  }
+  
+  .meaning, .composition, .visual-elements {
+    font-size: 1rem;
+  }
+  
+  .meta-info {
+    gap: 0.5rem;
+  }
+  
+  .meta-info span {
+    font-size: 0.8rem;
+  }
+}
