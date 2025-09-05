@@ -2,8 +2,9 @@
 
 
 <!-- To print number in image <div class="number top-left">  </div> -->
-<img class="lazy" src="{{ '/assets/img/placeholder-thumbnail.svg' | relative_url }}"
-     data-srcset="{{ '/assets/img/placeholder.svg' | relative_url }}" alt="kanji">
+{% assign padded_number = kanji.Number | plus: 1000 | slice: 1, 3 %}
+<img class="lazy" src="{{ '/assets/img/radicals/' | append: padded_number | append: '-' | append: kanji.Radical | append: '.svg' | relative_url }}"
+     data-srcset="{{ '/assets/img/radicals/' | append: padded_number | append: '-' | append: kanji.Radical | append: '.svg' | relative_url }}" alt="{{ kanji.Radical }} radical">
 <div class="description">
     <h3 class="radical japanese" data-modal="{{ kanji.Number }}">{{ kanji.Radical }}</h3>
     <p class="meaning english">{{ kanji.Meaning }}</p>
