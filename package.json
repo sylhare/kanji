@@ -1,0 +1,55 @@
+{
+  "name": "kanji",
+  "version": "1.0.0",
+  "description": "Interactive Kanji learning platform with tests, build tools, and asset processing",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "npm run test:e2e:full",
+    "test:e2e:full": "npm run build && npm run jekyll:start & sleep 5 && npm run cy:run; npm run jekyll:stop",
+    "jekyll:start": "bundle exec jekyll serve --detach --port 4000",
+    "jekyll:stop": "pkill -f jekyll || true",
+    "cy:run": "cd scripts/cypress && cypress run",
+    "cy:open": "cd scripts/cypress && cypress open",
+    "build": "node scripts/build.mjs",
+    "build:js": "node scripts/build.mjs",
+    "build:watch": "vitest --watch --run",
+    "gulp": "cd scripts/gulp && gulp",
+    "assets:build": "cd scripts/gulp && gulp",
+    "assets:watch": "cd scripts/gulp && gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylhare/kanji.git"
+  },
+  "keywords": [
+    "kanji",
+    "japanese",
+    "learning",
+    "jekyll",
+    "interactive"
+  ],
+  "author": "sylhare",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sylhare/kanji/issues"
+  },
+  "homepage": "https://github.com/sylhare/kanji#readme",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "@vitest/ui": "^1.0.0",
+    "chai-colors": "^1.0.1",
+    "cypress": "^14.5.4",
+    "esbuild": "^0.19.0",
+    "glob": "^10.0.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-uglify-es": "^2.0.0",
+    "jsdom": "^23.0.0",
+    "vitest": "^1.0.0"
+  }
+} 
