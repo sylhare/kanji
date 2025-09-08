@@ -17,6 +17,7 @@ import {
     defaultSize,
     frequencySizeAsc,
     frequencySizeDsc,
+    initializeCategoryCounts,
     numberSizeAsc,
     numberSizeDsc,
     readingSizeAsc,
@@ -59,6 +60,7 @@ d3.json(jsonUrl, function (error, g) {
 
     graph = g;
     store = Object.assign({}, {}, g);
+    initializeCategoryCounts(graph.nodes);
     updateSimulation();
 });
 

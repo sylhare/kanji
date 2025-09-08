@@ -11,6 +11,12 @@ import {
     readingSizeDsc,
     categorySizeAsc,
     categorySizeDsc,
+    // Category count functions
+    initializeCategoryCounts,
+    getCategoryCount,
+    getAllCategoryCounts,
+    getCategoryCountsSorted,
+    getSyllableCount,
     // Size function factories
     createSizeFunction,
     // Data filtering and manipulation
@@ -96,27 +102,218 @@ describe('Size Calculation Functions', () => {
         });
     });
 
-    describe('readingSizeAsc and readingSizeDsc', () => {
-        it('should always return 10 for ascending', () => {
-            expect(readingSizeAsc({reading: 'any'})).toBe(10);
-            expect(readingSizeAsc({})).toBe(10);
+    describe('readingSizeAsc', () => {
+        it('should calculate size based on syllable count (ascending)', () => {
+            expect(readingSizeAsc({reading: 'no'})).toBe(2); // 1 syllable * 2 = 2
+            expect(readingSizeAsc({reading: 'ichi'})).toBe(4); // 2 syllables * 2 = 4
+            expect(readingSizeAsc({reading: 'tatebou'})).toBe(6); // 3 syllables * 2 = 6
+            expect(readingSizeAsc({reading: 'nabebuta'})).toBe(8); // 4 syllables * 2 = 8
         });
 
-        it('should always return 10 for descending', () => {
-            expect(readingSizeDsc({reading: 'any'})).toBe(10);
-            expect(readingSizeDsc({})).toBe(10);
+        it('should handle edge cases', () => {
+            expect(readingSizeAsc({reading: ''})).toBe(2); // Empty string = 1 syllable
+            expect(readingSizeAsc({})).toBe(2); // Missing reading = 1 syllable
+            expect(readingSizeAsc({reading: null})).toBe(2); // Null reading = 1 syllable
+        });
+
+        it('should calculate size for long readings', () => {
+            // Very long reading: 8 syllables * 2 = 16
+            expect(readingSizeAsc({reading: 'verylongreadingwithmanysyllables'})).toBe(16);
         });
     });
 
-    describe('categorySizeAsc and categorySizeDsc', () => {
-        it('should always return 10 for ascending', () => {
-            expect(categorySizeAsc({category: 'any'})).toBe(10);
-            expect(categorySizeAsc({})).toBe(10);
+    describe('readingSizeDsc', () => {
+        it('should calculate size based on syllable count (descending)', () => {
+            expect(readingSizeDsc({reading: 'no'})).toBe(16); // (8-1+1) * 2 = 16
+            expect(readingSizeDsc({reading: 'ichi'})).toBe(14); // (8-2+1) * 2 = 14
+            expect(readingSizeDsc({reading: 'tatebou'})).toBe(12); // (8-3+1) * 2 = 12
+            expect(readingSizeDsc({reading: 'nabebuta'})).toBe(10); // (8-4+1) * 2 = 10
         });
 
-        it('should always return 10 for descending', () => {
-            expect(categorySizeDsc({category: 'any'})).toBe(10);
-            expect(categorySizeDsc({})).toBe(10);
+        it('should handle edge cases', () => {
+            expect(readingSizeDsc({reading: ''})).toBe(16); // Empty = 1 syllable
+            expect(readingSizeDsc({})).toBe(16); // Missing = 1 syllable
+        });
+
+        it('should calculate size for long readings', () => {
+            // Very long reading: (8-8+1) * 2 = 2
+            expect(readingSizeDsc({reading: 'verylongreadingwithmanysyllables'})).toBe(2);
+        });
+    });
+
+    describe('categorySizeAsc', () => {
+        beforeEach(() => {
+            // Initialize category counts for testing
+            const testNodes = [
+                {group: 'Nature'}, {group: 'Nature'}, {group: 'Nature'}, // 3 items
+                {group: 'Body'}, {group: 'Body'}, // 2 items
+                {group: 'Food'}, // 1 item
+            ];
+            initializeCategoryCounts(testNodes);
+        });
+
+        it('should calculate size based on category count (ascending)', () => {
+            expect(categorySizeAsc({group: 'Nature'})).toBe(3); // 3 items * 1 = 3
+            expect(categorySizeAsc({group: 'Body'})).toBe(2); // 2 items * 1 = 2
+            expect(categorySizeAsc({group: 'Food'})).toBe(1); // 1 item * 1 = 1
+        });
+
+        it('should handle unknown categories', () => {
+            expect(categorySizeAsc({group: 'Unknown'})).toBe(0); // 0 items * 1 = 0
+        });
+
+        it('should cap at maximum size of 50', () => {
+            // Create a category with many items
+            const manyNodes = Array(60).fill({group: 'Large'});
+            initializeCategoryCounts(manyNodes);
+            expect(categorySizeAsc({group: 'Large'})).toBe(50); // Should cap at 50
+        });
+    });
+
+    describe('categorySizeDsc', () => {
+        beforeEach(() => {
+            // Initialize category counts for testing
+            const testNodes = [
+                {group: 'Nature'}, {group: 'Nature'}, {group: 'Nature'}, // 3 items
+                {group: 'Body'}, {group: 'Body'}, // 2 items
+                {group: 'Food'}, // 1 item
+            ];
+            initializeCategoryCounts(testNodes);
+        });
+
+        it('should calculate size based on category count (descending)', () => {
+            expect(categorySizeDsc({group: 'Nature'})).toBe(1); // (3-3+1) * 1 = 1
+            expect(categorySizeDsc({group: 'Body'})).toBe(2); // (3-2+1) * 1 = 2
+            expect(categorySizeDsc({group: 'Food'})).toBe(3); // (3-1+1) * 1 = 3
+        });
+
+        it('should handle unknown categories', () => {
+            expect(categorySizeDsc({group: 'Unknown'})).toBe(4); // (3-0+1) * 1 = 4
+        });
+
+        it('should cap at maximum size of 50', () => {
+            // Create a category with many items where reverse scale would exceed 50
+            const testNodes = Array(60).fill({group: 'Small'});
+            testNodes.push({group: 'Large'});
+            initializeCategoryCounts(testNodes);
+            expect(categorySizeDsc({group: 'Small'})).toBe(1); // (60-60+1) * 1 = 1
+            expect(categorySizeDsc({group: 'Large'})).toBe(50); // (60-1+1) = 60 which caps at 50
+        });
+    });
+});
+
+describe('Syllable Counting Functions', () => {
+    describe('getSyllableCount', () => {
+        it('should count syllables in simple readings', () => {
+            expect(getSyllableCount('no')).toBe(1);
+            expect(getSyllableCount('ichi')).toBe(2);
+            expect(getSyllableCount('tatebou')).toBe(3);
+            expect(getSyllableCount('nabebuta')).toBe(4);
+        });
+
+        it('should handle readings with final n', () => {
+            expect(getSyllableCount('hon')).toBe(1); // ho-n counted as single vowel group
+            expect(getSyllableCount('sen')).toBe(1); // se-n counted as single vowel group
+        });
+
+        it('should not count final n after vowels', () => {
+            expect(getSyllableCount('an')).toBe(1); // an (not a-n)
+            expect(getSyllableCount('on')).toBe(1); // on (not o-n)
+        });
+
+        it('should handle edge cases', () => {
+            expect(getSyllableCount('')).toBe(1); // Empty string
+            expect(getSyllableCount(null)).toBe(1); // Null
+            expect(getSyllableCount(undefined)).toBe(1); // Undefined
+        });
+
+        it('should handle complex readings', () => {
+            expect(getSyllableCount('kusakanmuri')).toBe(5); // ku-sa-kan-mu-ri
+            expect(getSyllableCount('hitoashi')).toBe(3); // hi-to-ashi
+        });
+    });
+});
+
+describe('Category Count Functions', () => {
+    describe('initializeCategoryCounts', () => {
+        it('should initialize category counts from nodes', () => {
+            const nodes = [
+                {group: 'Nature'}, {group: 'Nature'}, {group: 'Nature'},
+                {group: 'Body'}, {group: 'Body'},
+                {group: 'Food'}
+            ];
+            
+            initializeCategoryCounts(nodes);
+            const counts = getAllCategoryCounts();
+            
+            expect(counts['Nature']).toBe(3);
+            expect(counts['Body']).toBe(2);
+            expect(counts['Food']).toBe(1);
+        });
+
+        it('should handle empty nodes array', () => {
+            initializeCategoryCounts([]);
+            const counts = getAllCategoryCounts();
+            expect(counts).toEqual({});
+        });
+
+        it('should reset counts on re-initialization', () => {
+            // First initialization
+            initializeCategoryCounts([{group: 'Nature'}]);
+            expect(getCategoryCount('Nature')).toBe(1);
+
+            // Second initialization should reset
+            initializeCategoryCounts([{group: 'Body'}, {group: 'Body'}]);
+            expect(getCategoryCount('Nature')).toBe(0);
+            expect(getCategoryCount('Body')).toBe(2);
+        });
+    });
+
+    describe('getCategoryCount', () => {
+        beforeEach(() => {
+            const nodes = [
+                {group: 'Nature'}, {group: 'Nature'},
+                {group: 'Body'}
+            ];
+            initializeCategoryCounts(nodes);
+        });
+
+        it('should return correct count for existing categories', () => {
+            expect(getCategoryCount('Nature')).toBe(2);
+            expect(getCategoryCount('Body')).toBe(1);
+        });
+
+        it('should return 0 for non-existing categories', () => {
+            expect(getCategoryCount('Unknown')).toBe(0);
+        });
+    });
+
+    describe('getCategoryCountsSorted', () => {
+        beforeEach(() => {
+            const nodes = [
+                {group: 'Nature'}, {group: 'Nature'}, {group: 'Nature'},
+                {group: 'Body'}, {group: 'Body'},
+                {group: 'Food'}
+            ];
+            initializeCategoryCounts(nodes);
+        });
+
+        it('should return sorted entries in ascending order', () => {
+            const sorted = getCategoryCountsSorted(true);
+            expect(sorted).toEqual([
+                ['Food', 1],
+                ['Body', 2],
+                ['Nature', 3]
+            ]);
+        });
+
+        it('should return sorted entries in descending order', () => {
+            const sorted = getCategoryCountsSorted(false);
+            expect(sorted).toEqual([
+                ['Nature', 3],
+                ['Body', 2],
+                ['Food', 1]
+            ]);
         });
     });
 });
@@ -490,3 +687,4 @@ describe('Graph Data Transformation', () => {
         });
     });
 });
+
