@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import type { Radical, ImageInfo } from './types';
+import type { Radical, ImageInfo, SelectedImage } from './types';
 import { api } from './api';
 import RadicalSelector from './components/RadicalSelector';
 import ImageComparison from './components/ImageComparison';
@@ -10,6 +10,7 @@ function App() {
   const [radicals, setRadicals] = useState<Radical[]>([]);
   const [currentRadicalIndex, setCurrentRadicalIndex] = useState(0);
   const [images, setImages] = useState<ImageInfo[]>([]);
+  const [selectedImage, setSelectedImage] = useState<SelectedImage | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -22,6 +23,7 @@ function App() {
   useEffect(() => {
     if (radicals.length > 0) {
       loadImages(radicals[currentRadicalIndex].number);
+      loadSelectedImage(radicals[currentRadicalIndex].number);
     }
   }, [currentRadicalIndex, radicals]);
 
@@ -80,6 +82,18 @@ function App() {
       setError(err instanceof Error ? err.message : 'Failed to load images');
     } finally {
       setLoading(false);
+    }
+  };
+
+  const loadSelectedImage = async (radicalNumber: number) => {
+    try {
+      console.log('Loading selected image for radical:', radicalNumber);
+      const selectedImageData = await api.getSelectedImage(radicalNumber);
+      console.log('Selected image loaded:', selectedImageData);
+      setSelectedImage(selectedImageData);
+    } catch (err) {
+      console.error('Error loading selected image:', err);
+      setSelectedImage(null);
     }
   };
 
@@ -147,6 +161,7 @@ function App() {
               radical={currentRadical}
               totalRadicals={radicals.length}
               currentIndex={currentRadicalIndex}
+              selectedImage={selectedImage}
             />
             
             <Navigation

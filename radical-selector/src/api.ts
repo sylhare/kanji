@@ -41,5 +41,11 @@ export const api = {
     const response = await fetch(`${API_BASE}/selected`);
     if (!response.ok) throw new Error('Failed to fetch selected images');
     return response.json();
+  },
+
+  async getSelectedImage(radicalNumber: number): Promise<SelectedImage | null> {
+    const response = await fetch(`${API_BASE}/selected/${radicalNumber}`);
+    if (!response.ok) throw new Error('Failed to fetch selected image');
+    return response.json();
   }
 };

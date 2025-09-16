@@ -1,20 +1,33 @@
 import React from 'react';
-import type { Radical } from '../types';
+import type { Radical, SelectedImage } from '../types';
 import './RadicalSelector.css';
 
 interface RadicalSelectorProps {
   radical: Radical;
   totalRadicals: number;
   currentIndex: number;
+  selectedImage?: SelectedImage | null;
 }
 
 const RadicalSelector: React.FC<RadicalSelectorProps> = ({ 
   radical, 
   totalRadicals, 
-  currentIndex 
+  currentIndex,
+  selectedImage 
 }) => {
   return (
     <div className="radical-selector">
+      {selectedImage && (
+        <div className="selected-image-preview">
+          <div className="selected-label">✅ Currently Selected:</div>
+          <img 
+            src={`http://localhost:3001${selectedImage.url}`} 
+            alt={`Selected image for radical ${radical.number}`}
+            className="selected-image-small"
+          />
+        </div>
+      )}
+      
       <div className="radical-info">
         <div className="radical-header">
           <div className="radical-number">#{radical.number}</div>

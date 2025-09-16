@@ -144,6 +144,29 @@ app.get('/api/selected', async (req, res) => {
   }
 });
 
+// Get selected image for specific radical
+app.get('/api/selected/:radicalNumber', async (req, res) => {
+  try {
+    const radicalNumber = parseInt(req.params.radicalNumber);
+    const radicalFileName = `radical_${radicalNumber.toString().padStart(3, '0')}.png`;
+    const selectedDir = path.join(__dirname, '../../_data/assets/img/radical/selected');
+    const imagePath = path.join(selectedDir, radicalFileName);
+    
+    if (await fs.pathExists(imagePath)) {
+      res.json({
+        filename: radicalFileName,
+        url: `/images/selected/${radicalFileName}`,
+        radicalNumber
+      });
+    } else {
+      res.json(null);
+    }
+  } catch (error) {
+    console.error('Error reading selected image:', error);
+    res.status(500).json({ error: 'Failed to read selected image' });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
 });

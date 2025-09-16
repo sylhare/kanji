@@ -7,6 +7,33 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Selected Image Preview */
+.selected-image-preview {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #f0fff4;
+  border: 2px solid #68d391;
+  border-radius: 8px;
+}
+
+.selected-label {
+  font-weight: 600;
+  color: #22543d;
+  font-size: 0.9rem;
+}
+
+.selected-image-small {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #68d391;
+  box-shadow: 0 2px 8px rgba(104, 211, 145, 0.3);
+}
+
 .radical-info {
   max-width: 100%;
 }
@@ -82,6 +109,21 @@
   .radical-selector {
     padding: 1.5rem;
     margin-bottom: 1rem;
+  }
+  
+  .selected-image-preview {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    gap: 0.75rem;
+  }
+  
+  .selected-image-small {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .selected-label {
+    font-size: 0.8rem;
   }
   
   .radical-header {

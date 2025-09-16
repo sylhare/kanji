@@ -20,6 +20,7 @@ export interface ImageInfo {
 export interface SelectedImage {
   filename: string;
   url: string;
+  radicalNumber?: number;
 }
 
 export interface ApiResponse<T> {
