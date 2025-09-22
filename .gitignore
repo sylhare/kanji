@@ -10,6 +10,7 @@ resources/kanji-data-media-master/radical-animations/*
 assets/js/gulp/cypress/videos/*
 assets/js/gulp/cypress/fixtures/*
 resources/html/
+**/__pycache__
 
 # Test coverage
 coverage/
