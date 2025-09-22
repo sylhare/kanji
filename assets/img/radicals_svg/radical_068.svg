@@ -7,68 +7,92 @@
         font-size: 200px;
         text-anchor: middle;
         dominant-baseline: middle;
-        fill: #2c2c2c;
+        fill: #4b4845;
+        font-weight: bold;
+      }
+      .number-text {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 20px;
+        text-anchor: start;
+        dominant-baseline: hanging;
+        fill: #4b4845;
+        opacity: 0.7;
+        font-weight: normal;
+      }
+      .meaning-text {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 20px;
+        text-anchor: middle;
+        dominant-baseline: baseline;
+        fill: #4b4845;
+        opacity: 0.8;
         font-weight: normal;
       }
     </style>
   </defs>
   
-  <!-- Background -->
-  <rect width="512" height="512" fill="white"/>
+  <!-- Background Fill -->
+  <rect width="512" height="512" fill="#FAF0E6"/>
   
   <!-- Background Pattern -->
-  <g opacity="1.0">
-    <rect x="10" y="10" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 35 35)"/>
-    <rect x="10" y="90" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 35 115)"/>
-    <rect x="10" y="170" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 35 195)"/>
-    <rect x="10" y="250" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 35 275)"/>
-    <rect x="10" y="330" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 35 355)"/>
-    <rect x="10" y="410" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 35 435)"/>
-    <rect x="10" y="490" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 35 515)"/>
-    <rect x="90" y="10" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 115 35)"/>
-    <rect x="90" y="90" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 115 115)"/>
-    <rect x="90" y="170" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 115 195)"/>
-    <rect x="90" y="250" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 115 275)"/>
-    <rect x="90" y="330" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 115 355)"/>
-    <rect x="90" y="410" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 115 435)"/>
-    <rect x="90" y="490" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 115 515)"/>
-    <rect x="170" y="10" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 195 35)"/>
-    <rect x="170" y="90" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 195 115)"/>
-    <rect x="170" y="170" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 195 195)"/>
-    <rect x="170" y="250" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 195 275)"/>
-    <rect x="170" y="330" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 195 355)"/>
-    <rect x="170" y="410" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 195 435)"/>
-    <rect x="170" y="490" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 195 515)"/>
-    <rect x="250" y="10" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 275 35)"/>
-    <rect x="250" y="90" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 275 115)"/>
-    <rect x="250" y="170" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 275 195)"/>
-    <rect x="250" y="250" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 275 275)"/>
-    <rect x="250" y="330" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 275 355)"/>
-    <rect x="250" y="410" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 275 435)"/>
-    <rect x="250" y="490" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 275 515)"/>
-    <rect x="330" y="10" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 355 35)"/>
-    <rect x="330" y="90" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 355 115)"/>
-    <rect x="330" y="170" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 355 195)"/>
-    <rect x="330" y="250" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 355 275)"/>
-    <rect x="330" y="330" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 355 355)"/>
-    <rect x="330" y="410" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 355 435)"/>
-    <rect x="330" y="490" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 355 515)"/>
-    <rect x="410" y="10" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 435 35)"/>
-    <rect x="410" y="90" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 435 115)"/>
-    <rect x="410" y="170" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 435 195)"/>
-    <rect x="410" y="250" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 435 275)"/>
-    <rect x="410" y="330" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 435 355)"/>
-    <rect x="410" y="410" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 435 435)"/>
-    <rect x="410" y="490" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 435 515)"/>
-    <rect x="490" y="10" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 515 35)"/>
-    <rect x="490" y="90" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 515 115)"/>
-    <rect x="490" y="170" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 515 195)"/>
-    <rect x="490" y="250" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 515 275)"/>
-    <rect x="490" y="330" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 515 355)"/>
-    <rect x="490" y="410" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 515 435)"/>
-    <rect x="490" y="490" width="50" height="50" fill="#fffff5" opacity="0.35" transform="rotate(15 515 515)"/>
+  <g opacity="0.6">
+    <rect x="10" y="10" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 35 35)"/>
+    <rect x="10" y="90" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 35 115)"/>
+    <rect x="10" y="170" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 35 195)"/>
+    <rect x="10" y="250" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 35 275)"/>
+    <rect x="10" y="330" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 35 355)"/>
+    <rect x="10" y="410" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 35 435)"/>
+    <rect x="10" y="490" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 35 515)"/>
+    <rect x="90" y="10" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 115 35)"/>
+    <rect x="90" y="90" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 115 115)"/>
+    <rect x="90" y="170" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 115 195)"/>
+    <rect x="90" y="250" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 115 275)"/>
+    <rect x="90" y="330" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 115 355)"/>
+    <rect x="90" y="410" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 115 435)"/>
+    <rect x="90" y="490" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 115 515)"/>
+    <rect x="170" y="10" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 195 35)"/>
+    <rect x="170" y="90" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 195 115)"/>
+    <rect x="170" y="170" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 195 195)"/>
+    <rect x="170" y="250" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 195 275)"/>
+    <rect x="170" y="330" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 195 355)"/>
+    <rect x="170" y="410" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 195 435)"/>
+    <rect x="170" y="490" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 195 515)"/>
+    <rect x="250" y="10" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 275 35)"/>
+    <rect x="250" y="90" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 275 115)"/>
+    <rect x="250" y="170" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 275 195)"/>
+    <rect x="250" y="250" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 275 275)"/>
+    <rect x="250" y="330" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 275 355)"/>
+    <rect x="250" y="410" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 275 435)"/>
+    <rect x="250" y="490" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 275 515)"/>
+    <rect x="330" y="10" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 355 35)"/>
+    <rect x="330" y="90" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 355 115)"/>
+    <rect x="330" y="170" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 355 195)"/>
+    <rect x="330" y="250" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 355 275)"/>
+    <rect x="330" y="330" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 355 355)"/>
+    <rect x="330" y="410" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 355 435)"/>
+    <rect x="330" y="490" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 355 515)"/>
+    <rect x="410" y="10" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 435 35)"/>
+    <rect x="410" y="90" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 435 115)"/>
+    <rect x="410" y="170" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 435 195)"/>
+    <rect x="410" y="250" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 435 275)"/>
+    <rect x="410" y="330" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 435 355)"/>
+    <rect x="410" y="410" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 435 435)"/>
+    <rect x="410" y="490" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 435 515)"/>
+    <rect x="490" y="10" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 515 35)"/>
+    <rect x="490" y="90" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 515 115)"/>
+    <rect x="490" y="170" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 515 195)"/>
+    <rect x="490" y="250" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 515 275)"/>
+    <rect x="490" y="330" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 515 355)"/>
+    <rect x="490" y="410" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 515 435)"/>
+    <rect x="490" y="490" width="50" height="50" fill="#afa8a1" opacity="0.35" transform="rotate(15 515 515)"/>
   </g>
   
   <!-- Radical Character -->
   <text x="256" y="256" class="radical-text">斗</text>
+  
+  <!-- Number in top-left corner -->
+  <text x="20" y="20" class="number-text">#68</text>
+  
+  <!-- Meaning at bottom -->
+  <text x="256" y="480" class="meaning-text">big dipper, ladle, 18 liters</text>
 </svg>

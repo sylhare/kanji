@@ -68,20 +68,29 @@ def get_background_config(meaning, category):
 def generate_background_svg(shape_type, color):
     """Generate SVG background pattern."""
     
-    # Keep colors visible but not overwhelming
+    # Create a different shade of the background color for patterns
     if color.startswith('#'):
-        # Convert hex to RGB and make it slightly paler
+        # Convert hex to RGB 
         hex_color = color[1:]
         r = int(hex_color[0:2], 16)
         g = int(hex_color[2:4], 16)
         b = int(hex_color[4:6], 16)
-        # Make colors slightly paler but still visible
-        r = min(255, r + 15)
-        g = min(255, g + 15)  
-        b = min(255, b + 15)
-        pale_color = f"#{r:02x}{g:02x}{b:02x}"
+        
+        # Calculate luminance to determine if we should go darker or lighter
+        luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255
+        
+        if luminance > 0.6:  # Light background - make patterns darker
+            pattern_r = max(0, int(r * 0.7))  # 30% darker
+            pattern_g = max(0, int(g * 0.7))
+            pattern_b = max(0, int(b * 0.7))
+        else:  # Dark background - make patterns lighter  
+            pattern_r = min(255, int(r * 1.3))  # 30% lighter
+            pattern_g = min(255, int(g * 1.3))
+            pattern_b = min(255, int(b * 1.3))
+        
+        pattern_color = f"#{pattern_r:02x}{pattern_g:02x}{pattern_b:02x}"
     else:
-        pale_color = color
+        pattern_color = color
     
     background_elements = []
     
@@ -93,7 +102,7 @@ def generate_background_svg(shape_type, color):
                 y = i + 40 + 20 * math.sin(x * 0.015)
                 path_data += f" L {x},{y}"
             path_data += f" L 512,{i + 60} L 0,{i + 60} Z"
-            background_elements.append(f'<path d="{path_data}" fill="{pale_color}" opacity="0.3"/>')
+            background_elements.append(f'<path d="{path_data}" fill="{pattern_color}" opacity="0.4"/>')
     
     elif shape_type == 'triangles':
         # Mountain-like triangles with overlapping layers
@@ -101,7 +110,7 @@ def generate_background_svg(shape_type, color):
             x_offset = i * 150 - 50
             height_offset = 150 + i * 40
             points = f"{x_offset + 100},512 {x_offset + 200},{height_offset} {x_offset + 300},512"
-            background_elements.append(f'<polygon points="{points}" fill="{pale_color}" opacity="0.4"/>')
+            background_elements.append(f'<polygon points="{points}" fill="{pattern_color}" opacity="0.5"/>')
     
     elif shape_type == 'circles':
         # Scattered circles with varying sizes
@@ -109,14 +118,14 @@ def generate_background_svg(shape_type, color):
             x = (i * 123) % 450 + 50
             y = (i * 87) % 450 + 50
             radius = 25 + (i % 4) * 15
-            background_elements.append(f'<circle cx="{x}" cy="{y}" r="{radius}" fill="{pale_color}" opacity="0.3"/>')
+            background_elements.append(f'<circle cx="{x}" cy="{y}" r="{radius}" fill="{pattern_color}" opacity="0.4"/>')
     
     elif shape_type == 'lines':
         # Diagonal lines with thicker strokes
         for i in range(0, 512, 40):
-            background_elements.append(f'<line x1="{i}" y1="0" x2="{i + 150}" y2="512" stroke="{pale_color}" stroke-width="4" opacity="0.4"/>')
+            background_elements.append(f'<line x1="{i}" y1="0" x2="{i + 150}" y2="512" stroke="{pattern_color}" stroke-width="4" opacity="0.4"/>')
         for i in range(0, 512, 40):
-            background_elements.append(f'<line x1="0" y1="{i}" x2="512" y2="{i + 150}" stroke="{pale_color}" stroke-width="2" opacity="0.3"/>')
+            background_elements.append(f'<line x1="0" y1="{i}" x2="512" y2="{i + 150}" stroke="{pattern_color}" stroke-width="2" opacity="0.3"/>')
     
     elif shape_type == 'curves':
         # Curved filled areas
@@ -127,13 +136,13 @@ def generate_background_svg(shape_type, color):
                 y = y_offset + 80 + 25 * math.sin(x * 0.008 + i)
                 path_data += f" L {x},{y}"
             path_data += f" L 512,{y_offset + 120} L 0,{y_offset + 120} Z"
-            background_elements.append(f'<path d="{path_data}" fill="{pale_color}" opacity="0.3"/>')
+            background_elements.append(f'<path d="{path_data}" fill="{pattern_color}" opacity="0.4"/>')
     
     elif shape_type == 'squares':
         # Grid pattern with rotation
         for i in range(0, 512, 80):
             for j in range(0, 512, 80):
-                background_elements.append(f'<rect x="{i + 10}" y="{j + 10}" width="50" height="50" fill="{pale_color}" opacity="0.35" transform="rotate(15 {i+35} {j+35})"/>')
+                background_elements.append(f'<rect x="{i + 10}" y="{j + 10}" width="50" height="50" fill="{pattern_color}" opacity="0.35" transform="rotate(15 {i+35} {j+35})"/>')
     
     elif shape_type == 'spots':
         # Scattered dots
@@ -141,14 +150,14 @@ def generate_background_svg(shape_type, color):
             x = (i * 73) % 512
             y = (i * 97) % 512
             radius = 8 + (i % 4) * 3
-            background_elements.append(f'<circle cx="{x}" cy="{y}" r="{radius}" fill="{pale_color}" opacity="0.4"/>')
+            background_elements.append(f'<circle cx="{x}" cy="{y}" r="{radius}" fill="{pattern_color}" opacity="0.4"/>')
     
     elif shape_type == 'leaves':
         # Leaf-like shapes (ellipses)
         for i in range(10):
             x = (i * 97) % 512
             y = (i * 73) % 512
-            background_elements.append(f'<ellipse cx="{x}" cy="{y}" rx="20" ry="15" fill="{pale_color}" opacity="0.4"/>')
+            background_elements.append(f'<ellipse cx="{x}" cy="{y}" rx="20" ry="15" fill="{pattern_color}" opacity="0.4"/>')
     
     elif shape_type == 'flames':
         # Flame-like curves
@@ -159,27 +168,62 @@ def generate_background_svg(shape_type, color):
                 x = x_base + 10 * math.sin(j * 0.5)
                 y = 512 - j * 40
                 path_data += f" L {x},{y}"
-            background_elements.append(f'<path d="{path_data}" stroke="{pale_color}" stroke-width="4" fill="none" opacity="0.5"/>')
+            background_elements.append(f'<path d="{path_data}" stroke="{pattern_color}" stroke-width="4" fill="none" opacity="0.5"/>')
     
     elif shape_type == 'dots':
         # Regular dot pattern
         for i in range(0, 512, 80):
             for j in range(0, 512, 80):
-                background_elements.append(f'<circle cx="{i}" cy="{j}" r="3" fill="{pale_color}" opacity="0.5"/>')
+                background_elements.append(f'<circle cx="{i}" cy="{j}" r="3" fill="{pattern_color}" opacity="0.5"/>')
     
     else:  # random_lines or default
         # Random-ish lines
         for i in range(8):
             x1, y1 = (i * 70) % 512, (i * 90) % 512
             x2, y2 = (x1 + 150) % 512, (y1 + 100) % 512
-            background_elements.append(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{pale_color}" stroke-width="2" opacity="0.4"/>')
+            background_elements.append(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{pattern_color}" stroke-width="2" opacity="0.4"/>')
     
     return '\n    '.join(background_elements)
+
+def get_text_color(bg_color):
+    """Get a harmonious but contrasting text color for the given background color."""
+    
+    # Convert hex to RGB
+    if bg_color.startswith('#'):
+        hex_color = bg_color[1:]
+        r = int(hex_color[0:2], 16)
+        g = int(hex_color[2:4], 16)
+        b = int(hex_color[4:6], 16)
+        
+        # Calculate luminance to determine if background is light or dark
+        luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255
+        
+        if luminance > 0.7:  # Light background
+            # Use a darker, saturated version of the background color
+            text_r = max(0, int(r * 0.3))
+            text_g = max(0, int(g * 0.3))
+            text_b = max(0, int(b * 0.3))
+        else:  # Dark background
+            # Use a lighter version but not pure white
+            text_r = min(255, int(r * 0.8 + 50))
+            text_g = min(255, int(g * 0.8 + 50))
+            text_b = min(255, int(b * 0.8 + 50))
+        
+        return f"#{text_r:02x}{text_g:02x}{text_b:02x}"
+    
+    # Default fallback
+    return "#2c3e50"
 
 def generate_radical_svg(radical_data, output_dir):
     """Generate a single portable radical SVG."""
     
-    radical_char = radical_data['Radical']
+    # For radical 78, use a more compatible character
+    if radical_data['Number'] == '78':
+        # Use the Kangxi radical form which has better font support
+        radical_char = '⽍'  # Kangxi radical 78 (U+2F4D)
+    else:
+        radical_char = radical_data['Radical']
+        
     meaning = radical_data['Meaning']
     category = radical_data['Category']
     number = radical_data['Number']
@@ -187,6 +231,9 @@ def generate_radical_svg(radical_data, output_dir):
     # Get background configuration
     shape_type, bg_color = get_background_config(meaning, category)
     background_svg = generate_background_svg(shape_type, bg_color)
+    
+    # Get harmonious text color
+    text_color = get_text_color(bg_color)
     
     # Create portable SVG content (no @font-face declarations)
     svg_content = f'''<?xml version="1.0" encoding="UTF-8"?>
@@ -198,22 +245,46 @@ def generate_radical_svg(radical_data, output_dir):
         font-size: 200px;
         text-anchor: middle;
         dominant-baseline: middle;
-        fill: #2c2c2c;
+        fill: {text_color};
+        font-weight: bold;
+      }}
+      .number-text {{
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 20px;
+        text-anchor: start;
+        dominant-baseline: hanging;
+        fill: {text_color};
+        opacity: 0.7;
+        font-weight: normal;
+      }}
+      .meaning-text {{
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 20px;
+        text-anchor: middle;
+        dominant-baseline: baseline;
+        fill: {text_color};
+        opacity: 0.8;
         font-weight: normal;
       }}
     </style>
   </defs>
   
-  <!-- Background -->
-  <rect width="512" height="512" fill="white"/>
+  <!-- Background Fill -->
+  <rect width="512" height="512" fill="{bg_color}"/>
   
   <!-- Background Pattern -->
-  <g opacity="1.0">
+  <g opacity="0.6">
     {background_svg}
   </g>
   
   <!-- Radical Character -->
   <text x="256" y="256" class="radical-text">{radical_char}</text>
+  
+  <!-- Number in top-left corner -->
+  <text x="20" y="20" class="number-text">#{number}</text>
+  
+  <!-- Meaning at bottom -->
+  <text x="256" y="480" class="meaning-text">{meaning}</text>
 </svg>'''
     
     # Save the SVG

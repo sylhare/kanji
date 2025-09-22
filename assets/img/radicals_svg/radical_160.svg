@@ -7,31 +7,55 @@
         font-size: 200px;
         text-anchor: middle;
         dominant-baseline: middle;
-        fill: #2c2c2c;
+        fill: #4c443d;
+        font-weight: bold;
+      }
+      .number-text {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 20px;
+        text-anchor: start;
+        dominant-baseline: hanging;
+        fill: #4c443d;
+        opacity: 0.7;
+        font-weight: normal;
+      }
+      .meaning-text {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 20px;
+        text-anchor: middle;
+        dominant-baseline: baseline;
+        fill: #4c443d;
+        opacity: 0.8;
         font-weight: normal;
       }
     </style>
   </defs>
   
-  <!-- Background -->
-  <rect width="512" height="512" fill="white"/>
+  <!-- Background Fill -->
+  <rect width="512" height="512" fill="#FFE4CD"/>
   
   <!-- Background Pattern -->
-  <g opacity="1.0">
-    <circle cx="50" cy="50" r="25" fill="#fff3dc" opacity="0.3"/>
-    <circle cx="173" cy="137" r="40" fill="#fff3dc" opacity="0.3"/>
-    <circle cx="296" cy="224" r="55" fill="#fff3dc" opacity="0.3"/>
-    <circle cx="419" cy="311" r="70" fill="#fff3dc" opacity="0.3"/>
-    <circle cx="92" cy="398" r="25" fill="#fff3dc" opacity="0.3"/>
-    <circle cx="215" cy="485" r="40" fill="#fff3dc" opacity="0.3"/>
-    <circle cx="338" cy="122" r="55" fill="#fff3dc" opacity="0.3"/>
-    <circle cx="461" cy="209" r="70" fill="#fff3dc" opacity="0.3"/>
-    <circle cx="134" cy="296" r="25" fill="#fff3dc" opacity="0.3"/>
-    <circle cx="257" cy="383" r="40" fill="#fff3dc" opacity="0.3"/>
-    <circle cx="380" cy="470" r="55" fill="#fff3dc" opacity="0.3"/>
-    <circle cx="53" cy="107" r="70" fill="#fff3dc" opacity="0.3"/>
+  <g opacity="0.6">
+    <circle cx="50" cy="50" r="25" fill="#b29f8f" opacity="0.4"/>
+    <circle cx="173" cy="137" r="40" fill="#b29f8f" opacity="0.4"/>
+    <circle cx="296" cy="224" r="55" fill="#b29f8f" opacity="0.4"/>
+    <circle cx="419" cy="311" r="70" fill="#b29f8f" opacity="0.4"/>
+    <circle cx="92" cy="398" r="25" fill="#b29f8f" opacity="0.4"/>
+    <circle cx="215" cy="485" r="40" fill="#b29f8f" opacity="0.4"/>
+    <circle cx="338" cy="122" r="55" fill="#b29f8f" opacity="0.4"/>
+    <circle cx="461" cy="209" r="70" fill="#b29f8f" opacity="0.4"/>
+    <circle cx="134" cy="296" r="25" fill="#b29f8f" opacity="0.4"/>
+    <circle cx="257" cy="383" r="40" fill="#b29f8f" opacity="0.4"/>
+    <circle cx="380" cy="470" r="55" fill="#b29f8f" opacity="0.4"/>
+    <circle cx="53" cy="107" r="70" fill="#b29f8f" opacity="0.4"/>
   </g>
   
   <!-- Radical Character -->
   <text x="256" y="256" class="radical-text">辛</text>
+  
+  <!-- Number in top-left corner -->
+  <text x="20" y="20" class="number-text">#160</text>
+  
+  <!-- Meaning at bottom -->
+  <text x="256" y="480" class="meaning-text">bitter</text>
 </svg>

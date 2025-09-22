@@ -7,27 +7,51 @@
         font-size: 200px;
         text-anchor: middle;
         dominant-baseline: middle;
-        fill: #2c2c2c;
+        fill: #4c4c4c;
+        font-weight: bold;
+      }
+      .number-text {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 20px;
+        text-anchor: start;
+        dominant-baseline: hanging;
+        fill: #4c4c4c;
+        opacity: 0.7;
+        font-weight: normal;
+      }
+      .meaning-text {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 20px;
+        text-anchor: middle;
+        dominant-baseline: baseline;
+        fill: #4c4c4c;
+        opacity: 0.8;
         font-weight: normal;
       }
     </style>
   </defs>
   
-  <!-- Background -->
-  <rect width="512" height="512" fill="white"/>
+  <!-- Background Fill -->
+  <rect width="512" height="512" fill="#FFFFFF"/>
   
   <!-- Background Pattern -->
-  <g opacity="1.0">
-    <line x1="0" y1="0" x2="150" y2="100" stroke="#ffffff" stroke-width="2" opacity="0.4"/>
-    <line x1="70" y1="90" x2="220" y2="190" stroke="#ffffff" stroke-width="2" opacity="0.4"/>
-    <line x1="140" y1="180" x2="290" y2="280" stroke="#ffffff" stroke-width="2" opacity="0.4"/>
-    <line x1="210" y1="270" x2="360" y2="370" stroke="#ffffff" stroke-width="2" opacity="0.4"/>
-    <line x1="280" y1="360" x2="430" y2="460" stroke="#ffffff" stroke-width="2" opacity="0.4"/>
-    <line x1="350" y1="450" x2="500" y2="38" stroke="#ffffff" stroke-width="2" opacity="0.4"/>
-    <line x1="420" y1="28" x2="58" y2="128" stroke="#ffffff" stroke-width="2" opacity="0.4"/>
-    <line x1="490" y1="118" x2="128" y2="218" stroke="#ffffff" stroke-width="2" opacity="0.4"/>
+  <g opacity="0.6">
+    <line x1="0" y1="0" x2="150" y2="100" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
+    <line x1="70" y1="90" x2="220" y2="190" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
+    <line x1="140" y1="180" x2="290" y2="280" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
+    <line x1="210" y1="270" x2="360" y2="370" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
+    <line x1="280" y1="360" x2="430" y2="460" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
+    <line x1="350" y1="450" x2="500" y2="38" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
+    <line x1="420" y1="28" x2="58" y2="128" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
+    <line x1="490" y1="118" x2="128" y2="218" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
   </g>
   
   <!-- Radical Character -->
   <text x="256" y="256" class="radical-text">赤</text>
+  
+  <!-- Number in top-left corner -->
+  <text x="20" y="20" class="number-text">#155</text>
+  
+  <!-- Meaning at bottom -->
+  <text x="256" y="480" class="meaning-text">red</text>
 </svg>
