@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .radical-text {
+        font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'Takao', 'IPAexGothic', 'IPAGothic', 'VL Gothic', 'Noto Sans CJK JP', serif;
+        font-size: 200px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        fill: #2c2c2c;
+        font-weight: normal;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" fill="white"/>
+  
+  <!-- Background Pattern -->
+  <g opacity="1.0">
+    <ellipse cx="0" cy="0" rx="20" ry="15" fill="#9ffd9f" opacity="0.4"/>
+    <ellipse cx="97" cy="73" rx="20" ry="15" fill="#9ffd9f" opacity="0.4"/>
+    <ellipse cx="194" cy="146" rx="20" ry="15" fill="#9ffd9f" opacity="0.4"/>
+    <ellipse cx="291" cy="219" rx="20" ry="15" fill="#9ffd9f" opacity="0.4"/>
+    <ellipse cx="388" cy="292" rx="20" ry="15" fill="#9ffd9f" opacity="0.4"/>
+    <ellipse cx="485" cy="365" rx="20" ry="15" fill="#9ffd9f" opacity="0.4"/>
+    <ellipse cx="70" cy="438" rx="20" ry="15" fill="#9ffd9f" opacity="0.4"/>
+    <ellipse cx="167" cy="511" rx="20" ry="15" fill="#9ffd9f" opacity="0.4"/>
+    <ellipse cx="264" cy="72" rx="20" ry="15" fill="#9ffd9f" opacity="0.4"/>
+    <ellipse cx="361" cy="145" rx="20" ry="15" fill="#9ffd9f" opacity="0.4"/>
+  </g>
+  
+  <!-- Radical Character -->
+  <text x="256" y="256" class="radical-text">韭</text>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .radical-text {
+        font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'Takao', 'IPAexGothic', 'IPAGothic', 'VL Gothic', 'Noto Sans CJK JP', serif;
+        font-size: 200px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        fill: #2c2c2c;
+        font-weight: normal;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" fill="white"/>
+  
+  <!-- Background Pattern -->
+  <g opacity="1.0">
+    <polygon points="50,512 150,150 250,512" fill="#edc796" opacity="0.4"/>
+    <polygon points="200,512 300,190 400,512" fill="#edc796" opacity="0.4"/>
+    <polygon points="350,512 450,230 550,512" fill="#edc796" opacity="0.4"/>
+    <polygon points="500,512 600,270 700,512" fill="#edc796" opacity="0.4"/>
+  </g>
+  
+  <!-- Radical Character -->
+  <text x="256" y="256" class="radical-text">山</text>
+</svg>
