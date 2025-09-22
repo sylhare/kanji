@@ -3,11 +3,11 @@
   <defs>
     <style>
       .radical-text {
-        font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'Takao', 'IPAexGothic', 'IPAGothic', 'VL Gothic', 'Noto Sans CJK JP', serif;
+        font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'MS Gothic', 'SimSun', 'Takao', 'IPAexGothic', 'IPAGothic', 'VL Gothic', 'Noto Sans CJK JP', 'Arial Unicode MS', serif;
         font-size: 200px;
         text-anchor: middle;
         dominant-baseline: middle;
-        fill: #4c4c4c;
+        fill: #722f51;
         font-weight: bold;
       }
       .number-text {
@@ -15,7 +15,7 @@
         font-size: 20px;
         text-anchor: start;
         dominant-baseline: hanging;
-        fill: #4c4c4c;
+        fill: #722f51;
         opacity: 0.7;
         font-weight: normal;
       }
@@ -24,7 +24,7 @@
         font-size: 20px;
         text-anchor: middle;
         dominant-baseline: baseline;
-        fill: #4c4c4c;
+        fill: #722f51;
         opacity: 0.8;
         font-weight: normal;
       }
@@ -32,18 +32,30 @@
   </defs>
   
   <!-- Background Fill -->
-  <rect width="512" height="512" fill="#FFFFFF"/>
+  <rect width="512" height="512" fill="#fffdfe"/>
   
   <!-- Background Pattern -->
   <g opacity="0.6">
-    <line x1="0" y1="0" x2="150" y2="100" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
-    <line x1="70" y1="90" x2="220" y2="190" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
-    <line x1="140" y1="180" x2="290" y2="280" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
-    <line x1="210" y1="270" x2="360" y2="370" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
-    <line x1="280" y1="360" x2="430" y2="460" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
-    <line x1="350" y1="450" x2="500" y2="38" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
-    <line x1="420" y1="28" x2="58" y2="128" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
-    <line x1="490" y1="118" x2="128" y2="218" stroke="#b2b2b2" stroke-width="2" opacity="0.4"/>
+    <circle cx="0" cy="0" r="8" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="73" cy="97" r="11" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="146" cy="194" r="14" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="219" cy="291" r="17" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="292" cy="388" r="8" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="365" cy="485" r="11" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="438" cy="70" r="14" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="511" cy="167" r="17" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="72" cy="264" r="8" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="145" cy="361" r="11" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="218" cy="458" r="14" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="291" cy="43" r="17" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="364" cy="140" r="8" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="437" cy="237" r="11" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="510" cy="334" r="14" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="71" cy="431" r="17" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="144" cy="16" r="8" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="217" cy="113" r="11" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="290" cy="210" r="14" fill="#FF69B4" opacity="0.6"/>
+    <circle cx="363" cy="307" r="17" fill="#FF69B4" opacity="0.6"/>
   </g>
   
   <!-- Radical Character -->

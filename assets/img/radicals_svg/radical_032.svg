@@ -3,11 +3,11 @@
   <defs>
     <style>
       .radical-text {
-        font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'Takao', 'IPAexGothic', 'IPAGothic', 'VL Gothic', 'Noto Sans CJK JP', serif;
+        font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'MS Gothic', 'SimSun', 'Takao', 'IPAexGothic', 'IPAGothic', 'VL Gothic', 'Noto Sans CJK JP', 'Arial Unicode MS', serif;
         font-size: 200px;
         text-anchor: middle;
         dominant-baseline: middle;
-        fill: #423728;
+        fill: #3e1f08;
         font-weight: bold;
       }
       .number-text {
@@ -15,7 +15,7 @@
         font-size: 20px;
         text-anchor: start;
         dominant-baseline: hanging;
-        fill: #423728;
+        fill: #3e1f08;
         opacity: 0.7;
         font-weight: normal;
       }
@@ -24,7 +24,7 @@
         font-size: 20px;
         text-anchor: middle;
         dominant-baseline: baseline;
-        fill: #423728;
+        fill: #3e1f08;
         opacity: 0.8;
         font-weight: normal;
       }
@@ -32,14 +32,14 @@
   </defs>
   
   <!-- Background Fill -->
-  <rect width="512" height="512" fill="#DEB887"/>
+  <rect width="512" height="512" fill="#fdfdfc"/>
   
   <!-- Background Pattern -->
   <g opacity="0.6">
-    <polygon points="50,512 150,150 250,512" fill="#9b805e" opacity="0.5"/>
-    <polygon points="200,512 300,190 400,512" fill="#9b805e" opacity="0.5"/>
-    <polygon points="350,512 450,230 550,512" fill="#9b805e" opacity="0.5"/>
-    <polygon points="500,512 600,270 700,512" fill="#9b805e" opacity="0.5"/>
+    <polygon points="50,512 150,150 250,512" fill="#8B4513" opacity="0.7"/>
+    <polygon points="200,512 300,190 400,512" fill="#8B4513" opacity="0.6"/>
+    <polygon points="350,512 450,230 550,512" fill="#8B4513" opacity="0.8"/>
+    <polygon points="500,512 600,270 700,512" fill="#8B4513" opacity="0.5"/>
   </g>
   
   <!-- Radical Character -->

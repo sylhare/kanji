@@ -3,11 +3,11 @@
   <defs>
     <style>
       .radical-text {
-        font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'Takao', 'IPAexGothic', 'IPAGothic', 'VL Gothic', 'Noto Sans CJK JP', serif;
+        font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'MS Gothic', 'SimSun', 'Takao', 'IPAexGothic', 'IPAGothic', 'VL Gothic', 'Noto Sans CJK JP', 'Arial Unicode MS', serif;
         font-size: 200px;
         text-anchor: middle;
         dominant-baseline: middle;
-        fill: #494949;
+        fill: #2f2f2f;
         font-weight: bold;
       }
       .number-text {
@@ -15,7 +15,7 @@
         font-size: 20px;
         text-anchor: start;
         dominant-baseline: hanging;
-        fill: #494949;
+        fill: #2f2f2f;
         opacity: 0.7;
         font-weight: normal;
       }
@@ -24,7 +24,7 @@
         font-size: 20px;
         text-anchor: middle;
         dominant-baseline: baseline;
-        fill: #494949;
+        fill: #2f2f2f;
         opacity: 0.8;
         font-weight: normal;
       }
@@ -32,18 +32,18 @@
   </defs>
   
   <!-- Background Fill -->
-  <rect width="512" height="512" fill="#F5F5F5"/>
+  <rect width="512" height="512" fill="#fdfdfd"/>
   
   <!-- Background Pattern -->
   <g opacity="0.6">
-    <line x1="0" y1="0" x2="150" y2="100" stroke="#ababab" stroke-width="2" opacity="0.4"/>
-    <line x1="70" y1="90" x2="220" y2="190" stroke="#ababab" stroke-width="2" opacity="0.4"/>
-    <line x1="140" y1="180" x2="290" y2="280" stroke="#ababab" stroke-width="2" opacity="0.4"/>
-    <line x1="210" y1="270" x2="360" y2="370" stroke="#ababab" stroke-width="2" opacity="0.4"/>
-    <line x1="280" y1="360" x2="430" y2="460" stroke="#ababab" stroke-width="2" opacity="0.4"/>
-    <line x1="350" y1="450" x2="500" y2="38" stroke="#ababab" stroke-width="2" opacity="0.4"/>
-    <line x1="420" y1="28" x2="58" y2="128" stroke="#ababab" stroke-width="2" opacity="0.4"/>
-    <line x1="490" y1="118" x2="128" y2="218" stroke="#ababab" stroke-width="2" opacity="0.4"/>
+    <line x1="0" y1="0" x2="150" y2="100" stroke="#696969" stroke-width="2" opacity="0.6"/>
+    <line x1="70" y1="90" x2="220" y2="190" stroke="#696969" stroke-width="2" opacity="0.6"/>
+    <line x1="140" y1="180" x2="290" y2="280" stroke="#696969" stroke-width="2" opacity="0.6"/>
+    <line x1="210" y1="270" x2="360" y2="370" stroke="#696969" stroke-width="2" opacity="0.6"/>
+    <line x1="280" y1="360" x2="430" y2="460" stroke="#696969" stroke-width="2" opacity="0.6"/>
+    <line x1="350" y1="450" x2="500" y2="38" stroke="#696969" stroke-width="2" opacity="0.6"/>
+    <line x1="420" y1="28" x2="58" y2="128" stroke="#696969" stroke-width="2" opacity="0.6"/>
+    <line x1="490" y1="118" x2="128" y2="218" stroke="#696969" stroke-width="2" opacity="0.6"/>
   </g>
   
   <!-- Radical Character -->

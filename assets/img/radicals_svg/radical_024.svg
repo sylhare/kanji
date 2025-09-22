@@ -3,11 +3,11 @@
   <defs>
     <style>
       .radical-text {
-        font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'Takao', 'IPAexGothic', 'IPAGothic', 'VL Gothic', 'Noto Sans CJK JP', serif;
+        font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'MS Gothic', 'SimSun', 'Takao', 'IPAexGothic', 'IPAGothic', 'VL Gothic', 'Noto Sans CJK JP', 'Arial Unicode MS', serif;
         font-size: 200px;
         text-anchor: middle;
         dominant-baseline: middle;
-        fill: #484a4c;
+        fill: #0e504c;
         font-weight: bold;
       }
       .number-text {
@@ -15,7 +15,7 @@
         font-size: 20px;
         text-anchor: start;
         dominant-baseline: hanging;
-        fill: #484a4c;
+        fill: #0e504c;
         opacity: 0.7;
         font-weight: normal;
       }
@@ -24,7 +24,7 @@
         font-size: 20px;
         text-anchor: middle;
         dominant-baseline: baseline;
-        fill: #484a4c;
+        fill: #0e504c;
         opacity: 0.8;
         font-weight: normal;
       }
@@ -32,59 +32,59 @@
   </defs>
   
   <!-- Background Fill -->
-  <rect width="512" height="512" fill="#F0F8FF"/>
+  <rect width="512" height="512" fill="#fcfefe"/>
   
   <!-- Background Pattern -->
   <g opacity="0.6">
-    <circle cx="0" cy="0" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="0" cy="80" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="0" cy="160" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="0" cy="240" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="0" cy="320" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="0" cy="400" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="0" cy="480" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="80" cy="0" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="80" cy="80" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="80" cy="160" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="80" cy="240" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="80" cy="320" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="80" cy="400" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="80" cy="480" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="160" cy="0" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="160" cy="80" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="160" cy="160" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="160" cy="240" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="160" cy="320" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="160" cy="400" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="160" cy="480" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="240" cy="0" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="240" cy="80" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="240" cy="160" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="240" cy="240" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="240" cy="320" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="240" cy="400" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="240" cy="480" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="320" cy="0" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="320" cy="80" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="320" cy="160" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="320" cy="240" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="320" cy="320" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="320" cy="400" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="320" cy="480" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="400" cy="0" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="400" cy="80" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="400" cy="160" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="400" cy="240" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="400" cy="320" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="400" cy="400" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="400" cy="480" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="480" cy="0" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="480" cy="80" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="480" cy="160" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="480" cy="240" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="480" cy="320" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="480" cy="400" r="3" fill="#a8adb2" opacity="0.5"/>
-    <circle cx="480" cy="480" r="3" fill="#a8adb2" opacity="0.5"/>
+    <circle cx="0" cy="0" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="0" cy="80" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="0" cy="160" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="0" cy="240" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="0" cy="320" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="0" cy="400" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="0" cy="480" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="80" cy="0" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="80" cy="80" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="80" cy="160" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="80" cy="240" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="80" cy="320" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="80" cy="400" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="80" cy="480" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="160" cy="0" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="160" cy="80" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="160" cy="160" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="160" cy="240" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="160" cy="320" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="160" cy="400" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="160" cy="480" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="240" cy="0" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="240" cy="80" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="240" cy="160" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="240" cy="240" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="240" cy="320" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="240" cy="400" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="240" cy="480" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="320" cy="0" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="320" cy="80" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="320" cy="160" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="320" cy="240" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="320" cy="320" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="320" cy="400" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="320" cy="480" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="400" cy="0" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="400" cy="80" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="400" cy="160" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="400" cy="240" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="400" cy="320" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="400" cy="400" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="400" cy="480" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="480" cy="0" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="480" cy="80" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="480" cy="160" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="480" cy="240" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="480" cy="320" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="480" cy="400" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="480" cy="480" r="3" fill="#20B2AA" opacity="0.7"/>
   </g>
   
   <!-- Radical Character -->
