@@ -1,0 +1,257 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="30%" stop-color="#4682B4"/>
+      <stop offset="70%" stop-color="#1E90FF"/>
+      <stop offset="100%" stop-color="#000080"/>
+    </linearGradient>
+    <radialGradient id="coralGradient1" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FF69B4"/>
+      <stop offset="50%" stop-color="#FF1493"/>
+      <stop offset="100%" stop-color="#DC143C"/>
+    </radialGradient>
+    <radialGradient id="coralGradient2" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFA500"/>
+      <stop offset="50%" stop-color="#FF8C00"/>
+      <stop offset="100%" stop-color="#FF4500"/>
+    </radialGradient>
+    <radialGradient id="fishGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FF8C00"/>
+      <stop offset="100%" stop-color="#FF4500"/>
+    </radialGradient>
+    <radialGradient id="bubbleGradient" cx="0.2" cy="0.2" r="0.8">
+      <stop offset="0%" stop-color="#E0F6FF"/>
+      <stop offset="50%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#4682B4"/>
+    </radialGradient>
+  </defs>  <!-- Water background -->
+  <rect width="500" height="500" fill="url(#waterGradient)"/>
+  
+  <!-- Ocean floor -->
+  <rect x="0" y="350" width="400" height="50" fill="#DEB887"/>
+  
+  <!-- Large coral formations -->
+  <g fill="url(#coralGradient1)" stroke="#DC143C" stroke-width="1">
+  <!-- Coral 1 -->
+  <path d="M50 350 Q60 330 70 350 Q80 320 90 350 Q100 340 110 350 L110 400 L50 400 Z"/>
+  <path d="M65 340 Q75 320 85 340 Q95 310 105 340"/>
+  
+  <!-- Coral 2 -->
+  <path d="M300 360 Q310 340 320 360 Q330 330 340 360 Q350 350 360 360 L360 400 L300 400 Z"/>
+  <path d="M315 350 Q325 330 335 350 Q345 320 355 350"/>
+  
+  <g fill="url(#coralGradient2)" stroke="#FF4500" stroke-width="1">
+  <!-- Coral 3 -->
+  <path d="M150 370 Q160 350 170 370 Q180 345 190 370 L190 400 L150 400 Z"/>
+  <circle cx="160" cy="355" r="8"/>
+  <circle cx="175" cy="350" r="6"/>
+  
+  <!-- Coral 4 -->
+  <path d="M250 360 Q260 340 270 360 Q280 330 290 360 L290 400 L250 400 Z"/>
+  <circle cx="260" cy="345" r="7"/>
+  <circle cx="275" cy="340" r="5"/>
+  
+    <!-- Sea anemones -->
+    <g>
+    <!-- Anemone 1 -->
+    <g transform="translate(120, 350)">
+      <circle cx="0" cy="5" r="8" fill="#9370DB"/>
+      <g stroke="#8B008B" stroke-width="2" fill="none">
+        <path d="M0 0 Q-8 -15 -5 -20"/>
+        <path d="M0 0 Q-4 -18 0 -22"/>
+        <path d="M0 0 Q4 -18 0 -22"/>
+        <path d="M0 0 Q8 -15 5 -20"/>
+        <path d="M0 0 Q-12 -10 -15 -15"/>
+        <path d="M0 0 Q12 -10 15 -15"/>
+        <path d="M0 0 Q-6 -20 -2 -25"/>
+        <path d="M0 0 Q6 -20 2 -25"/>
+      </g>
+    </g>
+    
+    <!-- Anemone 2 -->
+    <g transform="translate(320, 360)">
+      <circle cx="0" cy="5" r="6" fill="#FF1493"/>
+      <g stroke="#DC143C" stroke-width="1.5" fill="none">
+        <path d="M0 0 Q-6 -12 -4 -16"/>
+        <path d="M0 0 Q-3 -15 0 -18"/>
+        <path d="M0 0 Q3 -15 0 -18"/>
+        <path d="M0 0 Q6 -12 4 -16"/>
+        <path d="M0 0 Q-9 -8 -12 -12"/>
+        <path d="M0 0 Q9 -8 12 -12"/>
+      </g>
+    </g>
+    </g>
+  
+    <!-- Tropical fish -->
+    <g>
+    <!-- Fish 1 - Angelfish -->
+    <g transform="translate(200, 180)">
+      <ellipse cx="0" cy="0" rx="20" ry="25" fill="#FFD700" stroke="#FF8C00" stroke-width="2"/>
+      <polygon points="-15,-20 -25,-15 -15,-10" fill="#FF8C00"/>
+      <polygon points="-15,10 -25,15 -15,20" fill="#FF8C00"/>
+      <polygon points="15,-5 25,-10 25,0 20,5" fill="#FF8C00"/>
+      <circle cx="8" cy="-8" r="3" fill="#000"/>
+      <g stroke="#FF4500" stroke-width="1">
+        <path d="M-10 -15 Q0 -12 10 -15"/>
+        <path d="M-10 -5 Q0 -2 10 -5"/>
+        <path d="M-10 5 Q0 8 10 5"/>
+        <path d="M-10 15 Q0 18 10 15"/>
+      </g>
+    </g>
+    
+    <!-- Fish 2 - Clownfish -->
+    <g transform="translate(100, 250)">
+      <ellipse cx="0" cy="0" rx="15" ry="8" fill="#FF8C00" stroke="#FF4500" stroke-width="1"/>
+      <polygon points="-12,-3 -18,-1 -12,3" fill="#FF4500"/>
+      <polygon points="12,-2 18,0 12,4" fill="#FF4500"/>
+      <circle cx="8" cy="-2" r="2" fill="#000"/>
+      <rect x="-5" y="-8" width="3" height="16" fill="#FFFFFF"/>
+      <rect x="5" y="-8" width="3" height="16" fill="#FFFFFF"/>
+    </g>
+    
+    <!-- Fish 3 - Tang -->
+    <g transform="translate(300, 220)">
+      <ellipse cx="0" cy="0" rx="18" ry="12" fill="#4169E1" stroke="#191970" stroke-width="1.5"/>
+      <polygon points="-15,-5 -22,-2 -15,5" fill="#191970"/>
+      <polygon points="15,-3 22,0 15,6" fill="#191970"/>
+      <circle cx="10" cy="-3" r="2.5" fill="#000"/>
+      <ellipse cx="0" cy="0" rx="8" ry="5" fill="#87CEEB" opacity="0.7"/>
+    </g>
+    
+    <!-- Fish 4 - Parrotfish -->
+    <g transform="translate(80, 150)">
+      <ellipse cx="0" cy="0" rx="16" ry="10" fill="#32CD32" stroke="#228B22" stroke-width="1.5"/>
+      <polygon points="-12,-4 -18,-1 -12,4" fill="#228B22"/>
+      <polygon points="12,-2 18,1 12,5" fill="#228B22"/>
+      <circle cx="8" cy="-2" r="2" fill="#000"/>
+      <path d="M-8 -8 Q0 -12 8 -8" stroke="#90EE90" stroke-width="2" fill="none"/>
+      <path d="M-8 8 Q0 12 8 8" stroke="#90EE90" stroke-width="2" fill="none"/>
+    </g>
+    </g>
+  
+    <!-- Seaweed -->
+    <g stroke-width="4" fill="none">
+    <path d="M80 400 Q85 380 80 360 Q75 340 80 320 Q85 300 80 280 Q75 260 80 240" stroke="#32CD32"/>
+    <path d="M120 400 Q115 385 120 370 Q125 355 120 340 Q115 325 120 310 Q125 295 120 280" stroke="#228B22"/>
+    <path d="M320 400 Q315 385 320 370 Q325 355 320 340 Q315 325 320 310" stroke="#32CD32"/>
+    <path d="M200 400 Q205 390 200 380 Q195 370 200 360 Q205 350 200 340 Q195 330 200 320" stroke="#228B22"/>
+    <path d="M360 400 Q355 390 360 380 Q365 370 360 360 Q355 350 360 340" stroke="#32CD32"/>
+    </g>
+  
+    <!-- Seahorse -->
+    <g transform="translate(250, 150)">
+    <path d="M0 50 Q5 40 0 30 Q-5 20 0 10 Q5 0 0 -10 Q-5 -20 0 -30" 
+          stroke="#9370DB" stroke-width="3" fill="none"/>
+    <circle cx="2" cy="-25" r="6" fill="#9370DB"/>
+    <ellipse cx="0" cy="-27" rx="2" ry="1" fill="#000"/>
+    <path d="M0 -15 Q10 -10 15 -5 Q10 0 0 -5" fill="#8B008B"/>
+    <path d="M0 50 Q-5 60 0 70 Q5 80 0 90" stroke="#8B008B" stroke-width="2" fill="none"/>
+    <!-- Seahorse fins -->
+    <path d="M-2 -10 Q-8 -15 -6 -20" stroke="#8B008B" stroke-width="1" fill="none"/>
+    <path d="M2 10 Q8 5 6 0" stroke="#8B008B" stroke-width="1" fill="none"/>
+    </g>
+  
+    <!-- Jellyfish -->
+    <g transform="translate(350, 100)">
+    <ellipse cx="0" cy="0" rx="20" ry="15" fill="#E6E6FA" stroke="#9370DB" stroke-width="1"/>
+    <ellipse cx="0" cy="0" rx="15" ry="10" fill="#DDA0DD" opacity="0.6"/>
+    <g stroke="#9370DB" stroke-width="2" fill="none">
+      <path d="M-15 10 Q-15 30 -10 50 Q-5 70 -15 90"/>
+      <path d="M-5 12 Q-5 32 0 52 Q5 72 -5 92"/>
+      <path d="M5 12 Q5 32 0 52 Q-5 72 5 92"/>
+      <path d="M15 10 Q15 30 10 50 Q5 70 15 90"/>
+    </g>
+    </g>
+  
+    <!-- Sea turtle -->
+    <g transform="translate(150, 100)">
+    <!-- Shell -->
+    <ellipse cx="0" cy="0" rx="25" ry="18" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+    <!-- Shell pattern -->
+    <g stroke="#654321" stroke-width="1" fill="none">
+      <ellipse cx="0" cy="0" rx="18" ry="12"/>
+      <path d="M-12 -8 Q0 -12 12 -8"/>
+      <path d="M-12 0 Q0 -4 12 0"/>
+      <path d="M-12 8 Q0 4 12 8"/>
+    </g>
+    <!-- Head -->
+    <ellipse cx="20" cy="-5" rx="8" ry="6" fill="#228B22"/>
+    <circle cx="24" cy="-7" r="1" fill="#000"/>
+    <!-- Flippers -->
+    <ellipse cx="-20" cy="-8" rx="12" ry="6" fill="#228B22" transform="rotate(-30 -20 -8)"/>
+    <ellipse cx="-20" cy="8" rx="12" ry="6" fill="#228B22" transform="rotate(30 -20 8)"/>
+    <ellipse cx="15" cy="15" rx="10" ry="5" fill="#228B22" transform="rotate(45 15 15)"/>
+    <ellipse cx="15" cy="-20" rx="10" ry="5" fill="#228B22" transform="rotate(-45 15 -20)"/>
+    </g>
+  
+    <!-- Starfish -->
+    <g fill="#FF6347" stroke="#DC143C" stroke-width="1">
+    <g transform="translate(80, 380)">
+      <path d="M0 -8 L2 -2 L8 -2 L3 2 L5 8 L0 4 L-5 8 L-3 2 L-8 -2 L-2 -2 Z"/>
+      <circle cx="0" cy="0" r="2" fill="#DC143C"/>
+    </g>
+    
+    <g transform="translate(350, 380)">
+      <path d="M0 -6 L1.5 -1.5 L6 -1.5 L2 1.5 L4 6 L0 3 L-4 6 L-2 1.5 L-6 -1.5 L-1.5 -1.5 Z"/>
+      <circle cx="0" cy="0" r="1.5" fill="#DC143C"/>
+    </g>
+    </g>
+  
+    <!-- Sand dollars -->
+    <g fill="#F5DEB3" stroke="#D2B48C" stroke-width="1">
+    <circle cx="220" cy="380" r="6"/>
+    <g stroke="#DEB887" stroke-width="0.5">
+      <path d="M220 374 L220 386"/>
+      <path d="M214 380 L226 380"/>
+      <path d="M216 376 L224 384"/>
+      <path d="M216 384 L224 376"/>
+    </g>
+    
+    <circle cx="180" cy="385" r="4"/>
+    <g stroke="#DEB887" stroke-width="0.5">
+      <path d="M180 381 L180 389"/>
+      <path d="M176 385 L184 385"/>
+      <path d="M177 382 L183 388"/>
+      <path d="M177 388 L183 382"/>
+    </g>
+    </g>
+  
+    <!-- Bubbles -->
+    <g fill="url(#bubbleGradient)" opacity="0.6">
+    <circle cx="100" cy="200" r="4"/>
+    <circle cx="110" cy="180" r="6"/>
+    <circle cx="105" cy="160" r="3"/>
+    <circle cx="115" cy="140" r="5"/>
+    <circle cx="108" cy="120" r="2"/>
+    <circle cx="120" cy="100" r="4"/>
+    
+    <circle cx="250" cy="280" r="5"/>
+    <circle cx="260" cy="260" r="3"/>
+    <circle cx="255" cy="240" r="6"/>
+    <circle cx="265" cy="220" r="4"/>
+    <circle cx="270" cy="200" r="2"/>
+    
+    <circle cx="330" cy="250" r="3"/>
+    <circle cx="340" cy="230" r="5"/>
+    <circle cx="335" cy="210" r="2"/>
+    <circle cx="345" cy="190" r="4"/>
+    
+    <circle cx="50" cy="300" r="3"/>
+    <circle cx="60" cy="280" r="2"/>
+    <circle cx="55" cy="260" r="4"/>
+    </g>
+  
+    <!-- Underwater plants -->
+    <g fill="#228B22" opacity="0.8">
+    <ellipse cx="40" cy="380" rx="6" ry="15"/>
+    <ellipse cx="50" cy="385" rx="4" ry="12"/>
+    <ellipse cx="370" cy="375" rx="5" ry="18"/>
+    <ellipse cx="380" cy="380" rx="3" ry="14"/>
+    <ellipse cx="220" cy="390" rx="4" ry="10"/>
+    <ellipse cx="230" cy="385" rx="3" ry="12"/>
+    </g>
+    </g>
+  </g>
+</svg> 

@@ -1,0 +1,132 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F6FF"/>
+    </linearGradient>
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB6C1"/>
+      <stop offset="100%" stop-color="#FF69B4"/>
+    </linearGradient>
+    <linearGradient id="building2Gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#98FB98"/>
+      <stop offset="100%" stop-color="#32CD32"/>
+    </linearGradient>
+    <linearGradient id="building3Gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#DDA0DD"/>
+      <stop offset="100%" stop-color="#9370DB"/>
+    </linearGradient>
+  </defs>  <!-- Sky background -->
+  <rect width="500" height="500" fill="url(#skyGradient)"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="300" width="400" height="100" fill="#90EE90"/>
+  
+  <!-- Town buildings -->
+  <!-- Building 1 -->
+  <rect x="50" y="180" width="60" height="120" fill="url(#buildingGradient)" stroke="#8B008B" stroke-width="2"/>
+  <rect x="60" y="190" width="15" height="20" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="85" y="190" width="15" height="20" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="60" y="220" width="15" height="20" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="85" y="220" width="15" height="20" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="72.5" y="260" width="15" height="40" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Building 2 -->
+  <rect x="120" y="150" width="80" height="150" fill="url(#building2Gradient)" stroke="#228B22" stroke-width="2"/>
+  <rect x="130" y="170" width="12" height="18" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="150" y="170" width="12" height="18" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="170" y="170" width="12" height="18" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="130" y="200" width="12" height="18" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="150" y="200" width="12" height="18" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="170" y="200" width="12" height="18" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="145" y="250" width="20" height="50" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Building 3 -->
+  <rect x="220" y="200" width="50" height="100" fill="url(#building3Gradient)" stroke="#4B0082" stroke-width="2"/>
+  <rect x="230" y="220" width="12" height="15" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="248" y="220" width="12" height="15" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="230" y="250" width="12" height="15" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="248" y="250" width="12" height="15" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="237" y="275" width="15" height="25" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Building 4 -->
+  <rect x="290" y="160" width="70" height="140" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+  <rect x="300" y="180" width="15" height="20" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="325" y="180" width="15" height="20" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="300" y="210" width="15" height="20" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="325" y="210" width="15" height="20" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="312.5" y="250" width="15" height="50" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Rooftops -->
+  <path d="M40 180 L80 160 L120 180 Z" fill="#DC143C" stroke="#8B0000" stroke-width="2"/>
+  <path d="M110 150 L160 130 L210 150 Z" fill="#FF6347" stroke="#DC143C" stroke-width="2"/>
+  <path d="M210 200 L245 180 L280 200 Z" fill="#4169E1" stroke="#191970" stroke-width="2"/>
+  <path d="M280 160 L325 140 L370 160 Z" fill="#FF8C00" stroke="#FF4500" stroke-width="2"/>
+  
+  <!-- Church/community center with steeple -->
+  <rect x="5" y="220" width="35" height="80" fill="#F0E68C" stroke="#DAA520" stroke-width="2"/>
+  <rect x="22.5" y="240" width="8" height="12" fill="#87CEEB" stroke="#4169E1" stroke-width="1"/>
+  <rect x="15" y="270" width="12" height="30" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  <!-- Steeple -->
+  <rect x="17.5" y="200" width="10" height="20" fill="#F0E68C" stroke="#DAA520" stroke-width="1"/>
+  <path d="M12.5 200 L22.5 185 L32.5 200 Z" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+  <circle cx="22.5" cy="195" r="2" fill="#FFD700"/>
+  
+  <!-- Town square with fountain -->
+  <circle cx="200" cy="340" r="25" fill="#4682B4" stroke="#191970" stroke-width="2"/>
+  <circle cx="200" cy="340" r="15" fill="#87CEEB"/>
+  <circle cx="200" cy="330" r="5" fill="#FFF"/>
+  
+  <!-- Water sprays -->
+  <circle cx="195" cy="325" r="1" fill="#B0E0E6"/>
+  <circle cx="205" cy="325" r="1" fill="#B0E0E6"/>
+  <circle cx="200" cy="320" r="1" fill="#B0E0E6"/>
+  
+  <!-- Trees around town -->
+  <circle cx="30" cy="320" r="15" fill="#228B22"/>
+  <rect x="27" y="320" width="6" height="25" fill="#8B4513"/>
+  
+  <circle cx="370" cy="310" r="18" fill="#32CD32"/>
+  <rect x="366" y="310" width="8" height="30" fill="#8B4513"/>
+  
+  <circle cx="180" cy="320" r="12" fill="#228B22"/>
+  <rect x="177" y="320" width="6" height="20" fill="#8B4513"/>
+  
+  <!-- People in the community -->
+  <circle cx="80" cy="290" r="5" fill="#FFDAB9"/>
+  <rect x="77" y="295" width="6" height="15" fill="#FF69B4"/>
+  
+  <circle cx="320" cy="290" r="5" fill="#DEB887"/>
+  <rect x="317" y="295" width="6" height="15" fill="#32CD32"/>
+  
+  <circle cx="160" cy="290" r="5" fill="#FFDAB9"/>
+  <rect x="157" y="295" width="6" height="15" fill="#9370DB"/>
+  
+  <!-- Street lamps -->
+  <rect x="130" y="280" width="3" height="20" fill="#2F2F2F"/>
+  <circle cx="131.5" cy="275" r="4" fill="#FFD700"/>
+  
+  <rect x="270" y="280" width="3" height="20" fill="#2F2F2F"/>
+  <circle cx="271.5" cy="275" r="4" fill="#FFD700"/>
+  
+  <!-- Roads -->
+  <rect x="0" y="315" width="400" height="15" fill="#696969"/>
+  <path d="M0 322.5 Q100 320 200 322.5 Q300 325 400 322.5" stroke="#FFD700" stroke-width="2" stroke-dasharray="10,5"/>
+  
+  <!-- Community garden -->
+  <rect x="380" y="240" width="20" height="60" fill="#9ACD32" stroke="#6B8E23" stroke-width="1"/>
+  <circle cx="385" cy="250" r="2" fill="#FF6347"/>
+  <circle cx="390" cy="260" r="2" fill="#FFD700"/>
+  <circle cx="395" cy="270" r="2" fill="#FF69B4"/>
+  <circle cx="385" cy="280" r="2" fill="#9370DB"/>
+  <circle cx="395" cy="290" r="2" fill="#32CD32"/>
+  
+  <!-- Clouds -->
+  <circle cx="100" cy="60" r="20" fill="#FFF" opacity="0.8"/>
+  <circle cx="120" cy="55" r="25" fill="#FFF" opacity="0.8"/>
+  <circle cx="140" cy="60" r="18" fill="#FFF" opacity="0.8"/>
+  
+  <circle cx="300" cy="70" r="22" fill="#FFF" opacity="0.8"/>
+  <circle cx="320" cy="65" r="28" fill="#FFF" opacity="0.8"/>
+  <circle cx="340" cy="70" r="20" fill="#FFF" opacity="0.8"/>
+</svg> 

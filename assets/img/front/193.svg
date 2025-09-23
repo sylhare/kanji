@@ -1,0 +1,103 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="30%" stop-color="#4682B4"/>
+      <stop offset="70%" stop-color="#1E90FF"/>
+      <stop offset="100%" stop-color="#000080"/>
+    </linearGradient>
+    <radialGradient id="fishGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FF8C00"/>
+      <stop offset="100%" stop-color="#FF4500"/>
+    </radialGradient>
+    <linearGradient id="coralGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF69B4"/>
+      <stop offset="50%" stop-color="#FF1493"/>
+      <stop offset="100%" stop-color="#DC143C"/>
+    </linearGradient>
+    <radialGradient id="bubbleGradient" cx="0.2" cy="0.2" r="0.8">
+      <stop offset="0%" stop-color="#E0F6FF"/>
+      <stop offset="50%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#4682B4"/>
+    </radialGradient>
+  </defs>  <!-- Ocean background -->
+  <rect width="500" height="500" fill="url(#oceanGradient)"/>
+  
+  <!-- Ocean surface waves -->
+  <path d="M0 50 Q50 40 100 50 Q150 60 200 50 Q250 40 300 50 Q350 60 400 50 L400 0 L0 0 Z" 
+    fill="#87CEEB" opacity="0.7"/>
+  
+  <!-- Tropical fish -->
+  <g fill="url(#fishGradient)" stroke="#FF4500" stroke-width="2">
+  <!-- Fish 1 -->
+  <ellipse cx="120" cy="180" rx="25" ry="15" transform="rotate(-15 120 180)"/>
+  <polygon points="95,175 90,180 95,185" fill="#FF8C00"/>
+  <circle cx="135" cy="175" r="3" fill="#000"/>
+  
+  <!-- Fish 2 -->
+  <ellipse cx="280" cy="220" rx="20" ry="12" transform="rotate(20 280 220)"/>
+  <polygon points="300,215 305,220 300,225" fill="#FF8C00"/>
+  <circle cx="270" cy="217" r="2.5" fill="#000"/>
+  
+  <!-- Fish 3 -->
+  <ellipse cx="180" cy="300" rx="18" ry="10"/>
+  <polygon points="162,295 157,300 162,305" fill="#FF8C00"/>
+  <circle cx="190" cy="297" r="2" fill="#000"/>
+  
+  <!-- Coral reef -->
+  <g fill="url(#coralGradient)" stroke="#DC143C" stroke-width="1">
+  <path d="M50 350 Q60 330 70 350 Q80 320 90 350 Q100 340 110 350 L110 400 L50 400 Z"/>
+  <path d="M300 360 Q310 340 320 360 Q330 330 340 360 Q350 350 360 360 L360 400 L300 400 Z"/>
+  <path d="M150 370 Q160 350 170 370 Q180 345 190 370 L190 400 L150 400 Z"/>
+  
+    <!-- Seaweed -->
+    <g stroke="#32CD32" stroke-width="4" fill="none">
+    <path d="M80 400 Q85 380 80 360 Q75 340 80 320 Q85 300 80 280"/>
+    <path d="M320 400 Q315 385 320 370 Q325 355 320 340 Q315 325 320 310"/>
+    <path d="M200 400 Q205 390 200 380 Q195 370 200 360 Q205 350 200 340"/>
+    </g>
+  
+    <!-- Seahorse -->
+    <g fill="#9370DB" stroke="#8B008B" stroke-width="1.5">
+    <path d="M250 150 Q255 140 250 130 Q245 120 250 110 Q255 100 250 90 Q245 85 250 80"/>
+    <circle cx="252" cy="85" r="6"/>
+    <ellipse cx="248" cy="82" rx="2" ry="1" fill="#000"/>
+    <path d="M250 95 Q260 100 265 110 Q260 120 250 115"/>
+    <path d="M250 150 Q245 160 250 170 Q255 180 250 190"/>
+    </g>
+  
+    <!-- Jellyfish -->
+    <g fill="#E6E6FA" stroke="#9370DB" stroke-width="1">
+    <ellipse cx="350" cy="120" rx="20" ry="15"/>
+    <path d="M335 130 Q335 150 330 170" stroke-width="2"/>
+    <path d="M345 135 Q345 155 340 175" stroke-width="2"/>
+    <path d="M355 135 Q355 155 360 175" stroke-width="2"/>
+    <path d="M365 130 Q365 150 370 170" stroke-width="2"/>
+    </g>
+  
+    <!-- Bubbles -->
+    <g fill="url(#bubbleGradient)" opacity="0.6">
+    <circle cx="100" cy="250" r="4"/>
+    <circle cx="110" cy="230" r="6"/>
+    <circle cx="105" cy="210" r="3"/>
+    <circle cx="115" cy="190" r="5"/>
+    <circle cx="108" cy="170" r="2"/>
+    
+    <circle cx="300" cy="280" r="5"/>
+    <circle cx="310" cy="260" r="3"/>
+    <circle cx="305" cy="240" r="6"/>
+    <circle cx="315" cy="220" r="4"/>
+    
+    <circle cx="200" cy="200" r="3"/>
+    <circle cx="210" cy="180" r="5"/>
+    <circle cx="205" cy="160" r="2"/>
+    </g>
+  
+    <!-- Starfish -->
+    <g fill="#FF6347" stroke="#DC143C" stroke-width="1">
+    <path d="M150 380 L155 365 L160 380 L175 375 L165 385 L170 400 L155 390 L150 400 L145 385 L135 375 Z"/>
+    </g>
+    </g>
+  </g>
+</svg> 

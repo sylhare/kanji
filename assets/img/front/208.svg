@@ -1,0 +1,273 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="kitchenWallGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8DC"/>
+      <stop offset="100%" stop-color="#F5DEB3"/>
+    </linearGradient>
+    <linearGradient id="counterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D2B48C"/>
+      <stop offset="100%" stop-color="#CD853F"/>
+    </linearGradient>
+    <radialGradient id="flameGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFFF99"/>
+      <stop offset="50%" stop-color="#FF8C00"/>
+      <stop offset="100%" stop-color="#FF4500"/>
+    </radialGradient>
+    <linearGradient id="potGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C0C0C0"/>
+      <stop offset="50%" stop-color="#A9A9A9"/>
+      <stop offset="100%" stop-color="#808080"/>
+    </linearGradient>
+    <radialGradient id="foodGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FF8C00"/>
+      <stop offset="100%" stop-color="#FF6347"/>
+    </radialGradient>
+    <linearGradient id="steamGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E6E6FA"/>
+    </linearGradient>
+  </defs>  <!-- Kitchen wall background -->
+  <rect width="400" height="300" fill="url(#kitchenWallGradient)"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="300" width="400" height="100" fill="#8B4513"/>
+  
+  <!-- Floor tiles pattern -->
+  <g stroke="#654321" stroke-width="1" opacity="0.3">
+    <path d="M0 320 L400 320"/>
+    <path d="M0 340 L400 340"/>
+    <path d="M0 360 L400 360"/>
+    <path d="M0 380 L400 380"/>
+    <path d="M20 300 L20 400"/>
+    <path d="M40 300 L40 400"/>
+    <path d="M60 300 L60 400"/>
+    <path d="M80 300 L80 400"/>
+    <path d="M100 300 L100 400"/>
+    <path d="M120 300 L120 400"/>
+    <path d="M140 300 L140 400"/>
+    <path d="M160 300 L160 400"/>
+    <path d="M180 300 L180 400"/>
+    <path d="M200 300 L200 400"/>
+    <path d="M220 300 L220 400"/>
+    <path d="M240 300 L240 400"/>
+    <path d="M260 300 L260 400"/>
+    <path d="M280 300 L280 400"/>
+    <path d="M300 300 L300 400"/>
+    <path d="M320 300 L320 400"/>
+    <path d="M340 300 L340 400"/>
+    <path d="M360 300 L360 400"/>
+    <path d="M380 300 L380 400"/>
+  </g>
+  
+  <!-- Kitchen counter -->
+  <rect x="0" y="250" width="400" height="50" fill="url(#counterGradient)" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Stove -->
+  <rect x="50" y="200" width="80" height="50" fill="#2F2F2F" stroke="#1C1C1C" stroke-width="2"/>
+  
+  <!-- Stove burners -->
+  <circle cx="70" cy="220" r="8" fill="#1C1C1C" stroke="#000" stroke-width="1"/>
+  <circle cx="110" cy="220" r="8" fill="#1C1C1C" stroke="#000" stroke-width="1"/>
+  <circle cx="70" cy="235" r="8" fill="#1C1C1C" stroke="#000" stroke-width="1"/>
+  <circle cx="110" cy="235" r="8" fill="#1C1C1C" stroke="#000" stroke-width="1"/>
+  
+  <!-- Flames under pot -->
+  <g transform="translate(70, 235)">
+    <ellipse cx="0" cy="5" rx="6" ry="8" fill="url(#flameGradient)"/>
+    <ellipse cx="-3" cy="3" rx="4" ry="6" fill="#FF8C00"/>
+    <ellipse cx="3" cy="3" rx="4" ry="6" fill="#FF8C00"/>
+    <ellipse cx="0" cy="0" rx="3" ry="4" fill="#FFFF99"/>
+  </g>
+  
+  <!-- Large cooking pot -->
+  <g transform="translate(70, 190)">
+    <ellipse cx="0" cy="15" rx="18" ry="5" fill="url(#potGradient)"/>
+    <rect x="-18" y="0" width="36" height="15" fill="url(#potGradient)"/>
+    <ellipse cx="0" cy="0" rx="18" ry="5" fill="#C0C0C0"/>
+    <!-- Pot handles -->
+    <ellipse cx="-22" cy="8" rx="3" ry="6" fill="#808080"/>
+    <ellipse cx="22" cy="8" rx="3" ry="6" fill="#808080"/>
+    <!-- Lid -->
+    <ellipse cx="0" cy="-3" rx="16" ry="4" fill="#A9A9A9"/>
+    <circle cx="0" cy="-3" r="2" fill="#808080"/>
+  </g>
+  
+  <!-- Steam from pot -->
+  <g transform="translate(70, 180)" opacity="0.7">
+    <path d="M-8 0 Q-10 -10 -8 -20 Q-6 -30 -8 -40" stroke="url(#steamGradient)" stroke-width="3" fill="none"/>
+    <path d="M0 0 Q2 -10 0 -20 Q-2 -30 0 -40" stroke="url(#steamGradient)" stroke-width="3" fill="none"/>
+    <path d="M8 0 Q10 -10 8 -20 Q6 -30 8 -40" stroke="url(#steamGradient)" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Frying pan -->
+  <g transform="translate(110, 200)">
+    <ellipse cx="0" cy="10" rx="12" ry="3" fill="#2F2F2F"/>
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#2F2F2F"/>
+    <rect x="12" y="-2" width="15" height="4" fill="#8B4513"/>
+    <!-- Food in pan -->
+    <ellipse cx="-3" cy="2" rx="3" ry="2" fill="url(#foodGradient)"/>
+    <ellipse cx="4" cy="1" rx="2.5" ry="1.5" fill="#FF6347"/>
+    <ellipse cx="0" cy="-2" rx="2" ry="1" fill="#FFD700"/>
+  </g>
+  
+  <!-- Cutting board with vegetables -->
+  <g transform="translate(200, 230)">
+    <rect x="-15" y="-8" width="30" height="16" rx="2" fill="#DEB887" stroke="#CD853F" stroke-width="1"/>
+    
+    <!-- Carrots -->
+    <ellipse cx="-8" cy="-2" rx="1.5" ry="6" fill="#FF8C00"/>
+    <ellipse cx="-5" cy="-2" rx="1.5" ry="6" fill="#FF8C00"/>
+    <g stroke="#32CD32" stroke-width="1">
+      <path d="M-8 -8 L-8 -12"/>
+      <path d="M-5 -8 L-5 -12"/>
+    </g>
+    
+    <!-- Onion -->
+    <circle cx="2" cy="-2" r="4" fill="#F5DEB3"/>
+    <g stroke="#DEB887" stroke-width="0.5">
+      <circle cx="2" cy="-2" r="3"/>
+      <circle cx="2" cy="-2" r="2"/>
+    </g>
+    
+    <!-- Tomato slices -->
+    <circle cx="8" cy="2" r="2.5" fill="#FF6347"/>
+    <circle cx="8" cy="2" r="1.5" fill="#FF0000" opacity="0.7"/>
+    <circle cx="12" cy="2" r="2" fill="#FF6347"/>
+    <circle cx="12" cy="2" r="1" fill="#FF0000" opacity="0.7"/>
+  </g>
+  
+  <!-- Kitchen knife -->
+  <g transform="translate(220, 240) rotate(30)">
+    <rect x="0" y="-1" width="15" height="2" fill="#C0C0C0"/>
+    <rect x="15" y="-2" width="8" height="4" fill="#8B4513"/>
+  </g>
+  
+  <!-- Refrigerator -->
+  <rect x="320" y="100" width="60" height="150" fill="#F0F0F0" stroke="#C0C0C0" stroke-width="2"/>
+  <rect x="325" y="105" width="50" height="70" fill="#E0E0E0"/>
+  <rect x="325" y="180" width="50" height="65" fill="#E0E0E0"/>
+  <circle cx="365" cy="140" r="2" fill="#808080"/>
+  <circle cx="365" cy="210" r="2" fill="#808080"/>
+  
+  <!-- Microwave -->
+  <rect x="150" y="180" width="50" height="30" fill="#2F2F2F" stroke="#1C1C1C" stroke-width="2"/>
+  <rect x="155" y="185" width="30" height="20" fill="#000"/>
+  <circle cx="192" cy="195" r="3" fill="#C0C0C0"/>
+  <rect x="190" y="185" width="8" height="4" fill="#32CD32"/>
+  
+  <!-- Blender -->
+  <g transform="translate(250, 230)">
+    <rect x="-6" y="0" width="12" height="15" fill="#FF6347"/>
+    <polygon points="0,-10 -8,0 8,0" fill="#C0C0C0"/>
+    <circle cx="0" cy="-5" r="2" fill="#FFF"/>
+    <rect x="-1" y="15" width="2" height="5" fill="#2F2F2F"/>
+  </g>
+  
+  <!-- Spice rack -->
+  <g transform="translate(300, 150)">
+    <rect x="-20" y="0" width="40" height="6" fill="#8B4513"/>
+    
+    <!-- Spice jars -->
+    <rect x="-18" y="-15" width="6" height="15" fill="#FF69B4"/>
+    <rect x="-10" y="-15" width="6" height="15" fill="#FFD700"/>
+    <rect x="-2" y="-15" width="6" height="15" fill="#32CD32"/>
+    <rect x="6" y="-15" width="6" height="15" fill="#FF4500"/>
+    <rect x="14" y="-15" width="6" height="15" fill="#9370DB"/>
+    
+    <!-- Jar lids -->
+    <rect x="-18" y="-17" width="6" height="2" fill="#C0C0C0"/>
+    <rect x="-10" y="-17" width="6" height="2" fill="#C0C0C0"/>
+    <rect x="-2" y="-17" width="6" height="2" fill="#C0C0C0"/>
+    <rect x="6" y="-17" width="6" height="2" fill="#C0C0C0"/>
+    <rect x="14" y="-17" width="6" height="2" fill="#C0C0C0"/>
+  </g>
+  
+  <!-- Kitchen utensils in holder -->
+  <g transform="translate(160, 230)">
+    <ellipse cx="0" cy="8" rx="6" ry="3" fill="#DEB887"/>
+    <rect x="-6" y="0" width="12" height="8" fill="#DEB887"/>
+    
+    <!-- Utensils -->
+    <rect x="-4" y="-12" width="1" height="12" fill="#C0C0C0"/>
+    <circle cx="-4" cy="-13" r="1" fill="#C0C0C0"/>
+    
+    <rect x="-1" y="-15" width="1" height="15" fill="#C0C0C0"/>
+    <rect x="-2" y="-16" width="3" height="1" fill="#C0C0C0"/>
+    
+    <rect x="2" y="-14" width="1" height="14" fill="#8B4513"/>
+    <ellipse cx="2" cy="-15" rx="1.5" ry="1" fill="#8B4513"/>
+    
+    <rect x="4" y="-13" width="1" height="13" fill="#C0C0C0"/>
+    <polygon points="4,-16 3,-14 5,-14" fill="#C0C0C0"/>
+  </g>
+  
+  <!-- Hanging pots and pans -->
+  <g transform="translate(120, 120)">
+    <ellipse cx="0" cy="0" rx="12" ry="3" fill="#2F2F2F"/>
+    <rect x="12" y="-2" width="8" height="4" fill="#8B4513"/>
+    <path d="M0 -5 L0 -15" stroke="#8B4513" stroke-width="2"/>
+    <circle cx="0" cy="-15" r="1" fill="#8B4513"/>
+  </g>
+  
+  <g transform="translate(180, 110)">
+    <circle cx="0" cy="0" r="8" fill="url(#potGradient)"/>
+    <ellipse cx="-10" cy="0" rx="2" ry="4" fill="#808080"/>
+    <ellipse cx="10" cy="0" rx="2" ry="4" fill="#808080"/>
+    <path d="M0 -10 L0 -20" stroke="#8B4513" stroke-width="2"/>
+    <circle cx="0" cy="-20" r="1" fill="#8B4513"/>
+  </g>
+  
+  <!-- Dish towels -->
+  <g transform="translate(50, 150)">
+    <rect x="0" y="0" width="20" height="30" fill="#87CEEB" stroke="#4682B4" stroke-width="1"/>
+    <g stroke="#4682B4" stroke-width="0.5">
+      <path d="M0 5 L20 5"/>
+      <path d="M0 10 L20 10"/>
+      <path d="M0 15 L20 15"/>
+      <path d="M0 20 L20 20"/>
+      <path d="M0 25 L20 25"/>
+    </g>
+  </g>
+  
+  <!-- Window with herbs -->
+  <rect x="20" y="50" width="60" height="80" fill="#87CEEB" stroke="#2F4F2F" stroke-width="3"/>
+  <path d="M50 50 L50 130" stroke="#2F2F2F" stroke-width="2"/>
+  <path d="M20 90 L80 90" stroke="#2F2F2F" stroke-width="2"/>
+  
+  <!-- Window box with herbs -->
+  <rect x="25" y="120" width="50" height="15" fill="#8B4513"/>
+  <g fill="#32CD32">
+    <path d="M30 120 Q32 110 34 120 Q36 105 38 120"/>
+    <path d="M45 120 Q47 108 49 120 Q51 107 53 120"/>
+    <path d="M60 120 Q62 109 64 120 Q66 106 68 120"/>
+  </g>
+  
+  <!-- Chef's hat on hook -->
+  <g transform="translate(280, 80)">
+    <path d="M0 -10 L0 -20" stroke="#2F2F2F" stroke-width="2"/>
+    <circle cx="0" cy="-20" r="1" fill="#2F2F2F"/>
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#FFFFFF"/>
+    <rect x="-10" y="5" width="20" height="3" fill="#FFFFFF"/>
+    <g fill="#FFFFFF">
+      <circle cx="-6" cy="-5" r="3"/>
+      <circle cx="0" cy="-8" r="3"/>
+      <circle cx="6" cy="-5" r="3"/>
+      <circle cx="-3" cy="-2" r="2"/>
+      <circle cx="3" cy="-2" r="2"/>
+    </g>
+  </g>
+  
+  <!-- Oven mitt -->
+  <g transform="translate(350, 180)">
+    <ellipse cx="0" cy="0" rx="8" ry="12" fill="#FF4500"/>
+    <ellipse cx="0" cy="-8" rx="3" ry="4" fill="#FF4500"/>
+    <g stroke="#FF6347" stroke-width="0.5">
+      <path d="M-6 -8 L6 -8"/>
+      <path d="M-6 -4 L6 -4"/>
+      <path d="M-6 0 L6 0"/>
+      <path d="M-6 4 L6 4"/>
+      <path d="M-6 8 L6 8"/>
+    </g>
+  </g>
+</svg> 

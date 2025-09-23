@@ -1,0 +1,164 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="forestGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#90EE90"/>
+      <stop offset="50%" stop-color="#32CD32"/>
+      <stop offset="100%" stop-color="#228B22"/>
+    </linearGradient>
+    <linearGradient id="trunkGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="50%" stop-color="#A0522D"/>
+      <stop offset="100%" stop-color="#CD853F"/>
+    </linearGradient>
+    <radialGradient id="deerGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#DEB887"/>
+      <stop offset="50%" stop-color="#D2B48C"/>
+      <stop offset="100%" stop-color="#BC8F8F"/>
+    </radialGradient>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F6FF"/>
+    </linearGradient>
+    <radialGradient id="birdGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FF6347"/>
+      <stop offset="50%" stop-color="#DC143C"/>
+      <stop offset="100%" stop-color="#8B0000"/>
+    </radialGradient>
+  </defs>  <!-- Sky background -->
+  <rect width="400" height="250" fill="url(#skyGradient)"/>
+  
+  <!-- Forest floor -->
+  <rect x="0" y="250" width="400" height="150" fill="#8FBC8F"/>
+  
+  <!-- Large trees -->
+  <!-- Tree 1 -->
+  <rect x="50" y="150" width="20" height="100" fill="url(#trunkGradient)"/>
+  <circle cx="60" cy="130" r="35" fill="url(#forestGradient)"/>
+  <circle cx="45" cy="120" r="25" fill="#32CD32"/>
+  <circle cx="75" cy="125" r="28" fill="#228B22"/>
+  
+  <!-- Tree 2 -->
+  <rect x="320" y="180" width="25" height="70" fill="url(#trunkGradient)"/>
+  <circle cx="332" cy="160" r="40" fill="url(#forestGradient)"/>
+  <circle cx="315" cy="150" r="30" fill="#32CD32"/>
+  <circle cx="350" cy="155" r="32" fill="#228B22"/>
+  
+  <!-- Tree 3 -->
+  <rect x="180" y="120" width="18" height="130" fill="url(#trunkGradient)"/>
+  <circle cx="189" cy="100" r="38" fill="url(#forestGradient)"/>
+  <circle cx="170" cy="90" r="28" fill="#32CD32"/>
+  <circle cx="208" cy="95" r="30" fill="#228B22"/>
+  
+  <!-- Smaller trees in background -->
+  <g opacity="0.8">
+    <rect x="120" y="200" width="12" height="50" fill="#8B4513"/>
+    <circle cx="126" cy="185" r="20" fill="#32CD32"/>
+    
+    <rect x="280" y="220" width="10" height="30" fill="#8B4513"/>
+    <circle cx="285" cy="210" r="15" fill="#228B22"/>
+    
+    <rect x="250" y="190" width="14" height="60" fill="#8B4513"/>
+    <circle cx="257" cy="175" r="22" fill="#90EE90"/>
+  </g>
+  
+  <!-- Deer -->
+  <g transform="translate(150, 280)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="25" ry="15" fill="url(#deerGradient)"/>
+    <!-- Head -->
+    <ellipse cx="-20" cy="-10" rx="12" ry="10" fill="url(#deerGradient)"/>
+    <!-- Legs -->
+    <rect x="-15" y="10" width="4" height="20" fill="#8B4513"/>
+    <rect x="-5" y="10" width="4" height="20" fill="#8B4513"/>
+    <rect x="5" y="10" width="4" height="20" fill="#8B4513"/>
+    <rect x="15" y="10" width="4" height="20" fill="#8B4513"/>
+    <!-- Antlers -->
+    <path d="M-25 -15 L-30 -25 M-28 -20 L-32 -22" stroke="#8B4513" stroke-width="2" fill="none"/>
+    <path d="M-15 -15 L-10 -25 M-12 -20 L-8 -22" stroke="#8B4513" stroke-width="2" fill="none"/>
+    <!-- Eye -->
+    <circle cx="-25" cy="-12" r="2" fill="#000"/>
+    <!-- Tail -->
+    <circle cx="20" cy="-5" r="3" fill="#DEB887"/>
+  </g>
+  
+  <!-- Rabbit -->
+  <g transform="translate(300, 320)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#F5F5DC"/>
+    <!-- Head -->
+    <circle cx="-8" cy="-6" r="6" fill="#F5F5DC"/>
+    <!-- Ears -->
+    <ellipse cx="-12" cy="-15" rx="2" ry="6" fill="#F5F5DC"/>
+    <ellipse cx="-6" cy="-15" rx="2" ry="6" fill="#F5F5DC"/>
+    <!-- Eye -->
+    <circle cx="-10" cy="-8" r="1" fill="#000"/>
+    <!-- Tail -->
+    <circle cx="8" cy="0" r="3" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Squirrel -->
+  <g transform="translate(100, 200)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="8" ry="5" fill="#8B4513"/>
+    <!-- Head -->
+    <circle cx="-6" cy="-3" r="4" fill="#8B4513"/>
+    <!-- Tail -->
+    <path d="M6 -2 Q15 -8 18 -15 Q20 -10 15 -5 Q10 0 6 2" fill="#CD853F"/>
+    <!-- Eye -->
+    <circle cx="-7" cy="-4" r="1" fill="#000"/>
+    <!-- Ears -->
+    <ellipse cx="-9" cy="-6" rx="1" ry="2" fill="#8B4513"/>
+    <ellipse cx="-4" cy="-6" rx="1" ry="2" fill="#8B4513"/>
+  </g>
+  
+  <!-- Birds -->
+  <g fill="url(#birdGradient)" stroke="#8B0000" stroke-width="1">
+    <!-- Bird 1 -->
+    <ellipse cx="200" cy="80" rx="8" ry="4"/>
+    <circle cx="195" cy="78" r="3"/>
+    <polygon points="187,78 185,79 187,80" fill="#FFD700"/>
+    <circle cx="194" cy="77" r="1" fill="#000"/>
+    
+    <!-- Bird 2 -->
+    <ellipse cx="250" cy="60" rx="6" ry="3"/>
+    <circle cx="246" cy="59" r="2.5"/>
+    <polygon points="240,59 238,59.5 240,60" fill="#FFD700"/>
+    <circle cx="245" cy="58.5" r="0.5" fill="#000"/>
+  </g>
+  
+  <!-- Flying birds in distance -->
+  <g stroke="#2F2F2F" stroke-width="1" fill="none">
+    <path d="M120 40 Q125 35 130 40"/>
+    <path d="M140 45 Q145 40 150 45"/>
+    <path d="M160 35 Q165 30 170 35"/>
+  </g>
+  
+  <!-- Mushrooms -->
+  <g>
+    <!-- Mushroom 1 -->
+    <rect x="220" y="320" width="3" height="12" fill="#F5F5DC"/>
+    <ellipse cx="221.5" cy="315" rx="6" ry="4" fill="#DC143C"/>
+    <circle cx="218" cy="313" r="1" fill="#FFFFFF"/>
+    <circle cx="225" cy="317" r="1" fill="#FFFFFF"/>
+    
+    <!-- Mushroom 2 -->
+    <rect x="270" y="340" width="2" height="8" fill="#F5F5DC"/>
+    <ellipse cx="271" cy="337" rx="4" ry="3" fill="#FF6347"/>
+    <circle cx="269" cy="336" r="0.5" fill="#FFFFFF"/>
+    <circle cx="273" cy="338" r="0.5" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Ferns and undergrowth -->
+  <g fill="#32CD32" opacity="0.7">
+    <path d="M80 300 Q85 290 90 300 Q95 285 100 300 Q105 290 110 300"/>
+    <path d="M320 350 Q325 340 330 350 Q335 335 340 350 Q345 340 350 350"/>
+    <path d="M40 320 Q45 310 50 320 Q55 305 60 320"/>
+  </g>
+  
+  <!-- Sunlight rays through trees -->
+  <g stroke="#FFD700" stroke-width="2" opacity="0.3">
+    <path d="M150 0 L160 100"/>
+    <path d="M220 0 L230 120"/>
+    <path d="M300 0 L310 80"/>
+  </g>
+</svg> 

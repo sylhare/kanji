@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bgGrad75" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="trunkGrad75" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6d4c41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4037;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="leafGrad75" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#81c784;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4caf50;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="crownGlow75" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#a5d6a7;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#a5d6a7;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad75)"/>
+  
+  <!-- Tree crown glow -->
+  <ellipse cx="250" cy="200" rx="150" ry="120" fill="url(#crownGlow75)"/>
+  
+  <!-- Main tree representing 木 -->
+  <!-- Tree trunk (vertical line of 木) -->
+  <rect x="240" y="200" width="20" height="200" rx="10" fill="url(#trunkGrad75)" stroke="#4e342e" stroke-width="2"/>
+  
+  <!-- Horizontal branch (horizontal line of 木) -->
+  <rect x="150" y="280" width="200" height="15" rx="7" fill="url(#trunkGrad75)" stroke="#4e342e" stroke-width="2"/>
+  
+  <!-- Main spreading branches -->
+  <rect x="180" y="250" width="12" height="80" rx="6" fill="url(#trunkGrad75)" transform="rotate(-25 186 290)"/>
+  <rect x="308" y="250" width="12" height="80" rx="6" fill="url(#trunkGrad75)" transform="rotate(25 314 290)"/>
+  
+  <!-- Tree crown/foliage -->
+  <circle cx="200" cy="180" r="45" fill="url(#leafGrad75)" opacity="0.9"/>
+  <circle cx="250" cy="160" r="55" fill="url(#leafGrad75)" opacity="0.8"/>
+  <circle cx="300" cy="180" r="45" fill="url(#leafGrad75)" opacity="0.9"/>
+  <circle cx="230" cy="200" r="40" fill="url(#leafGrad75)" opacity="0.7"/>
+  <circle cx="270" cy="200" r="40" fill="url(#leafGrad75)" opacity="0.7"/>
+  
+  <!-- Bark texture -->
+  <g stroke="#4e342e" stroke-width="1" opacity="0.4">
+  <line x1="245" y1="220" x2="255" y2="220"/>
+  <line x1="243" y1="250" x2="257" y2="250"/>
+  <line x1="245" y1="280" x2="255" y2="280"/>
+  <line x1="243" y1="310" x2="257" y2="310"/>
+  <line x1="245" y1="340" x2="255" y2="340"/>
+  <line x1="243" y1="370" x2="257" y2="370"/>
+  
+  <!-- Roots (bottom extension of 木) -->
+  <g stroke="url(#trunkGrad75)" stroke-width="8" fill="none" opacity="0.7">
+  <path d="M250 400 Q230 420 210 440"/>
+  <path d="M250 400 Q270 420 290 440"/>
+  <path d="M250 400 Q250 430 250 460"/>
+  
+    <!-- Small branches with leaves -->
+    <g fill="url(#leafGrad75)" opacity="0.6">
+    <ellipse cx="180" cy="200" rx="15" ry="8" transform="rotate(-20 180 200)"/>
+    <ellipse cx="320" cy="200" rx="15" ry="8" transform="rotate(20 320 200)"/>
+    <ellipse cx="170" cy="250" rx="12" ry="6" transform="rotate(-30 170 250)"/>
+    <ellipse cx="330" cy="250" rx="12" ry="6" transform="rotate(30 330 250)"/>
+    </g>
+  
+    <!-- Falling leaves -->
+    <g fill="url(#leafGrad75)" opacity="0.7">
+    <ellipse cx="120" cy="300" rx="8" ry="12" transform="rotate(45 120 300)"/>
+    <ellipse cx="380" cy="320" rx="6" ry="10" transform="rotate(-30 380 320)"/>
+    <ellipse cx="100" cy="380" rx="7" ry="11" transform="rotate(15 100 380)"/>
+    <ellipse cx="400" cy="370" rx="5" ry="8" transform="rotate(-45 400 370)"/>
+    </g>
+  
+    <!-- Wind effect -->
+    <g stroke="#66bb6a" stroke-width="2" fill="none" opacity="0.3">
+    <path d="M80 150 Q120 140 160 150"/>
+    <path d="M340 150 Q380 140 420 150"/>
+    <path d="M90 200 Q130 190 170 200"/>
+    <path d="M330 200 Q370 190 410 200"/>
+    </g>
+  
+    <!-- Sunlight filtering through -->
+    <g stroke="#ffcc02" stroke-width="2" opacity="0.4">
+    <line x1="150" y1="50" x2="160" y2="120"/>
+    <line x1="200" y1="40" x2="210" y2="110"/>
+    <line x1="250" y1="30" x2="260" y2="100"/>
+    <line x1="300" y1="40" x2="310" y2="110"/>
+    <line x1="350" y1="50" x2="360" y2="120"/>
+    </g>
+  
+    <!-- Ground level -->
+    <ellipse cx="250" cy="450" rx="150" ry="20" fill="#8d6e63" opacity="0.4"/>
+  
+    <!-- Small plants around base -->
+    <g fill="url(#leafGrad75)" opacity="0.5">
+    <path d="M180 410 Q175 400 180 390 Q185 400 190 410"/>
+    <path d="M320 415 Q315 405 320 395 Q325 405 330 415"/>
+    <path d="M200 420 Q195 410 200 400 Q205 410 210 420"/>
+    <path d="M300 425 Q295 415 300 405 Q305 415 310 425"/>
+    </g>
+  
+    <!-- Tree rings on cut stump (showing wood) -->
+    <g stroke="#6d4c41" stroke-width="1" fill="none" opacity="0.3" transform="translate(400,350)">
+    <circle cx="0" cy="0" r="15"/>
+    <circle cx="0" cy="0" r="20"/>
+    <circle cx="0" cy="0" r="25"/>
+    </g>
+  
+    <!-- Birds nesting -->
+    <g fill="#795548" opacity="0.6">
+    <ellipse cx="300" cy="170" rx="4" ry="3"/>
+    <circle cx="298" cy="168" r="2" fill="#3e2723"/>
+    </g>
+  
+    <!-- Kanji character 木 -->
+    
+    </g>
+  </g>
+</svg> 

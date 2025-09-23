@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="waterBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e1f5fe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b3e5fc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#waterBg)"/>
+  
+  <!-- Main strokes of 水 (water) -->
+  <!-- Central vertical stroke -->
+  <rect x="243" y="120" width="14" height="260" rx="7" fill="#0277bd"/>
+  
+  <!-- Left diagonal stroke -->
+  <rect x="180" y="180" width="14" height="140" rx="7" fill="#0277bd" transform="rotate(-15 187 250)"/>
+  
+  <!-- Right diagonal stroke -->
+  <rect x="306" y="180" width="14" height="140" rx="7" fill="#0277bd" transform="rotate(15 313 250)"/>
+  
+  <!-- Bottom dot -->
+  <circle cx="250" cy="350" r="8" fill="#0277bd"/>
+</svg> 

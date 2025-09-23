@@ -1,0 +1,94 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bodyGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#FFDAB9"/>
+      <stop offset="70%" stop-color="#DEB887"/>
+      <stop offset="100%" stop-color="#CD853F"/>
+    </radialGradient>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F6FF"/>
+    </linearGradient>
+  </defs>  <!-- Background -->
+  <rect width="500" height="500" fill="url(#skyGradient)"/>
+  
+  <!-- Ground -->
+  <ellipse cx="200" cy="380" rx="200" ry="30" fill="#90EE90"/>
+  
+  <!-- Running figure -->
+  <!-- Head -->
+  <circle cx="180" cy="100" r="25" fill="url(#bodyGradient)" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Hair -->
+  <path d="M160 85 Q170 70 185 75 Q195 70 200 85" fill="#654321"/>
+  
+  <!-- Eyes -->
+  <circle cx="170" cy="95" r="3" fill="#000"/>
+  <circle cx="190" cy="95" r="3" fill="#000"/>
+  
+  <!-- Mouth -->
+  <path d="M175 110 Q180 115 185 110" stroke="#8B0000" stroke-width="2" fill="none"/>
+  
+  <!-- Body (leaning forward in running position) -->
+  <ellipse cx="170" cy="180" rx="25" ry="50" fill="url(#bodyGradient)" stroke="#8B4513" stroke-width="2" transform="rotate(-10 170 180)"/>
+  
+  <!-- Arms in running motion -->
+  <!-- Left arm (swinging forward) -->
+  <ellipse cx="140" cy="160" rx="8" ry="30" fill="url(#bodyGradient)" stroke="#8B4513" stroke-width="1" transform="rotate(-30 140 160)"/>
+  <ellipse cx="120" cy="140" rx="6" ry="25" fill="url(#bodyGradient)" stroke="#8B4513" stroke-width="1" transform="rotate(-45 120 140)"/>
+  
+  <!-- Right arm (swinging back) -->
+  <ellipse cx="200" cy="170" rx="8" ry="30" fill="url(#bodyGradient)" stroke="#8B4513" stroke-width="1" transform="rotate(45 200 170)"/>
+  <ellipse cx="220" cy="190" rx="6" ry="25" fill="url(#bodyGradient)" stroke="#8B4513" stroke-width="1" transform="rotate(60 220 190)"/>
+  
+  <!-- Legs in running motion -->
+  <!-- Left leg (forward) -->
+  <ellipse cx="160" cy="250" rx="10" ry="35" fill="url(#bodyGradient)" stroke="#8B4513" stroke-width="1" transform="rotate(20 160 250)"/>
+  <ellipse cx="150" cy="300" rx="8" ry="30" fill="url(#bodyGradient)" stroke="#8B4513" stroke-width="1" transform="rotate(30 150 300)"/>
+  
+  <!-- Right leg (back, pushing off) -->
+  <ellipse cx="180" cy="250" rx="10" ry="35" fill="url(#bodyGradient)" stroke="#8B4513" stroke-width="1" transform="rotate(-20 180 250)"/>
+  <ellipse cx="190" cy="300" rx="8" ry="30" fill="url(#bodyGradient)" stroke="#8B4513" stroke-width="1" transform="rotate(-40 190 300)"/>
+  
+  <!-- Running shoes -->
+  <ellipse cx="140" cy="330" rx="20" ry="10" fill="#FF6347" stroke="#8B0000" stroke-width="2" transform="rotate(15 140 330)"/>
+  <ellipse cx="200" cy="320" rx="20" ry="10" fill="#FF6347" stroke="#8B0000" stroke-width="2" transform="rotate(-25 200 320)"/>
+  
+  <!-- Motion lines indicating speed -->
+  <path d="M50 120 L120 115" stroke="#FFD700" stroke-width="3" opacity="0.7"/>
+  <path d="M60 140 L130 135" stroke="#FFD700" stroke-width="3" opacity="0.7"/>
+  <path d="M70 160 L140 155" stroke="#FFD700" stroke-width="3" opacity="0.7"/>
+  <path d="M40 180 L110 175" stroke="#FFD700" stroke-width="3" opacity="0.7"/>
+  <path d="M50 200 L120 195" stroke="#FFD700" stroke-width="3" opacity="0.7"/>
+  
+  <!-- Wind/speed lines around figure -->
+  <path d="M250 100 Q280 95 310 100" stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M260 130 Q290 125 320 130" stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M270 160 Q300 155 330 160" stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Dust clouds from running -->
+  <circle cx="220" cy="340" r="8" fill="#DEB887" opacity="0.5"/>
+  <circle cx="230" cy="345" r="6" fill="#DEB887" opacity="0.4"/>
+  <circle cx="240" cy="350" r="10" fill="#DEB887" opacity="0.3"/>
+  <circle cx="250" cy="355" r="7" fill="#DEB887" opacity="0.4"/>
+  
+  <!-- Sweat drops -->
+  <ellipse cx="200" cy="120" rx="2" ry="4" fill="#87CEEB"/>
+  <ellipse cx="190" cy="130" rx="2" ry="4" fill="#87CEEB"/>
+  
+  <!-- Track/path -->
+  <path d="M0 350 Q100 345 200 350 Q300 355 400 350" stroke="#8B4513" stroke-width="4" fill="none"/>
+  <path d="M0 360 Q100 355 200 360 Q300 365 400 360" stroke="#8B4513" stroke-width="4" fill="none"/>
+  
+  <!-- Trees in background for depth -->
+  <circle cx="350" cy="200" r="20" fill="#228B22" opacity="0.6"/>
+  <rect x="347" y="200" width="6" height="30" fill="#8B4513" opacity="0.6"/>
+  
+  <circle cx="50" cy="180" r="15" fill="#32CD32" opacity="0.5"/>
+  <rect x="47.5" y="180" width="5" height="25" fill="#8B4513" opacity="0.5"/>
+  
+  <!-- Finish line in distance -->
+  <rect x="380" y="150" width="5" height="80" fill="#000" opacity="0.3"/>
+  <rect x="390" y="150" width="5" height="80" fill="#FFF" opacity="0.7"/>
+  <rect x="380" y="150" width="15" height="10" fill="#FF0000" opacity="0.5"/>
+</svg> 
