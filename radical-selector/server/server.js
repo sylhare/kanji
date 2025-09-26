@@ -13,6 +13,9 @@ app.use(express.json());
 // Serve static images from the radical directories
 app.use('/images', express.static(path.join(__dirname, '../../_data/assets/img/radical')));
 
+// Serve selected images from assets directory
+app.use('/selected', express.static(path.join(__dirname, '../../assets/img/selected')));
+
 // Get all radical folders
 app.get('/api/folders', async (req, res) => {
   try {
@@ -102,7 +105,7 @@ app.post('/api/select-image', async (req, res) => {
     }
     
     const sourcePath = path.join(__dirname, '../../_data/assets/img/radical', folder, filename);
-    const selectedDir = path.join(__dirname, '../../_data/assets/img/radical/selected');
+    const selectedDir = path.join(__dirname, '../../assets/img/selected');
     
     // Ensure selected directory exists
     await fs.ensureDir(selectedDir);
@@ -122,7 +125,7 @@ app.post('/api/select-image', async (req, res) => {
 // Get selected images
 app.get('/api/selected', async (req, res) => {
   try {
-    const selectedDir = path.join(__dirname, '../../_data/assets/img/radical/selected');
+    const selectedDir = path.join(__dirname, '../../assets/img/selected');
     
     if (!(await fs.pathExists(selectedDir))) {
       return res.json([]);
@@ -133,7 +136,7 @@ app.get('/api/selected', async (req, res) => {
       .filter(file => file.startsWith('radical_') && file.endsWith('.png'))
       .map(file => ({
         filename: file,
-        url: `/images/selected/${file}`
+        url: `/selected/${file}`
       }))
       .sort();
     
@@ -149,13 +152,13 @@ app.get('/api/selected/:radicalNumber', async (req, res) => {
   try {
     const radicalNumber = parseInt(req.params.radicalNumber);
     const radicalFileName = `radical_${radicalNumber.toString().padStart(3, '0')}.png`;
-    const selectedDir = path.join(__dirname, '../../_data/assets/img/radical/selected');
+    const selectedDir = path.join(__dirname, '../../assets/img/selected');
     const imagePath = path.join(selectedDir, radicalFileName);
     
     if (await fs.pathExists(imagePath)) {
       res.json({
         filename: radicalFileName,
-        url: `/images/selected/${radicalFileName}`,
+        url: `/selected/${radicalFileName}`,
         radicalNumber
       });
     } else {
