@@ -83,8 +83,8 @@ def process_folder(folder_path, output_dir, target_size=512):
 def main():
     parser = argparse.ArgumentParser(description='Resize images to 512x512 while maintaining aspect ratio')
     parser.add_argument('input_path', nargs='?', 
-                       default='../../_data/assets/img/radical/selected/',
-                       help='Input folder or file path (default: selected-g folder)')
+                       default='../../assets/img/radical/selected/',
+                       help='Input folder or file path (default: selected folder)')
     parser.add_argument('-o', '--output', default='resized_images',
                        help='Output directory (default: resized_images in scripts folder)')
     parser.add_argument('-s', '--size', type=int, default=512,

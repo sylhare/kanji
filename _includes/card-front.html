@@ -1,9 +1,12 @@
 {% assign kanji = include.item %}
-
+{% assign padded_num = kanji.Number | plus: 1000 | slice: 1, 3 %}
+{% assign image_url = 'assets/img/selected/radical_' | append: padded_num | append: '.png' | relative_url %}
+{% assign fallback_url = 'assets/img/placeholder.svg' | relative_url %}
 
 <!-- To print number in image <div class="number top-left">  </div> -->
-<img class="lazy" src="{{ '/assets/img/placeholder-thumbnail.svg' | relative_url }}"
-     data-srcset="{{ '/assets/img/placeholder.svg' | relative_url }}" alt="kanji">
+<img class="lazy radical-image" 
+     data-srcset="{{ 'assets/img/selected/radical_' | append: padded_num | append: '.png' | relative_url }} 512w"
+     alt="Radical {{ kanji.Number }}: {{ kanji.Meaning }}">
 <div class="description">
     <h3 class="radical japanese" data-modal="{{ kanji.Number }}">{{ kanji.Radical }}</h3>
     <p class="meaning english">{{ kanji.Meaning }}</p>
