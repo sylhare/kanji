@@ -10,7 +10,7 @@ context(' ---------------- Tiles tests ---------------- ', () => {
         });
 
         it('should render all front images', () => {
-            cy.get('[alt="kanji"]')
+            cy.get('[alt^="Radical"]')
                 .should('be.visible')
                 .should('have.length', 214)
                 .and(($img) => {
