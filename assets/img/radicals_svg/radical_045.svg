@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .radical-text {
+        font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'MS Gothic', 'SimSun', 'Takao', 'IPAexGothic', 'IPAGothic', 'VL Gothic', 'Noto Sans CJK JP', 'Arial Unicode MS', serif;
+        font-size: 200px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        fill: #0f3e0f;
+        font-weight: bold;
+      }
+      .number-text {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 20px;
+        text-anchor: start;
+        dominant-baseline: hanging;
+        fill: #0f3e0f;
+        opacity: 0.7;
+        font-weight: normal;
+      }
+      .meaning-text {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 20px;
+        text-anchor: middle;
+        dominant-baseline: baseline;
+        fill: #0f3e0f;
+        opacity: 0.8;
+        font-weight: normal;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background Fill -->
+  <rect width="512" height="512" fill="#fcfdfc"/>
+  
+  <!-- Background Pattern -->
+  <g opacity="0.6">
+    <ellipse cx="0" cy="0" rx="20" ry="15" fill="#228B22" opacity="0.6" transform="rotate(0 0 0)"/>
+    <ellipse cx="97" cy="73" rx="20" ry="15" fill="#228B22" opacity="0.5" transform="rotate(36 97 73)"/>
+    <ellipse cx="194" cy="146" rx="20" ry="15" fill="#228B22" opacity="0.7" transform="rotate(72 194 146)"/>
+    <ellipse cx="291" cy="219" rx="20" ry="15" fill="#228B22" opacity="0.55" transform="rotate(108 291 219)"/>
+    <ellipse cx="388" cy="292" rx="20" ry="15" fill="#228B22" opacity="0.65" transform="rotate(144 388 292)"/>
+    <ellipse cx="485" cy="365" rx="20" ry="15" fill="#228B22" opacity="0.45" transform="rotate(180 485 365)"/>
+    <ellipse cx="70" cy="438" rx="20" ry="15" fill="#228B22" opacity="0.6" transform="rotate(216 70 438)"/>
+    <ellipse cx="167" cy="511" rx="20" ry="15" fill="#228B22" opacity="0.55" transform="rotate(252 167 511)"/>
+    <ellipse cx="264" cy="72" rx="20" ry="15" fill="#228B22" opacity="0.7" transform="rotate(288 264 72)"/>
+    <ellipse cx="361" cy="145" rx="20" ry="15" fill="#228B22" opacity="0.5" transform="rotate(324 361 145)"/>
+  </g>
+  
+  <!-- Radical Character -->
+  <text x="256" y="256" class="radical-text">屮</text>
+  
+  <!-- Number in top-left corner -->
+  <text x="20" y="20" class="number-text">#45</text>
+  
+  <!-- Meaning at bottom -->
+  <text x="256" y="480" class="meaning-text">sprout</text>
+</svg>

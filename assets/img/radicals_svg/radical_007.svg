@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .radical-text {
+        font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'MS Gothic', 'SimSun', 'Takao', 'IPAexGothic', 'IPAGothic', 'VL Gothic', 'Noto Sans CJK JP', 'Arial Unicode MS', serif;
+        font-size: 200px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        fill: #0e504c;
+        font-weight: bold;
+      }
+      .number-text {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 20px;
+        text-anchor: start;
+        dominant-baseline: hanging;
+        fill: #0e504c;
+        opacity: 0.7;
+        font-weight: normal;
+      }
+      .meaning-text {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 20px;
+        text-anchor: middle;
+        dominant-baseline: baseline;
+        fill: #0e504c;
+        opacity: 0.8;
+        font-weight: normal;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background Fill -->
+  <rect width="512" height="512" fill="#fcfefe"/>
+  
+  <!-- Background Pattern -->
+  <g opacity="0.6">
+    <circle cx="0" cy="0" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="0" cy="80" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="0" cy="160" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="0" cy="240" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="0" cy="320" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="0" cy="400" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="0" cy="480" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="80" cy="0" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="80" cy="80" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="80" cy="160" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="80" cy="240" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="80" cy="320" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="80" cy="400" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="80" cy="480" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="160" cy="0" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="160" cy="80" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="160" cy="160" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="160" cy="240" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="160" cy="320" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="160" cy="400" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="160" cy="480" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="240" cy="0" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="240" cy="80" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="240" cy="160" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="240" cy="240" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="240" cy="320" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="240" cy="400" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="240" cy="480" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="320" cy="0" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="320" cy="80" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="320" cy="160" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="320" cy="240" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="320" cy="320" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="320" cy="400" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="320" cy="480" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="400" cy="0" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="400" cy="80" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="400" cy="160" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="400" cy="240" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="400" cy="320" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="400" cy="400" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="400" cy="480" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="480" cy="0" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="480" cy="80" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="480" cy="160" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="480" cy="240" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="480" cy="320" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="480" cy="400" r="3" fill="#20B2AA" opacity="0.7"/>
+    <circle cx="480" cy="480" r="3" fill="#20B2AA" opacity="0.7"/>
+  </g>
+  
+  <!-- Radical Character -->
+  <text x="256" y="256" class="radical-text">二</text>
+  
+  <!-- Number in top-left corner -->
+  <text x="20" y="20" class="number-text">#7</text>
+  
+  <!-- Meaning at bottom -->
+  <text x="256" y="480" class="meaning-text">two</text>
+</svg>

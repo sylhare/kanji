@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .radical-text {
+        font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'MS Gothic', 'SimSun', 'Takao', 'IPAexGothic', 'IPAGothic', 'VL Gothic', 'Noto Sans CJK JP', 'Arial Unicode MS', serif;
+        font-size: 200px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        fill: #3e1f08;
+        font-weight: bold;
+      }
+      .number-text {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 20px;
+        text-anchor: start;
+        dominant-baseline: hanging;
+        fill: #3e1f08;
+        opacity: 0.7;
+        font-weight: normal;
+      }
+      .meaning-text {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 20px;
+        text-anchor: middle;
+        dominant-baseline: baseline;
+        fill: #3e1f08;
+        opacity: 0.8;
+        font-weight: normal;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background Fill -->
+  <rect width="512" height="512" fill="#fdfdfc"/>
+  
+  <!-- Background Pattern -->
+  <g opacity="0.6">
+    <polygon points="50,512 150,150 250,512" fill="#8B4513" opacity="0.7"/>
+    <polygon points="200,512 300,190 400,512" fill="#8B4513" opacity="0.6"/>
+    <polygon points="350,512 450,230 550,512" fill="#8B4513" opacity="0.8"/>
+    <polygon points="500,512 600,270 700,512" fill="#8B4513" opacity="0.5"/>
+  </g>
+  
+  <!-- Radical Character -->
+  <text x="256" y="256" class="radical-text">厂</text>
+  
+  <!-- Number in top-left corner -->
+  <text x="20" y="20" class="number-text">#27</text>
+  
+  <!-- Meaning at bottom -->
+  <text x="256" y="480" class="meaning-text">cliff</text>
+</svg>
