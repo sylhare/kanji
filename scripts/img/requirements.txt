@@ -1,0 +1,21 @@
+# Japanese Radical Generation Scripts Requirements
+# Install with: pip install -r requirements.txt
+
+# Core ML/AI libraries for image generation
+torch==2.8.0
+diffusers==0.35.0
+numpy==1.26.4
+
+# Required by diffusers for model loading
+safetensors==0.6.2
+
+# AI model support (required for FLUX and some Stable Diffusion models)
+transformers==4.55.2
+accelerate==1.10.0
+
+# Image processing
+Pillow==10.3.0
+
+# Configuration and utilities  
+PyYAML==6.0.1
+psutil==5.9.8
