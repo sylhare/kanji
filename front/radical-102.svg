@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F0FFF0"/>
+  
+  <!-- Rice field boundaries (main) -->
+  <rect x="150" y="200" width="200" height="150" fill="none" stroke="#8B4513" stroke-width="6"/>
+  <rect x="100" y="150" width="120" height="100" fill="none" stroke="#8B4513" stroke-width="4"/>
+  <rect x="280" y="150" width="120" height="100" fill="none" stroke="#8B4513" stroke-width="4"/>
+  <rect x="50" y="370" width="150" height="80" fill="none" stroke="#8B4513" stroke-width="4"/>
+  <rect x="300" y="370" width="150" height="80" fill="none" stroke="#8B4513" stroke-width="4"/>
+  
+  <!-- Field divisions -->
+  <line x1="250" y1="200" x2="250" y2="350" stroke="#8B4513" stroke-width="3"/>
+  <line x1="150" y1="275" x2="350" y2="275" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Water channels -->
+  <path d="M 80 120 Q 150 110 220 120 Q 290 130 360 120 Q 430 110 480 120" 
+        stroke="#4169E1" stroke-width="8" fill="none"/>
+  <path d="M 60 180 Q 120 170 180 180 Q 240 190 300 180 Q 360 170 420 180" 
+        stroke="#4169E1" stroke-width="6" fill="none"/>
+  <path d="M 40 340 Q 100 330 160 340 Q 220 350 280 340 Q 340 330 400 340" 
+        stroke="#4169E1" stroke-width="6" fill="none"/>
+  
+  <!-- Rice plants -->
+  <rect x="170" y="230" width="3" height="40" fill="#228B22"/>
+  <rect x="190" y="220" width="3" height="50" fill="#228B22"/>
+  <rect x="210" y="235" width="3" height="35" fill="#228B22"/>
+  <rect x="230" y="225" width="3" height="45" fill="#228B22"/>
+  <rect x="270" y="240" width="3" height="30" fill="#228B22"/>
+  <rect x="290" y="230" width="3" height="40" fill="#228B22"/>
+  <rect x="310" y="235" width="3" height="35" fill="#228B22"/>
+  <rect x="330" y="225" width="3" height="45" fill="#228B22"/>
+  
+  <rect x="180" y="300" width="3" height="35" fill="#228B22"/>
+  <rect x="200" y="295" width="3" height="40" fill="#228B22"/>
+  <rect x="220" y="310" width="3" height="25" fill="#228B22"/>
+  <rect x="240" y="300" width="3" height="35" fill="#228B22"/>
+  <rect x="280" y="305" width="3" height="30" fill="#228B22"/>
+  <rect x="300" y="295" width="3" height="40" fill="#228B22"/>
+  <rect x="320" y="310" width="3" height="25" fill="#228B22"/>
+  
+  <!-- Secondary field rice plants -->
+  <rect x="120" y="180" width="2" height="25" fill="#228B22"/>
+  <rect x="135" y="175" width="2" height="30" fill="#228B22"/>
+  <rect x="150" y="180" width="2" height="25" fill="#228B22"/>
+  <rect x="165" y="175" width="2" height="30" fill="#228B22"/>
+  <rect x="180" y="180" width="2" height="25" fill="#228B22"/>
+  
+  <rect x="300" y="180" width="2" height="25" fill="#228B22"/>
+  <rect x="315" y="175" width="2" height="30" fill="#228B22"/>
+  <rect x="330" y="180" width="2" height="25" fill="#228B22"/>
+  <rect x="345" y="175" width="2" height="30" fill="#228B22"/>
+  <rect x="360" y="180" width="2" height="25" fill="#228B22"/>
+  
+  <!-- Rice grain heads -->
+  <circle cx="172" cy="220" r="3" fill="#F5DEB3"/>
+  <circle cx="192" cy="210" r="3" fill="#F5DEB3"/>
+  <circle cx="212" cy="225" r="3" fill="#F5DEB3"/>
+  <circle cx="232" cy="215" r="3" fill="#F5DEB3"/>
+  <circle cx="272" cy="230" r="3" fill="#F5DEB3"/>
+  <circle cx="292" cy="220" r="3" fill="#F5DEB3"/>
+  <circle cx="312" cy="225" r="3" fill="#F5DEB3"/>
+  <circle cx="332" cy="215" r="3" fill="#F5DEB3"/>
+  
+  <circle cx="182" cy="290" r="3" fill="#F5DEB3"/>
+  <circle cx="202" cy="285" r="3" fill="#F5DEB3"/>
+  <circle cx="222" cy="300" r="3" fill="#F5DEB3"/>
+  <circle cx="242" cy="290" r="3" fill="#F5DEB3"/>
+  <circle cx="282" cy="295" r="3" fill="#F5DEB3"/>
+  <circle cx="302" cy="285" r="3" fill="#F5DEB3"/>
+  <circle cx="322" cy="300" r="3" fill="#F5DEB3"/>
+  
+  <!-- Water reflection -->
+  <ellipse cx="200" cy="360" rx="40" ry="8" fill="#87CEEB" opacity="0.5"/>
+  <ellipse cx="300" cy="360" rx="35" ry="6" fill="#87CEEB" opacity="0.5"/>
+  
+  <!-- Farmer figure -->
+  <ellipse cx="450" cy="300" rx="15" ry="30" fill="#DEB887"/>
+  <circle cx="450" cy="270" r="8" fill="#F4A460"/>
+  <rect x="440" y="290" width="20" height="3" fill="#8B4513"/> <!-- Hat -->
+  
+  <!-- Traditional farming tool -->
+  <line x1="430" y1="320" x2="430" y2="380" stroke="#8B4513" stroke-width="4"/>
+  <path d="M 420 370 L 440 370 L 435 380 L 425 380 Z" fill="#C0C0C0"/>
+</svg>

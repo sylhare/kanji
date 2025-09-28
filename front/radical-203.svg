@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f5f5f5"/>
+  
+  <!-- Central black circle -->
+  <circle cx="250" cy="250" r="80" fill="#000000"/>
+  <circle cx="250" cy="250" r="60" fill="#212121"/>
+  <circle cx="250" cy="250" r="40" fill="#424242"/>
+  
+  <!-- Black cat silhouette -->
+  <g transform="translate(120,150)">
+    <!-- Body -->
+    <ellipse cx="0" cy="10" rx="20" ry="12" fill="#000000"/>
+    
+    <!-- Head -->
+    <circle cx="-15" cy="0" r="10" fill="#000000"/>
+    
+    <!-- Ears -->
+    <polygon points="-20,-8 -15,-15 -10,-8" fill="#000000"/>
+    <polygon points="-25,-5 -20,-12 -15,-5" fill="#000000"/>
+    
+    <!-- Tail -->
+    <path d="M 20,10 Q 30,5 35,15 Q 30,25 20,20" fill="#000000"/>
+    
+    <!-- Eyes -->
+    <circle cx="-18" cy="-3" r="2" fill="#ffeb3b"/>
+    <circle cx="-12" cy="-3" r="2" fill="#ffeb3b"/>
+  </g>
+  
+  <!-- Black crow -->
+  <g transform="translate(380,120)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="15" ry="8" fill="#000000"/>
+    
+    <!-- Head -->
+    <circle cx="-10" cy="-5" r="6" fill="#000000"/>
+    
+    <!-- Beak -->
+    <polygon points="-16,-5 -20,-3 -16,-1" fill="#333333"/>
+    
+    <!-- Wing -->
+    <ellipse cx="5" cy="-2" rx="10" ry="5" fill="#212121"/>
+    
+    <!-- Tail -->
+    <ellipse cx="12" cy="2" rx="8" ry="3" fill="#000000"/>
+    
+    <!-- Eye -->
+    <circle cx="-12" cy="-6" r="1" fill="#ffeb3b"/>
+  </g>
+  
+  <!-- Black piano keys -->
+  <g transform="translate(100,350)">
+    <!-- White keys background -->
+    <rect x="0" y="0" width="140" height="40" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+    
+    <!-- Black keys -->
+    <rect x="15" y="0" width="8" height="25" fill="#000000"/>
+    <rect x="35" y="0" width="8" height="25" fill="#000000"/>
+    <rect x="75" y="0" width="8" height="25" fill="#000000"/>
+    <rect x="95" y="0" width="8" height="25" fill="#000000"/>
+    <rect x="115" y="0" width="8" height="25" fill="#000000"/>
+    
+    <!-- White key separators -->
+    <line x1="20" y1="0" x2="20" y2="40" stroke="#cccccc" stroke-width="1"/>
+    <line x1="40" y1="0" x2="40" y2="40" stroke="#cccccc" stroke-width="1"/>
+    <line x1="60" y1="0" x2="60" y2="40" stroke="#cccccc" stroke-width="1"/>
+    <line x1="80" y1="0" x2="80" y2="40" stroke="#cccccc" stroke-width="1"/>
+    <line x1="100" y1="0" x2="100" y2="40" stroke="#cccccc" stroke-width="1"/>
+    <line x1="120" y1="0" x2="120" y2="40" stroke="#cccccc" stroke-width="1"/>
+  </g>
+  
+  <!-- Black umbrella -->
+  <g transform="translate(350,350)">
+    <!-- Umbrella top -->
+    <path d="M -25,0 Q 0,-15 25,0 Q 20,5 15,3 Q 10,5 5,3 Q 0,5 -5,3 Q -10,5 -15,3 Q -20,5 -25,0" 
+          fill="#000000"/>
+    
+    <!-- Handle -->
+    <rect x="-1" y="0" width="2" height="35" fill="#000000"/>
+    
+    <!-- Handle curve -->
+    <path d="M -1,35 Q -8,40 -8,45 Q -8,48 -5,48" 
+          stroke="#000000" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Black ink bottle -->
+  <g transform="translate(400,400)">
+    <!-- Bottle -->
+    <rect x="-8" y="5" width="16" height="25" fill="#000000" rx="2"/>
+    <rect x="-6" y="8" width="12" height="19" fill="#212121"/>
+    
+    <!-- Bottle neck -->
+    <rect x="-4" y="-2" width="8" height="10" fill="#000000"/>
+    
+    <!-- Cork -->
+    <rect x="-5" y="-5" width="10" height="6" fill="#8d6e63"/>
+    
+    <!-- Ink spill -->
+    <ellipse cx="12" cy="30" rx="6" ry="3" fill="#000000"/>
+  </g>
+  
+  <!-- Black coal -->
+  <g transform="translate(80,250)">
+    <polygon points="0,0 12,-5 20,2 15,12 3,15 -5,8" fill="#000000"/>
+    <polygon points="2,2 10,-2 16,4 12,10 4,12 -2,6" fill="#212121"/>
+    
+    <polygon points="25,5 35,0 40,8 35,15 28,18 22,12" fill="#000000"/>
+    <polygon points="27,7 33,3 37,9 33,13 29,15 25,11" fill="#212121"/>
+  </g>
+  
+  <!-- Black night sky -->
+  <ellipse cx="450" cy="80" rx="40" ry="20" fill="#000000" opacity="0.7"/>
+  <circle cx="445" cy="75" r="3" fill="#ffeb3b"/>
+  <circle cx="460" cy="78" r="1" fill="#ffffff"/>
+  <circle cx="440" cy="85" r="1" fill="#ffffff"/>
+  <circle cx="455" cy="82" r="0.5" fill="#ffffff"/>
+  
+  <!-- Black ant -->
+  <g transform="translate(50,400)">
+    <!-- Body segments -->
+    <circle cx="0" cy="0" r="3" fill="#000000"/>
+    <circle cx="6" cy="0" r="2" fill="#000000"/>
+    <circle cx="11" cy="0" r="3" fill="#000000"/>
+    
+    <!-- Legs -->
+    <line x1="-2" y1="2" x2="-4" y2="6" stroke="#000000" stroke-width="1"/>
+    <line x1="2" y1="2" x2="4" y2="6" stroke="#000000" stroke-width="1"/>
+    <line x1="4" y1="2" x2="2" y2="6" stroke="#000000" stroke-width="1"/>
+    <line x1="8" y1="2" x2="6" y2="6" stroke="#000000" stroke-width="1"/>
+    <line x1="9" y1="2" x2="11" y2="6" stroke="#000000" stroke-width="1"/>
+    <line x1="13" y1="2" x2="15" y2="6" stroke="#000000" stroke-width="1"/>
+    
+    <!-- Antennae -->
+    <line x1="-1" y1="-3" x2="-3" y2="-6" stroke="#000000" stroke-width="1"/>
+    <line x1="1" y1="-3" x2="3" y2="-6" stroke="#000000" stroke-width="1"/>
+  </g>
+  
+  <!-- Black chess piece -->
+  <g transform="translate(300,200)">
+    <!-- Pawn -->
+    <circle cx="0" cy="-5" r="4" fill="#000000"/>
+    <rect x="-3" y="-2" width="6" height="8" fill="#000000"/>
+    <rect x="-5" y="6" width="10" height="3" fill="#000000"/>
+    
+    <!-- Base -->
+    <ellipse cx="0" cy="9" rx="6" ry="2" fill="#212121"/>
+  </g>
+  
+  <!-- Black hole effect -->
+  <defs>
+    <radialGradient id="blackHole" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" style="stop-color:#000000"/>
+      <stop offset="70%" style="stop-color:#212121"/>
+      <stop offset="100%" style="stop-color:#424242"/>
+    </radialGradient>
+  </defs>
+  <circle cx="150" cy="100" r="20" fill="url(#blackHole)"/>
+  
+  <!-- Black text -->
+  <text x="250" y="480" text-anchor="middle" font-family="Arial" font-size="20" fill="#000000">BLACK</text>
+</svg> 

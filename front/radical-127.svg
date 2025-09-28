@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F5DEB3"/>
+  
+  <!-- Main plow blade -->
+  <path d="M 200 300 Q 180 280 160 290 Q 140 300 150 330 Q 160 360 190 350 Q 220 340 210 320 Q 200 310 200 300 Z" 
+        fill="#C0C0C0" stroke="#A0A0A0" stroke-width="3"/>
+  
+  <!-- Plow handle -->
+  <rect x="220" y="200" width="8" height="150" fill="#8B4513" rx="4" transform="rotate(15 220 200)"/>
+  <rect x="250" y="180" width="6" height="120" fill="#8B4513" rx="3" transform="rotate(25 250 180)"/>
+  
+  <!-- Handle grip -->
+  <ellipse cx="265" cy="160" rx="12" ry="6" fill="#A0522D" transform="rotate(25 265 160)"/>
+  <ellipse cx="235" cy="180" rx="10" ry="5" fill="#A0522D" transform="rotate(15 235 180)"/>
+  
+  <!-- Furrow lines (plowed earth) -->
+  <path d="M 80 350 Q 120 340 160 350 Q 200 360 240 350 Q 280 340 320 350" 
+        stroke="#A0522D" stroke-width="6" fill="none"/>
+  <path d="M 90 370 Q 130 360 170 370 Q 210 380 250 370 Q 290 360 330 370" 
+        stroke="#A0522D" stroke-width="6" fill="none"/>
+  <path d="M 100 390 Q 140 380 180 390 Q 220 400 260 390 Q 300 380 340 390" 
+        stroke="#A0522D" stroke-width="6" fill="none"/>
+  <path d="M 110 410 Q 150 400 190 410 Q 230 420 270 410 Q 310 400 350 410" 
+        stroke="#A0522D" stroke-width="6" fill="none"/>
+  
+  <!-- Upturned soil -->
+  <ellipse cx="150" cy="340" rx="20" ry="8" fill="#654321"/>
+  <ellipse cx="200" cy="345" rx="25" ry="10" fill="#654321"/>
+  <ellipse cx="250" cy="340" rx="20" ry="8" fill="#654321"/>
+  <ellipse cx="300" cy="345" rx="22" ry="9" fill="#654321"/>
+  
+  <ellipse cx="170" cy="365" rx="18" ry="7" fill="#654321"/>
+  <ellipse cx="220" cy="370" rx="23" ry="9" fill="#654321"/>
+  <ellipse cx="270" cy="365" rx="19" ry="7" fill="#654321"/>
+  
+  <!-- Soil clods -->
+  <circle cx="130" cy="380" r="4" fill="#8B4513"/>
+  <circle cx="180" cy="385" r="5" fill="#8B4513"/>
+  <circle cx="230" cy="380" r="4" fill="#8B4513"/>
+  <circle cx="280" cy="385" r="5" fill="#8B4513"/>
+  <circle cx="320" cy="380" r="4" fill="#8B4513"/>
+  
+  <!-- Ox/animal pulling -->
+  <ellipse cx="350" cy="250" rx="40" ry="25" fill="#8B4513"/>
+  <ellipse cx="370" cy="240" rx="15" ry="10" fill="#8B4513"/> <!-- Head -->
+  <circle cx="375" cy="235" r="2" fill="#000000"/> <!-- Eye -->
+  <!-- Horns -->
+  <path d="M 368 228 Q 365 222 362 228" stroke="#654321" stroke-width="3" fill="none"/>
+  <path d="M 378 228 Q 381 222 384 228" stroke="#654321" stroke-width="3" fill="none"/>
+  <!-- Legs -->
+  <rect x="335" y="270" width="4" height="20" fill="#654321"/>
+  <rect x="345" y="270" width="4" height="20" fill="#654321"/>
+  <rect x="365" y="270" width="4" height="20" fill="#654321"/>
+  <rect x="375" y="270" width="4" height="20" fill="#654321"/>
+  
+  <!-- Harness/rope -->
+  <path d="M 340 250 Q 320 240 300 250 Q 280 260 260 250" 
+        stroke="#8B4513" stroke-width="4" fill="none"/>
+  
+  <!-- Farmer -->
+  <ellipse cx="280" cy="150" rx="12" ry="25" fill="#DEB887"/>
+  <circle cx="280" cy="125" r="8" fill="#F4A460"/>
+  <!-- Hat -->
+  <ellipse cx="280" cy="120" rx="12" ry="4" fill="#8B4513"/>
+  <!-- Arms holding plow -->
+  <path d="M 270 140 Q 260 150 250 160" stroke="#DEB887" stroke-width="6" fill="none"/>
+  <path d="M 290 140 Q 300 150 310 160" stroke="#DEB887" stroke-width="6" fill="none"/>
+  
+  <!-- Field background -->
+  <rect x="0" y="450" width="500" height="50" fill="#8B4513"/>
+  <rect x="0" y="440" width="500" height="10" fill="#A0522D" opacity="0.7"/>
+  
+  <!-- Tools on side -->
+  <rect x="50" y="200" width="4" height="60" fill="#8B4513"/> <!-- Hoe handle -->
+  <path d="M 45 195 L 60 195 L 58 205 L 47 205 Z" fill="#C0C0C0"/> <!-- Hoe blade -->
+  
+  <!-- Seeds being planted -->
+  <circle cx="120" cy="420" r="2" fill="#F5DEB3"/>
+  <circle cx="160" cy="425" r="2" fill="#F5DEB3"/>
+  <circle cx="200" cy="420" r="2" fill="#F5DEB3"/>
+  <circle cx="240" cy="425" r="2" fill="#F5DEB3"/>
+</svg>

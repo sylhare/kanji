@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#fafafa"/>
+  
+  <!-- Central writing brush -->
+  <g transform="translate(250,200)">
+    <!-- Brush handle -->
+    <rect x="-4" y="40" width="8" height="120" fill="#8d6e63"/>
+    <rect x="-3" y="45" width="6" height="110" fill="#a1887f"/>
+    
+    <!-- Handle grip wrapping -->
+    <rect x="-4" y="60" width="8" height="3" fill="#d32f2f"/>
+    <rect x="-4" y="75" width="8" height="3" fill="#d32f2f"/>
+    <rect x="-4" y="90" width="8" height="3" fill="#d32f2f"/>
+    
+    <!-- Brush ferrule -->
+    <rect x="-5" y="25" width="10" height="15" fill="#616161"/>
+    <rect x="-4" y="27" width="8" height="11" fill="#757575"/>
+    
+    <!-- Brush bristles -->
+    <g transform="translate(0,25)">
+      <!-- Main bristle body -->
+      <ellipse cx="0" cy="-15" rx="6" ry="15" fill="#424242"/>
+      <ellipse cx="0" cy="-15" rx="4" ry="12" fill="#616161"/>
+      
+      <!-- Individual bristles -->
+      <rect x="-2" y="-25" width="0.5" height="15" fill="#212121"/>
+      <rect x="-1" y="-27" width="0.5" height="17" fill="#212121"/>
+      <rect x="0" y="-28" width="0.5" height="18" fill="#212121"/>
+      <rect x="1" y="-27" width="0.5" height="17" fill="#212121"/>
+      <rect x="2" y="-25" width="0.5" height="15" fill="#212121"/>
+      <rect x="-3" y="-23" width="0.5" height="13" fill="#212121"/>
+      <rect x="3" y="-23" width="0.5" height="13" fill="#212121"/>
+    </g>
+    
+    <!-- Ink on brush tip -->
+    <ellipse cx="0" cy="0" rx="3" ry="8" fill="#1a1a1a"/>
+    <ellipse cx="0" cy="0" rx="2" ry="6" fill="#0d1117"/>
+    
+    <!-- Hand holding brush -->
+    <g transform="translate(15,80)">
+      <ellipse cx="0" cy="0" rx="12" ry="8" fill="#ffdbcb"/>
+      <ellipse cx="0" cy="0" rx="10" ry="6" fill="#ffe0b2"/>
+      
+      <!-- Fingers -->
+      <ellipse cx="-8" cy="-3" rx="3" ry="8" fill="#ffdbcb"/>
+      <ellipse cx="-4" cy="-5" rx="3" ry="10" fill="#ffdbcb"/>
+      <ellipse cx="0" cy="-6" rx="3" ry="10" fill="#ffdbcb"/>
+      <ellipse cx="4" cy="-5" rx="3" ry="9" fill="#ffdbcb"/>
+    </g>
+  </g>
+  
+  <!-- Calligraphy being written -->
+  <g transform="translate(150,350)">
+    <!-- Paper/scroll -->
+    <rect x="0" y="0" width="200" height="120" fill="#ffffff"/>
+    <rect x="5" y="5" width="190" height="110" fill="#fafafa"/>
+    
+    <!-- Written characters -->
+    <g fill="#1a1a1a" font-family="serif" font-size="24">
+      <text x="30" y="35">書</text>
+      <text x="80" y="35">道</text>
+      <text x="130" y="35">美</text>
+      
+      <text x="30" y="70">心</text>
+      <text x="80" y="70">静</text>
+      <text x="130" y="70">和</text>
+    </g>
+    
+    <!-- Character being written (in progress) -->
+    <g stroke="#1a1a1a" stroke-width="3" fill="none">
+      <path d="M 170,25 Q 175,30 170,35 Q 165,40 170,45"/>
+      <path d="M 160,30 L 180,30"/>
+    </g>
+    
+    <!-- Ink spots -->
+    <circle cx="45" cy="85" r="1" fill="#1a1a1a"/>
+    <circle cx="125" cy="50" r="0.8" fill="#1a1a1a"/>
+    
+    <!-- Paper weights -->
+    <rect x="10" y="10" width="15" height="4" fill="#8d6e63"/>
+    <rect x="175" y="105" width="15" height="4" fill="#8d6e63"/>
+  </g>
+  
+  <!-- Ink stone and grinding -->
+  <g transform="translate(80,320)">
+    <!-- Ink stone -->
+    <ellipse cx="0" cy="0" rx="30" ry="20" fill="#424242"/>
+    <ellipse cx="0" cy="-3" rx="25" ry="15" fill="#616161"/>
+    
+    <!-- Ink well depression -->
+    <ellipse cx="10" cy="-3" rx="8" ry="5" fill="#1a1a1a"/>
+    <ellipse cx="10" cy="-5" rx="6" ry="3" fill="#0d1117"/>
+    
+    <!-- Grinding area -->
+    <ellipse cx="-10" cy="-3" rx="12" ry="8" fill="#616161"/>
+    <ellipse cx="-10" cy="-5" rx="10" ry="6" fill="#757575"/>
+    
+    <!-- Ink stick -->
+    <rect x="-8" y="-10" width="3" height="15" fill="#1a1a1a" transform="rotate(30)"/>
+    <rect x="-7" y="-9" width="1" height="13" fill="#333" transform="rotate(30)"/>
+    
+    <!-- Water drops -->
+    <ellipse cx="-5" cy="-8" rx="1" ry="2" fill="#2196f3"/>
+    <ellipse cx="2" cy="-6" rx="0.8" ry="1.5" fill="#2196f3"/>
+    
+    <!-- Ink mixture -->
+    <ellipse cx="-8" cy="-2" rx="4" ry="2" fill="#1a1a1a" opacity="0.7"/>
+  </g>
+  
+  <!-- Scholar/calligrapher -->
+  <g transform="translate(400,250)">
+    <!-- Scholar figure -->
+    <circle cx="0" cy="-30" r="15" fill="#ffdbcb"/>
+    <rect x="-12" y="-15" width="24" height="35" fill="#1976d2"/>
+    <rect x="-10" y="20" width="20" height="30" fill="#0d47a1"/>
+    
+    <!-- Scholar's beard -->
+    <path d="M -8,0 Q 0,8 8,0 Q 6,12 0,15 Q -6,12 -8,0" fill="#90a4ae"/>
+    
+    <!-- Scholar's hat -->
+    <rect x="-15" y="-40" width="30" height="12" fill="#424242"/>
+    <rect x="-12" y="-38" width="24" height="8" fill="#616161"/>
+    
+    <!-- Eyes -->
+    <circle cx="-5" cy="-35" r="2" fill="#333"/>
+    <circle cx="5" cy="-35" r="2" fill="#333"/>
+    
+    <!-- Scholar holding scroll -->
+    <g transform="translate(-20,-5)">
+      <rect x="0" y="0" width="3" height="25" fill="#fff3e0"/>
+      <rect x="1" y="1" width="1" height="23" fill="#ffffff"/>
+      <circle cx="1.5" cy="0" r="2" fill="#8d6e63"/>
+      <circle cx="1.5" cy="25" r="2" fill="#8d6e63"/>
+    </g>
+    
+    <!-- Contemplative pose -->
+    <g transform="translate(18,-10)">
+      <ellipse cx="0" cy="0" rx="8" ry="12" fill="#ffdbcb"/>
+      <ellipse cx="0" cy="0" rx="6" ry="10" fill="#ffe0b2"/>
+    </g>
+  </g>
+  
+  <!-- Brush stand with multiple brushes -->
+  <g transform="translate(100,150)">
+    <!-- Stand base -->
+    <ellipse cx="0" cy="30" rx="25" ry="8" fill="#8d6e63"/>
+    <ellipse cx="0" cy="27" rx="20" ry="6" fill="#a1887f"/>
+    
+    <!-- Stand holder -->
+    <rect x="-15" y="0" width="30" height="30" fill="#795548"/>
+    <rect x="-12" y="3" width="24" height="24" fill="#8d6e63"/>
+    
+    <!-- Brush holes -->
+    <circle cx="-8" cy="10" r="3" fill="#6d4c41"/>
+    <circle cx="0" cy="10" r="3" fill="#6d4c41"/>
+    <circle cx="8" cy="10" r="3" fill="#6d4c41"/>
+    
+    <!-- Brushes in stand -->
+    <g transform="translate(-8,10)">
+      <rect x="-1" y="-25" width="2" height="30" fill="#8d6e63"/>
+      <ellipse cx="0" cy="-25" rx="2" ry="5" fill="#424242"/>
+    </g>
+    
+    <g transform="translate(0,10)">
+      <rect x="-1" y="-30" width="2" height="35" fill="#6d4c41"/>
+      <ellipse cx="0" cy="-30" rx="2" ry="6" fill="#616161"/>
+    </g>
+    
+    <g transform="translate(8,10)">
+      <rect x="-1" y="-22" width="2" height="27" fill="#a1887f"/>
+      <ellipse cx="0" cy="-22" rx="2" ry="4" fill="#424242"/>
+    </g>
+  </g>
+  
+  <!-- Ceremonial writing ceremony -->
+  <g transform="translate(350,400)">
+    <!-- Ceremony participants -->
+    <g transform="translate(0,0)">
+      <!-- Master calligrapher -->
+      <circle cx="0" cy="-20" r="10" fill="#ffdbcb"/>
+      <rect x="-8" y="-10" width="16" height="25" fill="#4a148c"/>
+      <rect x="-6" y="15" width="12" height="20" fill="#6a1b9a"/>
+      
+      <!-- Ceremonial robes -->
+      <rect x="-8" y="-5" width="16" height="3" fill="#ffeb3b"/>
+      <rect x="-8" y="5" width="16" height="3" fill="#ffeb3b"/>
+      
+      <!-- Holding ceremonial brush -->
+      <g transform="translate(12,-5)">
+        <rect x="0" y="0" width="1" height="20" fill="#8d6e63"/>
+        <ellipse cx="0.5" cy="0" rx="2" ry="4" fill="#424242"/>
+      </g>
+    </g>
+    
+    <!-- Students/observers -->
+    <g transform="translate(25,10)">
+      <circle cx="0" cy="-15" r="7" fill="#ffdbcb"/>
+      <rect x="-5" y="-8" width="10" height="18" fill="#1976d2"/>
+      <rect x="-4" y="10" width="8" height="15" fill="#0d47a1"/>
+    </g>
+    
+    <g transform="translate(45,5)">
+      <circle cx="0" cy="-15" r="7" fill="#ffdbcb"/>
+      <rect x="-5" y="-8" width="10" height="18" fill="#d32f2f"/>
+      <rect x="-4" y="10" width="8" height="15" fill="#b71c1c"/>
+    </g>
+    
+    <!-- Ceremonial paper -->
+    <rect x="-20" y="30" width="40" height="25" fill="#ffffff"/>
+    <rect x="-18" y="32" width="36" height="21" fill="#fafafa"/>
+  </g>
+  
+  <!-- Seal stamps -->
+  <g transform="translate(450,350)">
+    <!-- Red seal stamp -->
+    <rect x="0" y="0" width="8" height="15" fill="#f44336"/>
+    <rect x="1" y="1" width="6" height="13" fill="#d32f2f"/>
+    
+    <!-- Seal handle -->
+    <ellipse cx="4" cy="-5" rx="4" ry="5" fill="#8d6e63"/>
+    <ellipse cx="4" cy="-5" rx="3" ry="4" fill="#a1887f"/>
+    
+    <!-- Seal impression -->
+    <rect x="15" y="5" width="8" height="8" fill="#f44336"/>
+    <rect x="16" y="6" width="6" height="6" fill="#d32f2f"/>
+    <text x="19" y="11" text-anchor="middle" font-family="serif" font-size="6" fill="#ffffff">印</text>
+    
+    <!-- Ink pad -->
+    <ellipse cx="4" cy="25" rx="12" ry="6" fill="#d32f2f"/>
+    <ellipse cx="4" cy="23" rx="10" ry="4" fill="#f44336"/>
+  </g>
+  
+  <!-- Writing practice sheets -->
+  <g transform="translate(50,50)">
+    <!-- Practice grid paper -->
+    <rect x="0" y="0" width="80" height="100" fill="#ffffff"/>
+    <rect x="2" y="2" width="76" height="96" fill="#fafafa"/>
+    
+    <!-- Grid lines -->
+    <g stroke="#e0e0e0" stroke-width="0.5">
+      <line x1="20" y1="2" x2="20" y2="98"/>
+      <line x1="40" y1="2" x2="40" y2="98"/>
+      <line x1="60" y1="2" x2="60" y2="98"/>
+      <line x1="2" y1="25" x2="78" y2="25"/>
+      <line x1="2" y1="50" x2="78" y2="50"/>
+      <line x1="2" y1="75" x2="78" y2="75"/>
+    </g>
+    
+    <!-- Practice characters -->
+    <g fill="#666" font-family="serif" font-size="14">
+      <text x="10" y="20">一</text>
+      <text x="30" y="20">二</text>
+      <text x="50" y="20">三</text>
+      
+      <text x="10" y="45">人</text>
+      <text x="30" y="45">大</text>
+      <text x="50" y="45">小</text>
+    </g>
+    
+    <!-- Teacher corrections in red -->
+    <g stroke="#f44336" stroke-width="1" fill="none">
+      <circle cx="10" cy="20" r="8"/>
+      <path d="M 25,45 L 35,35"/>
+    </g>
+  </g>
+  
+  <!-- Ink preparation ritual -->
+  <g transform="translate(200,100)">
+    <!-- Water vessel -->
+    <ellipse cx="0" cy="0" rx="15" ry="10" fill="#e3f2fd"/>
+    <ellipse cx="0" cy="-3" rx="12" ry="7" fill="#bbdefb"/>
+    
+    <!-- Water drops -->
+    <ellipse cx="5" cy="-8" rx="1" ry="2" fill="#2196f3"/>
+    <ellipse cx="-3" cy="-10" rx="0.8" ry="1.5" fill="#2196f3"/>
+    
+    <!-- Bamboo water ladle -->
+    <g transform="translate(20,-5)">
+      <ellipse cx="0" cy="0" rx="6" ry="4" fill="#8d6e63"/>
+      <rect x="6" y="-1" width="15" height="2" fill="#8d6e63"/>
+      <ellipse cx="6" cy="0" rx="1" ry="2" fill="#a1887f"/>
+    </g>
+    
+    <!-- Meditation posture -->
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="8" fill="#666">静心</text>
+  </g>
+  
+  <!-- Brush stroke dynamics -->
+  <g transform="translate(300,250)" opacity="0.6">
+    <!-- Stroke showing brush pressure -->
+    <path d="M 0,0 Q 15,-5 30,0 Q 45,5 60,0" 
+          stroke="#1a1a1a" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 0,0 Q 15,-3 30,0 Q 45,3 60,0" 
+          stroke="#333" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M 0,0 Q 15,-1 30,0 Q 45,1 60,0" 
+          stroke="#666" stroke-width="1" fill="none" stroke-linecap="round"/>
+    
+    <!-- Direction arrows -->
+    <polygon points="55,-2 60,0 55,2" fill="#666"/>
+  </g>
+  
+  <!-- Ancient scroll with classical text -->
+  <g transform="translate(380,80)">
+    <!-- Scroll -->
+    <rect x="0" y="0" width="4" height="60" fill="#8d6e63"/>
+    <rect x="4" y="5" width="50" height="50" fill="#fff3e0"/>
+    <rect x="6" y="7" width="46" height="46" fill="#ffffff"/>
+    <rect x="54" y="0" width="4" height="60" fill="#8d6e63"/>
+    
+    <!-- Classical characters -->
+    <g fill="#333" font-family="serif" font-size="8">
+      <text x="12" y="18">天</text>
+      <text x="25" y="18">地</text>
+      <text x="38" y="18">人</text>
+      
+      <text x="12" y="32">文</text>
+      <text x="25" y="32">字</text>
+      <text x="38" y="32">道</text>
+      
+      <text x="12" y="46">永</text>
+      <text x="25" y="46">恒</text>
+      <text x="38" y="46">美</text>
+    </g>
+  </g>
+</svg> 

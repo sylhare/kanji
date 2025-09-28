@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#e6f7ff"/>
+  
+  <!-- Javelin spear point -->
+  <polygon points="50,250 150,240 150,260" fill="#C0C0C0"/>
+  <polygon points="50,250 145,242 145,258" fill="#E5E5E5"/>
+  
+  <!-- Javelin shaft -->
+  <rect x="150" y="245" width="300" height="10" fill="#8B4513"/>
+  <rect x="150" y="247" width="300" height="6" fill="#A0522D"/>
+  
+  <!-- Grip area -->
+  <rect x="250" y="243" width="80" height="14" fill="#654321"/>
+  <rect x="255" y="245" width="5" height="10" fill="#4A4A4A"/>
+  <rect x="265" y="245" width="5" height="10" fill="#4A4A4A"/>
+  <rect x="275" y="245" width="5" height="10" fill="#4A4A4A"/>
+  <rect x="285" y="245" width="5" height="10" fill="#4A4A4A"/>
+  <rect x="295" y="245" width="5" height="10" fill="#4A4A4A"/>
+  <rect x="305" y="245" width="5" height="10" fill="#4A4A4A"/>
+  <rect x="315" y="245" width="5" height="10" fill="#4A4A4A"/>
+  <rect x="325" y="245" width="5" height="10" fill="#4A4A4A"/>
+  
+  <!-- Rear weight/balance -->
+  <circle cx="460" cy="250" r="15" fill="#8B4513"/>
+  <circle cx="460" cy="250" r="10" fill="#A0522D"/>
+  
+  <!-- Motion blur/speed lines -->
+  <line x1="100" y1="200" x2="200" y2="210" stroke="#FFD700" stroke-width="3" opacity="0.7"/>
+  <line x1="120" y1="190" x2="220" y2="200" stroke="#FFA500" stroke-width="2" opacity="0.6"/>
+  <line x1="140" y1="180" x2="240" y2="190" stroke="#FF8C00" stroke-width="1" opacity="0.5"/>
+  
+  <line x1="100" y1="300" x2="200" y2="290" stroke="#FFD700" stroke-width="3" opacity="0.7"/>
+  <line x1="120" y1="310" x2="220" y2="300" stroke="#FFA500" stroke-width="2" opacity="0.6"/>
+  <line x1="140" y1="320" x2="240" y2="310" stroke="#FF8C00" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Trajectory arc -->
+  <path d="M 30 280 Q 250 100 470 220" stroke="#00BFFF" stroke-width="3" fill="none" opacity="0.5" stroke-dasharray="10,5"/>
+  
+  <!-- Impact target in distance -->
+  <circle cx="450" cy="200" r="30" fill="none" stroke="#FF0000" stroke-width="4"/>
+  <circle cx="450" cy="200" r="20" fill="none" stroke="#FF0000" stroke-width="3"/>
+  <circle cx="450" cy="200" r="10" fill="none" stroke="#FF0000" stroke-width="2"/>
+  <circle cx="450" cy="200" r="5" fill="#FF0000"/>
+  
+  <!-- Wind effects -->
+  <path d="M 200 150 Q 230 140 260 150" stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 220 160 Q 250 150 280 160" stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 240 170 Q 270 160 300 170" stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <path d="M 200 350 Q 230 360 260 350" stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 220 340 Q 250 350 280 340" stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 240 330 Q 270 340 300 330" stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <!-- Power/throw effect at rear -->
+  <circle cx="480" cy="250" r="20" fill="none" stroke="#FFD700" stroke-width="3" opacity="0.7"/>
+  <circle cx="480" cy="250" r="35" fill="none" stroke="#FFA500" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Olympic rings reference -->
+  <circle cx="100" cy="100" r="20" fill="none" stroke="#0081C8" stroke-width="3"/>
+  <circle cx="140" cy="100" r="20" fill="none" stroke="#FCB131" stroke-width="3"/>
+</svg> 

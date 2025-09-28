@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#FDF5E6"/>
+  
+  <!-- Main dipper bowl -->
+  <ellipse cx="300" cy="250" rx="60" ry="40" fill="#8B4513" stroke="#654321" stroke-width="4"/>
+  <ellipse cx="300" cy="245" rx="50" ry="30" fill="#D2B48C"/>
+  
+  <!-- Dipper handle -->
+  <rect x="150" y="247" width="150" height="6" fill="#654321" rx="3"/>
+  <ellipse cx="150" cy="250" rx="8" ry="6" fill="#8B4513"/>
+  
+  <!-- Measurement marks on dipper -->
+  <path d="M 270 240 L 275 240" stroke="#FFD700" stroke-width="2"/>
+  <path d="M 285 235 L 290 235" stroke="#FFD700" stroke-width="2"/>
+  <path d="M 300 230 L 305 230" stroke="#FFD700" stroke-width="2"/>
+  <path d="M 315 235 L 320 235" stroke="#FFD700" stroke-width="2"/>
+  <path d="M 330 240 L 335 240" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Liquid being measured -->
+  <ellipse cx="300" cy="250" rx="45" ry="25" fill="#87CEEB" opacity="0.7"/>
+  
+  <!-- Big Dipper constellation -->
+  <circle cx="200" cy="100" r="4" fill="#FFD700"/>
+  <circle cx="220" cy="80" r="4" fill="#FFD700"/>
+  <circle cx="250" cy="70" r="4" fill="#FFD700"/>
+  <circle cx="280" cy="75" r="4" fill="#FFD700"/>
+  <circle cx="310" cy="85" r="4" fill="#FFD700"/>
+  <circle cx="330" cy="110" r="4" fill="#FFD700"/>
+  <circle cx="340" cy="140" r="4" fill="#FFD700"/>
+  
+  <!-- Constellation lines -->
+  <path d="M 200 100 L 220 80 L 250 70 L 280 75 L 310 85 L 330 110 L 340 140" 
+        stroke="#FFD700" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Additional measuring context -->
+  <rect x="80" y="350" width="120" height="80" fill="#DEB887" stroke="#CD853F" stroke-width="3" rx="5"/>
+  <ellipse cx="140" cy="350" rx="50" ry="10" fill="#8B4513"/>
+  
+  <!-- Grain being measured -->
+  <circle cx="130" cy="370" r="3" fill="#F5DEB3"/>
+  <circle cx="140" cy="375" r="3" fill="#F5DEB3"/>
+  <circle cx="150" cy="370" r="3" fill="#F5DEB3"/>
+  <circle cx="135" cy="385" r="3" fill="#F5DEB3"/>
+  <circle cx="145" cy="380" r="3" fill="#F5DEB3"/>
+  <circle cx="155" cy="385" r="3" fill="#F5DEB3"/>
+  
+  <!-- Traditional measuring unit indicators -->
+  <text x="50" y="320" font-family="Arial" font-size="14" fill="#654321">18 Liters</text>
+  
+  <!-- Wooden table surface -->
+  <rect x="50" y="450" width="400" height="30" fill="#DEB887"/>
+  <rect x="50" y="445" width="400" height="5" fill="#CD853F"/>
+  
+  <!-- Kitchen context -->
+  <ellipse cx="400" cy="350" rx="40" ry="25" fill="#8B4513"/>
+  <ellipse cx="400" cy="345" rx="35" ry="20" fill="#F5DEB3"/>
+  
+  <!-- Other kitchen tools -->
+  <rect x="350" y="380" width="4" height="40" fill="#8B4513"/>
+  <ellipse cx="352" cy="375" rx="8" ry="4" fill="#C0C0C0"/>
+  
+  <!-- Measurement scale -->
+  <rect x="80" y="300" width="60" height="8" fill="#654321"/>
+  <path d="M 85 300 L 85 308" stroke="#FFD700" stroke-width="1"/>
+  <path d="M 100 300 L 100 308" stroke="#FFD700" stroke-width="1"/>
+  <path d="M 115 300 L 115 308" stroke="#FFD700" stroke-width="1"/>
+  <path d="M 130 300 L 130 308" stroke="#FFD700" stroke-width="1"/>
+  
+  <!-- Stars in background -->
+  <circle cx="450" cy="80" r="2" fill="#FFD700" opacity="0.6"/>
+  <circle cx="400" cy="60" r="2" fill="#FFD700" opacity="0.6"/>
+  <circle cx="150" cy="50" r="2" fill="#FFD700" opacity="0.6"/>
+  <circle cx="100" cy="70" r="2" fill="#FFD700" opacity="0.6"/>
+</svg>

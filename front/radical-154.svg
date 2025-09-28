@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#fff3e0"/>
+  
+  <!-- Sandy beach -->
+  <ellipse cx="250" cy="450" rx="250" ry="50" fill="#ffcc80"/>
+  <ellipse cx="250" cy="445" rx="230" ry="40" fill="#ffb74d"/>
+  
+  <!-- Central large shell -->
+  <g transform="translate(250,250)">
+    <!-- Scallop shell -->
+    <path d="M 0,40 Q -30,20 -40,0 Q -35,-20 -25,-30 Q -15,-35 0,-35 Q 15,-35 25,-30 Q 35,-20 40,0 Q 30,20 0,40" 
+          fill="#ff8a65"/>
+    <path d="M 0,35 Q -25,18 -35,0 Q -30,-18 -20,-25 Q -12,-30 0,-30 Q 12,-30 20,-25 Q 30,-18 35,0 Q 25,18 0,35" 
+          fill="#ffab91"/>
+    
+    <!-- Shell ridges -->
+    <path d="M 0,35 Q -8,25 -12,10 Q -15,0 -12,-10 Q -8,-20 0,-30" 
+          stroke="#ff7043" stroke-width="2" fill="none"/>
+    <path d="M 0,35 Q -4,25 -6,10 Q -8,0 -6,-10 Q -4,-20 0,-30" 
+          stroke="#ff7043" stroke-width="2" fill="none"/>
+    <path d="M 0,35 Q 4,25 6,10 Q 8,0 6,-10 Q 4,-20 0,-30" 
+          stroke="#ff7043" stroke-width="2" fill="none"/>
+    <path d="M 0,35 Q 8,25 12,10 Q 15,0 12,-10 Q 8,-20 0,-30" 
+          stroke="#ff7043" stroke-width="2" fill="none"/>
+    
+    <!-- Shell highlight -->
+    <ellipse cx="-8" cy="5" rx="6" ry="10" fill="#ffccbc" opacity="0.7"/>
+  </g>
+  
+  <!-- Pearl inside shell -->
+  <g transform="translate(250,270)">
+    <circle cx="0" cy="0" r="8" fill="#f8f8f8"/>
+    <circle cx="0" cy="0" r="6" fill="#ffffff"/>
+    <circle cx="-2" cy="-2" r="2" fill="#ffffff" opacity="0.8"/>
+  </g>
+  
+  <!-- Various shells around the scene -->
+  <!-- Conch shell -->
+  <g transform="translate(120,200)">
+    <ellipse cx="0" cy="0" rx="15" ry="25" fill="#d7ccc8"/>
+    <ellipse cx="0" cy="0" rx="10" ry="20" fill="#efebe9"/>
+    
+    <!-- Spiral pattern -->
+    <circle cx="0" cy="-15" r="3" fill="#a1887f"/>
+    <circle cx="0" cy="-10" r="2" fill="#8d6e63"/>
+    <circle cx="0" cy="-5" r="1" fill="#6d4c41"/>
+    
+    <!-- Conch opening -->
+    <ellipse cx="0" cy="15" rx="4" ry="8" fill="#ffccbc"/>
+  </g>
+  
+  <!-- Cowrie shell -->
+  <g transform="translate(380,180)">
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#ffb74d"/>
+    <ellipse cx="0" cy="0" rx="8" ry="6" fill="#ffcc02"/>
+    
+    <!-- Cowrie pattern -->
+    <circle cx="-3" cy="-2" r="1" fill="#ff8f00"/>
+    <circle cx="3" cy="2" r="1" fill="#ff8f00"/>
+    <circle cx="-2" cy="3" r="0.5" fill="#e65100"/>
+    <circle cx="2" cy="-3" r="0.5" fill="#e65100"/>
+    
+    <!-- Slit -->
+    <line x1="-6" y1="0" x2="6" y2="0" stroke="#ff8f00" stroke-width="1"/>
+  </g>
+  
+  <!-- Nautilus shell -->
+  <g transform="translate(150,400)">
+    <circle cx="0" cy="0" r="18" fill="#bcaaa4"/>
+    <circle cx="0" cy="0" r="14" fill="#d7ccc8"/>
+    
+    <!-- Nautilus chambers -->
+    <path d="M 0,0 Q -8,-8 0,-14 Q 8,-8 0,0" stroke="#8d6e63" stroke-width="2" fill="none"/>
+    <path d="M 0,0 Q -6,-6 0,-10 Q 6,-6 0,0" stroke="#8d6e63" stroke-width="1" fill="none"/>
+    <path d="M 0,0 Q -4,-4 0,-6 Q 4,-4 0,0" stroke="#8d6e63" stroke-width="1" fill="none"/>
+    
+    <!-- Opening -->
+    <ellipse cx="8" cy="8" rx="6" ry="4" fill="#ffccbc"/>
+  </g>
+  
+  <!-- Clam shell -->
+  <g transform="translate(350,400)">
+    <!-- Bottom shell -->
+    <ellipse cx="0" cy="5" rx="20" ry="12" fill="#8d6e63"/>
+    <ellipse cx="0" cy="5" rx="16" ry="9" fill="#a1887f"/>
+    
+    <!-- Top shell (slightly open) -->
+    <ellipse cx="0" cy="-3" rx="18" ry="10" fill="#795548"/>
+    <ellipse cx="0" cy="-3" rx="14" ry="7" fill="#8d6e63"/>
+    
+    <!-- Hinge -->
+    <rect x="-2" y="0" width="4" height="3" fill="#6d4c41"/>
+  </g>
+  
+  <!-- Ancient coins made from shells -->
+  <g transform="translate(100,350)">
+    <circle cx="0" cy="0" r="12" fill="#ffb74d"/>
+    <circle cx="0" cy="0" r="8" fill="#ffcc02"/>
+    <rect x="-1" y="-6" width="2" height="12" fill="#ff8f00"/>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">1 SHELL</text>
+    
+    <circle cx="30" cy="0" r="10" fill="#ff8a65"/>
+    <circle cx="30" cy="0" r="6" fill="#ffab91"/>
+    <circle cx="30" cy="0" r="2" fill="#ff7043"/>
+    <text x="30" y="20" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">5 SHELLS</text>
+  </g>
+  
+  <!-- Shell collection display -->
+  <g transform="translate(400,300)">
+    <!-- Display case -->
+    <rect x="0" y="0" width="80" height="60" fill="#f5f5f5" stroke="#ddd" stroke-width="2"/>
+    <rect x="5" y="5" width="70" height="50" fill="#fafafa"/>
+    
+    <!-- Small shells in display -->
+    <ellipse cx="20" cy="20" rx="6" ry="4" fill="#ffb74d"/>
+    <ellipse cx="40" cy="20" rx="5" ry="3" fill="#ff8a65"/>
+    <ellipse cx="60" cy="20" rx="4" ry="3" fill="#d7ccc8"/>
+    
+    <ellipse cx="20" cy="35" rx="4" ry="6" fill="#bcaaa4"/>
+    <ellipse cx="40" cy="35" rx="5" ry="4" fill="#8d6e63"/>
+    <ellipse cx="60" cy="35" rx="6" ry="3" fill="#ffcc02"/>
+    
+    <!-- Labels -->
+    <text x="40" y="75" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">SHELL COLLECTION</text>
+  </g>
+  
+  <!-- Treasure chest with shells -->
+  <g transform="translate(50,100)">
+    <!-- Chest -->
+    <rect x="0" y="20" width="60" height="40" fill="#8d6e63" rx="5"/>
+    <rect x="5" y="25" width="50" height="30" fill="#a1887f"/>
+    
+    <!-- Chest lid -->
+    <path d="M 0,20 Q 30,0 60,20 L 55,15 Q 30,5 5,15 Z" fill="#6d4c41"/>
+    
+    <!-- Lock -->
+    <rect x="27" y="35" width="6" height="8" fill="#ffd700"/>
+    <circle cx="30" cy="39" r="2" fill="#ffeb3b"/>
+    
+    <!-- Shells spilling out -->
+    <ellipse cx="65" cy="45" rx="4" ry="3" fill="#ffb74d"/>
+    <ellipse cx="70" cy="50" rx="3" ry="2" fill="#ff8a65"/>
+    <ellipse cx="75" cy="55" rx="3" ry="2" fill="#ffcc02"/>
+    
+    <!-- Gold coins -->
+    <circle cx="68" cy="40" r="3" fill="#ffd700"/>
+    <circle cx="72" cy="45" r="2" fill="#ffeb3b"/>
+  </g>
+  
+  <!-- Shell as currency exchange -->
+  <g transform="translate(300,100)">
+    <text x="0" y="0" font-family="Arial" font-size="12" fill="#333">SHELL CURRENCY</text>
+    
+    <!-- Exchange rate -->
+    <ellipse cx="10" cy="20" rx="6" ry="4" fill="#ffb74d"/>
+    <text x="25" y="25" font-family="Arial" font-size="10" fill="#666">=</text>
+    <circle cx="35" cy="20" r="4" fill="#ffd700"/>
+    <text x="45" y="25" font-family="Arial" font-size="8" fill="#666">1 GOLD</text>
+    
+    <ellipse cx="10" cy="40" rx="4" ry="3" fill="#ff8a65"/>
+    <text x="18" y="44" font-family="Arial" font-size="8" fill="#666">x10 =</text>
+    <rect x="35" y="35" width="15" height="10" fill="#4caf50"/>
+    <text x="42" y="43" font-family="Arial" font-size="6" fill="#fff">FOOD</text>
+  </g>
+  
+  <!-- Diver collecting shells -->
+  <g transform="translate(200,380)">
+    <!-- Diver -->
+    <circle cx="0" cy="-10" r="6" fill="#ffdbcb"/>
+    <rect x="-4" y="-4" width="8" height="12" fill="#2196f3"/>
+    <rect x="-3" y="8" width="6" height="8" fill="#1976d2"/>
+    
+    <!-- Diving mask -->
+    <circle cx="0" cy="-10" r="8" fill="none" stroke="#333" stroke-width="2"/>
+    <circle cx="0" cy="-10" r="6" fill="#81d4fa" opacity="0.5"/>
+    
+    <!-- Air bubbles -->
+    <circle cx="5" cy="-20" r="1" fill="#e3f2fd"/>
+    <circle cx="8" cy="-25" r="0.8" fill="#e3f2fd"/>
+    <circle cx="6" cy="-30" r="0.6" fill="#e3f2fd"/>
+    
+    <!-- Collecting bag -->
+    <ellipse cx="8" cy="0" rx="5" ry="8" fill="#8d6e63"/>
+    <ellipse cx="8" cy="-2" rx="3" ry="6" fill="#a1887f"/>
+    
+    <!-- Shells in bag -->
+    <ellipse cx="8" cy="2" rx="2" ry="1" fill="#ffb74d"/>
+    <ellipse cx="8" cy="-1" rx="1.5" ry="1" fill="#ff8a65"/>
+  </g>
+  
+  <!-- Water and sea floor -->
+  <path d="M 0,420 Q 100,410 200,420 Q 300,430 400,420 Q 450,415 500,420 L 500,500 L 0,500 Z" 
+        fill="#2196f3" opacity="0.3"/>
+  
+  <!-- Sea grass -->
+  <g transform="translate(80,450)">
+    <path d="M 0,0 Q -5,-15 0,-30 Q 5,-20 0,-10" stroke="#4caf50" stroke-width="2" fill="none"/>
+    <path d="M 10,0 Q 5,-18 10,-35 Q 15,-25 10,-12" stroke="#4caf50" stroke-width="2" fill="none"/>
+    <path d="M 20,0 Q 15,-12 20,-25 Q 25,-18 20,-8" stroke="#4caf50" stroke-width="2" fill="none"/>
+  </g>
+</svg> 

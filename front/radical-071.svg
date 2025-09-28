@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#ffe4e1"/>
+  
+  <!-- Main prohibition circle -->
+  <circle cx="250" cy="250" r="120" fill="#FF0000"/>
+  <circle cx="250" cy="250" r="110" fill="#FF4500"/>
+  <circle cx="250" cy="250" r="100" fill="#FFFFFF"/>
+  
+  <!-- Diagonal prohibition line -->
+  <rect x="160" y="240" width="180" height="20" fill="#FF0000" transform="rotate(45 250 250)"/>
+  <rect x="165" y="242" width="170" height="16" fill="#DC143C" transform="rotate(45 250 250)"/>
+  
+  <!-- Additional "NOT" emphasis -->
+  <circle cx="250" cy="250" r="140" fill="none" stroke="#FF0000" stroke-width="6"/>
+  <circle cx="250" cy="250" r="160" fill="none" stroke="#FF4500" stroke-width="4" opacity="0.7"/>
+  
+  <!-- X mark in center -->
+  <line x1="200" y1="200" x2="300" y2="300" stroke="#8B0000" stroke-width="8"/>
+  <line x1="300" y1="200" x2="200" y2="300" stroke="#8B0000" stroke-width="8"/>
+  <line x1="205" y1="205" x2="295" y2="295" stroke="#DC143C" stroke-width="6"/>
+  <line x1="295" y1="205" x2="205" y2="295" stroke="#DC143C" stroke-width="6"/>
+  
+  <!-- Warning triangles around -->
+  <polygon points="100,100 120,60 140,100" fill="#FFD700"/>
+  <polygon points="100,400 120,440 140,400" fill="#FFD700"/>
+  <polygon points="400,100 420,60 440,100" fill="#FFD700"/>
+  <polygon points="400,400 420,440 440,400" fill="#FFD700"/>
+  
+  <!-- Exclamation marks in triangles -->
+  <rect x="118" y="70" width="4" height="20" fill="#FF0000"/>
+  <circle cx="120" cy="95" r="2" fill="#FF0000"/>
+  
+  <rect x="118" y="410" width="4" height="20" fill="#FF0000"/>
+  <circle cx="120" cy="435" r="2" fill="#FF0000"/>
+  
+  <rect x="418" y="70" width="4" height="20" fill="#FF0000"/>
+  <circle cx="420" cy="95" r="2" fill="#FF0000"/>
+  
+  <rect x="418" y="410" width="4" height="20" fill="#FF0000"/>
+  <circle cx="420" cy="435" r="2" fill="#FF0000"/>
+  
+  <!-- "NO" text emphasis -->
+  <text x="150" y="150" font-family="Arial Black" font-size="36" fill="#8B0000">NO</text>
+  <text x="320" y="370" font-family="Arial Black" font-size="36" fill="#8B0000">NO</text>
+  
+  <!-- Additional prohibition symbols -->
+  <circle cx="80" cy="250" r="30" fill="#FF0000"/>
+  <circle cx="80" cy="250" r="25" fill="#FFFFFF"/>
+  <line x1="60" y1="230" x2="100" y2="270" stroke="#FF0000" stroke-width="4"/>
+  
+  <circle cx="420" cy="250" r="30" fill="#FF0000"/>
+  <circle cx="420" cy="250" r="25" fill="#FFFFFF"/>
+  <line x1="400" y1="230" x2="440" y2="270" stroke="#FF0000" stroke-width="4"/>
+  
+  <!-- Negative symbols -->
+  <rect x="40" y="345" width="30" height="6" fill="#8B0000"/>
+  <rect x="430" y="345" width="30" height="6" fill="#8B0000"/>
+  <rect x="240" y="45" width="20" height="4" fill="#8B0000"/>
+  <rect x="240" y="455" width="20" height="4" fill="#8B0000"/>
+  
+  <!-- Stop hand gesture -->
+  <circle cx="350" cy="150" r="25" fill="#FDBCB4"/>
+  <rect x="340" y="165" width="8" height="20" fill="#FDBCB4"/>
+  <rect x="350" y="165" width="8" height="20" fill="#FDBCB4"/>
+  <rect x="360" y="165" width="8" height="20" fill="#FDBCB4"/>
+  <rect x="370" y="165" width="8" height="20" fill="#FDBCB4"/>
+  <rect x="330" y="175" width="15" height="8" fill="#FDBCB4"/>
+  
+  <!-- Red alert borders -->
+  <rect x="10" y="10" width="480" height="20" fill="#FF0000" opacity="0.7"/>
+  <rect x="10" y="470" width="480" height="20" fill="#FF0000" opacity="0.7"/>
+  <rect x="10" y="10" width="20" height="480" fill="#FF0000" opacity="0.7"/>
+  <rect x="470" y="10" width="20" height="480" fill="#FF0000" opacity="0.7"/>
+  
+  <!-- Denial/rejection sparks -->
+  <polygon points="180,120 185,130 195,130 187,137 190,147 180,142 170,147 173,137 165,130 175,130" fill="#FF4500"/>
+  <polygon points="320,120 325,130 335,130 327,137 330,147 320,142 310,147 313,137 305,130 315,130" fill="#FF4500"/>
+  <polygon points="180,380 185,390 195,390 187,397 190,407 180,402 170,407 173,397 165,390 175,390" fill="#FF4500"/>
+  <polygon points="320,380 325,390 335,390 327,397 330,407 320,402 310,407 313,397 305,390 315,390" fill="#FF4500"/>
+  
+  <!-- Traditional "forbidden" symbol -->
+  <circle cx="50" cy="50" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <line x1="35" y1="35" x2="65" y2="65" stroke="#8B0000" stroke-width="4"/>
+  
+  <!-- Void/empty space indication -->
+  <circle cx="250" cy="250" r="50" fill="none" stroke="#696969" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+</svg> 

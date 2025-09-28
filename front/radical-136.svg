@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f5f5f5"/>
+  
+  <!-- Central axis of conflict -->
+  <line x1="250" y1="50" x2="250" y2="450" stroke="#666" stroke-width="2" stroke-dasharray="10,5"/>
+  
+  <!-- Left side (one direction) -->
+  <g transform="translate(125,250)">
+    <!-- Arrow pointing left -->
+    <polygon points="-80,0 -40,-20 -40,-10 20,-10 20,10 -40,10 -40,20" fill="#e57373"/>
+    
+    <!-- Spiral going counter-clockwise -->
+    <path d="M 0,0 Q -30,-30 -60,0 Q -30,30 0,0 Q 20,-20 40,0 Q 20,20 0,0" 
+          stroke="#f44336" stroke-width="4" fill="none"/>
+    
+    <!-- Wrong/X mark -->
+    <line x1="-15" y1="-60" x2="15" y2="-30" stroke="#d32f2f" stroke-width="6"/>
+    <line x1="15" y1="-60" x2="-15" y2="-30" stroke="#d32f2f" stroke-width="6"/>
+  </g>
+  
+  <!-- Right side (opposite direction) -->
+  <g transform="translate(375,250)">
+    <!-- Arrow pointing right -->
+    <polygon points="80,0 40,-20 40,-10 -20,-10 -20,10 40,10 40,20" fill="#66bb6a"/>
+    
+    <!-- Spiral going clockwise -->
+    <path d="M 0,0 Q 30,-30 60,0 Q 30,30 0,0 Q -20,-20 -40,0 Q -20,20 0,0" 
+          stroke="#4caf50" stroke-width="4" fill="none"/>
+    
+    <!-- Correct/check mark -->
+    <path d="M -15,-50 L -5,-40 L 15,-60" stroke="#388e3c" stroke-width="6" 
+          fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Contradictory symbols -->
+  <!-- Top area - Day vs Night -->
+  <g transform="translate(250,120)">
+    <!-- Left: Sun -->
+    <circle cx="-60" cy="0" r="25" fill="#ffeb3b"/>
+    <g transform="translate(-60,0)">
+      <line x1="-35" y1="0" x2="-45" y2="0" stroke="#ffc107" stroke-width="3"/>
+      <line x1="35" y1="0" x2="45" y2="0" stroke="#ffc107" stroke-width="3"/>
+      <line x1="0" y1="-35" x2="0" y2="-45" stroke="#ffc107" stroke-width="3"/>
+      <line x1="0" y1="35" x2="0" y2="45" stroke="#ffc107" stroke-width="3"/>
+      <line x1="-25" y1="-25" x2="-32" y2="-32" stroke="#ffc107" stroke-width="3"/>
+      <line x1="25" y1="25" x2="32" y2="32" stroke="#ffc107" stroke-width="3"/>
+      <line x1="25" y1="-25" x2="32" y2="-32" stroke="#ffc107" stroke-width="3"/>
+      <line x1="-25" y1="25" x2="-32" y2="32" stroke="#ffc107" stroke-width="3"/>
+    </g>
+    
+    <!-- Right: Moon -->
+    <path d="M 35,-25 Q 85,-5 85,25 Q 85,35 60,25 Q 35,15 35,-25" fill="#9e9e9e"/>
+    <circle cx="50" cy="0" r="3" fill="#757575"/>
+    <circle cx="65" cy="-10" r="2" fill="#757575"/>
+    <circle cx="70" cy="10" r="1.5" fill="#757575"/>
+  </g>
+  
+  <!-- Bottom area - Hot vs Cold -->
+  <g transform="translate(250,380)">
+    <!-- Left: Fire -->
+    <path d="M -60,-20 Q -70,0 -60,20 Q -50,10 -50,0 Q -40,-10 -60,-20" fill="#f44336"/>
+    <path d="M -50,-15 Q -55,0 -50,15 Q -45,5 -45,-5 Q -40,-10 -50,-15" fill="#ff5722"/>
+    <path d="M -45,-10 Q -48,0 -45,10 Q -42,3 -42,-3 Q -40,-7 -45,-10" fill="#ff9800"/>
+    
+    <!-- Right: Ice crystal -->
+    <g transform="translate(60,0)">
+      <line x1="-20" y1="0" x2="20" y2="0" stroke="#03a9f4" stroke-width="3"/>
+      <line x1="0" y1="-20" x2="0" y2="20" stroke="#03a9f4" stroke-width="3"/>
+      <line x1="-14" y1="-14" x2="14" y2="14" stroke="#03a9f4" stroke-width="2"/>
+      <line x1="14" y1="-14" x2="-14" y2="14" stroke="#03a9f4" stroke-width="2"/>
+      <circle cx="0" cy="0" r="6" fill="#81d4fa"/>
+    </g>
+  </g>
+  
+  <!-- Confusion/conflict indicators -->
+  <g opacity="0.6">
+    <!-- Question marks -->
+    <text x="200" y="200" font-family="Arial" font-size="30" fill="#ff5722">?</text>
+    <text x="320" y="320" font-family="Arial" font-size="30" fill="#ff5722">?</text>
+    
+    <!-- Zigzag confusion lines -->
+    <path d="M 150,150 L 170,130 L 190,150 L 210,130 L 230,150" 
+          stroke="#e57373" stroke-width="3" fill="none"/>
+    <path d="M 270,350 L 290,330 L 310,350 L 330,330 L 350,350" 
+          stroke="#e57373" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Opposing forces visualization -->
+  <g transform="translate(250,250)">
+    <!-- Central conflict point -->
+    <circle cx="0" cy="0" r="15" fill="#ff5722"/>
+    <circle cx="0" cy="0" r="10" fill="#ff8a65"/>
+    
+    <!-- Tension lines -->
+    <line x1="-100" y1="-20" x2="-20" y2="-5" stroke="#e57373" stroke-width="2"/>
+    <line x1="100" y1="20" x2="20" y2="5" stroke="#66bb6a" stroke-width="2"/>
+    <line x1="-100" y1="20" x2="-20" y2="5" stroke="#e57373" stroke-width="2"/>
+    <line x1="100" y1="-20" x2="20" y2="-5" stroke="#66bb6a" stroke-width="2"/>
+  </g>
+</svg> 

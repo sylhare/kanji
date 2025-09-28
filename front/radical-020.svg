@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#fff8dc"/>
+  
+  <!-- Main gift wrapping -->
+  <rect x="200" y="200" width="100" height="100" fill="#FF6B6B"/>
+  <rect x="205" y="205" width="90" height="90" fill="#FF8E8E"/>
+  
+  <!-- Gift ribbon (horizontal) -->
+  <rect x="190" y="240" width="120" height="20" fill="#FFD700"/>
+  <rect x="192" y="242" width="116" height="16" fill="#FFA500"/>
+  
+  <!-- Gift ribbon (vertical) -->
+  <rect x="240" y="190" width="20" height="120" fill="#FFD700"/>
+  <rect x="242" y="192" width="16" height="116" fill="#FFA500"/>
+  
+  <!-- Gift bow -->
+  <ellipse cx="235" cy="215" rx="15" ry="8" fill="#FF6B35"/>
+  <ellipse cx="265" cy="215" rx="15" ry="8" fill="#FF6B35"/>
+  <circle cx="250" cy="215" r="8" fill="#FFD700"/>
+  <ellipse cx="250" cy="210" rx="6" ry="4" fill="#FFA500"/>
+  
+  <!-- Present wrapping process -->
+  <!-- Step 1: Unwrapped box -->
+  <rect x="50" y="50" width="60" height="40" fill="#8B4513"/>
+  <rect x="52" y="52" width="56" height="36" fill="#A0522D"/>
+  <text x="80" y="35" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Step 1</text>
+  
+  <!-- Step 2: Wrapping paper -->
+  <rect x="40" y="100" width="80" height="80" fill="#FFB6C1"/>
+  <rect x="42" y="102" width="76" height="76" fill="#FFC0CB"/>
+  <rect x="65" y="125" width="30" height="20" fill="#8B4513"/>
+  <text x="80" y="95" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Step 2</text>
+  
+  <!-- Step 3: Partially wrapped -->
+  <rect x="40" y="200" width="80" height="60" fill="#FFB6C1"/>
+  <rect x="65" y="210" width="30" height="20" fill="#8B4513"/>
+  <path d="M 40 230 Q 80 215 120 230" stroke="#FFC0CB" stroke-width="3" fill="none"/>
+  <text x="80" y="280" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Step 3</text>
+  
+  <!-- Bandage wrapping -->
+  <ellipse cx="400" cy="150" rx="40" ry="20" fill="#FDBCB4"/>
+  <ellipse cx="400" cy="145" rx="35" ry="15" fill="#F5B2A8"/>
+  
+  <!-- Bandage strips -->
+  <rect x="370" y="140" width="60" height="8" fill="#FFFFFF"/>
+  <rect x="370" y="150" width="60" height="8" fill="#F0F8FF"/>
+  <rect x="370" y="160" width="60" height="8" fill="#FFFFFF"/>
+  <rect x="372" y="142" width="56" height="4" fill="#E5E5E5"/>
+  <rect x="372" y="152" width="56" height="4" fill="#E5E5E5"/>
+  <rect x="372" y="162" width="56" height="4" fill="#E5E5E5"/>
+  
+  <!-- First aid cross -->
+  <rect x="385" y="125" width="30" height="6" fill="#FF0000"/>
+  <rect x="397" y="113" width="6" height="30" fill="#FF0000"/>
+  
+  <!-- Food wrapping -->
+  <ellipse cx="150" cy="400" rx="50" ry="25" fill="#DEB887"/>
+  <ellipse cx="150" cy="395" rx="45" ry="20" fill="#F5DEB3"/>
+  
+  <!-- Plastic wrap -->
+  <ellipse cx="150" cy="390" rx="55" ry="30" fill="none" stroke="#E6E6FA" stroke-width="2"/>
+  <ellipse cx="150" cy="385" rx="60" ry="35" fill="none" stroke="#F0F8FF" stroke-width="1"/>
+  
+  <!-- Cling wrap texture -->
+  <path d="M 120 380 Q 150 370 180 380" stroke="#E6E6FA" stroke-width="1" fill="none" opacity="0.7"/>
+  <path d="M 115 385 Q 150 375 185 385" stroke="#F0F8FF" stroke-width="1" fill="none" opacity="0.6"/>
+  
+  <!-- Package wrapping -->
+  <rect x="350" y="300" width="80" height="50" fill="#8B4513"/>
+  <rect x="352" y="302" width="76" height="46" fill="#A0522D"/>
+  
+  <!-- Brown paper wrapping -->
+  <rect x="340" y="290" width="100" height="70" fill="#DEB887"/>
+  <rect x="342" y="292" width="96" height="66" fill="#F5DEB3"/>
+  
+  <!-- Package tape -->
+  <rect x="340" y="315" width="100" height="8" fill="#8B4513"/>
+  <rect x="380" y="290" width="8" height="70" fill="#8B4513"/>
+  
+  <!-- Address label -->
+  <rect x="360" y="305" width="40" height="20" fill="#FFFFFF"/>
+  <rect x="362" y="307" width="36" height="16" fill="#F5F5F5"/>
+  <text x="380" y="318" text-anchor="middle" font-family="Arial" font-size="8" fill="#000">TO:</text>
+  
+  <!-- Mummy wrapping -->
+  <ellipse cx="250" cy="400" rx="25" ry="60" fill="#F5DEB3"/>
+  <ellipse cx="250" cy="395" rx="20" ry="55" fill="#FAEBD7"/>
+  
+  <!-- Mummy bandages -->
+  <rect x="230" y="360" width="40" height="6" fill="#F0F8FF"/>
+  <rect x="230" y="370" width="40" height="6" fill="#FFFFFF"/>
+  <rect x="230" y="380" width="40" height="6" fill="#F0F8FF"/>
+  <rect x="230" y="390" width="40" height="6" fill="#FFFFFF"/>
+  <rect x="230" y="400" width="40" height="6" fill="#F0F8FF"/>
+  <rect x="230" y="410" width="40" height="6" fill="#FFFFFF"/>
+  <rect x="230" y="420" width="40" height="6" fill="#F0F8FF"/>
+  <rect x="230" y="430" width="40" height="6" fill="#FFFFFF"/>
+  <rect x="230" y="440" width="40" height="6" fill="#F0F8FF"/>
+  
+  <!-- Mummy eyes -->
+  <circle cx="245" cy="350" r="3" fill="#000000"/>
+  <circle cx="255" cy="350" r="3" fill="#000000"/>
+  
+  <!-- Candy wrapper -->
+  <ellipse cx="450" cy="250" rx="25" ry="15" fill="#FF69B4"/>
+  <ellipse cx="450" cy="250" rx="20" ry="12" fill="#FFB6C1"/>
+  
+  <!-- Twisted wrapper ends -->
+  <path d="M 420 250 Q 415 245 420 240 Q 425 245 420 250" stroke="#FF69B4" stroke-width="3" fill="none"/>
+  <path d="M 480 250 Q 485 245 480 240 Q 475 245 480 250" stroke="#FF69B4" stroke-width="3" fill="none"/>
+  
+  <!-- Sushi wrapping (nori) -->
+  <rect x="350" y="50" width="60" height="40" fill="#2F4F4F"/>
+  <rect x="355" y="55" width="50" height="30" fill="#FFFFFF"/>
+  <rect x="360" y="60" width="40" height="20" fill="#FF6347"/>
+  
+  <!-- Sushi rice texture -->
+  <circle cx="365" cy="65" r="1" fill="#F5F5F5"/>
+  <circle cx="370" cy="68" r="1" fill="#F5F5F5"/>
+  <circle cx="375" cy="65" r="1" fill="#F5F5F5"/>
+  <circle cx="380" cy="67" r="1" fill="#F5F5F5"/>
+  <circle cx="385" cy="65" r="1" fill="#F5F5F5"/>
+  <circle cx="390" cy="68" r="1" fill="#F5F5F5"/>
+  <circle cx="395" cy="66" r="1" fill="#F5F5F5"/>
+  
+  <!-- Fabric wrapping (furoshiki) -->
+  <polygon points="50,300 150,320 130,380 70,360" fill="#4169E1"/>
+  <polygon points="55,305 145,325 125,375 75,355" fill="#6495ED"/>
+  
+  <!-- Knot in fabric -->
+  <circle cx="100" cy="340" r="8" fill="#4169E1"/>
+  <circle cx="100" cy="340" r="5" fill="#6495ED"/>
+  
+  <!-- Gift inside fabric -->
+  <ellipse cx="100" cy="350" rx="15" ry="10" fill="#FFD700"/>
+  
+  <!-- Traditional wrapping symbol -->
+  <circle cx="50" cy="50" r="25" fill="none" stroke="#FF69B4" stroke-width="3"/>
+  <rect x="35" y="40" width="30" height="20" fill="#FFB6C1"/>
+  <rect x="45" y="30" width="10" height="40" fill="#FF69B4"/>
+  <circle cx="50" cy="35" r="5" fill="#FF6B35"/>
+</svg> 

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#fffde7"/>
+  
+  <!-- Central yellow sun -->
+  <circle cx="250" cy="250" r="70" fill="#ffeb3b"/>
+  <circle cx="250" cy="250" r="50" fill="#ffc107"/>
+  <circle cx="250" cy="250" r="30" fill="#ff8f00"/>
+  
+  <!-- Sun rays -->
+  <g stroke="#ffeb3b" stroke-width="6" stroke-linecap="round">
+    <line x1="250" y1="120" x2="250" y2="80"/>
+    <line x1="320" y1="150" x2="350" y2="120"/>
+    <line x1="380" y1="250" x2="420" y2="250"/>
+    <line x1="350" y1="350" x2="380" y2="380"/>
+    <line x1="250" y1="380" x2="250" y2="420"/>
+    <line x1="150" y1="350" x2="120" y2="380"/>
+    <line x1="120" y1="250" x2="80" y2="250"/>
+    <line x1="150" y1="150" x2="120" y2="120"/>
+  </g>
+  
+  <!-- Yellow sunflower -->
+  <g transform="translate(100,400)">
+    <!-- Petals -->
+    <ellipse cx="0" cy="-20" rx="6" ry="15" fill="#ffeb3b"/>
+    <ellipse cx="14" cy="-14" rx="6" ry="15" fill="#ffeb3b" transform="rotate(45)"/>
+    <ellipse cx="20" cy="0" rx="6" ry="15" fill="#ffeb3b" transform="rotate(90)"/>
+    <ellipse cx="14" cy="14" rx="6" ry="15" fill="#ffeb3b" transform="rotate(135)"/>
+    <ellipse cx="0" cy="20" rx="6" ry="15" fill="#ffeb3b" transform="rotate(180)"/>
+    <ellipse cx="-14" cy="14" rx="6" ry="15" fill="#ffeb3b" transform="rotate(225)"/>
+    <ellipse cx="-20" cy="0" rx="6" ry="15" fill="#ffeb3b" transform="rotate(270)"/>
+    <ellipse cx="-14" cy="-14" rx="6" ry="15" fill="#ffeb3b" transform="rotate(315)"/>
+    
+    <!-- Center -->
+    <circle cx="0" cy="0" r="8" fill="#8d6e63"/>
+    
+    <!-- Stem -->
+    <rect x="-2" y="20" width="4" height="30" fill="#4caf50"/>
+  </g>
+  
+  <!-- Yellow banana -->
+  <g transform="translate(400,100)">
+    <path d="M 0,0 Q 15,-10 25,0 Q 30,10 25,20 Q 15,25 0,20 Q -5,10 0,0" fill="#ffeb3b"/>
+    <path d="M 2,2 Q 13,-6 21,2 Q 25,8 21,16 Q 13,20 2,16 Q -2,8 2,2" fill="#ffc107"/>
+  </g>
+  
+  <!-- Yellow cheese -->
+  <g transform="translate(100,100)">
+    <polygon points="0,0 30,0 25,20 5,20" fill="#ffc107"/>
+    <polygon points="2,2 28,2 23,18 7,18" fill="#ffeb3b"/>
+    
+    <!-- Cheese holes -->
+    <circle cx="12" cy="8" r="2" fill="#ff8f00"/>
+    <circle cx="20" cy="12" r="1.5" fill="#ff8f00"/>
+    <circle cx="8" cy="14" r="1" fill="#ff8f00"/>
+  </g>
+  
+  <!-- Yellow lemon -->
+  <g transform="translate(400,400)">
+    <ellipse cx="0" cy="0" rx="12" ry="18" fill="#ffeb3b"/>
+    <ellipse cx="0" cy="0" rx="8" ry="14" fill="#ffc107"/>
+    
+    <!-- Lemon texture -->
+    <circle cx="-3" cy="-5" r="1" fill="#ff8f00" opacity="0.5"/>
+    <circle cx="3" cy="0" r="1" fill="#ff8f00" opacity="0.5"/>
+    <circle cx="-2" cy="8" r="1" fill="#ff8f00" opacity="0.5"/>
+  </g>
+  
+  <!-- Golden coins -->
+  <g transform="translate(350,350)">
+    <circle cx="0" cy="0" r="12" fill="#ffd700"/>
+    <circle cx="0" cy="0" r="8" fill="#ffeb3b"/>
+    <text x="0" y="3" text-anchor="middle" font-family="Arial" font-size="8" fill="#ff8f00">¥</text>
+    
+    <circle cx="20" cy="5" r="10" fill="#ffd700"/>
+    <circle cx="20" cy="5" r="6" fill="#ffeb3b"/>
+    <text x="20" y="8" text-anchor="middle" font-family="Arial" font-size="6" fill="#ff8f00">¥</text>
+  </g>
+  
+  <!-- Yellow flower -->
+  <g transform="translate(150,150)">
+    <circle cx="0" cy="0" r="8" fill="#ffeb3b"/>
+    <circle cx="0" cy="0" r="5" fill="#ffc107"/>
+    <circle cx="0" cy="0" r="2" fill="#ff8f00"/>
+  </g>
+  
+  <!-- Yellow butterfly -->
+  <g transform="translate(350,200)">
+    <ellipse cx="-6" cy="0" rx="8" ry="5" fill="#ffeb3b"/>
+    <ellipse cx="6" cy="0" rx="8" ry="5" fill="#ffeb3b"/>
+    <rect x="-1" y="-8" width="2" height="16" fill="#333"/>
+    <line x1="-2" y1="-8" x2="-4" y2="-12" stroke="#333" stroke-width="1"/>
+    <line x1="2" y1="-8" x2="4" y2="-12" stroke="#333" stroke-width="1"/>
+  </g>
+  
+  <!-- Yellow corn -->
+  <g transform="translate(50,300)">
+    <ellipse cx="0" cy="0" rx="8" ry="20" fill="#ffeb3b"/>
+    <ellipse cx="0" cy="0" rx="5" ry="16" fill="#ffc107"/>
+    
+    <!-- Corn kernels -->
+    <circle cx="-2" cy="-10" r="1" fill="#ff8f00"/>
+    <circle cx="2" cy="-8" r="1" fill="#ff8f00"/>
+    <circle cx="-2" cy="-5" r="1" fill="#ff8f00"/>
+    <circle cx="2" cy="-3" r="1" fill="#ff8f00"/>
+    <circle cx="-2" cy="0" r="1" fill="#ff8f00"/>
+    <circle cx="2" cy="2" r="1" fill="#ff8f00"/>
+    <circle cx="-2" cy="5" r="1" fill="#ff8f00"/>
+    <circle cx="2" cy="7" r="1" fill="#ff8f00"/>
+    
+    <!-- Corn husk -->
+    <ellipse cx="-8" cy="-15" rx="3" ry="8" fill="#4caf50" transform="rotate(-30)"/>
+    <ellipse cx="8" cy="-15" rx="3" ry="8" fill="#4caf50" transform="rotate(30)"/>
+  </g>
+  
+  <!-- Golden honey -->
+  <g transform="translate(450,300)">
+    <ellipse cx="0" cy="0" rx="8" ry="12" fill="#ffc107"/>
+    <ellipse cx="0" cy="0" rx="5" ry="8" fill="#ffeb3b"/>
+    
+    <!-- Honey drip -->
+    <path d="M 0,12 Q -2,18 0,22 Q 2,18 0,12" fill="#ff8f00"/>
+  </g>
+  
+  <!-- Text label -->
+  <text x="250" y="480" text-anchor="middle" font-family="Arial" font-size="20" fill="#ff8f00">YELLOW</text>
+</svg> 

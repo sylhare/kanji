@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#fafafa"/>
+  
+  <!-- Central official seal -->
+  <g transform="translate(250,200)">
+    <!-- Seal stamp -->
+    <rect x="-25" y="-15" width="50" height="30" fill="#d32f2f"/>
+    <rect x="-22" y="-12" width="44" height="24" fill="#f44336"/>
+    
+    <!-- Seal handle -->
+    <rect x="-15" y="-30" width="30" height="15" fill="#8d6e63"/>
+    <rect x="-12" y="-27" width="24" height="9" fill="#a1887f"/>
+    
+    <!-- Handle grip -->
+    <ellipse cx="0" cy="-37" rx="10" ry="5" fill="#6d4c41"/>
+    <ellipse cx="0" cy="-38" rx="8" ry="3" fill="#8d6e63"/>
+    
+    <!-- Carved characters on seal -->
+    <g fill="#ffffff" font-family="serif" font-size="12">
+      <text x="0" y="-5" text-anchor="middle">官</text>
+      <text x="0" y="8" text-anchor="middle">印</text>
+    </g>
+    
+    <!-- Seal border -->
+    <rect x="-25" y="-15" width="50" height="30" fill="none" stroke="#b71c1c" stroke-width="2"/>
+    
+    <!-- Official ribbons -->
+    <g stroke="#ffeb3b" stroke-width="3">
+      <line x1="-25" y1="0" x2="-35" y2="5"/>
+      <line x1="25" y1="0" x2="35" y2="5"/>
+    </g>
+    
+    <!-- Ribbon ends -->
+    <polygon points="-35,5 -40,0 -40,10" fill="#ffc107"/>
+    <polygon points="35,5 40,0 40,10" fill="#ffc107"/>
+  </g>
+  
+  <!-- Seal impression -->
+  <g transform="translate(150,350)">
+    <!-- Paper -->
+    <rect x="0" y="0" width="100" height="80" fill="#ffffff"/>
+    <rect x="3" y="3" width="94" height="74" fill="#fafafa"/>
+    
+    <!-- Red seal mark -->
+    <rect x="20" y="20" width="30" height="18" fill="#f44336"/>
+    <rect x="22" y="22" width="26" height="14" fill="#d32f2f"/>
+    
+    <!-- Seal characters -->
+    <g fill="#ffffff" font-family="serif" font-size="8">
+      <text x="35" y="30" text-anchor="middle">官</text>
+      <text x="35" y="37" text-anchor="middle">印</text>
+    </g>
+    
+    <!-- Document text -->
+    <g stroke="#333" stroke-width="0.5">
+      <line x1="10" y1="50" x2="90" y2="50"/>
+      <line x1="10" y1="55" x2="85" y2="55"/>
+      <line x1="10" y1="60" x2="88" y2="60"/>
+      <line x1="10" y1="65" x2="82" y2="65"/>
+    </g>
+    
+    <!-- Official document label -->
+    <text x="50" y="95" text-anchor="middle" font-family="serif" font-size="8" fill="#333">公文書</text>
+  </g>
+  
+  <!-- Official stamping scene -->
+  <g transform="translate(120,150)">
+    <!-- Official/clerk -->
+    <circle cx="0" cy="-20" r="12" fill="#ffdbcb"/>
+    <rect x="-10" y="-8" width="20" height="25" fill="#1976d2"/>
+    <rect x="-8" y="17" width="16" height="20" fill="#0d47a1"/>
+    
+    <!-- Official hat -->
+    <rect x="-12" y="-25" width="24" height="8" fill="#424242"/>
+    <rect x="-10" y="-23" width="20" height="4" fill="#616161"/>
+    
+    <!-- Holding seal -->
+    <g transform="translate(15,-5)">
+      <rect x="-3" y="-8" width="6" height="16" fill="#8d6e63"/>
+      <rect x="-5" y="-12" width="10" height="8" fill="#d32f2f"/>
+      <text x="0" y="-7" text-anchor="middle" font-family="serif" font-size="4" fill="#fff">印</text>
+    </g>
+    
+    <!-- Motion lines -->
+    <g stroke="#ffeb3b" stroke-width="2" fill="none" opacity="0.7">
+      <path d="M 18,-8 Q 22,-12 18,-16"/>
+      <path d="M 20,-5 Q 24,-9 20,-13"/>
+    </g>
+  </g>
+  
+  <!-- Government building -->
+  <g transform="translate(400,300)">
+    <!-- Building base -->
+    <rect x="-40" y="20" width="80" height="40" fill="#90a4ae"/>
+    <rect x="-35" y="25" width="70" height="30" fill="#b0bec5"/>
+    
+    <!-- Columns -->
+    <rect x="-30" y="0" width="6" height="20" fill="#e0e0e0"/>
+    <rect x="-15" y="0" width="6" height="20" fill="#e0e0e0"/>
+    <rect x="0" y="0" width="6" height="20" fill="#e0e0e0"/>
+    <rect x="15" y="0" width="6" height="20" fill="#e0e0e0"/>
+    <rect x="30" y="0" width="6" height="20" fill="#e0e0e0"/>
+    
+    <!-- Roof -->
+    <polygon points="-50,0 0,-20 50,0" fill="#757575"/>
+    <polygon points="-45,2 0,-15 45,2" fill="#9e9e9e"/>
+    
+    <!-- Government seal above entrance -->
+    <g transform="translate(0,30)">
+      <circle cx="0" cy="0" r="8" fill="#f44336"/>
+      <circle cx="0" cy="0" r="6" fill="#d32f2f"/>
+      <text x="0" y="2" text-anchor="middle" font-family="serif" font-size="6" fill="#fff">官</text>
+    </g>
+    
+    <!-- Steps -->
+    <rect x="-25" y="60" width="50" height="6" fill="#9e9e9e"/>
+    <rect x="-20" y="66" width="40" height="6" fill="#9e9e9e"/>
+    <rect x="-15" y="72" width="30" height="6" fill="#9e9e9e"/>
+  </g>
+  
+  <!-- Different types of seals -->
+  <!-- Personal seal -->
+  <g transform="translate(80,300)">
+    <rect x="0" y="0" width="15" height="20" fill="#795548"/>
+    <rect x="2" y="2" width="11" height="16" fill="#8d6e63"/>
+    
+    <!-- Handle -->
+    <ellipse cx="7.5" cy="-5" rx="6" ry="3" fill="#6d4c41"/>
+    
+    <!-- Carved name -->
+    <rect x="3" y="15" width="9" height="3" fill="#f44336"/>
+    <text x="7.5" y="17" text-anchor="middle" font-family="serif" font-size="3" fill="#fff">田中</text>
+    
+    <text x="7.5" y="35" text-anchor="middle" font-family="serif" font-size="8" fill="#333">個人印</text>
+  </g>
+  
+  <!-- Company seal -->
+  <g transform="translate(200,450)">
+    <rect x="0" y="0" width="20" height="25" fill="#1976d2"/>
+    <rect x="2" y="2" width="16" height="21" fill="#2196f3"/>
+    
+    <!-- Handle -->
+    <ellipse cx="10" cy="-6" rx="8" ry="4" fill="#0d47a1"/>
+    
+    <!-- Company mark -->
+    <circle cx="10" cy="12" r="6" fill="#ffffff"/>
+    <text x="10" y="15" text-anchor="middle" font-family="serif" font-size="4" fill="#333">会社</text>
+    
+    <text x="10" y="40" text-anchor="middle" font-family="serif" font-size="8" fill="#333">法人印</text>
+  </g>
+  
+  <!-- Imperial seal -->
+  <g transform="translate(350,150)">
+    <rect x="0" y="0" width="25" height="30" fill="#ffeb3b"/>
+    <rect x="2" y="2" width="21" height="26" fill="#ffc107"/>
+    
+    <!-- Ornate handle -->
+    <ellipse cx="12.5" cy="-8" rx="10" ry="6" fill="#ff8f00"/>
+    <ellipse cx="12.5" cy="-10" rx="8" ry="4" fill="#ffb300"/>
+    
+    <!-- Dragon decoration -->
+    <g stroke="#ff6f00" stroke-width="1" fill="none">
+      <path d="M 5,-5 Q 12.5,-15 20,-5"/>
+    </g>
+    
+    <!-- Imperial characters -->
+    <g fill="#d84315" font-family="serif" font-size="6">
+      <text x="12.5" y="10" text-anchor="middle">天</text>
+      <text x="12.5" y="18" text-anchor="middle">皇</text>
+      <text x="12.5" y="26" text-anchor="middle">印</text>
+    </g>
+    
+    <text x="12.5" y="45" text-anchor="middle" font-family="serif" font-size="8" fill="#333">皇室印</text>
+  </g>
+  
+  <!-- Seal workshop -->
+  <g transform="translate(450,450)">
+    <!-- Craftsman -->
+    <circle cx="0" cy="-15" r="8" fill="#ffdbcb"/>
+    <rect x="-6" y="-7" width="12" height="18" fill="#795548"/>
+    <rect x="-5" y="11" width="10" height="15" fill="#5d4037"/>
+    
+    <!-- Workbench -->
+    <rect x="-20" y="25" width="40" height="8" fill="#8d6e63"/>
+    <rect x="-18" y="27" width="36" height="4" fill="#a1887f"/>
+    
+    <!-- Seal being carved -->
+    <rect x="-5" y="20" width="10" height="12" fill="#d32f2f"/>
+    <rect x="-3" y="22" width="6" height="8" fill="#f44336"/>
+    
+    <!-- Carving tools -->
+    <rect x="10" y="18" width="1" height="8" fill="#424242"/>
+    <rect x="12" y="20" width="1" height="6" fill="#424242"/>
+    
+    <!-- Stone chips -->
+    <circle cx="-8" cy="32" r="0.8" fill="#d32f2f"/>
+    <circle cx="15" cy="30" r="0.6" fill="#d32f2f"/>
+  </g>
+  
+  <!-- Ink pad -->
+  <g transform="translate(300,350)">
+    <!-- Ink pad case -->
+    <ellipse cx="0" cy="0" rx="25" ry="15" fill="#424242"/>
+    <ellipse cx="0" cy="-3" rx="22" ry="12" fill="#616161"/>
+    
+    <!-- Red ink -->
+    <ellipse cx="0" cy="-3" rx="18" ry="9" fill="#f44336"/>
+    <ellipse cx="0" cy="-5" rx="15" ry="7" fill="#d32f2f"/>
+    
+    <!-- Ink pad texture -->
+    <g stroke="#b71c1c" stroke-width="0.5" opacity="0.5">
+      <line x1="-10" y1="-5" x2="10" y2="-5"/>
+      <line x1="-12" y1="0" x2="12" y2="0"/>
+      <line x1="-8" y1="3" x2="8" y2="3"/>
+    </g>
+    
+    <!-- Case lid -->
+    <g transform="translate(30,5)">
+      <ellipse cx="0" cy="0" rx="25" ry="15" fill="#757575"/>
+      <ellipse cx="0" cy="0" rx="22" ry="12" fill="#9e9e9e"/>
+    </g>
+  </g>
+  
+  <!-- Administrative hierarchy -->
+  <g transform="translate(50,100)">
+    <!-- Top official -->
+    <g transform="translate(50,0)">
+      <circle cx="0" cy="-10" r="6" fill="#ffdbcb"/>
+      <rect x="-4" y="-4" width="8" height="12" fill="#9c27b0"/>
+      <rect x="-3" y="8" width="6" height="10" fill="#6a1b9a"/>
+      
+      <!-- Gold seal -->
+      <rect x="-2" y="-15" width="4" height="5" fill="#ffeb3b"/>
+      <text x="0" y="-12" text-anchor="middle" font-family="serif" font-size="2" fill="#333">金</text>
+    </g>
+    
+    <!-- Middle officials -->
+    <g transform="translate(20,25)">
+      <circle cx="0" cy="-8" r="5" fill="#ffdbcb"/>
+      <rect x="-3" y="-3" width="6" height="10" fill="#1976d2"/>
+      <rect x="-2" y="7" width="4" height="8" fill="#0d47a1"/>
+      
+      <!-- Silver seal -->
+      <rect x="-1.5" y="-12" width="3" height="4" fill="#e0e0e0"/>
+      <text x="0" y="-9" text-anchor="middle" font-family="serif" font-size="1.5" fill="#333">銀</text>
+    </g>
+    
+    <g transform="translate(80,25)">
+      <circle cx="0" cy="-8" r="5" fill="#ffdbcb"/>
+      <rect x="-3" y="-3" width="6" height="10" fill="#388e3c"/>
+      <rect x="-2" y="7" width="4" height="8" fill="#2e7d32"/>
+      
+      <!-- Silver seal -->
+      <rect x="-1.5" y="-12" width="3" height="4" fill="#e0e0e0"/>
+      <text x="0" y="-9" text-anchor="middle" font-family="serif" font-size="1.5" fill="#333">銀</text>
+    </g>
+    
+    <!-- Lower officials -->
+    <g transform="translate(5,50)">
+      <circle cx="0" cy="-6" r="4" fill="#ffdbcb"/>
+      <rect x="-2" y="-2" width="4" height="8" fill="#ff5722"/>
+      <rect x="-1.5" y="6" width="3" height="6" fill="#d84315"/>
+      
+      <!-- Bronze seal -->
+      <rect x="-1" y="-9" width="2" height="3" fill="#8d6e63"/>
+    </g>
+    
+    <g transform="translate(50,50)">
+      <circle cx="0" cy="-6" r="4" fill="#ffdbcb"/>
+      <rect x="-2" y="-2" width="4" height="8" fill="#ff9800"/>
+      <rect x="-1.5" y="6" width="3" height="6" fill="#ef6c00"/>
+      
+      <!-- Bronze seal -->
+      <rect x="-1" y="-9" width="2" height="3" fill="#8d6e63"/>
+    </g>
+    
+    <g transform="translate(95,50)">
+      <circle cx="0" cy="-6" r="4" fill="#ffdbcb"/>
+      <rect x="-2" y="-2" width="4" height="8" fill="#607d8b"/>
+      <rect x="-1.5" y="6" width="3" height="6" fill="#455a64"/>
+      
+      <!-- Bronze seal -->
+      <rect x="-1" y="-9" width="2" height="3" fill="#8d6e63"/>
+    </g>
+    
+    <!-- Hierarchy lines -->
+    <g stroke="#666" stroke-width="1">
+      <line x1="50" y1="10" x2="20" y2="20"/>
+      <line x1="50" y1="10" x2="80" y2="20"/>
+      <line x1="20" y1="35" x2="5" y2="45"/>
+      <line x1="20" y1="35" x2="50" y2="45"/>
+      <line x1="80" y1="35" x2="95" y2="45"/>
+    </g>
+    
+    <text x="50" y="75" text-anchor="middle" font-family="serif" font-size="8" fill="#333">官僚制度</text>
+  </g>
+  
+  <!-- Authentication process -->
+  <g transform="translate(250,450)">
+    <!-- Document flow -->
+    <rect x="0" y="0" width="20" height="15" fill="#ffffff"/>
+    <rect x="1" y="1" width="18" height="13" fill="#fafafa"/>
+    <text x="10" y="9" text-anchor="middle" font-family="serif" font-size="4" fill="#333">申請</text>
+    
+    <!-- Arrow -->
+    <polygon points="25,7.5 35,7.5 30,12.5 30,2.5" fill="#666"/>
+    
+    <!-- Seal application -->
+    <rect x="40" y="3" width="8" height="5" fill="#f44336"/>
+    <text x="44" y="6" text-anchor="middle" font-family="serif" font-size="2" fill="#fff">印</text>
+    
+    <!-- Arrow -->
+    <polygon points="55,7.5 65,7.5 60,12.5 60,2.5" fill="#666"/>
+    
+    <!-- Approved document -->
+    <rect x="70" y="0" width="20" height="15" fill="#ffffff"/>
+    <rect x="71" y="1" width="18" height="13" fill="#fafafa"/>
+    <rect x="75" y="8" width="6" height="4" fill="#f44336"/>
+    <text x="80" y="6" text-anchor="middle" font-family="serif" font-size="4" fill="#333">承認</text>
+    
+    <text x="45" y="25" text-anchor="middle" font-family="serif" font-size="8" fill="#333">認証プロセス</text>
+  </g>
+</svg> 

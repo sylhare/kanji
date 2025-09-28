@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#f8f8ff"/>
+  
+  <!-- Main gift box -->
+  <rect x="200" y="200" width="100" height="100" fill="#FF6B6B"/>
+  <rect x="205" y="205" width="90" height="90" fill="#FF8E8E"/>
+  
+  <!-- Gift box ribbon -->
+  <rect x="240" y="190" width="20" height="120" fill="#FFD700"/>
+  <rect x="190" y="240" width="120" height="20" fill="#FFD700"/>
+  
+  <!-- Gift bow -->
+  <ellipse cx="230" cy="210" rx="15" ry="8" fill="#FFA500"/>
+  <ellipse cx="270" cy="210" rx="15" ry="8" fill="#FFA500"/>
+  <circle cx="250" cy="210" r="8" fill="#FF6B35"/>
+  
+  <!-- Small jewelry box -->
+  <rect x="80" y="150" width="60" height="40" fill="#8B008B"/>
+  <rect x="82" y="152" width="56" height="36" fill="#9932CC"/>
+  <ellipse cx="110" cy="145" rx="25" ry="8" fill="#DDA0DD"/>
+  
+  <!-- Jewelry box clasp -->
+  <rect x="105" y="165" width="10" height="6" fill="#FFD700"/>
+  <circle cx="110" cy="168" r="2" fill="#FFA500"/>
+  
+  <!-- Treasure chest -->
+  <rect x="350" y="300" width="120" height="80" fill="#8B4513"/>
+  <rect x="355" y="305" width="110" height="70" fill="#A0522D"/>
+  <path d="M 355 305 Q 410 280 465 305 L 465 375 L 355 375 Z" fill="#CD853F"/>
+  
+  <!-- Chest hardware -->
+  <rect x="400" y="340" width="20" height="12" fill="#FFD700"/>
+  <circle cx="410" cy="346" r="4" fill="#FFA500"/>
+  
+  <!-- Chest chains -->
+  <ellipse cx="370" cy="350" rx="6" ry="10" fill="none" stroke="#C0C0C0" stroke-width="3"/>
+  <ellipse cx="450" cy="350" rx="6" ry="10" fill="none" stroke="#C0C0C0" stroke-width="3"/>
+  
+  <!-- Toolbox -->
+  <rect x="50" y="300" width="100" height="60" fill="#696969"/>
+  <rect x="52" y="302" width="96" height="56" fill="#778899"/>
+  
+  <!-- Toolbox handle -->
+  <ellipse cx="100" cy="290" rx="20" ry="6" fill="none" stroke="#2F4F4F" stroke-width="4"/>
+  
+  <!-- Toolbox compartments -->
+  <rect x="60" y="315" width="15" height="30" fill="#4682B4"/>
+  <rect x="85" y="315" width="15" height="30" fill="#4682B4"/>
+  <rect x="110" y="315" width="15" height="30" fill="#4682B4"/>
+  <rect x="135" y="315" width="10" height="30" fill="#4682B4"/>
+  
+  <!-- Music box -->
+  <rect x="320" y="120" width="80" height="60" fill="#FFB6C1"/>
+  <rect x="322" y="122" width="76" height="56" fill="#FFC0CB"/>
+  <ellipse cx="360" cy="115" rx="35" ry="10" fill="#FF69B4"/>
+  
+  <!-- Music box ballerina -->
+  <circle cx="360" cy="140" r="8" fill="#FDBCB4"/>
+  <ellipse cx="360" cy="155" rx="6" ry="12" fill="#FF69B4"/>
+  
+  <!-- Pizza box -->
+  <rect x="150" y="350" width="120" height="120" fill="#DEB887"/>
+  <rect x="155" y="355" width="110" height="110" fill="#F5DEB3"/>
+  
+  <!-- Pizza box text -->
+  <circle cx="210" cy="410" r="35" fill="#FF6347"/>
+  <circle cx="210" cy="410" r="30" fill="#FFB347"/>
+  <circle cx="195" cy="400" r="4" fill="#8B0000"/>
+  <circle cx="210" cy="395" r="3" fill="#32CD32"/>
+  <circle cx="225" cy="405" r="3" fill="#FFFF00"/>
+  
+  <!-- Cardboard boxes -->
+  <rect x="400" y="50" width="60" height="80" fill="#DDD"/>
+  <rect x="402" y="52" width="56" height="76" fill="#E5E5E5"/>
+  <rect x="405" y="100" width="50" height="4" fill="#8B4513"/>
+  
+  <rect x="320" y="60" width="50" height="60" fill="#DDD"/>
+  <rect x="322" y="62" width="46" height="56" fill="#E5E5E5"/>
+  <rect x="325" y="95" width="40" height="3" fill="#8B4513"/>
+  
+  <!-- Decorative box with pattern -->
+  <rect x="50" y="50" width="80" height="60" fill="#4169E1"/>
+  <rect x="52" y="52" width="76" height="56" fill="#6495ED"/>
+  
+  <!-- Box pattern -->
+  <circle cx="70" cy="70" r="6" fill="#FFFFFF"/>
+  <circle cx="90" cy="70" r="6" fill="#FFFFFF"/>
+  <circle cx="110" cy="70" r="6" fill="#FFFFFF"/>
+  <circle cx="70" cy="90" r="6" fill="#FFFFFF"/>
+  <circle cx="90" cy="90" r="6" fill="#FFFFFF"/>
+  <circle cx="110" cy="90" r="6" fill="#FFFFFF"/>
+  
+  <!-- Safe box -->
+  <rect x="420" y="180" width="70" height="90" fill="#2F4F4F"/>
+  <rect x="422" y="182" width="66" height="86" fill="#708090"/>
+  
+  <!-- Safe dial -->
+  <circle cx="455" cy="225" r="15" fill="#000000"/>
+  <circle cx="455" cy="225" r="12" fill="#C0C0C0"/>
+  <circle cx="455" cy="225" r="8" fill="#E5E5E5"/>
+  <rect x="453" y="215" width="4" height="10" fill="#FF0000"/>
+  
+  <!-- Box stacks -->
+  <rect x="250" y="80" width="40" height="30" fill="#DDD"/>
+  <rect x="250" y="50" width="40" height="30" fill="#E5E5E5"/>
+  <rect x="250" y="20" width="40" height="30" fill="#DDD"/>
+  
+  <!-- Traditional box symbol -->
+  <circle cx="450" cy="450" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <rect x="435" y="440" width="30" height="20" fill="none" stroke="#8B0000" stroke-width="2"/>
+  <line x1="440" y1="445" x2="460" y2="445" stroke="#8B0000" stroke-width="2"/>
+  <line x1="450" y1="435" x2="450" y2="455" stroke="#8B0000" stroke-width="2"/>
+</svg> 

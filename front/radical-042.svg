@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#fffacd"/>
+  
+  <!-- Tiny house -->
+  <rect x="200" y="300" width="40" height="40" fill="#8B4513"/>
+  <rect x="202" y="302" width="36" height="36" fill="#A0522D"/>
+  <polygon points="200,300 220,280 240,300" fill="#DC143C"/>
+  
+  <!-- Tiny windows -->
+  <rect x="205" y="310" width="8" height="10" fill="#87CEEB"/>
+  <rect x="227" y="310" width="8" height="10" fill="#87CEEB"/>
+  
+  <!-- Tiny door -->
+  <rect x="215" y="325" width="8" height="15" fill="#654321"/>
+  <circle cx="218" cy="332" r="1" fill="#FFD700"/>
+  
+  <!-- Large house for comparison -->
+  <rect x="50" y="150" width="120" height="120" fill="#8B4513"/>
+  <rect x="55" y="155" width="110" height="110" fill="#A0522D"/>
+  <polygon points="50,150 110,80 170,150" fill="#DC143C"/>
+  
+  <!-- Large windows -->
+  <rect x="70" y="180" width="25" height="30" fill="#87CEEB"/>
+  <rect x="125" y="180" width="25" height="30" fill="#87CEEB"/>
+  
+  <!-- Large door -->
+  <rect x="100" y="230" width="20" height="40" fill="#654321"/>
+  
+  <!-- Size comparison -->
+  <text x="110" y="300" text-anchor="middle" font-family="Arial Black" font-size="20" fill="#FF0000">BIG</text>
+  <text x="220" y="370" text-anchor="middle" font-family="Arial" font-size="12" fill="#0000FF">tiny</text>
+  
+  <!-- Miniature garden -->
+  <circle cx="300" cy="200" r="3" fill="#228B22"/>
+  <circle cx="310" cy="205" r="2" fill="#32CD32"/>
+  <circle cx="320" cy="200" r="3" fill="#7FFF00"/>
+  <rect x="314" y="207" width="2" height="8" fill="#8B4513"/>
+  <rect x="304" y="202" width="1" height="6" fill="#8B4513"/>
+  <rect x="324" y="203" width="2" height="7" fill="#8B4513"/>
+  
+  <!-- Small insects -->
+  <circle cx="350" cy="180" r="2" fill="#000000"/>
+  <ellipse cx="348" cy="180" rx="4" ry="1" fill="#FFD700"/>
+  <ellipse cx="352" cy="180" rx="4" ry="1" fill="#FFD700"/>
+  
+  <circle cx="380" cy="220" r="1" fill="#8B0000"/>
+  <ellipse cx="378" cy="220" rx="3" ry="1" fill="#000000"/>
+  <ellipse cx="382" cy="220" rx="3" ry="1" fill="#000000"/>
+  
+  <!-- Tiny tools -->
+  <rect x="400" y="300" width="2" height="15" fill="#C0C0C0"/>
+  <ellipse cx="401" cy="297" rx="3" ry="2" fill="#E5E5E5"/>
+  
+  <rect x="410" y="310" width="1" height="10" fill="#8B4513"/>
+  <polygon points="410,310 412,308 412,310" fill="#C0C0C0"/>
+  
+  <!-- Small toys -->
+  <rect x="250" y="400" width="8" height="8" fill="#FF6B6B"/>
+  <rect x="252" y="402" width="4" height="4" fill="#FF8E8E"/>
+  
+  <circle cx="270" cy="404" r="4" fill="#4ECDC4"/>
+  <circle cx="270" cy="404" r="2" fill="#7FDEDB"/>
+  
+  <!-- Miniature furniture -->
+  <rect x="330" y="380" width="12" height="8" fill="#8B4513"/>
+  <rect x="328" y="388" width="2" height="6" fill="#654321"/>
+  <rect x="332" y="388" width="2" height="6" fill="#654321"/>
+  <rect x="338" y="388" width="2" height="6" fill="#654321"/>
+  <rect x="342" y="388" width="2" height="6" fill="#654321"/>
+  
+  <!-- Small chair -->
+  <rect x="350" y="385" width="6" height="6" fill="#8B4513"/>
+  <rect x="349" y="391" width="2" height="4" fill="#654321"/>
+  <rect x="355" y="391" width="2" height="4" fill="#654321"/>
+  <rect x="349" y="380" width="2" height="8" fill="#654321"/>
+  <rect x="355" y="380" width="2" height="8" fill="#654321"/>
+  
+  <!-- Microscopic view -->
+  <circle cx="120" cy="400" r="40" fill="none" stroke="#FFD700" stroke-width="4"/>
+  <circle cx="120" cy="400" r="30" fill="none" stroke="#FFA500" stroke-width="2"/>
+  
+  <!-- Tiny particles in microscope -->
+  <circle cx="115" cy="395" r="1" fill="#FF0000"/>
+  <circle cx="125" cy="405" r="1" fill="#0000FF"/>
+  <circle cx="120" cy="400" r="1" fill="#00FF00"/>
+  <circle cx="110" cy="410" r="1" fill="#FF00FF"/>
+  <circle cx="130" cy="390" r="1" fill="#FFFF00"/>
+  
+  <!-- Magnifying glass -->
+  <circle cx="450" cy="100" r="30" fill="none" stroke="#C0C0C0" stroke-width="4"/>
+  <circle cx="450" cy="100" r="25" fill="#E6F3FF" opacity="0.5"/>
+  <rect x="470" y="120" width="6" height="40" fill="#8B4513"/>
+  
+  <!-- Enlarged view in magnifying glass -->
+  <circle cx="450" cy="100" r="8" fill="#FF6B6B"/>
+  <circle cx="450" cy="100" r="5" fill="#FF8E8E"/>
+  <text x="450" y="155" text-anchor="middle" font-family="Arial" font-size="10" fill="#000">zoom</text>
+  
+  <!-- Small measurements -->
+  <line x1="300" y1="350" x2="330" y2="350" stroke="#000000" stroke-width="1"/>
+  <line x1="300" y1="345" x2="300" y2="355" stroke="#000000" stroke-width="1"/>
+  <line x1="330" y1="345" x2="330" y2="355" stroke="#000000" stroke-width="1"/>
+  <text x="315" y="340" text-anchor="middle" font-family="Arial" font-size="8" fill="#000">3cm</text>
+  
+  <!-- Tiny seeds -->
+  <circle cx="200" cy="450" r="1" fill="#8B4513"/>
+  <circle cx="205" cy="452" r="1" fill="#A0522D"/>
+  <circle cx="195" cy="455" r="1" fill="#654321"/>
+  <circle cx="210" cy="448" r="1" fill="#8B4513"/>
+  <circle cx="190" cy="450" r="1" fill="#A0522D"/>
+  
+  <!-- Small vs large arrows -->
+  <polygon points="280,250 290,245 290,255" fill="#32CD32"/>
+  <line x1="240" y1="250" x2="280" y2="250" stroke="#32CD32" stroke-width="2"/>
+  <text x="260" y="240" text-anchor="middle" font-family="Arial" font-size="10" fill="#32CD32">shrink</text>
+  
+  <!-- Traditional small symbol -->
+  <circle cx="50" cy="50" r="20" fill="none" stroke="#8B0000" stroke-width="2"/>
+  <circle cx="50" cy="50" r="8" fill="#8B0000"/>
+  <text x="50" y="85" text-anchor="middle" font-family="Arial" font-size="8" fill="#8B0000">mini</text>
+</svg> 

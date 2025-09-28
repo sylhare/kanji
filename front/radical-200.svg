@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F0FFF0"/>
+  
+  <!-- Main hemp stalks -->
+  <rect x="200" y="100" width="8" height="350" fill="#228B22" rx="4"/>
+  <rect x="250" y="90" width="10" height="360" fill="#228B22" rx="5"/>
+  <rect x="300" y="105" width="8" height="345" fill="#228B22" rx="4"/>
+  
+  <!-- Secondary hemp stalks -->
+  <rect x="150" y="120" width="6" height="330" fill="#228B22" rx="3"/>
+  <rect x="350" y="110" width="6" height="340" fill="#228B22" rx="3"/>
+  <rect x="120" y="140" width="5" height="310" fill="#228B22" rx="2"/>
+  <rect x="380" y="130" width="5" height="320" fill="#228B22" rx="2"/>
+  <rect x="100" y="210" width="3" height="240" fill="#228B22" rx="1"/>
+  <rect x="400" y="200" width="3" height="250" fill="#228B22" rx="1"/>
+  
+  <!-- Hemp leaves (distinctive palmate shape) -->
+  <!-- Main plant leaves -->
+  <path d="M 204 200 L 190 180 L 195 160 L 204 165 L 213 160 L 218 180 Z" fill="#32CD32"/>
+  <path d="M 204 200 L 196 185 L 204 165 L 212 185 Z" fill="#32CD32"/>
+  <path d="M 204 200 L 188 190 L 204 170 L 220 190 Z" fill="#32CD32"/>
+  
+  <path d="M 254 180 L 240 160 L 245 140 L 254 145 L 263 140 L 268 160 Z" fill="#32CD32"/>
+  <path d="M 254 180 L 246 165 L 254 145 L 262 165 Z" fill="#32CD32"/>
+  <path d="M 254 180 L 238 170 L 254 150 L 270 170 Z" fill="#32CD32"/>
+  
+  <path d="M 304 220 L 290 200 L 295 180 L 304 185 L 313 180 L 318 200 Z" fill="#32CD32"/>
+  <path d="M 304 220 L 296 205 L 304 185 L 312 205 Z" fill="#32CD32"/>
+  <path d="M 304 220 L 288 210 L 304 190 L 320 210 Z" fill="#32CD32"/>
+  
+  <!-- Smaller plant leaves -->
+  <path d="M 154 240 L 145 225 L 150 210 L 154 215 L 158 210 L 163 225 Z" fill="#32CD32"/>
+  <path d="M 354 200 L 345 185 L 350 170 L 354 175 L 358 170 L 363 185 Z" fill="#32CD32"/>
+  
+  <!-- Hemp seeds -->
+  <circle cx="200" cy="150" r="2" fill="#8B4513"/>
+  <circle cx="210" cy="145" r="2" fill="#8B4513"/>
+  <circle cx="248" cy="130" r="2" fill="#8B4513"/>
+  <circle cx="258" cy="125" r="2" fill="#8B4513"/>
+  <circle cx="298" cy="160" r="2" fill="#8B4513"/>
+  <circle cx="308" cy="155" r="2" fill="#8B4513"/>
+  
+  <!-- Hemp fiber extraction -->
+  <path d="M 100 300 Q 120 295 140 300 Q 160 305 180 300" 
+        stroke="#F5DEB3" stroke-width="4" fill="none"/>
+  <path d="M 105 310 Q 125 305 145 310 Q 165 315 185 310" 
+        stroke="#F5DEB3" stroke-width="4" fill="none"/>
+  <path d="M 110 320 Q 130 315 150 320 Q 170 325 190 320" 
+        stroke="#F5DEB3" stroke-width="4" fill="none"/>
+  
+  <!-- Twisted rope made from hemp -->
+  <path d="M 350 350 Q 370 340 390 350 Q 410 360 430 350 Q 450 340 470 350" 
+        stroke="#D2691E" stroke-width="6" fill="none"/>
+  <path d="M 352 360 Q 372 350 392 360 Q 412 370 432 360 Q 452 350 472 360" 
+        stroke="#D2691E" stroke-width="6" fill="none"/>
+  <path d="M 354 370 Q 374 360 394 370 Q 414 380 434 370 Q 454 360 474 370" 
+        stroke="#D2691E" stroke-width="6" fill="none"/>
+  
+  <!-- Rope twist detail -->
+  <path d="M 355 355 Q 365 350 375 355" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 385 355 Q 395 350 405 355" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 415 355 Q 425 350 435 355" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <!-- Hemp processing tools -->
+  <rect x="60" y="280" width="40" height="6" fill="#8B4513" rx="3"/> <!-- Hackle -->
+  <rect x="65" y="270" width="30" height="4" fill="#C0C0C0"/> <!-- Metal teeth -->
+  <rect x="67" y="265" width="2" height="8" fill="#C0C0C0"/>
+  <rect x="72" y="265" width="2" height="8" fill="#C0C0C0"/>
+  <rect x="77" y="265" width="2" height="8" fill="#C0C0C0"/>
+  <rect x="82" y="265" width="2" height="8" fill="#C0C0C0"/>
+  <rect x="87" y="265" width="2" height="8" fill="#C0C0C0"/>
+  
+  <!-- Hemp bundles -->
+  <ellipse cx="80" cy="400" rx="20" ry="40" fill="#F5DEB3"/>
+  <path d="M 65 385 Q 80 380 95 385" stroke="#8B4513" stroke-width="3" fill="none"/>
+  
+  <ellipse cx="420" cy="420" rx="18" ry="35" fill="#F5DEB3"/>
+  <path d="M 407 407 Q 420 402 433 407" stroke="#8B4513" stroke-width="3" fill="none"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="470" width="500" height="30" fill="#8B4513"/>
+  <rect x="0" y="460" width="500" height="10" fill="#A0522D" opacity="0.7"/>
+  
+  <!-- Hemp fabric -->
+  <rect x="150" y="380" width="60" height="40" fill="#F5F5DC" stroke="#E0E0E0" stroke-width="2"/>
+  <!-- Weave pattern -->
+  <path d="M 155 385 L 205 385" stroke="#DDD" stroke-width="1" fill="none"/>
+  <path d="M 155 390 L 205 390" stroke="#DDD" stroke-width="1" fill="none"/>
+  <path d="M 155 395 L 205 395" stroke="#DDD" stroke-width="1" fill="none"/>
+  <path d="M 155 400 L 205 400" stroke="#DDD" stroke-width="1" fill="none"/>
+  <path d="M 155 405 L 205 405" stroke="#DDD" stroke-width="1" fill="none"/>
+  <path d="M 155 410 L 205 410" stroke="#DDD" stroke-width="1" fill="none"/>
+  <path d="M 155 415 L 205 415" stroke="#DDD" stroke-width="1" fill="none"/>
+  
+  <path d="M 160 380 L 160 420" stroke="#DDD" stroke-width="1" fill="none"/>
+  <path d="M 170 380 L 170 420" stroke="#DDD" stroke-width="1" fill="none"/>
+  <path d="M 180 380 L 180 420" stroke="#DDD" stroke-width="1" fill="none"/>
+  <path d="M 190 380 L 190 420" stroke="#DDD" stroke-width="1" fill="none"/>
+  <path d="M 200 380 L 200 420" stroke="#DDD" stroke-width="1" fill="none"/>
+  
+  <!-- Industrial uses indication -->
+  <circle cx="50" cy="200" r="15" fill="#8B4513"/> <!-- Oil -->
+  <circle cx="50" cy="195" r="10" fill="#DAA520"/>
+  
+  <rect x="450" y="200" width="30" height="20" fill="#FFFAF0"/> <!-- Paper -->
+  <rect x="445" y="195" width="30" height="20" fill="#F8F8FF"/>
+  <rect x="440" y="190" width="30" height="20" fill="#FFFFFF"/>
+</svg>

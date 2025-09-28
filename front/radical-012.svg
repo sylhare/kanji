@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#fff0f5"/>
+  
+  <!-- Center circle -->
+  <circle cx="250" cy="250" r="40" fill="#FFD700"/>
+  <circle cx="250" cy="250" r="30" fill="#FFA500"/>
+  
+  <!-- Eight petals arranged in octagon -->
+  <!-- Petal 1 - Top -->
+  <ellipse cx="250" cy="150" rx="25" ry="60" fill="#FF6B6B"/>
+  
+  <!-- Petal 2 - Top-right -->
+  <ellipse cx="320" cy="180" rx="25" ry="60" fill="#4ECDC4" transform="rotate(45 320 180)"/>
+  
+  <!-- Petal 3 - Right -->
+  <ellipse cx="350" cy="250" rx="25" ry="60" fill="#95E1D3" transform="rotate(90 350 250)"/>
+  
+  <!-- Petal 4 - Bottom-right -->
+  <ellipse cx="320" cy="320" rx="25" ry="60" fill="#F38BA8" transform="rotate(135 320 320)"/>
+  
+  <!-- Petal 5 - Bottom -->
+  <ellipse cx="250" cy="350" rx="25" ry="60" fill="#A8DADC"/>
+  
+  <!-- Petal 6 - Bottom-left -->
+  <ellipse cx="180" cy="320" rx="25" ry="60" fill="#457B9D" transform="rotate(-135 180 320)"/>
+  
+  <!-- Petal 7 - Left -->
+  <ellipse cx="150" cy="250" rx="25" ry="60" fill="#1D3557" transform="rotate(-90 150 250)"/>
+  
+  <!-- Petal 8 - Top-left -->
+  <ellipse cx="180" cy="180" rx="25" ry="60" fill="#F1FAEE" transform="rotate(-45 180 180)"/>
+  
+  <!-- Inner decorative elements -->
+  <circle cx="250" cy="250" r="20" fill="#FF6B35"/>
+  <circle cx="250" cy="250" r="10" fill="#FFE66D"/>
+  
+  <!-- Small dots to emphasize eight -->
+  <circle cx="250" cy="120" r="8" fill="#FF6B6B"/>
+  <circle cx="340" cy="160" r="8" fill="#4ECDC4"/>
+  <circle cx="380" cy="250" r="8" fill="#95E1D3"/>
+  <circle cx="340" cy="340" r="8" fill="#F38BA8"/>
+  <circle cx="250" cy="380" r="8" fill="#A8DADC"/>
+  <circle cx="160" cy="340" r="8" fill="#457B9D"/>
+  <circle cx="120" cy="250" r="8" fill="#1D3557"/>
+  <circle cx="160" cy="160" r="8" fill="#F1FAEE"/>
+  
+  <!-- Sparkle effects -->
+  <polygon points="100,100 105,110 115,110 107,117 110,127 100,122 90,127 93,117 85,110 95,110" fill="#FFD700"/>
+  <polygon points="400,400 405,410 415,410 407,417 410,427 400,422 390,427 393,417 385,410 395,410" fill="#FFD700"/>
+</svg> 

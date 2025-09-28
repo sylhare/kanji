@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#f5f5dc"/>
+  
+  <!-- Main human body silhouette -->
+  <circle cx="250" cy="80" r="35" fill="#FDBCB4"/>
+  <circle cx="250" cy="80" r="30" fill="#F5B2A8"/>
+  
+  <!-- Neck -->
+  <rect x="240" y="115" width="20" height="25" fill="#FDBCB4"/>
+  
+  <!-- Torso -->
+  <ellipse cx="250" cy="220" rx="60" ry="80" fill="#4169E1"/>
+  <ellipse cx="250" cy="220" rx="55" ry="75" fill="#6495ED"/>
+  
+  <!-- Arms -->
+  <ellipse cx="180" cy="180" rx="25" ry="70" fill="#FDBCB4"/>
+  <ellipse cx="320" cy="180" rx="25" ry="70" fill="#FDBCB4"/>
+  <ellipse cx="180" cy="175" rx="20" ry="65" fill="#F5B2A8"/>
+  <ellipse cx="320" cy="175" rx="20" ry="65" fill="#F5B2A8"/>
+  
+  <!-- Hands -->
+  <circle cx="180" cy="250" r="15" fill="#F5B2A8"/>
+  <circle cx="320" cy="250" r="15" fill="#F5B2A8"/>
+  
+  <!-- Legs -->
+  <ellipse cx="225" cy="350" rx="25" ry="80" fill="#FDBCB4"/>
+  <ellipse cx="275" cy="350" rx="25" ry="80" fill="#FDBCB4"/>
+  <ellipse cx="225" cy="345" rx="20" ry="75" fill="#F5B2A8"/>
+  <ellipse cx="275" cy="345" rx="20" ry="75" fill="#F5B2A8"/>
+  
+  <!-- Feet -->
+  <ellipse cx="225" cy="430" rx="20" ry="10" fill="#8B4513"/>
+  <ellipse cx="275" cy="430" rx="20" ry="10" fill="#8B4513"/>
+  
+  <!-- Body proportions guide -->
+  <!-- Head measurement -->
+  <line x1="190" y1="50" x2="310" y2="50" stroke="#FF0000" stroke-width="2"/>
+  <line x1="190" y1="45" x2="190" y2="55" stroke="#FF0000" stroke-width="2"/>
+  <line x1="310" y1="45" x2="310" y2="55" stroke="#FF0000" stroke-width="2"/>
+  <text x="250" y="40" text-anchor="middle" font-family="Arial" font-size="10" fill="#FF0000">1 Head</text>
+  
+  <!-- Total height measurement -->
+  <line x1="370" y1="45" x2="370" y2="440" stroke="#32CD32" stroke-width="2"/>
+  <text x="385" y="250" text-anchor="middle" font-family="Arial" font-size="10" fill="#32CD32" transform="rotate(-90 385 250)">8 Heads Tall</text>
+  
+  <!-- Anatomical skeleton overlay -->
+  <circle cx="100" cy="80" r="25" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="100" y1="105" x2="100" y2="140" stroke="#FFFFFF" stroke-width="3"/>
+  <ellipse cx="100" cy="160" rx="30" ry="20" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="100" y1="180" x2="100" y2="250" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="70" y1="130" x2="130" y2="130" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="85" y1="250" x2="85" y2="320" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="115" y1="250" x2="115" y2="320" stroke="#FFFFFF" stroke-width="3"/>
+  
+  <!-- Muscle definition -->
+  <ellipse cx="250" cy="160" rx="40" ry="15" fill="#DEB887" opacity="0.7"/>
+  <ellipse cx="230" cy="200" rx="15" ry="25" fill="#CD853F" opacity="0.7"/>
+  <ellipse cx="270" cy="200" rx="15" ry="25" fill="#CD853F" opacity="0.7"/>
+  <ellipse cx="250" cy="240" rx="35" ry="20" fill="#DEB887" opacity="0.7"/>
+  
+  <!-- Body systems representation -->
+  <!-- Circulatory system -->
+  <path d="M 450 100 Q 470 120 450 140 Q 430 160 450 180 Q 470 200 450 220" stroke="#FF0000" stroke-width="4" fill="none"/>
+  <circle cx="450" cy="100" r="8" fill="#FF4500"/>
+  <text x="450" y="250" text-anchor="middle" font-family="Arial" font-size="10" fill="#FF0000">Heart</text>
+  
+  <!-- Respiratory system -->
+  <ellipse cx="400" cy="160" rx="20" ry="30" fill="#87CEEB" opacity="0.7"/>
+  <ellipse cx="400" cy="160" rx="15" ry="25" fill="#B0E0E6" opacity="0.7"/>
+  <path d="M 400 140 Q 390 120 400 100" stroke="#87CEEB" stroke-width="3" fill="none"/>
+  <text x="400" y="210" text-anchor="middle" font-family="Arial" font-size="10" fill="#4169E1">Lungs</text>
+  
+  <!-- Nervous system -->
+  <circle cx="400" cy="80" r="8" fill="#FFD700"/>
+  <line x1="400" y1="88" x2="400" y2="300" stroke="#FFFF00" stroke-width="2"/>
+  <line x1="400" y1="150" x2="380" y2="170" stroke="#FFFF00" stroke-width="1"/>
+  <line x1="400" y1="150" x2="420" y2="170" stroke="#FFFF00" stroke-width="1"/>
+  <text x="400" y="320" text-anchor="middle" font-family="Arial" font-size="10" fill="#FFD700">Spine</text>
+  
+  <!-- Body poses -->
+  <!-- Sitting -->
+  <circle cx="80" cy="350" r="20" fill="#FDBCB4"/>
+  <ellipse cx="80" cy="385" rx="25" ry="30" fill="#32CD32"/>
+  <ellipse cx="60" cy="375" rx="12" ry="25" fill="#FDBCB4"/>
+  <ellipse cx="100" cy="375" rx="12" ry="25" fill="#FDBCB4"/>
+  <ellipse cx="65" cy="425" rx="15" ry="25" fill="#FDBCB4"/>
+  <ellipse cx="95" cy="425" rx="15" ry="25" fill="#FDBCB4"/>
+  
+  <!-- Lying down -->
+  <ellipse cx="50" cy="200" rx="15" ry="80" fill="#FDBCB4" transform="rotate(90 50 200)"/>
+  <circle cx="50" cy="160" r="12" fill="#F5B2A8"/>
+  <ellipse cx="50" cy="220" rx="12" ry="40" fill="#FF69B4" transform="rotate(90 50 220)"/>
+  
+  <!-- Exercise poses -->
+  <!-- Jumping -->
+  <circle cx="450" cy="350" r="15" fill="#FDBCB4"/>
+  <ellipse cx="450" cy="380" rx="20" ry="25" fill="#FF6347"/>
+  <ellipse cx="430" cy="370" rx="10" ry="20" fill="#FDBCB4" transform="rotate(-30 430 370)"/>
+  <ellipse cx="470" cy="370" rx="10" ry="20" fill="#FDBCB4" transform="rotate(30 470 370)"/>
+  <ellipse cx="440" cy="420" rx="10" ry="25" fill="#FDBCB4" transform="rotate(-20 440 420)"/>
+  <ellipse cx="460" cy="420" rx="10" ry="25" fill="#FDBCB4" transform="rotate(20 460 420)"/>
+  
+  <!-- Motion lines -->
+  <line x1="430" y1="350" x2="420" y2="340" stroke="#FFD700" stroke-width="2"/>
+  <line x1="470" y1="350" x2="480" y2="340" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Body measurements -->
+  <line x1="350" y1="140" x2="370" y2="140" stroke="#666" stroke-width="1"/>
+  <text x="375" y="145" font-family="Arial" font-size="8" fill="#666">Chest</text>
+  
+  <line x1="350" y1="220" x2="370" y2="220" stroke="#666" stroke-width="1"/>
+  <text x="375" y="225" font-family="Arial" font-size="8" fill="#666">Waist</text>
+  
+  <line x1="350" y1="280" x2="370" y2="280" stroke="#666" stroke-width="1"/>
+  <text x="375" y="285" font-family="Arial" font-size="8" fill="#666">Hips</text>
+  
+  <!-- Body temperature -->
+  <rect x="20" y="300" width="8" height="50" fill="#C0C0C0"/>
+  <circle cx="24" cy="355" r="8" fill="#FF6347"/>
+  <circle cx="24" cy="355" r="6" fill="#FF4500"/>
+  <rect x="22" y="310" width="4" height="35" fill="#FF6B35"/>
+  <text x="40" y="335" font-family="Arial" font-size="10" fill="#FF6347">98.6°F</text>
+  
+  <!-- Body silhouettes (diversity) -->
+  <ellipse cx="150" cy="450" rx="20" ry="40" fill="#8B4513" opacity="0.7"/>
+  <ellipse cx="200" cy="450" rx="25" ry="45" fill="#DEB887" opacity="0.7"/>
+  <ellipse cx="300" cy="450" rx="22" ry="42" fill="#F5DEB3" opacity="0.7"/>
+  <ellipse cx="350" cy="450" rx="18" ry="38" fill="#FDBCB4" opacity="0.7"/>
+  
+  <!-- Traditional body symbol -->
+  <circle cx="50" cy="50" r="25" fill="none" stroke="#8B0000" stroke-width="3"/>
+  <circle cx="50" cy="40" r="6" fill="#8B0000"/>
+  <ellipse cx="50" cy="55" rx="10" ry="15" fill="none" stroke="#8B0000" stroke-width="2"/>
+  <line x1="45" y1="50" x2="40" y2="65" stroke="#8B0000" stroke-width="2"/>
+  <line x1="55" y1="50" x2="60" y2="65" stroke="#8B0000" stroke-width="2"/>
+</svg> 

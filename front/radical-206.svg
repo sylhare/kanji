@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f3e5f5"/>
+  
+  <!-- Central sacrificial tripod -->
+  <g transform="translate(250,250)">
+    <!-- Tripod vessel/cauldron -->
+    <ellipse cx="0" cy="-20" rx="50" ry="30" fill="#8d6e63"/>
+    <ellipse cx="0" cy="-25" rx="45" ry="25" fill="#a1887f"/>
+    
+    <!-- Vessel rim -->
+    <ellipse cx="0" cy="-25" rx="50" ry="8" fill="#6d4c41"/>
+    <ellipse cx="0" cy="-27" rx="47" ry="6" fill="#8d6e63"/>
+    
+    <!-- Vessel interior -->
+    <ellipse cx="0" cy="-25" rx="40" ry="20" fill="#424242"/>
+    <ellipse cx="0" cy="-28" rx="35" ry="16" fill="#616161"/>
+    
+    <!-- Tripod legs -->
+    <g transform="translate(-35,5)">
+      <rect x="-3" y="0" width="6" height="60" fill="#757575"/>
+      <rect x="-2" y="2" width="4" height="56" fill="#9e9e9e"/>
+      <!-- Leg base -->
+      <ellipse cx="0" cy="60" rx="8" ry="5" fill="#616161"/>
+    </g>
+    
+    <g transform="translate(35,5)">
+      <rect x="-3" y="0" width="6" height="60" fill="#757575"/>
+      <rect x="-2" y="2" width="4" height="56" fill="#9e9e9e"/>
+      <!-- Leg base -->
+      <ellipse cx="0" cy="60" rx="8" ry="5" fill="#616161"/>
+    </g>
+    
+    <g transform="translate(0,5)">
+      <rect x="-3" y="0" width="6" height="60" fill="#757575"/>
+      <rect x="-2" y="2" width="4" height="56" fill="#9e9e9e"/>
+      <!-- Leg base -->
+      <ellipse cx="0" cy="60" rx="8" ry="5" fill="#616161"/>
+    </g>
+    
+    <!-- Decorative handles -->
+    <g transform="translate(-50,-20)">
+      <ellipse cx="0" cy="0" rx="8" ry="15" fill="none" stroke="#6d4c41" stroke-width="4"/>
+      <ellipse cx="0" cy="0" rx="6" ry="12" fill="none" stroke="#8d6e63" stroke-width="2"/>
+    </g>
+    
+    <g transform="translate(50,-20)">
+      <ellipse cx="0" cy="0" rx="8" ry="15" fill="none" stroke="#6d4c41" stroke-width="4"/>
+      <ellipse cx="0" cy="0" rx="6" ry="12" fill="none" stroke="#8d6e63" stroke-width="2"/>
+    </g>
+    
+    <!-- Sacred fire beneath -->
+    <g transform="translate(0,40)">
+      <!-- Fire flames -->
+      <ellipse cx="0" cy="0" rx="30" ry="20" fill="#ff5722" opacity="0.8"/>
+      <ellipse cx="0" cy="0" rx="20" ry="15" fill="#ff8f00" opacity="0.9"/>
+      <ellipse cx="0" cy="0" rx="12" ry="10" fill="#ffeb3b"/>
+      
+      <!-- Individual flames -->
+      <ellipse cx="-15" cy="-12" rx="5" ry="15" fill="#ff5722" opacity="0.7"/>
+      <ellipse cx="18" cy="-15" rx="6" ry="18" fill="#ff8f00" opacity="0.8"/>
+      <ellipse cx="-5" cy="-18" rx="4" ry="12" fill="#ffeb3b"/>
+      <ellipse cx="8" cy="-20" rx="3" ry="10" fill="#fff176"/>
+    </g>
+    
+    <!-- Smoke rising -->
+    <g opacity="0.6">
+      <path d="M -20,-40 Q -25,-55 -20,-70 Q -15,-65 -20,-40" stroke="#9e9e9e" stroke-width="3" fill="none"/>
+      <path d="M 0,-40 Q 5,-55 0,-70 Q -5,-65 0,-40" stroke="#9e9e9e" stroke-width="3" fill="none"/>
+      <path d="M 15,-40 Q 20,-55 15,-70 Q 10,-65 15,-40" stroke="#9e9e9e" stroke-width="3" fill="none"/>
+    </g>
+    
+    <!-- Sacrificial offerings inside -->
+    <g transform="translate(0,-25)">
+      <!-- Fruit offerings -->
+      <circle cx="-15" cy="-5" r="4" fill="#ff8f00"/>
+      <circle cx="10" cy="-3" r="4" fill="#f44336"/>
+      <circle cx="-5" cy="-8" r="3" fill="#ffeb3b"/>
+      <circle cx="18" cy="-6" r="3" fill="#4caf50"/>
+      
+      <!-- Grain offerings -->
+      <ellipse cx="-25" cy="-2" rx="5" ry="3" fill="#ffcc02"/>
+      <ellipse cx="25" cy="-4" rx="5" ry="3" fill="#ffc107"/>
+      
+      <!-- Wine/liquid -->
+      <ellipse cx="0" cy="0" rx="30" ry="8" fill="#7b1fa2" opacity="0.7"/>
+      <ellipse cx="0" cy="-2" rx="25" ry="6" fill="#9c27b0" opacity="0.8"/>
+    </g>
+  </g>
+  
+  <!-- Ceremonial participants -->
+  <g transform="translate(120,350)">
+    <!-- High priest -->
+    <circle cx="0" cy="-25" r="12" fill="#ffdbcb"/>
+    <rect x="-10" y="-13" width="20" height="30" fill="#4a148c"/>
+    <rect x="-8" y="17" width="16" height="25" fill="#6a1b9a"/>
+    
+    <!-- Ceremonial headdress -->
+    <rect x="-12" y="-32" width="24" height="10" fill="#ffeb3b"/>
+    <rect x="-10" y="-30" width="20" height="6" fill="#ffc107"/>
+    
+    <!-- Sacred items -->
+    <g transform="translate(-15,-5)">
+      <rect x="0" y="0" width="3" height="15" fill="#8d6e63"/>
+      <circle cx="1.5" cy="-2" r="3" fill="#ffeb3b"/>
+    </g>
+    
+    <!-- Assistant priest -->
+    <g transform="translate(30,10)">
+      <circle cx="0" cy="-20" r="8" fill="#ffdbcb"/>
+      <rect x="-6" y="-12" width="12" height="20" fill="#1976d2"/>
+      <rect x="-5" y="8" width="10" height="15" fill="#0d47a1"/>
+      
+      <!-- Carrying offerings -->
+      <g transform="translate(0,-15)">
+        <ellipse cx="0" cy="0" rx="6" ry="4" fill="#616161"/>
+        <circle cx="-3" cy="-2" r="2" fill="#ff8f00"/>
+        <circle cx="3" cy="-2" r="2" fill="#f44336"/>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Additional tripods of different sizes -->
+  <g transform="translate(100,150)">
+    <!-- Smaller incense tripod -->
+    <ellipse cx="0" cy="-10" rx="20" ry="15" fill="#8d6e63"/>
+    <ellipse cx="0" cy="-12" rx="18" ry="12" fill="#a1887f"/>
+    
+    <!-- Small tripod legs -->
+    <rect x="-15" y="-2" width="2" height="25" fill="#757575"/>
+    <rect x="13" y="-2" width="2" height="25" fill="#757575"/>
+    <rect x="-1" y="-2" width="2" height="25" fill="#757575"/>
+    
+    <!-- Incense burning -->
+    <g opacity="0.6">
+      <path d="M -5,-15 Q -7,-25 -5,-35 Q -3,-30 -5,-15" stroke="#9e9e9e" stroke-width="1" fill="none"/>
+      <path d="M 0,-15 Q 2,-25 0,-35 Q -2,-30 0,-15" stroke="#9e9e9e" stroke-width="1" fill="none"/>
+      <path d="M 5,-15 Q 7,-25 5,-35 Q 3,-30 5,-15" stroke="#9e9e9e" stroke-width="1" fill="none"/>
+    </g>
+  </g>
+  
+  <g transform="translate(400,200)">
+    <!-- Large ceremonial cauldron -->
+    <ellipse cx="0" cy="-15" rx="35" ry="25" fill="#6d4c41"/>
+    <ellipse cx="0" cy="-18" rx="32" ry="20" fill="#8d6e63"/>
+    
+    <!-- Large tripod legs -->
+    <rect x="-25" y="5" width="4" height="40" fill="#757575"/>
+    <rect x="21" y="5" width="4" height="40" fill="#757575"/>
+    <rect x="-2" y="5" width="4" height="40" fill="#757575"/>
+    
+    <!-- Decorative patterns -->
+    <g stroke="#ffeb3b" stroke-width="2" fill="none">
+      <circle cx="0" cy="-15" r="20"/>
+      <circle cx="0" cy="-15" r="15"/>
+      <circle cx="0" cy="-15" r="10"/>
+    </g>
+    
+    <!-- Handles -->
+    <ellipse cx="-35" cy="-15" rx="5" ry="10" fill="none" stroke="#6d4c41" stroke-width="3"/>
+    <ellipse cx="35" cy="-15" rx="5" ry="10" fill="none" stroke="#6d4c41" stroke-width="3"/>
+  </g>
+  
+  <!-- Ancient ritual scene -->
+  <g transform="translate(50,400)">
+    <!-- Ancient altar platform -->
+    <rect x="0" y="20" width="80" height="15" fill="#90a4ae"/>
+    <rect x="5" y="23" width="70" height="9" fill="#b0bec5"/>
+    
+    <!-- Steps -->
+    <rect x="10" y="35" width="60" height="8" fill="#90a4ae"/>
+    <rect x="20" y="43" width="40" height="8" fill="#90a4ae"/>
+    
+    <!-- Multiple tripods on altar -->
+    <g transform="translate(20,15)">
+      <ellipse cx="0" cy="-5" rx="8" ry="6" fill="#8d6e63"/>
+      <rect x="-6" y="0" width="1" height="8" fill="#757575"/>
+      <rect x="5" y="0" width="1" height="8" fill="#757575"/>
+      <rect x="-0.5" y="0" width="1" height="8" fill="#757575"/>
+    </g>
+    
+    <g transform="translate(40,15)">
+      <ellipse cx="0" cy="-5" rx="8" ry="6" fill="#8d6e63"/>
+      <rect x="-6" y="0" width="1" height="8" fill="#757575"/>
+      <rect x="5" y="0" width="1" height="8" fill="#757575"/>
+      <rect x="-0.5" y="0" width="1" height="8" fill="#757575"/>
+    </g>
+    
+    <g transform="translate(60,15)">
+      <ellipse cx="0" cy="-5" rx="8" ry="6" fill="#8d6e63"/>
+      <rect x="-6" y="0" width="1" height="8" fill="#757575"/>
+      <rect x="5" y="0" width="1" height="8" fill="#757575"/>
+      <rect x="-0.5" y="0" width="1" height="8" fill="#757575"/>
+    </g>
+  </g>
+  
+  <!-- Forge/workshop scene -->
+  <g transform="translate(350,400)">
+    <!-- Forge -->
+    <rect x="0" y="20" width="40" height="20" fill="#424242"/>
+    <rect x="3" y="23" width="34" height="14" fill="#616161"/>
+    
+    <!-- Tripod being forged -->
+    <g transform="translate(20,15)">
+      <ellipse cx="0" cy="0" rx="8" ry="6" fill="#ff5722"/>
+      <ellipse cx="0" cy="0" rx="6" ry="4" fill="#ff8f00"/>
+      
+      <!-- Glowing effect -->
+      <circle cx="0" cy="0" r="12" fill="#ffeb3b" opacity="0.3"/>
+    </g>
+    
+    <!-- Hammer -->
+    <g transform="translate(35,5)">
+      <rect x="0" y="0" width="2" height="15" fill="#8d6e63"/>
+      <rect x="-3" y="-2" width="8" height="4" fill="#757575"/>
+    </g>
+    
+    <!-- Bellows -->
+    <g transform="translate(50,30)">
+      <ellipse cx="0" cy="0" rx="12" ry="8" fill="#8d6e63"/>
+      <ellipse cx="0" cy="0" rx="10" ry="6" fill="#a1887f"/>
+      <rect x="-15" y="-2" width="8" height="4" fill="#6d4c41"/>
+    </g>
+    
+    <!-- Sparks -->
+    <g opacity="0.8">
+      <circle cx="25" cy="10" r="1" fill="#ffeb3b"/>
+      <circle cx="30" cy="8" r="0.8" fill="#ffc107"/>
+      <circle cx="18" cy="12" r="1.2" fill="#ff8f00"/>
+    </g>
+  </g>
+  
+  <!-- Oracle divination with tripod -->
+  <g transform="translate(380,80)">
+    <!-- Oracle figure -->
+    <circle cx="0" cy="-15" r="8" fill="#ffdbcb"/>
+    <rect x="-6" y="-7" width="12" height="18" fill="#7b1fa2"/>
+    <rect x="-5" y="11" width="10" height="15" fill="#4a148c"/>
+    
+    <!-- Mystical aura -->
+    <circle cx="0" cy="-5" r="20" fill="#e1bee7" opacity="0.3"/>
+    
+    <!-- Divination tripod -->
+    <g transform="translate(0,20)">
+      <ellipse cx="0" cy="-5" rx="10" ry="8" fill="#8d6e63"/>
+      <ellipse cx="0" cy="-7" rx="8" ry="6" fill="#a1887f"/>
+      
+      <!-- Tripod legs -->
+      <rect x="-8" y="0" width="1" height="12" fill="#757575"/>
+      <rect x="7" y="0" width="1" height="12" fill="#757575"/>
+      <rect x="-0.5" y="0" width="1" height="12" fill="#757575"/>
+      
+      <!-- Mystical vapor -->
+      <g opacity="0.6">
+        <path d="M -3,-10 Q -5,-18 -3,-25 Q -1,-20 -3,-10" stroke="#e1bee7" stroke-width="2" fill="none"/>
+        <path d="M 3,-10 Q 5,-18 3,-25 Q 1,-20 3,-10" stroke="#e1bee7" stroke-width="2" fill="none"/>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Tripod evolution display -->
+  <g transform="translate(50,50)">
+    <!-- Ancient style -->
+    <g transform="translate(0,0)">
+      <ellipse cx="0" cy="0" rx="12" ry="8" fill="#6d4c41"/>
+      <rect x="-8" y="5" width="2" height="15" fill="#424242"/>
+      <rect x="6" y="5" width="2" height="15" fill="#424242"/>
+      <rect x="-1" y="5" width="2" height="15" fill="#424242"/>
+      <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="8" fill="#333">古代</text>
+    </g>
+    
+    <!-- Classical style -->
+    <g transform="translate(60,0)">
+      <ellipse cx="0" cy="0" rx="15" ry="10" fill="#8d6e63"/>
+      <rect x="-10" y="6" width="2" height="18" fill="#757575"/>
+      <rect x="8" y="6" width="2" height="18" fill="#757575"/>
+      <rect x="-1" y="6" width="2" height="18" fill="#757575"/>
+      <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="8" fill="#333">古典</text>
+    </g>
+    
+    <!-- Modern ceremonial -->
+    <g transform="translate(120,0)">
+      <ellipse cx="0" cy="0" rx="18" ry="12" fill="#a1887f"/>
+      <rect x="-12" y="7" width="3" height="20" fill="#9e9e9e"/>
+      <rect x="9" y="7" width="3" height="20" fill="#9e9e9e"/>
+      <rect x="-1.5" y="7" width="3" height="20" fill="#9e9e9e"/>
+      <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="8" fill="#333">現代</text>
+    </g>
+  </g>
+  
+  <!-- Sacred geometry around tripods -->
+  <g transform="translate(200,350)" opacity="0.4">
+    <!-- Triangle representing tripod stability -->
+    <polygon points="0,-20 -17,15 17,15" fill="none" stroke="#9c27b0" stroke-width="2"/>
+    <polygon points="0,-15 -13,10 13,10" fill="none" stroke="#ba68c8" stroke-width="1"/>
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#e1bee7" stroke-width="1"/>
+  </g>
+  
+  <!-- Fire preparation area -->
+  <g transform="translate(150,450)">
+    <!-- Firewood -->
+    <rect x="0" y="0" width="25" height="4" fill="#8d6e63" transform="rotate(10)"/>
+    <rect x="5" y="5" width="20" height="4" fill="#6d4c41" transform="rotate(-15)"/>
+    <rect x="8" y="-3" width="22" height="4" fill="#a1887f" transform="rotate(5)"/>
+    
+    <!-- Kindling -->
+    <rect x="15" y="2" width="8" height="2" fill="#d7ccc8"/>
+    <rect x="12" y="4" width="10" height="2" fill="#efebe9"/>
+    
+    <!-- Fire starter tools -->
+    <rect x="30" y="0" width="1" height="15" fill="#424242"/>
+    <rect x="35" y="2" width="8" height="2" fill="#616161"/>
+  </g>
+</svg> 

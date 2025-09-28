@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#f0f8ff"/>
+  
+  <!-- Central dot -->
+  <circle cx="250" cy="250" r="60" fill="#FF6B35"/>
+  <circle cx="250" cy="250" r="50" fill="#FF8C00"/>
+  <circle cx="250" cy="250" r="40" fill="#FFD700"/>
+  <circle cx="250" cy="250" r="30" fill="#FFFF99"/>
+  
+  <!-- Inner shine -->
+  <circle cx="235" cy="235" r="15" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Radiating energy rings -->
+  <circle cx="250" cy="250" r="100" fill="none" stroke="#FFD700" stroke-width="3" opacity="0.6"/>
+  <circle cx="250" cy="250" r="130" fill="none" stroke="#FFA500" stroke-width="2" opacity="0.4"/>
+  <circle cx="250" cy="250" r="160" fill="none" stroke="#FF8C00" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Floating smaller dots around -->
+  <circle cx="150" cy="150" r="12" fill="#4ECDC4"/>
+  <circle cx="350" cy="150" r="12" fill="#95E1D3"/>
+  <circle cx="150" cy="350" r="12" fill="#F38BA8"/>
+  <circle cx="350" cy="350" r="12" fill="#A8DADC"/>
+  
+  <circle cx="100" cy="250" r="8" fill="#457B9D"/>
+  <circle cx="400" cy="250" r="8" fill="#1D3557"/>
+  <circle cx="250" cy="100" r="8" fill="#F1FAEE"/>
+  <circle cx="250" cy="400" r="8" fill="#E63946"/>
+  
+  <!-- Sparkle effects -->
+  <polygon points="200,200 205,210 215,210 207,217 210,227 200,222 190,227 193,217 185,210 195,210" fill="#FFFF00"/>
+  <polygon points="300,200 305,210 315,210 307,217 310,227 300,222 290,227 293,217 285,210 295,210" fill="#FFFF00"/>
+  <polygon points="200,300 205,310 215,310 207,317 210,327 200,322 190,327 193,317 185,310 195,310" fill="#FFD700"/>
+  <polygon points="300,300 305,310 315,310 307,317 310,327 300,322 290,327 293,317 285,310 295,310" fill="#FFD700"/>
+  
+  <!-- Geometric patterns around the dot -->
+  <polygon points="120,120 130,110 140,120 130,130" fill="#FF6B35" opacity="0.7"/>
+  <polygon points="380,120 370,110 360,120 370,130" fill="#4ECDC4" opacity="0.7"/>
+  <polygon points="120,380 130,370 140,380 130,390" fill="#F38BA8" opacity="0.7"/>
+  <polygon points="380,380 370,370 360,380 370,390" fill="#95E1D3" opacity="0.7"/>
+  
+  <!-- Sacred geometry - emphasis on the point -->
+  <polygon points="250,80 260,100 280,100 266,112 271,132 250,122 229,132 234,112 220,100 240,100" fill="#FFD700" opacity="0.8"/>
+  <polygon points="250,420 260,400 280,400 266,388 271,368 250,378 229,368 234,388 220,400 240,400" fill="#FFD700" opacity="0.8"/>
+  
+  <!-- Center focus lines -->
+  <line x1="50" y1="250" x2="180" y2="250" stroke="#FF6B35" stroke-width="2" opacity="0.5"/>
+  <line x1="320" y1="250" x2="450" y2="250" stroke="#FF6B35" stroke-width="2" opacity="0.5"/>
+  <line x1="250" y1="50" x2="250" y2="180" stroke="#FF6B35" stroke-width="2" opacity="0.5"/>
+  <line x1="250" y1="320" x2="250" y2="450" stroke="#FF6B35" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Particle effects -->
+  <circle cx="180" cy="200" r="3" fill="#FFFF99"/>
+  <circle cx="320" cy="200" r="3" fill="#FFFF99"/>
+  <circle cx="180" cy="300" r="3" fill="#FFFF99"/>
+  <circle cx="320" cy="300" r="3" fill="#FFFF99"/>
+  
+  <circle cx="200" cy="180" r="2" fill="#FFA500"/>
+  <circle cx="300" cy="180" r="2" fill="#FFA500"/>
+  <circle cx="200" cy="320" r="2" fill="#FFA500"/>
+  <circle cx="300" cy="320" r="2" fill="#FFA500"/>
+</svg> 
