@@ -1,6 +1,8 @@
 ---
 layout: page
-title: About
+title: "About Kanji Radicals"
+description: "Learn about Japanese radicals (bushu), the building blocks of kanji characters. Discover the history and usage of the 214 Kangxi radicals in Japanese writing."
+image: /assets/img/meta.png
 permalink: /about/
 ---
 
