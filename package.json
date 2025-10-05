@@ -39,17 +39,17 @@
   "homepage": "https://github.com/sylhare/kanji#readme",
   "devDependencies": {
     "@testing-library/jest-dom": "^6.0.0",
-    "@vitest/coverage-v8": "^1.0.0",
-    "@vitest/ui": "^1.0.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "@vitest/ui": "^3.2.4",
     "chai-colors": "^1.0.1",
     "cypress": "^14.5.4",
-    "esbuild": "^0.19.0",
+    "esbuild": "^0.25.9",
     "glob": "^10.0.0",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
     "gulp-uglify-es": "^2.0.0",
     "jsdom": "^23.0.0",
-    "vitest": "^1.0.0"
+    "vitest": "^3.2.4"
   }
 } 
