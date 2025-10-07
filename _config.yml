@@ -4,6 +4,17 @@ url: "https://sylhare.github.io/"
 
 title: Kanji radicals
 description: Japanese radicals presented as learning cards.
+author: Sylhare
+lang: en
+
+# SEO and Social Media
+social:
+  name: Sylhare
+  links:
+    - https://github.com/sylhare/kanji
+
+# Default Open Graph image
+og_image: /assets/img/meta.png
 
 google_analytics: "G-YPX3TXS4S4"
 
