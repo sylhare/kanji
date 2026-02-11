@@ -14,7 +14,7 @@ transformers==4.55.2
 accelerate==1.10.0
 
 # Image processing
-Pillow==10.3.0
+Pillow==12.1.1
 
 # Configuration and utilities  
 PyYAML==6.0.1
