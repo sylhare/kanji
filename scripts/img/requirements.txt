@@ -3,7 +3,7 @@
 
 # Core ML/AI libraries for image generation
 torch==2.8.0
-diffusers==0.35.0
+diffusers==0.38.0
 numpy==1.26.4
 
 # Required by diffusers for model loading
