@@ -2,7 +2,7 @@
 # Install with: pip install -r requirements.txt
 
 # Core ML/AI libraries for image generation
-torch==2.8.0
+torch==2.12.0
 diffusers==0.38.0
 numpy==1.26.4
 
