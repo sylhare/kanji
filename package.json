@@ -42,7 +42,7 @@
     "@vitest/coverage-v8": "^4.1.8",
     "@vitest/ui": "^4.1.8",
     "chai-colors": "^1.0.1",
-    "cypress": "^14.5.4",
+    "cypress": "^15.18.0",
     "esbuild": "^0.28.1",
     "glob": "^10.5.0",
     "gulp": "^5.0.1",
