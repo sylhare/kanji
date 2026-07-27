@@ -1,0 +1,37 @@
+[project]
+name = "kanji-img-scripts"
+version = "1.0.0"
+description = "Scripts for generating and processing the kanji radical images (AI generation, SVG, resizing, PNG optimization)."
+readme = "README.md"
+requires-python = ">=3.10"
+
+# Core ML/AI + image processing stack used by the generation scripts.
+dependencies = [
+    "torch>=2.8",
+    "diffusers>=0.38",
+    "numpy>=2.0",
+    # Required by diffusers for model loading.
+    "safetensors>=0.6",
+    # AI model support (FLUX and some Stable Diffusion models).
+    "transformers>=4.55",
+    "accelerate>=1.10",
+    # Image processing.
+    "pillow>=12",
+    # Configuration and utilities.
+    "pyyaml>=6",
+    "psutil>=7",
+]
+
+[dependency-groups]
+# Standalone Wikimedia scraper: assets/img/gif/get_wiki_images.py
+wiki = [
+    "requests>=2.32",
+]
+
+[tool.uv]
+# Keep resolution scoped to the platforms these scripts actually run on so the
+# universal lock doesn't try to reconcile CUDA/ROCm torch wheel variants.
+environments = [
+    "sys_platform == 'darwin'",
+    "sys_platform == 'linux'",
+]
