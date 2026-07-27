@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby: [ '3.3' ]
+        ruby: [ '3.4' ]
 
     steps:
       - uses: actions/checkout@v4
@@ -16,14 +16,7 @@ jobs:
         with:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
-      - name: Install
-        run: bundle install
       - name: Build jekyll site
-        run: bundle exec jekyll build
-      - name: Build the site in the container
-        run: |
-          docker run \
-          -v ${{ github.workspace }}:/srv/jekyll \
-          -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jekyll/builder:latest \
-          /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        run: bundle exec jekyll build --future
+        env:
+          JEKYLL_ENV: production
