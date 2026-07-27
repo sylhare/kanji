@@ -4,9 +4,9 @@
   "type": "commonjs",
   "main": "server.js",
   "dependencies": {
-    "express": "^5.2.0",
-    "cors": "^2.8.5",
-    "fs-extra": "^11.3.1",
-    "js-yaml": "^4.2.0"
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "fs-extra": "^11.4.0",
+    "js-yaml": "^5.2.2"
   }
 }
