@@ -4,10 +4,16 @@ This directory contains scripts for generating and processing images used in the
 
 ## 📋 Requirements
 
-Install the required dependencies:
+Dependencies are managed with [uv](https://docs.astral.sh/uv/). Install them with:
 ```bash
-pip install -r requirements.txt
+uv sync
 ```
+
+Run any script through the project environment with `uv run`, e.g.:
+```bash
+uv run python generate_radical_images.py --test
+```
+(The plain `python script.py` commands below assume an activated `uv` venv.)
 
 ## 🤖 AI Image Generation
 

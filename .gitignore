@@ -20,3 +20,6 @@ _data/multi_style_results/*
 _data/assets/*
 _data/guide/*
 resized_images
+
+# Python (uv)
+.venv/
