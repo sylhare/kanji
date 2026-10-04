@@ -50,6 +50,6 @@
     "gulp-imagemin": "^9.2.0",
     "gulp-uglify-es": "^3.0.0",
     "jsdom": "^30.0.0",
-    "vitest": "^4.1.10"
+    "vitest": "^4.1.11"
   }
 }
